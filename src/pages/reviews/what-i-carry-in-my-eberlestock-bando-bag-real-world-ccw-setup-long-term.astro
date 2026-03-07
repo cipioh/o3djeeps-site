@@ -1,0 +1,50 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "What I Carry in My Eberlestock Bando Bag | Real-World CCW Setup & Long-Term Review";
+export const description = "A comprehensive review of the Eberlestock Bando Bag, ideal for everyday carry with a focus on practicality and accessibility.";
+const youtubeId = "YnJyoVHK6bM";
+const discountCode = null;
+export const date = "2026-01-30";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Eberlestock"
+  },
+  {
+    "label": "Product",
+    "value": "Bando Bag"
+  },
+  {
+    "label": "Category",
+    "value": "Sling Bag"
+  },
+  {
+    "label": "Use Case",
+    "value": "Everyday Carry (EDC)"
+  }
+];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="#"
+  buyText="View Product →"
+  discountCode={discountCode}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Eberlestock Bando Bag is a practical and versatile sling bag, perfect for carrying handguns and everyday essentials with ease.</p><h2>What Makes This Review Different</h2><p>This review focuses on real-world usage and personal insights after a year of carrying the Bando Bag, providing an honest look at its functionality.</p><h2>Design and Layout</h2><p>The Bando Bag comes in a cobalt blue color, designed to be low-profile for urban environments. It has a compact layout that opens easily, allowing quick access to contents, including a firearm.</p><h2>Real-World Testing</h2><p>After carrying the Bando Bag for over a year, the reviewer highlights its usefulness for EDC by carrying essentials such as a Sig P365 XM Macro, flashlight, wallet, and earbuds, with emphasis on accessibility.</p><h2>Who This Product May Be For</h2><ul><li>Those looking for a discreet and accessible means to carry a firearm and personal items.</li></ul><h2>Key Takeaways</h2><ul><li>The Bando Bag is effective for compact firearm carry, especially for subcompact and compact pistols.</li><li>It is designed for comfort, allowing various carrying positions including crossbody.</li><li>The bag's lightweight and low-profile design makes it suitable for casual outings or errands.</li></ul>
+
+</article>
+
+</SiteLayout>
