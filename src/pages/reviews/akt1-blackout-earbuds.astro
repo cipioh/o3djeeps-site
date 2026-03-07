@@ -1,0 +1,189 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+
+
+export const description =
+  "Hands-on review of the AKT1 Blackout earbuds, including the fit technique that helps lock them in place and real-world Bluetooth shot timer testing.";
+export const title = "AKT1 Blackout Earbuds Review";
+export const date = "2026-02-25";
+const youtubeId = "bW71cVXrs_s";
+
+const discountCode = null;
+
+const specs = [
+  { label: "Brand", value: "AKT1" },
+  { label: "Product", value: "Blackout Earbuds" },
+  { label: "Category", value: "Electronic hearing protection / Bluetooth earbuds" },
+  { label: "Noise Reduction", value: "NRR 25 dB" },
+  { label: "Hearing Enhancement", value: "6x hearing enhancement" },
+  { label: "Battery Life", value: "10 hours" },
+  { label: "Case Charging", value: "Up to 30 additional hours" },
+  { label: "Water Resistance", value: "IP65" },
+  { label: "Use Case", value: "Range use, hearing protection, and Bluetooth audio" }
+];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://akt1sport.com/products/blackout-tws-earbuds-with-bluetooth-and-enhanced-noise-cancellation"
+  buyText="View the AKT1 Blackout Earbuds →"
+  discountCode={discountCode}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2>
+
+<p>
+The AKT1 Blackout earbuds combine electronic hearing protection,
+Bluetooth audio capability, and a compact in-ear design that works well
+for range use. The biggest takeaway from this review is that the
+fit matters a lot: once inserted properly, they feel much more secure
+and effective than a casual first try might suggest.
+</p>
+
+<p>
+They also work well for general range communication and situational
+awareness, but Bluetooth latency creates limitations when trying to use
+them as part of a precision shot timer setup.
+</p>
+
+<h2>What Makes This Review Different</h2>
+
+<p>
+This review focuses on two practical issues that matter in real use:
+getting the earbuds inserted correctly and testing how they behave when
+paired with a Bluetooth-enabled shot timer.
+</p>
+
+<p>
+The fit tip is especially important because it changes how secure the
+earbuds feel and how well they perform. The Bluetooth timer test is also
+useful because it highlights a real limitation that is easy to overlook.
+</p>
+
+<h2>Why These Were Chosen</h2>
+
+<p>
+The Blackout earbuds were selected as part of a move away from older
+wired range audio setups and bulkier over-ear hearing protection.
+</p>
+
+<p>
+They stood out because of their 25 dB noise reduction, hearing
+enhancement, compact size, and the ability to wear them on their own
+or under over-ear protection if desired.
+</p>
+
+<h2>Fit and Insertion Technique</h2>
+
+<p>
+The fit is one of the most important parts of the Blackout experience.
+Simply pushing the earbuds into the ear is not enough to get the best
+result.
+</p>
+
+<p>
+The insertion method demonstrated in the video is to begin with the left
+or right indicator facing upright, insert the earbud into the ear, and
+then rotate it backward into place.
+</p>
+
+<p>
+That rotation helps the earbud lock in more securely and made a
+noticeable difference in comfort, stability, and overall performance
+during use.
+</p>
+
+<h2>Noise Reduction and Hearing Enhancement</h2>
+
+<p>
+The Blackout earbuds reduce loud impulse noise while amplifying
+lower-level sounds. This allows gunfire to be reduced while still
+hearing conversations and range commands.
+</p>
+
+<p>
+The hearing enhancement feature is useful for range communication
+without constantly removing hearing protection.
+</p>
+
+<h2>Bluetooth and Shot Timer Testing</h2>
+
+<p>
+Testing included pairing the earbuds with a Bluetooth shot timer
+workflow through a smartphone.
+</p>
+
+<p>
+This introduced too much Bluetooth latency for precision timing
+drills. The signal delay meant the beep reached the ears after the
+timer had already started counting.
+</p>
+
+<p>
+It can still work as a simple start signal, but for drills requiring
+precise timing the Bluetooth delay becomes a limitation.
+</p>
+
+<h2>Comfort and Real-World Use</h2>
+
+<p>
+Once fitted correctly the earbuds were comfortable enough to wear for
+extended range sessions and were easy to forget about during use.
+</p>
+
+<p>
+The compact charging case also makes them easy to carry and the
+included foam tips allow fit adjustment.
+</p>
+
+<h2>Who These Earbuds May Be For</h2>
+
+<ul>
+<li>People wanting compact electronic hearing protection</li>
+<li>Those who prefer in-ear protection to over-ear muffs</li>
+<li>Shooters who want Bluetooth audio capability</li>
+<li>Users who value situational awareness at the range</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+
+<ul>
+<li>Proper insertion technique greatly improves fit</li>
+<li>Secure once rotated into place</li>
+<li>Compact and comfortable design</li>
+<li>Good range communication capability</li>
+<li>Bluetooth delay limits precise shot timer use</li>
+</ul>
+
+<h2>Where to Buy</h2>
+
+<p>
+If you're interested in the AKT1 Blackout Earbuds, you can check current
+availability here.
+</p>
+
+<PromoBox
+  text="Check current availability for the AKT1 Blackout Earbuds"
+  href="https://akt1sport.com/products/blackout-tws-earbuds-with-bluetooth-and-enhanced-noise-cancellation"
+  linkText="View the AKT1 Blackout Earbuds →"
+/>
+
+<p class="meta-note">
+Opinions are my own. Affiliate links may earn a commission at no
+additional cost to you.
+</p>
+
+</article>
+
+</SiteLayout>

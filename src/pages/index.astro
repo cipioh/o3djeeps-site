@@ -1,11 +1,70 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import SiteLayout from "../layouts/SiteLayout.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const title = "blasterKRAFT";
+const description =
+  "Real-world gun gear and gadget reviews from the blasterKRAFT YouTube channel.";
+
+const reviewModules = import.meta.glob("./reviews/*.astro", { eager: true });
+
+const descriptionsBySlug = {
+  "945-industries-qapx-summit-ultragrid":
+    "Hands-on review of the 945 Industries QAPX Low Profile UltraGrid concealment bag, including real-world use and mountain biking impressions.",
+
+  "akt1-blackout-earbuds":
+    "Hands-on review of the AKT1 Blackout earbuds, including the fit technique that helps lock them in place and real-world Bluetooth shot timer testing.",
+
+  "savior-obscura-ccw-sling-bags-3l-vs-5l":
+    "Quick look at the Savior Obscura CCW sling bags, comparing the 3L and 5L options."
+};
+
+const featuredArticles = Object.entries(reviewModules)
+  .map(([path, module]) => {
+    const slug = path.split("/").pop()?.replace(".astro", "") ?? "";
+
+    const fallbackTitle = slug
+      .split("-")
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+
+    return {
+      slug,
+title: module.default?.title ?? module.title ?? fallbackTitle,
+description: module.default?.description ?? module.description ?? descriptionsBySlug[slug] ?? "",
+date: module.default?.date ?? module.date ?? "1970-01-01",
+      href: `/reviews/${slug}`,
+      image: `/images/thumbs/${slug}.jpg`
+    };
+  })
+  .sort((a, b) => new Date(b.date) - new Date(a.date));
+
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<SiteLayout title={title} description={description}>
+  <h2 class="section-title">Latest Reviews</h2>
+
+  <div class="article-grid">
+    {featuredArticles.map((article) => (
+      <a href={article.href} class="article-card">
+        <img
+          src={article.image}
+          alt={article.title}
+          class="article-card-image"
+        />
+        <div class="article-card-body">
+<h3 class="article-card-title">{article.title}</h3>
+
+<p class="article-card-date">
+  {new Date(article.date).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  })}
+</p>
+
+<p class="article-card-excerpt">{article.description}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</SiteLayout>

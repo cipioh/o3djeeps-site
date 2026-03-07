@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+
+const { title, description } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/public/favicon.ico" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="brand-hero">
+          <div class="brand-banner-wrap">
+
+  <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
+    <img
+      src="/images/branding/channel-banner.jpg"
+      alt="blasterKRAFT YouTube Channel"
+      class="brand-banner-image"
+    />
+  </a>
+
+  <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
+    <img
+      src="/images/branding/channel_logo.jpg"
+      alt="blasterKRAFT logo"
+      class="brand-avatar"
+    />
+  </a>
+
+</div>
+          <div class="brand-profile">
+            <div class="brand-profile-spacer"></div>
+
+            <div class="brand-copy">
+              <p class="brand-tagline">
+                <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">@blasterKRAFT</a> is a YouTube channel dedicated to gun info, gear and gadget reviews, and general information of interest to shooters or potential shooters. This is an online magazine to supplement that channel.
+              </p>
+            </div>
+          </div>
+
+          <nav class="site-nav">
+            <a href="/">Home</a>
+
+          </nav>
+        </div>
+      </header>
+
+      <main class="content-card">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

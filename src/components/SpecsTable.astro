@@ -1,0 +1,26 @@
+---
+interface SpecItem {
+  label: string;
+  value: string;
+}
+
+interface Props {
+  title?: string;
+  items: SpecItem[];
+}
+
+const { title = "Quick Specs", items } = Astro.props;
+---
+
+<section class="specs-box">
+  <h2>{title}</h2>
+
+  <div class="specs-table">
+    {items.map((item) => (
+      <>
+        <div class="specs-label">{item.label}</div>
+        <div class="specs-value">{item.value}</div>
+      </>
+    ))}
+  </div>
+</section>

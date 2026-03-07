@@ -1,0 +1,51 @@
+---
+import PromoBox from "./PromoBox.astro";
+import SpecsTable from "./SpecsTable.astro";
+
+const {
+  title,
+  description,
+  youtubeId,
+  buyLink,
+  buyText,
+  discountCode,
+  specs,
+  date
+} = Astro.props;
+---
+
+<header class="review-hero">
+
+  <h1>{title}</h1>
+<p class="review-date">
+  {new Date(date).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  })}
+</p>
+  <p class="review-intro">
+    {description}
+  </p>
+
+  {discountCode && (
+    <PromoBox
+      text="Save 10% at 945 Industries"
+      code={discountCode}
+      href={buyLink}
+      linkText={buyText}
+    />
+  )}
+
+<div class="video-frame">
+  <iframe
+    src={`https://www.youtube.com/embed/${youtubeId}`}
+    title={title}
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+  {specs && <SpecsTable items={specs} />}
+
+</header>

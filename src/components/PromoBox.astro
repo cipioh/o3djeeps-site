@@ -1,0 +1,26 @@
+---
+const { text, href, linkText, code } = Astro.props;
+---
+
+<div class="promo-box">
+  {code && (
+    <div class="promo-label">
+      <span>🔥</span>
+      <span>Discount</span>
+    </div>
+  )}
+
+  <p class="promo-text">{text}</p>
+
+  {code && (
+    <div class="promo-code">
+      Code: {code}
+    </div>
+  )}
+
+  <p class="promo-link">
+    <a href={href} target="_blank" rel="noopener sponsored">
+      {linkText}
+    </a>
+  </p>
+</div>

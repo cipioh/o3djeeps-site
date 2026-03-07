@@ -1,0 +1,51 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Axial Shift OTF Knife (V1) – Internal Parts, Close-Up Breakdown & How It Works";
+export const description = "In this review, we explore the Axial Shift OTF knife, highlighting its design, performance, and maintenance requirements.";
+const youtubeId = "TDxNw1pwkHQ";
+const discountCode = null;
+
+export const date = "2026-02-14";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Axial"
+  },
+  {
+    "label": "Product",
+    "value": "Shift OTF knife"
+  },
+  {
+    "label": "Category",
+    "value": "Pocket Knife"
+  },
+  {
+    "label": "Use Case",
+    "value": "Daily carry"
+  }
+];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="#"
+  buyText="View Product →"
+  discountCode={discountCode}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Axial Shift OTF knife is a reliable and low-key option for everyday carry, offering a simple design and solid performance.</p><h2>What Makes This Review Different</h2><p>This review includes a detailed look at the knife's disassembly and internal mechanisms, appealing to knife enthusiasts and those interested in the technical aspects of the product.</p><h2>Design and Layout</h2><p>The Shift OTF knife features a simple aluminum body that avoids the tactical styling common in many knives, which enhances its unassuming appeal.</p><h2>Real-World Testing</h2><p>After nearly three years of use, the knife has performed reliably, although it requires occasional lubrication for optimal functionality.</p><h2>Who This Product May Be For</h2><ul><li>Knife enthusiasts looking for a dependable daily carry option.</li><li>Individuals who appreciate a simple and unassuming knife design.</li><li>Users who prefer a knife that can be easily disassembled for maintenance.</li></ul><h2>Key Takeaways</h2><ul><li>The Axial Shift OTF knife is suitable for daily use with a straightforward design.</li><li>Periodic lubrication is necessary to maintain its functionality.</li><li>The manufacturer encourages disassembly for personal maintenance without voiding the warranty.</li></ul>
+
+</article>
+
+</SiteLayout>
