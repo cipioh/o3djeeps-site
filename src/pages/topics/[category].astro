@@ -1,0 +1,151 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+
+export async function getStaticPaths() {
+  const categories = [
+    "firearms",
+    "shooting-training",
+    "optics",
+    "concealed-carry",
+    "gear-accessories",
+    "knives"
+  ];
+
+  return categories.map((category) => ({
+    params: { category }
+  }));
+}
+
+const { category } = Astro.params;
+
+const modules = import.meta.glob("../reviews/*.astro", { eager: true });
+
+function normalize(value) {
+  return value
+    .toLowerCase()
+    .replace(/ & /g, " ")
+    .replace(/-/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+const categoryBuckets = {
+  firearms: [
+    "firearms",
+    "firearm",
+    "firearm accessories",
+    "firearms accessories",
+    "handgun",
+    "pistol",
+    "rifles",
+    "ar 15 upgrades",
+    "ar 15 accessories",
+    "ar 15 upgrade"
+  ],
+
+  "shooting-training": [
+    "firearms training",
+    "firearm training",
+    "shooting practice",
+    "firearms education"
+  ],
+
+  optics: [
+    "optics",
+    "red dot sight",
+    "optics maintenance"
+  ],
+
+  "concealed-carry": [
+    "concealed carry",
+    "concealed carry holsters",
+    "concealment holster",
+    "concealment bags",
+    "holsters",
+    "holster"
+  ],
+
+  "gear-accessories": [
+    "shooting gear",
+    "training gear",
+    "mag pouches",
+    "hearing protection",
+    "ear protection",
+    "grip accessories",
+    "shooting accessories",
+    "edc gear"
+  ],
+
+  knives: [
+    "knives",
+    "fighting knives"
+  ]
+};
+
+const posts = Object.entries(modules)
+  .map(([path, mod]) => {
+    const slug = path.split("/").pop().replace(".astro", "");
+
+    return {
+      slug,
+      url: `/reviews/${slug}`,
+      title: mod.title || "",
+      description: mod.description,
+      specs: mod.specs || []
+    };
+  })
+  .filter((post) => {
+    const categorySpec = post.specs.find((s) => s.label === "Category");
+    const useCaseSpec = post.specs.find((s) => s.label === "Use Case");
+
+    const bucket = categoryBuckets[category] || [];
+
+    const values = [categorySpec?.value, useCaseSpec?.value]
+      .filter(Boolean)
+      .map(normalize);
+
+    return values.some((v) =>
+      bucket.some((item) => normalize(item) === v)
+    );
+  });
+---
+
+<SiteLayout title={`${category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase())} | blasterKRAFT`}>
+
+<h1>
+  {category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase())}
+</h1>
+
+<p class="meta-note">
+  Showing {posts.length} articles
+</p>
+
+<div class="article-grid">
+
+{posts.map((post) => (
+  <a class="article-card" href={post.url}>
+
+    <img
+      src={`/images/thumbs/${post.slug}.jpg`}
+      alt={post.title}
+      class="article-card-image"
+    />
+
+    <div class="article-card-body">
+
+      <h3 class="article-card-title">
+        {post.title}
+      </h3>
+
+      <p class="article-card-excerpt">
+        {post.description}
+      </p>
+
+    </div>
+
+  </a>
+))}
+
+</div>
+
+</SiteLayout>

@@ -15,6 +15,20 @@ youtube = sys.argv[3]
 publish_date = sys.argv[4]
 
 # -------------------------------------------------
+# Fixed categories for the entire site
+# -------------------------------------------------
+
+CATEGORIES = [
+    "Firearms",
+    "Shooting & Training",
+    "Optics",
+    "AR-15",
+    "Concealed Carry",
+    "Gear & Accessories",
+    "Knives"
+]
+
+# -------------------------------------------------
 # Load transcript
 # -------------------------------------------------
 
@@ -31,7 +45,6 @@ transcript_raw = transcript_path.read_text(encoding="utf-8")
 # -------------------------------------------------
 
 desc_file = f"transcripts/{slug}-description.txt"
-
 description_text = ""
 
 if os.path.exists(desc_file):
@@ -60,7 +73,7 @@ discount_code = None
 
 discount_patterns = [
     r"code[:\s]+([A-Z0-9]+)",
-    r"discount[:\s]+([A-Z0-9]+)",
+    r"discount[:\s]+([A-Z0-9]+)"
 ]
 
 for pattern in discount_patterns:
@@ -79,6 +92,7 @@ def compress_transcript(text: str) -> str:
     filtered = []
 
     for line in lines:
+
         line = line.strip()
 
         if not line:
@@ -90,6 +104,7 @@ def compress_transcript(text: str) -> str:
         filtered.append(line)
 
     joined = "\n".join(filtered)
+
     return joined[:15000]
 
 
@@ -119,6 +134,7 @@ def scrape_product_specs(url):
         tables = soup.find_all("table")
 
         for table in tables:
+
             rows = table.find_all("tr")
 
             for row in rows:
@@ -157,6 +173,21 @@ The article may be one of three types:
 3. DISCUSSION / OPINION
 
 First determine the correct type using BOTH the YouTube description and transcript.
+
+IMPORTANT CATEGORY RULES
+
+Choose exactly ONE category from this list:
+
+Firearms
+Shooting & Training
+Optics
+AR-15
+Concealed Carry
+Gear & Accessories
+Knives
+
+Do NOT invent new categories.
+The category must be returned exactly as written.
 
 STYLE GUIDELINES
 
@@ -200,10 +231,10 @@ Return ONLY valid JSON in this format:
 {{
   "description": "SEO meta description under 160 characters",
   "content_type": "review | tutorial | discussion",
+  "category": "ONE OF THE FIXED CATEGORIES ABOVE",
   "specs": [
     {{"label": "Brand", "value": "value"}},
     {{"label": "Product", "value": "value"}},
-    {{"label": "Category", "value": "value"}},
     {{"label": "Use Case", "value": "value"}}
   ],
   "article_html": "<HTML content>"
@@ -219,9 +250,13 @@ Transcript:
 {transcript}
 """
 
+# -------------------------------------------------
+# Call OpenAI
+# -------------------------------------------------
+
 response = client.chat.completions.create(
     model="gpt-4o-mini",
-    messages=[{"role": "user", "content": prompt}],
+    messages=[{"role": "user", "content": prompt}]
 )
 
 raw = response.choices[0].message.content.strip()
@@ -232,7 +267,6 @@ raw = re.sub(r"```$", "", raw)
 try:
     data = json.loads(raw)
 except json.JSONDecodeError:
-    # Attempt to repair common model formatting issues
     raw = raw.replace("\n", "\\n")
     try:
         data = json.loads(raw)
@@ -241,8 +275,20 @@ except json.JSONDecodeError:
         print(raw)
         sys.exit(1)
 
+# -------------------------------------------------
+# Extract LLM values
+# -------------------------------------------------
+
 description = data.get("description", f"Review of {title}.")
+category = data.get("category", "Gear & Accessories")
+
 specs = scraped_specs or data.get("specs", [])
+
+specs.insert(0, {
+    "label": "Category",
+    "value": category
+})
+
 article_html = data.get(
     "article_html",
     "<h2>Quick Verdict</h2><p>Review content unavailable.</p>"
@@ -257,7 +303,6 @@ external_links_json = json.dumps(external_links, ensure_ascii=False)
 
 page = f"""---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = {json.dumps(title)};
@@ -282,6 +327,7 @@ const externalLinks = {external_links_json};
   discountCode={{discountCode}}
   showPromo={{Boolean(discountCode)}}
   specs={{specs}}
+  externalLinks={{externalLinks}}
   date={{date}}
 />
 
