@@ -1,0 +1,79 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "PT 3B : AR15 UPGRADE - STNGR GAS BLOCK INSTALL WITH BARREL DIMPLE";
+export const description = "Learn how to install a gas block and dimple your barrel with step-by-step guidance from an experienced enthusiast.";
+const youtubeId = "fiS30g3untU";
+const discountCode = null;
+export const date = "2019-02-09";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "STNGR"
+  },
+  {
+    "label": "Product",
+    "value": "Gas Block"
+  },
+  {
+    "label": "Category",
+    "value": "AR-15 Upgrade"
+  },
+  {
+    "label": "Use Case",
+    "value": "Firearms Customization"
+  }
+];
+const externalLinks = ["https://youtu.be/fiS30g3untU", "https://youtu.be/Of2ErgzqkXw", "https://www.stngrusa.com/ultimate-hwk-m-lok-bundle/"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://youtu.be/NOXEz_P_K-o"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>Upgrading your AR-15 can enhance its performance significantly, and one of the most rewarding modifications is the installation of a low-profile gas block. In this segment, we delve into the intricate process of dimpleing your barrel and successfully fitting the gas block, along with practical tips that can help both novices and seasoned builders alike.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>This video thoroughly walks through the steps required for installing the STNGR gas block, ensuring both alignment and secure attachment. The process involves a barrel dimple—an essential step that creates divots in the barrel to correctly align the gas block’s set screws. This technique minimizes the risk of misalignment and ensures your rifle operates smoothly.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>1. **Understanding Your Components**: Before installation, familiarize yourself with the components, especially the gas tube and gas block configuration. Make a note of where the gas port on your barrel aligns with the set screws on the gas block.</p>
+
+<p>2. **Initial Setup**: Verify that the gas tube aligns correctly by inserting it into the gas block. You want to ensure that when it is pushed into place, all ports will line up accurately—a crucial consideration that can prevent misfires or cycling issues down the line.</p>
+
+<p>3. **Dimpling the Barrel**: Mark where to create your dimples with a center punch, ensuring precision is key. Use the right drill bit to create divots that match the size of your gas block's set screws. This added step secures the gas block more effectively.</p>
+
+<p>4. **Setting the Gas Block**: After dimpling, slide the gas block onto the barrel, ensuring it’s pushed against the shoulder for proper alignment. Secure it in place with set screws, using thread locker for added security, which ensures it won’t come loose under operation.</p>
+
+<p>5. **Finishing Touches**: Finally, review your work. Confirm that everything is tight and aligned. Remember, this step is about more than just securing parts; it’s about ensuring reliable function in the field.</p>
+
+<h2>Key Tips</h2>
+<ul>
+<li><strong>Precision is Key</strong>: Take your time while marking and drilling the dimples. A small mistake can lead to an improperly functioning rifle.</li>
+<li><strong>Use Thread Locker Wisely</strong>: While red thread locker is strong, be aware that it can make disassembly more challenging in the future, so use it on screws that need permanence.</li>
+<li><strong>Visual Alignment</strong>: Utilize visual aids like a business card for alignment. Small adjustments can make a big difference—eyeballing can be just as effective as measuring.</li>
+<li><strong>Heat for Disassembly</strong>: If you ever need to remove the gas block, use heat to loosen the thread locker; it will save time and effort.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>Installing a gas block and dimpleing your barrel is a practical skill that can elevate your AR-15 build. Understanding alignment and installation techniques not only ensures functionality but also promotes confidence in your custom firearm. By taking the time to execute each step precisely, you’re investing in the reliability and performance of your AR-15, which is every enthusiast's priority. With careful planning and execution, this DIY upgrade can be tackled successfully at home, giving a sense of accomplishment every time you hit the range.</p>
+
+
+</article>
+
+</SiteLayout>

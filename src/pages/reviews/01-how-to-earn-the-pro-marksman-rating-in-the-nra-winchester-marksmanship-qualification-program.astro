@@ -1,0 +1,78 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "[01] How to Earn the Pro-Marksman Rating in the NRA Winchester Marksmanship Qualification Program";
+export const description = "Learn how to earn the Pro-Marksman rating in the NRA Winchester Marksmanship Qualification Program with our step-by-step guide.";
+const youtubeId = "0KtmYGq3Szs";
+const discountCode = null;
+export const date = "2019-04-05";
+const specs = [
+  {
+    "label": "Program",
+    "value": "NRA Winchester Marksmanship Qualification Program"
+  },
+  {
+    "label": "Focus",
+    "value": "Pro-Marksman Rating"
+  },
+  {
+    "label": "Skill Level",
+    "value": "Beginner to Intermediate"
+  },
+  {
+    "label": "Use Case",
+    "value": "Marksmanship Training"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://mqp.nra.org/"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>The NRA Winchester Marksmanship Qualification Program offers shooters a pathway to develop their skills through structured training. The program is designed for shooters at various levels, and allows participants to earn recognitions as they progress. In this article, we will outline how to begin this journey by earning the Pro-Marksman rating, which serves as the foundation for further skill development.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>In the accompanying video, we embark on the journey of obtaining the Pro-Marksman rating. The video breaks down the steps involved in completing the relevant coursework and offers practical advice on how to set up for training. It's crucial for newcomers to have a clear understanding of the course requirements, which can often be confusing. The video's demonstration aims to clarify these steps, showcasing how anyone—regardless of experience—can participate.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>To earn the Pro-Marksman rating, you will need to complete specific drills that test your shooting accuracy. Here’s a breakdown of the key steps involved:</p>
+<ul>
+  <li><strong>Target Setup:</strong> Use 9-inch paper plates, which are cost-effective and readily available at local stores. Set these targets at a distance of 5 yards.</li>
+  <li><strong>Course of Fire:</strong> You need to shoot five shots at each target. You must complete this drill ten times total. It’s essential to ensure all hits are within the 9-inch circle; scoring can be generous, allowing for a slight buffer around the edges.</li>
+  <li><strong>Practice Environment:</strong> You can complete these drills at a public range or even in a controlled space at home, provided safety measures are in place.</li>
+  <li><strong>Using Bench Rest:</strong> For this initial stage, you will be shooting from a bench rest position. Adjust your setup to ensure comfort, using bags or improvised rests if necessary.</li>
+  <li><strong>Progress Over Time:</strong> The program allows for flexibility; you do not need to shoot all the targets in one session. Take your time with each attempt, allowing for practice and gradual improvement.</li>
+</ul>
+
+<h2>Key Tips</h2>
+<p>Here are some essential tips for success in the Pro-Marksman qualification:</p>
+<ul>
+  <li><strong>Focus on Fundamentals:</strong> Ensure that you practice crucial shooting fundamentals—sight alignment, trigger control, breath control, and follow-through—each time you shoot.</li>
+  <li><strong>Record and Analyze:</strong> Keep track of your progress by logging your scores and assessing which areas you need to improve on.</li>
+  <li><strong>Don’t Rush:</strong> The goal is to become proficient. Each session should be viewed as a learning opportunity, regardless of the score.</li>
+  <li><strong>Adjustments for Indoor Ranges:</strong> If you are using an indoor range, take advantage of the target control systems to eliminate the need for range closures when changing targets.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>Earning the Pro-Marksman rating in the NRA Winchester Marksmanship Qualification Program is an achievable goal for anyone serious about improving their shooting skills. By breaking down the requirements into manageable steps, practicing regularly, and focusing on the fundamentals, you will set yourself on the path toward higher competence levels in shooting. Whether for personal achievement or participation in a structured program, the marksmanship journey can be both rewarding and enjoyable. Prepare to challenge yourself and earn that recognition—you’ll thank yourself later!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,75 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "PT 6 : AR15 UPGRADE - MAGPUL MOE ENHANCED TRIGGER GUARD INSTALL";
+export const description = "Learn how to install the Magpul MOE Trigger Guard for your AR-15 with this handy guide.";
+const youtubeId = "JCBdpeBq08w";
+const discountCode = null;
+export const date = "2019-02-12";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Magpul"
+  },
+  {
+    "label": "Product",
+    "value": "MOE Enhanced Trigger Guard"
+  },
+  {
+    "label": "Category",
+    "value": "AR-15 Accessories"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrade and installation"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://www.magpul.com/products/moe-trigger-guard-polymer-ar15-m4"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>The AR-15 platform is highly customizable, and one of the simplest upgrades you can make is to install an aftermarket trigger guard. The Magpul MOE Enhanced Trigger Guard is designed to enhance your shooting experience, especially in tactical situations or during cold weather when gloves are often a must. In this guide, we will walk through the installation of the MOE Trigger Guard, highlighting its features and providing tips for a successful upgrade.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>This video illustrates a straightforward installation process for the Magpul MOE Enhanced Trigger Guard. The step-by-step approach will not only show you how to replace the standard trigger guard but also highlight the benefits of the Magpul upgrade.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p><strong>1. Gather Your Tools:</strong> Before starting, you’ll need a 1/8 inch punch, a 1/16 inch Allen wrench, a hammer, and a piece of wood to protect your receiver tab during installation.</p>
+
+<p><strong>2. Remove the Existing Trigger Guard:</strong> Use the 1/8 inch punch to gently tap the roll pin out of the existing trigger guard. The piece of wood will help support the receiver tab so it doesn’t get damaged while you’re knocking out the pin. Take your time with this step to avoid bending anything.</p>
+
+<p><strong>3. Install the New Trigger Guard:</strong> Once the old guard is removed, position the new Magpul MOE Trigger Guard in place. Use the included roll pin and drive it into the new guard with your punch. Start it gently and build up the pressure with taps of the hammer. This allows for a controlled installation without damaging the surrounding components.</p>
+
+<p><strong>4. Secure Everything:</strong> The final step involves using the set screw that comes with your new guard. Insert it and tighten it up with your 1/16 inch Allen wrench, ensuring it is flush against the receiver tab. This step secures the trigger guard in place.</p>
+
+<h2>Key Tips</h2>
+<ul>
+  <li><strong>Take It Slow:</strong> Rushing through the process can lead to mistakes and can damage parts of your rifle.</li>
+  <li><strong>Use the Right Tools:</strong> Make sure you have the necessary tools on hand before starting the installation.</li>
+  <li><strong>Check Your Fit:</strong> Make sure the new guard sits correctly and that everything is snug but not overly tight.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>The Magpul MOE Enhanced Trigger Guard is not just another accessory; it’s an essential upgrade for those looking to improve their grip and control while shooting. With its tactical design and ease of installation, it's a quick and affordable way to enhance your AR-15 platform. By following the steps outlined in this guide, you can successfully replace your standard trigger guard with this improved model, making your next shooting session more comfortable and efficient.</p>
+
+</article>
+
+</SiteLayout>

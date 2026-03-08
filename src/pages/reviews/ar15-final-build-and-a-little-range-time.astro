@@ -1,0 +1,69 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "AR15 FINAL BUILD AND A LITTLE RANGE TIME";
+export const description = "Explore the final build of an AR-15, scope zeroing tips, and practical insights from the range.";
+const youtubeId = "yskMgW5opmg";
+const discountCode = null;
+export const date = "2019-03-08";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "AR-15"
+  },
+  {
+    "label": "Product",
+    "value": "Final Build"
+  },
+  {
+    "label": "Category",
+    "value": "Rifles"
+  },
+  {
+    "label": "Use Case",
+    "value": "Range Shooting and Training"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://goo.gl/maps/8m3jEm96T8J2"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>Completing a build on an AR-15 is no small feat, and the excitement that comes with it is palpable for any enthusiast. In this discussion, we’re diving deep into the nuances of finalizing an AR-15 build, focusing particularly on practical applications such as zeroing in the scope and using backup iron sights. This may be a routine part of the process for seasoned builders, but there are always tips and insights that can elevate someone’s shooting experience.</p>
+
+<h2>Main Discussion Points</h2>
+<p>The final step in any AR-15 assembly is not just putting parts together; it's about creating a reliable and functional system. A complete build encompasses various components, including the optic setup, iron sights, and understanding their integration. The video presents a final look at a well-thought-out AR-15 build, showcasing a Vortex Viper scope and Magpul backup iron sights.</p>
+<p>Zeroing an optic, like the Vortex Viper, is crucial for any shooter. It's not just a matter of adjusting the settings through trial and error; it's about understanding how your chosen optic interacts with your platform. Performer a zero at 100 yards ensures the shooter will hit where they aim at longer distances, which opens up a myriad of potential uses, from competition shooting to hunting.</p>
+<p>The challenge of using the opted backup iron sights at a 45-degree angle demonstrates innovative thinking. This setup allows easy access to alternative targeting solutions without disrupting the primary optic’s placement. This clever design choice speaks to the adaptability that many shooters seek, particularly in tactical scenarios.</p>
+
+<h2>Practical Implications</h2>
+<p>So what does all this mean for the everyday shooter? It emphasizes the importance of training and familiarity with your equipment. For example, the ability to switch quickly from a scope to iron sights means that a shooter can remain functional under rapidly changing conditions. In real-world situations, that split second can make all the difference.</p>
+<p>Having the right tools and knowing how to use them effectively can drastically improve shooting proficiency. Moreover, engaging in regular practice sessions, like those referenced in the video, helps to build confidence and familiarity with one's firearm, ultimately leading to a more successful outing on the range.</p>
+
+<h2>Key Takeaways</h2>
+<p>1. The finalization of an AR-15 build involves not just assembly but effective setup and training.</p>
+<p>2. Proper zeroing of optics is essential for accuracy and comes with practice.</p>
+<p>3. Backup iron sights serve as a reliable alternative, especially when installed with an innovative approach.</p>
+<p>4. Continuous training is key to proficiency and confidence with your equipment—it's not just about having great gear, but also mastering its use.</p>
+<p>Ultimately, building an AR-15 is more than just acquiring parts; it’s about creating an understanding of how each component works together to improve shooting performance. As shooters, whether you're beginner or experienced, commitment to skill development alongside your gear choices will always yield the best results.</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,78 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "PT 3C : AR15 UPGRADE - STNGR HWK FINAL ASSEMBLY";
+export const description = "Discover the final assembly steps for upgrading your AR-15 with the STNGR HWK handguard. Achieve a sleek look and improved functionality.";
+const youtubeId = "Of2ErgzqkXw";
+const discountCode = null;
+export const date = "2019-02-09";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "STNGR"
+  },
+  {
+    "label": "Product",
+    "value": "HWK Free Float Handguard"
+  },
+  {
+    "label": "Category",
+    "value": "AR-15 Upgrades"
+  },
+  {
+    "label": "Use Case",
+    "value": "Final Assembly"
+  }
+];
+const externalLinks = ["https://youtu.be/fiS30g3untU", "https://youtu.be/Of2ErgzqkXw", "https://www.stngrusa.com/ultimate-hwk-m-lok-bundle/"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://youtu.be/NOXEz_P_K-o"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>In the realm of AR-15 upgrades, the handguard plays a pivotal role not just in aesthetics but also in functionality. The STNGR HWK Free Float Handguard is a popular choice for those looking to enhance their build, offering a blend of style and performance. In this final segment of the assembly tutorial, we will walk through the steps to properly install the HWK handguard, ensuring a solid fit and sleek appearance.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>This tutorial provides a hands-on demonstration of how to achieve a successful installation of the STNGR HWK handguard, focusing on critical steps such as alignment, torque specifications, and the use of thread lock. These insights are vital for any enthusiast looking to execute the upgrade efficiently and effectively.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>Firstly, preparation is key. Before beginning the installation, make sure you have all the necessary tools and components, including the STNGR HWK handguard, barrel nut, anti-rotation tabs, and thread lock. The anti-rotation tabs are particularly significant as they prevent the handguard from twisting once installed.</p>
+
+<p>The installation starts by aligning the handguard with the receiver. An alignment tool can be helpful here, ensuring a snug and straight fit against the barrel. Applying pressure to clamp the handguard to the receiver is also recommended for stabilization.</p>
+
+<p>Next comes the crucial step of securing the handguard. The torque specification for the mounting screws is relatively low, at around 45 inch-pounds. This means you should tighten the screws firmly but avoid over-torquing, which could strip threads or damage the components. Be sure to apply a bit of thread lock to the screws to maintain a secure fit through use.</p>
+
+<p>After aligning and tightening the handguard screws, you may need to adjust the flash hider or muzzle device. It’s essential to check that these components align correctly, ensuring they sit back in their intended positions after the handguard is secured. This process often entails a bit of trial and error—don’t be afraid to make minor adjustments as needed.</p>
+
+<p>The final touch involves inspecting the overall look and feel of the installed handguard. This is where you can appreciate the aggressive new appearance and functional enhancements the STNGR HWK brings to your AR. The available mounting options for accessories such as lights, grips, and bipods can now be easily configured to your preference.</p>
+
+<h2>Key Tips</h2>
+<ul>
+    <li>Use a proper alignment tool or makeshift clamp to ensure your handguard is straight during installation.</li>
+    <li>Always apply thread lock to screws for added security.</li>
+    <li>Don’t rush the torque process; ensure you are comfortable with the tightness without overdoing it.</li>
+    <li>Experiment with different configurations for mounting accessories to maximize the handguard’s potential.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>The final assembly of the STNGR HWK Free Float 15" Handguard is a straightforward process, but it does require attention to detail. From achieving the perfect alignment to ensuring the securement of all components, following these steps will guarantee a successful upgrade. As you put your finishing touches on this build, anticipate the enhanced capability and refined aesthetics this handguard brings to your AR-15.</p>
+
+</article>
+
+</SiteLayout>

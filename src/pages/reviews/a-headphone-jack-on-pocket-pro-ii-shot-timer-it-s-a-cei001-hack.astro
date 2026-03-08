@@ -1,0 +1,78 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "A Headphone Jack on Pocket Pro II Shot Timer! It's a CEI001 hack!";
+export const description = "Learn how to add a headphone jack to your Pocket Pro II shot timer for a quieter shooting experience.";
+const youtubeId = "aeYbbsoSpao";
+const discountCode = null;
+export const date = "2019-02-02";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Competition Electronics"
+  },
+  {
+    "label": "Product",
+    "value": "Pocket Pro II Shot Timer"
+  },
+  {
+    "label": "Category",
+    "value": "Shooting Gear"
+  },
+  {
+    "label": "Use Case",
+    "value": "DIY modification for enhanced usability"
+  }
+];
+const externalLinks = ["https://amzn.to/2TpLt12", "https://www.youtube.com/watch?v=ZWQW8wEGlYo", "https://amzn.to/2TbGEZ2", "https://amzn.to/2WebrGI"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://amzn.to/2GjxPsw"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>In this article, we will delve into an exciting modification for the popular Pocket Pro II Shot Timer by Competition Electronics. This modification—a simple add-on of a headphone jack—enables the capability to send the shot timer's audio output directly to headphones. This is particularly useful for those who wish to minimize the sound that emits from the timer, especially in busy or indoor shooting ranges, or even during dry fire practice at home.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>The demonstration video showcases a step-by-step modification process to install a 3.5mm auxiliary output on the Pocket Pro II Shot Timer. The creator highlights the motivations behind the modification, the tools needed, and provides a live demonstration of the upgraded timer in action. The modification not only enhances the user experience by allowing headphone connectivity but also helps to keep shooting environments quieter, which is a considerable advantage in shared spaces.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>The process for modifying the Pocket Pro II involves several key steps:</p>
+<ol>
+  <li><strong>Preparation:</strong> Ensure you have the necessary tools, including a soldering iron, a 3.5mm stereo jack, and the appropriate wiring.</li>
+  <li><strong>Disassembly:</strong> Carefully open the shot timer, starting with removing the battery and unscrewing the casing to access the internal circuit board.</li>
+  <li><strong>Soldering the Jack:</strong> Connect wires from the circuit board to the new aux jack. This will involve careful soldering to ensure that the internal speaker is disabled when the jack is plugged in, allowing sound to only come through the headphones.</li>
+  <li><strong>Reassembly:</strong> Once connections are made, thoughtfully reposition all internal components back in place and reseal the timer casing.</li>
+  <li><strong>Testing:</strong> After reassembling, conduct a functional test to ensure that when headphones are plugged in, the beeping sounds correctly route through them without activating the built-in speaker.</li>
+</ol>
+<p>By following these steps, users can successfully create a quieter shooting practice environment.</p>
+
+<h2>Key Tips</h2>
+<ul>
+  <li><strong>Take Your Time:</strong> Modifications like this require patience. Make sure to work slowly to avoid damage to any internal components.</li>
+  <li><strong>Avoid Warranty Issues:</strong> Be mindful that this modification may void any existing warranty on the shot timer. Proceed at your own risk.</li>
+  <li><strong>Practice Safe Soldering:</strong> If you’re unfamiliar with soldering, consider practicing on older, less critical electronics first or seeking assistance from someone experienced.</li>
+  <li><strong>Use Quality Components:</strong> Ensure that the jack and wires you use are of good quality to avoid issues down the line with connectivity or durability.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>The Pocket Pro II Shot Timer is a versatile piece of equipment that can be enhanced significantly through this simple headphone jack modification. By routing the timer's audio directly to headphones, shooters can practice in quiet, shared environments without disturbing others around them. This modification is a great example of how tinkerers and enthusiasts can elevate their gear’s functionality with a little ingenuity and technical skill. Whether you're conducting solo practice or training on a busy range, this modification could significantly enhance your shooting experience.</p>
+
+</article>
+
+</SiteLayout>

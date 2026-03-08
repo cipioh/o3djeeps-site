@@ -1,0 +1,74 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Glock Slide Stop Modification - Will it Help with my High Thumbs Grip?";
+export const description = "Explore how modifying the Glock slide stop can impact grip and function, especially for high thumb shooters.";
+const youtubeId = "Mafo1XKtEcQ";
+const discountCode = null;
+export const date = "2018-11-20";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Glock"
+  },
+  {
+    "label": "Product",
+    "value": "Slide Stop"
+  },
+  {
+    "label": "Category",
+    "value": "Modification"
+  },
+  {
+    "label": "Use Case",
+    "value": "Pistol Grip Improvement"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="http://www.bowietacticalconcepts.com/"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>In the world of firearms modification, one topic that creates ample buzz is the Glock slide stop. Many enthusiasts have encountered the issue of the slide locking back prematurely while still having rounds in the magazine, especially when using a high thumbs grip. In this tutorial, we will dive into how modifying your Glock's slide stop can address this common problem.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>This video encapsulates a practical modification to the Glock slide stop to make it smaller, reducing the chances of accidental engagement. The journey begins with an acknowledgment of the shooter's unique grip style—high thumbs—and the hurdles it presents. By trimming down the slide stop, the shooter hopes to alleviate the interference that leads to the slide locking back unintentionally.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>1. **Initial Assessment**: The shooter reflects on their experience with the factory slide stop and the Ghost Bullet Forward Slide Stop. Both have their merits but didn't completely resolve the issue of premature slide lock.</p>
+<p>2. **Consulting an Expert**: Realizing the commonality of this issue among other shooters, a consultation with a gunsmith reveals insights into adjusting the factory slide stop to alleviate the problem.</p>
+<p>3. **Modification Process**: Armed with the guidance from Bowie Tactical Concepts, the modification involves carefully trimming the factory slide stop. This step requires precision—too much trim and you risk losing function; too little, and you may not solve the problem.</p>
+<p>4. **Testing the Modification**: After the modification, the shooter heads to the range to test the efficacy of the change. A notable shift in experience with a high thumbs grip is anticipated as the newly sized slide stop is put to the test.</p>
+
+<h2>Key Tips</h2>
+<ul>
+<li>Start with a clear understanding of your grip style; note how your thumb naturally interacts with the slide stop.</li>
+<li>Consult with an experienced gunsmith or firearms trainer before attempting modifications to ensure you’re on the right path.</li>
+<li>Always work cautiously when making cuts to avoid over-modifying the component, which could lead to functional issues.</li>
+<li>Test the modification thoroughly in a controlled environment—this is essential to ascertain whether the solution truly resolves your issue.</li>
+<li>Keep your original parts; should a modification not work as expected, you can revert to the factory setup.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>Modifying your Glock's slide stop is a balanced act of science and artistry. For those shooting with a high thumbs grip, this modification can offer relief from the pesky slide lock issue that interrupts shooting flow. Staying informed and leaning on the expertise of professionals can ease the process and yield fantastic results. A simple change can lead to a more enjoyable experience at the range, allowing shooters to focus on their technique without unnecessary distractions.</p>
+
+</article>
+
+</SiteLayout>

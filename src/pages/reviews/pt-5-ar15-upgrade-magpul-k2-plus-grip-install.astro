@@ -1,0 +1,74 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "PT 5 : AR15 UPGRADE - MAGPUL K2 PLUS GRIP INSTALL";
+export const description = "Explore the Magpul K2 Plus Grip installation on an AR15 and learn about its features and benefits.";
+const youtubeId = "YpFBn0ZPcFM";
+const discountCode = null;
+export const date = "2019-02-11";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Magpul"
+  },
+  {
+    "label": "Product",
+    "value": "MOE-K2+ Grip"
+  },
+  {
+    "label": "Category",
+    "value": "Firearm Accessories"
+  },
+  {
+    "label": "Use Case",
+    "value": "Enhancing AR15 grip comfort and control"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://www.magpul.com/products/moe-k2-plus-grip-ar15-m4"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>Upgrading the standard grip on your AR15 can dramatically enhance your shooting experience. The Magpul K2 Plus Grip is an excellent choice for those looking to improve ergonomics and control when handling their firearm. In this tutorial, we'll walk you through the process of installing the MOE-K2+ Grip and discuss its unique features that make it a standout accessory.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>This video showcases the installation of the Magpul K2 Plus Grip on an AR15 platform, offering a detailed look at the steps involved in swapping out the standard grip for this upgraded version. The video covers not just the installation process but also emphasizes the benefits of using the K2+ over the factory model.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<ol>
+    <li><strong>Removing the Existing Grip:</strong> Begin by locating the large flathead screw securing the current grip to the lower receiver. It’s important to loosen this screw carefully to avoid disturbing the captured spring that provides tension for the safety actuator. Hold the grip as you unscrew it to prevent the spring from popping out.</li>
+    <li><strong>Preparing for Installation:</strong> Once the old grip is removed, take a moment to prepare the new grip. The K2+ features a storage compartment in its base, giving you the option to customize your gear stowage.</li>
+    <li><strong>Installing the K2+ Grip:</strong> Open the storage compartment at the bottom of the K2+ Grip to access the installation hardware. It’s user-friendly, allowing for either a flathead or an Allen wrench. Remember to reinsert the captured spring into the new grip before attaching it to the receiver.</li>
+    <li><strong>Securing the Grip:</strong> Once everything is in place, tighten it down securely to ensure it won’t shift during use. Take care to double-check that the spring is properly positioned to maintain the functionality of the safety mechanism.</li>
+</ol>
+
+<h2>Key Tips</h2>
+<ul>
+    <li>Ensure your workspace is free of distractions to avoid losing small parts like the captured spring.</li>
+    <li>Familiarize yourself with any storage options that may be available with the K2+ Grip, as customization can enhance your overall shooting experience.</li>
+    <li>Don’t rush the installation process—taking your time helps ensure that everything is fitted correctly and functions as intended.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>The Magpul MOE-K2+ Grip offers a significant improvement in grip angle and comfort over standard options. The installation process is straightforward and can be accomplished with minimal tools. This grip not only enhances control and handling but also introduces customization options that can be tailored to suit your needs. Upgrading your AR15 with the K2+ Grip is a decision that pairs functionality with enhanced shooting performance—the perfect combination for both novice and experienced shooters alike.</p>
+
+</article>
+
+</SiteLayout>

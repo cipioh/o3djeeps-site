@@ -1,0 +1,76 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "PT 7 : AR15 UPGRADE - SCOPE MOUNT AND PROJECTION RETICLE ADJUSTMENT";
+export const description = "Discover how to properly install and align your Vortex Viper PST scope with a simple step-by-step guide.";
+const youtubeId = "im_V48SYumI";
+const discountCode = null;
+export const date = "2019-02-14";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Vortex"
+  },
+  {
+    "label": "Product",
+    "value": "Viper PST 1-4x24 Scope"
+  },
+  {
+    "label": "Category",
+    "value": "Optics"
+  },
+  {
+    "label": "Use Case",
+    "value": "Scope Installation and Alignment"
+  }
+];
+const externalLinks = ["https://amzn.to/2UXmra8"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://amzn.to/2Ifteu7"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>Installing a riflescope may seem daunting, but with the right approach and techniques, you can achieve precise alignment and installation. In this tutorial, we’ll walk through the steps of installing and leveling the Vortex Viper PST 1-4x24 scope using some simple tools and methods.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>The video focuses on the installation and reticle alignment of the Vortex Viper PST 1-4x24 riflescope using a budget-friendly Primary Arms Deluxe AR15 Scope Mount. Our host explores various methods to ensure that the reticle is perfectly aligned for optimal long-range shooting performance.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>The first step in the installation process is to ensure the rifle is securely positioned. Utilize a sandbag or vice to stabilize the rifle. The host suggests utilizing the Wheeler Delta Series magwell vice block, which can secure the rifle at the magwell, providing a stable base for the installation.</p>
+<p>Next, begin the process of fitting the scope into the mounted base. After rough fitting, it’s crucial to adjust the eye relief and cheek weld position. The optimal position will vary for each shooter, but it’s essential to ensure a full picture through the scope once the rifle is shouldered.</p>
+<p>Once the scope is positioned, attention shifts to leveling the reticle. The presenter introduces the innovative plumb bob string method. This method involves hanging a thread weighted with a socket from a fixed point, allowing for precise vertical alignment of the reticle.</p>
+<p>To execute this method effectively, first set up the rifle in a level position. Next, ensure that the reticle of the scope is projected onto a whiteboard, allowing for clear visibility of alignment. By adjusting the scope accordingly, you can ensure that the reticle is perfectly centered, providing the necessary level for effective shooting adjustments.</p>
+<p>After aligning the reticle, the next critical step is securing all screws and ensuring that the scope is properly torqued to manufacturer specifications—typically 20 inch pounds in a star pattern. This practice ensures uniform pressure and stability, preventing any movement in the scope during shooting.</p>
+<p>Finally, install the batteries for functionality and give everything a final check to make sure your setup is complete and ready for zeroing in future sessions.</p>
+
+<h2>Key Tips</h2>
+<ul>
+<li>Utilize a stable platform to support your rifle before starting the scope installation.</li>
+<li>Ensure proper eye relief by placing the scope at a distance where you can comfortably view through it.</li>
+<li>The plumb bob method is an effective way to ensure level reticle alignment; always double-check your level.</li>
+<li>Torque screws in a star pattern to create even pressure and prevent shifts in the scope’s alignment.</li>
+<li>Always verify the functionality of your scope before heading out to the range.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>Installing and aligning a scope may seem like a complex task, but breaking it down into manageable steps makes it achievable. Using the right tools and methods, such as the plumb bob technique, ensures precision in your setup. Following these steps not only enhances your shooting performance but also boosts your confidence in using your firearm effectively and safely. So grab your Vortex Viper PST and give these tips a shot!</p>
+
+</article>
+
+</SiteLayout>

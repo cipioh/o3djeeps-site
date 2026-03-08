@@ -4,6 +4,8 @@ import re
 import os
 from pathlib import Path
 from openai import OpenAI
+import requests
+from bs4 import BeautifulSoup
 
 client = OpenAI()
 
@@ -12,20 +14,67 @@ slug = sys.argv[2]
 youtube = sys.argv[3]
 publish_date = sys.argv[4]
 
+# -------------------------------------------------
+# Load transcript
+# -------------------------------------------------
+
 transcript_path = Path(f"transcripts/{slug}.txt")
 
 if not transcript_path.exists():
     print("Transcript not found.")
     sys.exit(1)
 
+transcript_raw = transcript_path.read_text(encoding="utf-8")
+
+# -------------------------------------------------
+# Load description
+# -------------------------------------------------
+
 desc_file = f"transcripts/{slug}-description.txt"
 
 description_text = ""
+
 if os.path.exists(desc_file):
-    with open(desc_file) as f:
+    with open(desc_file, encoding="utf-8") as f:
         description_text = f.read()
 
+# -------------------------------------------------
+# Extract links
+# -------------------------------------------------
+
+links = re.findall(r"https?://[^\s]+", description_text)
+links = [l.rstrip(".,)") for l in links]
+
+buy_link = "#"
+external_links = []
+
+if links:
+    buy_link = links[0]
+    external_links = links[1:]
+
+# -------------------------------------------------
+# Extract discount code
+# -------------------------------------------------
+
+discount_code = None
+
+discount_patterns = [
+    r"code[:\s]+([A-Z0-9]+)",
+    r"discount[:\s]+([A-Z0-9]+)",
+]
+
+for pattern in discount_patterns:
+    match = re.search(pattern, description_text, re.IGNORECASE)
+    if match:
+        discount_code = match.group(1)
+        break
+
+# -------------------------------------------------
+# Compress transcript
+# -------------------------------------------------
+
 def compress_transcript(text: str) -> str:
+
     lines = text.split("\n")
     filtered = []
 
@@ -40,58 +89,134 @@ def compress_transcript(text: str) -> str:
 
         filtered.append(line)
 
-    joined = " ".join(filtered)
+    joined = "\n".join(filtered)
     return joined[:15000]
 
 
-def strip_code_fences(text: str) -> str:
-    text = text.strip()
+transcript = compress_transcript(transcript_raw)
 
-    if text.startswith("```"):
-        text = re.sub(r"^```[a-zA-Z0-9]*\n?", "", text)
-        text = re.sub(r"\n?```$", "", text)
+# -------------------------------------------------
+# Scrape specs from product page
+# -------------------------------------------------
 
-    return text.strip()
+def scrape_product_specs(url):
+
+    if not url or url == "#":
+        return []
+
+    try:
+
+        r = requests.get(
+            url,
+            timeout=10,
+            headers={"User-Agent": "Mozilla/5.0"}
+        )
+
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        specs = []
+
+        tables = soup.find_all("table")
+
+        for table in tables:
+            rows = table.find_all("tr")
+
+            for row in rows:
+
+                cols = row.find_all(["td", "th"])
+
+                if len(cols) == 2:
+
+                    label = cols[0].get_text(strip=True)
+                    value = cols[1].get_text(strip=True)
+
+                    specs.append({
+                        "label": label,
+                        "value": value
+                    })
+
+        return specs
+
+    except Exception:
+        return []
 
 
-transcript = compress_transcript(transcript_path.read_text(encoding="utf-8"))
+scraped_specs = scrape_product_specs(buy_link)
+
+# -------------------------------------------------
+# LLM prompt
+# -------------------------------------------------
 
 prompt = f"""
-You are writing a gear review article for a website that accompanies a YouTube channel.
+You are writing an article for blasterKRAFT.com, a gear-focused website that accompanies a YouTube channel reviewing shooting gear, EDC equipment, and technical demonstrations.
 
-Use ONLY the transcript below.
-Do not invent facts that are not supported by the transcript.
-Return ONLY valid JSON with this exact shape:
+The article may be one of three types:
+
+1. PRODUCT REVIEW
+2. DEMONSTRATION / HOW-TO
+3. DISCUSSION / OPINION
+
+First determine the correct type using BOTH the YouTube description and transcript.
+
+STYLE GUIDELINES
+
+• Write like an experienced enthusiast explaining gear.
+• Do NOT summarize the transcript.
+• Expand ideas with real-world insight and context.
+• Use natural paragraphs.
+• Avoid filler language.
+• Use clean HTML headings and sections.
+
+ARTICLE LENGTH
+
+Target **800–1200 words**.
+
+If the video is a PRODUCT REVIEW include sections:
+
+<h2>Quick Verdict</h2>
+<h2>What Makes This Review Different</h2>
+<h2>Design and Layout</h2>
+<h2>Real-World Use</h2>
+<h2>Who This Product May Be For</h2>
+<h2>Key Takeaways</h2>
+
+If it is a DEMONSTRATION or HOW-TO include:
+
+<h2>Overview</h2>
+<h2>What This Video Demonstrates</h2>
+<h2>Step-by-Step Explanation</h2>
+<h2>Key Tips</h2>
+<h2>Key Takeaways</h2>
+
+If it is a DISCUSSION include:
+
+<h2>Overview</h2>
+<h2>Main Discussion Points</h2>
+<h2>Practical Implications</h2>
+<h2>Key Takeaways</h2>
+
+Return ONLY valid JSON in this format:
 
 {{
-  "description": "one-sentence meta description",
+  "description": "SEO meta description under 160 characters",
+  "content_type": "review | tutorial | discussion",
   "specs": [
     {{"label": "Brand", "value": "value"}},
     {{"label": "Product", "value": "value"}},
     {{"label": "Category", "value": "value"}},
     {{"label": "Use Case", "value": "value"}}
   ],
-  "article_html": "<h2>Quick Verdict</h2><p>...</p><h2>What Makes This Review Different</h2><p>...</p><h2>Design and Layout</h2><p>...</p><h2>Real-World Testing</h2><p>...</p><h2>Who This Product May Be For</h2><ul><li>...</li></ul><h2>Key Takeaways</h2><ul><li>...</li></ul>"
+  "article_html": "<HTML content>"
 }}
 
-Rules:
-- article_html must contain ONLY valid HTML, no markdown fences
-- include these sections in article_html:
-  Quick Verdict
-  What Makes This Review Different
-  Design and Layout
-  Real-World Testing
-  Who This Product May Be For
-  Key Takeaways
-- specs should be filled only with details clearly supported by the transcript
-- if a spec is unknown, omit it rather than inventing it
+YouTube Title:
+{title}
 
 YouTube Description:
 {description_text}
 
 Transcript:
 {transcript}
-
 """
 
 response = client.chat.completions.create(
@@ -99,33 +224,49 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": prompt}],
 )
 
-raw = response.choices[0].message.content
-raw = strip_code_fences(raw)
+raw = response.choices[0].message.content.strip()
+
+raw = re.sub(r"^```[a-zA-Z]*", "", raw)
+raw = re.sub(r"```$", "", raw)
 
 try:
     data = json.loads(raw)
 except json.JSONDecodeError:
-    print("Model did not return valid JSON:")
-    print(raw)
-    sys.exit(1)
+    # Attempt to repair common model formatting issues
+    raw = raw.replace("\n", "\\n")
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        print("Model returned invalid JSON:")
+        print(raw)
+        sys.exit(1)
 
 description = data.get("description", f"Review of {title}.")
-specs = data.get("specs", [])
-article_html = data.get("article_html", "<h2>Quick Verdict</h2><p>Review content unavailable.</p>")
+specs = scraped_specs or data.get("specs", [])
+article_html = data.get(
+    "article_html",
+    "<h2>Quick Verdict</h2><p>Review content unavailable.</p>"
+)
 
 specs_json = json.dumps(specs, ensure_ascii=False, indent=2)
+external_links_json = json.dumps(external_links, ensure_ascii=False)
+
+# -------------------------------------------------
+# Generate Astro page
+# -------------------------------------------------
 
 page = f"""---
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
-export const title = {json.dumps(title, ensure_ascii=False)};
-export const description = {json.dumps(description, ensure_ascii=False)};
+export const title = {json.dumps(title)};
+export const description = {json.dumps(description)};
 const youtubeId = {json.dumps(youtube)};
-const discountCode = null;
+const discountCode = {json.dumps(discount_code)};
 export const date = "{publish_date}";
 const specs = {specs_json};
+const externalLinks = {external_links_json};
 ---
 
 <SiteLayout title={{`${{title}} | blasterKRAFT`}} description={{description}}>
@@ -136,9 +277,10 @@ const specs = {specs_json};
   title={{title}}
   description={{description}}
   youtubeId={{youtubeId}}
-  buyLink="#"
+  buyLink={json.dumps(buy_link)}
   buyText="View Product →"
   discountCode={{discountCode}}
+  showPromo={{Boolean(discountCode)}}
   specs={{specs}}
   date={{date}}
 />

@@ -6,21 +6,55 @@ interface SpecItem {
 
 interface Props {
   title?: string;
-  items: SpecItem[];
+  items?: SpecItem[];
+  buyLink?: string;
+  externalLinks?: string[];
 }
 
-const { title = "Quick Specs", items } = Astro.props;
+const {
+  title = "Quick Look",
+  items = [],
+  buyLink,
+  externalLinks = []
+} = Astro.props;
 ---
 
 <section class="specs-box">
   <h2>{title}</h2>
 
   <div class="specs-table">
+
     {items.map((item) => (
       <>
         <div class="specs-label">{item.label}</div>
         <div class="specs-value">{item.value}</div>
       </>
     ))}
+
+	{buyLink && buyLink !== "#" && (
+	  <>
+		<div class="specs-label">Where to Find It</div>
+		<div class="specs-value">
+		  <a href={buyLink} target="_blank" rel="noopener sponsored">
+			{new URL(buyLink).hostname}
+		  </a>
+		</div>
+	  </>
+	)}
+
+	{externalLinks.length > 0 && (
+	  <>
+		<div class="specs-label">Additional Links</div>
+		<div class="specs-value">
+		  {externalLinks.map((link) => (
+			<div class="spec-link">
+			  <a href={link} target="_blank" rel="noopener">
+				{link}
+			  </a>
+			</div>
+		  ))}
+		</div>
+	  </>
+	)}
   </div>
 </section>

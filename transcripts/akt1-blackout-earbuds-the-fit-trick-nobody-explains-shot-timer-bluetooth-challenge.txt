@@ -1,0 +1,444 @@
+[music]
+[music]
+Heat.
+Hey, Heat. [music]
+[music]
+>> [music]
+[music]
+[music]
+>> Hey everyone, CPO here and in this video
+I'm going to be sharing with you my
+thoughts on the Blackout. These are
+wireless, true wireless ear protection
+designed for the range. Two things are
+going to happen in this video. One, I'm
+going to give you my impressions of
+them, but I'm going to start with a
+little bit of history about why I made
+the selection that I made. And two, I'm
+going to show you a tip on getting them
+inserted in your ear in a way that I
+think uh will be helpful for you if
+you're trying to figure out how to make
+sure that they are really locked in and
+solid. I figured out a way that works
+for me. I'll share that with you.
+I have always,
+man, for a long time used electronic ear
+protection. I like the way that it
+amplifies the things I want to hear like
+range officer commands or other people
+I'm having a conversation with, but then
+at the same time it uh demotes the noise
+of whatever is being fired at the time.
+Uh so loud noises are reduced and then
+quiet noises get elevated and it's just
+been great. Um no no question there. I
+think everybody knows that. So, a while
+back on this channel, I made a video
+about modifying this particular shot
+timer, my Competition Electronics Pocket
+Pro 2, to give it an auxiliary out,
+right? An 8 in or a 3.5 mm auxiliary
+line out for the signal. And then I have
+these walkers that I was using at the
+range that had a auxiliary input. And
+then between the two meant that I could
+have the audible beep from my shot timer
+come to my in- ears and only I hear
+them. Was really interesting, super
+useful. The sort of old school corded
+solution and it worked great for me. I
+loved it. Um, there's nothing more
+annoying than being at the particularly
+an indoor range where you're standing
+next to somebody who's using a shot
+timer and you've got to hear their timer
+constantly going off, particularly if
+there's more than one person trying to
+use a timer, which honestly rarely
+happens at a at an indoor range. Almost
+always, I'm the only one with a shot
+timer at an indoor range because
+I guess the type of people that go to
+indoor ranges are different. So anyway,
+uh did that uh this has been a great
+timer. It is what it is. Old school.
+Times have changed though now. [snorts]
+Uh we have Bluetooth technology. Uh and
+so a lot of the even the over the ear um
+protection has become available in u
+with Bluetooth capability. So now we
+have new technology. This is my new shot
+timer. This is the shooters global uh
+SG2
+uh timer. and it's the second revision
+of their shot timer. I really like this
+little timer. Um,
+a lot easier to operate than this old
+school one, which still worked. Uh,
+9volt battery, rechargeable USBC,
+internal battery. Uh, but this has
+Bluetooth capability. So, when paired
+with my smartphone,
+uh, using their app, I could send the
+shot timer beep
+to Bluetooth, uh, and anything connected
+to this phone, uh, I will hear. So, that
+got me kind of thinking like, would it
+be better if I had Bluetooth ear
+protection? So, I'm going to tell you
+why that didn't work the way I thought
+it was going to, but let me finish the
+story. Um, so, uh, enter in the, uh, the
+research into the
+in-ear shooting protection. So, these
+are the blackouts. I'll talk a little
+bit more about them and why I picked
+them. Uh, but, uh, they have Bluetooth,
+uh, capability. So, I can connect them
+to my phone. I can hear my alerts. I can
+hear music. I can also hear my shot
+timer signal uh come in through the
+phone and then to my in- ears, which I
+thought was super cool. And I'm
+thinking, yes, this is this is version
+2.0 of this combination, right? Uh a
+wired combination. Now I'm completely
+wireless and I don't have to worry about
+I'm getting tired of things going over
+the head. Um so I thought, you know,
+these will be super cool if they're
+comfortable, which we'll talk about. But
+it didn't work. And I'll tell you why it
+didn't work. didn't work because of a
+thing called Bluetooth latency. So, uh,
+what was awesome about the wired
+solution is there's no latency uh or
+negligible. I'm sure there's probably
+technically uh some electronic latency
+uh from a from a wired signal, but it's
+imperceptible to me. Bluetooth, however,
+has inherent latency. It's it's why I'm
+a musician. I use wireless in-ear um
+packs and things like that.
+You don't use Bluetooth for that. You
+have to use some other source of uh of
+transmission because Bluetooth just
+inherently has a lot of latency. I have
+the same problem with this in latency
+with the timer. So, the timer goes off,
+goes to my phone via Bluetooth, comes to
+my in- ears via Bluetooth. It's not a
+direct connection. Uh it goes through
+the phone. So, I've got a double
+Bluetooth latency, which means when the
+shot timer goes off,
+it's about a second, no lie, before I
+hear it in my ears. So, uh, that did not
+work as expected. Now, let me qualify
+that. If I'm not really concerned about
+reaction time to that beep, then it
+works great, right? So, um, if I am just
+paying attention to using it as a go
+signal, a draw signal or a shoot signal
+or a reload signal or what have you,
+works great. It doesn't matter if it's a
+second delayed from when it actually
+occurred. Uh, because I'll hear it and
+then I'll react to it. Right? Where it
+matters is if I'm trying to use that as
+a timing function to see how fast I can
+react, how fast I can draw and take the
+first shot from the beep.
+that latency doesn't work, right?
+Because I and I I found this out the
+hard way. Like it should have been
+obvious to me, but I was dryfiring from
+concealment and it's like beep boom.
+Well, click, right? Dry fire. Um, and
+this this, by the way, this SG timer
+works really great for dryfire practice.
+I'll do a separate video on that if if
+people are interested uh in how I use
+it. But anyway,
+I was great and but I was like, man,
+I've got some really slow reaction time.
+I have really slowed down in my old age.
+Uh but, you know, I'm just doing my
+thing. Doing my thing. And then I
+realized there's no way that I've got a
+two and a half second uh shot time. Like
+no way. Like something is wrong here.
+Um, and then it dawned on me what was
+happening is uh is the timer starts
+recording the time. As soon as it
+uh releases the signal, but it takes a
+second for the signal to get to my ear.
+By the time I react, it's already been a
+second here. So, my true response time
+is whatever the time is minus about a
+second. The problem is is that's a
+variable number as well. So, I'm really
+using it as a timer. Doing it through
+Bluetooth just doesn't work. Now, uh so
+again, if I'm just using it as a go
+signal, works perfectly fine. Uh if I'm
+going to time, I can't use it as a
+Bluetooth. However, I will say when I
+was at the range, and this in this case,
+I was doing a live fire. Um I was I was
+using uh these wireless in-ears, um I
+had the Bluetooth signal, but I set it
+this time instead of to only output
+through Bluetooth. And you can adjust
+this uh which is kind of cool. Instead
+of having it just output through
+Bluetooth alone, I had it output through
+the speaker and Bluetooth, right? So, um
+that way it went both places. And quite
+frankly, I could hear the difference. I
+could hear the beep from the timer, then
+I could hear the beep in my ears.
+It very clearly demonstrated that delay,
+but u what it meant is I could still
+train the way I planned on training. Not
+quite um as as quietly like the whole
+point of of having it just come to my
+ears is nobody else has to hear my my
+shot timer. So, this doesn't work that
+well uh for that. But I can turn the
+volume way down because these amplify
+the quiet sounds, remember? Um, so, um,
+but what I could hear is, uh, when you
+have this, uh, through your phone, you
+can hear somebody say, "Ready." Um, and
+then it starts the random countdown. So,
+you know, like the beep is coming. You
+just don't know when if it's randomized.
+Um, but I would hear in my ears, ready,
+and then I would hear beep. And then I
+would react off of the first beep I
+heard, which was the shot timer, and
+then just ignore the second beep that
+came through my ears, which was the
+delayed Bluetooth version of that. Um,
+so I was still able to train with it
+just fine.
+But just know like that's a whole like
+long story
+uh about what I thought was going to be
+super cool of using uh the Bluetooth
+shot timer uh and using that as a signal
+and how I kind of failed on that. So, I
+would love it if we could get to a point
+where we could get rid of that latency.
+I don't know if it's going to happen. I
+think that there's some computational
+things that you could do where you
+measure the latency and then just ignore
+that. You know, the timer would have to
+ignore that in its calculation. Like,
+that would be a way to do it. I could
+manually do it. I don't know. It doesn't
+really matter that much to me, but I was
+kind of bummed uh that it wasn't going
+to work out as uh precisely as I had
+planned. So, anyway, let's get to this.
+Enough about shot timers. Enough about
+all these old things. I'll just leave
+them here. The Blackout. This um
+is a nice lowprofile
+earbud/protector.
+So um one of the things that I liked
+about this um first of all, there's not
+a lot of videos on this. So I was a
+little a little nervous actually. Kolon
+has uh has a video. Clearly they're a
+sponsor of his, but there's just not a
+lot of people talking about this. So, I
+don't know if they're that new or
+they're just not being uh dealt out like
+candy to influencers. I'm not sure why.
+I took a risk, though. Um, and uh, one
+of the things [snorts] is uh, the active
+noise blocking has an NRR rating of 25
+dB certified by Penn State Laboratory, a
+third party um, laboratory. So, I
+thought that was super nice. and the the
+DB reduction really. There's these and I
+think probably the axles that I looked
+at um uh the X Core Pros. Uh it was
+really between them very similar in
+price and then depending on sales and
+discounts um they kind of vary a little
+bit here and there. Um but I just this
+one seemed to have better uh overall
+noise reduction. It's IP65 sweat and
+waterproof. Um 10h hour battery life.
+case can hold three charges for an
+additional 30 hours of battery life.
+It's got 6x hearing enhancement. So
+that's the making the quiet sounds
+louder. Um so uh that's how uh you can
+hear conversations better. You can hear
+a quiet shot timer better. Uh things
+like that. So uh I'm not going to go
+through all of the marketing uh mumbo
+jumbo. I bought these. They were on a
+sell
+sell. They were on sale. Uh, that's a
+weird uh way of saying sale. U, they
+were on sale and I got them as a package
+with this. This is their non electronic
+over the ears, which I would never
+normally just wear. Um, however, um,
+there was some marketing literature that
+suggested they were designed low profile
+to fit underneath these. So, if I did
+end up doubling up, let's say I'm on an
+indoor range with a very loud um firearm
+either in my hand or next to me, which
+is usually what happens. Some guy brings
+a hand cannon uh and is shooting it by
+your head. Uh you know, sometimes
+doubling up is not a bad idea. So, I
+thought I would go ahead and get the
+package deal. These are normally like 20
+or something bucks. Like, they're not
+that expensive alone, but it was a
+package deal plus another sale I got. Um
+so, I thought I would check it out. And
+by the way, when you combine these and
+these, uh, looks like it is a 30dB noise
+reduction. So that's pretty significant.
+Um, so yeah, so that's why I ended up
+buying the package deal. Uh, it comes
+with the earbuds. It comes with three
+different levels of the uh the foam tips
+for your ears, small, medium, large. I'm
+a medium. Almost always I'm a medium.
+Uh, so I usually run with the defaults,
+although I try the others and medium
+always seems to work for me. There's
+also a pair of, they call them lifestyle
+silicone tips. They're not designed for
+noise reduction, but they are supposed
+to be more comfortable, I guess, for
+long-term wear. I don't know. I will
+tell you though, I had these in my ears.
+I forgot they were in there. I got into
+my car with them still on um and
+realized that I needed to take them off
+and put them back into their little
+charging case. I had several
+conversations with range officers and
+front office personnel at the range
+while wearing these. Um obviously I knew
+I had them in sometimes, but when I was
+done shooting, like I left the range and
+they were still in my ear. I forgot I
+was wearing them. That's how strangely
+clear uh my conversations were with
+people and also a testament to how
+comfortable they are. They did not send
+me these. I I don't even remember where
+I bought them. I might have bought them
+directly from them on a sale. I don't
+remember. Everything I'm saying about
+them is my genuine opinion. Uh and I I
+really do like them. Actually, I wasn't
+even intending on doing a video. I just
+wanted to check them out and like needed
+some new earbuds and thought the
+Bluetooth thing was going to be like a
+rockstar move which yeah, you've heard
+that story. Um, but I really like these
+and I'm the type of person that
+sometimes the wrong earbuds doesn't
+matter what type. AirPods for example.
+Um, sometimes they um they sort of tire
+out my ear like I can feel them and the
+weight of them or uh but these like they
+just like melted into my ear in a way
+that I forgot about them. So I like
+them. I have more um obviously time to
+spend with them, but all initial um
+feedback is very positive for these.
+They come with also a a USB uh ch uh
+charging cable. It's a USBC to USBA or
+USBA to USBC, I guess, if you want to go
+the right direction. Um they had a
+little sticker that said like warranty
+void if you use anything other than the
+cable that it came with. I don't know
+exactly why that would be. It's USBC,
+but it was a weird sticker. Um, actually
+I don't even know if I have it still.
+Yeah, right here.
+Warning. Use the supplied cable to avoid
+voiding the warranty. So, yeah, for
+whatever reason, that is a thing. I've
+never seen that before. That's the only
+weird thing I can note. Otherwise, nice
+compact package. Also comes in this
+larger case that has the charging cable
+and the extra uh tips.
+But when I go to the range, I'll usually
+just leave this at home and just take
+this package with me. Uh, so let me show
+you my trick, my secret for getting
+these in your ear in a way, okay,
+getting them in my ear in a way that
+really locks them in and makes them
+disappear. All right, so on each of
+these earbuds, there is a indicator.
+There's two charging little pads, and
+then there is an L for your left ear and
+an R for your right ear. I know, crazy,
+right? If I hold the letter, in this
+case R, straight up like I'm reading it
+and put that into my ear with it pointed
+up and then push in, right? So that it's
+starting to meet into my ear canal. I
+rotate it backwards.
+See if you can see that. I rotate it
+backwards and that is how it locks into
+place. So instead of trying to just push
+it in the letter straight up,
+push it into your ear
+and rotate it backwards and it just it
+locks [snorts] in for me. Um yeah, now
+I'm uh in my own little world here with
+some noise reduction. Um anyway, that is
+my tip to take them out. I just rotate
+them back
+um forward. But I've never seen anybody
+actually show this rotation for
+insertion.
+But that is what did it for me. Um that
+really helps me get them uh locked in.
+So,
+and by the way, these are touch
+sensitive. Um so once I have them in,
+the entire outer body
+uh is touch sensitive. So I can change
+low, medium, high. How much I'm um
+amplifying the quiet sounds
+um including
+mute.
+If I keep going all the way down, now
+I'm on mute now. Nothing, it's
+completely isolated. Nothing is being
+amplified. Only noise reduction is
+happening. Um so yeah, pretty cool. I
+like these. Um let me take these out.
+But yeah, the tip to getting them in is
+insert with the the letter up
+and then rotate them backwards. Um, just
+twist them into place. That worked for
+me. Um, and that was kind of the game
+changer for me. So anyway guys, that's
+it. Thanks for watching. Hope you
+enjoyed this. Maybe it was useful for
+you. I'll catch you on the next one.

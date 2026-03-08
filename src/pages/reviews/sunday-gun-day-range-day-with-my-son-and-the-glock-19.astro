@@ -1,0 +1,72 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Sunday Gun Day - Range Day with my Son and the Glock 19";
+export const description = "Join us for a day at the range focusing on marksmanship and essentials with real-world tips and techniques.";
+const youtubeId = "j2_X7epP6t4";
+const discountCode = null;
+export const date = "2018-11-19";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "N/A"
+  },
+  {
+    "label": "Product",
+    "value": "Dot Torture Target and Snap Caps"
+  },
+  {
+    "label": "Category",
+    "value": "Shooting Practice"
+  },
+  {
+    "label": "Use Case",
+    "value": "Firearms Training and Marksmanship"
+  }
+];
+const externalLinks = ["https://amzn.to/2qVlIcw"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://pistol-training.com/drills/dot-torture"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>Spending a day at the range is a rite of passage for any firearms enthusiast or family member looking to strengthen their marksmanship. In this video, we see a casual yet focused approach to firearms practice, leveraging the teachings of dot torture drills and snap caps. It's an opportunity to bond, improve skills, and re-engage with shooting fundamentals.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>What makes this session at the range particularly captivating is the emphasis not on perfection but on improvement and enjoyment. The dot torture drill serves as a foundational exercise aimed at enhancing accuracy and control. For those unfamiliar, the dot torture target focuses your aim on ten small circles that challenge your shooting precision. Insisting on hitting them cleanly before advancing distances or adding time constraints encourages shooters to hone their focus.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>Initially, shooters start close—around three yards—and work their way back, testing their ability to maintain a clean shot. The process of identifying weaknesses, whether it’s dipping the muzzle anticipating recoil or other forms of flinching, is crucial. Here’s how to leverage what you’ll see in the video:</p>
+<ol>
+<li><strong>Set Up Your Target:</strong> Begin with the dot torture target at a manageable distance.</li>
+<li><strong>Shooting Session:</strong> Fire one shot at each dot, ensuring you maintain a steady grip and controlled trigger pull.</li>
+<li><strong>Analyze Your Hits:</strong> Review your score. If any dots are missed, analyze what went wrong. Was it grip, stance, or a mental error?</li>
+<li><strong>Adjust and Retry:</strong> Move further back once you’ve achieved a clean performance, or change your shooting conditions.</li>
+<li><strong>Incorporate Snap Caps:</strong> Use dummy rounds randomly during practice to mimic the unpredictability of live fire, enhancing training realism.</li>
+</ol>
+
+<h2>Key Tips</h2>
+<p>The use of snap caps, such as those mentioned in this range video, cannot be overstated. They replicate the weight of live ammunition, allowing shooters to familiarize themselves with their firearm’s handling without the recoil. It’s a safe way to practice and expose flaws in form. Additionally, the bright orange tips help keep these reusable training tools easily identifiable amidst a sea of spent casings.</p>
+
+<h2>Key Takeaways</h2>
+<p>Ultimately, this range day is about more than just punchy shots and bullseyes; it's about mentors cultivating the next generation of confident shooters. The progress made by the young student in this video reinforces how regular practice and fundamental focus can yield impressive improvements—highlighting the importance of revisiting basics regardless of experience. Prepare to re-engage with your firearm responsibly and enjoy the learning process all over again.
+
+</article>
+
+</SiteLayout>

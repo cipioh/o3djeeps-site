@@ -248,15 +248,6 @@ strong {
   margin: 30px 0 12px;
 }
 
-	  .promo-box {
-	  margin: 22px 0 26px;
-	  padding: 18px 20px;
-	  border: 1px solid rgba(249, 115, 22, 0.35);
-	  border-left: 5px solid var(--accent);
-	  border-radius: 14px;
-	  background: linear-gradient(180deg, rgba(249, 115, 22, 0.08), rgba(249, 115, 22, 0.03));
-	  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
-	}
 	
 	.promo-kicker {
 	  margin: 0 0 8px;
@@ -382,6 +373,18 @@ strong {
 
 .specs-table > :nth-last-child(-n + 2) {
   border-bottom: 0;
+}
+
+.spec-link {
+  margin-bottom: 6px;
+}
+
+.spec-link:last-child {
+  margin-bottom: 0;
+}
+
+.specs-value a {
+  word-break: break-word;
 }
 
 @media (max-width: 720px) {

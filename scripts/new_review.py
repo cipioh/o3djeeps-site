@@ -82,6 +82,6 @@ subprocess.run(
 )
 
 subprocess.run(
-    ["python", "scripts/generate_review.py", title, slug, video_id, publish_date],
+    [sys.executable, "scripts/generate_review.py", title, slug, video_id, publish_date],
     check=True,
 )

@@ -1,0 +1,65 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Sig Sauer P365 Range Day";
+export const description = "Exploring the reliability and performance of the Sig Sauer P365 after extensive shooting experience.";
+const youtubeId = "xGvh6V6eXjA";
+const discountCode = null;
+export const date = "2020-01-04";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "Sig Sauer"
+  },
+  {
+    "label": "Product",
+    "value": "P365"
+  },
+  {
+    "label": "Category",
+    "value": "Handgun"
+  },
+  {
+    "label": "Use Case",
+    "value": "Concealed Carry and Personal Defense"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="#"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>The Sig Sauer P365 has garnered significant attention since its launch, becoming a go-to choice for concealed carry enthusiasts. Known for its compact size and impressive magazine capacity, we dive into a discussion about its performance and practical implications for everyday users.</p>
+
+<h2>Main Discussion Points</h2>
+<p>After putting a few hundred rounds through the P365, it's easy to understand why so many consider it a standout pistol. The reliability is unmatched, with no malfunctions, jams, or failures to feed noted during testing. Such a track record can instill great confidence for those relying on it for personal protection.</p>
+<p>One of the most appealing features of the P365 is its size. It manages to fit comfortably in everyday carry situations while still accommodating a double-stack magazine that holds 10+1 rounds. This is a game changer in the world of concealed carry, where lower capacity often comes with smaller firearms. The P365 breaks that mold, giving carriers the peace of mind that they won't be under-gunned when they need it most.</p>
+<p>Additionally, the ergonomics of the P365 enhance the shooting experience. The grip is designed to accommodate a range of hand sizes while allowing for a firm hold. The controls are well-placed, facilitating a smooth operation, especially important during high-stress situations. The trigger pull is another highlight; it provides a clean break with a reassuring reset that aids in maintaining accuracy during rapid fire.</p>
+
+<h2>Practical Implications</h2>
+<p>Everyday shooters, law enforcement officers, and self-defense advocates will find the P365 appealing. Its versatility makes it suitable for various scenarios. From a leisurely day at the range to the more serious context of self-defense, the P365 stands tall. It’s beneficial for those who may not have the luxury of time to practice regularly; the gun’s reliability means you can spend your time focusing on fundamental skills rather than worrying about your equipment.</p>
+<p>Moreover, the expanding accessory market for the P365, including holsters, lights, and sight upgrades, further boosts its viability as a personal defense weapon. Those looking to customize their carry setup will find plenty of options without compromising on the compact nature of the firearm.</p>
+
+<h2>Key Takeaways</h2>
+<p>The Sig Sauer P365 is more than just a well-marketed handgun; it’s a reliable companion for concealed carry. With a proven performance record and thoughtful design, it answers the needs of both seasoned shooters and newcomers alike. If you're on the fence about whether this compact pistol is right for you, the outstanding reliability and user-friendly features make it a worthy consideration.</p>
+
+</article>
+
+</SiteLayout>

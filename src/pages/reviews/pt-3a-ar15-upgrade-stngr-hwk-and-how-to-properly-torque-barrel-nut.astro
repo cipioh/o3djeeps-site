@@ -1,0 +1,77 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "PT 3A : AR15 UPGRADE - STNGR HWK AND HOW TO PROPERLY TORQUE BARREL NUT";
+export const description = "Learn how to upgrade your AR-15 with the STNGR HWK handguard and properly torque the barrel nut for optimal performance.";
+const youtubeId = "NOXEz_P_K-o";
+const discountCode = null;
+export const date = "2019-02-09";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "STNGR"
+  },
+  {
+    "label": "Product",
+    "value": "HWK Free Float Handguard"
+  },
+  {
+    "label": "Category",
+    "value": "AR-15 Upgrades"
+  },
+  {
+    "label": "Use Case",
+    "value": "Firearms Customization and Maintenance"
+  }
+];
+const externalLinks = ["https://youtu.be/fiS30g3untU", "https://youtu.be/Of2ErgzqkXw", "https://amzn.to/2DkiRj8", "https://www.stngrusa.com/ultimate-hwk-m-lok-bundle/"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="https://youtu.be/NOXEz_P_K-o"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>In the world of AR-15 builds, upgrading components for enhanced performance and aesthetics is a common goal among enthusiasts. One such upgrade is the transition to a free float handguard, specifically the STNGR HWK Free Float Handguard. In this comprehensive guide, I’ll walk you through the installation of this handguard while also highlighting the essential technique for properly torquing the barrel nut—a critical part of ensuring long-term functionality and reliability.</p>
+
+<h2>What This Video Demonstrates</h2>
+<p>The video focuses on part 3A of a broader AR-15 build series, where the installation of the STNGR HWK handguard takes center stage. It explains the hardware involved, particularly the barrel nut that is crucial to the handguard’s stability. The video not only covers the installation process but also emphasizes a technical aspect of firearm assembly that is frequently overlooked—the proper way to torque the barrel nut using a torque wrench and crows foot attachment. This technique is integral to preventing misalignment and ensuring that all components are securely fastened.</p>
+
+<h2>Step-by-Step Explanation</h2>
+<p>1. **Preparation and Cleaning**: Before you begin, make sure the barrel and upper receiver are clean and free from debris. This step is crucial for a smooth installation. The video shows a meticulous approach to cleaning the threads of the barrel where the barrel nut will be installed.</p>
+
+<p>2. **Applying Anti-Seize Compound**: To prevent corrosion and ease future disassembly, apply a marine-grade non-metallic anti-seize compound to the threads. This is covered in detail, emphasizing both the application of the compound and the 'seasoning' technique where you thread it on tightly and then back it off to ensure thorough coverage.</p>
+
+<p>3. **Installing the Barrel Nut**: The barrel nut is threaded on hand-tight initially, and then you'll use the torque wrench and crows foot method mentioned in the video. It’s vital to maintain 90 degrees between the torque wrench and the handle to achieve accurate torque readings.</p>
+
+<p>4. **Torque Specifications**: Set your torque wrench to the recommended specifications—starting from 30 foot-pounds and then backing off before applying a final torque setting of 40 foot-pounds. The gradual adjustment prevents over-torquing and allows for proper seating of the barrel nut.</p>
+
+<p>5. **Final Tightening and Verifying**: After reaching the desired torque, check the alignment of the gas tube to ensure everything fits snugly without needing to clock the barrel nut. This step is essential with the kind of barrel nut design used in this handguard, as it alleviates any alignment issues that could result in improper gas flow.</p>
+
+<h2>Key Tips</h2>
+<ul>
+<li>Make sure your crows foot is positioned at a 90-degree angle to the torque wrench. Doing this incorrectly can lead to inaccurate torque specifications.</li>
+<li>Avoid using the torque wrench to loosen fasteners post-tightening. Instead, have a breaker bar on hand to mitigate wear and tear on the torque tool.</li>
+<li>Consider using high-quality anti-seize compound suitable for high temperatures to ensure durability.</li>
+</ul>
+
+<h2>Key Takeaways</h2>
+<p>The act of upgrading your AR-15 with components like the STNGR HWK handguard not only enhances the functionality of your firearm but also promotes a more personalized shooting experience. Following the proper torque techniques when installing the barrel nut is just as critical as choosing the right parts for your build. It ensures that your upgrades maintain their integrity under use, ultimately contributing to stability and performance. As you dive into your next AR build, keep these tips in mind to maximize the potential of your firearm while also enjoying the process of customization.</p>
+
+</article>
+
+</SiteLayout>

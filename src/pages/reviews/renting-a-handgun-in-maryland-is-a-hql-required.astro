@@ -1,0 +1,67 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import PromoBox from "../../components/PromoBox.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Renting a Handgun in Maryland. Is a HQL Required?";
+export const description = "Discover the requirements for renting a handgun in Maryland, including the role of the Handgun Qualification License (HQL).";
+const youtubeId = "cURc7hC-x-E";
+const discountCode = null;
+export const date = "2019-03-12";
+const specs = [
+  {
+    "label": "Brand",
+    "value": "N/A"
+  },
+  {
+    "label": "Product",
+    "value": "Handgun Rental"
+  },
+  {
+    "label": "Category",
+    "value": "Firearms Training"
+  },
+  {
+    "label": "Use Case",
+    "value": "Renting a Handgun"
+  }
+];
+const externalLinks = ["http://www.bowietacticalconcepts.com/"];
+---
+
+<SiteLayout title={`${title} | blasterKRAFT`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink="http://blasterKRAFT.com/"
+  buyText="View Product →"
+  discountCode={discountCode}
+  showPromo={Boolean(discountCode)}
+  specs={specs}
+  date={date}
+/>
+
+<h2>Overview</h2>
+<p>Renting a handgun can be an exciting way to explore different models and find the right fit for your shooting needs, especially when you're not ready to commit to a purchase. However, the process can also be surrounded by legal intricacies that vary from state to state. In Maryland, one critical piece of the puzzle is the Handgun Qualification License (HQL). This article explores the nuances of renting a handgun in Maryland, specifically examining whether an HQL is required and what you need to know before you step into a range.</p>
+
+<h2>Main Discussion Points</h2>
+<p>As laid out in current Maryland law, since October 1, 2013, individuals must possess an HQL to purchase, rent, or receive a handgun. At first glance, this would imply that to rent a handgun at a range, one must indeed hold this license. Yet, there are caveats that allow for exceptions under particular conditions.</p>
+<p>The key takeaway here is that while the law designates 'renting' a handgun as a condition requiring an HQL, it does not apply to merely using a handgun at the range under the supervision of the range owner. This is where the law distinguishes between physically removing a firearm from the premises and utilizing it under controlled conditions, thereby bypassing the HQL requirement for shooting on-site.</p>
+<p>From personal experience at various ranges in Maryland, it's apparent that few, if any, inquiries are made regarding the shooter's experience or familiarity with firearms when individuals come to rent handguns. A driver's license is typically all that’s required, which can raise some concerns regarding safety and shooting proficiency among rental users. It reinforces the notion that while it’s easy to access rental handguns, there might be an element of self-responsibility and a critical need for self-education about firearm safety in play.</p>
+
+<h2>Practical Implications</h2>
+<p>The implications of this rule extend beyond just convenience for shooters. They highlight a significant cultural and legal divide on how firearms are approached in Maryland compared to other states. It presents an interesting situation where individuals can rent firearms without prior instruction or a demonstration of their handling skills, potentially resulting in unsafe practices at shooting ranges. Gun rental policies may vary across different locations, and while some ranges offer comprehensive rentals with instruction, others simply hand over the firearm with little to no oversight.</p>
+<p>For educators and firearms instructors like myself, ensuring that future shooters have the opportunity to receive proper training is critical. Understanding the legality surrounding handgun rentals can help inform more responsible practices and also encourage shooting ranges to adopt stricter guidelines for facilitating safe firearm use.</p>
+<h2>Key Takeaways</h2>
+<p>1. In Maryland, you do not need an HQL to rent a handgun as long as you are using it on the range and do not intend to leave with the firearm.</p>
+<p>2. Ranges may have lax policies regarding renting firearms, which can lead to safety concerns.</p>
+<p>3. When renting a handgun, individuals should take personal responsibility for understanding firearm safety practices and seek out training opportunities whenever possible.</p>
+<p>4. Laws surrounding firearms rental can vary significantly by location, so it’s essential for renters to familiarize themselves with local statutes and range policies before engaging in rentals.</p>
+
+</article>
+
+</SiteLayout>
