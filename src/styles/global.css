@@ -58,22 +58,33 @@ img {
   margin-bottom: 30px;
 }
 
+/* =========================
+   Header / Brand Shell
+   ========================= */
+
 .brand-hero {
   background: #000;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  overflow: hidden;
   box-shadow: 0 12px 32px var(--shadow);
+  position: relative;
+  overflow: visible;
+}
+/* Keep rounded clipping only where needed */
+.brand-banner-wrap {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
 }
 
 .brand-banner-wrap {
   position: relative;
   background: #000;
-}
-
-.brand-banner-wrap > a:first-child {
-  display: block;
-  line-height: 0;
+  overflow: hidden;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
 }
 
 .brand-banner-image {
@@ -84,9 +95,6 @@ img {
 }
 
 .brand-avatar {
-  position: absolute;
-  left: 32px;
-  top: 150px;
   width: 132px;
   height: 132px;
   border-radius: 999px;
@@ -94,6 +102,13 @@ img {
   border: 4px solid #111111;
   background: #000;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+}
+.brand-avatar-link {
+  position: absolute;
+  left: 32px;
+  top: 150px;
+  z-index: 20;
+  display: block;
 }
 
 .brand-profile {
@@ -103,6 +118,8 @@ img {
   align-items: center;
   padding: 26px 28px 18px;
   background: #0d0d0d;
+  position: relative;
+  z-index: 5;
 }
 
 .brand-profile-spacer {
@@ -139,23 +156,50 @@ img {
   font-size: 1rem;
 }
 
+/* =========================
+   Sticky Navigation
+   ========================= */
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: #ff6a00;
+}
+
 .site-nav {
   display: flex;
+  align-items: center;
   gap: 18px;
   flex-wrap: wrap;
   padding: 15px 24px;
-  background: var(--panel);
-  border-top: 1px solid var(--border);
+  margin-top: 12px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(10, 10, 10, 0.96);
+  backdrop-filter: blur(6px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
 .site-nav a {
   color: var(--text);
   font-weight: 700;
   letter-spacing: 0.2px;
+  padding-bottom: 4px;
 }
 
 .site-nav a:hover {
   color: var(--accent-2);
+}
+
+.nav-divider {
+  border-left: 1px solid #444;
+  margin: 0 1rem;
+  height: 18px;
 }
 
 .content-card {
@@ -164,6 +208,8 @@ img {
   border-radius: var(--radius);
   padding: 30px;
   box-shadow: 0 12px 30px var(--shadow);
+  position: relative;
+  z-index: 1;
 }
 
 article {
@@ -220,11 +266,21 @@ li {
   border: 1px solid var(--border);
   background: #000;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
 }
 
 .video-frame iframe {
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .meta-note {
@@ -248,31 +304,16 @@ strong {
   margin: 30px 0 12px;
 }
 
-	
-	.promo-kicker {
-	  margin: 0 0 8px;
-	  font-size: 0.82rem;
-	  font-weight: 800;
-	  text-transform: uppercase;
-	  letter-spacing: 0.08em;
-	  color: var(--accent-2);
-	}
-	
-	.promo-text {
-	  margin: 0 0 10px;
-	  font-size: 1.05rem;
-	  line-height: 1.6;
-	  color: #ffffff;
-	}
-	
-	.promo-link {
-	  margin: 0;
-	}
-	
-	.promo-link a {
-	  font-weight: 700;
-	}
-	
+/* Legacy promo text helpers */
+.promo-kicker {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-2);
+}
+
 /* Homepage article cards */
 .article-grid {
   display: grid;
@@ -296,19 +337,18 @@ strong {
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
   border-color: #3a3a3a;
 }
-.article-card-image {
-  transition: transform .2s ease, filter .2s ease;
-}
 
-.article-card:hover .article-card-image {
-  transform: scale(1.02);
-  filter: brightness(1.05);
-}
 .article-card-image {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   background: #000;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.article-card:hover .article-card-image {
+  transform: scale(1.02);
+  filter: brightness(1.05);
 }
 
 .article-card-body {
@@ -329,6 +369,8 @@ strong {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
+/* Specs box */
 .specs-box {
   margin: 28px 0;
   padding: 20px 22px 18px;
@@ -387,23 +429,21 @@ strong {
   word-break: break-word;
 }
 
-@media (max-width: 720px) {
-  .specs-table {
-    grid-template-columns: 1fr;
-  }
-
-  .specs-label {
-    border-right: 0;
-    border-bottom: 0;
-    padding-bottom: 4px;
-  }
-
-  .specs-value {
-    padding-top: 0;
-    padding-bottom: 14px;
-  }
+/* Site disclaimer */
+.site-disclaimer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+  font-size: 0.85rem;
+  color: #aaa;
+  line-height: 1.6;
 }
 
+.site-disclaimer p {
+  margin-bottom: 0.75rem;
+}
+
+/* Review hero */
 .review-hero {
   margin-bottom: 40px;
 }
@@ -415,43 +455,7 @@ strong {
   margin-bottom: 22px;
 }
 
-@media (max-width: 900px) {
-  .brand-banner-image {
-    height: 180px;
-  }
-
-  .brand-avatar {
-    left: 24px;
-    top: 122px;
-    width: 112px;
-    height: 112px;
-  }
-
-  .brand-profile {
-    grid-template-columns: 128px 1fr;
-    gap: 20px;
-    padding: 22px 22px 16px;
-  }
-
-  .brand-profile-spacer {
-    width: 128px;
-  }
-
-  .content-card {
-    padding: 24px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .article-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Promo box */
-
 .promo-box {
   margin: 22px 0 26px;
   padding: 20px 22px;
@@ -513,20 +517,39 @@ strong {
   color: #ffb37a;
 }
 
-.video-frame {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
+@media (max-width: 900px) {
+  .brand-banner-image {
+    height: 180px;
+  }
 
-.video-frame iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+  .brand-avatar {
+    left: 24px;
+    top: 122px;
+    width: 112px;
+    height: 112px;
+  }
+
+  .brand-profile {
+    grid-template-columns: 128px 1fr;
+    gap: 20px;
+    padding: 22px 22px 16px;
+  }
+
+  .brand-profile-spacer {
+    width: 128px;
+  }
+
+  .content-card {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 720px) {
@@ -582,4 +605,18 @@ strong {
     font-size: 1.2rem;
   }
 
+  .specs-table {
+    grid-template-columns: 1fr;
+  }
+
+  .specs-label {
+    border-right: 0;
+    border-bottom: 0;
+    padding-bottom: 4px;
+  }
+
+  .specs-value {
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
 }

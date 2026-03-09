@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Where Will This Bullet Go? Red Dot Optics, Parallax, and Shot Placement";
-export const description = "Explore the mechanics of red dot optics and parallax in shooting. Gain insights to enhance your accuracy and shooting experience.";
+export const description = "Dive into the world of red dot optics, parallax, and shot placement in our latest video discussion!";
 const youtubeId = "mSK5k2lKOek";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2018-12-27";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Optics, Shooting & Training"
+  },
   {
     "label": "Brand",
     "value": "Trijicon"
   },
   {
     "label": "Product",
-    "value": "RMR Type 2"
-  },
-  {
-    "label": "Category",
-    "value": "Optics"
+    "value": "RMR Type 2 6.5 MOA"
   },
   {
     "label": "Use Case",
-    "value": "Shooting, Training"
+    "value": "Understanding red dot parallax and shot placement"
   }
 ];
-const externalLinks = ["https://amzn.to/2ReKvaf"];
+const externalLinks = [{"label": "Bowie Tactical Concepts", "url": "http://www.bowietacticalconcepts.com/"}, {"label": "Trijicon RMR Type 2 6.5 MOA", "url": "https://amzn.to/2ReKvaf"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,33 +39,38 @@ const externalLinks = ["https://amzn.to/2ReKvaf"];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="http://www.bowietacticalconcepts.com/"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>In the dynamic world of shooting, understanding the function of red dot optics and the effects of parallax can mean the difference between hitting your target and missing entirely. Many shooters find themselves grappling with the nuances of sight alignment versus point of aim, particularly when transitioning to red dot sights from traditional iron sights. This article delves into the complexities of red dot optics and parallax, highlighting insights that can elevate your shooting skills.</p>
+<p>Red dot optics have revolutionized the way shooters align their sights and engage targets, offering both speed and accuracy in dynamic shooting scenarios. This video, hosted by Scipio, delves into a critical yet often misunderstood aspect of red dot shooting: parallax. With insights from David Bowie of Bowie Tactical Concepts, the discussion aims to clarify how parallax affects shot placement and why it matters to both new and seasoned red dot users.</p>
 
 <h2>Main Discussion Points</h2>
-<p>One of the most significant challenges for new red dot shooters is grasping the concept of parallax and how it differs from traditional sighting systems. With iron sights, precise alignment is crucial; a misalignment directly affects where the bullet will impact. However, red dot optics offer a unique advantage: they are largely parallax-free within a certain range, meaning the shooter can still hit their target even if the dot isn't perfectly centered within the sight window. This allows for greater flexibility in positioning while aiming.</p>
-<p>David Bowie, a respected pistol gunsmith, emphasizes the benefit of red dot sights in reducing the cognitive load on shooters. Unlike traditional sights that require meticulous alignment of the front and rear sights, a red dot shooter only needs to ensure the dot is on the target. When positioned correctly, the bullet will generally follow the dot, thus simplifying the shooting process.</p>
-<p>This shift in perspective can take some practice. Many new shooters slow down in their process by trying to align their sights before searching for the dot. While this method can be beneficial for beginners, it can become a hindrance as they advance. Instead, focusing on where the dot is on the target and pulling the trigger can lead to improved shooting speed and accuracy.</p>
-<p>Furthermore, a common misconception is that the dot must be perfectly centered in the sight's window. This isn't true; as long as the dot is positioned correctly on the target, it doesn't matter its location within the window. This can empower shooters to take shots more quickly and confidently, reducing the time spent aligning their sights.</p>
+<p>In the video, Scipio emphasizes the confusion many shooters face when transitioning from traditional iron sights to red dot optics. One of the main points is the misconception surrounding parallax and how it influences where the bullet actually strikes the target. Traditionally, shooters align their front and rear sights to ensure their shot is on target. However, with a red dot, the dynamics change significantly. The dot doesn't require the same alignment to hit your intended mark.</p>
+
+<p>This understanding is crucial, as Scipio explains how the bullet goes where the dot is—a fact that leads to faster shooting if shooters can let go of the rigid habits ingrained from iron sight use. Instead of aiming to center the dot in the optic housing, the focus should be on placing the dot on the target. As Scipio mentions, shooters often waste precious time ensuring the dot is perfectly centered, which can ultimately hinder performance and speed.</p>
+
+<p>Fatigue and frustration can set in when shooters are overly concerned about alignment, especially in high-pressure environments. Scipio's practical demonstration at the range shows viewers real-world examples of shots taken with the red dot placed in various positions within the window, demonstrating that as long as the dot is over the target, the shot will align correctly.</p>
 
 <h2>Practical Implications</h2>
-<p>Understanding the principles of red dot optics and parallax can significantly improve your shooting experience, whether for sport, tactical training, or personal defense. By internalizing these concepts, shooters can eliminate unnecessary hesitation and focus on what truly matters: putting rounds on target. Arm yourself with this knowledge before you step onto the range, and it will serve you well in competition and practice.</p>
-<p>Practicing your skills in various shooting positions can also help. It’s valuable to simulate scenarios where the dot may not align perfectly with your line of sight. By learning to recognize that the shot will still land where the dot is situated on the target, you'll grow more comfortable and confident in using red dot optics effectively.</p>
+<p>The insights shared in this video extend beyond just mechanics; they touch on the mental aspect of shooting. For those training to become proficient in using red dots, this video acts as a reminder to trust the equipment. Understanding that parallax is not the enemy, but rather a different visual relationship between the shooter and their target means more confidence during engagements.</p>
+
+<p>This message is particularly relevant for everyday shooters who might find themselves hesitating during critical moments, needing reassurance that accuracy can still be achieved without overthinking sight alignment.</p>
 
 <h2>Key Takeaways</h2>
-<p>1. Red dot optics reduce parallax concerns, allowing for more flexibility in aiming.</p>
-<p>2. The dot doesn't need to be centered; as long as it’s on target, take the shot.</p>
-<p>3. Avoid aligning the front and rear sights before looking for the dot; focus on the dot’s position on the target instead.</p>
-<p>4. Practice shooting from different positions to build confidence and adaptability with your red dot sights.</p>
-<p>By understanding and applying these principles, shooters can enhance their performance and enjoy the advantages that red dot optics bring to shooting sports and self-defense scenarios alike.</p>
+<ul>
+  <li>The bullet will impact where the dot is placed on target, regardless of its position within the optic.</li>
+  <li>Overthinking parallax and sight alignment can hinder shooting performance and speed.</li>
+  <li>Practice with red dot optics should focus on placing the dot where you want the bullet to go, rather than centering the dot.</li>
+  <li>Real-world visualizations enhance understanding and reinforce good shooting habits with red dots.</li>
+</ul>
 
 </article>
 

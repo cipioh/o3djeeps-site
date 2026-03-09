@@ -1,14 +1,20 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "What I Carry in My Eberlestock Bando Bag | Real-World CCW Setup & Long-Term Review";
-export const description = "Explore the Eberlestock Bando Bag for concealed carry with insights from real-world usage.";
+export const description = "Explore the Eberlestock Bando Bag for EDC and concealed carry, featuring real-world insights and setup tips.";
 const youtubeId = "YnJyoVHK6bM";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2026-01-30";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Concealed Carry, Gear & Accessories"
+  },
   {
     "label": "Brand",
     "value": "Eberlestock"
@@ -18,15 +24,11 @@ export const specs = [
     "value": "Bando Bag"
   },
   {
-    "label": "Category",
-    "value": "EDC Gear"
-  },
-  {
     "label": "Use Case",
-    "value": "Concealed Carry"
+    "value": "Everyday Carry (EDC)"
   }
 ];
-const externalLinks = ["https://amzn.to/4a3OqNf", "https://amzn.to/4qjLXEQ|", "https://amzn.to/4q2ewWV", "https://amzn.to/4qTGFkr", "https://amzn.to/4c7My8O", "https://amzn.to/3Z90wzU"];
+const externalLinks = [{"label": "UPDATE: Viktos does sell that holster separately!", "url": "https://a.co/d/9dc7V74"}, {"label": "Eberlestock Bando Bag", "url": "https://amzn.to/4a3OqNf"}, {"label": "Chums Surfshorts Wallet", "url": "https://amzn.to/4qjLXEQ|"}, {"label": "VIKTOS Upscale Tactical Slingbag", "url": "https://amzn.to/4q2ewWV"}, {"label": "OLIGHT Arkfeld Pro Rechargeable EDC Flat Flashlight", "url": "https://amzn.to/4qTGFkr"}, {"label": "HOLOSUN EPS Carry", "url": "https://amzn.to/4c7My8O"}, {"label": "Trijicon RMR", "url": "https://amzn.to/3Z90wzU"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,35 +39,31 @@ const externalLinks = ["https://amzn.to/4a3OqNf", "https://amzn.to/4qjLXEQ|", "h
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://a.co/d/9dc7V74"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
-<h2>Quick Verdict</h2>
-<p>The Eberlestock Bando Bag is a versatile sling bag catering to EDC enthusiasts, offering a compact yet functional design for concealed carry. Its practical layout and ease of use make it a solid choice for those looking for a discreet carry solution.</p>
+<h2>Overview</h2>
+<p>The Eberlestock Bando Bag has carved a niche for itself among daypack enthusiasts, particularly for concealed carry practitioners looking for versatility and ease. In the latest video, the reviewer dives into his personal experience with this bag, discussing not only its functionality but also how it integrates into an everyday carry (EDC) setup.</p>
 
-<h2>What Makes This Review Different</h2>
-<p>Many gear reviews focus on the specs or theoretical benefits of a product, but this review stems from a real-world usage perspective. I've been carrying the Bando Bag for over a year, providing a genuine insight into its performance, functionality, and how it integrates into daily life.</p>
+<h2>Main Discussion Points</h2>
+<p>The first aspect to discuss is the size and design of the bag itself. The Bando Bag is designed to be compact, making it easy to use in various scenarios—be it errands in the grocery store or casual outings. Equipped with minimal pockets, this bag avoids clutter while allowing sufficient storage for essential items like a handgun, spare magazine, wallet, and even a flashlight. For the reviewer, a primary advantage is the bag's ability to blend into everyday life without the overtly tactical look that some CCW bags exhibit.</p>
 
-<h2>Design and Layout</h2>
-<p>The Eberlestock Bando Bag is simple yet effective in its design. Constructed with durable materials, it combines functionality with a low-profile aesthetic. The cobalt blue color stands out as a non-tactical option, allowing it to blend into everyday environments, like grocery stores or casual outings. The bag offers a single main compartment that can hold all your essentials without becoming cluttered.</p>
+<p>Regarding carry options, the reviewer highlights the unique adaptability of the bag. The fact that it can be worn crossbody or in front allows for quick access to the firearm, an essential feature for any bag designed for concealed carry. The added strap can make it even easier to adjust the fit to the user's preference. Although the reviewer notes that this option isn’t always the most comfortable, especially for larger users, it still allows flexibility for carrying the bag securely while maintaining access to the contents.</p>
 
-<p>It features a kangaroo pouch area which is where the versatility truly shines. This pocket allows for secure firearm storage while maintaining quick access, a crucial factor for concealed carry setups. The Bando Bag's adjustable strap accommodates various carrying styles, whether it’s crossbody or straight in front. However, for larger firearms, you will need to consider the size options available, as the standard version might not accommodate larger builds comfortably.</p>
+<h2>Practical Implications</h2>
+<p>From a practical standpoint, the Eberlestock Bando Bag showcases how one can carry firearms discreetly without sacrificing accessibility. The reviewer discusses using a holster that fits the bag perfectly, which improves both safety and ease of access. However, he also points out that not all provided features may work for everyone, particularly a Velcro strap that some find ineffective for securing their firearm. This is important for prospective buyers to consider; modifications may be necessary for the best personal fit.</p>
 
-<h2>Real-World Use</h2>
-<p>My experience with the Eberlestock Bando Bag has been overwhelmingly positive. The ease of accessing my Sig P365 XM macro is commendable. Simply unzipping the bag opens it wide enough to retrieve my firearm without fumbling, a critical aspect for defensive carry. What I appreciate more is the bag’s design encouraging a minimalist EDC setup. I’ve carried only a few essential items such as my wallet, a spare magazine, and a flashlight, which reduces bulk and enhances mobility.</p>
-
-<p>This bag excels in scenarios requiring discretion; I've worn it casually without drawing attention, making it ideal for non-permissive environments. However, if you're the type to carry more gear or larger firearms, you might want to consider the XL version. The design, though compact, enforces a limit on what you can comfortably carry alongside a firearm.</p>
-
-<h2>Who This Product May Be For</h2>
-<p>The Eberlestock Bando Bag is perfect for urban dwellers, casual shooters, and EDC enthusiasts who value discretion without sacrificing functionality. If you appreciate a sleek design and minimalistic approach to everyday carry, this bag fits the bill. Its size and layout make it well-suited for those who prefer lighter loads but still want dependable access to their firearm. Given my preference for a grab-and-go solution due to my lifestyle, this bag aligns well with anyone looking to simplify their daily carry routine.</p>
+<p>In terms of EDC bag compromises, the reviewer mentions the limitations of packing larger firearms in the bag while maintaining a comfortable, low profile carry. For those who prefer a more significant firearm, considering their option with the XL version of the Bando Bag is advisable.</p>
 
 <h2>Key Takeaways</h2>
-<p>In conclusion, the Eberlestock Bando Bag stands out as a practical EDC option, particularly for concealed carry. Its understated design, combined with real-world usability, enable it to meet the needs of daily life while prioritizing safety and accessibility. Whether you are upgrading from a standard bag to a more tactical feel or simply seeking a new carry solution, the Bando Bag warrants consideration. Its unique features like the kangaroo pouch and generous main compartment offer a reassuringly safe place for your essentials. After a year of use, this bag has become a trusted part of my daily life, and it is worth a closer look if you're in the market for a new EDC companion.</p>
+<p>The Eberlestock Bando Bag is a commendable choice for anyone seeking a practical EDC bag that caters to concealed carry needs. It embodies the essence of discreet carry while providing sufficient storage for daily essentials. The bag's design is adaptable, making it suitable for various lifestyles, particularly for individuals who appreciate functionality over tactical aesthetics. The reviewer recommends this bag for those looking for something anti-tactical but effective for EDC and CCW, accompanied by personalized tweaks and needs assessment for optimal performance.</p>
 
 </article>
 

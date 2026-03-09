@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "How a Glock Armorer Removes Magazine Baseplates!";
-export const description = "Learn the easiest method to remove Glock magazine base plates using a simple punch. Perfect for enthusiasts and new Glock owners.";
+export const description = "Learn the easiest method to remove Glock magazine baseplates using basic tools. Perfect for beginners and Glock enthusiasts alike.";
 const youtubeId = "iD5hSyQoaKI";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2019-03-20";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Shooting & Training"
+  },
   {
     "label": "Brand",
     "value": "Glock"
   },
   {
     "label": "Product",
-    "value": "Glock Magazine Base Plate Removal"
-  },
-  {
-    "label": "Category",
-    "value": "Shooting Gear"
+    "value": "Magazine Baseplate Removal"
   },
   {
     "label": "Use Case",
-    "value": "Disassembling Glock magazines for maintenance"
+    "value": "Disassemble Glock magazines for maintenance"
   }
 ];
-const externalLinks = [];
+const externalLinks = [{"label": "Glock Armorer's Tool on Amazon $6 with Free Prime Shipping!", "url": "https://amzn.to/2FfwmBw"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,38 +39,43 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://amzn.to/2FfwmBw"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>Removing the base plate from a Glock magazine might seem like a daunting task, especially for new gun owners or those who have never attempted it before. However, there's a straightforward method that not only simplifies the process but also emphasizes the importance of using the right technique. In this guide, we'll be diving into the easiest way to disassemble Glock magazines, leveraging simple tools you likely already have in your toolkit.</p>
+<p>Everyone's favorite polymer pistol, the Glock, has become a staple in the firearms community not just for its reliability but for its versatility as well. For many Glock owners, understanding how to maintain crucial components like the magazine is essential. One of the tasks that often challenges new Glock users is removing the magazine baseplates. In this tutorial, I'll guide you through the tried-and-true method recommended for Glock armorers, ensuring you can perform this task effortlessly and with minimal tools.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>The video features a certified Glock Armorer demonstrating a tried-and-true method for removing a Glock magazine's base plate using nothing but a punch. This method stands in stark contrast to many complicated approaches seen online that often suggest using elaborate devices or techniques. Instead, the focus here is on an approach that is not only cost-effective but also practical.</p>
+<p>The video showcases a straightforward method to remove the baseplate of a Glock magazine using just a punch or a small screwdriver. It emphasizes the ease of the process, which can be done without investing in expensive tools or special contraptions. The demonstration comes from a certified Glock armorer, ensuring the reliability of the method.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<ol>
-  <li><strong>Gather Your Tools:</strong> You will need a standard punch or a small screwdriver. Both tools are effective for the task, and you don’t need anything fancy or expensive.</li>
-  <li><strong>Locate the Divot:</strong> At the bottom of your Glock magazine, you will find a small divot or hole. This is where you will apply the punch.</li>
-  <li><strong>Apply Pressure:</strong> Using your punch, gently press down into the divot. This will release the retention mechanism that holds the base plate in place.</li>
-  <li><strong>Rotate the Base Plate:</strong> Once you have pressed down sufficiently, rotate the base plate forward. With a bit of practice, you'll get the feel for the motion. The key is to envision the base plate pivoting to disconnect from the magazine body.</li>
-  <li><strong>Remove the Base Plate:</strong> After successfully rotating the base plate, you can lift it off completely and access the inside of the magazine for cleaning or maintenance.</li>
-</ol>
+<p>1. **Gather Your Tools**: All you need is a standard punch or a small screwdriver. For those leaning towards the recommended punch, options are readily available online or in stores at affordable prices.
+</p>
+<p>2. **Find the Divot**: Look for the small divot hole located at the bottom of the magazine baseplate. This is where you'll apply pressure to release the baseplate latch.
+</p>
+<p>3. **Apply Pressure**: Using your punch, gently press down into the divot. You want to push it down far enough to compress the latch.
+</p>
+<p>4. **Rotate the Baseplate**: Once the latch is compressed, you can rotate the baseplate forward. Doing so releases the baseplate from its grip, allowing it to come off easily.
+</p>
+<p>5. **Retrieve the Baseplate Lock**: After the baseplate is free, ensure you collect the baseplate lock as well for reassembly later.</p>
 
 <h2>Key Tips</h2>
 <ul>
-  <li><strong>Practice Makes Perfect:</strong> This technique might take a few tries to master, so don’t get discouraged if it doesn’t work perfectly the first time. With repetition, it will become second nature.</li>
-  <li><strong>No Need for Special Tools:</strong> While there are aftermarket tools available that can make this job easier, they are not necessary. The method demonstrated here provides an effortless way to achieve the same result without the extra cost.</li>
-  <li><strong>Safety First:</strong> Always ensure that your magazine is unloaded before attempting any disassembly. Safety should always be your top priority when handling firearms.</li>
+  <li>Practice makes perfect. It may take a few tries to get a feel for the technique, but it becomes second nature with time.</li>
+  <li>Don’t rush the process; make sure you're applying just the right amount of pressure.</li>
+  <li>Always work on a clean surface to avoid losing small parts.</li>
+  <li>If you're nervous about damaging the magazine, practice first on an old or spare magazine if you have one.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>Disassembling a Glock magazine is a straightforward process that can be accomplished by anyone with the right technique and a couple of essential tools. By following the steps outlined above, you’ll quickly learn how to remove base plates effectively, making regular maintenance simpler and more efficient. Remember, as with any skill, practice will enhance your proficiency and confidence in working with your gear. Armed with this knowledge, you’ll be well-equipped to take care of your Glock, ensuring it remains in peak condition for whatever adventures lie ahead.</p>
+<p>This simple yet effective method of removing a Glock magazine baseplate underscores the practicality and ease of maintaining Glock magazines. By using just a punch and following these guidelines, anyone can confidently disassemble their magazine for cleaning or modification. Investing time in learning this technique not only simplifies magazine maintenance but can also enhance your overall experience as a Glock owner. Stay tuned for more tips, tutorials, and product reviews to help you make the most of your firearm experience!</p>
 
 </article>
 

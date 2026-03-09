@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "PT 6 : AR15 UPGRADE - MAGPUL MOE ENHANCED TRIGGER GUARD INSTALL";
-export const description = "Learn how to install the Magpul MOE Trigger Guard for your AR-15 with this handy guide.";
+export const description = "Install the Magpul MOE Trigger Guard on your AR15/M4 for enhanced performance in tactical situations and cold weather. Learn how now!";
 const youtubeId = "JCBdpeBq08w";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2019-02-12";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Optics"
+  },
   {
     "label": "Brand",
     "value": "Magpul"
   },
   {
     "label": "Product",
-    "value": "MOE Enhanced Trigger Guard"
-  },
-  {
-    "label": "Category",
-    "value": "AR-15 Accessories"
+    "value": "MOE Trigger Guard"
   },
   {
     "label": "Use Case",
-    "value": "Upgrade and installation"
+    "value": "AR15/M4 upgrade installation"
   }
 ];
-const externalLinks = [];
+const externalLinks = [{"label": "MagPul MOE® Trigger Guard, Polymer – AR15/M4", "url": "https://www.magpul.com/products/moe-trigger-guard-polymer-ar15-m4"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,38 +39,33 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://www.magpul.com/products/moe-trigger-guard-polymer-ar15-m4"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>The AR-15 platform is highly customizable, and one of the simplest upgrades you can make is to install an aftermarket trigger guard. The Magpul MOE Enhanced Trigger Guard is designed to enhance your shooting experience, especially in tactical situations or during cold weather when gloves are often a must. In this guide, we will walk through the installation of the MOE Trigger Guard, highlighting its features and providing tips for a successful upgrade.</p>
+<p>Upgrading your AR15 platform can significantly enhance its functionality and user comfort. One of the common upgrades that firearm enthusiasts consider is the trigger guard. In this tutorial, we'll be installing the Magpul MOE Enhanced Trigger Guard, a popular choice known for its ergonomic design and simple installation process.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>This video illustrates a straightforward installation process for the Magpul MOE Enhanced Trigger Guard. The step-by-step approach will not only show you how to replace the standard trigger guard but also highlight the benefits of the Magpul upgrade.</p>
+<p>This video guides you through the step-by-step process of replacing the standard trigger guard on your AR15 with the Magpul MOE version. The MOE Trigger Guard is designed with a shallow 'V' shape, improving usability while wearing gloves, and filling the 'gap' often found in standard trigger guards. This feature is especially useful for tactical shooting and in cold weather operations.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p><strong>1. Gather Your Tools:</strong> Before starting, you’ll need a 1/8 inch punch, a 1/16 inch Allen wrench, a hammer, and a piece of wood to protect your receiver tab during installation.</p>
-
-<p><strong>2. Remove the Existing Trigger Guard:</strong> Use the 1/8 inch punch to gently tap the roll pin out of the existing trigger guard. The piece of wood will help support the receiver tab so it doesn’t get damaged while you’re knocking out the pin. Take your time with this step to avoid bending anything.</p>
-
-<p><strong>3. Install the New Trigger Guard:</strong> Once the old guard is removed, position the new Magpul MOE Trigger Guard in place. Use the included roll pin and drive it into the new guard with your punch. Start it gently and build up the pressure with taps of the hammer. This allows for a controlled installation without damaging the surrounding components.</p>
-
-<p><strong>4. Secure Everything:</strong> The final step involves using the set screw that comes with your new guard. Insert it and tighten it up with your 1/16 inch Allen wrench, ensuring it is flush against the receiver tab. This step secures the trigger guard in place.</p>
+<p>To start, you'll need a few simple tools: a 1/8 inch punch, a hammer, and a 1/16 inch Allen wrench. The installation begins with removing the existing trigger guard. Gently tap out the roll pin using the punch, being careful to support the receiver tab with a piece of wood. This prevents any damage during the process.</p>
+<p>Once the old guard is out, you can install the Magpul MOE Trigger Guard by positioning it in place and starting the roll pin installation. It’s crucial to let the weight of the hammer do the work, carefully tapping until you feel it seat properly. Finally, the set screw needs to be tightened down to ensure a secure fit on the receiver tab.</p>
 
 <h2>Key Tips</h2>
-<ul>
-  <li><strong>Take It Slow:</strong> Rushing through the process can lead to mistakes and can damage parts of your rifle.</li>
-  <li><strong>Use the Right Tools:</strong> Make sure you have the necessary tools on hand before starting the installation.</li>
-  <li><strong>Check Your Fit:</strong> Make sure the new guard sits correctly and that everything is snug but not overly tight.</li>
-</ul>
+<p>1. Make sure to support the receiver when removing the roll pin. This will help prevent damage to the firearm.</p>
+<p>2. Don't rush through the process. Ensuring the guard is securely in place is key for safety and function.</p>
+<p>3. Always double-check the fit after tightening the set screw to ensure everything is flush and secure.</p>
 
 <h2>Key Takeaways</h2>
-<p>The Magpul MOE Enhanced Trigger Guard is not just another accessory; it’s an essential upgrade for those looking to improve their grip and control while shooting. With its tactical design and ease of installation, it's a quick and affordable way to enhance your AR-15 platform. By following the steps outlined in this guide, you can successfully replace your standard trigger guard with this improved model, making your next shooting session more comfortable and efficient.</p>
+<p>The Magpul MOE Enhanced Trigger Guard is an excellent choice for AR15 enthusiasts looking to improve their firearm's performance and usability. Its simple installation process makes it accessible for even novice users, and its thoughtful design addresses the specific needs of tactical shooters. Always remember to exercise caution and safety when working with firearms.</p>
 
 </article>
 

@@ -2,6 +2,12 @@
 import "../styles/global.css";
 
 const { title, description } = Astro.props;
+const pathname = Astro.url.pathname;
+const currentPath = Astro.url.pathname;
+function isActive(path) {
+  return currentPath === path || currentPath.startsWith(path + "/");
+}
+
 ---
 
 <html lang="en">
@@ -11,16 +17,16 @@ const { title, description } = Astro.props;
     <link rel="icon" href="/favicon.ico" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
-    
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNX16BM2Q4"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-WNX16BM2Q4');
-	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNX16BM2Q4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WNX16BM2Q4');
+    </script>
   </head>
 
   <body>
@@ -28,56 +34,108 @@ const { title, description } = Astro.props;
       <header class="site-header">
         <div class="brand-hero">
           <div class="brand-banner-wrap">
+            <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
+              <img
+                src="/images/branding/channel-banner.jpg"
+                alt="blasterKRAFT YouTube Channel"
+                class="brand-banner-image"
+              />
+            </a>
+          </div>
 
-  <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
-    <img
-      src="/images/branding/channel-banner.jpg"
-      alt="blasterKRAFT YouTube Channel"
-      class="brand-banner-image"
-    />
-  </a>
+          <a
+            href="https://www.youtube.com/@blasterKRAFT"
+            target="_blank"
+            rel="noopener"
+            class="brand-avatar-link"
+          >
+            <img
+              src="/images/branding/channel_logo.jpg"
+              alt="blasterKRAFT logo"
+              class="brand-avatar"
+            />
+          </a>
 
-  <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
-    <img
-      src="/images/branding/channel_logo.jpg"
-      alt="blasterKRAFT logo"
-      class="brand-avatar"
-    />
-  </a>
-
-</div>
           <div class="brand-profile">
             <div class="brand-profile-spacer"></div>
 
             <div class="brand-copy">
               <p class="brand-tagline">
-                <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">@blasterKRAFT</a> is a YouTube channel dedicated to gun info, gear and gadget reviews, and general information of interest to shooters or potential shooters. This is an online magazine to supplement that channel.
+                <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
+                  @blasterKRAFT
+                </a>
+                {" "}is a YouTube channel dedicated to gun info, gear and gadget reviews, and
+                general information of interest to shooters or potential shooters. This is an
+                online magazine to supplement that channel.
               </p>
             </div>
           </div>
-			  <nav class="site-nav">
-	
-				<a href="/">Home</a>
-	
-				<a href="/topics/firearms">Firearms</a>
-	
-				<a href="/topics/shooting-training">Training</a>
-	
-				<a href="/topics/optics">Optics</a>
-	
-				<a href="/topics/concealed-carry">Concealed Carry</a>
-	
-				<a href="/topics/gear-accessories">Gear</a>
-	
-				<a href="/topics/knives">Knives</a>
-	
-			</nav>
         </div>
       </header>
+
+<nav class="site-nav">
+  <a href="/" class={isActive("/") ? "active" : ""}>Home</a>
+
+  <a href="/topics/firearms"
+     class={isActive("/topics/firearms") ? "active" : ""}>
+     Firearms
+  </a>
+
+  <a href="/topics/shooting-training"
+     class={isActive("/topics/shooting-training") ? "active" : ""}>
+     Shooting & Training
+  </a>
+
+  <a href="/topics/optics"
+     class={isActive("/topics/optics") ? "active" : ""}>
+     Optics
+  </a>
+
+  <a href="/topics/concealed-carry"
+     class={isActive("/topics/concealed-carry") ? "active" : ""}>
+     Concealed Carry
+  </a>
+
+  <a href="/topics/gear-accessories"
+     class={isActive("/topics/gear-accessories") ? "active" : ""}>
+     Gear & Accessories
+  </a>
+
+  <a href="/topics/knives"
+     class={isActive("/topics/knives") ? "active" : ""}>
+     Knives
+  </a>
+</nav>
 
       <main class="content-card">
         <slot />
       </main>
+
+      <footer class="site-disclaimer">
+        <p>
+          <strong>Affiliate Disclosure:</strong>
+          {" "}Some links on this site may be affiliate links. If you purchase through those links,
+          blasterKRAFT may earn a small commission at no additional cost to you. These commissions
+          help support the channel and website.
+        </p>
+
+        <p>
+          <strong>Review Integrity:</strong>
+          {" "}I am never paid to produce reviews and I do not accept payment in exchange for
+          positive coverage. My opinions are always my own. Occasionally products may be provided
+          by manufacturers, retailers, or vendors for evaluation, but this does not influence my
+          conclusions or recommendations.
+        </p>
+
+        <p>
+          <strong>General Disclaimer:</strong>
+          {" "}I am not an attorney. I am not a cop (any more). I am not your gunsmith. I am not
+          your firearms instructor. I am not your spouse. I am not your parent. I'm just some dude
+          on the Internet making videos. It is your responsibility to verify the legitimate
+          application of any information or ideas presented. This content is for entertainment
+          purposes only. I do not sell firearms, parts, or gear.
+        </p>
+      </footer>
     </div>
   </body>
 </html>

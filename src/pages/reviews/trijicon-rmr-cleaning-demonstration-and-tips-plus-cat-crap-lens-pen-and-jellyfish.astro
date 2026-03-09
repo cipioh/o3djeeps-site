@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Trijicon RMR Cleaning Demonstration and Tips - PLUS Cat Crap, Lens Pen, and Jellyfish";
-export const description = "Learn how to clean your Trijicon RMR sight with expert tips and best practices in this detailed demonstration.";
+export const description = "Learn the best methods for cleaning your Trijicon RMR with practical tips and product recommendations.";
 const youtubeId = "3CFP7onkwD4";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2018-11-13";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Optics, Firearms"
+  },
   {
     "label": "Brand",
     "value": "Trijicon"
   },
   {
     "label": "Product",
-    "value": "RMR Sight"
-  },
-  {
-    "label": "Category",
-    "value": "Optics Maintenance"
+    "value": "RMR"
   },
   {
     "label": "Use Case",
-    "value": "Cleaning Procedures"
+    "value": "Cleaning and maintenance tips"
   }
 ];
-const externalLinks = ["https://amzn.to/2T8UY5e", "https://amzn.to/2DDJsdF", "https://amzn.to/2OJ1UCq"];
+const externalLinks = [{"label": "Vortex Optics Lens Cleaning Pen", "url": "https://amzn.to/2Q2HgCh"}, {"label": "Strike Industries Jellyfish Cover For Trijicon RMR", "url": "https://amzn.to/2T8UY5e"}, {"label": "Canned Air (variety of options - easy to buy local)", "url": "https://amzn.to/2DDJsdF"}, {"label": "Cat Crap Anti Fog Lens Cleaner", "url": "https://amzn.to/2OJ1UCq"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,38 +39,37 @@ const externalLinks = ["https://amzn.to/2T8UY5e", "https://amzn.to/2DDJsdF", "ht
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://amzn.to/2Q2HgCh"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>Maintaining your optics is crucial for ensuring they perform at their best when it matters most. In this article, we delve into the process of cleaning the Trijicon RMR sight, a popular choice among shooters due to its robust construction and advanced optics. Cleaning not only preserves visibility but also extends the life of your equipment.</p>
+<p>Maintaining your optics is crucial for optimal performance, and in this piece, we explore effective cleaning techniques for your Trijicon RMR. Whether you're a seasoned shooter, a tactical enthusiast, or someone who just loves their everyday carry, knowing how to keep your optics clear is essential to keep your accuracy and clarity at peak levels.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>In the accompanying video, the host shares his cleaning process for the Trijicon RMR sight, providing insights into the tools and techniques he employs. From using compressed air to specialized cleaners, the demonstration showcases practical steps while offering personal tips to optimize your cleaning routine.</p>
+<p>This demonstration highlights a practical, step-by-step process for cleaning the lenses of a Trijicon RMR. The emphasis is on simplicity and effectiveness, showcasing various products and methods to maintain the clarity of your optics without compromising the lens coatings.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p>1. **Start with Compressed Air:** The first step is to use compressed air to blow away any loose debris and dust that could scratch the glass during cleaning.</p>
-<p>2. **Utilize a Quality Lens Cleaner:** The host opts for an Oakley lens cleaner—designed for glasses—as it is gentle on coatings while effectively removing smudges. Using Q-tips, he applies the cleaner carefully to avoid cross-contamination between the front and rear lenses.</p>
-<p>3. **Apply Anti-Fog Products:** To enhance clarity and prevent fogging, he employs a product called Cat Crap. By letting it dry slightly before buffing it out, he ensures the best possible results.</p>
-<p>4. **Showcasing Alternatives:** The lens pen technique is also highlighted, particularly for capturing oils and fingerprints, although the host admits he doesn’t utilize it on the RMR as frequently due to accessibility constraints.</p>
-<p>5. **Preventative Measures:** The introduction of a protective cover known as the Jellyfish is a standout tip to prevent spills and unwanted grime on the lens—especially during cleaning.</p>
+<p>The process begins with using compressed air to clear off any large debris, which is key in preventing scratches when you transition to cleaning solutions. The choice of cleaner can significantly impact the longevity and performance of your optic. In this case, an Oakley lens cleaner is utilized, which behaves well with the coatings on RMRs. Using Q-tips helps to reach every corner of the lens while minimizing the risk of cross-contamination by dedicating different swabs for the front and rear lenses.</p>
+
+<p>After the glass is free from dust and debris, applying an anti-fog solution like 'Cat Crap' further enhances visibility and protection against future pollution. This step is especially useful for those who often encounter changing weather conditions that can lead to fogging during operation.</p>
 
 <h2>Key Tips</h2>
 <ul>
-<li>Always start with compressed air. It’s the safest way to remove particles without scratching.</li>
-<li>Be cautious with cleaning materials—opt for those intended for optical surfaces.</li>
-<li>Separate Q-tips can help maintain cleanliness—using one for each side of the lens is a smart practice.</li>
-<li>Consider anti-fog options to enhance visibility in challenging environments.</li>
-<li>Protect your optics during maintenance to minimize the need for detailed cleaning.</li>
+    <li>Always start with compressed air to avoid scratching the lens.</li>
+    <li>Choose cleaning solutions designed for optics to maintain integrity.</li>
+    <li>Consider using anti-fog products to increase visibility during extreme conditions.</li>
+    <li>Protect the RMR lens during cleaning processes to further reduce dirt accumulation.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>Cleansing your Trijicon RMR sight doesn’t have to be complicated. A blend of simple tools, such as compressed air and specialized lens cleaners, coupled with a few personal tips can keep your optics in peak condition. The addition of preventative measures, like the Jellyfish cover, showcases the importance of maintaining not just functionality but also the longevity of your sight. By following these steps, you can ensure that your RMR remains clear and ready for action, enhancing your overall shooting experience.</p>
+<p>Cleaning your Trijicon RMR is manageable with the right tools and techniques. Regular maintenance not only ensures your optic performs well but also extends its lifespan. Remember to prioritize the use of appropriate cleaning solutions and tools, thereby allowing your optic to serve you well in both regular use and high-stakes situations. For anyone with different methods or additional tips, community input can be invaluable in enhancing our collective knowledge on optic maintenance.</p>
 
 </article>
 

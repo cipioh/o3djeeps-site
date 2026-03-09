@@ -7,16 +7,6 @@ const description =
 
 const reviewModules = import.meta.glob("./reviews/*.astro", { eager: true });
 
-const descriptionsBySlug = {
-  "945-industries-qapx-summit-ultragrid":
-    "Hands-on review of the 945 Industries QAPX Low Profile UltraGrid concealment bag, including real-world use and mountain biking impressions.",
-
-  "akt1-blackout-earbuds":
-    "Hands-on review of the AKT1 Blackout earbuds, including the fit technique that helps lock them in place and real-world Bluetooth shot timer testing.",
-
-  "savior-obscura-ccw-sling-bags-3l-vs-5l":
-    "Quick look at the Savior Obscura CCW sling bags, comparing the 3L and 5L options."
-};
 
 const featuredArticles = Object.entries(reviewModules)
   .map(([path, module]) => {
@@ -41,7 +31,7 @@ date: module.default?.date ?? module.date ?? "1970-01-01",
 ---
 
 <SiteLayout title={title} description={description}>
-  <h2 class="section-title">Latest Reviews</h2>
+  <h2 class="section-title">Latest Content</h2>
 
   <div class="article-grid">
     {featuredArticles.map((article) => (

@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Axial Shift OTF Knife (V1) \u2013 Internal Parts, Close-Up Breakdown & How It Works";
-export const description = "Dive into the mechanics of the Axial Shift OTF Knife (V1) in this detailed breakdown, exploring its unique features and internal workings.";
+export const description = "Explore the Axial Shift OTF Knife in detail, highlighting its internal parts and unique operating mechanism.";
 const youtubeId = "TDxNw1pwkHQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2026-02-14";
 export const specs = [
   {
+    "label": "Category",
+    "value": "Knives"
+  },
+  {
     "label": "Brand",
-    "value": "Axial Knives"
+    "value": "Axial"
   },
   {
     "label": "Product",
     "value": "Shift OTF Knife (V1)"
   },
   {
-    "label": "Category",
-    "value": "Knives"
-  },
-  {
     "label": "Use Case",
-    "value": "Educational Breakdown"
+    "value": "Everyday Carry, Knife Enthusiasts"
   }
 ];
-const externalLinks = [];
+const externalLinks = [{"label": "Axial Knives", "url": "https://axialknives.com"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,36 +39,40 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://axialknives.com"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>The Axial Shift OTF Knife (Version 1) offers an intriguing glimpse into the world of out-the-front (OTF) knives, showcasing a unique blend of functionality and design. This article will explore the internal components and mechanisms of this knife while providing insight into its practical applications and care.</p>
+<p>The Axial Shift OTF Knife (Version 1) is a striking example of modern knife design, combining functionality with a sleek aesthetic. In this detailed breakdown, we delve into its internal mechanisms, providing insights relevant for both knife enthusiasts and everyday users.</p>
+
 <h2>What This Video Demonstrates</h2>
-<p>The video's premise centers around a close-up examination of the Axial Shift OTF Knife, detailing its internal parts and design mechanisms without veering into modifications or potential misuses. Our demonstrator shares personal experience as an early adopter and regular user, providing valuable context to the discussion of how this knife operates.</p>
+<p>This video serves as an educational overview, focusing on the internal workings of the Axial Shift. From its deployment mechanism to the arrangement of its internal components, you gain a comprehensive understanding of what makes this knife tick.</p>
+
 <h2>Step-by-Step Explanation</h2>
-<p>One of the standout features of the Axial Shift is its user-friendly design, allowing enthusiasts to disassemble and explore its internals without voiding the warranty. The disassembly process begins with the removal of six screws, leading to a close inspection of the key components responsible for the knife's deployment and retraction.</p>
-<ul>
-<li><strong>Thumb Switch:</strong> This component activates the mechanism that releases the blade. As explained, the thumb switch interacts with a series of springs and bars that engage and disengage during use.</li>
-<li><strong>Main Spring:</strong> A vital part of the deployment process, this spring generates the force necessary to propel the blade from its housed position.</li>
-<li><strong>Engagement Bars:</strong> As the name suggests, these bars lock the blade in both the open and closed positions, providing safety and reliability during use.</li>
-<li><strong>Blade Stop:</strong> This piece is crucial as it helps secure the blade while simultaneously allowing it to pivot into the locked position.</li>
-</ul>
-<p>The video highlights how lubrication is essential for smooth operation. The knife's mechanism relies significantly on inertia, meaning any friction or lack of lubrication could result in suboptimal performance. Users are encouraged to apply a few drops of oil during maintenance, focusing on friction points to ensure durability and efficiency.</p>
+<p>Starting with the exterior, the Shift’s understated design is notable. Unlike many tactical knives that boast aggressive aesthetics, the Axial Shift opts for simplicity, making it a great everyday carry (EDC) piece. Its aluminum body is lightweight yet durable, appealing to users who prefer minimalism paired with performance.</p>
+
+<p>Disassembling the knife reveals six screws that hold the two halves together. Axial emphasizes that users can take apart their knives without voiding the warranty, a refreshing stance in the knife industry. However, caution is advised, as the aluminum can be prone to stripping if the screws are mishandled.</p>
+
+<p>Upon opening, the internal mechanism is brought to light. The heart of the deployment system features a thumb switch that activates a tensioned spring mechanism. This ingenious design allows the blade to deploy quickly and retract securely. We also look at the engagement hooks, the main spring, and how different components interact to enable seamless operation.</p>
+
+<p>The blade itself is held in place using a stop pin, with additional mechanisms ensuring that it remains secure when deployed. The design ingeniously minimizes spring tension risks, making the knife safe to handle while still anticipating smooth deployment when required.</p>
+
 <h2>Key Tips</h2>
 <ul>
-<li>Regularly lubricate the knife even without disassembling it. A few drops of oil on the key areas can drastically improve the blade's deployment speed and reliability.</li>
-<li>Handle with care during disassembly; stripping the aluminum around screws is a risk if not done properly.</li>
-<li>Explore the differences between versions. The Axial Shift is currently on its third version, with updates that may improve operation and design.</li>
+<li><strong>Lubrication is key:</strong> Regular maintenance prevents any reliability issues, especially since the operation relies on a finely tuned spring and inertia.</li>
+<li><strong>Disassembly can be educational:</strong> Taking apart your knife offers insight into its construction and can help ease cleaning and lubrication tasks.</li>
+<li><strong>Stay updated:</strong> Newer versions of the Axial Shift may incorporate enhancements, so if you’re eyeing a new model, get hands-on experience with its improvements.</li>
 </ul>
+
 <h2>Key Takeaways</h2>
-<p>The Axial Shift OTF Knife (V1) represents a well-crafted solution for knife enthusiasts looking for utility without compromise. Its straightforward design facilitates easy maintenance while its internal design showcases thoughtful engineering. For anyone interested in OTF mechanisms—whether for practical daily carry or sheer curiosity—this knife deserves your attention.</p>
-<p>Remember, knowledge is power when it comes to gear like this. Understanding how your knife works not only aids in maintenance but also enhances your appreciation for the craftsmanship involved in its creation. The Axial Shift may be just one of many knives on the market, but its combination of functionality and thoughtful design makes it a worthy addition to any collection.</p>
+<p>The Axial Shift OTF Knife (V1) is more than just a cutting tool; it's a well-crafted piece of engineering. Understanding its internal workings not only enhances your appreciation of the knife but also informs your maintenance practices. Whether you’re an advocate of practicality or a dedicated knife nerd, the Shift is a reliable companion that combines both style and substance in a way that few knives can.</p>
 
 </article>
 

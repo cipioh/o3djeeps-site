@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Colonel Knives NCO NoVz - Die Well - Northern Red Edition";
-export const description = "Explore the Colonel Knives NCO NoVz in our in-depth review, covering its features, real-world applications, and ideal users.";
+export const description = "Explore the Colonel Knives NCO NoVz in our in-depth review, highlighting its design, features, and real-world uses.";
 const youtubeId = "9nD2vaBl7z4";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2018-12-11";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Knives"
+  },
   {
     "label": "Brand",
     "value": "Colonel Knives"
   },
   {
     "label": "Product",
-    "value": "NCO NoVz - Northern Red Edition"
-  },
-  {
-    "label": "Category",
-    "value": "Fighting Knives"
+    "value": "NCO NoVz"
   },
   {
     "label": "Use Case",
-    "value": "Everyday Carry, Self-Defense"
+    "value": "EDC and combative situations"
   }
 ];
-const externalLinks = ["https://colonelblades.com/product/nco-lowvz/"];
+const externalLinks = [{"label": "NCO NoVz – Kydex Sheath", "url": "https://colonelblades.com/product/nco-novz-kydex-sheath/"}, {"label": "NCO LowVz", "url": "https://colonelblades.com/product/nco-lowvz/"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,35 +39,28 @@ const externalLinks = ["https://colonelblades.com/product/nco-lowvz/"];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://colonelblades.com/product/nco-novz-kydex-sheath/"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Quick Verdict</h2>
-<p>The Colonel Knives NCO NoVz - Northern Red Edition combines affordability with quality, offering a well thought-out package for those seeking a reliable fighting knife. With premium components and a compact size, this knife is ideal for everyday carry and self-defense without breaking the bank.</p>
-
+<p>The Colonel Knives NCO NoVz is a remarkable option for those seeking a high-quality fixed blade that balances performance and affordability. With its robust AUS8 steel blade, G10 grips, and Kydex sheath, it provides excellent value, especially in its niche as a utility and combat knife. Perfect for both seasoned practitioners and newcomers alike, this knife embodies practicality without the steep price tag.</p>
 <h2>What Makes This Review Different</h2>
-<p>While there are numerous reviews available for the LowVz variant, the NCO NoVz has remained somewhat overlooked in the market. This review focuses on the distinct qualities and potential advantages this version brings to the table, particularly its affordability alongside high-quality materials. We’ll delve into the nuances that set this combat knife apart.</p>
-
+<p>While there are numerous reviews available for the Colonel Knives LowVz, the NoVz variant has been somewhat overlooked. This review shines a light on the specific features and design tweaks that distinguish the NoVz from its counterparts, making it an exciting addition to any knife enthusiast's collection.</p>
 <h2>Design and Layout</h2>
-<p>The NCO NoVz features a 2.75-inch blade made of AUS8 steel, known for its decent edge retention while being easy to sharpen. The titanium nitride (TiN) coating adds a layer of protection, enhancing durability and wear resistance. Its G10 grips offer a robust and tactile holding experience, notable for their ability to provide a solid grip even in adverse conditions. The design of the handle is one inch shorter compared to the LowVz, allowing for optimal concealment during carry. The flat end of the handle contrasts with the pointy tip of the LowVz, further encouraging its discreet carry.</p>
-
-<p>The included Kydex sheath is a significant upgrade, showcasing practical design while also being compact—about two-thirds the size of the LowVz sheath. This makes it easier to conceal and maintain a low profile, perfect for those who prioritize discretion in their carry of defensive tools.</p>
-
+<p>The NoVz features a blade length of 2.75 inches constructed from AUS8 steel, known for its reasonable edge retention and ease of sharpening. What sets it apart are the G10 grips, which offer enhanced durability and grip compared to the standard injection-molded grips found on the LowVz. This tactical knife is designed not just for aesthetic appeal but for practical applications, including self-defense, making it suitable for practitioners of various skill levels.</p>
 <h2>Real-World Use</h2>
-<p>Practical application is key when considering a knife of this nature. The design principles behind the NCO NoVz focus on efficiency and ease of use, allowing anyone from a novice to a trained individual to wield it effectively. In a real-world scenario of self-defense, the choice of architecture permits straightforward actions without necessitating extensive training—essential for those who might find themselves in a tense situation unexpectedly.</p>
-
-<p>Some might turn up their noses at the AUS8 steel, claiming that it doesn’t hold an edge as well as higher-end steels, but in the chaos of an encounter, ease of sharpening might take precedence over long-term edge retention. Moreover, the G10 grips mitigate the knife’s weight without sacrificing reliability or comfort during prolonged use, making it a viable option for everyday carry.</p>
-
+<p>The NCO NoVz is tailored for tactical scenarios, with an emphasis on close-quarters utility. The Kydex sheath provides adjustable retention, ensuring the knife remains secure during transport while allowing for quick deployment when needed. Given its compact size and optimized handle length, it excels in concealed carry setups, particularly for those looking to integrate it into an EDC (Everyday Carry) rotation. However, users should be aware of local laws regarding fixed blade carry to ensure compliance.</p>
 <h2>Who This Product May Be For</h2>
-<p>The NCO NoVz is well-suited for various users, including outdoor enthusiasts who value a reliable cutting tool, survivalists who may find themselves in need of self-defense, and civilians seeking a knife that balances functionality with concealability. Its pricing also appeals to those entering the world of edged weapons or looking for a quality knife without extensive investment. However, individuals in states with stringent knife laws should exercise caution and thoroughly understand local regulations concerning knife carrying and concealment to avoid legal pitfalls.</p>
-
+<p>The Colonel Knives NCO NoVz is ideal for tactical enthusiasts, self-defense practitioners, and those seeking a dependable EDC knife. It appeals to those who value affordability without sacrificing quality and those who appreciate a compact knife that doesn't compromise on usability. The inclusion of a training tool is a thoughtful addition for beginners honing their skills while remaining safe.</p>
 <h2>Key Takeaways</h2>
-<p>In conclusion, the Colonel Knives NCO NoVz - Northern Red Edition stands as a compelling choice for anyone in the market for a combat knife that emphasizes usability, quality construction, and affordability. While it may not be the top-of-the-line option available, it meets critical needs without excessive cost, making it accessible for a broader audience. The combination of G10 grips, a Kydex sheath, and an easy-to-handle blade ensure that this knife isn't just a piece of gear—it's a tool that can potentially offer peace of mind in uncertain scenarios. Always remember to check local laws regarding knife carry to ensure you're compliant while enjoying your new blade.</p>
+<p>The Colonel Knives NCO NoVz delivers an excellent combination of design, functionality, and affordability, making it a standout choice in the crowded knife market. Whether you are a novice looking for your first tactical knife or a seasoned user in need of a reliable tool, the NoVz checks all the boxes for quality, usability, and value.</p>
 
 </article>
 

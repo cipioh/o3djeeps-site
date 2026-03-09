@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "AAR - My Thoughts on the NRA Personal Protection in the Home Course PPIH";
-export const description = "An insightful review of the NRA Personal Protection in the Home course, highlighting its structure, content, and practical implications.";
+export const description = "Explore insights from the NRA Personal Protection in the Home Course and learn the importance of self-defense training.";
 const youtubeId = "PzR0aDU5Hug";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2018-12-16";
 export const specs = [
   {
-    "label": "Brand",
-    "value": "NRA"
-  },
-  {
-    "label": "Product",
-    "value": "Personal Protection in the Home Course"
-  },
-  {
     "label": "Category",
-    "value": "Firearm Training"
+    "value": "Shooting & Training, Concealed Carry"
   },
   {
-    "label": "Use Case",
-    "value": "Self-Defense Education"
+    "label": "Course",
+    "value": "NRA Personal Protection in the Home"
+  },
+  {
+    "label": "Objective",
+    "value": "Self-defense training and knowledge"
+  },
+  {
+    "label": "Delivery",
+    "value": "Course Review"
   }
 ];
-const externalLinks = [];
+const externalLinks = [{"label": "NRA Student Courses", "url": "https://firearmtraining.nra.org/student-courses/"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,40 +39,31 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://firearmtraining.nra.org/student-courses/"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>The NRA's Personal Protection in the Home (PPIH) course is designed for law-abiding adults who seek to understand the basics of engaging with a firearm for self-defense. Having just completed this course, I’d like to share my experiences and thoughts about its structure, content, and overall value. This isn’t just a review of what was taught, but rather a discussion about why such courses are critical in today’s world.</p>
+<p>The NRA Personal Protection in the Home Course is designed to equip law-abiding citizens with the essential skills, knowledge, and attitude necessary for effective self-defense using a handgun. This course serves as a pivotal step for those who wish to understand the nuances of home protection and the laws surrounding self-defense.</p>
 
 <h2>Main Discussion Points</h2>
-<p>The PPIH course is not for the faint of heart but is essential for anyone considering the responsibility of home defense. It teaches participants the fundamental principles of safe gun handling and defensive shooting skills tailored for use in their own homes. While the course includes some refresher content for seasoned shooters, its focus on practical application makes it invaluable for new gun owners.</p>
+<p>One of the key takeaways from the course is the recognition that not everyone is inclined to carry a concealed weapon. For many, the idea of defending themselves and their loved ones at home is more practical and approachable than seeking a concealed carry permit, especially in states like Maryland where the process can be cumbersome. The emphasis on teaching individuals how to handle and use a firearm safely and effectively in the confines of their own home is not just about the material covered in the course but also about sparking the interest of a broader audience.</p>
 
-<p>One of the highlights of the course is its emphasis on personal preparedness. In a society where home invasions and personal threats can suddenly and violently arise, understanding how to react is crucial. The course covers topics such as choosing the right handgun for personal defense, the importance of situational awareness, and even legal ramifications of using a firearm in self-defense circumstances.</p>
-
-<p>Additionally, the training exercises are tailored for real-world scenarios. For example, students are trained to draw from concealed positions—like a safe or drawer—emphasizing practicality over perfection. This approach is pivotal; it demystifies the often-overwhelming thought of defending oneself with a firearm, making it accessible for those who may not regularly carry a weapon.</p>
+<p>During the course, participants engage in both theoretical discussions and practical exercises. Students learn critical concepts such as flash sight alignment—essentially a way to get your shots on target even with misaligned sights during defensive situations. This approach emphasizes the importance of responsiveness and adaptability, rather than striving for perfect precision under pressure. Exercises like point shooting and engaging threats from various positions honed the participants' ability to react quickly and effectively in stress-inducing scenarios.</p>
 
 <h2>Practical Implications</h2>
-<p>Participating in the PPIH course offers far more than just technical shooting skills. It enables individuals to cultivate a mindset of preparedness and proactive defense. Particularly in environments where legally carrying a firearm may be cumbersome due to gun regulations, understanding how to effectively prepare one’s home can provide peace of mind.</p>
+<p>The course does not merely serve as an introduction to firearm handling; it is a comprehensive guide that blends legal knowledge with practical training. Participants gain insight into the laws surrounding self-defense, which is crucial for responsible gun ownership. Awareness of these regulations can be the difference between a justified defensive action and potential legal ramifications.</p>
 
-<p>Moreover, individuals are encouraged to explore their personal comfort levels with firearms and draw parallels to their real-life environments. As someone who has taken various defensive shooting courses, I can attest that the principles taught transcend basic mechanics; they encompass mental conditioning, situational adaptability, and the development of a defensive mindset.</p>
-
-<p>The course also serves as an excellent starting point for those curious about advanced defensive training. By providing foundational skills, the PPIH sets up graduates to pursue further training, be it through NRA instructor courses or other advanced tactical classes. This progression not only enhances an individual's skill set but also builds a community of knowledgeable defenders, fostering responsible gun ownership.</p>
+<p>This course is also a stepping stone for those interested in becoming instructors themselves. For experienced shooters who wish to pass on their knowledge, taking the course is a prerequisite for gaining instructor certification. This encourages a culture of education and responsible gun ownership within communities.</p>
 
 <h2>Key Takeaways</h2>
-<ul>
-  <li>The PPIH course is suitable for both novice and experienced firearms users.</li>
-  <li>It focuses on practical skills for home defense, emphasizing the importance of situational awareness and safe firearm handling.</li>
-  <li>This course addresses the realities of self-defense, including relevant laws and personal responsibility.</li>
-  <li>Taking such courses can instill confidence and prepare individuals not just for shooting but for making informed decisions in high-stress scenarios.</li>
-  <li>Graduates are encouraged to continue their education in firearm safety and self-defense through advanced training opportunities.</li>
-</ul>
-<p>Overall, the NRA Personal Protection in the Home course encapsulates essential training that mirrors the current landscape of personal safety and firearm usage. It equips participants with the knowledge and skills to respond to emergencies effectively, making it a crucial component of responsible gun ownership.</p>
+<p>The NRA Personal Protection in the Home Course is vital for anyone interested in understanding home defense strategies. It bridges the gap between conceptual learning and practical application, fostering both confidence and competence in students. As a self-defense instructor in training, the insights gained from participation and observation of various instruction methodologies will prove invaluable in future educational efforts. Emphasizing the importance of practice and understanding over mere theoretical knowledge is vital for anyone serious about self-defense. Overall, this course not only empowers individuals but also strengthens the community's awareness of personal safety and legal rights.</p>
 
 </article>
 

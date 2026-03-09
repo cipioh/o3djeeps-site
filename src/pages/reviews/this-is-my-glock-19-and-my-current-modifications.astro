@@ -1,14 +1,20 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "This is my Glock 19 and my Current Modifications";
-export const description = "Explore my modified Glock 19, from historical roots to current upgrades\u2014perfect for both new shooters and seasoned veterans!";
+export const description = "A detailed look at modifications made to the Glock 19 for enhanced performance and personal preference.";
 const youtubeId = "7DRwXAR0BWc";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2018-11-10";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Concealed Carry, Optics"
+  },
   {
     "label": "Brand",
     "value": "Glock"
@@ -18,15 +24,11 @@ export const specs = [
     "value": "Glock 19"
   },
   {
-    "label": "Category",
-    "value": "Handgun"
-  },
-  {
     "label": "Use Case",
-    "value": "Everyday Carry"
+    "value": "Everyday carry and competition shooting"
   }
 ];
-const externalLinks = ["http://www.bowietacticalconcepts.com/", "https://amzn.to/2RGaWlu", "https://amzn.to/2Dx9S0w", "https://amzn.to/2FdAcyj", "https://overwatchprecision.com/tac/", "https://www.glockstore.com/Glock-Factory-Connector", "https://ghostinc.com/ghost-bullet-forward-slide-release-combat-black/"];
+const externalLinks = [{"label": "This is out of date now ... Latest is here:", "url": "https://youtu.be/_ipUYEDV6cc"}, {"label": "Bowie Tactical Concepts", "url": "http://www.bowietacticalconcepts.com/"}, {"label": "Talon Grips", "url": "https://amzn.to/2RGaWlu"}, {"label": "Ameriglo Operator Night Sights", "url": "https://amzn.to/2Dx9S0w"}, {"label": "Trijicon RMR Type 2 6.5 MOA Red Dot Sight (RM07)", "url": "https://amzn.to/2FdAcyj"}, {"label": "Overwatch Precision TAC Trigger", "url": "https://overwatchprecision.com/tac/"}, {"label": "Glock Minus (4.5 lb) Connector", "url": "https://www.glockstore.com/Glock-Factory-Connector"}, {"label": "Ghost Bullet Forward Slide Release", "url": "https://ghostinc.com/ghost-bullet-forward-slide-release-combat-black/"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,29 +39,33 @@ const externalLinks = ["http://www.bowietacticalconcepts.com/", "https://amzn.to
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://youtu.be/_ipUYEDV6cc"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
-<h2>Overview</h2>
-<p>The Glock 19 is often praised as the perfect blend of size, capacity, and versatility, making it a favorite among concealed carriers and law enforcement alike. In this article, we’ll dive deeper into the personal journey of one enthusiast as they reflect on their experience with the Glock 19, detailing not only their modifications but also the underlying motivations that drive these choices. Whether you’re a first-time Glock owner or a seasoned shooter, the story shared here holds valuable insights into the creative process of personalizing your firearm.</p>
+<h2>Quick Verdict</h2>
+<p>The Glock 19 is a versatile and widely trusted firearm. This review dives deep into the specific modifications made to enhance its performance and suitability for daily carry. From sights to trigger adjustments, each change aims to make this Glock 19 even more reliable and user-friendly.</p>
 
-<h2>Main Discussion Points</h2>
-<p>The first discussion point revolves around the history of the Glock 19 for many enthusiasts. For the author, it marked the beginning of their journey into regular firearm usage, starting from when they began their law enforcement career. Reflecting on the nostalgia of returning to familiar ground can sometimes be a significant motivator in the choices we make about gear. Incorporating a narrative around the historical significance of the Glock 19 facilitates a greater appreciation for its presence in the enthusiast community.</p>
+<h2>What Makes This Review Different</h2>
+<p>Unlike standard reviews that simply list the Glock 19's basic specifications, this article focuses on real-world modifications that impact functionality and usability. These adjustments reflect the shooter’s personal preferences and practical considerations drawn from years of experience.</p>
 
-<p>Another key topic centers around modifications. Each upgrade discussed is purpose-driven, showcasing a thoughtful approach to enhancing functionality without compromising reliability. The author has equipped their Glock with various components such as night sights for improved target acquisition, a Trijicon RMR red dot sight for faster target engagement, and modifications to the trigger for a more responsive shooting experience. These enhancements highlight how individual preferences shape both the aesthetic and performance aspects of the pistol.</p>
+<h2>Design and Layout</h2>
+<p>The base Glock 19 is known for its compact design, making it an excellent choice for concealed carry. However, the modifications discussed here enhance its ergonomics and accuracy significantly. The integration of a high-visibility front sight, upgraded trigger, and red dot optic collectively improve shooting performance. Each modification serves a specific purpose, maintaining the pistol's reliability while adapting it to the user’s needs.</p>
 
-<h2>Practical Implications</h2>
-<p>For new and returning shooters, understanding the significance of customized modifications can be crucial. The author's experiences illuminate the challenges faced—such as aging eyesight affecting accuracy—and demonstrate how tactical upgrades can address specific needs. From ergonomic grips to trigger adjustments, it’s evident that personal comfort and capability are paramount for effective shooting, especially in high-stress situations. Additionally, this discussion encourages shooters to learn about their gear and to do their own research before diving into modifications.</p>
+<h2>Real-World Use</h2>
+<p>In practical terms, the modifications make a substantial difference during training and daily carry. The adjustable trigger reduces pull weight and improves response time, while the Trijicon RMR red dot optic allows for faster target acquisition without needing to focus on traditional front sights. This is particularly beneficial for shooters dealing with visual impairments that can complicate aiming.</p>
 
-<p>The narrative also raises awareness about the importance of reliability in defensive firearms. Each component must seamlessly work together to ensure trust in one's own equipment, especially for everyday carry. As the author suggests, experimenting with various modifications can often lead to a more precise fit for one’s style of shooting, thus improving overall performance. However, understanding the balance between modification and functionality is essential, especially for those new to personalizing firearms.</p>
+<h2>Who This Product May Be For</h2>
+<p>This review and the associated modifications appeal to Glock enthusiasts looking to customize their preferences and improve performance. It is especially suited for those engaging in competitive shooting or needing a reliable everyday carry setup. Additionally, anyone upgrading from traditional sights to optics will find the modifications relevant and beneficial.</p>
 
 <h2>Key Takeaways</h2>
-<p>The individual journey of customizing a Glock 19 is more than just a checklist of components; it reflects the growth of a shooter and the evolution of their competence with the firearm. The melding of nostalgia, practical research, and hands-on tinkering serves as a powerful reminder of why enthusiasts are drawn to firearms and the culture that surrounds them. As you consider your own path—whether you’re modifying a Glock or evaluating other firearms—keep in mind the importance of aligning modifications to personal needs while ensuring reliability in performance.</p>
+<p>The modifications made to the Glock 19 reflect a thoughtful approach to enhancing usability and performance. High-visibility sights, an updated trigger, and a quality red dot optic contribute to faster shooting and increased accuracy. Whether as a carry weapon or a competition firearm, these upgrades exemplify how personal experience can shape gear choices, ultimately helping shooters perform at their best.</p>
 
 </article>
 

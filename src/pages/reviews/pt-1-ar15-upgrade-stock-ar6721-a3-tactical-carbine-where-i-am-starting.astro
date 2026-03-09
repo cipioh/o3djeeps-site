@@ -1,14 +1,20 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "PT 1 : AR15 UPGRADE - STOCK AR6721 A3 TACTICAL CARBINE - WHERE I AM STARTING";
-export const description = "Join us as we upgrade an AR6721 Tactical Carbine with enhancements and insights from years of law enforcement experience.";
+export const description = "Join us as we kick off an AR-15 upgrade series, examining the original setup and planned enhancements for optimal performance.";
 const youtubeId = "00WHWxc8ToQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2019-02-08";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Shooting & Training"
+  },
   {
     "label": "Brand",
     "value": "Colt"
@@ -18,12 +24,8 @@ export const specs = [
     "value": "AR6721 A3 Tactical Carbine"
   },
   {
-    "label": "Category",
-    "value": "Firearms"
-  },
-  {
     "label": "Use Case",
-    "value": "Upgrading Tactical Carbine"
+    "value": "Personal upgrade for better performance and ergonomics"
   }
 ];
 const externalLinks = [];
@@ -37,35 +39,36 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="#"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>In this inaugural video of a multi-part series, we embark on the journey of upgrading a Colt AR6721 A3 Tactical Carbine. This isn't just any rifle; it's one that has served diligently through years of service as a dependable law enforcement tool, carrying with it not only memories but also the heart of a shooter who has had countless experiences on duty. In this article, we'll break down the planned enhancements for this classic carbine and share insights based on real-world usage.</p>
+<p>In the world of firearms, few platforms offer the customization and versatility that the AR-15 does. In this article, we embark on a journey of upgrading an AR6721 A3 Tactical Carbine that has served not just as a tool, but as a reliable companion in law enforcement. This not only highlights the evolution of the rifle's parts and functionality but also serves as an educational experience for anyone looking to enhance their shooting rig.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>The video serves as a foundational introduction to the modifications intended for the AR-15 platform. Starting from its stock setup, the presenter gives an account of the rifle's history while laying out the various components he intends to upgrade. It's crucial to grasp that this isn't merely about aesthetic changes; it’s about optimizing the rifle for enhanced functionality, comfort, and performance. This first step sets the stage for a hands-on kit of upgrades that will unfold throughout the series.</p>
+<p>This introductory video sets the stage for a multi-part series, which will cover the full scope of upgrades planned for this particular AR-15. From the sentimental value of the rifle to its current specifications, viewers will witness the tool's transformation from a stock carbine to a more modern, tailored version. The narrator dives into both personal experiences with the rifle and the upgrades that will be implemented for better performance.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p>The initial setup involves a thorough evaluation of the rifle as it stands, accompanied by a discussion of its sentimental value and past usage. Having been carried as a patrol rifle and during SWAT operations, the Colt AR6721 has seen both standard and high-stress situations.</p>
-<p>Next, the narrator points out specific parts to be upgraded. For instance, transitioning from a three-point sling to a two-point sling is a move that many modern shooters have adopted for better mobility and handling. He reflects on personal preferences shaped by experience, illustrating how ease of use trumps outdated conventions.</p>
-<p>Furthermore, the plan includes swapping the grip for a more ergonomic option and changing the stock to one with better padding—an essential adjustment for comfort while shooting. The decision to upgrade the rail system reflects the desire for increased customization and adaptability, allowing for the integration of modern optics and accessories.</p>
+<p>The upgrade process will begin by highlighting the stock configuration of the AR6721, which was a go-to choice for many law enforcement officers in the late '90s. Upgrades will not be performed haphazardly. Instead, specific changes will be made methodically, focusing on both aesthetics and functionality. Each modification, such as the transition from a three-point sling to a two-point sling, serves the dual purpose of optimizing performance while keeping the user’s comfort in mind.</p>
+<p>As the series progresses, expect detailed segments on the removal and replacement of critical components. The installation of a full-length handguard, a low-profile gas block, and an upgraded buttstock will be explored thoroughly. For those considering a similar venture, these steps will serve as a practical guide, enhancing not just the rifle itself but also the marksmanship by improving handling and adaptability during various scenarios.</p>
 
 <h2>Key Tips</h2>
-<p>When undertaking a similar upgrade process, consider the following tips:</p>
+<p>As you prepare for your own rifle upgrade journey, there are a few tips that can help streamline the process:</p>
 <ul>
-    <li><strong>Know Your Needs:</strong> As you refine your rifle, focus on what you prioritize for your shooting style and use-case scenarios, whether that’s tactical competitions, home defense, or simply enhancing your range experience.</li>
-    <li><strong>Choose Quality Parts:</strong> Investing in quality components will save you headaches down the road. The AR-15 platform is versatile, but poor-quality upgrades can lead to performance issues.</li>
-    <li><strong>Document Changes:</strong> Keep a log of modifications you make. Not only does this help you remember what you changed, but it’s also useful if you ever want to revert to a previous configuration.</li>
+<li><strong>Research Upgrades:</strong> Before making any purchases, dive deep into reviews and tutorials to understand what best fits your style and needs.</li>
+<li><strong>Take Your Time:</strong> Upgrading shouldn't be rushed. Ensure each modification is well thought out to enhance your overall setup without compromising existing functionality.</li>
+<li><strong>Document Changes:</strong> Keep records or notes on what you upgrade and why. This will help you understand the evolution of your rifle and what works best for your shooting style.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>This upgrade series underscores the importance of evolving with your gear. Just as procedures and techniques in law enforcement can change, so can the tools we carry and use. As we dive deeper into each upgrade in future videos, viewers will gain insights not only into the 'how' but also the 'why.' The changes aren’t just for functionality; they're a pathway toward making the rifle more suited to the shooter’s present needs, reflecting a balance of nostalgia and modernization.</p>
+<p>The narrative of upgrading the AR6721 is not just about changing parts; it's about evolving the functionality of a tool that holds significant value. This series will not only provide valuable insights into the technical aspects of firearms upgrades but also the personal connection many users have with their weapons. By embracing this process, we aim to enlighten viewers about the beauty of personalized firearms, enhancing both performance and enjoyment in the shooting sports.</p>
 
 </article>
 

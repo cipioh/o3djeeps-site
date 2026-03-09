@@ -4,26 +4,48 @@ interface SpecItem {
   value: string;
 }
 
+interface LinkItem {
+  label: string;
+  url: string;
+}
+
 interface Props {
   title?: string;
   items?: SpecItem[];
-  buyLink?: string;
-  externalLinks?: string[];
+  buyLink?: string | null;
+  buyText?: string;
+  discountText?: string | null;
+  discountCode?: string | null;
+  externalLinks?: LinkItem[];
 }
 
 const {
   title = "Quick Look",
   items = [],
   buyLink,
-  externalLinks = []
+  buyText = "View Product →",
+  discountText,
+  discountCode,
+  externalLinks = [],
 } = Astro.props;
+
+const normalizedBuyLink =
+  !buyLink ||
+  buyLink === "#" ||
+  buyLink === "null" ||
+  buyLink === "None" ||
+  buyLink === "undefined"
+    ? null
+    : buyLink;
+
+const hasBuyLink = !!normalizedBuyLink;
+const hasUsefulLinks = Array.isArray(externalLinks) && externalLinks.length > 0;
 ---
 
 <section class="specs-box">
   <h2>{title}</h2>
 
   <div class="specs-table">
-
     {items.map((item) => (
       <>
         <div class="specs-label">{item.label}</div>
@@ -31,30 +53,48 @@ const {
       </>
     ))}
 
-	{buyLink && buyLink !== "#" && (
-	  <>
-		<div class="specs-label">Where to Find It</div>
-		<div class="specs-value">
-		  <a href={buyLink} target="_blank" rel="noopener sponsored">
-			{new URL(buyLink).hostname}
-		  </a>
-		</div>
-	  </>
-	)}
+    {hasBuyLink && (
+      <>
+        <div class="specs-label">Buy Link</div>
+        <div class="specs-value">
+          {discountText && (
+            <div class="discount-callout">
+              <span>{discountText}</span>
+              {discountCode && (
+                <>
+                  {" "}
+                  <strong>{discountCode}</strong>
+                </>
+              )}
+            </div>
+          )}
 
-	{externalLinks.length > 0 && (
-	  <>
-		<div class="specs-label">Additional Links</div>
-		<div class="specs-value">
-		  {externalLinks.map((link) => (
-			<div class="spec-link">
-			  <a href={link} target="_blank" rel="noopener">
-				{link}
-			  </a>
-			</div>
-		  ))}
-		</div>
-	  </>
-	)}
+         <a href={normalizedBuyLink} target="_blank" rel="nofollow noopener noreferrer">
+            {buyText}
+          </a>
+        </div>
+      </>
+    )}
+
+    {hasUsefulLinks && (
+      <>
+        <div class="specs-label">Useful Links</div>
+        <div class="specs-value">
+          <ul class="external-links">
+            {externalLinks.map((link) => (
+              <li>
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </>
+    )}
   </div>
 </section>

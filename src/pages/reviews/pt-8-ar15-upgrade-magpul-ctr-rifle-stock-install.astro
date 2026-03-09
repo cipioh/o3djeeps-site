@@ -1,14 +1,20 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "PT 8 : AR15 UPGRADE - MAGPUL CTR RIFLE STOCK INSTALL";
-export const description = "Learn how to easily install the Magpul CTR stock on your AR-15 with this step-by-step guide.";
+export const description = "Learn how to install a Magpul CTR Rifle Stock on your AR15 with this easy video guide.";
 const youtubeId = "fhIcT2D9gqs";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2019-02-14";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Optics"
+  },
   {
     "label": "Brand",
     "value": "Magpul"
@@ -18,12 +24,8 @@ export const specs = [
     "value": "CTR Rifle Stock"
   },
   {
-    "label": "Category",
-    "value": "AR-15 Accessories"
-  },
-  {
     "label": "Use Case",
-    "value": "Rifle Upgrade"
+    "value": "AR15 Stock Installation"
   }
 ];
 const externalLinks = [];
@@ -37,35 +39,39 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="#"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>Installing an AR-15 stock can seem daunting, especially for those new to firearms or making modifications to their rifles. However, with the right guidance, it becomes an easy and rewarding experience. In this tutorial, we'll be focusing on the Magpul CTR (Compact Type Restricted) stock, a popular choice among AR-15 enthusiasts for its durability and functionality. Whether you're looking to improve your rifle's ergonomics or just want a fresh upgrade, the Magpul CTR is a fantastic option.</p>
+<p>In this tutorial, we will go through the simple steps to install the Magpul CTR Rifle Stock on your AR15. This upgrade enhances comfort and functionality, making it a favorite among firearm enthusiasts.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>The video succinctly demonstrates the installation process of the Magpul CTR stock on an AR-15 platform. Starting from basic steps to remove the previous stock, to easily fitting the new stock and adjusting it for optimal comfort and usability, the video captures each necessary action without overwhelming jargon. This straightforward approach makes it accessible for anyone, regardless of mechanical aptitude.</p>
+<p>The video showcases the entire installation process of the CTR Stock, highlighting its features such as the sling attachment point and the friction lock mechanism that stabilizes the stock. With an easy-to-follow approach, even beginners can successfully complete this upgrade.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p>The first step is removing the factory stock from your AR-15. To do this, you simply pull down on a lever and slip the stock off; it's a simple operation that most users will find manageable, even if it’s their first time. Once the old stock is off, it's time to attach the Magpul CTR.</p>
-<p>The CTR features a friction lock that minimizes stock movement, which is especially beneficial for shooters looking for stability in their shooting position. To install, align the stock with the buffer tube, press the adjustment lever, and pull down to allow it to slide over the pin on the tube. Once it fits into place, you simply release the lever. In no time, you've secured the stock.</p>
-<p>After attachment, it's crucial to test the adjustability. The CTR allows users to set the length-of-pull to their desired preference, which can be essential for achieving the perfect shooting stance. Don't forget to utilize the Quick Connect sling points available on both sides of the stock for easy strap attachment.</p>
+<ol>
+  <li><strong>Remove the Factory Stock:</strong> The first step is straightforward—remove the existing mil-spec stock from your AR15. Simply pull down on the release lever and slide the old stock off the buffer tube.</li>
+  <li><strong>Prepare the Magpul CTR Stock:</strong> Before installation, check that you have the correct product. The Magpul CTR should come with a flat, mil-spec tube compatible design.</li>
+  <li><strong>Install the CTR Stock:</strong> Slide the CTR onto the buffer tube, ensuring it fits snugly. Press the lever to adjust the stock position and pull down the pin to finalize the installation.</li>
+  <li><strong>Adjust and Secure:</strong> Utilize the friction lock feature for additional stability. This mechanism minimizes wobble, enhancing the overall shooting experience.</li>
+</ol>
 
 <h2>Key Tips</h2>
 <ul>
-<li><strong>Verify Parts:</strong> Always check that you have the correct model and components before starting the installation. A mismatch could lead to a frustrating experience.</li>
-<li><strong>Keep It Clean:</strong> Before installing your new stock, take the time to clean the buffer tube. This helps in ensuring a smooth installation and optimal fitting.</li>
-<li><strong>Test Adjustments:</strong> After installation, adjust the stock to various lengths to find your ideal setup. This is crucial not only for comfort but also for accurate shooting.</li>
-<li><strong>Use Proper Tools:</strong> While this installation requires minimal tools, a basic AR-15 armorers tool can make certain aspects of attachment easier, particularly if you're aiming for precision.</li>
+  <li>Before starting, ensure you have the right tools and your AR15 is cleared and safe to work on.</li>
+  <li>Take your time during the installation process to avoid any mistakes. Proper alignment is crucial.</li>
+  <li>After installation, practice adjusting the stock to find the most comfortable position before heading to the range.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>Installing a Magpul CTR stock is an easy, rewarding task that can greatly enhance your AR-15's performance and comfort. It's ideal for both seasoned shooters looking for an upgrade and newcomers interested in personalizing their firearms. Armed with the right knowledge and tips, you’ll find that modifying your gear is not as intimidating as it seems. Just remember to check your components and take your time during the installation process, and soon enough, you’ll have a more functional and personalized AR-15 that you’ll be proud to take to the range.</p>
+<p>The Magpul CTR Stock installation is an easy upgrade for any AR15 owner looking to enhance comfort and functionality. With its simple mechanism and solid construction, it’s a worthwhile addition to your firearm. Remember, a stable stock can significantly impact your shooting performance, making it a crucial element for both novice shooters and seasoned veterans alike.</p>
 
 </article>
 

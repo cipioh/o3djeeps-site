@@ -18,12 +18,23 @@ export async function getStaticPaths() {
 
 const { category } = Astro.params;
 
+const categoryTitles = {
+  firearms: "Firearms",
+  "shooting-training": "Shooting & Training",
+  optics: "Optics",
+  "concealed-carry": "Concealed Carry",
+  "gear-accessories": "Gear & Accessories",
+  knives: "Knives"
+};
+
+const categoryTitle = categoryTitles[category] || category;
+
 const modules = import.meta.glob("../reviews/*.astro", { eager: true });
 
 function normalize(value) {
   return value
     .toLowerCase()
-    .replace(/ & /g, " ")
+    .replace(/ & /g, " and ")
     .replace(/-/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -44,10 +55,13 @@ const categoryBuckets = {
   ],
 
   "shooting-training": [
+    "shooting and training",
+    "shooting training",
     "firearms training",
     "firearm training",
     "shooting practice",
-    "firearms education"
+    "firearms education",
+    "training"
   ],
 
   optics: [
@@ -66,6 +80,8 @@ const categoryBuckets = {
   ],
 
   "gear-accessories": [
+    "gear and accessories",
+    "gear accessories",
     "shooting gear",
     "training gear",
     "mag pouches",
@@ -73,7 +89,8 @@ const categoryBuckets = {
     "ear protection",
     "grip accessories",
     "shooting accessories",
-    "edc gear"
+    "edc gear",
+    "gear"
   ],
 
   knives: [
@@ -90,7 +107,8 @@ const posts = Object.entries(modules)
       slug,
       url: `/reviews/${slug}`,
       title: mod.title || "",
-      description: mod.description,
+      description: mod.description || "",
+      date: mod.date || "",
       specs: mod.specs || []
     };
   })
@@ -100,52 +118,52 @@ const posts = Object.entries(modules)
 
     const bucket = categoryBuckets[category] || [];
 
-    const values = [categorySpec?.value, useCaseSpec?.value]
+    const categoryValues = (categorySpec?.value || "")
+      .split(",")
+      .map((v) => normalize(v))
+      .filter(Boolean);
+
+    const useCaseValues = [useCaseSpec?.value]
       .filter(Boolean)
       .map(normalize);
+
+    const values = [...categoryValues, ...useCaseValues];
 
     return values.some((v) =>
       bucket.some((item) => normalize(item) === v)
     );
-  });
+  })
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 ---
 
-<SiteLayout title={`${category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase())} | blasterKRAFT`}>
+<SiteLayout title={`${categoryTitle} | blasterKRAFT`}>
 
-<h1>
-  {category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase())}
-</h1>
+<h1>{categoryTitle}</h1>
 
 <p class="meta-note">
   Showing {posts.length} articles
 </p>
 
 <div class="article-grid">
+  {posts.map((post) => (
+    <a class="article-card" href={post.url}>
+      <img
+        src={`/images/thumbs/${post.slug}.jpg`}
+        alt={post.title}
+        class="article-card-image"
+      />
 
-{posts.map((post) => (
-  <a class="article-card" href={post.url}>
+      <div class="article-card-body">
+        <h3 class="article-card-title">
+          {post.title}
+        </h3>
 
-    <img
-      src={`/images/thumbs/${post.slug}.jpg`}
-      alt={post.title}
-      class="article-card-image"
-    />
-
-    <div class="article-card-body">
-
-      <h3 class="article-card-title">
-        {post.title}
-      </h3>
-
-      <p class="article-card-excerpt">
-        {post.description}
-      </p>
-
-    </div>
-
-  </a>
-))}
-
+        <p class="article-card-excerpt">
+          {post.description}
+        </p>
+      </div>
+    </a>
+  ))}
 </div>
 
 </SiteLayout>

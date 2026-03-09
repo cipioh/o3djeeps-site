@@ -42,9 +42,9 @@ for video in videos:
 
     page_path = f"src/pages/reviews/{slug}.astro"
 
-    if os.path.exists(page_path):
-        print(f"Skipping existing: {title}")
-        continue
+#    if os.path.exists(page_path):
+#        print(f"Skipping existing: {title}")
+#       continue
 
     print(f"Importing: {title}")
 

@@ -1,14 +1,20 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Sig Sauer P365 Range Day";
-export const description = "Exploring the reliability and performance of the Sig Sauer P365 after extensive shooting experience.";
+export const description = "Explore the performance and reliability of the Sig Sauer P365 through a day at the range.";
 const youtubeId = "xGvh6V6eXjA";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2020-01-04";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Shooting & Training"
+  },
   {
     "label": "Brand",
     "value": "Sig Sauer"
@@ -18,12 +24,8 @@ export const specs = [
     "value": "P365"
   },
   {
-    "label": "Category",
-    "value": "Handgun"
-  },
-  {
     "label": "Use Case",
-    "value": "Concealed Carry and Personal Defense"
+    "value": "Range Performance"
   }
 ];
 const externalLinks = [];
@@ -37,28 +39,29 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="#"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>The Sig Sauer P365 has garnered significant attention since its launch, becoming a go-to choice for concealed carry enthusiasts. Known for its compact size and impressive magazine capacity, we dive into a discussion about its performance and practical implications for everyday users.</p>
+<p>The Sig Sauer P365 is a compact pistol that has gained considerable attention since its launch, praised for its innovative design and performance. In this article, I'll share insights gained from a recent range session with the P365, discussing its capabilities and nuances beyond what a standard review might offer.</p>
 
 <h2>Main Discussion Points</h2>
-<p>After putting a few hundred rounds through the P365, it's easy to understand why so many consider it a standout pistol. The reliability is unmatched, with no malfunctions, jams, or failures to feed noted during testing. Such a track record can instill great confidence for those relying on it for personal protection.</p>
-<p>One of the most appealing features of the P365 is its size. It manages to fit comfortably in everyday carry situations while still accommodating a double-stack magazine that holds 10+1 rounds. This is a game changer in the world of concealed carry, where lower capacity often comes with smaller firearms. The P365 breaks that mold, giving carriers the peace of mind that they won't be under-gunned when they need it most.</p>
-<p>Additionally, the ergonomics of the P365 enhance the shooting experience. The grip is designed to accommodate a range of hand sizes while allowing for a firm hold. The controls are well-placed, facilitating a smooth operation, especially important during high-stress situations. The trigger pull is another highlight; it provides a clean break with a reassuring reset that aids in maintaining accuracy during rapid fire.</p>
+<p>After firing several hundred rounds through the Sig P365, I didn’t experience any malfunctions, which speaks volumes about its reliability. This compact handgun is designed for concealed carry, yet it delivers performance that can stand tall against full-sized competitors. The trigger pull is smooth, enhancing accuracy, especially in rapid fire scenarios.</p>
+
+<p>Another significant aspect worth discussing is the ergonomics of the P365. The grip is textured, allowing for a secure hold, which is essential for maintaining control under various shooting conditions. The sight picture is clear, and the factory sights facilitate quick target acquisition, making it an ideal choice for both new and experienced shooters.</p>
 
 <h2>Practical Implications</h2>
-<p>Everyday shooters, law enforcement officers, and self-defense advocates will find the P365 appealing. Its versatility makes it suitable for various scenarios. From a leisurely day at the range to the more serious context of self-defense, the P365 stands tall. It’s beneficial for those who may not have the luxury of time to practice regularly; the gun’s reliability means you can spend your time focusing on fundamental skills rather than worrying about your equipment.</p>
-<p>Moreover, the expanding accessory market for the P365, including holsters, lights, and sight upgrades, further boosts its viability as a personal defense weapon. Those looking to customize their carry setup will find plenty of options without compromising on the compact nature of the firearm.</p>
+<p>What does this mean for you as a potential owner or user? If you’re considering a compact firearm for everyday carry, the P365 not only checks all the boxes in terms of size and weight but also goes beyond by offering a performance level that could serve well in self-defense situations and competitive shooting. The combination of reliability, ease of use, and compact size makes it a versatile option for shooters.</p>
 
 <h2>Key Takeaways</h2>
-<p>The Sig Sauer P365 is more than just a well-marketed handgun; it’s a reliable companion for concealed carry. With a proven performance record and thoughtful design, it answers the needs of both seasoned shooters and newcomers alike. If you're on the fence about whether this compact pistol is right for you, the outstanding reliability and user-friendly features make it a worthy consideration.</p>
+<p>In conclusion, the Sig Sauer P365 is more than a compact firearm; it's a reliable tool that excels in real-world applications. Whether you’re at the range or in a self-defense scenario, its performance remains consistent. Understanding these attributes is crucial when evaluating its place in the market of compact handguns.</p>
 
 </article>
 

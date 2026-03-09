@@ -1,14 +1,20 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Glock Slide Stop Modification - Will it Help with my High Thumbs Grip?";
-export const description = "Explore how modifying the Glock slide stop can impact grip and function, especially for high thumb shooters.";
+export const description = "Explore a Glock slide stop modification that aims to prevent accidental slide lock during shooting with a high thumbs grip.";
 const youtubeId = "Mafo1XKtEcQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2018-11-20";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Shooting & Training"
+  },
   {
     "label": "Brand",
     "value": "Glock"
@@ -18,15 +24,11 @@ export const specs = [
     "value": "Slide Stop"
   },
   {
-    "label": "Category",
-    "value": "Modification"
-  },
-  {
     "label": "Use Case",
-    "value": "Pistol Grip Improvement"
+    "value": "Preventing accidental slide lock"
   }
 ];
-const externalLinks = [];
+const externalLinks = [{"label": "Bowie Tactical Concepts", "url": "http://www.bowietacticalconcepts.com/"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,37 +39,36 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="http://www.bowietacticalconcepts.com/"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>In the world of firearms modification, one topic that creates ample buzz is the Glock slide stop. Many enthusiasts have encountered the issue of the slide locking back prematurely while still having rounds in the magazine, especially when using a high thumbs grip. In this tutorial, we will dive into how modifying your Glock's slide stop can address this common problem.</p>
+<p>In the world of firearms, specifically handguns, small modifications can sometimes lead to big improvements in performance and usability. This article covers a useful modification of the Glock slide stop, aimed at reducing accidental engagement while maintaining control during shooting. The slide stop is particularly relevant for shooters who prefer a high thumbs grip, which can inadvertently engage the stop and cause the slide to lock back prematurely.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>This video encapsulates a practical modification to the Glock slide stop to make it smaller, reducing the chances of accidental engagement. The journey begins with an acknowledgment of the shooter's unique grip style—high thumbs—and the hurdles it presents. By trimming down the slide stop, the shooter hopes to alleviate the interference that leads to the slide locking back unintentionally.</p>
+<p>The video showcases the process of modifying a factory Glock slide stop to create a smaller profile. This adjustment intends to lessen the chances of the shooter's thumb unintentionally contacting the slide stop while firing. As demonstrated, the adjustment is straightforward and can be a low-risk solution for enhancing your shooting experience.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p>1. **Initial Assessment**: The shooter reflects on their experience with the factory slide stop and the Ghost Bullet Forward Slide Stop. Both have their merits but didn't completely resolve the issue of premature slide lock.</p>
-<p>2. **Consulting an Expert**: Realizing the commonality of this issue among other shooters, a consultation with a gunsmith reveals insights into adjusting the factory slide stop to alleviate the problem.</p>
-<p>3. **Modification Process**: Armed with the guidance from Bowie Tactical Concepts, the modification involves carefully trimming the factory slide stop. This step requires precision—too much trim and you risk losing function; too little, and you may not solve the problem.</p>
-<p>4. **Testing the Modification**: After the modification, the shooter heads to the range to test the efficacy of the change. A notable shift in experience with a high thumbs grip is anticipated as the newly sized slide stop is put to the test.</p>
+<p>The presenter first discusses their past experiences with the high thumbs grip, noting that it can lead to issues with the slide locking back unexpectedly. The modification begins with trimming down the factory slide stop. The decision to alter the slide stop was fueled by consultations with experts in the field, emphasizing the importance of community knowledge in shooting modifications.</p>
+<p>In the video, the creator shows the original and modified slide stops side by side and explains the rationale behind the decision to make the change. The presenter then goes to the range to test whether this adjustment resolves the slide lock issue while maintaining reliable functionality. By doing so, viewers gain valuable insights not only on how to modify their firearms but on testing new modifications safely and effectively.</p>
 
 <h2>Key Tips</h2>
+<p>Here are several key tips derived from the video and the experience shared by the presenter:</p>
 <ul>
-<li>Start with a clear understanding of your grip style; note how your thumb naturally interacts with the slide stop.</li>
-<li>Consult with an experienced gunsmith or firearms trainer before attempting modifications to ensure you’re on the right path.</li>
-<li>Always work cautiously when making cuts to avoid over-modifying the component, which could lead to functional issues.</li>
-<li>Test the modification thoroughly in a controlled environment—this is essential to ascertain whether the solution truly resolves your issue.</li>
-<li>Keep your original parts; should a modification not work as expected, you can revert to the factory setup.</li>
+    <li><strong>Consult Experts:</strong> Before making any modifications, it’s beneficial to speak with knowledgeable individuals, such as gunsmiths or fellow enthusiasts, to gauge potential outcomes.</li>
+    <li><strong>Start Small:</strong> When modifying components like the slide stop, consider making gradual changes and testing them thoroughly to avoid unwanted complications.</li>
+    <li><strong>Test at the Range:</strong> Always test modifications under controlled conditions to ensure reliability and performance.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>Modifying your Glock's slide stop is a balanced act of science and artistry. For those shooting with a high thumbs grip, this modification can offer relief from the pesky slide lock issue that interrupts shooting flow. Staying informed and leaning on the expertise of professionals can ease the process and yield fantastic results. A simple change can lead to a more enjoyable experience at the range, allowing shooters to focus on their technique without unnecessary distractions.</p>
+<p>This article emphasizes that firearm modifications, while sometimes intimidating, can lead to enhanced performance and user experience. The Glock slide stop modification is a prime example of how thoughtful adjustments can cater to individual shooting styles, particularly for those with a high thumbs grip. With careful execution and adequate testing, shooters can tailor their firearms to better suit their needs, all while enjoying the crafting aspect of firearm ownership.</p>
 
 </article>
 

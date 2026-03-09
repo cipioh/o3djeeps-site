@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "AR15 FINAL BUILD AND A LITTLE RANGE TIME";
-export const description = "Explore the final build of an AR-15, scope zeroing tips, and practical insights from the range.";
+export const description = "Explore the final AR-15 build and discover insights from range testing, including scope and iron sights zeroing.";
 const youtubeId = "yskMgW5opmg";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2019-03-08";
 export const specs = [
   {
+    "label": "Category",
+    "value": "Firearms, Optics, Shooting & Training"
+  },
+  {
     "label": "Brand",
-    "value": "AR-15"
+    "value": "Vortex"
   },
   {
     "label": "Product",
-    "value": "Final Build"
-  },
-  {
-    "label": "Category",
-    "value": "Rifles"
+    "value": "Vortex Viper Scope"
   },
   {
     "label": "Use Case",
-    "value": "Range Shooting and Training"
+    "value": "AR-15 Build and Zeroing"
   }
 ];
-const externalLinks = [];
+const externalLinks = [{"label": "Helpful Link", "url": "https://goo.gl/maps/8m3jEm96T8J2"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,32 +39,37 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://goo.gl/maps/8m3jEm96T8J2"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>Completing a build on an AR-15 is no small feat, and the excitement that comes with it is palpable for any enthusiast. In this discussion, we’re diving deep into the nuances of finalizing an AR-15 build, focusing particularly on practical applications such as zeroing in the scope and using backup iron sights. This may be a routine part of the process for seasoned builders, but there are always tips and insights that can elevate someone’s shooting experience.</p>
+<p>Building an AR-15 is a thrilling journey for any firearms enthusiast. From selecting the perfect components to assembling them into a reliable rifle, each step is full of possibilities. In this article, we'll dive into the final build of an AR-15, focusing on the installation and zeroing of a Vortex Viper scope and backup iron sights.</p>
 
-<h2>Main Discussion Points</h2>
-<p>The final step in any AR-15 assembly is not just putting parts together; it's about creating a reliable and functional system. A complete build encompasses various components, including the optic setup, iron sights, and understanding their integration. The video presents a final look at a well-thought-out AR-15 build, showcasing a Vortex Viper scope and Magpul backup iron sights.</p>
-<p>Zeroing an optic, like the Vortex Viper, is crucial for any shooter. It's not just a matter of adjusting the settings through trial and error; it's about understanding how your chosen optic interacts with your platform. Performer a zero at 100 yards ensures the shooter will hit where they aim at longer distances, which opens up a myriad of potential uses, from competition shooting to hunting.</p>
-<p>The challenge of using the opted backup iron sights at a 45-degree angle demonstrates innovative thinking. This setup allows easy access to alternative targeting solutions without disrupting the primary optic’s placement. This clever design choice speaks to the adaptability that many shooters seek, particularly in tactical scenarios.</p>
+<h2>What This Video Demonstrates</h2>
+<p>This video showcases the completed AR-15 build, highlighting not just the aesthetic elements of the firearm but also how each component works together in a practical setting. Key to this demonstration is the process of zeroing the scope for effective shooting at 100 yards and ensuring the backup iron sights are properly aligned for quick accessibility.</p>
 
-<h2>Practical Implications</h2>
-<p>So what does all this mean for the everyday shooter? It emphasizes the importance of training and familiarity with your equipment. For example, the ability to switch quickly from a scope to iron sights means that a shooter can remain functional under rapidly changing conditions. In real-world situations, that split second can make all the difference.</p>
-<p>Having the right tools and knowing how to use them effectively can drastically improve shooting proficiency. Moreover, engaging in regular practice sessions, like those referenced in the video, helps to build confidence and familiarity with one's firearm, ultimately leading to a more successful outing on the range.</p>
+<h2>Step-by-Step Explanation</h2>
+<p>The process begins with the installation of the Vortex Viper scope, which has earned a reputation for its clarity and reliability. Ensuring the scope is mounted correctly eliminates many potential accuracy issues. Once the scope is securely in place, the focus turns to the Magpul backup iron sights. These are adjusted to a 45-degree offset to allow for seamless transitions between the optic and the irons. This arrangement is particularly beneficial in situations where optics may fail or when a rapid engagement is necessary.</p>
+<p>At the range, zeroing the scope involves firing rounds to refine the windage and elevation settings, ensuring precision at the desired distance. Here, I zeroed the scope at 100 yards, which is a standard setting for many shooting scenarios. Meanwhile, the irons are set at 50 yards, providing a reliable alternative with a quicker response time for engagements under 50 yards where speed is often critical.</p>
+
+<h2>Key Tips</h2>
+<ul>
+  <li>Always ensure that your scope rings are tightly fastened to prevent any movement during shooting.</li>
+  <li>When zeroing, take your time to adjust incrementally to achieve the best grouping.</li>
+  <li>Familiarize yourself with the transition from optics to irons, practicing both at the range to enhance your versatility.</li>
+  <li>Consider the distances you’ll be shooting most frequently to set your zeroing parameters effectively.</li>
+</ul>
 
 <h2>Key Takeaways</h2>
-<p>1. The finalization of an AR-15 build involves not just assembly but effective setup and training.</p>
-<p>2. Proper zeroing of optics is essential for accuracy and comes with practice.</p>
-<p>3. Backup iron sights serve as a reliable alternative, especially when installed with an innovative approach.</p>
-<p>4. Continuous training is key to proficiency and confidence with your equipment—it's not just about having great gear, but also mastering its use.</p>
-<p>Ultimately, building an AR-15 is more than just acquiring parts; it’s about creating an understanding of how each component works together to improve shooting performance. As shooters, whether you're beginner or experienced, commitment to skill development alongside your gear choices will always yield the best results.</p>
+<p>This AR-15 build isn’t just a collection of parts; it's about creating a reliable tool for self-defense, sport, or practical use. The combination of a quality scope like the Vortex Viper and a set of backup irons ensures that no matter what happens, you have options at your disposal. Whether you're just starting your firearm journey or are looking to refine your skills, understanding the ins and outs of each component is essential.</p>
+<p>As the journey of building this AR-15 has shown, each element plays a role in not just operational efficacy, but in tailoring the firearm to the user's needs and shooting style. Whether it's for competition, personal defense, or recreational shooting, the right setup can vastly improve your experience and performance on the range.</p>
 
 </article>
 

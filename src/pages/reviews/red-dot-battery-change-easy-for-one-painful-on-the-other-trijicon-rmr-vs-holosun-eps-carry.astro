@@ -1,29 +1,31 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "Red Dot Battery Change: Easy for one\u2026 Painful on the other \ud83d\ude2c | Trijicon RMR vs Holosun EPS Carry";
-export const description = "Discover the ease and challenges of changing batteries in Trijicon RMR and Holosun EPS Carry red dots.";
+export const description = "Discover the ease and challenges of changing batteries in the Trijicon RMR and Holosun EPS Carry red dot sights.";
 const youtubeId = "CAZbQa8EPfg";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2026-02-02";
 export const specs = [
   {
+    "label": "Category",
+    "value": "Optics, Firearms, Concealed Carry"
+  },
+  {
     "label": "Brand",
-    "value": "Trijicon"
+    "value": "Trijicon & Holosun"
   },
   {
     "label": "Product",
-    "value": "RMR07"
-  },
-  {
-    "label": "Category",
-    "value": "Red Dot Sight"
+    "value": "Red Dot Sights"
   },
   {
     "label": "Use Case",
-    "value": "Concealed Carry"
+    "value": "Battery Replacement"
   }
 ];
 const externalLinks = [];
@@ -37,40 +39,39 @@ const externalLinks = [];
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="#"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>When it comes to keeping your optics in prime condition, battery changes can often be overlooked, leading to potential issues during critical moments. This article dives deep into the actual process of replacing batteries for two of the most popular red dot sights used in concealed carry setups—the Trijicon RMR07 paired with a Glock 19 and the Holosun EPS Carry mounted on a SIG P365 X-Macro.</p>
+<p>In the world of concealed carry, reliability is everything. One often-overlooked aspect of maintaining this reliability is ensuring that your red dot sight has a fresh battery. In this article, we’ll dive into the battery change process for two popular red dot sights: the Trijicon RMR and the Holosun EPS Carry. While both serve the essential function of providing quick target acquisition, their battery change processes could not be more different.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>The video takes you through the practicalities of changing the batteries for both optics, highlighting their design features and ease of use. While one system excels with a more user-friendly approach, the other may leave you grappling with inconvenience. The demonstration not only serves as a guide for those looking to perform the same battery changes but also sheds light on key differences in design philosophy between these two manufacturers.</p>
+<p>The video showcases a hands-on approach to changing the batteries of both optics mounted on handguns—specifically, the Trijicon RMR on a Glock 19 and the Holosun EPS Carry on a SIG P365 X-Macro. The presenter guides viewers through the detailed steps involved in each battery replacement, highlighting the convenience of the Holosun setup versus the more complex Trijicon system.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p><strong>Trijicon RMR07 Battery Change:</strong> Starting with the RMR, the procedure requires first removing the optic from the slide of the Glock 19 entirely. This is due to the design where the battery compartment shares access with the mounting screws. The process begins by verifying the firearm is unloaded, releasing the slide forward, and pulling the trigger to ensure it is safe. After removing the slide, the two screws holding the optic must be undone—might I add, this isn’t without its frustrations as they have been torqued on tightly and may require a bit of elbow grease.</p>
+<p>Starting with the Trijicon RMR, the first step is to ensure that the firearm is clear. The optic attaches to the slide of the Glock 19 using screws that also cover the battery compartment. To access the battery, the presenter has to remove the optic entirely, which involves careful handling to avoid stripping the screws.
+</p>
+<p>Once the screws are out, the next step is to remove a protective plate to access the battery compartment, which reveals the CR2032 battery. The process involves careful attention to orientation while installing the new battery. After replacing the battery, reassembling the optic and securing it back onto the slide is critical to ensure it retains its zero. Thread-locking compound is used on the screws to prevent them from loosening over time.</p>
 
-<p>Once removed, the battery, a common CR2032 type, comes into play. It's vital to take note of the positive side orientation, as improper installation could lead to functionality issues down the line. After swapping the old battery with a fresh one, reassembly involves replacing the optic on the slide, re-thread locking, and ensuring it’s secured properly. A torque wrench is recommended to avoid over-tightening—if you wreck the threads on one of these screws, it’s a nightmare to fix!</p>
-
-<p><strong>Holosun EPS Carry Battery Change:</strong> On the flip side, the Holosun EPS Carry is designed with the battery compartment conveniently accessible without removing the entire optic from your firearm. With just a single screw to remove, the entire process is quick. The EPS uses a tray system where you can easily slide out the old battery and in the new one, taking a fraction of the time it would with the RMR. Thread lock is recommended if you've previously opened it. The simplicity illustrated here is a game changer for those who frequently find themselves in need of a battery swap.</p>
+<p>On the other hand, changing the battery in the Holosun EPS Carry is a breeze. The presenter simply removes a single screw to access a sliding battery tray. This design allows for easy battery replacement without needing to remove the optic from the firearm. The convenience of this system is emphasized, making it clear that the Holosun winner in terms of user-friendliness.</p>
 
 <h2>Key Tips</h2>
 <ul>
-<li>Maintain cleanliness throughout the process to prevent debris from entering crucial parts of your optic.</li>
-<li>Always verify the firearm is unloaded before beginning any maintenance work.</li>
-<li>Store your spare batteries in a climate-controlled environment to preserve their lifespan.</li>
-<li>For RMR users, consider preemptively applying thread lock during installation to save hassle when changing out batteries in the future.</li>
-<li>In case of struggling with the RMR screws, investing in quality tools will make a significant difference.</li>
+    <li>Always ensure your firearm is clear before starting any work.</li>
+    <li>Make sure to have the correct tools on hand—a torque wrench can help prevent over-tightening.</li>
+    <li>Use thread-locking compound where necessary to keep screws secure.</li>
+    <li>Familiarize yourself with your optic's battery change process to avoid surprises.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>The stark contrast between the Trijicon RMR07 and Holosun EPS Carry battery replacement processes illustrates a fundamental difference in design philosophy. The RMR’s integration of battery access with optic mounting can be seen as a drawback, making it cumbersome for users who prioritize ease of maintenance. Meanwhile, the Holosun EPS Carry proves itself to be exceptionally user-friendly, designed to facilitate rapid battery changes—a critical factor for anyone relying on their firearm for personal defense.</p>
-
-<p>Ultimately, as you evaluate which optic to invest in, consider not just the initial performance and cost but also the long-term maintenance implications, such as how easy— or difficult—it will be to keep your sight operating optimally. It's not just about how easy they are to use at the range but how streamlined they are when every second counts.</p>
+<p>Maintaining reliable optics is a crucial aspect of responsible firearm ownership. The Trijicon RMR, while perhaps more labor-intensive in replacing its battery, is regarded for its durability and toughness. On the other hand, the Holosun EPS Carry shines with its straightforward battery access, making it an attractive option for those who prioritize ease of maintenance. Ultimately, knowing how to effectively manage battery changes for your optics is essential in ensuring they're always ready when you need them.</p>
 
 </article>
 

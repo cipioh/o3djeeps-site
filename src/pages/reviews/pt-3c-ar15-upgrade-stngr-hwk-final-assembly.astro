@@ -1,32 +1,34 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
-import PromoBox from "../../components/PromoBox.astro";
 import ReviewHero from "../../components/ReviewHero.astro";
 
 export const title = "PT 3C : AR15 UPGRADE - STNGR HWK FINAL ASSEMBLY";
-export const description = "Discover the final assembly steps for upgrading your AR-15 with the STNGR HWK handguard. Achieve a sleek look and improved functionality.";
+export const description = "Final assembly of the STNGR HWK Free Float 15\" Handguard for AR15 upgrades. Learn the steps and insight behind this essential component.";
 const youtubeId = "Of2ErgzqkXw";
+const buyLink = null;
+const buyText = "View Product \u2192";
 const discountCode = null;
+const discountText = null;
 export const date = "2019-02-09";
 export const specs = [
+  {
+    "label": "Category",
+    "value": "Firearms, Optics"
+  },
   {
     "label": "Brand",
     "value": "STNGR"
   },
   {
     "label": "Product",
-    "value": "HWK Free Float Handguard"
-  },
-  {
-    "label": "Category",
-    "value": "AR-15 Upgrades"
+    "value": "HWK Free Float 15\" Handguard"
   },
   {
     "label": "Use Case",
-    "value": "Final Assembly"
+    "value": "AR15 upgrade and assembly"
   }
 ];
-const externalLinks = ["https://youtu.be/fiS30g3untU", "https://youtu.be/Of2ErgzqkXw", "https://www.stngrusa.com/ultimate-hwk-m-lok-bundle/"];
+const externalLinks = [{"label": "3A - STNGR HWK AND HOW TO PROPERLY TORQUE BARREL NUT", "url": "https://youtu.be/NOXEz_P_K-o"}, {"label": "3B - STNGR GAS BLOCK INSTALL WITH BARREL DIMPLE", "url": "https://youtu.be/fiS30g3untU"}, {"label": "3C - STNGR HWK FINAL ASSEMBLY", "url": "https://youtu.be/Of2ErgzqkXw"}, {"label": "STNGR ULTIMATE HWK M-LOK BUNDLE", "url": "https://www.stngrusa.com/ultimate-hwk-m-lok-bundle/"}];
 ---
 
 <SiteLayout title={`${title} | blasterKRAFT`} description={description}>
@@ -37,41 +39,41 @@ const externalLinks = ["https://youtu.be/fiS30g3untU", "https://youtu.be/Of2Ergz
   title={title}
   description={description}
   youtubeId={youtubeId}
-  buyLink="https://youtu.be/NOXEz_P_K-o"
-  buyText="View Product →"
+  buyLink={buyLink}
+  buyText={buyText}
   discountCode={discountCode}
-  showPromo={Boolean(discountCode)}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
   specs={specs}
+  externalLinks={externalLinks}
   date={date}
 />
 
 <h2>Overview</h2>
-<p>In the realm of AR-15 upgrades, the handguard plays a pivotal role not just in aesthetics but also in functionality. The STNGR HWK Free Float Handguard is a popular choice for those looking to enhance their build, offering a blend of style and performance. In this final segment of the assembly tutorial, we will walk through the steps to properly install the HWK handguard, ensuring a solid fit and sleek appearance.</p>
+<p>The final assembly phase of upgrading an AR15 with the STNGR HWK Free Float 15" Handguard marks a significant moment in any build. This hands-on guide will walk you through the key assembly steps, emphasizing proper technique and important considerations during this process.</p>
 
 <h2>What This Video Demonstrates</h2>
-<p>This tutorial provides a hands-on demonstration of how to achieve a successful installation of the STNGR HWK handguard, focusing on critical steps such as alignment, torque specifications, and the use of thread lock. These insights are vital for any enthusiast looking to execute the upgrade efficiently and effectively.</p>
+<p>In this installment, the focus is on installing the STNGR HWK handguard as part of a larger AR15 build series. We’ll visually demonstrate how to ensure accurate alignment, secure components effectively, and achieve a clean finish that optimizes both performance and aesthetics.</p>
 
 <h2>Step-by-Step Explanation</h2>
-<p>Firstly, preparation is key. Before beginning the installation, make sure you have all the necessary tools and components, including the STNGR HWK handguard, barrel nut, anti-rotation tabs, and thread lock. The anti-rotation tabs are particularly significant as they prevent the handguard from twisting once installed.</p>
-
-<p>The installation starts by aligning the handguard with the receiver. An alignment tool can be helpful here, ensuring a snug and straight fit against the barrel. Applying pressure to clamp the handguard to the receiver is also recommended for stabilization.</p>
-
-<p>Next comes the crucial step of securing the handguard. The torque specification for the mounting screws is relatively low, at around 45 inch-pounds. This means you should tighten the screws firmly but avoid over-torquing, which could strip threads or damage the components. Be sure to apply a bit of thread lock to the screws to maintain a secure fit through use.</p>
-
-<p>After aligning and tightening the handguard screws, you may need to adjust the flash hider or muzzle device. It’s essential to check that these components align correctly, ensuring they sit back in their intended positions after the handguard is secured. This process often entails a bit of trial and error—don’t be afraid to make minor adjustments as needed.</p>
-
-<p>The final touch involves inspecting the overall look and feel of the installed handguard. This is where you can appreciate the aggressive new appearance and functional enhancements the STNGR HWK brings to your AR. The available mounting options for accessories such as lights, grips, and bipods can now be easily configured to your preference.</p>
+<ol>
+<li><strong>Prepare Your Workspace:</strong> Before starting, ensure you have all necessary tools at hand and that your workspace is clean and organized. This prevents unnecessary delays and mistakes.</li>
+<li><strong>Alignment of the Handguard:</strong> Begin by placing the handguard onto the assembled upper receiver. The anti-rotational tabs on the handguard will assist in keeping everything aligned. Use a clamp or any tool you have at hand to hold it steady.</li>
+<li><strong>Thread Locker and Torque Settings:</strong> When securing the handguard, remember to apply thread lock to the screws. The recommendation is to tighten at about 45 inch-pounds—a modest amount that ensures a solid hold without over-tightening, which could damage components.</li>
+<li><strong>Final Adjustments and Checks:</strong> After everything is tightened, conduct a visual inspection. Ensure that the gas block and other parts align harmoniously. A well-assembled unit should display a seamless union of parts.</li>
+<li><strong>Future Considerations:</strong> Take a moment to consider any additional accessories like lights or grips that may enhance your build. The handguard offers ample space for future attachments, so plan accordingly.</li>
+</ol>
 
 <h2>Key Tips</h2>
 <ul>
-    <li>Use a proper alignment tool or makeshift clamp to ensure your handguard is straight during installation.</li>
-    <li>Always apply thread lock to screws for added security.</li>
-    <li>Don’t rush the torque process; ensure you are comfortable with the tightness without overdoing it.</li>
-    <li>Experiment with different configurations for mounting accessories to maximize the handguard’s potential.</li>
+<li>Work slowly and methodically; rushing can lead to mistakes.</li>
+<li>Keep a torque wrench handy to ensure that you are applying the correct amount of force.</li>
+<li>Don’t hesitate to test fitting multiple times before finalizing placement; this ensures everything is perfectly aligned.</li>
+<li>Consider the ergonomics of how you plan to handle the firearm; comfort during handling is critical.</li>
 </ul>
 
 <h2>Key Takeaways</h2>
-<p>The final assembly of the STNGR HWK Free Float 15" Handguard is a straightforward process, but it does require attention to detail. From achieving the perfect alignment to ensuring the securement of all components, following these steps will guarantee a successful upgrade. As you put your finishing touches on this build, anticipate the enhanced capability and refined aesthetics this handguard brings to your AR-15.</p>
+<p>This assembly process for the STNGR HWK Free Float 15" Handguard not only adds to the overall functionality of the AR15 but enhances its aesthetic appeal as well. Proper assembly requires patience, attention to detail, and a bit of foresight regarding future upgrades. As the build nears completion, it’s exciting to think about how well everything will work together in the field.</p>
 
 </article>
 
