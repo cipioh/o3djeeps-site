@@ -279,6 +279,14 @@ scraped_specs = scrape_product_specs(buy_link)
 prompt = f"""
 You are writing an article for blasterKRAFT.com, a gear-focused website that accompanies a YouTube channel reviewing shooting gear, EDC equipment, and technical demonstrations.
 
+Return the article body as valid HTML only.
+
+Rules:
+- Use <p>, <strong>, <ul>, <ol>, and <li> tags.
+- Do NOT use Markdown.
+- Do NOT include **bold** or # headings.
+- Use semantic HTML formatting.
+
 The article may be one of three types:
 
 1. PRODUCT REVIEW
