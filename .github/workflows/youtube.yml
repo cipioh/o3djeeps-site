@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: pip install openai requests python-dotenv yt-dlp
         
-      - name: Debug payload
-        run: echo "${{ toJson(github.event) }}"
-        
       - name: Run ingest script
         run: |
           python scripts/new_review.py ${{ github.event.client_payload.videoId }}
