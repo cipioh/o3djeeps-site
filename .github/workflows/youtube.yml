@@ -5,6 +5,9 @@ on:
     types: [new-video]
 
   workflow_dispatch:
+  
+env:
+  YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
 jobs:
   ingest:
