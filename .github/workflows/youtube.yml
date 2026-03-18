@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install openai requests python-dotenv
+        run: pip install openai requests python-dotenv yt-dlp
         
       - name: Debug payload
         run: echo "${{ toJson(github.event) }}"
