@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install openai requests python-dotenv yt-dlp
+        run: pip install youtube-transcript-api requests openai beautifulsoup4
         
       - name: Run ingest script
         run: |
