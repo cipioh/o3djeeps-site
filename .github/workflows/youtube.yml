@@ -4,6 +4,8 @@ on:
   repository_dispatch:
     types: [new-video]
 
+  workflow_dispatch:
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
