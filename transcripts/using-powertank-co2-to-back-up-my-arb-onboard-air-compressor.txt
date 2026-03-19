@@ -1,0 +1,175 @@
+everyone Scipio here in a few videos ago
+I showed you the power tank 10-pound
+system that I just got and started
+implementing in the Jeep loadout for
+airing up tires in that video I also
+mentioned the possibility the option of
+being able to use that same power tank
+10 pound co2 system to backup my air
+compressor should I ever have a failure
+of my onboard air I will lose both front
+and rear lockers and my sway bar
+disconnect all three of those things are
+air actuated so what I want to do is
+show you how I plan to use the co2
+system from power tank to fix that if it
+ever happens so I haven't actually
+gotten around to mounting the power tank
+on to the roll bar this darn speed bag
+is just so convenient that I find I
+don't really want to mount it yet I just
+like having it sort of stowed in the
+back in this handy package by the way
+before we get started there is one thing
+I learned since I made the last video
+that I want to show you so this speed
+bag is actually designed to be kept as a
+unit with the hose accessible and look
+at this there's a little slot in the
+front here that allows you to plug the
+hose in and leave it plugged in to the
+tank so yeah I did not know that was
+there last time now to stow it I can
+just zip this up wrap my hose back up
+and close it but getting access to it's
+really easy because the hose just stays
+always connected that's really cool
+that's one of the reasons why I have a
+hard time mounting this somewhere when
+this darn bag is so really cool anyway
+but back to the air compressor situation
+so let me just sort of set the stage
+here I have the ARB air compressor let
+me fire it up
+pressurize it
+[Music]
+all right so it's pressurized I turned
+on the switch up at the the Stech switch
+pod up on top they're pressurized this
+bad boy
+now the ARB has a pressure switch that
+is between 70 on and 100 off so at 70
+psi or below it will turn on the
+compressor and then fill this little
+small reservoir or this tank to 100 psi
+and then turn off so it tries to
+maintain between 70 and 100 psi now the
+things I'm running with this air
+compressor don't require that much
+pressure at all actually the air lockers
+will start to actuate at about 40 psi
+and we know that the team tech off-road
+actuator for the Rubicon sway bar that I
+have will work easily in that 30 to 40
+psi range and all of these little
+reservoirs inside the devices inside the
+lockers and inside the Rubicon sway bar
+actuator are little tiny capsules that
+fill up with air and impress your eyes
+right so it doesn't require much
+pressure it also doesn't require much
+volume which means I can run all of
+those off of this small little reservoir
+here on the onboard air system numerous
+times before having to worry about the
+air compressor turning on and
+repressurizing so the reason I tell you
+all that is because if I have a failure
+here my goal is to repressurize this and
+it should last for a while and I can
+always reap rescher eyes it so let me
+just show you here the magic tool it's
+this guy it's a very simple male-to-male
+adapter and I've got two male ends here
+with a an adapter that's it super simple
+this is what's going to allow me to
+connect my power tank to the air
+compressor so let me show you if I plug
+this in right now
+you'll see it's pressurized you'll hear
+it's pressurized because you'll hear the
+ear evacuate because there's a hole in
+this
+so basically when I plug this in I just
+let out all of that hundred psi of air
+out of there so now there is no more air
+in there I've depressurized it I've
+turned the switch off so it's not gonna
+re pressurize so in a sense I have what
+appears to be or simulates an air
+compressor failure for whatever reason
+it's not turning on could be a broken
+wire could be a failed you know motor in
+here it could be a fuse blown for
+whatever reason doesn't work so let's
+say I need to regain usability of those
+three systems the two lockers and the
+one sway bar disconnect here's how I'll
+do it so I'm gonna make sure my output
+regulators turned off that's this knob
+here and then I'm going to go ahead and
+pressurize the regulator by opening up
+the tank valve and then now what I want
+to do is set this to a hundred psi
+because we know that's what a RB is
+going to feel that little air compressor
+reservoir with anyway so 100 psi is
+perfectly safe actually it can go higher
+than that but we're going to stick to
+the safest possible 100 psi so now my
+cable here is charged with 100 psi now
+I'm gonna plug in my mail in but because
+I have this super connector
+it doesn't actually shoot air out even
+though there's a hole in this right
+remember that's a really cool feature
+that allows me the time to go in and
+plug it into this ARB outlet port before
+I start sending pressurized co2 but
+before I do that let me sort of give you
+a scenario where you can see how it's
+working so I feel like the easiest way
+to demonstrate this is by showing the
+front Locker actually activating so as
+you can see here the tires move
+independently because the locker is not
+activated now I'm gonna come in here and
+engage the front Locker
+and even though that is engaged the
+locker is not activated because there's
+no air pressure to send to the locker so
+the switch is on but I have no air
+pressure watch this and it is about to
+start pouring rain I'm gonna send this
+up into here plug that in pressurize it
+check it out now the locker is enabled
+holy crap it is raining bad oh my gosh
+come on camera get out of the rain oh
+man this struggle is real folks
+[Applause]
+Wow yeah no notice rainstorm always fun
+look I think I showed you everything I
+want to show you so even though I feel
+like I could probably continue this
+video at a more opportune time the
+reality of it is you saw I charged that
+air compressor with the power tank which
+enabled my lockers to work and in turn
+all the other systems will now work in
+the same fashion now I will have to
+periodically recharge that of course as
+I use it as air is used out of that tank
+on the ARB but you can get creative if
+you wanted and build a tee off and then
+hardline it to the co2 tank and then
+kick it on and then just leave it and
+then run off co2 the rest of the time
+lots of options for me it's an emergency
+backup solution so I'm less concerned
+about that kind of stuff but anyway hope
+that demonstrates how you can do this in
+our rainstorm anyway guys thanks for
+watching I'll catch you on the next one
+[Music]
+[Applause]
+[Music]

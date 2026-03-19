@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "SOLVED! Popping out of Gear after Body Lift - Project 2004 Jeep TJ Wrangler";
+export const description = "Learn how to solve shifter issues on a Jeep TJ after a body lift with this simple fix and practical tips.";
+const youtubeId = "1XR0dz3-7GY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-08-17";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Vehicle Type",
+    "value": "2004 Jeep TJ Wrangler"
+  },
+  {
+    "label": "Modification",
+    "value": "Body Lift"
+  },
+  {
+    "label": "Issue",
+    "value": "Shifter popping out of gear"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Installing a body lift on your Jeep can lead to unexpected challenges, particularly with the shifter functionality. This article covers a common issue experienced after such modifications and provides a straightforward solution that can save you time and frustration.</p><h2>What This Covers</h2><p>This tutorial focuses on addressing the problem of a shifter popping out of second and fourth gears and reverse after raising the console area due to a body lift on a 2004 Jeep TJ Wrangler. We will walk you through the simpler and more efficient solution that minimizes disassembly.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Identify the Problem:</strong> After installing a body lift, the shifter often encounters interference at its lowest position, commonly in second, fourth gears, and reverse.</li><li><strong>Evaluate Common Solutions:</strong> Many enthusiasts resort to pushing back the entire console—a method that can be cumbersome and time-consuming.</li><li><strong>Execute the Simple Fix:</strong> Use a Dremel tool to modify the boot frame directly while it's still in place, saving considerable effort.</li><li><strong>Adjust the Boot:</strong> Lift the rubber boot carefully to access the plastic lip. Dremel down the interfering shelf until there is ample clearance for the shifter.</li><li><strong>Reassemble the Components:</strong> Once you've achieved the desired clearance, simply reattach the boot, ensuring all corners are secure and properly aligned.</li></ol><h2>Helpful Tips</h2><ul><li>Be gentle while lifting the boot to avoid damaging it; it’s designed to fit snugly and needs to remain intact.</li><li>Use a steady hand when operating the Dremel to ensure that you only remove the necessary material without overdoing it.</li><li>Test the shifter in all gears after making the adjustments to confirm that it no longer pops out.</li></ul><h2>Key Takeaways</h2><p>Modifying your Jeep with a body lift can lead to some unique challenges, one of which is ensuring that the shifter remains functional. By following this straightforward method—using minimal tools and avoiding extensive disassembly—you can effectively solve the shifter popping issue. This practical approach keeps your project moving forward without unnecessary delays, allowing you to enjoy your Jeep to the fullest.</p>
+
+</article>
+
+</SiteLayout>

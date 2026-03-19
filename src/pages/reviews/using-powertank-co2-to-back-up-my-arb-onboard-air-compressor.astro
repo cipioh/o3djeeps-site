@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Using Powertank CO2 to Back up my ARB Onboard Air Compressor!";
+export const description = "Learn how to effectively use a Powertank CO2 system to back up your ARB onboard air compressor for off-road adventures.";
+const youtubeId = "DsN-eHQ_YN4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-07-28";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Powertank"
+  },
+  {
+    "label": "Product",
+    "value": "10-pound CO2 system"
+  },
+  {
+    "label": "Use Case",
+    "value": "Backup for ARB air compressor"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you’re a Jeep enthusiast, you know that having a reliable air system is critical for your off-road adventures. Whether it’s for inflating tires or engaging air lockers, maintaining pressure is essential. In this article, we delve into how to set up a Powertank CO2 system as a backup for your ARB onboard air compressor.</p><h2>What This Covers</h2><p>This guide will walk you through the basic setup for using your Powertank CO2 system as an emergency backup for your onboard air compressor. We’ll discuss the necessary components, the operational process, and some practical tips to ensure you’re never caught off guard in the wilderness.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools:</strong> For this setup, you’ll need a Powertank CO2 system, a simple male-to-male adapter, and your ARB air compressor.</li><li><strong>Understand Your Air Requirements:</strong> The ARB system typically operates between 70 PSI and 100 PSI. However, it’s important to note that devices like lockers and sway bar disconnects often only require around 40 PSI to function effectively.</li><li><strong>Connect the Powertank:</strong> Using the male-to-male adapter, connect your Powertank to the ARB outlet port. This connection will simulate a compressor failure and allow you to use CO2 to actuate your lockers.</li><li><strong>Set the Pressure:</strong> Open the tank valve on the Powertank and set the pressure regulator to 100 PSI. This is the sweet spot for the ARB system.</li><li><strong>Activate the Lockers:</strong> Once the tank is pressurized, engage the ARB system. With CO2 now flowing into the system, your lockers should activate, allowing you to regain full functionality.</li></ol><h2>Helpful Tips</h2><ul><li>Consider keeping the Powertank strapped down to prevent movement during off-road situations.</li><li>Always monitor the pressure in your CO2 tank. Replenishing it is essential for reliability.</li><li>If you're looking for more convenience, consider hardlining the CO2 supply directly into your air-operated devices.</li></ul><h2>Key Takeaways</h2><p>By integrating a Powertank CO2 system as a backup to your ARB compressor, you add a layer of security to your off-roading experience. With proper setup and understanding of air pressure dynamics, you can operate essential vehicle functions even if your primary system fails. In the world of off-roading, preparedness is key, and this setup ensures you’re ready for whatever the trail throws at you!</p>
+
+</article>
+
+</SiteLayout>

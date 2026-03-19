@@ -1,0 +1,26 @@
+When I was researching exhausts, I found the Dynomax Quiet Crawler, and I thought it might be a good fit for my needs. The problem is, they don't make the system anymore. However, I found (thanks to a forum post over at wayalife.com) that the parts are available separately and that it was possible to piece your own system together. So that's what I did. 
+
+🔔 Please SUBSCRIBE if you want to see my videos! 🔔
+
+ So, here is the instructions for the original quiet crawler system (it's a rear dump behind the axle):
+
+http://www.dynomax.com/downloads/instruction_pdf/39535%20InstRev0316.pdf
+
+Here's the instruction where I found the downturn and hanger bracket:
+
+http://www.dynomax.com/downloads/instruction_pdf/39522%20InstRev0418.pdf
+
+Here are the parts (Amazon links, but you can shop around and take advantage of promotions). They are listed in order of my install.
+
+DynoMax 52561 Intermediate Pipe - https://amzn.to/2L4nF2J
+Dynomax 17283 Ultra-Flo SS Muffler - https://amzn.to/2uyPje3
+DynoMax 51113 Extension Pipe - https://amzn.to/2LzeLWY
+
+^ That pipe can probably be substituted for anything much cheaper!
+
+Dynomax 24246 Race Bullet Muffler - https://amzn.to/2L6rGUu
+Dynomax 51084 Exhaust Tail Pipe - https://amzn.to/2LxkNaW
+Dynomax 36517 Exhaust Bracket - https://amzn.to/2JAQK00
+
+Here's the post on wayalife.com that keyed me into this project:
+https://wayalife.com/showthread.php/43804-My-Dynomax-Quiet-Crawler-Modified-Install

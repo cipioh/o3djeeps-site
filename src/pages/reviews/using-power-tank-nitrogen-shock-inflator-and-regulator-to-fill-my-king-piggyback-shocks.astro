@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Using Power Tank Nitrogen Shock Inflator and Regulator to Fill my King Piggyback Shocks";
+export const description = "Learn how to refill your nitrogen shocks with the Power Tank inflator in this informative step-by-step guide.";
+const youtubeId = "XwFKURYwfaM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-08-16";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Power Tank"
+  },
+  {
+    "label": "Product",
+    "value": "Shock Inflator with Gauge"
+  },
+  {
+    "label": "Use Case",
+    "value": "Refilling nitrogen shocks"
+  }
+];
+const externalLinks = [{"label": "🔔 Please SUBSCRIBE if you want to see my videos! 🔔", "url": "https://powertank.com/collections/shock-inflators/products/sig-5700"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>This tutorial will guide you through the process of refilling nitrogen-charged shocks, specifically focusing on how to use the Power Tank Shock Inflator. Many Jeep enthusiasts overlook the necessity of maintaining their high-performance shocks, but regular upkeep is essential for optimal performance on and off the trails.</p><h2>What This Covers</h2><p>In this article, we'll explore the tools required, the step-by-step process of refilling your shocks, and some helpful tips to ensure you're doing it correctly and efficiently.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Equipment:</strong> You'll need a Power Tank, a nitrogen tank, the Power Tank Shock Inflator (with gauge), and an adapter if necessary.</li><li><strong>Prepare the Nitrogen Tank:</strong> Ensure your nitrogen tank is turned off before connecting any equipment. If your regulator doesn't fit directly, use an appropriate adapter.</li><li><strong>Connect the Regulator:</strong> Use a wrench to secure the regulator onto the nitrogen tank. It’s crucial to have it fitted tightly to prevent leaks.</li><li><strong>Attach the Shock Inflator:</strong> Depending on your setup, you can directly connect the inflator or use an extension hose for better reach. Ensure everything is secure.</li><li><strong>Extend the Shocks:</strong> To get an accurate fill, ensure the shocks are fully extended. Disconnect the sway bar to allow for this.</li><li><strong>Fill the Shocks:</strong> Remove the cap from your shock, attach the no-loss chuck firmly, and slowly open the nitrogen tank to release gas into the shock. Monitor the gauge closely.</li><li><strong>Finalize the Pressure:</strong> Once your gauge reads the desired pressure (in this case, 150 psi), close the nitrogen valve and remove the chuck without losing your charge.</li></ol><h2>Helpful Tips</h2><ul><li><strong>Monitor Pressure:</strong> Be aware that you may lose a few psi when checking the nitrogen levels—this is normal.</li><li><strong>No Air Loss Chucks:</strong> Invest in a quality no-loss chuck, which minimizes the amount of nitrogen lost every time you disconnect.</li><li><strong>Regular Maintenance:</strong> Regularly check and refill your shocks to maintain their performance. Neglect can lead to reduced handling and ride quality.</li></ul><h2>Key Takeaways</h2><p>Refilling your nitrogen shocks isn't a daunting task. With the right tools and a methodical approach, you can ensure your Jeep's suspension system is well-maintained. This will lead to enhanced off-road performance and a smoother ride on various terrains. Don't forget to keep the equipment in good condition and regularly check your pressures to keep your setup at its best.</p>
+
+</article>
+
+</SiteLayout>

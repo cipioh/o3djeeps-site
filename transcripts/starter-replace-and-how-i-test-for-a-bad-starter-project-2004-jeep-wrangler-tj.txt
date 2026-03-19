@@ -1,0 +1,176 @@
+everyone Scipio here and sometimes I end
+up having to do a video I didn't plan on
+doing and that is this video I like to
+plan installations I like to show you
+cool stuff sometimes I have to do
+problem-solving and break fixes this is
+a break fix video so today my son CJ
+called me said hey the Jeep doesn't
+start so my first question is always
+what is it doing or not doing I want to
+know like the symptom and basically it's
+a click when the key is turned now that
+can oftentimes be a battery and I've
+recently rewired the the battery and
+ground wiring on this so I feel pretty
+comfortable about that the battery has
+been doing okay but it's suspect I don't
+know how long it's gonna last so that
+was my first suspicion left work came
+over here to check it out and the very
+first thing we did is you know sort of
+see does everything else shut down with
+the click so a great thing to do is turn
+on the headlights and then you know
+crank it when it clicks if the
+headlights stay bright and don't like
+dim and shut off it's probably not the
+battery and that's not what happened
+that the headlights stayed on all of the
+you could hear the relay clicking over
+inside the relay box and then I put a
+multimeter on the battery and it showed
+twelve point nine volts so battery
+voltage seemed good and yeah it had all
+the signs and symptoms of a bad starter
+here's the last test I'm doing two to
+verify that before I swap this starter
+come over here I don't know if you
+recall but in a video I did a while back
+actually when I changed out the ignition
+module inside of the steering column I
+showed you how you can jump the
+batteries straight to the starter to
+engage it alright it's kind of hard to
+see but down there is the starter
+solenoid and you can see two posts with
+cables on them the one on the left side
+of the screen is the feed straight from
+the battery that is getting twelve volts
+the one on the right
+is the line that goes to the starter and
+then what you see above it it's kind of
+hard to see this thing right here that
+isn't is a Spade connection that I have
+currently unplugged there's a wire that
+goes in there and it's this wire and
+that is the starter control wire that
+wire comes from your ignition switch and
+when you turn the key that wire sends 12
+volt power which then will push out the
+gear for the starter those other two
+posts basically become connected as well
+which speeds battery power to your
+starter so did some testing there and
+what I tried interesting enough and I
+can demonstrate this for you because I
+have it all pulled off all right so the
+Jeep still in neutral basically what I
+did is I just made a little quick wire
+that will go on to that Spade and I
+plugged it into there so now I have that
+plugged into there basically creating my
+own starter control wire and and the
+other end of that wire is just bare now
+if I touch this to the positive side of
+the battery if everything is working
+good it should crank and it does now
+what that tells me is my starter is good
+my battery voltage is good so that's the
+last test I'm gonna do I know this works
+I know that you know the jeeps in
+neutral I know that if I send 12 volt
+power to this control wire to the
+starter that it should turn over but
+here's what I get you listening all
+right so it's not turning over and
+that's the click that he gets when he
+turns the key so something in there is
+seized up in the starter I can go in and
+get a hammer and probably bang on it and
+get it to actually start but the reality
+of it is something's wrong with the
+starter it's time to change it out this
+is the new starter going in ran over to
+the local auto parts store I actually
+ordered it online had my wife go pick it
+up so that it was here whenever I got to
+the house
+yeah this is a simple install literally
+it's two bolts that hold this on and
+then two wires you have your main wire
+that comes from the battery and you had
+that little control wire which is this
+one that I'm using to test to jump this
+this control wire when it gets 12 volt
+power it basically triggers the the
+relay that connects these two and then
+feeds power to the starter so yeah I'm
+going to swap this out and not gonna do
+an install video on how to do a starter
+because it's really pretty easy but I
+did want to show you what it looks like
+when you know you have a bad starter and
+that's one a good way to test is
+plugging a wire it's a spade so a female
+Spade connector on the end of this wire
+jump it straight to 12 volt positive and
+make sure the Jeep is in neutral you
+don't want to like mow yourself down and
+yeah it should turn on and cycle but
+it's not something's wrong in here so
+let's fix it all right so I'm not gonna
+leave you hanging on the process it took
+me like two minutes to pull this old
+starter out first thing you do take off
+your negative battery cable from the
+battery because you've got a hotline
+that goes direct basically to the
+starter you want to make sure that you
+disconnect that negative so you're not
+arcing up on things down there and that
+goes right here this is to the to the
+battery now there are two bolts that
+hold this together unfortunately there
+are two different sizes I think this one
+was a fifteen millimeter and this one's
+a fourteen or the other way around one
+of them goes in from the front and one
+of them comes in through the back and
+the new one is going to go in exactly
+the same way and it really is a simple
+process use blue thread lock when you
+put this back in and then torque it down
+to the recommended torque specs I don't
+know what those are at the top of my
+head but I'm gonna go look them up here
+in a minute and maybe I'll overlay it
+here on the screen for you so that you
+know you can see but anyway that's it it
+really is easy
+all right there's a new starter in there
+ain't it pretty I've got just enough
+daylight to get this done and literally
+this is a I don't know 10 minute job so
+yeah let's start it all right it's all
+done and back on batteries reconnected
+I'm waiting on CJ to come give it a test
+start I should have put a stopwatch on
+this I think this would be a NASCAR pit
+stop
+awesomeness super easy guys love you can
+even see down in there yeah it's hard to
+see from the top anyway crank her over
+hey all right
+so confirmed this is our corporate this
+is now going back for a core refund
+because you have to pay for a core
+charge if you don't take in your old one
+and yeah save a little bit money on a
+refurbished one I'll run this core back
+real quick and CJ is back up and running
+thank you for that thanks for watching
+I'll catch on the next one
+[Music]
+[Applause]
+[Music]

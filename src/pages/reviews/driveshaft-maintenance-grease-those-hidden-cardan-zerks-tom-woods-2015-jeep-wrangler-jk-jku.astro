@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Driveshaft Maintenance - Grease Those Hidden Cardan Zerks!   Tom Woods  - 2015 Jeep Wrangler JK JKU";
+export const description = "Learn how to properly grease and maintain your Jeep's driveshaft with expert tips from an experienced enthusiast.";
+const youtubeId = "6Z_6xY9W2lI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-09-02";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Tom Woods"
+  },
+  {
+    "label": "Product",
+    "value": "Drive Shafts"
+  },
+  {
+    "label": "Use Case",
+    "value": "Driveshaft Maintenance"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>When it comes to maintaining your Jeep, one area that often gets overlooked is the driveshaft. Regular lubrication is essential to prevent premature failures and keep your vehicle running smoothly, especially if you're an off-road enthusiast. In this tutorial, we'll dive into the details of driveshaft maintenance, particularly focusing on greasing those hidden Cardan zerks that can be difficult to access. Let's ensure your Jeep is in top shape for your next adventure.</p><h2>What This Covers</h2><p>This guide will take you through:</p><ul><li>Understanding the importance of driveshaft maintenance</li><li>Identifying zerk fittings</li><li>Step-by-step greasing process</li><li>Helpful tips to simplify the maintenance</li></ul><h2>Step-by-Step Breakdown</h2><p>1. <strong>Gather Your Tools:</strong> Before you get started, make sure you have a grease gun with the appropriate needle attachment, wrenches (like a 7/16 inch for bolt removal), and a clean working space.</p><p>2. <strong>Access the Driveshaft:</strong> Depending on your Jeep model, the driveshaft can be accessed from the underside. For most setups, you will need to remove the driveshaft to reach certain zerks. This usually involves unbolting a few small but crucial bolts.</p><p>3. <strong>Locate Zerk Fittings:</strong> Pay close attention to the location of the zerk fittings, especially inverted ones that are not visible when the driveshaft is in place. These fittings are essential but often hidden away in challenging spots.</p><p>4. <strong>Grease the Joints:</strong> Using your grease gun, apply grease to each fitting until you see it begin to ooze out from the joint. Don’t overdo it; a couple of pumps is generally sufficient. Rotate the driveshaft as needed to reach all required fittings.</p><p>5. <strong>Reassemble:</strong> Once you’ve greased all fittings, reattach the driveshaft correctly. Double-check that all bolts are secure and the driveshaft is aligned as it should be.</p><h2>Helpful Tips</h2><p>- Regular maintenance: Make driveshaft lubrication part of your routine maintenance schedule to catch issues before they escalate.</p><p>- Know your vehicle: Consult your owner’s manual or repair guide for the specific locations of zerk fittings on your Jeep’s driveshaft.</p><p>- If in doubt, seek help: If you are uncomfortable performing this task, don’t hesitate to take your Jeep to a shop that understands off-road modifications.</p><h2>Key Takeaways</h2><p>Driveshaft maintenance is a crucial aspect of keeping your Jeep performing well, especially when navigating tough terrain. By ensuring you properly grease your driveshaft, particularly those often-overlooked inverted zerk fittings, you're protecting your investment and enhancing your off-road capabilities. Make this maintenance task a regular part of your checklist, and your Jeep will thank you with many trouble-free miles ahead.</p>
+
+</article>
+
+</SiteLayout>

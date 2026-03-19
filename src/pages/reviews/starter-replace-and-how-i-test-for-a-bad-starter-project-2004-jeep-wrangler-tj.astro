@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Starter Replace and How I Test for a Bad Starter - Project 2004 Jeep Wrangler TJ";
+export const description = "Learn how to diagnose and replace a faulty starter in your Jeep Wrangler with practical tips and insights.";
+const youtubeId = "bcqG9rQHC7M";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-08-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Off-Road"
+  },
+  {
+    "label": "Vehicle",
+    "value": "2004 Jeep Wrangler TJ"
+  },
+  {
+    "label": "Task",
+    "value": "Starter Replacement"
+  },
+  {
+    "label": "Tools Required",
+    "value": "Wrench Set, Multimeter, Jumper Wire"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're a Jeep enthusiast, chances are you've encountered a situation where your beloved vehicle refuses to start. In this guide, we're focusing on the all-too-common issue of a faulty starter, specifically for the 2004 Jeep Wrangler TJ. Armed with a few tools and some know-how, you can tackle this repair with confidence.</p><h2>What This Covers</h2><p>This article details my troubleshooting process when my son's Jeep failed to start, leading to the diagnosis of a bad starter and how to replace it quickly and efficiently.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Initial Assessment:</strong> When my son CJ called me reporting the Jeep wouldn't start, my first step was to assess the situation. A clicking noise when turning the key was the primary symptom. This is often indicative of electrical issues, such as a bad battery, but not always.</li><li><strong>Battery Check:</strong> I started by checking the headlights. If they remain bright while attempting to start, the battery is likely functioning properly. I also took voltage readings with a multimeter, which confirmed a healthy 12.9 volts.</li><li><strong>Testing the Starter Circuit:</strong> To confirm the starter was at fault, I created a temporary jumper for the starter control wire. By applying 12 volts directly to this wire while the Jeep was in neutral, I could determine if the starter would engage. In our case, it did not.</li><li><strong>Removing the Old Starter:</strong> After confirming the starter was the issue, I disconnected the negative battery cable and removed the two bolts securing the starter. I made sure to take note of the sizes needed to reinstall the new one.</li><li><strong>Installing the New Starter:</strong> Installation of the new starter was a breeze, taking only about 10 minutes. Remember to use blue thread lock on the bolts and torque them to the vehicle's specifications to ensure a secure fit.</li><li><strong>Final Checks:</strong> Once the new starter was installed, I reconnected the battery and tested it. A smooth start confirmed we had successfully completed the job.</li></ol><h2>Helpful Tips</h2><ul><li>Always start with the simplest checks, like the battery and connections, before diving into the more labor-intensive tasks.</li><li>Use a wrench set that includes both metric and standard sizes, as older models like the TJ may use a mix.</li><li>Have a multimeter handy to easily check battery voltage and diagnose electrical issues.</li><li>Keep safety in mind: disconnect the battery before working on electrical components!</li></ul><h2>Key Takeaways</h2><p>Replacing a starter on a Jeep Wrangler TJ is a straightforward process if you follow the right steps. With some basic tools and a bit of knowledge, you can save time and money by doing it yourself. Proper diagnosis and a methodical approach are key to resolving starting issues effectively, allowing you more time to enjoy off-road adventures with your trusty Jeep.</p>
+
+</article>
+
+</SiteLayout>
