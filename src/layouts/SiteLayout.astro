@@ -106,9 +106,37 @@ function isActive(path) {
      class={isActive("/topics/knives") ? "active" : ""}>
      Knives
   </a>
+
+	<div class="search-container" id="searchContainer">
+	  <button type="button" class="search-toggle" aria-label="Open search">
+		<svg
+		  xmlns="http://www.w3.org/2000/svg"
+		  width="20"
+		  height="20"
+		  viewBox="0 0 24 24"
+		  fill="none"
+		  stroke="currentColor"
+		  stroke-width="2.25"
+		  stroke-linecap="round"
+		  stroke-linejoin="round"
+		  aria-hidden="true"
+		>
+		  <circle cx="11" cy="11" r="7"></circle>
+		  <path d="m20 20-3.5-3.5"></path>
+		</svg>
+	  </button>
+	
+	  <input
+		type="search"
+		class="search-input"
+		name="q"
+		placeholder="Search"
+		autocomplete="off"
+	  />
+	</div>
 </nav>
 
-      <main class="content-card">
+      <main data-pagefind-body class="content-card">
         <slot />
       </main>
 
@@ -138,5 +166,47 @@ function isActive(path) {
         </p>
       </footer>
     </div>
+	<script>
+	  document.addEventListener("DOMContentLoaded", () => {
+		const container = document.getElementById("searchContainer");
+		if (!container) return;
+	
+		const toggle = container.querySelector(".search-toggle");
+		const input = container.querySelector(".search-input");
+	
+		toggle?.addEventListener("click", () => {
+		  container.classList.toggle("active");
+		  if (container.classList.contains("active")) {
+			setTimeout(() => input?.focus(), 100);
+		  }
+		});
+	
+		document.addEventListener("click", (e) => {
+		  if (!container.contains(e.target)) {
+			container.classList.remove("active");
+		  }
+		});
+	
+		document.addEventListener("keydown", (e) => {
+		  if (e.key === "Escape") {
+			container.classList.remove("active");
+		  }
+		});
+	
+		input?.addEventListener("input", () => {
+		  window.pagefindUI?.search(input.value);
+		});
+	
+		input?.addEventListener("keydown", (e) => {
+		  if (e.key === "Enter") {
+			e.preventDefault();
+			const q = input.value.trim();
+			if (q) {
+			  window.location.href = `/search/?q=${encodeURIComponent(q)}`;
+			}
+		  }
+		});
+	  });
+	</script>
   </body>
 </html>

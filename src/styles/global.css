@@ -59,6 +59,46 @@ img {
 }
 
 /* =========================
+   Search Element
+   ========================= */
+
+.search-container {
+  position: relative;
+  margin-left: auto;
+}
+
+.search-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* INPUT (hidden by default) */
+.search-input {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) scaleX(0);
+  transform-origin: right;
+  opacity: 0;
+
+  background: #111;
+  border: 1px solid #ff6a00;
+  border-radius: 6px;
+  padding: 0.5rem;
+  color: #fff;
+  width: 200px;
+
+  transition: all 0.25s ease;
+}
+
+/* SHOW when active */
+.search-container.active .search-input {
+  transform: translateY(-50%) scaleX(1);
+  opacity: 1;
+}
+/* =========================
    Header / Brand Shell
    ========================= */
 

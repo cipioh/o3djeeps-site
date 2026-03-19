@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../layouts/SiteLayout.astro";
+---
+
+<BaseLayout title="Search | blasterKRAFT">
+  <main class="content-card search-page">
+    <h1>Search</h1>
+    <div id="search"></div>
+  </main>
+
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  window.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q") || "";
+
+    const search = new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      showImages: true,
+      excerptLength: 20,
+      pageSize: 10,
+      autofocus: true,
+      resetStyles: false
+    });
+
+    function filterToReviewsOnly() {
+      document.querySelectorAll("#search .pagefind-ui__result").forEach((result) => {
+        const link = result.querySelector(".pagefind-ui__result-link");
+        const href = link?.getAttribute("href") || "";
+        result.style.display = href.startsWith("/reviews/") ? "" : "none";
+      });
+    }
+
+    const observer = new MutationObserver(() => {
+      filterToReviewsOnly();
+    });
+
+    const searchEl = document.getElementById("search");
+    if (searchEl) {
+      observer.observe(searchEl, { childList: true, subtree: true });
+    }
+
+    if (q) {
+      search.triggerSearch(q);
+      setTimeout(filterToReviewsOnly, 300);
+    }
+  });
+</script>
+
+<style is:global>
+  .search-page {
+    max-width: 1100px;
+    margin: 2rem auto;
+  }
+
+  #search {
+    --pagefind-ui-primary: #ff6a00;
+    --pagefind-ui-text: #f5f5f5;
+    --pagefind-ui-background: #111111;
+    --pagefind-ui-border: #2a2a2a;
+    --pagefind-ui-tag: #1a1a1a;
+    --pagefind-ui-border-radius: 12px;
+    --pagefind-ui-font: inherit;
+  }
+
+  #search .pagefind-ui__search-input {
+    background: #111 !important;
+    color: #fff !important;
+    border: 1px solid #ff6a00 !important;
+    border-radius: 999px !important;
+    padding: 0.85rem 1rem !important;
+    box-shadow: 0 0 0 1px rgba(255, 106, 0, 0.08);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+
+  #search .pagefind-ui__search-input:focus {
+    outline: none !important;
+    border-color: #ff8a33 !important;
+    box-shadow: 0 0 0 4px rgba(255, 106, 0, 0.18) !important;
+    background: #151515 !important;
+  }
+
+  #search .pagefind-ui__search-input::placeholder {
+    color: #9a9a9a !important;
+  }
+
+  #search .pagefind-ui__search-clear {
+    color: #fff !important;
+    background: #1a1a1a !important;
+    border: 1px solid #2a2a2a !important;
+    border-radius: 999px !important;
+    padding: 0.45rem 0.8rem !important;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  }
+
+  #search .pagefind-ui__search-clear:hover {
+    background: #ff6a00 !important;
+    border-color: #ff6a00 !important;
+    color: #000 !important;
+  }
+
+  #search .pagefind-ui__result {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 14px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  #search .pagefind-ui__result-link {
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  #search .pagefind-ui__result-link:hover {
+    color: #ff6a00 !important;
+  }
+
+  #search .pagefind-ui__result-excerpt,
+  #search .pagefind-ui__message {
+    color: #d0d0d0 !important;
+  }
+
+  #search .pagefind-ui__result-thumb img {
+    border-radius: 10px;
+    display: block;
+  }
+</style> 
+</BaseLayout>
