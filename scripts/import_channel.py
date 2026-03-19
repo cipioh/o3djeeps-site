@@ -5,8 +5,20 @@ import re
 import time
 import sys
 
-CHANNEL_URL = "https://www.youtube.com/@blasterKRAFT"
+# -------------------------------------------------
+# CHANNEL CONFIG (EDIT PER SITE)
+# -------------------------------------------------
 
+CHANNEL = {
+    "name": "o3djeeps",
+    "url": "https://www.youtube.com/@o3djeeps",
+    "min_duration": 90,  # skip shorts
+    "delay_between": 30  # seconds
+}
+
+# -------------------------------------------------
+# Helpers
+# -------------------------------------------------
 
 def slugify(title):
     title = title.lower()
@@ -15,18 +27,34 @@ def slugify(title):
     return title
 
 
+# -------------------------------------------------
+# Fetch videos using yt-dlp
+# -------------------------------------------------
+
 cmd = [
     "yt-dlp",
     "--dump-json",
-    "--playlist-end", "200",
-    CHANNEL_URL
+    CHANNEL["url"]
 ]
+
+print(f"Fetching videos from {CHANNEL['url']}...")
 
 result = subprocess.run(cmd, capture_output=True, text=True)
 
+if result.returncode != 0:
+    print("❌ Failed to fetch channel data")
+    print(result.stderr)
+    sys.exit(1)
+
 videos = result.stdout.splitlines()
 
-for video in videos:
+print(f"Found {len(videos)} videos\n")
+
+# -------------------------------------------------
+# Process each video
+# -------------------------------------------------
+
+for i, video in enumerate(videos, start=1):
     data = json.loads(video)
 
     video_id = data["id"]
@@ -34,25 +62,32 @@ for video in videos:
     duration = data.get("duration")
 
     # Skip Shorts
-    if duration and duration < 90:
-        print(f"Skipping short: {title}")
+    if duration and duration < CHANNEL["min_duration"]:
+        print(f"⏭️  Skipping short: {title}")
         continue
 
     slug = slugify(title)
-
     page_path = f"src/pages/reviews/{slug}.astro"
 
-#    if os.path.exists(page_path):
-#        print(f"Skipping existing: {title}")
-#       continue
+    # Skip if already exists
+    if os.path.exists(page_path):
+        print(f"✅ Skipping existing: {title}")
+        continue
 
-    print(f"Importing: {title}")
+    print(f"\n[{i}/{len(videos)}] Importing: {title}")
 
-    subprocess.run([
-        sys.executable,
-        "scripts/new_review.py",
-        video_id
-    ])
+    try:
+        subprocess.run([
+            sys.executable,
+            "scripts/new_review.py",
+            video_id
+        ], check=True)
 
-    print("Waiting 30 seconds before next video...")
-    time.sleep(30)
+        print(f"⏳ Waiting {CHANNEL['delay_between']}s before next video...\n")
+        time.sleep(CHANNEL["delay_between"])
+
+    except subprocess.CalledProcessError:
+        print(f"❌ Failed to process: {title}")
+        continue
+
+print("\n✅ Channel import complete.")

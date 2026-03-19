@@ -1,0 +1,180 @@
+how's it going everyone CP oh here and I
+just want to do a quick live video I
+don't do these very often but I'm out
+here in overclocked and I'm messing
+around with this unit and bearcat what
+is this the cmx 560 I did a video on it
+a little bit earlier just showing you
+sort of an out of the box thing and I
+was in here kind of playing around and I
+wanted to show you something that I
+learned that is a pretty big deal and
+might actually be a big deal for some of
+you looking at this so I know that a lot
+of people are sort of waiting to see
+more information about this particular
+CB to see if it's a good choice for them
+and so what I learned is just now I
+think was important enough to get this
+out quickly in case you're on the verge
+of buying so I'm not sure if it's gonna
+change your mind or not but I wanted to
+share with you so first of all let me
+how do I reverse the camera here all
+right so I'm in the Jeep and I do want
+to show you the unit so what I did is I
+took my existing CB install and I just
+put in some connector Spade connectors
+into my existing power and ground and
+basically added the opposite connectors
+on both my CB so I have my Cobra here
+and I have the c MX 560 here which as
+you can see a scanning now so I did that
+so I could easily swap CBS and keep
+everything else the same swap swap power
+and then switch the antenna so right now
+I'm on the CM X what I want to do is
+show you the difference in size so way
+underneath here underneath the glove box
+underneath this little thing is the
+brain the transceiver for the Cobra it
+is super small I would guess it's
+probably a third of the size of this
+unit so I did get some feedback that
+people tried installing the unit in
+underneath the glove box and it just
+doesn't fit and I would agree a hundred
+percent I don't think there's enough
+room in here there is however plenty of
+room to go back in beside the the filter
+here so maybe zip tie or strap up
+somewhere there so I think I'm okay
+get back behind the glovebox area it's
+just not going to go underneath it's
+gonna have to go over there on the side
+so that's something to keep in mind the
+important thing that I think is gonna
+impact a lot of people is I mentioned
+the fact that there's no volume dials
+it's just stepping volume and stepping
+squelch so my volume levels let me put
+this on monitor let's see here here's
+the part that I didn't expect and that
+is that there are only three squelch
+settings so I new squelch with stepping
+I didn't realize that there were only
+three choices so as you can see here if
+I hit squelch level-1 level-2 level-3
+and that's it back to level 1 so that
+does not give you very much squelch
+control so here's level 1 level 2
+squelches that out and then of course
+Squatch level 3 squelches it out even
+further what I don't know is I mean
+those are pretty big gaps to have your
+entire squelch range split into thirds
+in comparison to the Cobra which I don't
+have powered on but has a dial that I
+can use to
+to like basically go through the entire
+squall shrink now there are some cool
+things in in this that I found that the
+Cobra I don't think has you have the
+ability to establish memory channels so
+I think that there are let's see how
+many of there there are eight memory
+banks and then you can scan only the
+memory as opposed to scanning the entire
+range or or you can scan the entire
+range so in this case if I hold this
+down it's scanning the entire range or I
+can press it again right now it's
+scanning the memory range which I only
+have one thing programmed in memory but
+that is kind of cool because there are
+some times where I get annoyed by
+certain channels in the old channel scan
+it does have a local or a distance
+setting so if you've got some local
+interference and in my case my halo
+lights sometimes will give me some
+interference what I can do let me put
+this squash level too so you can see on
+the RF signal if I change it to local it
+drops completely out so it's not
+applying gain which is not amplifying my
+problem interference from my halos so
+that's something I'm gonna experience
+experiment with and I don't think that
+the other one had that much control I
+does have a high cut and a in in be
+effort what that is but it's a nother
+filter so it's got two different types
+of filters in here hopefully you can see
+that and so those can come in handy and
+the other thing I want to say before I
+get off this video is it does not have
+weather channels so there is a model
+that is higher than this that has
+weather channels so if you're looking at
+the Cobra 75 it has obviously some the
+weather
+frequency's so if you need that
+capability which I don't ever use it you
+got to look at the the next model up of
+this unit in but that's it I want to
+talk to you I want to show you get will
+fit back there it'll take some work it's
+gonna have to go here on the side of
+this cabin air filter and or you can
+mount it you know somewhere else
+and then I wanted to make sure you knew
+about the three squelch levels and
+that's good
+but I think the Squatch levels combined
+with the local distance combined with
+the the different filters I may be able
+to find a way to make it comfortable for
+me but I do like the memory scan
+function and yeah it does have a lock
+you can quickly bounce between 9 and 19
+on the top so that makes it kind of nice
+and the other thing I like okay here's
+one more thing sorry I'm rambling now
+here's one more thing I like I'm on
+channel 7 now right key the mic channel
+7
+now I'm gonna go into a scan I'm
+scanning I keep the mic I'm talking on
+channel 7 all right that's important
+because sometimes I'm scanning but I
+want to communicate on a certain
+frequency I'm pretty sure I may be wrong
+but I'm pretty sure that when I'm in
+scan mode on the Cobra and and I key the
+mic it's going to key up on whatever
+frequency happened to be there during
+the scan not my set frequency so I'll
+confirm that in a later video but I
+think that that that is different with
+the unit which is nice because like if
+I'm out wheeling with people and let's
+say we're rocking around on channel you
+know 35 but I want to scan maybe I want
+to scan some memory and scan some other
+maybe I know there's some other Jeepers
+out there on different channels and I
+want to listen to what's going on around
+the park but yet I decide I want to
+communicate on my end you know it's
+going to key up regardless of what
+channel I'm scanning
+so anyway simple things but I wanted to
+make sure you knew about them that's it
+guys thanks for watching and I'll do a
+more in depth video that's not alive
+like this that's raw and uncut later but
+that's it guys thanks for watching I'll
+catch you on the next one
+I think if I can figure out how to turn
+this thing off

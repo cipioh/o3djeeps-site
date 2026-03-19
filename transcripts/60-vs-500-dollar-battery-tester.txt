@@ -1,0 +1,372 @@
+everyone's Scipio here in this video I'm
+going to be testing the top done bt100
+battery tester this will send to me I
+get asked a lot of times if I would be
+interested in doing reviews or tests or
+demonstrations of various products
+I'm always likely to say yes to
+Diagnostics equipment or tools things
+like that that I would like to have
+around the garage anyway so of course I
+said yes I want to check this out
+there's been a few times where I wish I
+had a battery tester usually I'm left to
+using a multimeter which tells you
+voltage but isn't real great at actually
+testing the internals and making sure
+that things are working on the inside so
+then you can go to your local auto parts
+store and they'll usually do it for free
+using something like this this is a NAPA
+battery tester mdx two to five i'm going
+to use this to compare against the top
+dog and see what kind of results I get
+if I get similar results so first of all
+the top dog is a 62 dollar product last
+I checked on Amazon link down in the
+description of this video of course this
+napa battery tester is $500 so yeah
+let's just see the difference right so I
+have these batteries here and and I got
+to give a shout out to a guy named
+William in the Tampa Jeep crew I was
+looking for somebody to help me out with
+some batteries that were of questionable
+quality because it's kind of lame to do
+a battery tester test on good batteries
+and all of our vehicles have good
+batteries in them so I'm like I need to
+find some crappy batteries I was also
+looking for somebody with a crappy
+alternator or charging system I didn't
+find that but we'll go ahead and do a
+comparison and see how this does at
+testing the charging system and all that
+stuff so but he did have some batteries
+by the way this guy awesome Jeep
+he has a TJ same exact color as my son's
+little different year but he's put an LS
+motor in it
+and check this out
+[Music]
+[Music]
+I want to go wheel in with this guy
+anyway now back to this he let me these
+batteries and also let me this nappa
+battery tester so I can do some
+comparisons for you so first of all just
+looking at the user's manual it's pretty
+simple but it does tell you exactly how
+to operate the device it does three
+tests right so there is the battery test
+which we're gonna do here on the table
+there's a cranking test which needs to
+be done in the vehicle and there's a
+charging test also done in the vehicle
+so yeah so I know how this works I don't
+need the manual but it's there if you
+need it these are all side posts so I do
+have a couple of side post adapters
+because it's important that you can get
+the clamps onto the battery nicely you
+can test a voltage by sticking them in
+there you know just barely getting them
+on you know like this or something but
+it's not good for actually doing a test
+so using these battery post adapters so
+these clamps have a toothed side and a
+flat side very similar actually to what
+we see on the Napa clamps one main
+difference is the cable for the Napa one
+is much longer and I think that's going
+to become a value when we get inside the
+vehicle the top done a little bit
+shorter but we'll see if it gets the job
+done alright so anyway let me get this
+guy out of the way for you so that we
+can focus on the results here and
+basically what I'm going to do is
+connect this to the batteries and see
+what their current situation is now the
+battery tester will automatically power
+on from the power of the batteries now I
+have put a couple of these on a charger
+and it's important that you test
+batteries that are charged if not the
+battery tester should tell you to
+recharge it so we'll see how that goes I
+think maybe one of these isn't charged
+but I did put a couple of them on a
+charger so this is reading twelve point
+three three volts right now which is
+actually not bad
+and by the way Williams said if any of
+these turned out to be good batteries
+who wants them back
+so I don't know if they're gonna be good
+or not all right so I'm gonna go ahead
+and and go into the menu and we have our
+options here battery test cranking test
+charging test review data it does save
+the data from the last test that you did
+and then if you want to change the
+language so I'm gonna do a battery test
+here so I'm gonna hit enter it gives you
+the option of regular flooded which is
+what these are just regular lead acid
+batteries you can do AGM flat pay AGM
+spiral GDL EFB so whatever kind of
+battery you're dealing with you can
+probably get tested so we're regular
+flooded here and then we select our
+input for the test CCA's den ji sen e IC
+gb SI e MC ABC ica these are all going
+to be different depending on what region
+of the world you're in and what
+measuring method is used here in the
+u.s. we tend to see SI CA and CA
+cranking amps and cold cranking amps all
+of these batteries have both of those
+values on them so I'm just going to go
+with the default of cold cranking amps
+and select that and then you have a
+chance to enter it in this battery we're
+playing with right now is 650 it's
+already set for 650 you can go up and
+down right here and then once we hit
+that we're gonna do a test and what it's
+doing is it's putting a load on the
+battery this is actually going to put a
+load on the battery and see if the
+internals are able to handle the amount
+of amperage that it's rated for I mean
+right away it says it's a bad battery
+replace it as far as the health is
+showing a 12% capacity so it's rated at
+650 cold cranking amps and it's reading
+234 and so good voltage bad amperage
+right so so that's a problem it has a
+high internal resistance of twelve point
+seven two milli ohms but yeah this test
+shows it's bad
+even though the voltage looked good so
+let's see what the Napa tool tells us
+same exact thing once you connect it up
+it's going to automatically turn on
+twelve point three two volts so we're
+pretty similar there I'm gonna go in the
+Napa tool asks you if it's going to be
+in the vehicle or out of the vehicle
+we're obviously out of the vehicle here
+automotive regular flooded same thing
+you can pick different options here CCA
+is a standard we're gonna use six fifty
+is the right one we're gonna hit enter
+it's doing these same sort of a load
+test on this battery ah same result
+replace battery so it's showing a
+measured of two hundred cold cranking
+amps out of the rating of sixty what did
+this other one let's see two hundred you
+remember because you just watched it but
+I don't remember so I'm gonna go back
+and do review data from the last test
+yeah 234 so give or take a little bit
+that's pretty close in reading but
+either way both of them said the
+battery's bad so I say that's a pretty
+successful test let's go on to the next
+battery let's see what this guy has to
+offer us alright so this guy's dead
+charged but useless so and that's the
+problem with batteries is sometimes
+you'll get them charged up and they show
+they have a charge but yet they don't
+work right and that's why the internals
+the plates there's something going on
+there that is inhibiting the normal
+function of the battery alright so this
+is at twelve point two nine volts so
+very similar reading good battery charge
+battery likely I think I charged this
+one let's go ahead and do the battery
+test cold cranking amps on this one
+is 690 so I'm gonna just this enter
+testing and it says it's good but to
+recharge it so this is at 72% of its
+health its showing 585 cold cranking
+amps out of 690 and it's saying hey it's
+only showing a 50 percent charge so
+charge it some more and it might be good
+okay fair enough
+I would guess after a recharge of this
+if I put it on the charger and condition
+it and brought it up you know maybe it
+will actually be a useful battery so
+good to know let's see let's see what
+the napa tester shows enter twelve point
+two nine volts out of vehicle automotive
+regular flooded CCA 690 right 690
+testing good recharge same exact result
+showing five hundred and thirty-two ccas
+out of 690 so same result that's
+encouraging remember five hundred
+dollars
+sixty-two dollars I mean just saying all
+right let's try the last battery
+oh this one is not even turning on okay
+well since it gets its power from the
+battery that must mean this battery
+doesn't have enough power to even power
+the tester what does what does the
+manual say is the minimum power required
+or does it say technical dimensions
+warranty blah blah blah yadda yadda it
+does not say it just says it's solely
+powered by but doesn't say what the
+minimum I mean I'm guessing it's 12-volt
+power supply and if it's not seeing 12
+volts it must not work now the napa one
+oh gosh
+two point six seven is what the
+voltmeter says so the napa one has an
+internal battery supply so that is one
+thing that makes it different is it
+detects the voltage but it has its own
+battery to run the tester itself so in
+this case i have a battery that is so
+low it can't power on the battery tester
+which to be honest is a pretty good
+battery test in and of itself because if
+it's at two point six seven volts this
+thing is toast
+let's just see what happens if we try
+yeah error wiggle clamps which is not
+going to be a problem what it's saying
+is i'm not getting a good voltage that
+recognizes as an automotive battery so
+yeah this thing is dead yeah de ddr2
+dead right there anyway guys so I feel
+pretty good so far about the topped on
+that it's able to run toe-to-toe with a
+more expensive battery tester and it
+would be nice to have something like
+this in the toolbox just to be able to
+do some tests now it does two other
+tests charging tests and cranking tests
+so we should do that
+on the Jeep alright let's start with the
+top dawn and the cranking test on this
+so I'm gonna go ahead and attach this to
+the terminals as best as I can and not
+to the cables I want to get it connected
+to the terminal itself if I can
+alright so twelve point six nine on cjs
+battery and we're gonna go into cranking
+tests so in hit menu down to cranking
+test enter and it says start engine
+all right so that's what we know about
+the cranking test time is 603 4
+milliseconds cranking low 8.82 volts
+interesting all right let's see what the
+napa tester shows us the difference with
+how the napa tester works is it's going
+to ask us as it did before if the
+battery is in the vehicle or out of the
+vehicle if you say in the vehicle it's
+going to assume you want to run through
+the entire gamut of tests so whereas the
+top done you sort of select which test
+you want to do this one just starts
+running through them all so it's a top
+post automotive regular flooded CCA's
+650
+testing testing it is above 32
+all right so battery's good we knew that
+basically did that first test like we
+did on the tabletop here and then now
+it's saying to press the enter button to
+the starter test so I hit enter and it
+says start engine so let me go do that
+all right so it's showing the cranking
+is normal the top Don said a little bit
+low but it could be because we've sort
+of started it for the first time after a
+long time it's likely that it's in a
+little better condition to start now now
+it's asking us to go straight through to
+the charging test so I'm gonna go ahead
+and hit enter and it was checking for
+alternator out foot and now it wants us
+to rev the engine with the loads off now
+if I was using just an Apple one I would
+take the cable with me and I could
+follow instructions because I don't have
+that luxury for the top dawn I'm just
+going to go ahead and ask my wife to do
+things for me can you turn off the air
+conditioner and then rub the engine to
+2,000 rpms and hold it
+now idle the engine
+turn high beams and blower motor on
+alright I'm pressing so I would have to
+do this with the device in there with me
+if you know I didn't have help red
+engine mm
+okay stop
+now it says the idle the engine turn off
+the loads turn off everything and you
+can turn off the engine and then enter
+charging system no problems so at no
+load its 13.9 and loaded it's at
+thirteen point eight three so you can
+see with this particular test and I'm
+curious to see how the top Don's gonna
+do I literally had to follow
+instructions with the engine running
+which is why like I said this super long
+cord is nice because I could run it
+around and take it in there with me
+so let's see what the top done requires
+of us
+all right so the top done isn't going to
+tell you this on the display but the
+instruction manuals cover it you want to
+start the engine for the charging test
+so before you start it go ahead and
+start the engine we're back in here it's
+testing the battery of course with the
+voltmeter we have the battery test the
+cranking test and the charging tests
+that we're now going to do so that at
+this point the vehicle should be running
+I'm gonna hit enter it's gonna do a
+ripple test I don't know what that means
+now it's doing a load test increase the
+RPM to 2500 and keep it for 5 seconds
+2500
+all right so that was the charging test
+you have unloaded and a loaded and a
+ripple and it says the charging system
+is normal same result charging system is
+normal so that's the comparison between
+how this one works versus one that's
+quite a bit more expensive alright guys
+there you have it topped on bt100 again
+I put a link in the description of this
+video it is an affiliate link so I get a
+little bit of a kickback from Amazon if
+you make any purchases by accessing
+Amazon through my links it doesn't cost
+you any more that's it you have to
+decide whether or not 62 bucks is worth
+it for you if you need a battery tester
+or do you want to buy more expensive one
+or do you just want it for free go to
+the local auto parts store and have them
+tested battery for you only downside
+with that is you've got to drive there
+or you got to pull a battery and take it
+there so it is kind of nice to have one
+at home anyway guys thanks for watching
+I'll catch you on the next one

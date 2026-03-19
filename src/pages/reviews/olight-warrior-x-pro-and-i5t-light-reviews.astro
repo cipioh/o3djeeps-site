@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "OLIGHT Warrior X Pro and i5T Light Reviews";
+export const description = "Explore the OLIGHT Warrior X Pro and i5T flashlights, perfect for off-roaders and outdoor enthusiasts seeking reliability and brightness.";
+const youtubeId = "13JzioadrTg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2021-04-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Reviews, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "OLIGHT"
+  },
+  {
+    "label": "Product",
+    "value": "Warrior X Pro"
+  },
+  {
+    "label": "Use Case",
+    "value": "Outdoor activities, emergency situations, off-roading"
+  }
+];
+const externalLinks = [{"label": "Check out this Limited Edition Warrior X Pro Desert Sunset light! I love this color scheme.  Here are the details I promised in the video:", "url": "https://olight.idevaffiliate.com/idevaffiliate.php?id=746"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The OLIGHT Warrior X Pro and i5T flashlights are standout tools for any outdoor enthusiast or off-roader. With powerful outputs, rugged designs, and user-friendly features, they offer great value especially during promotional sales. These lights are must-haves for your Jeep adventures or nighttime excursions.</p><h2>What Stands Out</h2><p>Both the Warrior X Pro and i5T shine bright with impressive lumen outputs. The Warrior X Pro reaches an incredible 2,100 lumens with a throw of up to 500 meters, while the i5T provides handy 300 lumens in a compact form factor. The unique color scheme of the Warrior X Pro, particularly in the Desert Sunset edition, makes it visually appealing, while the functional designs ensure they meet various needs from off-roading to emergency situations.</p><h2>Design and Features</h2><p>The Warrior X Pro is designed with durability in mind, featuring a heavy-duty build that withstands a 3-meter drop test. It is also submersible, which means you can rely on it in challenging weather conditions. This flashlight uses a specialized 5,000mAh lithium battery with magnetic charging capabilities, which significantly reduces downtime when charging is needed. A notable feature is the low battery indicator with a vibration alert, which warns you when the battery is running low, facilitating proactive recharging. The tactical grip ring allows for an excellent hold, enhancing usability during operation.</p><h2>Real-World Use</h2><p>In practical terms, the Warrior X Pro can be a lightweight champion during night-time off-roading or camping trips. It delivers immediate brightness when needed, illuminating pathways or helping you navigate tricky terrains. The adjustable brightness levels cater to different situations, ensuring you have one hand free for other tasks while still having reliable light. The i5T shines as a convenient pocket flashlight, suitable for everyday carry. Given its AA battery compatibility, you can easily replace batteries, making it a user-friendly option for non-traditional light sources that may require constant charging.</p><h2>Who This Is For</h2><p>These flashlights are perfect for outdoor enthusiasts, campers, and off-road adventurers. The Warrior X Pro is especially beneficial for those who need a reliable, high-output light for extensive use in challenging environments. The i5T, on the other hand, caters to everyday users who appreciate effective portability without sacrificing quality.</p><h2>Key Takeaways</h2><ul><li>The OLIGHT Warrior X Pro offers impressive performance with a 2,100 lumen output and a 500-meter throw.</li><li>Its rugged design and features cater to the demands of outdoor use, including drop and water resistance.</li><li>The i5T is a reliable and convenient flashlight for daily carry, using standard AA batteries for easy replacement.</li><li>Make use of promotional sales to acquire these quality products at a discounted price, ensuring enhanced lighting solutions for your adventures.</li></ul>
+
+</article>
+
+</SiteLayout>

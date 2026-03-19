@@ -1,13 +1,29 @@
 ---
 import "../styles/global.css";
 
+/**
+ * CHANNEL CONFIG (EDIT THIS PER CHANNEL)
+ */
+const site = {
+  name: "o3djeeps",
+  handle: "@o3djeeps",
+  youtube: "https://www.youtube.com/@o3djeeps",
+
+  banner: "/images/branding/channel-banner.jpg",
+  logo: "/images/branding/channel_logo.jpg",
+
+  description:
+    "is a YouTube channel focused on Jeep builds, off-road adventures, gear reviews, and real-world trail experiences.",
+
+  affiliateName: "o3djeeps",
+};
+
 const { title, description } = Astro.props;
-const pathname = Astro.url.pathname;
 const currentPath = Astro.url.pathname;
+
 function isActive(path) {
   return currentPath === path || currentPath.startsWith(path + "/");
 }
-
 ---
 
 <html lang="en">
@@ -17,42 +33,51 @@ function isActive(path) {
     <link rel="icon" href="/favicon.ico" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5RLHV5CJ');</script>
-	<!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5RLHV5CJ');
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RLHV5CJ"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
+    <!-- GTM noscript -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5RLHV5CJ"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe>
+    </noscript>
+
     <div class="site-shell">
       <header class="site-header">
         <div class="brand-hero">
           <div class="brand-banner-wrap">
-            <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
+            <a href={site.youtube} target="_blank" rel="noopener">
               <img
-                src="/images/branding/channel-banner.jpg"
-                alt="blasterKRAFT YouTube Channel"
+                src={site.banner}
+                alt={`${site.name} YouTube Channel`}
                 class="brand-banner-image"
               />
             </a>
           </div>
 
           <a
-            href="https://www.youtube.com/@blasterKRAFT"
+            href={site.youtube}
             target="_blank"
             rel="noopener"
             class="brand-avatar-link"
           >
             <img
-              src="/images/branding/channel_logo.jpg"
-              alt="blasterKRAFT logo"
+              src={site.logo}
+              alt={`${site.name} logo`}
               class="brand-avatar"
             />
           </a>
@@ -62,79 +87,71 @@ function isActive(path) {
 
             <div class="brand-copy">
               <p class="brand-tagline">
-                <a href="https://www.youtube.com/@blasterKRAFT" target="_blank" rel="noopener">
-                  @blasterKRAFT
+                <a href={site.youtube} target="_blank" rel="noopener">
+                  {site.handle}
                 </a>
-                {" "}is a YouTube channel dedicated to gun info, gear and gadget reviews, and
-                general information of interest to shooters or potential shooters. This is an
-                online magazine to supplement that channel.
+                {" "}{site.description}
+                {" "}This is an online magazine to supplement that channel.
               </p>
             </div>
           </div>
         </div>
       </header>
 
-<nav class="site-nav">
-  <a href="/" class={isActive("/") ? "active" : ""}>Home</a>
+      <nav class="site-nav">
+        <a href="/" class={isActive("/") ? "active" : ""}>Home</a>
 
-  <a href="/topics/firearms"
-     class={isActive("/topics/firearms") ? "active" : ""}>
-     Firearms
-  </a>
+        <a href="/topics/builds" class={isActive("/topics/builds") ? "active" : ""}>
+          Builds
+        </a>
 
-  <a href="/topics/shooting-training"
-     class={isActive("/topics/shooting-training") ? "active" : ""}>
-     Shooting & Training
-  </a>
+        <a href="/topics/off-road" class={isActive("/topics/off-road") ? "active" : ""}>
+          Off-Road
+        </a>
 
-  <a href="/topics/optics"
-     class={isActive("/topics/optics") ? "active" : ""}>
-     Optics
-  </a>
+        <a href="/topics/gear" class={isActive("/topics/gear") ? "active" : ""}>
+          Gear
+        </a>
 
-  <a href="/topics/concealed-carry"
-     class={isActive("/topics/concealed-carry") ? "active" : ""}>
-     Concealed Carry
-  </a>
+        <a href="/topics/mods" class={isActive("/topics/mods") ? "active" : ""}>
+          Mods
+        </a>
 
-  <a href="/topics/gear-accessories"
-     class={isActive("/topics/gear-accessories") ? "active" : ""}>
-     Gear & Accessories
-  </a>
+        <a href="/topics/reviews" class={isActive("/topics/reviews") ? "active" : ""}>
+          Reviews
+        </a>
 
-  <a href="/topics/knives"
-     class={isActive("/topics/knives") ? "active" : ""}>
-     Knives
-  </a>
+        <a href="/topics/maintenance" class={isActive("/topics/maintenance") ? "active" : ""}>
+          Maintenance
+        </a>
 
-	<div class="search-container" id="searchContainer">
-	  <button type="button" class="search-toggle" aria-label="Open search">
-		<svg
-		  xmlns="http://www.w3.org/2000/svg"
-		  width="20"
-		  height="20"
-		  viewBox="0 0 24 24"
-		  fill="none"
-		  stroke="currentColor"
-		  stroke-width="2.25"
-		  stroke-linecap="round"
-		  stroke-linejoin="round"
-		  aria-hidden="true"
-		>
-		  <circle cx="11" cy="11" r="7"></circle>
-		  <path d="m20 20-3.5-3.5"></path>
-		</svg>
-	  </button>
-	
-	  <input
-		type="search"
-		class="search-input"
-		name="q"
-		placeholder="Search"
-		autocomplete="off"
-	  />
-	</div>
-</nav>
+        <div class="search-container" id="searchContainer">
+          <button type="button" class="search-toggle" aria-label="Open search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.25"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+          </button>
+
+          <input
+            type="search"
+            class="search-input"
+            name="q"
+            placeholder="Search"
+            autocomplete="off"
+          />
+        </div>
+      </nav>
 
       <main data-pagefind-body class="content-card">
         <slot />
@@ -144,74 +161,71 @@ function isActive(path) {
         <p>
           <strong>Affiliate Disclosure:</strong>
           {" "}Some links on this site may be affiliate links. If you purchase through those links,
-          blasterKRAFT may earn a small commission at no additional cost to you. These commissions
-          help support the channel and website.
+          {site.affiliateName} may earn a small commission at no additional cost to you.
         </p>
 
-         <p>
+        <p>
           <strong>This Website:</strong>
-          {" "}This website is provided as a convenient supplement to the blasterKRAFT YouTube channel. Content on this website was generated automatically using AI to summarize videos, and was generated from a combination of video descriptions and transcripts. AI content can sometimes be misleading or incorrect, so please review the actual video for factual representation of the topic covered.
+          {" "}This website is provided as a supplement to the {site.name} YouTube channel.
+          Content may be generated using AI summaries of video content. Always refer to the original
+          video for accuracy.
         </p>
 
         <p>
           <strong>Review Integrity:</strong>
           {" "}I am never paid to produce reviews and I do not accept payment in exchange for
-          positive coverage. My opinions are always my own. Occasionally products may be provided
-          by manufacturers, retailers, or vendors for evaluation, but this does not influence my
-          conclusions or recommendations.
+          positive coverage. My opinions are always my own.
         </p>
 
         <p>
           <strong>General Disclaimer:</strong>
-          {" "}I am not an attorney. I am not a cop (any more). I am not your gunsmith. I am not
-          your firearms instructor. I am not your spouse. I am not your parent. I'm just some dude
-          on the Internet making videos. It is your responsibility to verify the legitimate
-          application of any information or ideas presented. This content is for entertainment
-          purposes only. I do not sell firearms, parts, or gear.
+          {" "}I am not an attorney. I am not your mechanic. I am not your instructor.
+          I'm just some dude on the Internet making videos. Verify everything yourself.
         </p>
       </footer>
     </div>
-	<script>
-	  document.addEventListener("DOMContentLoaded", () => {
-		const container = document.getElementById("searchContainer");
-		if (!container) return;
-	
-		const toggle = container.querySelector(".search-toggle");
-		const input = container.querySelector(".search-input");
-	
-		toggle?.addEventListener("click", () => {
-		  container.classList.toggle("active");
-		  if (container.classList.contains("active")) {
-			setTimeout(() => input?.focus(), 100);
-		  }
-		});
-	
-		document.addEventListener("click", (e) => {
-		  if (!container.contains(e.target)) {
-			container.classList.remove("active");
-		  }
-		});
-	
-		document.addEventListener("keydown", (e) => {
-		  if (e.key === "Escape") {
-			container.classList.remove("active");
-		  }
-		});
-	
-		input?.addEventListener("input", () => {
-		  window.pagefindUI?.search(input.value);
-		});
-	
-		input?.addEventListener("keydown", (e) => {
-		  if (e.key === "Enter") {
-			e.preventDefault();
-			const q = input.value.trim();
-			if (q) {
-			  window.location.href = `/search/?q=${encodeURIComponent(q)}`;
-			}
-		  }
-		});
-	  });
-	</script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const container = document.getElementById("searchContainer");
+        if (!container) return;
+
+        const toggle = container.querySelector(".search-toggle");
+        const input = container.querySelector(".search-input");
+
+        toggle?.addEventListener("click", () => {
+          container.classList.toggle("active");
+          if (container.classList.contains("active")) {
+            setTimeout(() => input?.focus(), 100);
+          }
+        });
+
+        document.addEventListener("click", (e) => {
+          if (!container.contains(e.target)) {
+            container.classList.remove("active");
+          }
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            container.classList.remove("active");
+          }
+        });
+
+        input?.addEventListener("input", () => {
+          window.pagefindUI?.search(input.value);
+        });
+
+        input?.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            const q = input.value.trim();
+            if (q) {
+              window.location.href = `/search/?q=${encodeURIComponent(q)}`;
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>

@@ -1,12 +1,20 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
 
-const title = "blasterKRAFT";
-const description =
-  "Real-world gun gear and gadget reviews from the blasterKRAFT YouTube channel.";
+/**
+ * CHANNEL CONFIG (keep in sync with SiteLayout)
+ * Later we can centralize this, but for now keep it simple
+ */
+const site = {
+  name: "o3djeeps",
+  description:
+    "Real-world Jeep builds, off-road adventures, and gear reviews from the o3djeeps YouTube channel.",
+};
+
+const title = site.name;
+const description = site.description;
 
 const reviewModules = import.meta.glob("./reviews/*.astro", { eager: true });
-
 
 const featuredArticles = Object.entries(reviewModules)
   .map(([path, module]) => {
@@ -19,15 +27,18 @@ const featuredArticles = Object.entries(reviewModules)
 
     return {
       slug,
-title: module.default?.title ?? module.title ?? fallbackTitle,
-description: module.default?.description ?? module.description ?? descriptionsBySlug[slug] ?? "",
-date: module.default?.date ?? module.date ?? "1970-01-01",
+      title: module.default?.title ?? module.title ?? fallbackTitle,
+      description:
+        module.default?.description ??
+        module.description ??
+        descriptionsBySlug?.[slug] ??
+        "",
+      date: module.default?.date ?? module.date ?? "1970-01-01",
       href: `/reviews/${slug}`,
-      image: `/images/thumbs/${slug}.jpg`
+      image: `/images/thumbs/${slug}.jpg`,
     };
   })
   .sort((a, b) => new Date(b.date) - new Date(a.date));
-
 ---
 
 <SiteLayout title={title} description={description}>
@@ -42,17 +53,17 @@ date: module.default?.date ?? module.date ?? "1970-01-01",
           class="article-card-image"
         />
         <div class="article-card-body">
-<h3 class="article-card-title">{article.title}</h3>
+          <h3 class="article-card-title">{article.title}</h3>
 
-<p class="article-card-date">
-  {new Date(article.date).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric"
-  })}
-</p>
+          <p class="article-card-date">
+            {new Date(article.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </p>
 
-<p class="article-card-excerpt">{article.description}</p>
+          <p class="article-card-excerpt">{article.description}</p>
         </div>
       </a>
     ))}

@@ -1,0 +1,240 @@
+hey everyone CP oh here and in this
+video but a do a little work on this
+2004 teacher that's my son's Jeep he
+called me a few days ago and basically
+said he was running down the highway a
+hot day and and the Jeep was was well up
+to temperature got off the highway went
+off to a side street stopped at a red
+light and his oil pressure gauge dropped
+to zero
+check gauges light came on all that
+stuff and sort of panicked did the right
+thing turned it off called dad right so
+my first question to him was did you
+check the oil let's just make sure
+there's oil in there and and that that's
+not a problem let's just take care of
+the low-hanging fruit so he checked and
+oil was fine everything was showing up
+on the dipstick no problem so then the
+next thing to really question is do we
+have an oil pressure problem or do we
+have a gauge problem which really
+equates to a sending unit problem so the
+way to check that is to get an external
+oil pressure gauge and you can get those
+pretty readily it like Harbor Freight or
+any of the auto parts store they're
+about thirty to forty bucks depending I
+don't have one but that's it that's a
+good place to start if you're so
+inclined honestly from my perspective
+these sending units or the sending
+switches as they're often called are
+very common failure points on these
+older tjs so and it's 13 bucks to
+replace it so I'm gonna replace that he
+hasn't had any other symptoms there's
+been no other indication that oil
+pressure is really a problem
+so I think what we're gonna do is just
+change the sending unit and see if we
+have any other issues if we do have more
+issues after that then I'll probably dig
+in a little bit deeper by checking the
+oil pressure with an external gauge so
+went down to the auto parts store and
+got this Duralast oil pressure sending
+unit I'll show you what it looks like if
+you've never seen one this guy right
+here so it's pretty simple product
+basically plugs into the wiring harness
+and screws into the side of the block
+and gets some oil pressure and and
+generates a reading for your gay
+it should be a quick and easy remove the
+old one put in the new one so we'll see
+how that goes one thing that's
+interesting is now there's a lot of ways
+to do this right they make a special
+socket to remove these as a matter of
+fact this is it here it's got the same
+shape as the outside of this and it's
+deep enough that that could fit in and
+works really well it's essentially a one
+in 1/16 inch socket so if you have a one
+in 1/16 inch deep well socket you can
+get away with just using that I actually
+have a one in 1/16 but it's a impact
+socket and it's not quite as deep
+there's a the impact sockets aren't as
+deep as the the non impact one so it
+wouldn't allow this piece to fit up
+inside so I'm just gonna go buy a cheap
+chrome one in 16 inch deep well the
+outer part store was out of those but
+they had these oh well I guess I'm gonna
+get this the problem with this is it's a
+uni-tasker it's not really good at
+anything else other than dealing with
+these oil pressure switches so at least
+if you get a one-on-one sixteenths inch
+socket I think it's 27 millimeter in
+metric you can use it for other stuff
+but anyway like I said this was there
+and so here we are that's what I've got
+so I'm gonna go pull the old one off and
+put the new one in and you guys can
+follow along if you have any questions
+feel free to hit me up in the comments
+if you never hear from me again about
+this topic it means this fix the problem
+if you see another video about me
+figuring out what's next it means it
+didn't fix the problem so hard to say
+right now how things are gonna go but
+I'd rather throw you a video out as
+opposed to sit and wait to see if
+there's any outcome to put on the tail
+end of this video so stay tuned who
+knows I do have another video coming up
+it's a product review I know some of you
+guys like that some of you don't I think
+it's a really cool thing I asked for
+this product so when that shows up in
+the next couple days we'll check it out
+not necessarily Jeep related can be used
+outside of the Jeep realm but I think a
+lot of jeepers or outdoors people and a
+lot of outdoor people are gonna like
+what I have to show you so anyway let's
+get to this install
+and yeah alright so the hardest part
+probably about doing this on video is
+trying to show you exactly where it's at
+and how to get to it so you can see I
+have my camera set up to get the shot
+for you and then right here there's a
+white wire coming down and you'll see it
+on the main video and that's a good
+guide let's see if I can get in here so
+it's that little white wire coming down
+right I didn't hear that is plugged into
+the harness and it's basically just in
+the back of the engine block you can see
+where that is so if I get down
+underneath here I can show you a little
+bit better you can see actually not only
+the white wire but also the factory oil
+pressure sending unit that is plugged
+into the side of the block there so how
+you get to that is up to you I see a lot
+of people go from the top a lot of
+people go from the bottom honestly I'm
+gonna probably go in from the bottom
+right here I mean this is pretty easy
+access maybe it helps I have a little
+bit of a lift
+and a body lift otherwise you can reach
+down there
+through the top I'm hoping this camera
+will give you a little bit of a view so
+we'll see what happens
+oh I better change that battery alright
+so first thing I need to do is get in
+here and unplug this harness so there's
+one of those little red safety tabs that
+have to be moved it's it pushes towards
+the front of the vehicle on mine anyway
+so now that I've opened up this red tab
+hopefully you can see that tab right
+there this allows me to squeeze the back
+it's where the wire comes out the very
+outside squeeze that and that will allow
+you to slide it off of the sensor all
+right so from underneath here
+there's that tab I had to slide out
+there's a little lip you just pull it
+that's in the locked position that's in
+the unlocked position and then the part
+you squeeze is right here on the back so
+just slip on so once it's locked in like
+that squeeze at the back it should come
+right off now we'll just pull that
+sending unit out using that fancy socket
+I just bought all right so first get
+that socket seat on there it's
+interesting there's not a lot of room so
+I'm gonna use a water extension actually
+I just went and grabbed a swivel real
+quick because it was the first thing I
+grabbed all right so that's seated on
+nicely I'm going to get a collection of
+extensions here so as you break this
+free get a sense for how much torque it
+takes it's not very much so something to
+pay attention to go ahead pull this off
+of there now
+you might get a few drips of oil you
+might not and of course here's the old
+sending unit it's hard to tell if that's
+the problem or not they don't really
+demonstrate any specific quality so
+we're just gonna go put this one right
+back in its place
+hopefully this view will give you a
+little sense for how I'm getting access
+to this it's actually really easy to
+reach from down here just hand starting
+it you do not want to strip these
+threads you don't want to cross thread
+like this would not be fun to fix
+alright goes in nice and easily make
+sure I get at least a few turns by hand
+then I'm gonna put on my fancy socket
+make sure it goes on all the way and
+then using my extension set here and
+basically what I'm going for is just
+when I feel it snug up to about what it
+felt like before and I'm gonna stop all
+right so the thing is if it's going to
+seal it's gonna seal and so if it leaks
+I'll just tighten it a little bit more
+so I'd rather err on not tight enough
+then too tight because I can always go
+Tiger so yeah now I'm just gonna reach
+in there I don't know if you can see
+this but I'm gonna try and get you a
+view
+all right so that red tab is this far in
+is it's gonna go which feels like it's
+not in all the way but the entire unit
+is locked in I'm just gonna leave it
+like that
+um yeah I hear there are some fitment
+issues sometimes with these aftermarket
+ones so and I know a lot of people who
+just ditch their red tabs all together
+so yeah I feel pretty confident this is
+gonna stay in place so I feel like I'm
+done here all right so really all we
+have left to do here is just start it up
+and make sure we're getting an oil
+pressure reading in the gauge and then
+make sure that we're not seeing any
+leaks so
+[Applause]
+and yes we are getting a low-pressure
+that is a very good sign now obviously
+to really test this we're gonna want to
+bring it up to temperature drive around
+a bit look for leaks make sure we have
+pressure I'm not gonna do that for this
+entire video but before I button
+everything up I'll just make sure
+there's no leaks on the ground if you
+don't hear from me again I think we did
+it so after this I guess I would say
+thanks for watching guys
+I'll catch you on the next one

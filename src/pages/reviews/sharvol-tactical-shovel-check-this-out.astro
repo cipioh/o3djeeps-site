@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Sharvol Tactical Shovel - Check this out!";
+export const description = "Explore the features of the Sharvol Tactical Shovel, the ultimate survival tool for Jeep enthusiasts and outdoor adventurers.";
+const youtubeId = "FhSorn1-trw";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-04-12";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Sharvol"
+  },
+  {
+    "label": "Product",
+    "value": "Tactical Shovel"
+  },
+  {
+    "label": "Use Case",
+    "value": "Survival, Camping, Off-Roading"
+  }
+];
+const externalLinks = [{"label": "Here's where to get more info and to buy one:", "url": "https://amzn.to/2ybKSu4"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Sharvol Tactical Shovel is an impressive multi-tool that packs numerous survival features into a compact and robust design. Whether you’re a seasoned off-roader or just looking for an all-in-one tool for your next camping trip, this shovel proves to be a versatile asset.</p><h2>What Stands Out</h2><p>One of the most striking aspects of the Sharvol Tactical Shovel is its multifunctionality. Not only does it perform the basic function of digging, but it also incorporates a range of essential survival tools. The saw edge, compass, and fire starter mean that it's much more than just a shovel; it's a comprehensive survival kit.</p><h2>Design and Features</h2><p>The shovel's design is sleek and efficient. It comes with a sturdy carrying bag, keeping everything organized and ready for action. The shovel itself is made from heavy-duty steel, giving it a significant weight that ensures durability without being bulky. The adjustable length feature allows you to customize it to your preferences, making it suitable for various tasks, from trenching to snow removal.</p><ul><li><strong>Material:</strong> High-quality steel for durability</li><li><strong>Length:</strong> Adjustable, can be extended to 97 cm (38.189 inches)</li><li><strong>Weight:</strong> Lightweight design for easy packing</li></ul><h2>Real-World Use</h2><p>In practical terms, the Sharvol Shovel shines in outdoor scenarios. Whether you're camping, off-roading, or hiking, its multiple functionalities come into play. It can be easily stowed in your vehicle, making it readily available for any unforeseen situations. The compass and built-in whistle enhance its practicality, as they aid in navigation and safety.</p><h2>Who This Is For</h2><p>This shovel is perfect for outdoor enthusiasts, survivalists, campers, and anyone who frequents off-road adventures. Its lightweight yet robust design makes it accessible for beginners while satisfying the needs of more experienced users who require reliability and versatility in their equipment.</p><h2>Key Takeaways</h2><p>In summary, the Sharvol Tactical Shovel is a great addition to any outdoor toolkit. Its multifunctionality, durable construction, and thoughtful design features make it a standout choice for survival and off-roading needs. If you're looking for a shovel that does much more than dig, look no further. This tool is not just about function; it's about ensuring you're prepared for whatever nature throws your way.</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Fourth of July Update";
+export const description = "A detailed update on the Jeep build featuring a Pro Rock front upgrade and rear axle enhancements.";
+const youtubeId = "vUDOAsxDnYI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-04";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Dynatrac"
+  },
+  {
+    "label": "Product",
+    "value": "Pro Rock 44 Axles and ARB Air Locker"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Performance and Durability"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>This Fourth of July update takes a closer look at the ongoing enhancements to my Jeep setup, showcasing both the front and rear axle upgrades that will significantly boost off-road capabilities. As I catch you up on this build, I hope to share some valuable insights into the parts and the processes involved.</p><h2>Main Points</h2><p>Thanks to Paul at World Tour Off Road in Annapolis, Maryland, I have been able to make significant progress on my Jeep build over the holiday weekend. Here’s what’s been happening:</p><ul><li><strong>New Front End Upgrade:</strong> I’m excited about the installation of a <strong>Dynatrac Pro Rock 44</strong>. This durable front end upgrade provides not just strength but also better performance on rough terrains.</li><li><strong>37-inch Tires:</strong> The addition of <strong>37-inch Nitto Ridge Grapplers</strong> will complement the new axle setup, offering improved traction and stability when tackling challenging off-road conditions.</li><li><strong>Rear Axle Enhancement:</strong> The work on the rear involves upgrading to a <strong>35 spline</strong> configuration with an ARB air locker for improved locking differentials—essential for maximizing control in uneven and slippery conditions.</li><li><strong>Gearing Adjustments:</strong> I am also upgrading to <strong>488 gears</strong>, which will enhance power delivery and torque responsiveness, particularly in off-road scenarios.</li></ul><h2>Practical Implications</h2><p>The meticulous nature of Paul’s work is worth mentioning. Every adjustment is made with precision, ensuring the setup isn’t just functional but optimized for performance. For example, although the shim adjustments were within spec, his commitment to perfection means we made adjustments to meet his high standards.</p><p>Additionally, having experienced friends like Jeff who have the right tools and space can make these installations smoother and more efficient. It reinforces the value of community support in off-road builds—a principle that can’t be overstated.</p><h2>Key Takeaways</h2><p>This Fourth of July update has shaped up to be more than just a celebration; it’s an exciting milestone in my Jeep build journey. Key takeaways to consider include:</p><ul><li><strong>Invest in Quality Parts:</strong> Upgrading to components like the Dynatrac axles and ARB lockers can dramatically elevate your vehicle’s off-road performance.</li><li><strong>Preparation is Key:</strong> Having the right tools and knowledgeable friends can make all the difference in executing complex installations.</li><li><strong>Attention to Detail:</strong> Ensuring all modifications meet stringent specifications often yields the best performance outcomes, especially in off-road scenarios.</li></ul><p>Thanks for following along, and be sure to catch the upcoming videos where I’ll go deeper into the installation processes and results. Happy off-roading and enjoy the rest of your day!</p>
+
+</article>
+
+</SiteLayout>

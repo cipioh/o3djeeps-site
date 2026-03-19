@@ -3,11 +3,17 @@ import json
 import re
 import os
 from pathlib import Path
-from openai import OpenAI
+from urllib.parse import urlparse, parse_qs, unquote
+
 import requests
 from bs4 import BeautifulSoup
+from openai import OpenAI
 
 client = OpenAI()
+
+if len(sys.argv) < 5:
+    print("Usage: python generate_review.py <title> <slug> <youtube_id> <publish_date>")
+    sys.exit(1)
 
 title = sys.argv[1]
 slug = sys.argv[2]
@@ -15,17 +21,27 @@ youtube = sys.argv[3]
 publish_date = sys.argv[4]
 
 # -------------------------------------------------
-# Fixed categories for the entire site
+# CHANNEL CONFIG (EDIT THIS PER SITE)
 # -------------------------------------------------
 
-CATEGORIES = [
-    "Firearms",
-    "Shooting & Training",
-    "Optics",
-    "Concealed Carry",
-    "Gear & Accessories",
-    "Knives"
-]
+CHANNEL = {
+    "site_name": "o3djeeps",
+    "site_url": "o3djeeps.com",
+    "youtube_handle": "@o3djeeps",
+    "niche": "Jeep builds, off-road adventures, gear reviews, trail upgrades, recovery equipment, and real-world vehicle modifications",
+    "categories": [
+        "Builds",
+        "Off-Road",
+        "Gear",
+        "Mods",
+        "Reviews",
+        "Maintenance"
+    ],
+    "default_category": "Reviews",
+    "affiliate_name": "o3djeeps"
+}
+
+CATEGORIES = CHANNEL["categories"]
 
 # -------------------------------------------------
 # Load transcript
@@ -53,9 +69,6 @@ if os.path.exists(desc_file):
 # -------------------------------------------------
 # Extract labeled links
 # -------------------------------------------------
-
-from urllib.parse import urlparse, parse_qs, unquote
-
 
 def unwrap_youtube_redirect(url):
     """
@@ -139,7 +152,6 @@ def extract_labeled_links(description_text):
             context_line = cleaned
             found_discount_code = extract_discount_code(cleaned)
 
-            # Only classify as a buy link if there is an actual code
             if found_discount_code:
                 is_buy_link = True
                 label = "View Product →"
@@ -194,18 +206,15 @@ else:
         for x in labeled_links
     ]
 
-
 # -------------------------------------------------
 # Compress transcript
 # -------------------------------------------------
 
 def compress_transcript(text: str) -> str:
-
     lines = text.split("\n")
     filtered = []
 
     for line in lines:
-
         line = line.strip()
 
         if not line:
@@ -217,7 +226,6 @@ def compress_transcript(text: str) -> str:
         filtered.append(line)
 
     joined = "\n".join(filtered)
-
     return joined[:15000]
 
 
@@ -228,41 +236,37 @@ transcript = compress_transcript(transcript_raw)
 # -------------------------------------------------
 
 def scrape_product_specs(url):
-
     if not url or url == "#":
         return []
 
     try:
-
         r = requests.get(
             url,
             timeout=10,
             headers={"User-Agent": "Mozilla/5.0"}
         )
+        r.raise_for_status()
 
         soup = BeautifulSoup(r.text, "html.parser")
 
         specs = []
-
         tables = soup.find_all("table")
 
         for table in tables:
-
             rows = table.find_all("tr")
 
             for row in rows:
-
                 cols = row.find_all(["td", "th"])
 
                 if len(cols) == 2:
-
                     label = cols[0].get_text(strip=True)
                     value = cols[1].get_text(strip=True)
 
-                    specs.append({
-                        "label": label,
-                        "value": value
-                    })
+                    if label and value:
+                        specs.append({
+                            "label": label,
+                            "value": value
+                        })
 
         return specs
 
@@ -276,139 +280,80 @@ scraped_specs = scrape_product_specs(buy_link)
 # LLM prompt
 # -------------------------------------------------
 
+category_list = "\n".join(CATEGORIES)
+
 prompt = f"""
-You are writing an article for blasterKRAFT.com, a gear-focused website that accompanies a YouTube channel reviewing shooting gear, EDC equipment, and technical demonstrations.
+You are writing an article for {CHANNEL["site_url"]}, a website that accompanies a YouTube channel focused on {CHANNEL["niche"]}.
 
-Return the article body as valid HTML only.
+Return ONLY valid JSON.
 
-Rules:
-- Use <p>, <strong>, <ul>, <ol>, and <li> tags.
+The goal is to create a strong companion article based on the YouTube title, description, and transcript.
+
+WRITING STYLE
+- Write like an experienced enthusiast speaking to interested readers.
+- Do NOT just summarize the transcript line-by-line.
+- Expand ideas with practical context and useful observations.
+- Avoid fluff and repetition.
+- Be specific and natural.
+
+HTML RULES
+- article_html must be valid HTML only.
+- Use <h2>, <p>, <strong>, <ul>, <ol>, and <li>.
 - Do NOT use Markdown.
-- Do NOT include **bold** or # headings.
-- Use semantic HTML formatting.
+- Do NOT wrap the response in code fences.
 
-The article may be one of three types:
+CONTENT TYPE
+First determine whether the video is primarily:
+1. review
+2. tutorial
+3. discussion
 
-1. PRODUCT REVIEW
-2. DEMONSTRATION / HOW-TO
-3. DISCUSSION / OPINION
-
-First determine the correct type using BOTH the YouTube description and transcript.
-
-IMPORTANT CATEGORY RULES
-
+CATEGORY RULES
 Choose 1 to 3 categories from this fixed list only:
 
-Firearms
-Shooting & Training
-Optics
-Concealed Carry
-Gear & Accessories
-Knives
+{category_list}
 
-Do NOT invent new categories.
-Categories must be returned exactly as written.
-Return the most relevant categories first.
-
-VERY IMPORTANT:
-Use the MOST SPECIFIC categories available.
-Do NOT choose "Gear & Accessories" when a more specific category clearly applies.
-"Gear & Accessories" should usually be a secondary or tertiary category, not the primary one.
-
-CATEGORY DECISION RULES
-
-- Firearms:
-  Use for rifles, pistols, AR builds, firearm modifications, gun parts, gun setup, firearm-specific installation, and videos centered on the weapon platform itself.
-
-- Shooting & Training:
-  Use for drills, marksmanship, instruction, range exercises, recoil control, movement, techniques, and skill development.
-
-- Optics:
-  Use for scopes, red dots, reticles, scope mounts, optic leveling, zeroing, sight alignment, and optic installation.
-
-- Concealed Carry:
-  Use for holsters, carry methods, concealment bags, off-body carry, AIWB, EDC carry comfort, and defensive carry setup.
-
-- Gear & Accessories:
-  Use only when the video is mainly about general gear, tools, bags, lights, mounts, or accessories and is NOT primarily about a firearm, optic, training topic, concealed carry topic, or knife.
-
-- Knives:
-  Use for knives, blades, sheaths, knife carry, and knife accessories.
-
-CATEGORY PRIORITY GUIDANCE
-
-When a video is about installing or adjusting an optic on a firearm:
-- include Optics
-- include Firearms
-- do NOT make Gear & Accessories the primary category just because tools or mounts are mentioned
-
-When a video is part of a firearm build series:
-- Firearms should almost always be included
-
-When a video is about a scope, red dot, reticle, mount, leveling, or zeroing:
-- Optics should almost always be included
-
-When a video mentions tools used during the process:
-- tools alone do NOT make it Gear & Accessories primary
-
-Examples:
-
-- AR build + scope mount + reticle alignment
-  => ["Firearms", "Optics"]
-
-- Rifle optic installation using torque tools and levels
-  => ["Optics", "Firearms"]
-
-- Red dot zeroing at the range
-  => ["Optics", "Shooting & Training", "Firearms"]
-
-- Holster review for everyday carry
-  => ["Concealed Carry", "Firearms"]
-
-- Concealment bag review for off-body carry
-  => ["Concealed Carry", "Gear & Accessories"]
-
-- Knife review
-  => ["Knives"]
-
-STYLE GUIDELINES
-
-• Write like an experienced enthusiast explaining gear.
-• Do NOT summarize the transcript.
-• Expand ideas with real-world insight and context.
-• Use natural paragraphs.
-• Avoid filler language.
-• Use clean HTML headings and sections.
+- Do NOT invent new categories.
+- Categories must be returned exactly as written.
+- Return the most relevant categories first.
 
 ARTICLE LENGTH
+- Target roughly 800–1200 words when enough source material exists.
+- If the source material is thin, still produce a useful article with clear structure.
 
-Target **800–1200 words**.
+SECTION GUIDANCE
 
-If the video is a PRODUCT REVIEW include sections:
-
+If content_type is "review", include sections like:
 <h2>Quick Verdict</h2>
-<h2>What Makes This Review Different</h2>
-<h2>Design and Layout</h2>
+<h2>What Stands Out</h2>
+<h2>Design and Features</h2>
 <h2>Real-World Use</h2>
-<h2>Who This Product May Be For</h2>
+<h2>Who This Is For</h2>
 <h2>Key Takeaways</h2>
 
-If it is a DEMONSTRATION or HOW-TO include:
-
+If content_type is "tutorial", include sections like:
 <h2>Overview</h2>
-<h2>What This Video Demonstrates</h2>
-<h2>Step-by-Step Explanation</h2>
-<h2>Key Tips</h2>
+<h2>What This Covers</h2>
+<h2>Step-by-Step Breakdown</h2>
+<h2>Helpful Tips</h2>
 <h2>Key Takeaways</h2>
 
-If it is a DISCUSSION include:
-
+If content_type is "discussion", include sections like:
 <h2>Overview</h2>
-<h2>Main Discussion Points</h2>
+<h2>Main Points</h2>
 <h2>Practical Implications</h2>
 <h2>Key Takeaways</h2>
 
-Return ONLY valid JSON in this format:
+SPECS
+If applicable, return a short specs array with useful structured fields.
+If no formal specs are obvious, return a few practical fields such as:
+- Brand
+- Product
+- Platform
+- Use Case
+- Category
+
+Return JSON in exactly this format:
 
 {{
   "description": "SEO meta description under 160 characters",
@@ -419,7 +364,7 @@ Return ONLY valid JSON in this format:
     {{"label": "Product", "value": "value"}},
     {{"label": "Use Case", "value": "value"}}
   ],
-  "article_html": "<HTML content>"
+  "article_html": "<h2>...</h2><p>...</p>"
 }}
 
 YouTube Title:
@@ -431,6 +376,7 @@ YouTube Description:
 Transcript:
 {transcript}
 """
+
 # -------------------------------------------------
 # Call OpenAI
 # -------------------------------------------------
@@ -441,7 +387,6 @@ response = client.chat.completions.create(
 )
 
 raw = response.choices[0].message.content.strip()
-
 raw = re.sub(r"^```[a-zA-Z]*", "", raw)
 raw = re.sub(r"```$", "", raw)
 
@@ -473,9 +418,11 @@ if not categories:
     if legacy_category in CATEGORIES:
         categories = [legacy_category]
     else:
-        categories = ["Gear & Accessories"]
+        categories = [CHANNEL["default_category"]]
 
 specs = scraped_specs or data.get("specs", [])
+if not isinstance(specs, list):
+    specs = []
 
 specs.insert(0, {
     "label": "Category",
@@ -510,7 +457,7 @@ export const specs = {specs_json};
 const externalLinks = {external_links_json};
 ---
 
-<SiteLayout title={{`${{title}} | blasterKRAFT`}} description={{description}}>
+<SiteLayout title={{`${{title}} | {CHANNEL["site_name"]}`}} description={{description}}>
 
 <article>
 
@@ -536,11 +483,6 @@ const externalLinks = {external_links_json};
 """
 
 file = Path(f"src/pages/reviews/{slug}.astro")
-
-# if file.exists():
-#     print("Review already exists. Skipping.")
-#     sys.exit(0)
-
 file.write_text(page, encoding="utf-8")
 
 print(f"Created {file}")

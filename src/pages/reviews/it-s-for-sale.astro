@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "It's for sale.";
+export const description = "Explore the details and features of a meticulously upgraded 2015 Jeep Wrangler JK for sale.";
+const youtubeId = "MdwPEBLQ7m8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-04-09";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2015 Wrangler JK"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgraded Off-Road Vehicle"
+  }
+];
+const externalLinks = [{"label": "I hate this. I want to stay in the Jeep community. I also want to keep this channel running. But it's time for OVERCLOCK3D to go to a new home.", "url": "https://www.facebook.com/marketplace/item/1604264549721756/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>This article dives into the story behind an exceptional 2015 Jeep Wrangler JK that is currently up for sale, a vehicle that has been significantly modified to enhance its off-road capabilities. As enthusiasts, we know how a well-built Jeep can ease the pains of an owner’s heart when it’s time to sell. This Jeep, affectionately nicknamed 'Overclock', has a rich history of upgrades and thoughtful modifications that cater specifically to adventurers and off-road aficionados alike.</p><h2>Main Points</h2><p>Scipio, the owner, finds himself in a challenging position: he needs to relocate from Maryland to Florida, leading to the difficult decision to sell his beloved Jeep. While it's a space issue, the emotional weight of parting with a vehicle that has been a central part of his Jeep journey cannot be understated. Here’s a deeper look at what makes this Jeep special:</p><ul><li><strong>Unique Color:</strong> The Anvil color is not just striking; it’s a limited edition that changes shades based on light, adding a unique character to every outing.</li><li><strong>New Engine:</strong> Recently replaced under warranty, the engine has just 68 miles on it. For a Jeep with nearly 100,000 miles overall, having a brand new engine translates to years of reliable off-road performance ahead.</li><li><strong>Significant Upgrades:</strong> A wealth of modifications makes this Jeep stand out: from a Dynatrac Pro Rock 44 axle kit to a custom exhaust system, the upgrades total over $10,000 in value, making the asking price of $35,000 a competitive deal for serious buyers.</li></ul><h2>Practical Implications</h2><p>Owners considering a similar path can appreciate the meticulous attention to detail present in Overclock’s modifications, each selected to enhance both driving and off-road experiences. The addition of an onboard ARB air compressor, HID lighting systems, and a robust winch clearly outlines the amount of thought put into making this Jeep a versatile option for off-road ventures.</p><p>The owner’s emphasis on high-quality components and the vehicle's enhanced off-road capabilities should be appealing to buyers looking for not just a vehicle but a thoughtfully constructed tool for adventure. Moreover, Scipio's willingness to share his story and the functional upgrades may resonate well with fellow enthusiasts within the community.</p><h2>Key Takeaways</h2><p>Selling a vehicle like this Jeep is not simply a transaction; it’s about finding a new enthusiast who will appreciate the hard work and love that went into building it. Scipio hopes to maintain his connection to the Jeep community despite downsizing and considers embarking on an exciting new build for his next project. For those interested, the link to the listing has been provided, and those of us in the community know how important it is to support fellow Jeep lovers. Be sure to check it out if you're in the market for an exceptional off-road vehicle.</p>
+
+</article>
+
+</SiteLayout>

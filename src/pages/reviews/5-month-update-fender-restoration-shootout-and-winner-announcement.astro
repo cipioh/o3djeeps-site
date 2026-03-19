@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "5 MONTH UPDATE: Fender Restoration Shootout and Winner Announcement";
+export const description = "Discover the best fender restoration products after 5 months of real-world testing and see which one comes out on top!";
+const youtubeId = "1C5fYWMpPeM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2021-03-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Cerakote"
+  },
+  {
+    "label": "Product",
+    "value": "Ceramic Trim Coat Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Fender and Trim Restoration"
+  }
+];
+const externalLinks = [{"label": "Here are the products that were tested (some are affiliate links):", "url": "https://www.flowshineusa.com/shop"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/33l8qtM"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/33qZpiZ"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/3jooD6Y"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/2SkurCH"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/3ngmv3M"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/34jdZbp"}, {"label": "Here are the products that were tested (some are affiliate links):", "url": "https://amzn.to/3neVo9d"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>After extensive testing over five months, the standout fender restoration product is the <strong>Cerakote Ceramic Trim Coat Kit</strong>. While it maintained a shiny finish, its performance in real-world conditions proved superior compared to its competitors. However, personal preferences for finish may vary.</p><h2>What Stands Out</h2><p>Each tested product had its strengths and weaknesses, but the durability of the finishes after enduring Florida's harsh elements was a key factor. Cerakote emerged as a favorite for its resilience and ease of application, closely followed by <strong>Forever Black Bumper and Trim Reconditioner</strong> and <strong>That Black Stuff Black Trim Restorer</strong>.</p><h2>Design and Features</h2><p>The products vary widely in terms of application methods and resulting finishes:</p><ul><li><strong>Cerakote Ceramic Trim Coat Kit:</strong> High shine and great longevity, but prone to cracking under intense sunlight.</li><li><strong>Forever Black:</strong> Deep color restoration with good performance against the elements.</li><li><strong>That Black Stuff:</strong> Offers a matte finish that blends well with various trim styles.</li><li><strong>Mothers Back to Black:</strong> Initially promising, but less durability than others in the lineup.</li><li><strong>Garage One Pro Trim Restore:</strong> Disappointing results after a short period.</li></ul><h2>Real-World Use</h2><p>The products were subjected to high humidity, torrential rains, and fluctuating temperatures over the testing period. Being mounted outside, they endured treatment from the environment and accidental abuse. This real-world testing was crucial in determining how well each product holds up over time.</p><h2>Who This Is For</h2><p>If you're an off-road enthusiast or simply someone looking to maintain the aesthetics of your vehicle's trim, these products are worth considering. Knowing that some last longer than others can help you invest wisely in your vehicle's upkeep.</p><h2>Key Takeaways</h2><p>Ultimately, the game of fender restoration is subjective. Choosing the right product depends on personal preference for finish and how much exposure your vehicle undergoes. While the Cerakote may take the crown in performance and durability, those seeking a different aesthetic may prefer the alternatives. If you're in the market for restoration solutions, consider investing in products that offer a balance of durability and appearance that suits your needs.</p>
+
+</article>
+
+</SiteLayout>

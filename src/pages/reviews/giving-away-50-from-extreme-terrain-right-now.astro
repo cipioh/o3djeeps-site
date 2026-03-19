@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Giving Away $50 from Extreme Terrain... right now!";
+export const description = "Join our $50 giveaway from Extreme Terrain for O3D Jeep supporters. Find out how to participate and win exciting prizes.";
+const youtubeId = "0nO26f6MAbY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-04-04";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Extreme Terrain"
+  },
+  {
+    "label": "Product",
+    "value": "$50 Gift Card"
+  },
+  {
+    "label": "Use Case",
+    "value": "Online Store Shopping"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of off-roading, community engagement is just as important as hitting the trails. That's why giving back to our supporters is a core value at O3D Jeeps. We're excited to announce a special giveaway where you can win a $50 gift card sponsored by Extreme Terrain! This giveaway is exclusive to our loyal O3D Jeep sticker owners and aims to enhance the bond we share as a community.</p><h2>Main Points</h2><p>The giveaway format is simple yet engaging. To enter, supporters must show their pride by displaying the O3D Jeep sticker on their vehicles and adhering to the specified submission rules. Each participant submits a picture with their sticker, creating a fun and inclusive atmosphere. With a current entry pool of only eight, the odds of winning are quite favorable!</p><p>This isn't just a one-time event; Extreme Terrain has graciously sponsored our giveaways for three consecutive months. Not only does this offer a chance for our community to snag some awesome gear, but it also emphasizes the commitment to fostering our off-road culture through collaboration and giving back.</p><h2>Practical Implications</h2><p>Joining this giveaway not only gives participants a chance to win a gift card but also encourages them to engage with the Jeep community actively. By displaying the stickers and sharing their Jeep stories, participants build connections that enrich their off-road experiences. This personalized engagement strengthens our community and reminds ourselves that, in the world of off-roading, we’re all in this together.</p><p>The giveaways serve as a bridge connecting our online actions to real-world interaction. Participants are encouraged to think of creative ways to show off their Jeep, leading to inspiring posts on social media platforms. In essence, these giveaways become more than just about winning; they foster creativity and community spirit.</p><h2>Key Takeaways</h2><p>As we wrap up this discussion, it's essential to recognize the value of community within the off-roading world. The Extreme Terrain $50 gift card giveaway offers a fun opportunity for O3D Jeep supporters while highlighting the importance of camaraderie and support in our journeys. Don't miss your chance to participate in upcoming giveaways; keep an eye out for future instructions, and as always, thank you for supporting O3D Jeeps!</p>
+
+</article>
+
+</SiteLayout>

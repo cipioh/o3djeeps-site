@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "The OVERCLOCK3D Journey:  From Stock to Sold";
+export const description = "Join us as we reminisce about the OVERCLOCK3D journey, from building to selling this iconic Jeep.";
+const youtubeId = "5tBTaYwokbA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-04-18";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Model",
+    "value": "2015 Jeep Willys Wheeler"
+  },
+  {
+    "label": "Key Feature",
+    "value": "Trail Force HD bumper with tire carrier"
+  },
+  {
+    "label": "Modifications",
+    "value": "Leveling kit, wheel spacers, oil pan skid plate"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The journey of building and eventually selling the OVERCLOCK3D Jeep is a bittersweet tale. From its inception as a stock vehicle to a heavily modified off-road beast, each step has been a labor of love. This article captures the essence of that journey, as we reflect on the modifications made, the adventures undertaken, and the emotions tied to parting ways with a trusty companion.</p><h2>Main Points</h2><p>Throughout the years, the Jeep underwent several transformations, reflecting the owner's passion for off-roading and vehicle customization. Key upgrades included a Trail Force HD bumper that not only enhanced aesthetics but also improved functionality with its integrated tire carrier. The leveling kit and wheel spacers were pivotal in elevating the Jeep's off-road capability, providing better clearance for tougher trails.</p><p>The emotional weight of selling the Jeep was palpable. It wasn’t just a vehicle; it was a vessel of memories ranging from long days on rugged trails to cozy evenings under the stars. The seller's excitement about the next owner resonated throughout this transition, hinting at the bond that forms between enthusiasts and their rides.</p><h2>Practical Implications</h2><p>For readers contemplating a similar journey of custom builds, this experience underscores the importance of customizing a vehicle to meet not just personal preferences, but real-world applications. The modifications made were not purely for show but were carefully selected to enhance performance and adventure potential. Each addition was thoughtfully considered, contributing to the overall utility of the Jeep on and off the trails.</p><h2>Key Takeaways</h2><ul><li>The emotional journey of building a custom Jeep can be just as important as the physical modifications made.</li><li>Upgrades should prioritize functionality alongside aesthetics to enhance off-road experiences.</li><li>New owners bring fresh energy and excitement to well-loved vehicles, creating a legacy that continues beyond the original owner.</li></ul>
+
+</article>
+
+</SiteLayout>

@@ -11,19 +11,29 @@ const {
   discountCode,
   specs,
   date,
-  externalLinks
+  externalLinks,
+  image: overrideImage
 } = Astro.props;
 
 const slug = Astro.url.pathname.split("/").filter(Boolean).pop();
-const image = `/images/thumbs/${slug}.jpg`;
+
+/**
+ * Image handling
+ * - use override if provided
+ * - otherwise default to slug-based thumbnail
+ */
+const image = overrideImage ?? `/images/thumbs/${slug}.jpg`;
 ---
 
 <header class="review-hero">
+
+  <!-- Hidden image for SEO / Pagefind -->
   <img
     src={image}
     alt={title}
     data-pagefind-meta="image[src], image_alt[alt]"
     style="display:none;"
+    onerror="this.remove();"
   />
 
   <h1>{title}</h1>

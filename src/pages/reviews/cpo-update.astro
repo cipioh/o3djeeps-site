@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "CPO Quick Update";
+export const description = "Get the latest updates on our Jeep journey from CPO, including new plans after moving to Florida.";
+const youtubeId = "R0QMIf0lBWA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-05-29";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road"
+  },
+  {
+    "label": "Location",
+    "value": "Tampa, Florida"
+  },
+  {
+    "label": "Last Project",
+    "value": "Overclocked Jeep"
+  },
+  {
+    "label": "Future Plans",
+    "value": "New Jeep project"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In our latest update, CPO shares exciting news about his transition to Florida and plans for future Jeep content. While it’s been a little while since the last post, this jumpstart into an active Jeep community is sure to bring fresh beginnings to the channel.</p><h2>Main Points</h2><p>CPO recently moved from Maryland to Tampa, Florida, introducing a significant life change that comes with its own set of challenges and opportunities. After selling the beloved Overclocked Jeep, there’s a poignant mix of emotions, but it also signals a chance for new projects and content creation. This important decision reflects not just a shift in geographical location but a personal journey towards new beginnings and adventures.</p><ul><li>Selling Overclocked: CPO has bid farewell to the tried-and-true project that once captured viewers' hearts.</li><li>New Environment: Relocating to Tampa has opened CPO's eyes to a vibrant off-road community filled with diverse builds and modifications.</li><li>Balancing Priorities: CPO emphasizes the need to prioritize family and career while finding balance in his passion for Jeeps and content creation.</li></ul><h2>Practical Implications</h2><p>This update serves as a gentle reminder to fans and fellow enthusiasts that life can present unexpected challenges that alter our timelines. CPO mentions needing time to settle into his new rhythm before diving headfirst back into video production and new Jeep projects. This resonates with many who juggle adult responsibilities while pursuing hobbies.</p><p>For Jeep lovers, the move to Tampa signals new possibilities. The area boasts an array of Jeep events and opportunities to connect with others in the community. CPO’s plans to explore new builds and collaborations will likely lead to innovative content soon. Keeping an eye on local Jeep gatherings and sharing insights or connecting with fellow Jeep enthusiasts could provide inspiration for upcoming projects.</p><h2>Key Takeaways</h2><p>The message from CPO is clear: life’s journey is filled with transitions, and each one brings new adventures. Although the channel has paused temporarily, CPO remains committed to bringing back exciting content that captures the essence of Jeep culture. As he settles into his new environment, fans can look forward to witnessing fresh builds and stories that celebrate the Jeep lifestyle.</p><p>Stay tuned, as CPO aims to integrate his passion for off-roading back into his life while balancing new priorities. The future looks bright, and we can’t wait to see what comes next!</p>
+
+</article>
+
+</SiteLayout>

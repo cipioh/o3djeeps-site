@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "I added PEANUT BUTTER! Two Week Update on the Fender Restoration Products.";
+export const description = "Explore the performance of various fender restoration products, including a surprising peanut butter test update.";
+const youtubeId = "0KrfD1V7fKg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-10-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Various"
+  },
+  {
+    "label": "Product",
+    "value": "Fender Restoration Products"
+  },
+  {
+    "label": "Use Case",
+    "value": "Restoring and maintaining vehicle fenders"
+  }
+];
+const externalLinks = [{"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://www.flowshineusa.com/shop"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/33l8qtM"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/33qZpiZ"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/3jooD6Y"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/2SkurCH"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/3ngmv3M"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/34jdZbp"}, {"label": "Links for products are listed below as well as a chapter breakdown for easy video navigation.", "url": "https://amzn.to/3neVo9d"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>If you're looking to restore the black finish on your Jeep's fenders, this two-week update dives into the performance of several popular fender restoration products. While options like <strong>Mother's Back to Black</strong> are holding up well, other unconventional choices (like peanut butter) have not fared as well as some hoped. Make sure to consider your specific needs when choosing a product.</p><h2>What Stands Out</h2><p>The standout aspect of this test is the inclusion of unconventional products like peanut butter and vegetable oil, driven by viewer suggestions. While these may sound quirky, it adds an interesting rebellious touch to the typical fender restoration approach. Interestingly, some traditional products like <strong>Armor All Outlast</strong> showed signs of fading faster than expected.</p><h2>Design and Features</h2><p>Each product tested has its own formulation tailored for different surfaces and vehicle types, which is critical in a hot climate like Florida's, where UV rays can wreak havoc on trims. <strong>Cerakote</strong>, for example, is designed to provide a long-lasting, shiny finish, whereas <strong>Forever Black</strong> and others focus on a matte restoration approach. Notably, the ease of application and durability under harsh conditions also play essential roles in their effectiveness.</p><h2>Real-World Use</h2><p>In practical use, the outcomes varied significantly. The heat gun application method also revealed a need for caution; excessive heat can damage your fenders if not applied carefully. This two-week mark showed that while some products like Mother's Back to Black still retain shine, others, particularly the DIY options, may not hold up under continued exposure.</p><h2>Who This Is For</h2><p>This article is geared toward Jeep enthusiasts wanting to keep their vehicles looking fresh and brand-new without the hefty price tag of replacement parts. If you're someone who enjoys the DIY approach and is open to experimenting with both commercial and unconventional products, this information will certainly serve you well.</p><h2>Key Takeaways</h2><ul><li><strong>Durability is key:</strong> Opt for products that offer long-lasting protection, especially in sunny areas.</li><li><strong>DIY isn’t always better:</strong> While fun to try, products like peanut butter didn't perform as well as more reputable restorers.</li><li><strong>Regular maintenance matters:</strong> Whatever product you choose, consistent application is crucial to keeping trims looking fresh.</li></ul>
+
+</article>
+
+</SiteLayout>

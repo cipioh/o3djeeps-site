@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "I took a plane ride to do a brake job!";
+export const description = "Learn how to tackle a brake job on a Jeep TJ, featuring step-by-step instructions and necessary tips from a recent father-son project.";
+const youtubeId = "awTQLkRzc9U";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2022-07-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Brake replacement and maintenance"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>When it comes to maintaining your Jeep, there's nothing quite like getting your hands dirty and tackling the job yourself, especially when it's a family affair. Recently, I flew up to help my son with a brake issue on his 2004 Jeep TJ. With plans for an exciting trip down to Tampa, we needed to get his Jeep in top-notch condition.</p><h2>What This Covers</h2><p>This guide outlines the steps we took to resolve the brake issues, from diagnosing the problem to performing the necessary replacements. I aim to equip you with practical insights and tips you can use for your own DIY Jeep maintenance projects.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Diagnosis:</strong> The first step was diagnosing the problem. My son noticed that his driver's side wheel was overheating and smoking during drives. This indicated a potential brake caliper problem, likely leading to uneven wear on the braking components.</li><li><strong>Gathering Tools:</strong> For our brake job, we rented a bay at an auto shop on base, which cost us a mere seven dollars an hour. This facility offered an impressive variety of tools available for checkout, eliminating the need to bring everything from home.</li><li><strong>Inspection:</strong> Upon examining the Jeep, the driver's side wasn't displaying the same symptoms, but we decided to proactively replace the brake pads and the dust shield. The original dust shield had gotten bent during off-roading adventures, which can trap mud and debris, further complicating the braking system.</li><li><strong>Brake Replacement:</strong> We replaced the brake pads on both sides. To ensure everything was working as intended, we bled the brakes before taking her for a test drive. The results were promising; the brakes performed like they should, resolving the immediate issue.</li><li><strong>Identifying Additional Needs:</strong> While we worked, I observed some wear and corrosion on the knuckles, which prompted me to order replacement parts for the knuckles and wheel bearings. Considering that the wheel bearings would need to be removed to access the knuckles, it made sense to replace them simultaneously.</li><li><strong>Future Upgrades:</strong> In addition to the brake job, my son and I plan to install a lunchbox locker among other performance upgrades. These additions will not only enhance his Jeep's off-roading capabilities but also improve daily driving performance.</li></ol><h2>Helpful Tips</h2><ul><li>Always inspect surrounding components when performing a repair—corrosion or wear can indicate future issues.</li><li>If you’re able, rent a shop bay equipped with tools for a comfortable and efficient workspace.</li><li>Take the opportunity to upgrade or replace components that may not be failing yet but are showing wear.</li></ul><h2>Key Takeaways</h2><p>Tackling your own brake job can be incredibly rewarding, and with the right planning and tools, it’s achievable even for the less experienced mechanic. In our case, not only did we manage to fix the immediate brake issues, but we also set the stage for future enhancements to make the Jeep more capable both on and off the road.</p><p>This experience highlights how important it is to maintain your vehicle, especially when you're planning adventures that demand reliability. Whether it’s having fun on the trails or ensuring safety for a long drive, proper maintenance and timely repairs are critical.</p>
+
+</article>
+
+</SiteLayout>
