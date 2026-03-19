@@ -13,47 +13,55 @@ const {
   date,
   externalLinks
 } = Astro.props;
+
+const slug = Astro.url.pathname.split("/").filter(Boolean).pop();
+const image = `/images/thumbs/${slug}.jpg`;
 ---
 
 <header class="review-hero">
-
-<h1>{title}</h1>
-
-<p class="review-date">
-{new Date(date).toLocaleDateString("en-US", {
-  year: "numeric",
-  month: "long",
-  day: "numeric"
-})}
-</p>
-
-<p class="review-intro">
-{description}
-</p>
-
-{discountCode && (
-  <PromoBox
-    text="Discount Available"
-    code={discountCode}
-    href={buyLink}
-    linkText={buyText || "View Product →"}
+  <img
+    src={image}
+    alt={title}
+    data-pagefind-meta="image[src], image_alt[alt]"
+    style="display:none;"
   />
-)}
 
-<div class="video-frame">
-  <iframe
-    src={`https://www.youtube.com/embed/${youtubeId}?enablejsapi=1`}
-    title={title}
-    allowfullscreen>
-  </iframe>
-</div>
+  <h1>{title}</h1>
 
-{(specs || buyLink || externalLinks) && (
-  <SpecsTable
-    items={specs}
-    buyLink={buyLink}
-    externalLinks={externalLinks}
-  />
-)}
+  <p class="review-date">
+    {new Date(date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    })}
+  </p>
 
+  <p class="review-intro">
+    {description}
+  </p>
+
+  {discountCode && (
+    <PromoBox
+      text="Discount Available"
+      code={discountCode}
+      href={buyLink}
+      linkText={buyText || "View Product →"}
+    />
+  )}
+
+  <div class="video-frame">
+    <iframe
+      src={`https://www.youtube.com/embed/${youtubeId}?enablejsapi=1`}
+      title={title}
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  {(specs || buyLink || externalLinks) && (
+    <SpecsTable
+      items={specs}
+      buyLink={buyLink}
+      externalLinks={externalLinks}
+    />
+  )}
 </header>
