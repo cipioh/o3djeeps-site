@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Optional: block junk routes
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://blasterkraft.com/sitemap-index.xml
