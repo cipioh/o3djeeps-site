@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Colorado-Moab Adventure - Day One - Kickoff - o3djeeps";
+export const description = "Join CBO as he embarks on an epic Jeep adventure through Colorado and Moab, sharing insights and updates along the way.";
+const youtubeId = "MYxbljeOKak";
+const buyLink = "https://www.seicane.com/android-2008-2014-2015-2016-2017-jeep-wrangler-bluetooth-gps-radio-car-stereo-with-mirror-link-wifi-steering-wheel-control-plug-and-play-h201?acc=e4da3b7fbbce2345d7772b0674a318d5";
+const buyText = "View Product \u2192";
+const discountCode = "is";
+const discountText = "Code is \"O3DJEEPS\" (all caps, and thats the letter O in the front)";
+export const date = "2018-09-09";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Gear"
+  },
+  {
+    "label": "Participants",
+    "value": "CBO, Drew, Shawn, and Craig"
+  },
+  {
+    "label": "Route",
+    "value": "Colorado and Moab"
+  },
+  {
+    "label": "Vehicle",
+    "value": "Jeep and motorcycles"
+  }
+];
+const externalLinks = [{"label": "Just a \"going jogging\" style video to kick off this trip. Most updates will be on Instagram.... and the YouTube vids will come later.", "url": "https://www.instagram.com/o3djeeps/"}, {"label": "Here is that link for the Gaia GPS discount.", "url": "https://www.gaiagps.com/discounts/#_r_o3djeeps"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Embarking on an adventure through some of the most stunning off-road terrains in the U.S. is not just a journey; it's a passion that unites Jeep enthusiasts. CBO recently set off on yet another exhilarating road trip, this time to explore Colorado and Moab. The excitement is palpable as he details his travel plans, the companions joining him, and the trails he aims to conquer.</p><h2>Main Points</h2><p>The trip kicks off with CBO making his way out of Maryland, fully aware of the long drive ahead, headed toward Ohio for the first leg of his adventure. Here are some highlights and expectations for this trip:</p><ul><li><strong>Trail Ambitions:</strong> CBO and his group plan to tackle renowned trails such as Black Bear Pass, which was previously inaccessible. This trail is infamous for its stunning views and challenging sections, perfect for seasoned off-roaders.</li><li><strong>Exploring Colorado:</strong> Besides Moab, Colorado is a key focus. This state is home to breathtaking landscapes and rugged terrain, making it a favorite among off-road enthusiasts. CBO's desire to hit trails like Patiska Gulch near Ouray underscores the appeal of this kind of adventure.</li><li><strong>Fun with Friends:</strong> Friendship and camaraderie are significant components of such trips. CBO will be reunited with Drew, an adventure motorcyclist, and Sean, enhancing the experience as they share the journey and tackle the trails together.</li></ul><h2>Practical Implications</h2><p>This trip demonstrates the necessary preparations and considerations for successful off-road travels:</p><ul><li><strong>Gear and Setup:</strong> CBO mentions his trusty Akane head unit, which provides GPS navigation despite mixed reviews from others. This highlights the importance of reliable gear in navigating uncharted territories.</li><li><strong>Good Planning:</strong> The use of Gaia GPS is also noteworthy. CBO has learned to utilize modern technology effectively, upgrading his navigation tools to track routes and log his travels. This is a testament to the benefits of planning, ensuring not just fun but safety on trails.</li><li><strong>Recovery Equipment:</strong> It’s essential to carry recovery gear, especially when tackling challenging terrains. Having rescue tools can mean the difference between an adventure and a long day of waiting for help.</li></ul><h2>Key Takeaways</h2><p>With every adventure, experience breeds expertise. CBO's recent plans encapsulate essential lessons for any Jeep enthusiast:</p><ul><li>Preparation is critical; ensure your vehicle is equipped with the necessary tools and technology.</li><li>Traveling with friends enhances the adventure and provides mutual support.</li><li>Stay updated via social media to connect with other enthusiasts and share progress.</li></ul><p>As CBO embarks on this exciting journey, it's clear that there’s much more to come from this expedition. Keep an eye on their progress through their social media updates, and prepare for some thrilling adventure content from Colorado and Moab!</p>
+
+</article>
+
+</SiteLayout>

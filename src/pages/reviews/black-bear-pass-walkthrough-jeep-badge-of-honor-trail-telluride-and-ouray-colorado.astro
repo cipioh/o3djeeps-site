@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Black Bear Pass -   Walkthrough - Jeep Badge of Honor Trail - Telluride and Ouray Colorado";
+export const description = "Explore the thrilling Black Bear Pass trail in Colorado, a must-try for off-road enthusiasts. Join us for tips and insights!";
+const youtubeId = "WqGDiRUvotw";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-09-27";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Location",
+    "value": "Telluride, Colorado"
+  },
+  {
+    "label": "Elevation",
+    "value": "12,840 ft"
+  },
+  {
+    "label": "Trail Length",
+    "value": "Not specified"
+  }
+];
+const externalLinks = [{"label": "Beyond the Black Bear Pass, the road is a collection of infamous switchbacks going to Telluride. This road, which passes Bridal Veil Falls, the highest waterfall in Colorado, is open just some months, from late summer (usually the last week of July) to early fall, and it can be closed anytime when the access is not cleared of snow. Do not travel this pass in severe weather conditions. Avalanches, heavy snowfalls and landslides can occur anytime, being extremely dangerous due to frequent patches of ice. It has a well-deserved reputation for being dangerous because of unpredictable snowstorms and blizzards, and driving under these conditions, can be extremely challenging.", "url": "https://www.dangerousroads.org/north-america/usa/177-black-bear-road-usa.html"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Black Bear Pass is not just another off-road trail; it’s a rite of passage for Jeep enthusiasts and adventure seekers alike. Nestled in the heart of Colorado, this rugged mountain pass offers both breathtaking views and heart-pounding challenges. Known for its high elevation and technical features, it’s a trail where skill and courage meet the majestic beauty of nature.</p><h2>Main Points</h2><p>The adventure begins at an elevation of 11,018 feet before climbing to the summit of 12,840 feet. The road is not for the faint-hearted; it’s a narrow dirt track with steep drop-offs and a collection of infamous switchbacks. As you ascend, each turn presents a new perspective, revealing stunning views of the surrounding mountains and valleys. The initial part of the trail serves as a warm-up, giving you a taste of both the views and the technical aspects you’ll face.</p><ul><li><strong>Trail Conditions:</strong> The trail features uneven surfaces with rocky steps, sharp turns, and narrow paths. It’s essential to be prepared for sudden shifts in your vehicle's balance, especially on the notorious slide area.</li><li><strong>Weather Awareness:</strong> With the trail only open from late July to early fall, timing your adventure is crucial. Weather conditions can change rapidly, and snow, ice, and landslides can make this trail dangerous.</li><li><strong>Community Spirit:</strong> You’ll likely encounter other gear enthusiasts and off-road lovers along the way. The camaraderie on the trail adds to the overall experience.</li></ul><h2>Practical Implications</h2><p>Before embarking on this thrilling journey, there are a few practical considerations to keep in mind:</p><ol><li><strong>Vehicle Preparation:</strong> Ensure your Jeep (or whatever vehicle you choose) is properly equipped for off-road conditions. This includes airing down your tires for better traction and disconnecting sway bars if applicable.</li></ol><p>Walking into a tight spot without the right gear can turn your adventure into a nightmare. It's wise to bring recovery equipment in case the unexpected happens.</p><ol start="2"><li><strong>Driving Skills:</strong> If you're new to off-roading, consider going with experienced drivers. Spotters can be incredibly helpful in navigating tight turns and steep grades.</li></ol><p>Communicate with your crew as you navigate through the challenging sections, as every vehicle handles differently.</p><ol start="3"><li><strong>Document the Adventure:</strong> Whether you're recording for a vlog or just capturing memories, don’t underestimate the power of a good camera. The views are not just eye-candy—they're the kind that makes for great stories later on.</li></ol><h2>Key Takeaways</h2><p>Black Bear Pass is a unique blend of breathtaking scenery and challenging off-road driving, making it an unforgettable experience. Here are the key takeaways:</p><ul><li>If you love adventure and off-roading, this trail should be on your bucket list.</li><li>Preparation is key. Know your vehicle limits and keep safety as a priority.</li><li>It's not just about reaching the summit; it’s about enjoying the journey and the views along the way.</li><li>Join the Jeep Badge of Honor program to commemorate your trail experience!</li></ul><p>The thrill of riding on Black Bear Pass is timeless, offering a chance to connect with both nature and fellow Jeep enthusiasts. So gear up, hit the trail, and embrace the spirit of adventure!</p>
+
+</article>
+
+</SiteLayout>

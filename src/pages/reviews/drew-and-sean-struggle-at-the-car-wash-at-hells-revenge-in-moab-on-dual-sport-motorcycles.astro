@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Drew and Sean Struggle at The Car Wash at Hells Revenge in Moab - on Dual Sport Motorcycles";
+export const description = "Join Drew and Sean as they tackle the Car Wash obstacle at Hell's Revenge in Moab on dual sport motorcycles.";
+const youtubeId = "FlZDmhYMGYc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-10-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Builds"
+  },
+  {
+    "label": "Location",
+    "value": "Hell's Revenge, Moab"
+  },
+  {
+    "label": "Obstacle",
+    "value": "The Car Wash"
+  },
+  {
+    "label": "Vehicle Type",
+    "value": "Dual Sport Motorcycles"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to an exhilarating ride through one of the most challenging and entertaining obstacles in Moab, Utah! In this article, we're diving into the adventure that Drew and Sean took on their dual sport motorcycles at the infamous Car Wash at Hell's Revenge. This location is not just known for its breathtaking scenery but also for the unique challenges it poses to off-roading enthusiasts.</p><h2>Main Points</h2><p>The Car Wash is a natural depression—referred to as a hot tub—where riders and drivers face a mix of excitement and peril. While it’s considered one of the easier obstacles in the area, don't let its reputation fool you; it can catch even experienced adventurers off guard. Drew and Sean, while relatively new to such intense riding, were undeterred, which speaks volumes about their spirit and desire for adventure.</p><p>Both riders approached this challenge with plenty of enthusiasm, showcasing how dual sport motorcycles can be incredibly versatile off-road. But, as we’ll explore, the real challenge was more than just the stark turns and rocky terrain; it was about the camaraderie and the unexpected hiccups that come with pushing your limits.</p><h2>Practical Implications</h2><p>In Drew and Sean's experience, they discovered firsthand that obstacles often have an unseen layer of difficulty. The patch of oil that caught Drew off guard is a perfect example—something as minor as a slippery surface can make or break your ride. This underlines the importance of assessing conditions before attempting to climb obstacles, regardless of your vehicle’s capabilities. Their journey through the Car Wash is not just a spectacle; it's a learning moment for anyone considering taking on similar obstacles.</p><h2>Key Takeaways</h2><p>1. **Know Your Environment:** Always be aware of your surroundings, especially potential hazards like oil or wet spots on an obstacle.</p><p>2. **Comradery Counts:** The journey is not just about the thrill of the ride. It's about the friends and bonds you create along the way.</p><p>3. **Pushing Limits:** If you're looking to step outside your comfort zone, don’t shy away from obstacles like the Car Wash, but prepare yourself mentally and physically for any unexpected challenges.</p><p>4. **Cherishing Experiences:** Whether you come out with battle scars or a successful story, every adventure adds to your riding narrative.</p><p>We hope this glimpse into Drew and Sean's eventful ride inspires you to get out there, find your own challenges, and embrace the adventure that awaits in the wonderful world of off-roading.</p>
+
+</article>
+
+</SiteLayout>

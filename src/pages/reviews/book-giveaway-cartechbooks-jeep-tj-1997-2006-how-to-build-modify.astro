@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Book GIVEAWAY! CarTechBooks - JEEP TJ 1997-2006: HOW TO BUILD & MODIFY";
+export const description = "Explore the Jeep TJ 1997-2006: How to Build & Modify book, packed with essential tips for your Jeep modifications and enter our giveaway!";
+const youtubeId = "2orwIS1kMxw";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-10-02";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "CarTech"
+  },
+  {
+    "label": "Product",
+    "value": "Jeep TJ 1997-2006: How to Build & Modify"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road modifications and builds"
+  }
+];
+const externalLinks = [{"label": "Helpful Link", "url": "https://youtu.be/8utW7Dkzu7o"}, {"label": "30% off using DISCOUNT CODE \"o3djeeps\"", "url": "https://www.cartechbooks.com/od3jeeps"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>If you own a Jeep TJ and have ever contemplated modifications, <strong>Jeep TJ 1997-2006: How to Build & Modify</strong> is a comprehensive guide that is well worth your time and investment. It not only provides in-depth instructions for modifications but also offers technical insights that can elevate your Jeep's performance on and off the trails.</p><h2>What Stands Out</h2><p>This book shines in several areas. First, the breadth of topics covered is impressive—everything from engine swaps to brake systems. Each chapter is detailed and offers step-by-step instructions that demystify complex mods, making them achievable even for novice enthusiasts.</p><h2>Design and Features</h2><p>With 144 pages packed with <strong>397 color photos</strong>, the visual appeal is undeniable. This is not just a text-heavy manual; the images enhance understanding, showing you what to look for and how to execute each modification. The inclusion of technical data, such as gear ratios and crawl ratios, provides valuable context for your upgrades.</p><h2>Real-World Use</h2><p>Having spent years modifying my own TJ, I appreciate the technical focus that the book provides. It's particularly helpful for tackling common issues like wiring for upgraded headlights—a topic often overlooked in other manuals. Whether you’re adjusting your speedometer or beefing up your suspension, the practical advice here holds true for real-world application on rugged terrains.</p><h2>Who This Is For</h2><p>This book is perfect for Jeep enthusiasts at all levels. If you’re a new owner wondering where to start or a seasoned modifier looking to expand your skill set, you will find value here. It’s also a great resource for those who just want to maintain their vehicle more effectively without diving into deeper modifications.</p><h2>Key Takeaways</h2><ul><li>Comprehensive guide covering all major modifications for the Jeep TJ.</li><li>Step-by-step instructions make complex mods accessible.</li><li>Rich visual content helps clarify the modification process.</li><li>Technical details on performance upgrades provide deeper understanding.</li><li>An excellent addition to any Jeep enthusiast's library, especially those focused on their Jeep TJ.</li></ul>
+
+</article>
+
+</SiteLayout>
