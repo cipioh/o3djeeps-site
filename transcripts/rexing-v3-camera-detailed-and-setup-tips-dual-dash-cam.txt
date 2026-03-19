@@ -1,0 +1,635 @@
+everyone's CP oh here in this video I'm
+going to be doing a review of a dashcam
+this has been a long time coming I've
+been asked a lot over the last few years
+about dashcam recommendations I post a
+lot of personal Facebook dashcam so I
+call dashcam Diaries of interesting
+things that happen out on the road and I
+always get questions from my friends
+about my dashcam then wreck Singh USA
+contacted me just recently and said hey
+we've got this new camera called the v3
+would you be interested in taking a look
+at it and I was like yes that's actually
+perfect timing because I've been
+considering getting a new updated camera
+and one that I could recommend to other
+people and this one meets my
+requirements which is also a bonus
+alright guys so the camera itself is
+this guy here it has a display which
+actually my last camera didn't so that
+wasn't a requirement for me put ha I
+really liked it
+you've got a front-facing camera you've
+got a rear facing camera which oddly
+enough can also point front you can have
+both of them pointing forwards if you
+wanted to not sure what the use case is
+for that I just uses a standard micro SD
+card that has to have a pretty high
+speed capability and yeah it's pretty
+much it all of your buttons are right
+here easily accessible while driving and
+I'll show you that once I get it
+installed
+now speaking of install it comes with a
+USB cable that plugs into your accessory
+12 volts cigarette lighter adapter I'm
+not using this because I'm using a
+hardwire kit comes with a pretty typical
+USB cable comes with some little wire
+tidy things you can stick these around
+if you run wire around the inside of
+your vehicle you can use this to tidy up
+the wires
+they actually give you a tool so that
+when you're prying open your trim to run
+that wire around the inside they give
+you a trim tool which is kind of cool
+and then finally you've got your
+hardware necessary to mount it to your
+windshield now here's a caveat as a Jeep
+owner I found these didn't work so I had
+to come up with a plan B but I'll show
+you that once we get inside the Jeep and
+then finally an additional item that I
+needed that doesn't come in the box but
+it's pretty darn cheap to get is the
+dashcam this is the smart hardwire kit
+you need this if you want to use parking
+mode this has a low voltage protection a
+limiter in it so it won't drain your
+battery below eleven point eight volts
+but it allows you to have power to the
+camera with the vehicle off and then it
+recognizes when you turn the vehicle on
+and changes modes accordingly because
+you've got a parking mode that does one
+thing and they've got your normal
+driving mode that does something else
+alright so as mentioned one of the
+challenges with this mounting solution
+that it comes with is with the Jeep
+super steep windshield
+so most windshields are sort of slanted
+like this in this case you'd put that
+like that and then you can adjust your
+cameras this camera is adjustable you
+can see by for the angle there
+this camera is adjustable but the
+problem is on the Jeep it puts it there
+and there's no way to adjust it to where
+this front camera faces forward because
+of the angle so then I thought well
+maybe I could try and figure out how to
+stick two together and make it you know
+but then that was a little bit kludgy so
+what I came up with is I found this
+suction mount kit I don't you can see
+all these parts in here I found it on
+Amazon I will put a link in the
+description
+it comes with a bunch
+of adapters so what I did is I took one
+of those adapters and glued it to one of
+these that came in the kit that connects
+to the camera and then it was able to
+give me a ball mount that now works so
+the end result is I can now have it set
+up where I want it which is good it's a
+little far away from the window I
+actually have another I've been using
+the suction cup mount version because
+I've been testing but I think here
+pretty soon I'm going to switch it to
+this stick on a more permanent mount
+which I think will get it a little
+closer to the window and then I have my
+hardwire cable kit run goes up and
+around I'm not going to show you how to
+run the wires because that's going to
+vary depending on your vehicle and then
+I can just plug it in right there and
+yeah it will turn on because well it's
+powered so what I do like about this is
+the fact that it is using Sony image
+sensors which is pretty cool I mean
+Sony's got some some really great
+sensors particularly in the dash camera
+and security camera realm it's got a
+really great Sony star vis front sensor
+it's got a lesser quality sensor in the
+cabin the inside one the IMX 323 and you
+can see a difference but the front the
+Sony star vis is a great sensor has
+really great low-light of visibility now
+you can have both cameras running
+obviously the maximum resolution with
+both cameras running at the same time
+and recording data is 1080p at 30 frames
+per second however you can turn off that
+inside camera if you don't want to use
+it and you can get higher resolution and
+higher frame rates so you can do 1080p
+at 60fps which is the front camera or
+you can do 2160p at 24 frames per second
+or 1440p at 30 frames per second so a
+better quality front camera resolution
+if you're not using the
+inside camera it doesn't have a battery
+it's got a super capacitor which means
+it's not going to have overheating
+issues and as a matter of fact I've been
+running this for over a month
+in probably one of the hottest times of
+the summer we've had temperatures in the
+high 90s in the hundreds pretty
+regularly and have had no issue both
+lenses are at 170 degree field of view F
+1.8 aperture that's got a Nova Tech CPU
+that'll come in handy when I talk about
+the the app that I use to connect to
+that because it's not the factory app
+operating temperature is minus 20
+Fahrenheit to 176 degrees Fahrenheit
+it can take up to a 256 gig memory card
+and it records in h.264 MOV format so
+basic sort of - camera specs but really
+the key elements there are the Nova tech
+CPU and the sony image sensors so yeah
+let's what I'm going to do is take this
+camera and set it up from scratch and
+I'll just show you my settings and go
+through the menu options alright so the
+first thing you need to know is as soon
+as I turn on the camera aka plug it in
+it's gonna automatically start recording
+and that's useful to know because once
+you get this thing set up you basically
+can forget about it and you can adjust
+so let me show you the buttons first
+here this is the on/off button basically
+if you just press it it turns on and off
+the display doesn't turn off the camera
+unless you hold it down this button here
+is going to be the Menu button but you
+have to stop the recording to get into
+that so the very far right side is the
+okay and that's also the start/stop
+button so it's a recording I just
+stopped it now I can come back over here
+and go through menu options so this so
+it's probably hard to see there's a
+button here a button here and then
+there's two buttons and then the third
+right there so this is the okay enter
+button this is up down in the menu
+options they do several different things
+if you press this one it will change the
+display so now this is in
+camera which is this guy here and then
+the smaller outside camera this is just
+the outside camera which I can adjust I
+haven't really said it since I we put it
+back on the window and of course we're
+facing into the Sun so that doesn't help
+and then that's just the inside and then
+that's back to inside is the small
+window with outside so I generally leave
+mine with the outside like that and yeah
+and I have it set to turn off anyway so
+we'll go through that here in a second
+the next button the second to the end
+button turns on and off your mic you can
+see there turns on and off I recommend
+leaving the microphone recording on and
+actually the main reason for that not
+necessarily record what's happening
+inside but no matter how good of a
+camera you have and let's face it none
+of these are super great as far as
+capturing video of motion happening
+around you but what you can do is just
+say if you see something happen and you
+want to record the license-plate number
+you just say it you know it's you know
+Maryland one three seven six five and
+now you've just recorded that into your
+microphone so even if your camera can't
+pick up the video later you will have
+recorded the audio to make that notation
+that came in really handy with my wife
+one time she was trying to remember a
+license-plate number that hit her she
+did not remember that the audio was
+being recorded but the entire audio was
+just her repeating that number over and
+over to herself trying to trying to
+remember it
+[Music]
+all right so back to this far-right
+button that's start and stop for record
+and where this comes in useful the lock
+feature if you press and hold it for a
+second you can see the little lock icon
+that locks that and puts it into a
+different folder for the recording and
+then also won't overwrite it so this is
+set to loop record so you never really
+have to worry about running out of space
+if I hold down this button that I use
+the change of screens if I hold it for a
+second it turns on the Wi-Fi and gives
+you a Wi-Fi default password and an S ID
+SSID and you can change all of that if I
+do it hold it for a second again it will
+turn that off and then but that's how I
+access the the camera data from my phone
+and you can do some setup stuff in there
+but I prefer just to do it in the camera
+so let's go into the setup
+first of all let's click into the menu
+you have several different options here
+so I guess before I go menu if you long
+press this menu
+it changes the modes so this is in photo
+mode and then the menu is contextual to
+photos and you've got different options
+for photos than you do for recording
+video now I don't ever see a reason to
+use the photo version of this I just
+don't see it what makes me sad I guess
+mostly is that you have a lot more
+options for making individual changes
+for example sharpness you can adjust in
+the photo and I wish you could do that
+in the video because I think the videos
+are a little bit too sharpened which
+creates some artifacts that I don't like
+but it is what it is but there is a
+photo and then if you hold it again for
+a second you go into playback mode which
+is what this mode is hold it again for a
+second and you're back into the standard
+video mode and then the menus are dead
+or contextual so we're in the video mode
+I'm going to hit it once to go into the
+video settings
+and then I can see all of the options
+here and I can press that again to get
+out of it now if I press it twice I can
+go into system settings and I have
+different system related settings so to
+start this off I'm going to go hit the
+default setting so I'm gonna hit OK here
+and I'm going to basically be restoring
+this back to factory settings so that I
+can go through with you the setup that I
+do and then I can hit that and go back
+so now I'm back to factory settings you
+can even see it defaulted back to the
+screen all that stuff is the same so the
+first thing I do is I come in here I hit
+it twice I go into system settings
+there's a Wi-Fi you can turn on and off
+again I use the button I hold this
+button down for a second to turn it on
+so I don't worry about that I don't
+leave it on date and time you can
+manually set that but I'm not gonna
+worry about that because of the fact
+that GPS will set that for you so I
+don't even mess with date/time auto
+power off I don't mess with its you know
+if it's gonna turn off after a certain
+period of time I want it to run the
+entire time I'm you know in the vehicle
+and even out of the vehicle with parking
+mode volume you can mess with if you
+want to adjust volumes again all this
+stuff I just leave alone I'll show you
+the things I change frequency if you're
+in a country that requires a different
+frequency if you need 50 Hertz you need
+to go there to set it
+we're u.s. we do 60 Hertz no big deal
+screen saver this is the one that will
+automatically turn off the screen after
+a certain period of time I usually set
+it for a minute so that I can sort of
+see everything's working it's pulling in
+the right direction and then it goes to
+sleep while I'm driving format would be
+what you would use to format the memory
+card I guess I'll just go ahead and do
+that doesn't matter all data will be
+deleted okay and now I format it and
+then default setting you've seen version
+is where you can check the firmware
+version make sure you get the latest one
+you can go into the firmware tool on the
+website I'll put a link down in the
+video description for that so yeah those
+are the system settings and the only
+thing I really change on
+Lia's screensaver everything else I
+leave default okay so I'm gonna go I'm
+gonna hit this menu button again to go
+out of the menu press it again and now
+I'm in the video settings for here you
+can see your resolution options these
+bottom two are for dual camera options
+it defaults to the highest quality so I
+just leave it alone two guys with you
+but I'm showing you if you wanted to go
+just to the front camera where you would
+go do that and set the different options
+so I leave mine at Full HD plus Full HD
+which is front and rear cameras and I
+guess I need to set that okay so
+resolution again I leave it alone loop
+recording you can set your duration I
+recommend and leaving it on loop
+recording that will continue to
+overwrite the memory card as it fills up
+and you will never run out of space
+again the locked files are protected I
+usually set mine to two minutes one to
+two minutes and that way if you pull out
+a video file you don't have to deal with
+large files or a lot of data again I
+like to pull out interesting files
+whenever something happens so a minute
+or two is about the right length wide
+dynamic range is automatically on I just
+leave it on it gives you better contrast
+exposure you can adjust if it's too
+bright or too dark naturally in your
+vehicle for example if you I don't know
+here's here's one of the updates I wish
+they would make and that's the ability
+to set the the exposure differences
+between the two cameras because indoors
+I may want a little bit more exposure
+because I've got tinted windows but I
+don't want that to impact the external
+exposure so right now it seems to be a
+set it for everything it is what it is
+so record audio again you can turn it on
+and off here in the menu or use the
+button like I did before date stamp is
+on by default and that basically just
+puts it on the video which I highly
+recommend gravity sensing this will
+automatically lock a file if it detects
+an impact so I have it set to low
+actually I'm going to move it to medium
+but what that will do is if you get into
+an accident in theory it's going to
+automatically lock the file that's
+recording at that time now I haven't
+been able to test that because I haven't
+been in an accident but I trust it works
+my plate number this is where you can go
+in it's off by default you can go in and
+customize it and put in your your
+license plate number your vehicle your
+name whatever you want it will overlay
+on top of the vehicle I've done that
+before but I'm not really planning on
+messing with it right now because I just
+factory reset everything let me get out
+of here so let me put this back to off
+because I don't want all those A's on
+there but that's where you can set that
+IR light
+this is autos is the default it's got
+these IR sensors and I'll show you some
+video of that what it looks like at
+night I mean it will automatically
+detect when it's day or night
+based on the ambient lighting and turn
+that on or off and I kind of wish there
+was a way to turn it into two parking
+mode only so it was just on during
+parking mode but not on when you're
+driving around so that would be another
+request I have if they do an update that
+might be useful daylight savings we are
+in daylight savings mode so I'm going to
+turn it on on it's off by default GPS
+speed the unit you can set it for miles
+or kilometres it's miles by default and
+that's where I'm going to leave it set
+time zone is important if you want the
+right time and I'm gonna set it for new
+york which is Eastern and atas so this
+is some of the advanced stuff which I am
+not using but it's advanced Lane
+Departure type stuff it can detect if
+you leave your lane that stuff just gets
+annoying to me because apparently I
+cross lanes a lot so anyway and then
+parking monitor this one is the one I
+require it says you need a hardware kit
+I do have one installed and then there's
+two options here gravity sensing which
+again detects if there's an impact to
+your vehicle like you
+get hit in a parking lot it'll turn it
+on or maybe a door slamming or something
+like that however I prefer time-lapse
+which just records a frame every second
+in a time-lapse video and I'll show you
+some examples of these but that's where
+I leave it and yeah it reminds you that
+you need a hardware kit which the smart
+hardwire kit if that matters so that is
+those are all the options for video so
+and it shows you everything that's set
+I've got recording audio set my exposure
+set to zero I've got wide dynamic range
+it's in video mode what do I have here
+it's on looping for two minutes I have a
+gravity sensor set to medium Wi-Fi is
+off there's the date and time which is
+not right yet but it will know this is
+the the time recording for the last
+video or the current video it's on so
+you'll see that update here soon this is
+the resolution that I'm in I've got dual
+camera Full HD P 30 this is the date
+this is the time which will be
+automatically set via GPS because I told
+it to set the time zone so again come in
+here like time zone is New York got it
+and then I set daylight savings as on
+got it so what I found is if I just do
+that
+it automatically sort of updates to the
+right time although right now that is
+not the right time and I'm not exactly
+sure why but literally yeah I've been
+letting the GPS do it so it catches up
+here I'm not sure at what level
+but it will so all of that I plugged
+into a hardwire kit which is why I have
+the like two prong outlet thing I've got
+the auto it looks like an auto flash but
+it's the auto IR and my GPS has signal
+which is what that little thing
+so let me get rid of my
+picture-in-picture that's the display
+I'd like to see again I can fine-tune
+cameras both internal and external let
+me just double check since I've been
+playing around with this yeah I want
+that probably right there right there
+okay up here is the counter of the time
+that it's been recording you've got a
+little red light flashing here while
+it's recording so in this case it's
+going to go to two minutes and then
+reset to zero because it's doing two
+minute files per my menu setting this
+screen will also go blank after one
+minute because that's what I've told it
+to do and I'm not going to sit here and
+wait for a few more seconds to go to do
+that so now I'm going to turn the
+vehicle off and you know basically like
+I'm parking right getting out of the
+vehicle and I'm parked what you're going
+to see now is the red light is still
+flashing and that's because now it's
+recording in parking mode the screen
+automatically stays off during this
+period but you can turn it on with that
+same screen on button and what you'll
+see differently here is because it's in
+time-lapse mode it's recording one frame
+every second so it's going to take
+basically 60 seconds per second of video
+so you can see there we've got one
+second of video recorded since I started
+this activity and so basically that's
+going to slowly count up as the video
+length even though real-time is going a
+lot further it's kind of interesting
+alright so I'm back in the vehicle I'm
+going to start it up you're gonna see
+something happen here it's gonna
+recognize now that I'm inside the
+vehicle and it's running
+and it's gonna start counting now
+regular time which is recording
+real-time live video so what do you want
+to talk about it's just practical use of
+the dash camera and how I might use it
+in normal operation so one thing that's
+important to me is the ability to be
+able to lock a file if something happens
+in front of me that I want to record
+there is some automatic event recording
+based on things like you know g-sensor
+data but you know that's if you're in a
+crash sometimes a guy cuts out in front
+of me or I just record I want to record
+a beautiful sunrise or something like
+that
+doesn't matter I'd like to be able to
+record it so the way that works on this
+camera is if I hit this end button once
+it will turn on the display once it
+displays on I can press and hold that
+same button for one second and it will
+lock the file and I'll show you this
+here after a bit but that allows me to
+have that particular file saved in a
+separate location that I can go retrieve
+later
+now sometimes I'm not quick enough to to
+press that button in time to get it
+recorded in that specific file but at
+least it gives me a date/time stamp that
+I can go back and research a little bit
+and and you know and find that file
+later on so anyway that's how that works
+now I have my screen set to go to sleep
+after one minute and and then display is
+gonna trump I don't want to see my
+display on all the time I find myself
+looking at it and then that's honestly
+that's dangerous and to be staring at
+this instead of the road in front of me
+so it will turn off after one minute
+there you go
+and so but the catch is if you want to
+to lock a file if something happens you
+have to turn on the screen first to wake
+it up and then it will let you I thought
+if I just held it for a second
+would lock a file but it doesn't it
+takes two presses if the screen is
+blacked out if the screen is on like
+this you just press it hold for one
+second anyway the other important thing
+for me is the ability to access my
+information via Wi-Fi and that's so that
+I can download video files to my
+cellphone for easy sharing again if you
+know I've come across a stupid driver
+that I want to share or a beautiful
+sunset that I want to share on Facebook
+I want to be able to get the data off
+without having to pull the memory card
+and plug it into my computer and all
+that stuff anyway that's just some
+information wanted to show you quick
+like application how I use this thing
+all the time
+now when you press that lock button it's
+gonna lock both the front camera view
+and the rear-facing camera view which in
+my case yeah in this camera is right
+inside the cockpit so I get both of
+those locked most likely I'm looking for
+the front view but if something happens
+internally that you need to be able to
+capture just no locking that will
+capture both of those views I really
+like the camera I like the inside view
+again not necessarily because I'm an
+uber driver or I want to video myself
+driving although that could come in
+handy if there's a question of what I'm
+doing during the time that I am driving
+now you can disable that and have only
+the front camera or only the inside
+camera you can pick and choose what you
+want I like it because I use parking
+mode in this I just like having the
+inside recorded if somebody were to
+smash and grab something and and you
+know not take the camera obviously I
+might have something on video anyway
+guys that's it thanks for watching like
+I said sorry it's been a long time
+coming but I can highly recommend this
+wrexham camera the v3 if you don't need
+the inside camera they also have a
+version without that but but I'm a big
+fan and their support has been great
+super happy they've been very responsive
+to my needs
+I'll put an Amazon link in the video
+description where you can get this it
+does help me if you buy it through
+Amazon it doesn't cost you anything more
+but you can buy it wherever I don't get
+any kickback specifically from wreck
+Singh or anything like that
+anyway guys that's it thanks for
+watching I'll catch you on the next one

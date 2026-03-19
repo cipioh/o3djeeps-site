@@ -1,0 +1,72 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "500 HP Jeep for SALE!!!";
+export const description = "Explore a custom-built 500 HP Jeep for sale, featuring premium modifications and performance upgrades.";
+const youtubeId = "0Nstjp6UupU";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-03-07";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Model",
+    "value": "JKU"
+  },
+  {
+    "label": "Engine",
+    "value": "6.4L Hemi V8"
+  },
+  {
+    "label": "Horsepower",
+    "value": "500 HP"
+  },
+  {
+    "label": "Torque",
+    "value": "500 ft-lb"
+  },
+  {
+    "label": "Suspension",
+    "value": "Teraflex 4-inch long arm"
+  },
+  {
+    "label": "Mileage",
+    "value": "35,500 miles"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>If you're in the market for a fully decked-out Jeep that boasts both power and style, look no further. This 2014 Jeep JK Unlimited, with a powerhouse 6.4L Hemi engine delivering 500 horsepower, is a show-stopper and ready for any off-road adventure. Priced significantly lower than its build cost, this Jeep exemplifies what a top-tier build should include.</p><h2>What Stands Out</h2><p>This Jeep isn't just about raw power; it combines aesthetics and functionality seamlessly. From the custom powder-coated beadlock wheels to its striking anvil color, every inch of this Jeep has received thoughtful upgrades. It’s equipped with a Borla exhaust system for an enhanced sound experience, and the suspension upgrades ensure that it can handle rigorous off-road conditions with ease.</p><h2>Design and Features</h2><p>The design ethos behind this Jeep is evident at first glance. It features a <strong>Teraflex long-arm suspension</strong> system complemented by <strong>Falcon shocks</strong>, making it phenomenal off-road yet surprisingly comfortable on the highway. The <strong>Dana 60 rear and Dana 44 HD front axles</strong> provide durability, while the <strong>ARB lockers</strong> allow you to tackle challenging terrains confidently. For the aesthetic lovers, the <strong>custom gray leather heated seats</strong> and advanced sound system featuring Polk Audio speakers take the driving experience up a notch.</p><h2>Real-World Use</h2><p>This Jeep was primarily designed for show use but has been built to go off-road, making it a versatile option for enthusiasts. Having only logged 1,500 miles on the Hemi engine, this vehicle is hardly broken in and ready to conquer trails. It's equipped with a state-of-the-art <strong>12,000-pound Warn Zeon winch</strong> and <strong>rock sliders</strong> from Rock Slide Engineering, proving it’s as tough as it looks.</p><h2>Who This Is For</h2><p>This Jeep is ideal for those who appreciate a carefully curated vehicle that doesn't just look good but is also packed with engine and performance enhancements. Whether you're a dedicated off-roader or someone looking to stand out at shows, this custom Jeep fits the bill perfectly. However, it is best suited for serious buyers willing to invest significantly less than what has been spent on the build.</p><h2>Key Takeaways</h2><p>In summary, this 2014 Jeep JK Unlimited combines high-end performance with comprehensive modifications, making it an exceptional purchase for any Jeep enthusiast. With less than 36,000 miles and a build cost exceeding $115,000, selling it for far less represents a remarkable opportunity. Reach out for more details if you’re a serious buyer looking to own this unique vehicle before it’s too late.</p>
+
+</article>
+
+</SiteLayout>

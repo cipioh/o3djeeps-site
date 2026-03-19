@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Checking and Clearing Jeep Codes - Audew OBDII -  Winner Announcement";
+export const description = "Learn how to use the Audew OBDII reader for checking and clearing Jeep codes, plus details on a giveaway announcement.";
+const youtubeId = "dCJ26XycfH8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-01-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Audew"
+  },
+  {
+    "label": "Product",
+    "value": "OBDII Code Reader"
+  },
+  {
+    "label": "Use Case",
+    "value": "Checking and clearing Jeep error codes"
+  }
+];
+const externalLinks = [{"label": "Here's where to get the Audew OBD2 scanner and also the the 30% discount code:", "url": "https://amzn.to/2NgnNeE"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of Jeep ownership, diagnosing issues quickly can save you time, money, and a lot of headaches. Today, we’ll delve into the functionality of the Audew OBDII Code Reader, a handy tool that allows you to check engine codes and clear them. Whether you're facing a check engine light or just curious about your Jeep's performance, this compact device can be a game-changer.</p><h2>What This Covers</h2><p>This article will guide you through the process of using the Audew OBDII Code Reader. We will explore its features, the significance of its readings, and practical implications of its use for Jeep enthusiasts. Plus, there's a giveaway announcement you won't want to miss!</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Connecting the Device:</strong> To begin, plug the OBDII scanner into your Jeep's OBDII port. This is typically located beneath the dashboard near the driver's seat. In this session, ensuring your Bluetooth is turned on will facilitate a successful connection.</li><li><strong>Reading Codes:</strong> Use the NextScan app to read the Diagnostic Trouble Codes (DTCs) stored in your vehicle. In the video, the scan identified a common issue: a P0442 code indicating a small evaporative emission control leak.</li><li><strong>Clearing Codes:</strong> Once you've diagnosed the issue, the next step is to clear the codes. Simply follow the instructions on the app—usually, this involves selecting 'Clear Codes' to reset the check engine light.</li><li><strong>Additional Checks:</strong> After clearing the codes, perform a quick smog check through the device to ensure everything is functioning correctly post-diagnosis. In our case, the Jeep passed with flying colors!</li></ol><h2>Helpful Tips</h2><p>While the Audew OBDII reader is straightforward, here are some tips to enhance your experience:</p><ul><li><strong>Regular Scanning:</strong> Make it a habit to scan your Jeep regularly to preemptively catch codes before they become issues.</li><li><strong>Gas Cap Check:</strong> As noted in our session, often a simple check of the gas cap can resolve code issues. This is an easy fix that can save you from unnecessary trips to the mechanic.</li><li><strong>Firmware Updates:</strong> Keep your OBDII scanner updated to benefit from the latest vehicle compatibility and diagnostic improvements.</li><li><strong>Battery Health:</strong> Always be cautious about the battery health when using devices that connect to your Jeep’s electrical system. Ensure your engine is running or your vehicle is in accessory mode to avoid draining the battery.</li></ul><h2>Key Takeaways</h2><p>The Audew OBDII Code Reader is an invaluable tool for Jeep owners. It simplifies the diagnostic process, ultimately saving time and money. Remember to familiarize yourself with your specific scanner’s features, as each device may offer unique functions. Plus, don’t forget to enter our giveaway for a chance to win a free unit—it's a fantastic opportunity to enhance your Jeep toolkit!</p>
+
+</article>
+
+</SiteLayout>

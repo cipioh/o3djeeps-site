@@ -1,0 +1,505 @@
+hey there CP oh here and today we're
+gonna talk about handheld radios of the
+fr-s and gmrs variety alright so we're
+gonna look at three different handheld
+options from Midland in the fr-s and
+gmrs range so starting from left to
+right here we're going to talk about the
+t20 series we're going to talk about
+that t2 90 series and then this is the T
+70 series here so the T 70 and the T 20
+these are both FRS systems only and this
+is a gmrs and FRS capable radio in the
+middle with the t2 90 so all of these
+are capable of communicating with the in
+vehicle gmrs system that i showed you a
+few weeks ago from Midland so that's why
+I wanted to talk about these in
+particular is because I have got a lot
+of questions about whether or not you
+could talk to different radios what
+types of radios you could talk to so I
+thought I would just do this so we're
+gonna start with the I guess the T 70
+series over here and just show you this
+radio and sort of what it comes with and
+and what its features are and and then
+I'll talk about a little bit about how
+they differ from the others but this one
+the T 70 does come the setup I have here
+comes with a charger and it comes with a
+USB charging cable and a little wall
+wart there one of the things I like
+about this particular radio now keeping
+in mind this is an FRS radio and so I'm
+trying to qualify this you know what let
+me start with the difference between FRS
+and GM are s so FRS is Family Radio
+Service it does not require an FCC
+license to operate so this one and then
+and then these guys here are license
+free use
+and so these are great for if you need
+just like a mile or two range tops
+that's line of sight range by the way I
+don't think you're gonna get much better
+than that but if you're out on the trail
+and you just need to talk to a spotter
+these are great little radios there were
+a couple of these in the glove box and
+just hand them out and you guys can all
+communicate so that's pretty cool but so
+FRS has a limited range and it because
+of that it's also got limited power
+settings which is why the range is
+limited so FRS has a designated list of
+channels that can be used gmrs has also
+a designated list but also has higher
+range capabilities but you can still
+talk on the FRS Channel so all of these
+can all communicate to one another on
+the same channel including can cannot
+can talk to my in vehicle radio so let
+me get back to this guy here so t70
+again has the charging stand what I do
+like about this is the fact that it also
+has a USB charging port on the side so
+you don't have to use the charging stand
+if you're out somewhere and you need to
+recharge batteries you can just plug
+into a cigarette lighter adapter like
+you would a cell phone and charge via
+your charging cable so I like that
+and the other thing I think is pretty
+cool so these come with rechargeable
+batteries
+remove the clip then you remove the back
+and it's got a rechargeable battery pack
+if you get into a bind you can just put
+in three double A batteries so I like
+these that can interchange with standard
+batteries just remember if you just swap
+this out with regular batteries don't go
+stick it in your charging dock or try
+and charge it with the USB port
+all right so I'm gonna turn this guy on
+here so one thing that I thought was
+interesting with these radios is Midland
+claims to have 36 channels now I was
+like how does that work exactly because
+there's technically 22 assigned
+frequencies for the FRS gmrs range and
+as you see here we can go through those
+and I'll talk a little bit about the
+high power versus low power here in a
+second but you get past there and you're
+in twenty three twenty four I'm like
+what are those exactly so then I checked
+the manual and I'm looking at the
+frequency ranges here and I see channels
+up to 22 and then 23 through 36 have no
+frequency designation so then I was like
+okay well what's going on here so I
+figured it out
+basically what we have is Midland has
+given you an easy way a shortcut way of
+having some private channels and so so
+all of the wincle back here to one all
+of these standard channels have the
+ability to have privacy settings so
+there's a couple different options there
+are two different types of enabling
+privacy that's also going to be the
+differences between some of these radios
+so this can handle both types think of
+it as analog privacy and digital privacy
+this can do both this one can only do
+analog privacy and this one can do both
+so that means this one is capable of
+communicating with all privacy modes on
+this one this one may not be able to
+talk to some certain privacy channels
+from these guys so that's important to
+know and that's how people can have some
+privacy on a small number of shared
+channels so what Midland has done is in
+addition to giving you the
+entered 22 channels if we scroll through
+here we start getting into these
+additional channels what these
+additional channels are are really just
+other channels somewhere in the 1 to 22
+range that have a code already set for
+them so it's just a quick way to get a
+private channel without having to go
+into the menu options and set all these
+different functions so for example this
+is set to channel 27 I'm just gonna come
+over here to this radio and I'm going to
+scan channels right and let's see which
+channel it picks up on whenever I key
+the mic here alright so channel 15 is
+what is being picked up there so it's
+basically Channel 15 with some sort of a
+privacy code as set on it
+that's how that works so it's sort of a
+easy way to go in and find some privacy
+without having to to know what you're
+doing so let's do 30 here let's see key
+in the mic and Channel 30 is really
+Channel 21 with some added privacy
+settings so I actually think that's kind
+of nice because if you're with a group
+of people you can put both of these
+radios on channel 13 let's see here and
+then know that essentially it doesn't
+matter you what frequency you're really
+on but that you've got privacy between
+these two radios they can talk to each
+other they are programmed to be able to
+hear each other's traffic these can be
+made to communicate with one another in
+certain cases you just have to figure
+out the privacy settings but that's what
+kind of cool about again how midland has
+done these extended channels they're not
+really different frequencies they're
+just leveraging existing frequencies and
+then making it a little bit easier to
+get to those privacy modes instead of
+going in like here in setting channel 1
+and then dcs 8 a matter of fact I should
+probably fix that and clear that out so
+I don't wonder what's going on later so
+anyway these radios get interference on
+channel 1 these radios do have a weather
+alert which is nice and weather
+monitoring so if I hold this down I can
+go right to weather alert and that's
+nice it's in a scanning mode so it will
+help you find automatically in this
+particular radio the local weather alert
+channel and you can just hit call or or
+the push-to-talk button over here to go
+back to your standard you can also set
+the weather alerting as my friend let me
+do that I'm gonna hold this to go into
+the weather alert mode I'm gonna hit
+menu and then the alert is set to OFF
+I'm just gonna change that to on and
+then go back and now now you can see
+even in my channel I've got that
+flashing weather alert icon up there by
+the high power designator so that's
+gonna basically be background scanning
+and listening for alerts from the
+National Weather Service and if one
+comes through it will alert this radio
+this is great if you're out and about
+not even offroading just if you're out
+and about in general outdoorsy it's nice
+to know if there's a storm coming
+through that has caused an alert so I
+tend to leave those features on they do
+drain the battery I think a little bit
+faster but it's it's been insignificant
+so this comes like I said as is with the
+charging base you can use regular
+batteries or the rechargeable batteries
+you can charge it with usb on the side
+or not it has no license requirement it
+does have the NOAA Weather Service
+capability and with alerting
+it has the ability to talk on both types
+analog and digital privacy settings and
+yeah I mean this is probably the most
+feature-rich FRS radio and and you know
+this is a great sort of just
+plug-and-play grabbing go sort of a
+thing but doesn't have the capability
+like this does to talk to some other
+systems this can talk to this in all
+cases
+this one has gonna have limited options
+for that because of that additional
+digital privacy stuff so alright so
+that's this one no license required I'll
+put some links in the description so you
+can check out pricing and stuff
+obviously pricing is gonna vary on these
+and I want to make sure you get the the
+most current information rather than
+giving it here if the price changes next
+week I mean my video is gonna be out of
+date so that is that the T 70 so this is
+the T 290 series these are gmrs radios
+which means that they're going to have a
+license requirement and the reason is
+they're able to communicate in higher
+power ranges on those channels that are
+designated as gmrs
+it essentially has a lot of the same
+features and functions as the t 70 but
+again with the additional ability to
+actually be a gmrs radio they both have
+36 channels they both have the same
+number of privacy codes it's the 38c t
+CSS and the 83 dcs they both have Vox
+voice operation which is kind of cool
+show you that they both have different
+call alerts they can be gotten with
+vibrating alert so these don't actually
+have them neither one of these I have
+have vibration alerts they all have the
+weather scan stuff and scan functions
+and monitoring and the ability to to
+basically change all of your different
+settings this was gonna have like a high
+medium low power adjustment for the gmrs
+whereas on the FRS you really only have
+high and low and high and low is
+relative to FRS versus gmrs
+high is different on this than that and
+then oh so Fox I was gonna show you box
+operation so I'm coming in here in the
+menu and I'm going to set let's see here
+box so box 1 through 9 settings it's
+it's a little bit backwards to me
+because box 1 is the most sensitive and
+Fox 9 is the least sensitive I would
+think it would be the other way around
+that the higher the number the higher
+the sensitivity but it is what it is so
+I'm gonna set this on box 1 I'm gonna
+change the channel to 5 because the the
+Vox capability the voice-activated
+feature is of tied to the channel so you
+can see up to the top corner it says Vox
+channel 5 I'm going to turn this radio
+on here set it to channel 5 and of
+course because it's able to communicate
+on the same frequency even though it's
+an FRS radio it should be able to hear
+traffic from this so the way vox works
+is it it listens for audio and then
+automatically keys the mic whenever it
+hears it and it's actually doing that
+now while I'm talking you can see the TX
+right there hey there I just wanted to
+say something so it actually engages the
+transmitter automatically whenever it
+detects a certain level of audio now I'm
+a little bit far away from this cam from
+the microphone so
+but what you'll see back here is this
+one is actually receiving that signal
+this one's transmitting this one's
+receiving and yeah that that's how it
+works so if you are off-roading let's
+say and you have a spotter you can set
+your radio on voice activated and then
+communicate with the spotter without
+having to to touch anything or you know
+grab the mic and press the button or
+anything like that so the downside of
+that is as you can see as I'm talking
+it's constantly wanting to transmit are
+there get that reflection a little bit
+better right there it's constantly
+trying to transmit to this other radio
+and these are simplex radio devices so
+if you're transmitting this guy can't
+talk to you back here he can only hear
+so if you're a loud talker or a constant
+talker when you're off-roading setting
+it to Vox will probably just infuriate
+everyone including your spotter but if
+you're in a certain situation where you
+have sort of an obstacle you'll need to
+try and navigate might not be a bad idea
+to play with that I honestly haven't
+tried it so I don't can validate how
+well it works but you see the point as
+long as I'm talking it's recognizing and
+then it's transmitting to the other
+radio so the other interesting thing is
+it takes a second before it recognizes
+that it hears sound and then starts
+transmitting so your first few words are
+always cut off so if you start the
+conversation with like hey you know I'm
+about to talk and then you start talking
+it'll probably not even share the hey
+I'm about to talk part because it's just
+getting ramped up so I just have thought
+there just know you're gonna have a
+delay before it actually starts
+transmitting and then to turn that off
+I'm just gonna go back into the menu and
+instead of changing channels I'm going
+into the box setting put that back down
+to off and I'll show you some of the
+others so Roger beep is that beep that
+you keep hearing that goes off every
+time the transmissions done that beep
+there is the Roger beep you can turn
+that on or off
+let's see here this is the privacy again
+CT CSS and DCs or off this is the power
+level so low medium and high you don't
+have that option on all channels some of
+the FRS channels are limited to only the
+low power you can't change them but the
+ones that you can change you can set to
+low medium high I just suggest setting
+them all too high to be honest with you
+box again
+Roger beep again so call you can have
+five different call options so that's
+annoying all these sort knowing to me
+actually like that one there so how that
+works now is when because we're on the
+same Channel right these two radios are
+on channel 5 if I hit this call button
+it's calling this radio and it's a good
+way to say hey I'm looking to
+communicate with you and then and then
+you can start the conversation it's
+basically just an attention-getter I
+never really use it to be honest with
+you I just use my voice to get attention
+when I need to talk to somebody
+beep is just to silence all the beeps on
+the thing so now it's completely quiet
+whereas before beeped every time I
+pushed a button so that's how that goes
+you've got your battery power right up
+here and of course you've got an orange
+backlight you can lock all of the
+buttons so press and hold and now it's
+locked you see a lock indicator so none
+of these things work except the call
+button and the the push-to-talk button
+over here we actually like have a
+conversation with somebody and then just
+press and hold it to unlock and I'm kind
+of doing these back-to-back because
+these two radios are very similar like
+you'll notice almost all of the same
+features exist in the FRS version as
+they do
+in the gmrs version yeah so monitoring
+you can hold this down and just listen
+to traffic there's a Hawaiian control up
+at the top and you know it's useful to
+see if you can hear some distant signals
+yeah yeah and then that's pretty much it
+the on/off button is just this top and
+it's the on/off and volume but this one
+comes with the charging base as well it
+does not have the ability to to charge
+via USB it comes with a charger but it's
+a standard like plug it's not a USB plug
+and there's no USB port on the radio's
+so not as easy to to field charge and
+one other cool feature is both of these
+radios have the ability to work with
+these remote wired microphone and
+earpieces for hands-free ish operation
+then you have a push to talk button here
+on the side and they're gonna plug in
+right here on the side of the radio
+right there both radios have that
+capability but this one the 270 actually
+comes with the mics so that's a nice
+bonus there for that or the sorry that's
+too too 90s at 270 it's a 290 T 290 and
+T 70 so I probably said that wrong about
+a million times I apologize a lot of
+numbers to remember so now let's talk
+about these guys they can't communicate
+on the digitally established privacy
+modes the DC s but they do communicate
+on the ctc SS modes so in in most
+circumstances you're gonna be able to
+well you're always going to be able to
+set up communications between all of
+these guys and then the guys back here
+in the back and even the
+the in vehicle systems you just have to
+be be choosy on which privacy setting
+you do it can talk on all of the same 22
+channels and even has weather scanning
+no on/off knob the the power is set by
+holding the power button down and then
+you've got your volume controls right
+here and if you hold these together
+it'll take you into the weather
+monitoring and hit menu to change
+channels now my weather alert is is
+tweet I can hit menu again and that's
+what I can turn the weather alerting
+alarm on or off so I told you I
+generally leave mine on and then if you
+hit the push-to-talk it'll go back to
+the standard settings and so if you just
+hit these up or down its the volume if
+you hit menu then you can change the
+channels and again all 22 channels the
+same ones that are back here on these
+guys so I turn this to channel 12 and
+this one's on channel 12 the why do you
+think is gonna happen
+yep so they communicate just fine with
+one another again privacy settings can
+be set to be honest with you I never
+really use privacy settings so this is a
+great like these are inexpensive enough
+and you can see they come in cool colors
+and this was a four pack with different
+covers obviously I'm playing with the
+orange one cuz that's sort of my style
+but they're great to like throw into a
+go bag or glove box and then just be
+able to hand out like if you're out like
+I said Whelan or or hiking you could
+just hand out a few radios these do not
+come
+they don't have rechargeable batteries
+you have to put batteries in and I think
+it was for triple-a batteries
+yep for triple-a batteries for these
+guys but you can't get much simpler than
+this but yet capable so I hope that
+helps I did like I said have a lot of
+questions about you know what these
+radios can can talk to or not talk to
+what I will say is that I think it's
+worth getting a GM RS license it's only
+I think it's 70 bucks right now it's a
+10 year license and it's a family
+license so I went out and got one
+there's no test it's literally just them
+taking your money from you as the
+government is so good at but it's good
+for 10 years and your entire family can
+use it
+so when we go out I'm not likely to use
+these as much as I am to use something
+like this more fully featured because my
+entire family is eligible legally to use
+these but if you don't want to go
+through that where you you're out with
+people who haven't done that having
+these FRS options is certainly a nice
+way to go so that's all I'm going to say
+about this go ahead and hit me up in the
+comments if you have any questions or or
+other comments feedback help if I missed
+anything that you thought was important
+to talk about let me know and then as
+people come back and view this video
+we'll just keep updating the comments
+with anything that might be useful
+that's it guys thanks for watching I'll
+catch you on the next one
