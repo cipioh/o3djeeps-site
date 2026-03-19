@@ -1,0 +1,91 @@
+everyone Scipio here this video should
+be more comprehensive than it is but to
+be honest with you I wasn't planning on
+doing a video and then after I did what
+I did I thought to myself I probably
+should have done a video to show you
+guys what I did in case you run into the
+same situation so this is a this is what
+I just did video as opposed to showing
+you real time as I'm doing it but here's
+what happened my second head unit which
+is essentially an Android computer did
+this to me so thankfully I took a
+picture before I did what I did to fix
+it but this is where I'm currently at
+everything is working fine so how did I
+get out of this the problem is and I'll
+put the other screen back up again so
+you can see you really only had two
+choices you can try again or you can
+restore to your factory settings which I
+did not want to do and I wanted to hold
+that for a very last resort because I
+don't want to reconfigure everything the
+problem is these buttons here let me
+turn on my headlights so you can see
+them these guys don't work in the state
+that it was in because Android didn't
+actually boot and these buttons are soft
+buttons that use the software and
+Android to tell them what functions they
+have so my only option was this little
+reset here you can see that little hole
+right there so that is the only tactile
+like push button I can use and you can
+use paper clip or something like that so
+I actually had this twist tie and I just
+pulled the paper off I'm gonna get it to
+focus on or not to reveal the the metal
+and then I just stuck that in there I
+tried resetting with that it would go
+back reboot show me that screen again
+I'd do it again
+go back show me that screen again I held
+it in for a long time like 10 or 15
+seconds let go gave me that screen again
+so here's what I did to get out of this
+I went and grabbed a keyboard with a USB
+plug and I basically just plugged it in
+to my head unit this is some
+one of the USB ports that plugs directly
+into the head unit which comes out of my
+area of my glove box as you can see
+there so literally what I did was I
+plugged the USB keyboard in I hit that
+little reset thing started the whole
+thing over again brought me up to the
+same exact menu however this time my
+buttons work actually they still work
+because it recognizes the keyboard so
+actually I left it alone because it was
+on try again to begin with I hit the
+enter key and it rebooted and then did
+some magical Android character dance
+thing which told me it was doing
+something different than normal it was
+some sort of a system display and then
+booted up to my desktop so yeah I'm back
+up and running let's just make sure what
+do want to look at yep
+the Teraflex Gentile 1/2 inch spacer
+load level kit works in combination with
+the tariff so yeah everything works back
+the way it should so don't stress out if
+you get that screen find yourself a
+keyboard plug it in use that button and
+then let it try again and it rebooted
+just fine so oddly enough those tend to
+be associated with like data corruption
+issues in the cache um not necessarily
+your data on the unit but more likely to
+be something didn't cache correctly and
+it got hung up and cooped up so that's
+what happened cameras are working great
+make sense working great so yeah thanks
+for watching guys
+[Music]
+could you
+touch magnetizing like I am the og
+the
+[Music]

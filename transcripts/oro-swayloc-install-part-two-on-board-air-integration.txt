@@ -1,0 +1,203 @@
+everyone Scipio here and I'm just
+finishing up editing the video you're
+about to watch which is part two of the
+RO zwei lock installation so the first
+part covered the mechanical components
+right so if you've got a zwei lock from
+Oro or one of their distributors and you
+do not want to connect it to your air
+system then part one covers all of that
+install this video is going to cover
+integrating it with onboard air now the
+Oro does come with and I'll show you
+here in a second the components you need
+to attach it to an onboard air system
+that comes with a solenoid that comes
+with Air Lines it comes even with a
+switch if you just want to use a simple
+switch system I'm not using any of that
+because I am integrating it into my
+existing switch environment my Stech
+switch pod up above the rearview mirror
+in the Jeep and I'm gonna attach it to
+my ARB onboard air compressor now there
+is one important thing to note and that
+is the RR sway lock comes with 1/4 inch
+airlines these are Airlines a little bit
+bigger in diameter designed for air
+brakes and things like that heavy duty
+applications so ARB comes with a 5
+millimeter airline so my lockers and all
+that stuff right now are currently run
+piped with five millimeter blue line
+that blue line you see so this is a
+bigger diameter hose and I'm gonna
+integrate that into a RV but a special
+fitting I got don't worry I'll show you
+all of that that was really the easiest
+way for me to do it but anyway let's get
+to it because you don't want to see me
+talk you want to see the install alright
+like I mentioned before the Oro sway
+lock will come with what you need to
+integrate it into your onboard air
+assuming that you got the air activated
+version so nice solenoid night switch
+harness including this little simple
+switch if maybe that's all you want to
+have to turn on your or activate your
+sway bar it does come with two lines one
+of them is an open line you're gonna run
+for your air compressor the other one is
+creme
+on the end it's sealed and I'll explain
+a little bit more about that here in a
+second but I just know that one of these
+is sealed you're gonna need to use that
+and we're going to well I'll explain it
+all right so this is the fitting I got I
+got it from a company called cauliflower
+it's a local like air supply
+hydraulics company now this fitting is a
+1/4 inch air line fitting with a 1/8
+inch BS pp end and that's what I need to
+fit onto my ARB air compressor you can
+see I just removed my existing 1/8 inch
+fitting and that was for the 5
+millimeter air line so all I'm gonna do
+is replace it with this one that allows
+me to directly plug in a quarter inch
+air line so this is a pretty simple part
+of the install because I already have a
+solenoid and a switch dedicated for a
+sway bar disconnect so literally all I'm
+doing is replacing that fitting so that
+I can attach that quarter inch air line
+now you might have to if you're doing
+this for the first time and you haven't
+had a sway bar disconnect via air yet
+you might need to install perhaps that
+solenoid that came with the kit or a
+different cylinder
+alright so the air line we're gonna run
+to the air compressor you can see here I
+put a little bit of wire loom tape on
+there just for abrasion protection I
+found a little hole it's a through hole
+in the frame right above where I want to
+connect this so that's where I'm gonna
+run it first thing I need to do is pull
+off the front of the grill hopefully you
+guys all know how to remove the grill by
+now if not sorry this video is probably
+not helping you much in that regard
+anyway so I'm running this air line
+through in front of the radiator and
+then there's a little outlet like I said
+a hole that goes through the frame then
+I'm gonna pop that out in turned out to
+be a perfect spot but I did want to put
+some of that wire loom tape on there
+just to keep it from abrading against
+the the frame itself and you see it pops
+right out there and then actually is
+right in line with where I'm plugging it
+into the air cylinder and then I'm gonna
+run the rest of it back along
+and plug it into the air compressor just
+like I would any other airline make sure
+you make your cuts nice and crisp so
+that they fit into the fitting properly
+and don't don't leak alright so you can
+see how that comes out nice and clean I
+think so you know your decision maybe to
+wire at some place differently so now we
+have the crimped airline to add into it
+basically the reason for this is there's
+gonna be air flow as we activate and
+deactivate this air chamber and so what
+ro decide to do is keep the air system
+clean completely so when it exhausts air
+and then rhe sucks in air as it moves
+that cylinder back and forth you're
+basically pulling air out of this
+crimped line it's it's basically a clean
+exhaust and and you know recycling
+airline so their recommendation is to
+leave that as long as possible and
+basically just run it along with your
+existing airline so that's what I did I
+cut it to fit basically the same path as
+the airline that I ran that's actually
+controlling the air from the air
+compressor and yeah and then I'm just
+gonna zip tie it all around and fit in
+there it is really sort of interesting
+that they've even thought about you know
+that you know movement of air and
+wanting to keep the entire system
+contaminant free and clean so I just you
+know I never really would have thought
+about that and when I first saw this
+system with the dual lines and the one
+of them being crimped I was like what
+the heck is going on here but that's it
+it's basically an air chamber in that
+crimped line that is designed to allow
+air to flow in and out of but it's all
+sealed and keeps contaminants out anyway
+don't forget your sway lock sticker but
+that's it we are done with the install
+it's pretty simple if you're integrating
+it into an existing air system and you
+can see here I've jump into the Jeep and
+then I'm gonna flip the switch of course
+to test this and make sure that it
+actually you know
+disconnects the system which it does and
+then another important function after I
+verify that is verifying that when I
+close the switch that it goes back into
+place in the first video I spent some
+time making sure that that opened and
+closed freely now I don't have anything
+really huge to ramp up on the house so I
+just pulled out one of these vehicle
+ramps my point here is to see if you
+look at the top at the sway lock I'm
+gonna disconnect the system and then
+drive up on the ramp and what I want to
+see out of this test is an independent
+motion where the outer arm moves
+independently of the inner arm at the
+different rate so you can see that it's
+misaligned and here's you know just to
+look at sort of the completely installed
+setup I think it looks beautiful I
+really like it
+I love the aluminum of course it matches
+the rest of my aluminum components here
+all right and then so for this test I'm
+going to close the switch with it
+misaligned and then when I back down off
+the ramp what I'm looking for is that it
+reengage --es and relax the sway bar for
+on-road use and you see right there it
+just watched it into place as soon as it
+found an opportunity to do so
+so yeah that's successful test anyway
+guys this is the air activated sway lock
+dual rates wave art system for the Jeep
+Wrangler really really liked this thing
+and I have not taken an off-road yet my
+on-road experience has been very nice I
+feel like it's a little tighter
+it's a little tighter in the turns and
+hard cornering on the road and I did
+promise you I will have a video coming
+up in the near future that will have
+some testing results both on and off
+road anyway guys that's it for this
+video there will be another one thanks
+for watching
+[Music]

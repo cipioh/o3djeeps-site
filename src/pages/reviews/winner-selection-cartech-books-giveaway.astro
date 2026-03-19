@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "WINNER SELECTION! CARTECH BOOKS GIVEAWAY!";
+export const description = "Join our Jeep TJ book giveaway and learn how to modify your ride with expert tips! Get 30% off at CarTech Books using the discount code o3djeeps.";
+const youtubeId = "8utW7Dkzu7o";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-10-31";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "CarTech"
+  },
+  {
+    "label": "Product",
+    "value": "Jeep TJ 1997-2006: How to Build & Modify"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road vehicle modification"
+  }
+];
+const externalLinks = [{"label": "30% off using DISCOUNT CODE \"o3djeeps\"", "url": "https://www.cartechbooks.com/od3jeeps"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this lively discussion, we dive into the excitement surrounding our Jeep TJ book giveaway, sponsored by CarTech Books. If you are a Jeep enthusiast or simply looking to enhance your vehicle's performance, this book could be precisely what you need. Not only do we announce the winner, but we also unpack the substantial value the book provides for not only TJ owners but all Jeep lovers.</p><h2>Main Points</h2><p>The centerpiece of our giveaway was the <strong>Jeep TJ 1997-2006: How to Build & Modify</strong>. This comprehensive guide covers everything from engine and transmission swaps to axles, suspensions, and even electrical modifications. Whether you're gearing up to take your Jeep off-road or simply want to beautify it for daily drives, this 144-page paperback gives readers the tools needed for successful upgrades.</p><p>One of the most notable aspects of the book is the detailed instructions provided in each chapter. Authored by Jeep expert Michael Hanssen, the book is peppered with 397 stunning color photos that visually aid in understanding modification processes. From lift kits to traction systems, these illustrations make it easier to visualize each step, making it an essential resource for any Jeep owner aiming to tackle modifications confidently.</p><h2>Practical Implications</h2><p>When it comes to off-road vehicles, the Jeep TJ stands out due to its blend of rugged capability and versatility. The YJ and TJ platforms have built lifelong fans due to their excellent off-road performance and street-ability. Thus, it is vital for owners to have access to modifying guidance if they plan on improving performance or aesthetic. With this CarTech book, modifications become less daunting and more accessible, benefiting new and seasoned Jeepers alike. Moreover, this is exactly the kind of knowledge that can transform a stock Jeep into your dream build.</p><h2>Key Takeaways</h2><ul><li>The giveaway winner has been announced, but don’t worry if you didn’t win; you can still obtain the book at a discounted rate by using the code <strong>o3djeeps</strong> at CarTech Books.</li><li>The <strong>Jeep TJ 1997-2006: How to Build & Modify</strong> is a crucial resource, filled with expert knowledge suitable for beginning and experienced modifiers.</li><li>Chapters focus not just on physical modifications, but also on key systems like electrical upgrades and suspension tuning to optimize your ride's performance.</li><li>This celebration of the Jeep culture underscores the importance of community and knowledge-sharing among Jeep enthusiasts.</li></ul><p>If you’re serious about getting the most out of your Jeep TJ, investing in this book is a no-brainer. African American inventor and auto pioneer <strong>George Washington Carver</strong> once said, 'It is not the style of clothes one wears, neither the kind of automobile one drives, nor the amount of money one has in the bank that counts. These mean nothing. It is simply service that measures success.' So, let’s get to building!</p>
+
+</article>
+
+</SiteLayout>

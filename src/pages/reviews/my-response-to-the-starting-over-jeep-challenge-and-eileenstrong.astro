@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "My Response to the \"Starting Over Jeep  Challenge\" and #EileenStrong";
+export const description = "Join us as we reflect on Jeep builds and camaraderie, while also supporting a fellow enthusiast in need.";
+const youtubeId = "0qFM6Z-8qBM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-10-26";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Build Style",
+    "value": "Jeep Build Reflection"
+  },
+  {
+    "label": "Inspiration",
+    "value": "Nate from SWBCrawler"
+  },
+  {
+    "label": "Community Support",
+    "value": "#EileenStrong"
+  }
+];
+const externalLinks = [{"label": "First is an answer to a callout from my friend Nate over at the SWBCrawler YouTube channel.  He started a challenge to Jeep YouTubers to create a video about what you would do differently if you started your build over again - or if you started a fresh build, how you would do it.   You can watch his original callout video here:", "url": "https://www.youtube.com/watch?v=xXLkj3eTHzo"}, {"label": "Secondly is a tough thing for me, but I finally decided to share some info about my good friend who was seriously injured in an accident after a day of wheeling at AOAA.  You can find the GoFundMe mentioned in the video here:", "url": "https://www.gofundme.com/eileenstrong"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the latest video, the conversation takes a heartfelt turn. We share reflections on our Jeep builds, learning from past experiences and growth, while also rallying behind a community member in need. It’s not just about the vehicles; it’s about the stories we build along the way.</p><h2>Main Points</h2><p>The challenge posed by my buddy Nate from SWBCrawler is simple yet profound: share what you would do differently if you were to start your Jeep build all over again. This prompt isn’t just a chance to consider past choices; it’s an opportunity to reflect on how those choices shape our connection to the Jeep community.</p><p>Many of us step into the world of Jeep building with excitement but often lack the foresight that experience brings. In my case, starting with a Willy’s Wheeler sounded perfect at the time, allowing me to enjoy the open air and aesthetic appeal. Little did I know, as soon as my Jeep journey began, I’d be drawn to more serious off-road adventures.</p><h2>Practical Implications</h2><p>This reflection leads me to my primary takeaway: the importance of investing wisely at the start. The age-old wisdom of 'buy once, cry once' is a lesson learned through trial and error. For instance, my initial bumpers were affordable but didn’t withstand the rigors of off-roading as I’d hoped. Upgrading to heavy-duty bumpers wasn’t just an aesthetic choice; it was a necessity that I learned after realizing the limitations of choosing lower-cost options.</p><p>Had I started with a Rubicon, I would have saved money, time, and substantial effort on modifications later down the road. This choice directly correlates with the need for the 4:1 transfer case that the Rubicon offers. It's crucial to critically analyze what you need from the outset rather than merely what looks good or seems economical at the moment.</p><h2>Key Takeaways</h2><p>What I’ve gathered from this experience can help guide both new and seasoned Jeep enthusiasts:</p><ul><li><strong>Invest Wisely:</strong> Prioritize quality components at the beginning that suit your intended use.</li><li><strong>Consider Future Needs:</strong> Think ahead about potential upgrades and needs when planning your build.</li><li><strong>Community is Key:</strong> Engage with fellow Jeepers and share experiences — you’ll learn valuable lessons from each other.</li></ul><h2>A Community in Need</h2><p>Alongside discussing our builds, it’s essential to touch on the poignant subject of community support. One of our own, Eileen, has experienced a tragic accident that leaves her in a critical state. It embodies the spirit of the Jeep community: to support one another, not just in our ride, but in times of hardship.</p><p>I urge everyone to rally behind the #EileenStrong movement and contribute to the GoFundMe set up for her recovery. Every little bit helps, and we know the Jeep community has a heart full of generosity. The strength we exhibit on rugged trails translates into compassion when our community members need us the most.</p><h2>Conclusion</h2><p>As we reflect on our Jeep journeys, let’s not forget the importance of our shared experiences and the bonds forged through our passion. Whether it’s discussing what we would do differently in our builds or coming together for a friend in need, it's clear that our community is stronger together. Share your own stories, connect with fellow enthusiasts, and think of how we can all enhance our Jeep experiences while supporting one another.</p>
+
+</article>
+
+</SiteLayout>

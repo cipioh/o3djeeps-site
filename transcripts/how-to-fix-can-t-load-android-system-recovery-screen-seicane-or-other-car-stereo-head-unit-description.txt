@@ -1,0 +1,9 @@
+So... yeah. This is a video I didn't think I was going to make. I honestly didn't think my first attempt to fix this was going to work. But, it did. So now I am catching you up. 
+
+Here's the screen that came up:
+
+Can't Load Android System. Your data may be corrupt. If you continue to get this message, you may need to perform a factory data reset and erase all user data stored on this device. 
+
+Seems easy enough to hit that "try again" option...but there are no physical buttons on this device. Only soft buttons and a single reset button.  Here's how I solved it. 
+
+🔔 Please SUBSCRIBE if you want to see my videos! 🔔

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Twisted Jeeps of Moab - Rentals, Guides, and Ride-a-Longs";
+export const description = "Discover Twisted Jeeps in Moab for unforgettable Jeep rentals and guided tours. Perfect for adventurers looking for a thrilling off-road experience.";
+const youtubeId = "P7ZJ8fuQOiE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-01-11";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Twisted Jeeps"
+  },
+  {
+    "label": "Location",
+    "value": "Moab, Utah"
+  },
+  {
+    "label": "Service",
+    "value": "Jeep Rentals and Guided Tours"
+  }
+];
+const externalLinks = [{"label": "I hung out with these guys for a couple of days while I was in Moab this last September, and wanted to share this info with you. They didn't pay me or ask me to do this. I just genuinely wanted to let you know about Twisted Jeeps...because it was you, my subscribers, who told me about them!", "url": "https://twistedjeeps.com/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're an off-road enthusiast planning a trip to Moab, you've likely heard of Twisted Jeeps. This local business offers a unique approach to Jeep rentals and guided tours, setting themselves apart in an area known for its rocky trails and stunning landscapes. In this article, we delve into the experiences offered by Twisted Jeeps, perfect for anyone looking to enhance their visit to this off-roading paradise.</p><h2>Main Points</h2><p>Twisted Jeeps, run by locals Joe and Nick, has been operational for around six years, focusing on quality over quantity. With a fleet of 18 high-quality, off-road-capable Jeeps, they emphasize a customer experience that goes beyond just handing over the keys. Their business model targets those who want the thrill of Moab’s challenging trails, making them an excellent choice for both seasoned off-roaders and novices alike.</p><ul><li><strong>Quality over Quantity:</strong> Unlike many rental companies in the area, Twisted Jeeps takes pride in building their vehicles to endure the rigors of Moab's toughest terrain.</li><li><strong>Three Rental Options:</strong> Offering flexibility, customers can choose to rent a Jeep and tackle the trails independently, ride along with an experienced guide, or follow a guide in their own vehicle, ensuring the perfect fit for everyone.</li><li><strong>Local Knowledge:</strong> The guides at Twisted Jeeps possess a deep understanding of the landscape and history of Moab, adding a rich layer to the experience that goes beyond simple navigation.</li></ul><h2>Practical Implications</h2><p>The choice of trail is crucial in Moab. With access to more difficult trails, Twisted Jeeps allows customers to undertake adventures that many other rental services avoid. This aspect is especially beneficial for those looking to push their limits or wanting to explore tracks like Hell's Gate or Poison Spider. Their guiding service not only ensures safety but also provides valuable insights about the local environment, history, and unique rock formations.</p><p>The significantly higher off-road mileage their Jeeps accumulate—up to 18,000 miles per year on off-road terrain—illustrates the robustness and readiness of their fleet compared to standard rentals. This level of usage and attention to vehicle preparation brings peace of mind, knowing you're driving a well-maintained vehicle that can handle the wild terrains of Moab.</p><h2>Key Takeaways</h2><p>Choosing Twisted Jeeps for your Moab adventure means opting for a personalized experience rooted in local expertise. Whether you want to blaze your own trail, ride along with a knowledgeable guide, or follow in your Jeep with support, Twisted Jeeps has you covered. Their commitment to quality and customer satisfaction ensures that your trip will be memorable, safe, and full of awe-inspiring views and experiences. Plan to spend your days exploring the incredible scenery of Moab under the guidance of locals who truly know their stuff—Twisted Jeeps is the way to go!</p>
+
+</article>
+
+</SiteLayout>

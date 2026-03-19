@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Poison Spider Trail - Moab Utah - September 2018";
+export const description = "Join us as we explore the Poison Spider Trail in Moab, Utah, and share insights from seasoned Jeep enthusiasts.";
+const youtubeId = "rvd6cKT6pDQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-11-30";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Location",
+    "value": "Moab, Utah"
+  },
+  {
+    "label": "Trail Name",
+    "value": "Poison Spider Trail"
+  },
+  {
+    "label": "Event",
+    "value": "Off-road adventure"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The Poison Spider Trail in Moab, Utah, offers an incredible off-roading experience that blends breathtaking scenery with challenging terrain. In this article, we'll explore the trail's features, share personal experiences from our adventures, and discuss the community that supports and enhances the off-roading culture in this iconic location.</p><h2>Main Points</h2><p>Our recent excursion on the Poison Spider Trail included time spent with fellow enthusiasts who are just as passionate about off-roading as we are. It's not just about the vehicles; it’s about the camaraderie and shared experiences that off-roading brings. George, a member of the Red Rock Four-Wheelers, shared deeper insights into the club's history and vision, which centers around family-friendly adventure and responsible off-roading.</p><h2>Practical Implications</h2><p>Exploring trails like Poison Spider can serve as a reminder of why we take our vehicles off the pavement. They challenge our driving skills, offer a connection to nature, and foster friendships that last a lifetime. It's important to respect the trails, ensure your vehicle is well-prepared, and engage with the local off-roading community for guidance and support.</p><h2>Key Takeaways</h2><p>The Poison Spider Trail is more than just a challenging off-road experience; it represents a living history of the community that thrives on adventure. Whether you’re a seasoned off-roader or new to the sport, engaging with groups like the Red Rock Four-Wheelers can enhance your experience, providing knowledge and camaraderie that enrich every outing.</p>
+
+</article>
+
+</SiteLayout>

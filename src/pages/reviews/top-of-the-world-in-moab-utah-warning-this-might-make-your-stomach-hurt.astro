@@ -1,0 +1,60 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Top of the World in Moab Utah - WARNING! This might make your stomach hurt!";
+export const description = "Join us on a thrilling adventure to the Top of the World in Moab, Utah, where breathtaking views and off-road excitement await!";
+const youtubeId = "vUefuUw_-Vo";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-01-20";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Location",
+    "value": "Moab, Utah"
+  },
+  {
+    "label": "Trail",
+    "value": "Top of the World"
+  },
+  {
+    "label": "Distance",
+    "value": "19 miles out and back"
+  },
+  {
+    "label": "Difficulty Rating",
+    "value": "Moderate"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're searching for adventure, look no further than the Top of the World trail in Moab, Utah. This incredible off-road journey offers breathtaking views and a few heart-pounding moments that are sure to entertain any off-road enthusiast. In this article, we’ll share insights from an exhilarating day spent navigating this captivating trail with friends.</p><h2>Main Points</h2><p>The drive to Moab is an experience in itself, as you are greeted by stunning landscapes that truly embody the spirit of the great outdoors. As we set off for the Top of the World, accompanied by KL from Twisted Jeeps—an experienced guide who knows the area like the back of his hand—we couldn't help but appreciate the awe of our surroundings. The mix of rugged terrain and striking vistas create an irresistible invitation for wheeling enthusiasts.</p><p>The trailhead features Dewey Bridge, a recognized photo spot with a fascinating backstory—a structure that once stood proud until it was devastated by fire. The backdrop sets the tone as we launch into a journey over dirt roads that wind their way to the trail. As we continue towards the Top of the World, we quickly realize that while the trail is rated as moderate, it has become progressively challenging over the years. With a series of shelf and stair obstacles to navigate, it’s a dynamic climb that keeps your adrenaline pumping.</p><h2>Practical Implications</h2><p>For those planning to tackle this legendary trail, it’s important to note that the path runs approximately 19 miles out and back, offering a unique combination of difficulty and excitement. Being mindful of the moderate rating, ensure your vehicle is well-equipped for obstacles, and be prepared for any unexpected challenges.</p><p>While we were joined by friends on motorcycles, their need for momentum proved to be a differentiation in pace, demonstrating an essential aspect of off-roading: knowing your vehicle's capabilities and the level of expertise required for the terrain.</p><p>Reaching the top is incredibly rewarding, especially after navigating the steep climbs and tricky obstacles along the way. It’s an experience that cannot be captured fully on video or in pictures; the feeling of standing at the precipice and taking in unprecedented views is something that every off-roader should experience. As I stood at the edge, surrounded by breathtaking landscapes, it was clear that no amount of video would truly do justice to the sight.</p><h2>Key Takeaways</h2><p>As we wrapped up our day at the Top of the World, key takeaways emerged for future adventurers:</p><ul><li>Consider embarking on the trail with an experienced guide, especially if you're unfamiliar with the area.</li><li>Be prepared for varying conditions on the trail; what may have been moderate can evolve into more difficult challenges.</li><li>Appreciate the journey as much as the destination, taking every opportunity to soak in the beautiful surroundings.</li><li>Remember to capture the moments—and don’t forget the importance of safety gear and precautions on steep ascents!</li></ul><p>In conclusion, the Top of the World trail is not just a ride; it’s an adventure filled with camaraderie and breathtaking views. Whether you’re a seasoned off-roader or a novice looking to jump in, Moab’s stunning landscapes are waiting to welcome you.</p>
+
+</article>
+
+</SiteLayout>

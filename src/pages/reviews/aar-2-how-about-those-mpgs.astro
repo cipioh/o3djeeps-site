@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "AAR 2 - How About Those MPGs!!";
+export const description = "Discover the insights on achieving optimal gas mileage in your Jeep after an epic road trip.";
+const youtubeId = "sSnn9_IBIE0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-11-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Maintenance, Mods"
+  },
+  {
+    "label": "Vehicle",
+    "value": "Jeep"
+  },
+  {
+    "label": "Engine",
+    "value": "3.6 Liter V6"
+  },
+  {
+    "label": "Gear Ratio",
+    "value": "4.88"
+  },
+  {
+    "label": "Tires",
+    "value": "37-inch"
+  },
+  {
+    "label": "Fuel Type",
+    "value": "Unleaded"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this After Action Report (AAR), we take a deep dive into the gas mileage achieved on a recent journey from Moab, Utah to Baltimore, Maryland. The Jeep in question is equipped with a 3.6-liter engine, 37-inch tires, and a 4.88 gear ratio, making it an interesting case for fuel economy when properly tuned and driven.</p><h2>Main Points</h2><p>The focal point of this report is how to achieve impressive fuel economy despite the added weight and aerodynamics challenges that come with a Jeep build. The author discusses specific strategies employed to maximize MPG on an extensive road trip across diverse terrains, including mountainous regions and plains.</p><ul><li><strong>Calibrated Speedometer:</strong> Ensuring that the speedometer is accurately calibrated for the larger tires and modified gear ratio is vital. An off calibration could lead to erroneous mileage calculations.</li><li><strong>RPM Control:</strong> Maintaining revs within the 2,000 to 2,500 RPM range proved essential for optimizing fuel efficiency. This usually equated to a steady speed of 60 to 65 miles per hour.</li><li><strong>Fuel Selection:</strong> The trip highlighted an interesting anomaly where using lower-octane fuel (regular unleaded) while detuned resulted in better fuel economy compared to higher-octane performance fuel when the vehicle was tuned for peak performance.</li></ul><h2>Practical Implications</h2><p>The findings from this AAR have significant implications for Jeep enthusiasts looking to balance performance with fuel savings on long trips. By focusing on speed and RPM management, along with careful fuel selection, one can enjoy both the thrill of off-roading and the financial benefits of improved gas mileage.</p><h2>Key Takeaways</h2><p>This AAR provides valuable insights for Jeep owners interested in enhancing their vehicle's efficiency during travel. Important takeaways include:</p><ol><li>Ensure your speedometer is calibrated for your specific modifications.</li><li>Pay attention to RPMs, aiming for that sweet spot between 2,000 and 2,500.</li><li>Experiment with fuel types and tunes - sometimes lower octanes can yield surprising savings.</li></ol><p>In summary, this report not only shares the experiences of a long-haul Jeep journey but also arms fellow enthusiasts with actionable strategies for achieving better gas mileage in similar setups. Time and attention to detail can lead to both performance and savings on the road.</p>
+
+</article>
+
+</SiteLayout>

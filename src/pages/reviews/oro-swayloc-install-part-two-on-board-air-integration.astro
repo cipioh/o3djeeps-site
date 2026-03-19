@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "ORO SwayLOC Install - Part Two - On Board Air Integration";
+export const description = "Learn how to integrate the OffRoadOnly SwayLOC with your onboard air system for enhanced off-road performance.";
+const youtubeId = "P8QMl4elXtQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-01-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "OffRoadOnly"
+  },
+  {
+    "label": "Product",
+    "value": "SwayLOC Dual Rate Anti-Sway Bar System"
+  },
+  {
+    "label": "Use Case",
+    "value": "Onboard air integration for Jeep"
+  }
+];
+const externalLinks = [{"label": "Here's the on-board-air integration of the OffRoadOnly SwayLOC Dual Rate Anti-Sway Bar System. Please watch part one for the detailed installation up to this point:", "url": "https://www.youtube.com/watch?v=Os-wlrdgGJk"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Integrating your OffRoadOnly SwayLOC Dual Rate Anti-Sway Bar System with an onboard air system can significantly enhance your Jeep's performance both on and off the road. This tutorial will guide you through the steps to achieve this integration seamlessly. Let’s get started!</p><h2>What This Covers</h2><p>In this article, we will cover the essential steps needed to connect the SwayLOC system to your onboard air compressor effectively. We will focus on the necessary components, installation tips, and precautions to ensure a successful setup.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Necessary Components:</strong> Before you begin, make sure you have all the components that come with the SwayLOC system, including the solenoid, air lines, and switch. You will also need special fittings to connect to your onboard ARB air compressor.</li><li><strong>Disconnect Existing Air Lines:</strong> If you have existing air lines connected to other components, you may need to disconnect them temporarily. Be careful to label them if necessary to avoid confusion during reconnection.</li><li><strong>Replace Air Line Fitting:</strong> The existing fitting on your ARB compressor is typically for a 5mm air line. You'll need to replace this with a fitting compatible with a 1/4 inch air line. This fitting can be found at industrial supply stores or hydraulic companies.</li><li><strong>Run the New Air Line:</strong> Identify a suitable path to run the new air line from your SwayLOC system to your air compressor. Make sure to protect it with wire loom tape to avoid abrasion against the vehicle frame. </li><li><strong>Install the Crimped Air Line:</strong> The crimped air line is essential for maintaining the integrity of your air system by allowing for clean exhaust and intake of air. Route this line alongside your new air line and secure it with zip ties to keep everything organized.</li><li><strong>Test the System:</strong> Once everything is connected, it's crucial to test the system. Activate the air system using the dedicated switch and observe whether the sway bar disconnects properly. After the test, re-engage the sway bar and ensure it returns to its original position.</li></ol><h2>Helpful Tips</h2><ul><li>Ensure all connections are tight to prevent air leaks.</li><li>Consider using Teflon tape on threaded fittings to enhance seals.</li><li>Always check your manufacturer’s specifications for compatibility before making modifications.</li><li>Maintain a clean workspace to avoid contaminants affecting your installation.</li></ul><h2>Key Takeaways</h2><p>Integrating the SwayLOC with your onboard air system is a straightforward yet impactful modification that enhances your Jeep's performance. By following the steps outlined above, you will be able to enjoy the benefits of an integrated sway bar disconnect, improving both on-road handling and off-road capability. Remember to test and verify all connections to ensure a flawless installation that can handle the rigors of off-roading.</p>
+
+</article>
+
+</SiteLayout>
