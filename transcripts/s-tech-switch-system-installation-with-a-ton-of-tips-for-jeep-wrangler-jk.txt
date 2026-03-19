@@ -1,0 +1,893 @@
+we can reinsert that but this is just
+gonna plug right into the switch panel I
+highly recommend that you don't connect
+this straight to the battery so as you
+can see here I told you I was going to
+use a liquid electrical tape I do have
+the front light bar boom
+light bar hey there Scipio here and I
+know I told you in the last video
+pertaining to the team Tec off-road sway
+bar and tto disconnect that I was going
+to be installing the airline next the
+next video well this is the next video
+and I'm not installing the airline I
+decided to change my mind and I'm going
+to install the switch system first
+because I can run the airline but until
+I have a switch that I can use to power
+the solenoid I can't really test
+anything so I figured yeah I'll do the
+switch system next so that's what this
+video is so I'm going to be installing
+this Stech switch system which comes
+with the relay box and then this switch
+housing with switches that's going to go
+inside the Jeep so if this is the first
+switch system you're installing in your
+Jeep it's actually going to be pretty
+easy it's gonna be a little challenging
+for me because I have a whole bunch of
+stuff here already going on that I have
+to figure out number one
+what did I do where are my wires running
+where do they come from where do they go
+to and then I have my waterproof fuse
+relay box here and the Stech is gonna
+fit here I think they may actually fit
+next to each other I think that they may
+coexist which will be nice although
+eventually I'll probably phase this out
+but just to get some initial
+functionality out of the Stech system I
+think that I don't have to remove this
+one but that's a problem right when you
+start doing modifications and then
+modifications to modifications and then
+on top of that additional modifications
+eventually it gets all sort of messy but
+just know that if you're installing this
+like you said I just decided to put a
+switch system in my Jeep for the first
+time
+you decided to pick the Stech switch
+system by the way I've got a 10%
+discount code hang on to the end of this
+video make sure you get that code ten
+percents pretty righteous this is pretty
+easy to install if you have a blank
+canvas so some of the things I'm going
+to be moving around you may see you
+probably won't have to worry about those
+I'm gonna try and minimize as much as I
+as I can in the video because it only
+applies to me but I also want you to see
+the real world of what it's like to work
+on my Jeep as I've said before I try not
+to do magical installs I like to show
+you really what I'm working on it's not
+helpful for a lot of people to do a
+two-minute video of a you know magical
+install with no bloody knuckles or sweat
+you know I show you what I have to deal
+with so in this case I've got to deal
+with a mess of wires that I'm gonna
+clean up and so let me work on that
+figuring out what I have and then I'll
+show you getting this s tech system
+plugged in all right so I'm currently
+trying to make sense out of my existing
+wiring this is for the superchips trail
+- two switches there are four switches
+two on each of these that go into my a
+RB air compressor and control my two
+lockers Illinois's so one tip I have for
+you is don't be afraid to take pictures
+as you go because what I'm going to do
+is disconnect all of this and then
+figure out what wiring I need to go
+where to reconnect to the Stech system
+it's pretty simple really
+it's just figuring out what I have which
+wire's go to what so it's a standard ARB
+air compressor harness so those color
+codes should be well-defined but I can
+also see what colors I have them plugged
+into here and then from there these do
+tell me labels like switch one switch
+two ground things like that so I'm sort
+of just trying to sort this out not
+pretty so the reason I'm working on this
+now is because I'm actually gonna put
+the new relay box from s Tech right here
+so I'm just basically cleaning this area
+out and since I need to change up my
+wiring anyway I may as well just figure
+that out right now before I install the
+s tech so I'm gonna keep working on this
+but yeah this is the fun stuff and I
+wired this myself and I'd still a
+challenge to remember exactly what I did
+and why so I couldn't imagine having to
+go through and figure out and install
+that you had nothing to do with all
+right so essentially I got the wiring
+area cleared this is now the wires that
+are going for the air compressor and the
+front rear lockers I've got sort of
+things pushed out of the way and I think
+just basically doing a mock up I'm
+pretty close to being good except for
+this this is my horn its relocated
+because of my air compressor location so
+what I'm doing now is looking at what I
+can do with it and I'm not sure if there
+is anything I can easily do with it or
+not but I think getting that out of the
+way frees me up nicely so I'll see if I
+can reintegrate that horn back into the
+mix but for now I can clearly see that
+my s tech box is gonna fit nicely in
+here even next to the other relay box so
+yeah that's good so you may be wondering
+what this yellow thing is this is
+actually my differential breather tube
+for the front diff I made an extension
+using
+air hose so and it's coiled the way it
+is so then it could be a pain in the
+butt to get out no it's coiled the way
+it is so that if water does get into
+this top area it'll come in it'll have
+to go through several curls before it
+goes down into the differential so
+that's why that's there there's plenty
+of places I could put this it doesn't
+have to go right here I just have it up
+as high as I can I'll play with that
+later I think that this is something
+better left to figure out after the fact
+but again it goes to show you there's
+sort of a butterfly effect you make one
+change which impacts another change
+which impacts another change and then
+going back and trying to redo things it
+can can be a little bit challenging but
+with a little bit of patience and
+creativity pretty much any of it is
+overcome oval all right so on this Stech
+relay box we basically have three
+bundles of wires and then one smaller
+ground wire the smaller ground wire is
+going to go here to this grounding post
+the very short bundle which is this one
+is your outputs for your various
+accessories so when I want to send power
+to a Silla note I'm going to send it
+from one of these so that's nice and
+short so you basically you're gonna run
+all of your wires light bars lockers
+sway bar all of that stuff is going to
+run to here then you have two really
+long bundles of wire one of them is
+going to go to the battery side and then
+one of them is going to go inside the
+Jeep for the switch panel and so it's
+important to sort of figure out how you
+want to run those in advance
+obviously battery side I'm gonna run
+along the firewall here with all this
+other stuff and then this is gonna dump
+in there is a grommet underneath here
+you can't see it it's there actually if
+you go to the S Tech install video they
+did a great sort of view without an air
+compressor but there's a grommet in here
+in the firewall that dumps down and it's
+where I've run most of my wires lately
+because all my side ports are sort of
+already filled or not accessible so this
+can go down and then this is going to
+end up sitting right about here so this
+s Tech bracket I'll actually give you a
+cool little red piece that's zip tied in
+place just to sort of hold it so you can
+see how it's going to go this is going
+to mount to there and then that's gonna
+mount just like that so first thing we
+need to do is mount this to the bracket
+they do give you all of the hardware you
+need to accomplish this and a really
+great instruction manual probably one of
+the better instruction manuals I've ever
+seen however with that said you do need
+to go to s Tech switch comm and look at
+the updates but he will update the
+manual from time to time with new
+information either based on consumer
+feedback or installation feedback may
+tell you to change something or what
+have you but he has it pushing like that
+honestly I I'm gonna reverse this from
+what's in the manual because this is the
+part you'll see from the outside so I'm
+gonna make that the cleaner look maybe
+it's just me but I think it looks
+cleaner instead of seeing the bolts
+coming through the nut you'll see just
+the the bolt heads oh I see what's going
+on here this is an updated bracket
+design from what's shown in the manual
+so that's why it looks differently the
+other one doesn't have the s tech app it
+actually
+down so either way we're good just make
+sure the long side is here with the slot
+and the short slide is here and
+everything should work fine so let me
+let me tighten these guys down all right
+one thing you do want to make sure is
+that you've got your ground cable run in
+a way that makes sense because that's
+going to go off to this side and that
+will slide right underneath there
+that's perfect alright so this one you
+need to remove all the way and then this
+one you can just slide it under just
+like that that looks really clean
+alright I'll add that into there alright
+let me catch you up to where I'm at
+right now so I've pulled the Stech box
+off again because I ended up remounting
+this horn again this is relocated it
+normally goes back here but because the
+air compressor it was pushed forward I
+drilled a new hole in this bracket that
+allows it to sit and play nicely in the
+mix instead of interfering so I had to
+take that off so that I could put the
+nut down below and then while I'm at it
+I'm gonna go ahead and run this wiring
+loom this bundle here alright so I told
+you that there's a place to get in
+through the firewall right here
+underneath the brake booster so this is
+the wire that I already have coming
+through I'm gonna pull out this was for
+the trail - to switch system so I'm
+gonna pull that out when I pull that
+back through I'm gonna go ahead and
+attach this to it with some tape so that
+when I pull it through I'm basically
+using it to also pull my
+wire bundle through at the same time
+there should be plenty of room for that
+to fit through so it's kind of hard to
+show you but I just wanted to give you a
+frame of reference of where it is in
+relation to the wheel well alright so
+I've got to remove the center piece
+which is kind of easy for me because I
+already have the corners gone from my
+roll cage install and there is a factory
+wiring harness that runs through here
+but you want this center piece yeah
+right here oh it's a little bit dusty
+and then also note this notch here is
+what phases forward and up so you're
+looking at it like this so your switches
+are gonna be like this if you do it
+upside down you'll probably be sad so
+but I think the template covers that
+alright guys so this is pretty important
+so pay attention this is the template
+that came with my switch system in the
+box and there are two sides one of them
+is for the four position and one of them
+is for the six position so first warning
+if you've got a four position switch and
+you cut for a six position you're gonna
+be sad because your hole is gonna be way
+bigger than you need it the other thing
+I think you need to pay careful
+attention to is the dimensions of this
+and make sure this is printed properly
+this is the one I got with the kit and
+it wasn't printed to the proper scale
+it's a matter of fact right here it says
+please check printer scaling and set to
+100% the best place I think to measure
+is either this two inch but ideally this
+5.75 so five and three quarters and as
+you can see here I'm only measuring five
+and a half
+I printed it on my printer using no fit
+to page 100% scaling and it comes in
+exactly five and three-quarter inches
+and this comes in at exactly two inches
+the other thing you can do is compare it
+against your switch housing to make sure
+it looks like it's gonna fit these are
+going to just barely squeeze in to that
+box but if I use the one that came with
+the kit the box is too small just
+something to think about
+I'm gonna let Scott a test X which know
+that these are coming printed at the
+wrong scaling you can see the border
+around the edge the one I printed with a
+100% has no border so if you get one
+with a border around it that's an alert
+and says hey this might be the wrong
+size anyway I don't want to belabor that
+but I think it's important to make sure
+that you get the right template all
+right so I'm gonna go ahead and cut out
+this square now that I'm confident it's
+the right size these holes here I'm
+going to save those for later and I'm
+just going to go straight with a
+spring-loaded Center punch to mark those
+it's going to fold this right on that
+line as straight as I can I'm gonna fold
+the bottom one
+right on that line as straight as I can
+all right now we're ready for the trim
+piece now obviously top is top bottom is
+bottom but make sure you know which is
+topping which is bottom on this again
+where that cutout square is is the top
+and then it does fit nicely right around
+there so that's what you're looking for
+and now what I want to do is Center this
+between these two so find a point of
+reference by golly I think I just nailed
+it perfect all right so I realize
+measuring the center between things
+sometimes gives people a little bit of
+consternation because it's challenging
+to figure out where you're measuring
+from - to where - and then how do you
+get it consistent on each side you know
+your your ability to identify that will
+make this more Center now to be fair you
+can spend as much or as little time as
+you want doing these little things
+here's a little trick I used for this
+one this is just a zip tie you'll see I
+ended up with a couple of marks on it
+this first one was my initial mark and
+then my final measurement mark was there
+and I'll show you why I'm also using the
+center punch just to sort of push in the
+top of the zip tie just to hold it in
+place and I'll show you where I'm doing
+that so you have these little slots here
+that appear to be equally placed in the
+two Sun Visor mounts so what I'm doing
+is I'm just putting the head of that zip
+tie into that little catch and then
+basically I'm just using this to hold it
+so it doesn't pop out as I pull it tight
+and then as I pull it across you can see
+where that mark hits right here on that
+hole right so that is my measurement for
+this side
+and then all I'm doing is I'm flipping
+the entire thing around and then pulling
+the measurement on this side and you can
+see I get the same alignment as it
+pertains to that hole all right so after
+I did that I just taped it down so I
+didn't lose the positioning making sure
+that you know everything is flat and
+then from there I'm going to just trace
+the thing I'm going to do is just take
+this hole punch here
+and put it in the center of that hole
+which will give me a nice identifier to
+drill all right now I can remove my
+template now to deal with this you can
+Dremel it or cut it I'm gonna cut it
+with a razor just because it's actually
+probably quicker and easier I'm on the
+outside of that line I made because
+that's where the edge of the paper was
+obviously you want to be careful here
+probably any mistake you made will be
+covered up so not super critical
+I just wouldn't accidentally shoot the
+razor knife across the entire face of
+this that might be bad and then you'd be
+sad a lot of things can go wrong and
+make people sad so let's just avoid that
+if we can right you can always cut more
+later but you can't cut less later so
+remember that all right so now that I've
+got my initial score done I brought off
+the big boy with a fresh blade all right
+there's the finished look and you can
+see still have this post which is going
+to help clip in alright you do your test
+fit do any additional trimming as
+necessary I think that's pretty darn
+good all right so these are 9/64
+inch holes and your kit you'll have
+these two little studs and we're going
+to thread those in too I'm gonna put a
+little dab of blue thread lock on there
+I'm okay if this is hard to remove all
+right now we can reinsert that and
+hopefully those holes will line up and
+they are but they're kind of hitting at
+an angle so they kind of want to go at
+an angle I drilled them straight in but
+the actual
+[Music]
+studs gonna enter at an angle like that
+so re drilling that okay now you've got
+these little nuts with the lock washer
+on there I'm not going to thread lock at
+this side all right boom there we go
+ready to go back in the Jeep so this guy
+they came through the firewall comes out
+here now normally it'd be trivial to
+sort of run this up and around I have a
+roll cage that I'm trying to avoid
+disassembling so it might take me a
+little extra work to figure this out but
+I will make a way all right finally got
+this figured out I was able to squeeze
+the coat hanger down back in here got
+down on the side I have just some yellow
+wire that's more pliable and easier to
+get up and then I have the actual wire
+I'm trying to to do so let's see if we
+can get this done
+all right so the yellow wires through I
+can get this coat hanger off so I don't
+scratch anything up
+[Applause]
+all right there we go now I can get this
+yellow wire out of the mix put that back
+in the tool box all right so now this is
+going to shoot up here and then go
+across and over to the switch housing so
+let me get that done this is something
+like 95% of you will never have to worry
+about because you will not have a cage
+in the way or you will be willing to
+remove this cage side piece but I was
+not willing to do that and I knew there
+would be a way to get this thing up so
+if you need that boom there you go
+you're welcome
+all right so now I can actually hang
+this bad boy back up where it goes they
+do give you some cable ties some zip
+ties which will help sort of tidy things
+up I might just go ahead and but this is
+just going to plug right into the switch
+panel
+think that got it boom nice and clean
+all right
+next all right so now that we have the
+switch housing installed in the interior
+now it's time to finish up the exterior
+so I'm going to run this power cable
+across to the battery and fuse box
+and then the last thing we have to do is
+actually add stuff to our outputs so
+anything that you connected to these
+output wires is going to get 12 volts
+whenever you flip the switch and there
+is one special wire here that I want to
+talk about so hopefully I don't forget
+but first I'm gonna run that over to
+that side of the Jeep and I'm going to
+do it by running it along existing
+wiring looms and you zip ties to secure
+it to the existing runs alright so I
+highly recommend that you don't connect
+this straight to the battery I would
+recommend you use a fuse or a resettable
+circuit breaker reasonably close to the
+battery and here's why if you connect
+this straight to the battery you've got
+a run of wire looks to be about maybe 10
+feet before you get into the fuse box
+now that Stech fuse box there that's
+going to protect all of the circuits
+that are coming off of that so all of
+those circuits are fused so from that
+point you're protected if there's a
+short in one of those wires that you
+have connected to that however if
+there's a short anywhere along this wire
+you're not protected to the battery so
+you get into a crash and your hood
+crumples up and cuts into this wire I
+mean it can really happen
+cuts into the wire you're now shorted to
+ground you have direct 12 volt battery
+power going from the battery straight
+into wherever you've shorted to ground
+let's say the hood in this case and all
+that's going to do is heat up and catch
+fire and burn your Jeep to the ground so
+the reason we put a fuse in there
+is so if that does happen when that
+shorts the ground it'll trip the fuse
+and protect you so you want to be as
+close to the battery with that fuse as
+possible
+you're only protected with the wiring
+after the fuse not before it so anyway
+highly recommend it you can get the fuse
+breakers I got this one this is a 60 amp
+I got it from s Tech when I ordered my
+kit and I believe it's going to be an
+option to include either this or an
+inline fuse like I have back here
+I like the resettable ones because you
+don't have to worry about keeping track
+of fuses if it blows for some reason
+first of all figure out why and then
+after that you can also reset it now
+where you mount this is going to be up
+to you that's sort of the challenge
+right is figuring out how to creatively
+get all this stuff packed in underneath
+the engine compartment but I like this
+one because it does have these little
+posts this has a nice terminated ring
+connection on it so it will bolt right
+over to this now the other question is
+how do I get from the battery to this
+and I'm using this guy right here this
+is a premade battery wire actually I got
+it at Lowe's it's for tractors
+so this whole kit with a red and a black
+pre-made wire with seven bucks so I just
+want the red one and I'm gonna go from
+the battery to the batt side of this
+they are labeled batt and aux and that's
+an important thing to know because this
+current flow is directional so you have
+to make sure you get it in the right
+direction so that it will trip the
+breaker properly so anyway I'm gonna
+install that wire and then also on the
+end of this there is a little pigtail
+that's going to go to your accessory
+circuit so the way this is set up from s
+Tech is that your switches won't have
+any power unless your keys on and it's
+this guy right here that tells your
+switch system that the accessory power
+is on when your keys on and then it will
+enable and activate all of your stuff so
+here's what we're gonna do it comes with
+a little pigtail add a fuse kit
+and this is an important thing I want to
+talk about as well because these fuses
+in here are directional so the place
+we're gonna plug in is actually kind of
+interesting its m9 there's a diagram
+right here it shows where it is and then
+says what it is m9 is right here and
+it's empty
+in probably all of your vehicles I'm
+gonna plug it in right there while I
+talk about it
+the reason it's empty is it's for your
+rear heated seats I'd be willing to bet
+most of you running jeeps don't have
+rear heated seats so that's gonna be
+empty the good thing about that is it
+turns on whenever you turn on your key
+so its accessory power now remember I
+said it's directional you need to make
+sure it points in that direction and
+previously I told you that there are
+updated instructions that you can get
+online from Stech switch comm and this
+is actually one of the updates is to
+make sure you know the directions that
+you're putting this in and the reason is
+is because the power is fed through one
+side and then is fused and then has the
+output side so there's the battery or
+the source and then there's the load if
+you put it in backwards you'll still get
+power accessory power when the keys on
+and off it just won't actually be a
+fused connection it will be unfused
+because it's bypassing the fuse so make
+sure you get it going the right
+direction and then I've previously used
+this as an output before my camera is
+it's connected in the same fashion
+actually pulled it out just to not
+confuse things but I have it right in
+here but this is a perfect place I just
+notched it actually use a little RTV
+sealant which now is a little bit old
+I'll probably refresh that to seal that
+and then you can close the fuse box
+right over it and then have the output
+coming out out of there so that's where
+we're going to connect that and then I'm
+gonna figure out where I'm gonna mount
+this bad boy and I don't show you want
+to come up with so I did wrap this with
+a wire loom tape it's now doesn't matter
+what color the wire was inside cuz you
+can't see anyway but I wrapped it to do
+a couple things give it some extra
+chafing protection but also make sure
+the ends of these terminals were covered
+because I wanted as little metal
+exposure as possible just reduces the
+opportunity for things to get shorted
+out now one other thing I did want to
+mention the end of this right so if you
+decide to use a different connector and
+cut off this ring terminal you're gonna
+find out something actually quite
+interesting this is not a single solid
+wire running through like you might
+expect this is actually six individual
+wires that feed individually those
+circuits in the Stech switch box and so
+if you cut this just know that you're
+gonna have to strip andrey criminal of
+wires and I talked to STX which about
+this and he said yeah it helps keep
+costs down
+thick wire is expensive and running
+multiple runs of the smaller gauge wire
+is allows it to be a lot more flexible a
+lot cheaper and and also he says it's
+more efficient run of electricity so hey
+it is what it is but I just want to let
+you know if you do cut this off you're
+not going to get just one big fat wire
+you're going to get a bunch of small
+wires that you need to return eight and
+I like to use a little bit of liquid
+electrical tape to just cover up these
+terminals so that there's no exposed
+metal out here because I'm going to
+strap this down to an existing wire loom
+and I just don't want any metal that if
+I can avoid it so some people love it
+some people hate it I like to use liquid
+electrical tape a lot for things like
+this so you can get this pretty much
+anywhere even like Walmart works great
+though you just got to let it dry
+alright remember I told you that there
+was something special in here you'll
+notice that five of the six of these
+look the same but this one is a little
+bit different so this actually can
+handle more power than the rest of these
+more amperage and there's a gray wire
+here that's a little bit thicker than
+all the others and it's sort of the
+bonus wire that whatever the most power
+drawing accessory you have as long as
+it's under 40 amps put it on the gray
+wire because it's actually got a
+different relay that can handle the
+additional amperage so that's just
+something I wanted to point out to you
+the other
+is a lot of people ask if this is
+waterproof water-resistant this design
+it's a it's designed to be in the hood
+of a vehicle it's not water proof but it
+is water resistant you can hit it with a
+you know power washer and you can you
+know get mud and crap all in here like
+you would normally the design is such
+that it prevents water from going up
+inside but the other thing to note is
+this isn't integrated circuitry this is
+old-school relays and fuses and if it
+gets wet it's not necessarily gonna hurt
+anything dry it off put it back together
+I mean that's sort of the nice thing
+about a non integrated circuit type
+system it's sort of the old-school thing
+just works if you have a circuit board
+that gets wet you might have some
+serious damage but with this thing you
+know once it dries out it's pretty much
+good to go again now there is some
+additional circuitry in here there's a
+relay for example that turns things on
+whenever the accessory powers on there's
+also a temperature sensor in here
+so if for some reason it gets way too
+hot and starts to overheat it will
+actually trip the circuit and shut
+everything down until the temperature
+drops so there is some additional safety
+features in here I'm not entirely aware
+of it's all down in here but I do know
+this with the lid on go out use your
+Jeep wash your engine compartment it
+won't matter this should not be bothered
+at all by it all right so I'm using the
+manual here to identify the colors that
+go with the different switches and then
+I'm looking at my switches to find out
+which wires I need to wire where so red
+on the ARB harness goes to the air
+compressor that's yellow because it's in
+switch position three for me the ARB
+air compressor yellow one is what I have
+going to the front locker and that's
+switch positions six so that's done and
+then the rear Locker is switch position
+four for me nope the rear Locker is
+switch
+position five for me see this is why
+you've got to verify and let me show you
+what I'm doing here by the way these are
+pretty small wires and these are pretty
+big connectors so rather than changing
+that up I'm gonna keep using the
+existing connectors but what I do is
+strip off a fairly significant amount
+and I just fold it in thirds that gives
+me a pretty big chunk to bite on to and
+then when I crimp it down it'll get a
+good seal and all fill these with liquid
+electrical tape before I tape it all
+over so let me go go double check green
+is rear air compressor Green is going to
+brown brown is switch position five
+looking in the Jeep now all right so
+it's position five is the rear Locker
+it's probably a good idea to test these
+things before you crimp them but feeling
+frisky today and you can see because I
+did that trifold it's got a pretty good
+bite on it all right the orange one is
+gonna be my new sway bar disconnect
+which I don't have a cylinder for and
+then white is gonna be my front LED
+green is going to be my rear LEDs now I
+do have this extra black wire coming out
+of my a RB harness and that is going to
+be a ground wire all right so before I
+terminate that ground and added it to
+the ground post I did want to double
+check and sure enough I've got
+continuity already to ground so in this
+harness for a RB it goes in and actually
+ties in to this ground
+back here a fatter ground and it's also
+feeding a ground to the individual Silla
+notes just fine
+yep so I don't need this to to build
+that ground connection so I'm just gonna
+fold it back tape it off and yeah don't
+to worry about that okay so I'm gonna go
+ahead and wrap this video on the install
+let me show you where I'm at right now
+before I bundle everything up so you can
+kind of see what I have going on it's
+already showed you wiring to the fuse
+box you can see where my circuit breaker
+is right there just zip tied to that
+wire bundle easy to access
+I guess side benefit if the hood smashes
+down it'll probably trip that breaker
+which is not a bad thing there is enough
+clearance with the hood close so some of
+you may be wondering about that I've
+already checked that out not a problem
+it's running along the back with my
+other bundle of wires and my airline and
+then comes over obviously into here as
+far as what I have going on with wiring
+there's still two that are empty one of
+them is my rear lights which I still
+have yet to run down where that feed is
+I may just end up running a new one the
+problem is my rear lights are fed right
+now from this and they're through the
+firewall and then down along to the
+backs so when I have a chance I'll try
+and figure out where it comes out of
+this and in figure out which wire that
+is and then and then splice in like that
+that's how I did the front light bar I
+figured out where it was cut that
+reasonably nearby extended it and they
+added it in the other one that's empty
+is my sway bar disconnect feed and
+that's going to be covered in the next
+video in the next video I'm doing the
+additional ARB solenoid installation of
+the air line and then adding in that to
+the switch so that I can activate that
+tto sway bar disconnect down there so
+that's why these two are empty so as you
+can see here I told you I was going to
+use a liquid electrical tape to seal
+those that's pretty common in marine
+electrical wiring so I like to do it
+just to keep everything from getting
+corroded with just moisture but then I'm
+going to take that and bundle it up by
+the way for those of you that don't know
+I do
+use this test the tape which is a
+specific wire loom tape for engine
+compartments and it works really well
+you can see all this black stuff on my
+hands that's from playing with
+electrical tape that has been under here
+that sort of disintegrates the glue so
+this behaves much better and as water
+resistance and abrasion protection so I
+highly recommend this little expensive
+but I've started to use that as you can
+see for all of my wiring if it's not
+loomed like this then I'm probably gonna
+put it in a test tape but let me show
+you how things work inside alright so
+sorry it's little dark in here I'm gonna
+go and turn the key on and you can see
+my lights light up I've got the blue
+lights for light bar rear lights air
+compressor red lights are sway bar
+disconnect rear diff and front diff I
+debated which direction to put these a
+lot of people tend to go most
+commonly-used
+closer to the driver and then push out
+that way so I ended up deciding that
+that was a decent approach so that's why
+rear is here and front is there
+previously I was thinking in my brain
+front should be on their left and then
+rear on the right but I think it makes
+more sense actually now that think about
+it that I'm more likely to go to these
+first and then that one so anyway just
+you know you can do what you want I do
+have the front light bar active so let
+me flip that switch boom light bar I do
+have the air compressor active but it's
+already charged so you can't tell
+anything let me see if I can get it to
+trigger the front and rear
+I was basically cycling it back and
+forth to suck some air out of the air
+compressor when you disengage the locker
+it vents out so basically I was going
+back and forth to trigger the air
+compressor to refill which is how I know
+everything is working fine so rear and
+you can hear it sort of hiss when I
+close it and there it is listen for the
+hiss I don't know if you hear that I can
+hear it anyway air compressor off and
+light bar off so I still have rear
+lights to work out and I still have to
+add a sway bar disconnect
+we'll be in the next video anyway guys
+thanks for watching I'll catch you on
+the next one
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]

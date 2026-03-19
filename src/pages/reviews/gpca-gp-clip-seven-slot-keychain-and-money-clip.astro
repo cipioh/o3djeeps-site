@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "GPCA GP Clip Seven Slot Keychain and Money Clip";
+export const description = "Explore the versatility of the GPCA GP Clip\u2014a keychain, money clip, and more for Jeep enthusiasts.";
+const youtubeId = "lW3doicp-VI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-07-16";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Reviews, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "GPCA"
+  },
+  {
+    "label": "Product",
+    "value": "GP Clip"
+  },
+  {
+    "label": "Use Case",
+    "value": "Everyday carry, key holder, money clip"
+  }
+];
+const externalLinks = [{"label": "The 7 Slot Jeep grill pattern with the GPCA signature triangle cut to complement the new 2018 JL, JK styling.", "url": "https://www.gpca.us/gp-jeep-keychain-money-clip/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The GPCA GP Clip is more than just a stylish accessory for your Jeep keys; it's a multifunctional piece designed for the modern adventurist. With its rugged design and practical applications, this clip seamlessly combines aesthetics with utility.</p><h2>What Stands Out</h2><p>One of the standout features of the GP Clip is its unique seven-slot Jeep grille pattern, which not only pays homage to the iconic Jeep brand but also adds a touch of flair to your everyday carry (EDC) collection. Made from stainless steel, it’s built to last, ensuring it can withstand the elements whether you’re on or off the road. The color options available—such as the classic black and a sleek Space Gray—allow for personal expression while maintaining a professional look.</p><h2>Design and Features</h2><p>The GP Clip boasts a compact design that is both functional and stylish. Measuring just the right size to fit comfortably on your belt or waistband, it's a versatile accessory that can serve multiple purposes:</p><ul><li><strong>Keychain:</strong> Securely holds your keys, allowing you to conveniently clip them to your belt or waistband, keeping them accessible yet out of your way.</li><li><strong>Money Clip:</strong> Utilize it to keep cash neatly organized, or to connect it to your wallet for a tidy and compact solution.</li><li><strong>Belt Clip:</strong> Easily attach it through the middle or on the side of your clothing, maximizing its utility based on your needs.</li></ul><h2>Real-World Use</h2><p>In real-world applications, the GP Clip proves its worth by helping keep your essentials organized during your outdoor activities or daily errands. Imagine going to the movies and having a double-decker recliner seat with limited space—the GP Clip allows you to efficiently clip your keys and wallet together so you won't misplace either item while enjoying your popcorn. Additionally, it serves a practical purpose in your Jeep; you can tuck your keys into Molle webbing provided by aftermarket seat covers, making it easy to access them whenever needed.</p><h2>Who This Is For</h2><p>This accessory is perfect for outdoor enthusiasts, Jeep owners, and anyone who appreciates functional design. If you find yourself constantly juggling multiple items like keys, cash, and cards, the GP Clip offers a streamlined way to keep everything together, reducing clutter and making sure you have what you need at hand.</p><h2>Key Takeaways</h2><p>The GPCA GP Clip is an excellent addition for anyone looking to enhance their everyday carry setup. Its durable construction, versatile design, and eye-catching aesthetic make it not only a practical tool but also a stylish accessory that complements the Jeep lifestyle. Whether you’re hitting the trails or just taking a drive, the GP Clip has you covered.</p>
+
+</article>
+
+</SiteLayout>

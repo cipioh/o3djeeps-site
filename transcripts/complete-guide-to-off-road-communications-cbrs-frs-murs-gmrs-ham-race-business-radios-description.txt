@@ -1,0 +1,26 @@
+This question comes up a lot: What radio should I get?  I realize this is a long video, but I made it to help educate folks on the options, both licensed and unlicensed, and what the boundaries are from a legal perspective. Nobody wants to hear these things, and nobody wants to talk about it. The FCC has regulations, and just because you can buy a radio on Amazon, or wherever, doesn't mean you are exempt for the rules.  Understand the rules, and then break them if you choose, but at least know where the boundaries are so you can intelligently accept the risks involved. 
+
+Here's the links for the radios mentioned:
+
+Cobra 75WXST - https://amzn.to/2NItpgd
+Uniden CMX560  - https://amzn.to/2Jdubyo
+Cobra MicroTalk - https://amzn.to/2zye3YG
+Midland - GXT1000VP4 - https://amzn.to/2JkxXGo
+Baofeng PoFung GT-3 - https://amzn.to/2NH4pG5
+Icom ID-5100A - https://amzn.to/2m904ii
+
+Here's where to find the information I shared:
+https://www.fcc.gov/wireless/bureau-divisions/mobility-division-wireless-telecommunications-bureau
+
+Here's where to search the FCC License Database:
+http://wireless2.fcc.gov/UlsApp/UlsSearch/searchAdvanced.jsp
+
+Here's where to obtain a GMRS license:
+https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp
+
+Here's where you can find a HAM testing location:
+http://www.arrl.org/find-an-amateur-radio-license-exam-session
+
+Here''s where you can practice for your HAM test, or learn what's required: https://hamstudy.org/
+
+🔔 Please CLICK THE BELL if you want to see my videos! 🔔

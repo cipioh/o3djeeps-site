@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "S-TECH Switch System Installation with a Ton of Tips for Jeep Wrangler JK";
+export const description = "Installation tips for the S-TECH Switch System in your Jeep Wrangler JK - challenges, insights, and easy steps.";
+const youtubeId = "4uIPBEkGKe0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-06-03";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "S-TECH"
+  },
+  {
+    "label": "Product",
+    "value": "Switch System"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep Wrangler JK modifications"
+  }
+];
+const externalLinks = [{"label": "I got it installed. This video is pretty long, but I decided to leave in all of the specific challenges I faced with my install, and tried to offer up many tips along the way. I hope you find them helpful!", "url": "https://stechswitch.com"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this article, we'll dive into the installation of the S-TECH Switch System for your Jeep Wrangler JK. This tutorial will cover various tips, challenges, and best practices to help enthusiasts get their Jeep set up with a reliable and aesthetically pleasing switch solution.</p><h2>What This Covers</h2><p>This article covers:</p><ul><li>Preparation and understanding of existing wiring</li><li>Installation steps for the S-TECH Switch System</li><li>Practical tips for dealing with challenges during installation</li><li>Final touches to ensure a professional look</li></ul><h2>Step-by-Step Breakdown</h2><p>Below is a detailed breakdown of the installation process for the S-TECH Switch System:</p><ol><li><strong>Gather Tools and Materials:</strong> Before starting, ensure you have essential tools like a screwdriver, wire cutters, soldering iron, and heat shrink tubing, as well as the S-TECH kit itself.</li><li><strong>Prep Your Jeep:</strong> Clear out the area where the switch panel and relay box will be installed. Take a moment to inspect and perhaps document your existing wiring, especially if you have other modifications, as this will help in reconnecting everything after working on it.</li><li><strong>Mount the Relay Box:</strong> Follow the installation manual closely. While the S-TECH instructions are generally solid, always be prepared for updates based on feedback. Don’t hesitate to adapt the installation method for a cleaner look if you find it necessary.</li><li><strong>Wire Management:</strong> As you install, make sure to manage wires meticulously. Use zip ties and electrical tape for organizing to prevent future headaches when troubleshooting.</li><li><strong>Install the Switch Housing:</strong> Use the provided template to mark and cut the mounting space for the switch panel carefully. Double-check the dimensions to avoid mistakes; nothing worse than a poorly fitting switch panel!</li><li><strong>Test Everything:</strong> Before finalizing any connections, it’s wise to test the functionality of each switch. This saves time and avoids reworking connections later.</li><li><strong>Final Touches:</strong> Once everything is tested and functional, ensure all wiring is neatly tucked away, and the area is clean. Add any stickers or additional aesthetic elements as desired!</li></ol><h2>Helpful Tips</h2><p>Here are some extra tips to enhance your installation experience:</p><ul><li><strong>Document Your Wiring:</strong> Taking pictures during disassembly helps keep track of where everything goes, especially with multiple modifications present.</li><li><strong>Patience is Key:</strong> Don’t rush through your installation. Doing it right the first time saves time later on.</li><li><strong>Utilize Resources:</strong> Online forums and communities can provide invaluable insights and troubleshooting advice for common issues you might encounter.</li></ul><h2>Key Takeaways</h2><p>The S-TECH Switch System provides an excellent solution for those looking to upgrade their Jeep's electrical control setup. With a bit of patience and attention to detail, installation can be straightforward, leading to a clean and functional result. Remember, always ensure safety first and enjoy the process of enhancing your vehicle!</p>
+
+</article>
+
+</SiteLayout>

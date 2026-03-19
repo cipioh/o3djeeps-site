@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Part Two - TTO Rubicon Swaybar - ARB Third Air Line and S-TECH Switch System Integration for Jeep JK";
+export const description = "Discover the TTO Rubicon sway bar and ARB integration process for optimal off-road adventures on Jeep JKs.";
+const youtubeId = "SR4mxnsB-vE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-06-09";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Team Tech Offroad"
+  },
+  {
+    "label": "Product",
+    "value": "Rubicon Swaybar with TTO Pneumatic Conversion Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road sway bar disconnecting system"
+  }
+];
+const externalLinks = [{"label": "Here's the info on the TTO conversion:", "url": "https://teamtechoffroad.com/products/rubicon-sway-bar-with-tto-pneumatic-conversion-kit"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this tutorial, we'll walk through the installation process of the Team Tech Offroad Rubicon sway bar and its integration with an ARB air system. With a focus on enhancing off-road performance, this setup allows you to disconnect your sway bar at the push of a button, making it an invaluable upgrade for Jeep JK owners.</p><h2>What This Covers</h2><p>This article covers the installation steps for the TTO sway bar system, including the necessary plumbing for pneumatic activation. Additionally, it shares tips on selecting the right fittings and wiring into your existing switch system for easy operation.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools and Parts</strong>: Before starting, ensure you have all necessary tools such as wrenches, Teflon thread sealant, and the correct ARB solenoids. Double-check that all components from Team Tech Offroad are included in your kit.</li><li><strong>Remove the Old Sway Bar</strong>: Disconnect your existing sway bar, being careful to retain any hardware that can be reused. Inspect any wear or damages to ensure a clean installation of the new sway bar.</li><li><strong>Install the TTO Sway Bar</strong>: Follow the included instructions to mount the new sway bar. It's crucial to align it properly for optimal performance.</li><li><strong>Set Up ARB Plumbing</strong>: Here, you'll be integrating the ARB air line which requires additional solenoids. A significant point to consider is the choice of fittings; using daisy-chain capable solenoids can simplify your setup as it reduces the number of necessary connection points.</li><li><strong>Wiring the S-Tech Switch</strong>: Wire the new sway bar's solenoid into the S-Tech switch system. This allows you to control the sway bar disconnect with ease. Make sure to maintain a secure grounding and ensure all connections are solid to avoid electrical faults.</li><li><strong>Testing the System</strong>: Once everything is installed and connected, it's time to test the system. Engage the sway bar disconnect through the switch, then check for leaks and verify that the sway bar can re-engage when level.</li></ol><h2>Helpful Tips</h2><ul><li>When dealing with pneumatic systems, always check for leaks after installation. A simple pressure test can save you from unexpected failures on the trail.</li><li>If you're unsure about fittings, consult the manufacturer's specifications and reach out to customer service for guidance.</li><li>Document your wiring scheme. This will save you time in future troubleshooting or upgrades.</li></ul><h2>Key Takeaways</h2><p>The Team Tech Offroad Rubicon sway bar coupled with ARB’s air system transforms your Jeep JK's off-road capabilities. This mod not only offers the convenience of disconnecting the sway bar at the touch of a button but also enhances overall vehicle stability and safety. Whether you're a seasoned off-roader or a newcomer, this integration is a worthy investment to consider for your build.</p>
+
+</article>
+
+</SiteLayout>

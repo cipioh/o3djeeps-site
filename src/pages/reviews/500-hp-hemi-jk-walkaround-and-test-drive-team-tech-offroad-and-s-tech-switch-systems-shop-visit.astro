@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "500 HP HEMI JK Walkaround and Test Drive -Team Tech Offroad and S-Tech Switch Systems Shop Visit";
+export const description = "Explore the 500 HP HEMI JK with unique mods and performance upgrades in this exciting Jeep walkaround and test drive.";
+const youtubeId = "iY10aIpZdXE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-06-22";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Gear"
+  },
+  {
+    "label": "Engine",
+    "value": "500 HP HEMI"
+  },
+  {
+    "label": "Torque",
+    "value": "540 ft-lbs"
+  },
+  {
+    "label": "Transmission",
+    "value": "Stock"
+  },
+  {
+    "label": "Suspension",
+    "value": "4-inch Long Arm Kit"
+  },
+  {
+    "label": "Tires",
+    "value": "37-inch"
+  }
+];
+const externalLinks = [{"label": "TTO-ROCKS saves 10% on this:", "url": "https://teamtechoffroad.com/products/tto-pneumatic-rubicon-sway-bar-disconnect-tto-rsbd"}, {"label": "O3D-SWAY-SHIP gets you free shipping on this:", "url": "https://teamtechoffroad.com/products/rubicon-sway-bar-with-tto-pneumatic-conversion-kit"}, {"label": "O3D-STECH-10 saves you 10% on this:", "url": "https://stechswitch.com/jeep-jk-system/"}, {"label": "O3D-STECH-10 saves you 10% on this:", "url": "https://teamtechoffroad.com/products/rubicon-sway-bar-with-tto-pneumatic-conversion-kit"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The 500 HP HEMI JK is an impressive blend of power and off-road capability. With modifications from Dakota Customs, this Jeep not only stands out aesthetically but delivers exceptional performance on and off the trails.</p><h2>What Stands Out</h2><p>This build uniquely combines a powerful 500 HP HEMI engine and a host of custom features that truly enhance the driving experience. The highlights include artisan craftsmanship, a sleek aesthetic with painted body armor, and a pneumatic sway bar disconnect that offers superior control in challenging off-road environments.</p><h2>Design and Features</h2><p>The Jeep’s design is both functional and eye-catching. Scott from Team Tech Offroad built this JKu with attention to detail:</p><ul><li><strong>Engine:</strong> A potent 500 HP HEMI paired with a Borla three-inch stainless steel exhaust enhances sound and performance.</li><li><strong>Suspension:</strong> Fitted with a 4-inch long arm kit and enhanced with Falcon 3.1 shocks, it provides excellent stability.</li><li><strong>Lighting:</strong> Under-body rock lights and a number of LED accessories ensure visibility during night drives.</li><li><strong>Pneumatics:</strong> The TTO rubicon sway bar disconnect system is smartly integrated, allowing drivers to switch between on-road and off-road settings effortlessly.</li></ul><h2>Real-World Use</h2><p>During the test drive in Colorado, the JK showcased its agility and robustness. The testing covered various terrains, highlighting the benefits of the TTO sway bar. Scott explained that it’s crucial to reconnect the sway bar when on the road to avoid handling issues. The Jeep performed admirably with an easy ride over bumps, thanks to its suspension setup.</p><h2>Who This Is For</h2><p>This build is perfect for enthusiasts seeking a capable off-road vehicle that doesn't compromise on performance and safety. Whether you’re an avid off-roader or someone who desires a powerful vehicle for daily commutes, this HEMI-equipped JK offers an exhilarating driving experience.</p><h2>Key Takeaways</h2><p>The 500 HP HEMI JK is a stellar example of what can be achieved through thoughtful modification and integration of the right components. This Jeep represents a commitment to both form and function, making it a standout in the off-road community. If you're contemplating similar upgrades, consider the options highlighted in this build, from the robust suspension to the innovative sway bar disconnect.</p>
+
+</article>
+
+</SiteLayout>

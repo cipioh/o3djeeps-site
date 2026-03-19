@@ -1,0 +1,825 @@
+everyone Scipio here in this video I'm
+gonna talk about communications Jeep
+off-roading communications I see it a
+lot and and I've seen it more and more
+particularly the spring for some reason
+but a lot of people are asking what
+radio should I get
+and the answers tend to be the same
+regardless of the forum I see the
+question asked and it's usually the
+person who's answering gives it the
+answer the response from their
+perspective from the radio that they use
+the people they hang out with the
+location that they live they provide a
+perspective oftentimes that
+recommendation is not a legal one so
+what I wanted to do is put together a
+video that talks about the licensed and
+unlicensed options for radio
+communications show you sort of the
+requirements the rules and then you can
+make a decision on whether or not you
+are willing to step outside those rules
+a lot of people do a lot of people will
+get a race radio throw it in their Jeep
+go talk to their buddies on the trail
+and will have zero problems or a baofeng
+ham radio and without a license go out
+run around and use it that doesn't make
+it right
+and so if you are new and you're asking
+the question what should I use I think
+that the responsible thing to do is tell
+you what the requirements and the rules
+are what your options are under those
+rules and requirements and then let you
+decide where you want to venture off
+into for example I think of it like
+window tint or oversized tires like a
+lot of us are running around with
+illegal tint and tires that extend past
+our fender that's illegal on the street
+we know that we accept that risk most of
+us are going to get away with it without
+a problem
+every once in a while one of us is gonna
+get hung up I myself had been pulled
+over specifically for window tint had to
+pull it off before go get reinfected put
+the window tint back on and now I'm
+reeling that risk but it's not fair to a
+new person to say do what I do which is
+illegal and and not tell them that they
+have to accept risk when they do that
+the biggest challenge as of
+late or the race radios right from PCI
+and rugged radios no offense to those
+companies but they sell radios that are
+pre-programmed with certain frequencies
+that it's not legal for me or you to use
+under most circumstances so I'll explain
+that here in a minute this is gonna be
+sort of a technical rules II video but I
+think it's important to at least let
+people know sort of what the options are
+and and where the boundaries are if you
+choose to step those boundaries that's
+up to you
+I will say this in in looking at doing a
+UHF VHF communication style video I
+actually contacted a ham radio reseller
+and was like hey you want to work with
+me we can you know help figure out how
+to best convey responsible radio usage
+to the off-roading community and they
+were like absolutely not we don't want
+to have anything to do with the
+off-roading community you know why
+because our name is mud because we are
+overstepping boundaries and rules and
+laws that other people work really hard
+to stay within and the off-roading
+community lately has a reputation for
+not caring disregarding so that's one of
+the reasons this video was here to help
+educate you on responsible radio
+communications you can decide how you
+want to pursue that I like tell you the
+things I use and under what
+circumstances I use them but the real
+answer the real answer for what radio
+should I use I would say start with the
+people you are going to go wheeling with
+and it depends where you live like east
+coast we're almost exclusively CB radio
+still west coast they've almost all
+transitioned to UHF VHF or the race
+radios legal or not that aside most
+people seem to be getting away from CB
+out there over here
+almost nobody has a UHF VHF radio if I
+want to go on a convoy or a wheeling
+event with my local group I've got to
+have a CB in the Jeep because that's how
+they're communicating so your first
+answer is always
+Who am I hanging out with and who do I
+want to communicate with and what do
+they use start there and then figure out
+what licensing or equipment you need to
+make that happen so anyway let's get
+into this like I said sorry it's gonna
+be a little bit technical but in between
+I'll try and break it up and I'll show
+you the actual radios that I have on
+hand that I use for my communications
+let's do it alright guys I'm going to
+break this down for you in a way that
+hopefully gives you a lot of information
+but also translates between like FCC
+legalese and technical speak into
+something that's understandable from a
+practical perspective so there are
+several realistic options for both
+licensed and unlicensed communications
+so I'm gonna go through these and and
+I'm gonna talk about them in some detail
+but I'm gonna use the FCC's website to
+show you the information I'm not gonna
+you know go reference Wikipedia or tell
+you what I heard from a friend who heard
+from a friend or talked about the common
+knowledge and I'm using air quotes there
+that a lot of people tend to push around
+I'm gonna start out by showing you the
+legalities what radios and what
+equipment are legal under what
+circumstances and then I'll talk a
+little bit about the practical use and
+how it's often used so first of all
+let's let's go through the list of
+things and like I said these are the
+most realistic options there are other
+communications options out there but
+these are the ones primarily that we
+would use as you know normal people
+communicating with other normal people
+and I use the term normal loosely anyway
+CB now known as CB RS by the FCC
+citizens band radio service and I'm just
+going to go through the list first and
+then I'll break down information about
+each one of these next is Family Radio
+Service FRS then multi-use radio service
+MERS the general mobile radio service
+gmrs then there's an amateur radio
+service which most people refer to as
+ham radios and then there's private land
+mobile radio services or the business
+frequencies which a lot of race radios
+use and and then finally there's
+cellular service so why would you use
+the cell phone over something else well
+it depends on your needs and a lot of
+places a cell phone works fine but the
+reality of it is in a lot of off-roading
+environments there is no cell service
+right so cell phones don't actually have
+signal to work the other thing is cell
+phone is sort of a one-to-one
+communication mechanism whereas via CB
+and all 10 of your your group are on the
+same CB channel you can all communicate
+with each other as a group it's kind of
+hard to do that with a cell phone that's
+some of the reasons why and then there's
+a you know a couple of other reasons for
+example you can monitor other people's
+communication so if there are other
+wheeling groups around you can listen in
+on what they're doing figure out where
+they're going where they're hung up at
+you can use that to better plan your
+strategy for where you want to go next
+or where you don't want to go if
+somebody has a call for help they may
+broadcast that out and you may be able
+to monitor that and hear that and in
+respond and perhaps help somebody so
+there's a lot of reasons why two-way
+radio communications become a great
+asset in the in the field all right so
+I'm taking you to the FCC website this
+is an FCC gov they have a pretty well
+laid out website to talk about these
+services so if you know where to find
+them and what you're looking for then
+then they have a lot of great
+information there so my job in this
+video is to sort of throw that
+information at you let you consume it
+and then if you have more questions you
+know where to go look so cvrs this is
+what most people use CB radios it's
+designed for private short distance
+voice communications there are a the
+usual channels if you look at the the
+data section here these are you know
+channel 1 through channel 40 that
+everybody's used to behind those
+channels or actual frequencies that are
+assigned a lot of people don't think
+about that but these are these are
+actually just frequency designations by
+the FCC and then we all know that
+channel 9 is reserved for emergency
+communications police departments
+Highway Patrol all
+sort of monitor 9 and the 19 tends to be
+the the trucker channel the highway
+channel although that's changed a lot I
+think over the years anyway so that's
+where we're at with CB there is no
+license requirement for CB anyone
+regardless of age can operate a CV
+station now there are some rules about
+the equipment but if you're not a
+foreign government you're not a
+representative of a foreign government
+and you haven't been previously shut
+down by the FCC you can use the CB radio
+which means any one of us can go into a
+truck stop or a Walmart or a Best Buy
+buy a CB radio and use it pick a channel
+that all your friends are on and use it
+and actually CBS are still quite common
+in a lot of areas I know more and more
+the off-roading community is
+transitioning over to UHF VHF because of
+increased range or reliability but a lot
+of people particularly in the East Coast
+I know a lot of the clubs and wheeling
+groups are still using CB because it's
+easily accessible by most people it has
+a decent range and yeah it it just works
+so there are some restrictions for
+example you can't mess with the output
+you can't transmit for more than five
+minutes continuously without at least
+letting somebody else get in remember
+these are shared channels you can have
+removable antennas you can put as big of
+an antenna you want but there are some
+structural antenna regulations you
+cannot put a amplifier in things like
+that and you can pick your own handle
+you don't have to use an FCC ID like in
+7c Pio
+you can be like hey I'm
+whiskey-tango-foxtrot and you know I'm
+calling out the Wild Eagle but that's
+what makes it so easy it's pretty much
+accessible it is shared so if somebody's
+using a channel that you wanted to use
+you guys have to figure out how to play
+it together so usually it's the person
+that was there first wins and the next
+person goes to a different channel but
+yeah I mean CB is for a reason the most
+popular usage all right guys so for CB
+communications I'm currently using this
+unit in WoW it doesn't even say I don't
+remember the model number I'll put it up
+on the screen here
+I actually did a review a real short
+review video on it and I really liked it
+it's discrete it's got a small mic and
+you know all the controls are here on
+the head unit the actual transceiver
+part the brain is installed back behind
+the glovebox so the only thing hanging
+out is this guy here I keep it hung
+right here next to my stereo on this
+Jeep unique CB hanger so for something
+like this you're gonna need to not only
+install the radio but also install a CB
+antenna I happen to have one on the
+front bumper a lot of people put it on
+the back tailgate or tire carrier you
+can get a handheld a CB radio which
+works fairly well cigarette lighter
+adapter for power where you can use
+batteries you can also add external
+antennas to those as well they're all
+about the same power and you get a
+decent antenna with a good installation
+they're all pretty much going to be
+usable that's what I use actually used
+to have this guy this was this is
+probably the most common CB radio in the
+Jeep's it's the 75 WX st from Cobra this
+one is very similar the head is quite a
+bit bigger that's because the actual
+transceiver like stuff the guts are in
+here and this which goes back underneath
+the glove box it's simply the the power
+and antenna connections but all the all
+the brains of the CB radio or right here
+whereas this one the brains are actually
+it's a bigger box I can't show you
+because it's installed and this is
+basically just the push-to-talk button
+and then your controls and display
+that's CB where I live everybody pretty
+much uses CB so regardless of what my
+other options are available to me in the
+Jeep
+I always have the CB now I don't run
+around with a CB on unless I'm out
+wheeling with people there's very little
+value to me of driving down the highway
+listening to truckers if I tried it it's
+just not exciting to me so the thing
+doesn't really get much use unless I'm
+using it with my group alright so now
+we're moving to Family Radio Service
+this is designed for family
+communications right so think small
+group closed environment a very limited
+range and very limited available
+frequencies to use and this is also a
+licensed free service it's licensed by
+rule a little different than license
+free but it basically means you don't
+have to have an individual license as
+long as you're following the rules so
+again this is easily accessible you can
+go into a Walmart and buy an FRS radio
+it's the little blister pack radios that
+you see they have some like I said
+limited channels and they're very
+limited in power requirements the other
+thing that's interesting is these are
+all shared also by gmrs
+which I'll talk about next so you can
+get currently you can buy FRS / gmrs
+radios I'll show you that here in a
+second moving forward those are no
+longer gonna be made because FRS you
+don't need a license for gmrs you do so
+it was getting confusing to people they
+go into I don't know REI and buy a FRS
+last gmrs radio and they don't know that
+some of the channels they can use
+without a license the others they do
+require a license so they split that out
+now so moving forward this is July of
+2018 moving forward you're gonna find
+harder and harder to get access to FRS /
+gmrs combined radios because they don't
+then allow them anymore
+alright so operation again is a very
+small range you're not allowed to have
+removable antennas there's pretty severe
+limitations on power but it's a great
+option for go people out hiking around
+it does work on the trail if you're like
+really close if you're in a small convoy
+I mean less than a half a mile right for
+4 FRS channels on the 500 milliwatts
+half a watt range so that's not very
+much to to use but you know if you're
+tailgating each other then yeah that's
+probably play
+so and then here's that little blurb
+about gmrs
+FRS dual service radios that basically
+as of 2017 they're no longer authorized
+so I'm not gonna get into too much into
+that but just know that FRS are those
+little blister packs just like this
+alright so these are little FRS radios
+so this is pretty much typical for what
+you'd expect to find in an FRS they're
+basically the booster pack radios you
+get them two in a plastic blister pack
+at Walmart or wherever you can get these
+pretty much anywhere these are Cobra
+micro tox I got these actually for a
+wheeling trip I went out with my buddy
+in Colorado and he didn't have a CB so
+this is an easy way to communicate with
+somebody because there's no license
+required for this so I can go buy a
+couple of these put them all on the same
+channel hand them out and we can all
+communicate and the range is limited but
+again when you're out wheeling with
+somebody you're usually not very far
+away anyway so this was a great option
+with no license requirements to be able
+to communicate you'll almost always find
+they're very small like this designed
+for hiking or backpacking or you know
+keeping track of your kids at the
+amusement park and that kind of stuff
+all right multi-use Radio Service this
+one is on the list but I don't think
+it's a real practical choice this is a
+licensed by rule which means you don't
+have to have a specific license as long
+as you follow the rules but the rules
+are you will use a transmitter that is
+certified by the FCC for use on these
+frequencies now there are only five
+merge channels and they actually have
+strange bandwidth requirements so I'm
+not going to get into this it's a little
+bit too technical for this audience but
+these are non-standard bandwidth
+allotments what I'll tell you about MERS
+is you basically are limited to two
+watts in power you've got a few miles of
+range you can use an external antenna
+which will get you ten miles or more of
+range your
+required to do station identification
+you don't have to say your callsign or
+anything like that but the problem is
+the transmitter must be certified by the
+FCC there's a very small number of
+transmitters that are actually out there
+and available to use for murrs a lot a
+lot of people have them so because of
+that it doesn't become a practical
+solution because not very many people
+have these transmitters so whereas
+everybody can go in and get a CB radio
+or a FRS radio or even to a degree a
+gmrs radio getting a Murs radio is a
+little bit more challenging they're just
+not very common so I actually don't have
+one of those to show you so yeah I am
+not using Murs radio service so that's
+that now general mobile radio service I
+think is probably the best option for
+people to communicate on the trailer in
+an off-road environment that wants some
+decent range but are willing to get a
+license let's talk about licensing and
+FCC license is required to operate the
+gmrs system it's a ten year license and
+you don't have to take a test
+it's basically a I don't know it's a red
+tape license it's it's a moneymaker
+anyway so all you have to do is go in
+and pay of seventy bucks at the FCC you
+have the license for ten years I have a
+gmrs license and I also have gmrs radios
+now gmrs radios I'll have a lot more
+opportunities let's talk about some of
+the the data you've got a lot of channel
+allocations remember some of them are
+shared with FRS and they have more
+traditional bandwidth allocations you
+can do handheld you can do mobile
+install so the other challenge with this
+is you have to use a type accepted radio
+from the FCC so there is a certification
+process and you need to use a radio to
+be legal that is certified so even
+though you can take a ham radio modify
+it to transmit on gmrs frequencies even
+if you have a gmrs
+license you're technically outside the
+confines of the rules which makes your
+license invalid so gmrs you buy a GM RS
+radio either a mobile or a handheld and
+then you can use that to talk to people
+on a variety of these channels and it
+works really well by the way your
+license I didn't mention this before you
+and your family members this kind of
+reminded me
+it's a family like so you and your
+immediate family can all share the same
+gmrs license so that's something to
+consider
+I think this unfortunately there is a
+license cost thankfully it's just a
+tenure you know 70 dollar cost but this
+is probably the most logical solution
+for licensed communications that is
+above and beyond what you can get with a
+CB you can get some significant range
+whereas with the the CB or limited a
+little bit less than that plus you have
+to share it with all the truckers all
+right this is a GM RS radio this is the
+midland GX t 1,000 p and this is both an
+FRS and gmrs it's got both channels
+remember I told you originally you could
+buy combined FRS gmrs radios that's
+going away this is one of the last ones
+I guess I picked this one out because it
+had really good reviews a really good
+range fairly decent power I'll put a
+link in the video description by the way
+for all of these so you can get a GM RS
+radio in a mobile install which I didn't
+really want to do because I have enough
+installed stuff and the handheld can
+communicate with the mobiles and yeah
+they are actually pretty decent radios
+with pretty decent range so I have two
+of these and I also have a GM RS license
+from the FCC so I can legally use this
+to communicate with anybody also using
+this same service so because I have two
+I can give one to my son now the GM RS
+license is usable by your immediate
+family members as well so I don't have
+to have a separate license for my son CJ
+I just give him a radio and then he and
+I can communicate legally when we're out
+and about plus we can communicate with
+other people who are also licensed to
+gmrs users now my ham radio can be
+programmed to receive
+gmrs signals so I can monitor gmrs
+frequencies with my ham radio which I'll
+talk about next
+I can also modify it to actually talk
+transmit on those frequencies now that's
+outside the parameters of the GM RS
+licensing because that is not a FCC type
+accepted or certified device and even
+though it meets all the technical
+requirements of GM RS communications
+including wattage limitations bandwidth
+all that stuff it still will never be at
+least under the current law it will
+never be permissible to use that to
+transmit to this even if I have a GM RS
+license and the reason is there's a
+little clause that says no amateur radio
+will be type accepted to operate on GM
+RS services the reason is these are
+wild-west right amateur radios have very
+little hardware rules so they don't want
+to try and figure out how to manage all
+of that they're like look get a GM RS
+type excepted radio you're good to go
+anything else yeah not so could I use
+that and never get caught because I'm
+doing it responsibly using the right
+power requirements and and I have a
+radio that's well designed and doesn't
+interfere I could totally use that all
+the time and nobody would probably ever
+know
+should I well that's a different
+discussion but I do have legitimate gmrs
+type accepted radios and I am a GM RS
+license holder so now we get into
+amateur radio service or ham radios
+let's go right into licensing this
+requires a amateur operator license from
+the FCC this requires a knowledge test
+there are several layers or levels of
+licensing there's technician general
+extra I'm a general class license holder
+and that gives me access to certain
+frequencies that I wouldn't have if I
+was just a technician class license but
+from everything that we're talking about
+a technician class license is just fine
+UHF VHF communications can be had with a
+technicians license so this is a little
+bit tough
+to get because you have to like I said
+go take a test there are volunteer
+examiner's you show up at a testing
+facility you take their tests you get
+you get a license from the FCC the cool
+thing about this is it basically grants
+you access to the amateur frequencies
+but with that said just because you have
+an amateur radio service license it
+doesn't mean you can now communicate on
+gmrs
+or MERS or FRS or CB for that matter
+using your fancy equipment now all of
+these have specific requirements so
+having an amateur radio service license
+is not a solve all problems now you can
+talk on anything you can talk more
+broadly on a lot of things but you still
+have to follow the rules of the other
+communication services so ham radio very
+popular the Bo fangs handhelds let me
+show you some of this stuff and and
+we'll talk a little bit more about that
+all right ham radios there's a lot of
+options here now I am a licensed amateur
+radio operator I have a general class
+license so I can go in and use this on
+the ham radio bands without any legal
+issues I can also illegally use this to
+transmit on business bands or gmrs bands
+or FRS bands so that is one of the pros
+and cons of this if you know what you're
+doing and you know where the boundaries
+are and you make a conscious decision to
+either step over those or stay within
+them this could be a really great radio
+for a very cheap price this is a bo fung
+gt3 there's probably better radios out
+there now I've had this for a couple
+years but it served me well and it is a
+great option for a budget ham radio now
+installed in the Jeep I have this guy
+and it has a remote head so I can sort
+of show it to you this is the icon ID
+5100 this is a powerful ham radio this
+is a UHF VHF it has a lot of features
+and capabilities most people will never
+need this is way overkill if you just
+want communications
+this or if you want to do a mobile UHF
+VHF there's a lot of great smaller
+options that are in the you know under
+$100 range or under $200 range this is a
+little bit more involved this is a
+digital d-star capable radio this is for
+somebody who's interested in amateur
+radio as a hobby right so I got into
+amateur radio before I even got into
+jeeping so amateur radio to me is a
+hobby in and of itself so I got a radio
+that has some really amazing
+capabilities and I'll talk about this in
+a separate video I've already done the
+install video on this if you haven't
+seen that but I like radio
+communications and amateur radio let me
+turn that off as a hobby so that's
+probably overkill for most of you but
+that is how I would communicate with
+people using UHF VHF and like I said I
+can convert that to communicate with
+gmrs and FRS if I choose to do so but
+really for ham radio a lot of people are
+gonna probably go these baofeng
+handhelds or some more budget minded
+mobile install if you're looking at just
+for off-road communications this is a 5
+watt radio the mobile installs tend to
+be about 50 watts or 25 watts generally
+so you can look at those options alright
+the last radio service I'm going to talk
+about is private land mobile radio
+services these are business radios these
+are the race radios you see advertised
+from a variety of places the frequency
+use is licensed for that company or
+business or entity that wants to use
+that frequency so whenever you want to
+go and and get a bit let's say you you
+run a plumbing business and you want to
+dispatch out your plumbers to your
+customers you want to use a radio
+communication service to do that or your
+a taxi service or whatever pick one your
+your business is going to obtain a
+license for a specific frequency in your
+area just geographically licensed and
+once you do that
+you're the authorized user of that
+frequency using radios that are type
+certified under FCC part 90 right so
+they meet certain requirements and in
+the radio is is certified by the FCC to
+be used on that frequency range and you
+have a license to use that frequency
+that's how that works
+now just because BF Goodrich goes and
+gets a license to use for their race
+operations and just because another
+vendor sells radios that have that
+frequency pre-programmed in the radio
+does not give you authorization to use
+their license even if they say we don't
+care if you use our license they don't
+have the authority first of all to allow
+you to use it on a non-party certified
+radio so there's certain radios you can
+you can look them up in an FCC database
+that are authorized to use that
+frequency they're do not have the
+authorization to allow you to use it in
+your geographical location so the same
+frequency that is allotted to BF
+Goodrich for race day in I don't know
+California might be used by your local
+government in Kansas and might be used
+by a plumbing company in Florida and
+might be used by a taxi service in New
+York because there are these things
+called frequency coordinators that help
+make sure that these licenses are sort
+of spread out with at least a twenty to
+forty mile distance between so that
+there's people not stepping on each
+other just because you get a radio that
+you have the ability to transmit and
+receive on a specific frequency doesn't
+give you the privilege to use it now do
+people do it yes they do it all the time
+are they gonna get caught I don't know
+but technically if you buy a race radio
+and you use any of those pre-programmed
+business band which are the private land
+mobile radio services frequencies and
+you're not doing it in the same
+geographic location with permission from
+the
+license holder for that location and
+you're not using a radio that is type
+accepted for that specific frequency
+range then technically you're in
+violation of law so look that's not what
+everybody wants to hear because everyone
+wants to hear go buy a race radio you
+can use all these IBF G's using it what
+about the you know blah blah blah blah
+look I get it I know people are doing it
+way in the thick offroading
+where there's nobody around you might
+not ever have a problem but just know
+that that frequency is shared by a lot
+of people let me let me demonstrate this
+for you first thing I want to do is race
+radio frequencies list let me pick
+alright so here's the weatherman
+frequency it's a pretty common race
+radio frequency one fifty one six two
+five so I'm just picking that randomly
+because that's the first one I saw I'm
+gonna come in here one fifty one six two
+five exact frequency I want only active
+frequencies and let's show a hundred
+matches search so 150 1.65 is a
+weatherman frequency it's sort of the
+the race like coordinator organizer it's
+where you go for help or whatever give
+these Baja races it's sort of the main
+frequency which by the way things that
+happen in Baja Mexico are outside the
+realm of the FCC rules all right same
+frequency
+all these are active status so we're
+looking at that first look at when they
+expire twenty twenty two two twenty
+three twenty one twenty five look at all
+the companies that are authorized to use
+this frequency by the way there are two
+thousand seven hundred and thirty-four
+authorized license holders for this
+frequency now we can take it a step
+further and
+let's look at the map alright so as you
+can see there is a significant
+geographical dispersement of licensed
+users businesses on this one specific
+frequency all across the United States
+the question you have to ask yourself is
+by using this where I live what's the
+probability of me stepping on somebody
+else's legitimately license to use and
+yeah so if you want to research that
+before you use I highly encourage it and
+the FCC has this great Universal
+licensing system search you can check
+out but I just wanted to sort of
+demonstrate this one I thought this was
+the best way to do it this isn't just a
+single frequency that has been allocated
+to the race radio use and you're good to
+go wherever you happen to use your race
+radio it really is licensed to a lot of
+people with a sense of coordinated
+geographical separation now as far as
+race radios I don't have one I was gonna
+start there and then I started doing
+some research figuring out where the
+boundaries were and where I wanted to be
+within them and I decided that's not
+where I wanted to go now if I start
+wheeling with people that are
+communicating on those frequencies then
+I'm gonna have to figure out how to do
+that I can do that with this but that
+wouldn't be legal for the FCC rules that
+we just sort of went through so again
+these are a lot of decisions that you're
+gonna have to make and risk that you're
+gonna have to accept but I currently do
+not own a business band radio a type 9
+the accepted business radio or or a race
+radio or anything like that could I
+program this and use it yes could I
+program this and use it yes so I'll make
+that decision when that time comes
+anyway guys that's it this is a lot of
+information probably well overwhelming
+for a lot of you may be really boring
+for most of you but my hopes is that
+those of you who are generally
+interested in learning what options are
+available that this provides that for
+you so anyway guys thanks for watching
+and I'll catch you on the next one
+[Music]

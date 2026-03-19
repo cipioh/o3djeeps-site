@@ -1,0 +1,303 @@
+hey everyone Scipio here and in this
+video I'm gonna finish up that install
+of the team Tec off-road sway bar system
+the disconnect system and I'm gonna tie
+it in to my s Tech switch system so what
+I need to do now is add some ARB
+plumbing and run the ARB air line and
+then attach that ARB solenoid so that I
+can use my switch to activate the
+disconnect and boom there we go so sway
+bar disconnect finish install right now
+[Music]
+alright as with most of my videos
+they're never as easy as I would like
+them to be because I've got to figure
+some things out I have this still loose
+from when I installed the Stech switch
+system so I'll have to find a final
+resting place for that in the meantime
+I've got my ARB solenoids for my front
+and rear lockers and I've got this hose
+fitting for airing up and down and what
+I want to do is add a third ARB solenoid
+for this way of our disconnect so I need
+to look at this and figure out what I
+need to do and honestly I have no idea
+here's what I do know I have parts and
+in particular one of these parts is an
+ARB tee fitting which should allow me to
+add an additional port basically so I've
+got two solenoids coming off I'm gonna
+replace one of them maybe with this and
+then and then I'll have a place to add
+two solenoids into one hole or maybe
+I'll add a solenoid into here this
+pressure switch I don't know I have to
+look at it so let me figure that out and
+then I'll tell you what I come up with
+alright here's what I came up with I
+have the wrong size tee fitting crap
+back to the drawing board so I was
+thinking to sleep a little bit big and
+it is because yeah so what the hey
+alright welcome back guys so I went hit
+the interwebs looking for
+1/8 inch bsp adapter for this and even
+went to a Arby's website looked at their
+fitting product lineup they don't have
+one and I was like what am I missing
+what am I doing wrong here so anyway I
+called ARB USA talked to the tech
+support super nice dude on the phone
+wish I could remember his name but
+anyway huge shout-out ARB top-notch
+customer support and he's like what we
+don't really sell one of those basically
+I think I could go get one from
+somewhere else but he said you can
+extend with a manifold and then add
+multiple off of a new manifold and he
+said or if you want to do a more
+expensive route we do sell new solenoids
+that have a pass through basically they
+can be daisy chained and you can use you
+can just stack Silla nodes and then add
+as many as you need to on there and they
+all have their own switching I'm like
+wait a second so I went and grabbed the
+solenoid I already have talked to him on
+the phone about it a little bit and lo
+and behold I have one of the new daisy
+chain able solenoids I was like can I
+just use this and then attach one of my
+existing still annoyed on to it and he's
+like yeah why why not why wouldn't that
+work so let me tell you the model number
+of this solenoid just so if this does
+work you have the information it's this
+one right here so so as you can see here
+it's got a two and two ones and
+basically these ones are your inputs so
+I'm gonna plug this into the manifold
+but this one is basically just got a cap
+on it and it'll pass through I need a
+allen wrench to open that up
+screw the other one the other one from
+the other one into that it will allow
+air to flow through to the second
+cylinder chain and stack them but I only
+need one because I can use it to plug in
+directly to the manifold and then daisy
+chain the second normal one off of it so
+super huge
+bonus so I don't need that t-fitting
+after all and this should be a much more
+compact design so anyway let's see if it
+works first thing I want to do is
+depressurize this system a little bit
+what I think I'm gonna do is plug that
+bad boy in right here daisy-chain this
+one off of it and it should work it
+should work great this one here is a
+little tight because of this coupler the
+way I have it so yeah I'm gonna I'm
+gonna do this one so if you don't know
+how to release these you can pull this
+plastic out and it should release your
+air hose there we go so now I'm gonna
+disconnect that this is the front Locker
+by the way I don't have them labeled but
+I can look and see where they run so I'm
+basically loosening up this manifold
+these are just 10 millimeter bolts
+there's these little bracket bolts and
+then there's this bolt that actually
+holds the manifold together like that so
+it's got a little o-ring on it on the
+outside
+don't lose that o-ring and then there's
+a little o-ring zin here so basically
+with this off I can better get to this
+guy here okay all right so with that off
+I'm going to go ahead and take this one
+off to and re pipe thread it I use a
+Teflon and use the paste the tape
+doesn't work as well in this it doesn't
+seal as well and you doesn't need this
+up a little bit
+all right that is in place you can do
+that there
+okay and that's ready now I taken this
+out
+I tend to overdo this teflon paste but I
+want a leak-proof seal I think like that
+is how that's going to go with my line
+coming off here shooting out that way so
+removing the plug crap it's always good
+to keep a magnetic tool grabber around
+for when you drop stuff except it's not
+magnetic it's always good to have a claw
+grabber around when the magnetic one
+doesn't work oh my gosh what is this
+always have to be so hard
+okay back at it
+all right now that I've got that done I
+can screw this daisy-chained into here
+look at that yeah trying to line things
+a little bit here okay so now I have
+three things coming off of here my two
+existing and then this one is the new
+one for the sway bar make sure when I
+ring is still in there and it is so
+that's gonna go like that
+oh ring still on this one that one's
+loose these other to get threaded in the
+bracket I'm super excited that I
+accidentally bought the new solenoid
+that can be daisy chained total bonus
+the wrong tee fitting well it was a
+small price to pay for a lesson learned
+that I can now share with you I want to
+get this adjusted where I want it I
+think I may have it tilted up a small
+amount no I think I'll leave it level
+where I had it before I think that'll be
+fine
+so looks like right about there
+okay now I need to plug these guys back
+in my locker hose and then the last
+thing I need to do is add this I know it
+has an o-ring I'm gonna put a little
+sealant on it anyway so this basically
+now I'm going to tap into the switch for
+the sway bar but before I do that let me
+go ahead and just pressure up the system
+to make sure that it holds pressure
+before I get too far
+all right key to the on position
+compressor on okay it seemed like it
+pressurized now the question is does it
+leak and the only way to know that is to
+leave it and see if it has to re
+pressurize so I'm gonna let this sit for
+probably 15 or so minutes and I'm gonna
+make you watch the entire time no not
+really I'm going to come back and let
+you know if it leaked or not all right
+so that thing's been going for over 15
+minutes and has not repress her eyes so
+that's a good thing so now what I'm
+gonna do is wire up to the switch now I
+don't have a female side of the
+connector for this that's like what I
+have on the harness but these are just
+Spade connectors so they're female so I
+do have male spades that will plug in
+there nicely so I need one to go to
+ground which is going to be we look at
+how the other one is the stem of the tee
+in this connector is the ground and then
+this one is going to be getting the feed
+from the switch which in this case is my
+orange wire so I actually had some
+leftover wire from a different project
+that I'm going to cut and use for my
+thing
+then I have a ground that I'm going to
+be able to use right here so I'm just
+gonna run that just like that so let's
+make that happen
+all right so let me go ahead and add
+that into here and just like before and
+if you don't know what I'm talking about
+you can watch the video before this
+where I wired in the STX which system
+I'm going to seal this with a little
+liquid electrical tape
+perfect
+nice having a nice crimper does help
+tremendously all right
+sealed that I'm just gonna leave that
+alone let it dry and then I'm going to
+work over here on this ground
+I like to hit those twice I don't know
+why all right
+there's that seal the end of this
+hopefully you can see what I have going
+on here I have my wire out of the switch
+that's gonna trigger and my ground and
+then now I need to do is while these are
+drying I will cut my airline and add
+that into the quick fitting all right
+here's airline I have leftover from my
+locker install alright so this is the
+team tech off-road pneumatic adapter for
+the Rubicon factory sway bar I did have
+to add in that ARB push fitting so same
+ways before use the teflon thread
+sealant and just cut the airline with a
+sharp razor nice nice sharp cut pushes
+in locks in I'll show you that on the
+upper side when I get to that and where
+I have it run is just up in through here
+I haven't zip-tied it or anything yet
+but I'm gonna run it around and then
+it's gonna plug in right here yeah let
+me finish this process and I'll test it
+real quick alright so I'm okay with a
+little bit of extra right now just a
+nice sharp cut I'm gonna go into the
+push fitting and then you just want to
+make sure you don't have too much of a
+radical Bend and what I'll do is zip tie
+this right here that should run along
+the inside of the hood fine
+yeah and I'll just secure it along here
+for now we'll see I may decide to run it
+through there but but let me test things
+first so I'm gonna go ahead and plug
+that into the positive that into the
+ground
+and let's see if it works
+so sway bar disconnect has been engaged
+yah Mon that's working so yeah what I
+need to do now is test the actual sway
+bar and probably the best way for me to
+do that since I'm not all super flexy
+right now is just pop this off
+all right oh look at that I'm gonna go
+turn off that sway bar okay it should
+now reconnect when it gets level oh and
+it reconnected well I'm loving this my
+guys it's working awesome super stoked
+so I did get it all sort of put back
+together I don't know if I like this
+line running right here or not although
+I like it because I can keep a good eye
+on it I can see it and it's secured not
+rubbing against anything it's not as
+pretty but anyway that is the install of
+the team tech off-road Rubicon sway bar
+actuator using the complete Rubicon
+replacement set that I got from them and
+also integrated with the S Tech switch
+system using the ARB air compressor to
+disconnect to the sway bar so yeah super
+happy I will say you know having not had
+a Rubicon previously I've never had the
+ability to just disconnect with the push
+of a button I know you Rubicon guys are
+spoiled you can do that but you can do
+that only on limited circumstances now
+that may not matter to anybody but
+that's cool to me anyway that's it guys
+I just wanted to say thanks for watching
+guys thanks for following me if you are
+thanks for
+subscribing if you are if you're not why
+aren't you till the next time I'll catch
+on the next one
+[Music]
+[Applause]
+[Music]

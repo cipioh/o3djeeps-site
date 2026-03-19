@@ -1,0 +1,401 @@
+everyone Scipio here in this video I'm
+gonna do a battery cable upgrade in the
+TJ so I have this kit specifically for
+our TJ that I got from custom battery
+cables comm they basically have these
+pre-made kits that make battery cable
+replacement pretty much foolproof so if
+you just look at the cables they even
+give you little labels about where
+everything goes so I went with these
+military or Universal terminals and I'll
+tell you why here in a second and then I
+also got some terminal covers for
+helmets well before I do this install
+let me tell you why I started looking at
+battery cables alright so very recently
+I did a video on electrical
+troubleshooting it turns out I had a
+ignition actuator that the end the pin
+broke off and the vehicle wouldn't start
+and during that process I was sort of
+looking through the entire electrical
+system looking for problems and I did
+run across this guy right here so if you
+look at this that can't be good so yes I
+can go ahead in and try and hey bug bug
+right there try and tighten that down
+but I started looking at it I'm like you
+know what these battery cables are
+pretty nasty there's a lot of corrosion
+there so I decided you know what it's
+probably a smart idea to go ahead and
+just upgrade so I'm upgrading the cables
+for the starter and the alternator and
+the fuse block and also the grounding
+cables and custom battery cables Comm
+had a nice plug-and-play sort of a kit
+so I went with the to gauge battery
+cable set everything is already pre-cut
+pre-terminated and as you can see
+labeled for easy install they also have
+a one on set if you really want to go
+with some thicker cables so that's
+unnecessary for this build but if you
+are someone who has a high electrical
+demand and you're running a lot of
+accessories maybe a high output
+alternator that might be the way to go
+but for most people the to gauge is
+going to be a pretty significant upgrade
+anyway so that's what I went with
+and yeah let's install so the first
+thing I'm going to do is go ahead and
+pull off the existing cables
+I want to show you how they compare with
+the new cable set all right so the first
+thing I'm going to do is remove this
+negative battery wire you always want to
+start with the negative because if you
+do anything like accidentally touch
+metal quite the worst that's gonna
+happen is you're gonna ground the ground
+so that doesn't hurt anything if I did
+that with the positive with the negative
+still there and I touch the hood for
+example I'm gonna create a short so
+always start with the negative once you
+have the negative done then you can deal
+with the positive and it's no longer
+grounded so there's no more risk in
+shorting the ground all right so I don't
+know anything about this battery but
+what I do know is it's holding voltage
+well so I'm not going to replace this
+but I'm going to keep an eye on it and I
+am gonna clean it up a little bit as I
+change out these cables next thing I'm
+gonna do is come in here remove this
+from the fuse block and that's going to
+be a significantly smaller size looks
+like maybe a 10 millimeter
+nailed it so from the factory this is a
+single basically connector that two
+cables go into but it's a single
+connector with two holes for these
+little posts in the upgraded battery kit
+you actually get two separate cables
+okay put that back there so I don't lose
+it alright next I'm going to remove this
+alternator cable this is a 13 millimeter
+okay and then now I have two grounds of
+this ground here that ties into the
+bundle and I don't know if you can see
+in here but that also goes to the engine
+block right here so I'm gonna undo that
+and then lastly I'm gonna pull that main
+red lead from the starter so and yeah
+grabbing the ratchet for this one
+now when you remove the ground to the
+engine block there's also another ground
+wire that comes out of a harness that
+plugs into that same bolt so make sure
+that you leave that other one in place
+or at least don't forget to put it back
+but I'm gonna put it back right now so I
+don't lose it and that one here on the
+firewall is a 15 millimeter and one more
+and that's the starter lug and I'm gonna
+do that and that's a rusty 13 millimeter
+so now I've got all of those connections
+undone this entire assembly comes out as
+one unit just like that so this is what
+we're replacing this weird sort of
+Medusa cable bundle and now I'm going to
+show you what we're replacing it with
+and put them side-by-side so you can see
+the difference alright so here's the
+relatively unlooted factory wiring now
+let me drop the custom battery cables to
+gauge wire and next to it alright so
+there we go
+so first let's talk about the alternator
+cable with the fusible link I'll explain
+that here in a second some of you may be
+wondering what that is
+so this is a four gauge for this to the
+alternator which is significantly
+thicker than what was there before if
+you look at the main this is the wire
+that goes to the alternator in
+comparison to this
+that's much thicker this is to gauge
+compared to I don't even know what gauge
+from the factory but yeah big difference
+in thickness there same thing with the
+grounds so your main ground wire in
+comparison to the ground wires here it's
+almost twice the size this two gauges so
+anyway that is the fundamental
+difference as far as links go oh by the
+way the starter also comes with this
+protective boot for the starter lug so
+just looking at the overall length looks
+like it's just maybe four inches longer
+to the starter then the factory gives
+you a little extra length let's look at
+to the alternator so the alternator to
+the fuse block looks also to be about
+hmm maybe three inches longer than the
+factory so I've seen a trend here you
+get a little extra length to play with
+the main grounding yeah a couple inches
+longer on both ends of that actually the
+shorter one is about about the same but
+yeah so you shouldn't be hurting for
+length so let's talk about this the
+fusible link because some of you may not
+know what that is
+so the fusible link is sort of an inline
+version of a fuse like what would be in
+your fuse box
+it's a significantly
+intentionally smaller diameter smaller
+gauge wire that if there was ever a
+short and this thing was too to start
+pulling a lot of power a lot of amps
+this thinner wire is designed to break
+first it's designed to burn up and
+basically disconnect this from whatever
+the power source is so fusible link is
+simply a think of it as an inline fuse
+it's designed to fail before this so
+that's why that's there and you have one
+from your alternator to your fuse block
+and you probably don't even know it all
+right so I told you I would talk to you
+about these military style or universal
+style connectors the cool thing about
+these is you can basically just add
+whatever wires you need to this post and
+then lock it down so we've got a couple
+of wires feeding into this and we're
+just gonna set them in there lock them
+down if we want to add any additional
+accessory wiring let's say we're gonna
+run a winch or a you know a light relay
+or something like that we can go just
+add more to these posts without
+compromising the connection to the
+battery so that's pretty cool and also
+you don't have to rely on crimping
+necessarily these big likes multiple
+wires into one terminal you can just put
+them on there so if you ever have to
+make a change you can independently
+change them maneuver them move them you
+don't have to do it as a bundle of two
+like what came with the factory alright
+so I'm gonna go ahead and start running
+these wires and just see how things go
+I'm going in no particular order or
+other than what makes sense to me so
+you'll notice on this alternator wire
+one of them has a ninety degree Bend and
+one of them has the fusible link now on
+the factory wire the side with the
+fusible link has the ninety degree Bend
+and you would put that on the fuse block
+side on this wire it's going to be
+different this one is going to go on the
+fuse box aside and the fusible link is
+going to go on to the alternator side
+and the reason is and I called to find
+out is because depending on which year
+you have
+which alternator you have you might need
+a smaller lug there for that connection
+so the fusible link side is a smaller
+gauge it's an 8 gauge wire so it allows
+you to have a smaller lug which will fit
+better with pretty much all of the
+alternator versions now a fusible link
+is going to break regardless of whether
+it's here or here it's designed to stop
+the flow of current so it will still do
+that job all right I like that
+now the other end of this is going to be
+routed around and going to connect right
+into here now one thing I can see that
+I'm gonna want to do there's these
+little cutouts here I'm going to Dremel
+those down to make more room so yeah
+your your retainer on this box at these
+sides this doesn't really do anything to
+retain so I'm gonna Dremel that down and
+sort of clean that up a little bit to
+make some room for these larger wires
+[Music]
+all right so you can see from the this
+is from the firewall side I cut down
+that box to give some relief there so
+these connectors can come down and sit
+as flat as possible and by the way this
+cover still comes down and captures
+those nicely so I'm gonna go ahead and
+tighten that one down okay all right so
+these two wires are bundled together it
+says battery to starter and battery
+positive and basically what this is is
+the other end of this that's going to go
+here to the fuse block and then to the
+battery post and this end is going to
+run down to the starters alright so
+we'll take this smaller one go ahead and
+fit it into place here I'm just going to
+adjust the angle of the dangle a little
+bit there we go alright so that's those
+two connections on that fuse block which
+replace this guy here alright so now I'm
+going to go ahead and feed this one down
+a little bit to get to that starter gets
+a good look there at that new starter
+cable going into the starter solenoid
+and then run it up I am gonna clean up
+the top of this battery a little bit
+alright so we basically done the three
+positive wires you have your wire from
+your alternator with your fusible link
+that comes over here then you have your
+wire that goes straight to your battery
+post which is this little short guy here
+and then you have your wire that goes to
+the starter which is this fatty and
+we'll put the terminals on here after I
+run the
+negative leads but we're done with the
+three positives and we just have these
+two negatives and basically both of
+these are going to go to the battery and
+and on the other end the short one's
+going to go to the engine block and the
+long one is going to go to the firewall
+grounding post right up there
+all right so starting with the grounding
+post and basically following the same
+route that the originals took but I'm
+not using a wire loom I'm just basically
+running them bare for now so that is
+there and then next is going to be the
+one that goes to the block this is a fat
+one and remember there was another wire
+already here just gonna leave that in
+place alright so now I'm going to
+install these terminals here's a fun
+fact for you I bet some of you didn't
+know that the post on your battery for
+your negative terminal is smaller than
+the one for your positive terminal there
+are actually different sizes and so it's
+designed to keep you from accidentally
+getting them mixed up but the terminals
+that came with the kit are labeled with
+a black and a red so you know which is
+which
+but if you try and put the black on to
+the positive you'll see it doesn't fit
+the red one does however because that's
+the right size and the black one would
+obviously go on the negative terminal
+now before I put these on I'm going to
+add these terminal protectors that came
+in the kit so I've seen a lot of
+interesting discussion about terminal
+protectors and whether or not they have
+value or not whether or not they protect
+against corrosion or not but what I've
+learned is the seal here
+at the battery post to the plastic is
+not perfect so what this does is it
+helps protect against the gases that
+come up and cause of the corrosion here
+so that's why those are there and I
+recommend you use them oh and another
+fun fact they're these have sides right
+so in this case they help you out by
+telling you which side is up by putting
+the marker for the red or black but the
+the posts are tapered they get smaller
+at the top it's so do these terminal
+ends and so if you put them on correctly
+they'll only go on one way if you try
+and put it on and it won't go in here
+let me just show you like see that's
+wrong because the taper is backwards
+that is right now you want to be kind of
+gentle on these don't take a hammer and
+beat on them again the seal between the
+plastic and the post is probably one of
+the weakest parts of the battery so
+treat that with care and your battery
+will hopefully be nice to you in return
+I always work on the positive first get
+that done and those connections and then
+do the negative last there's no hard and
+fast rule as to the angles of these so
+these covers can work in either
+direction and as you can see here I've
+got this one can't it add a little bit
+of an angle pointing back this way and
+that's okay you want to make sure those
+are nice and secure all right so now I'm
+gonna add my positive lines and before I
+do that I'm gonna slip this cover on so
+what you're seeing here is the value of
+using these military-style battery
+terminals in the fact that you can
+easily just connect whatever wires you
+need or if you need to add in new wires
+just take off this lock nut add your
+wires
+and then retighten so that's a pretty
+nice and secure connection so the other
+really cool thing about this is this
+bolt I'm tightening up which you can see
+here that's just a standard 3/8 inch
+bolt so if you need more length out of
+this say you've got more things to
+connect you can just replace this with a
+longer bolt all right so now you get a
+good look at the positive battery
+connection so one thing they do stress
+by the way that I forgot to cover on the
+positive side
+let's see remember I told you this bolt
+is just a standard 3/8 inch bolt you do
+need to tighten this down first
+that is not tightened when it shipped so
+make sure you tighten that down before
+you add your battery cables
+this is a 9/16 inch wrench by the way
+that I'm using for this and there we go
+ain't it pretty all right so what I'll
+do now is just go through and take a
+look at those wires and see if it makes
+sense anywhere to bundle them or zip tie
+them together I'm not gonna real um them
+I don't really feel like it's necessary
+but I am going to to look at places
+where they can bunch together and put
+some zip ties just to keep them from
+moving around too much but that's really
+it that is rewiring the battery cables
+in a 2004 Jeep a TJ wrangler and it was
+that easy so thanks custom battery
+cables calm for making this a pretty
+easy job anyway guys so go check them
+out and thanks for watching I'll catch
+you on the next one
+[Music]
+[Applause]
+[Music]

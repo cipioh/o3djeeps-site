@@ -1,0 +1,195 @@
+hey there Scipio here and I'm out with
+the TJ and as you can see it's in a
+state of disarray so it left us stranded
+a about an hour away from home last
+night in the dark in the rain
+[Music]
+[Applause]
+didn't have the tools time to mess with
+it and yeah it started pouring on us
+when I was in the parking lot at Target
+so had it towed back to the house and
+this is my first opportunity to look at
+it and try and do some quick
+troubleshooting having a multimeter
+really helps in this case as does just
+having some tools but let me show you
+what I've come up with so far I think
+I've got it figured out but let me show
+you the basic troubleshooting of what
+I'm going through in case this happens
+to you all right first the the problem
+statement basically that won't start
+everything lights up like it wants to
+start it just won't crank no click
+anything did try jump-starting it in the
+parking lot just to see that didn't work
+I did try shorting the starter that
+should have worked because it works now
+but again it was dark and it was wet and
+I might have been struggling to get in
+there and do that so let me show you a
+couple things number one there is a
+relay right here forward the starter and
+actually called a buddy of mine
+shoutout to Reed he drives a TJ and it's
+pretty good at this stuff so just
+quickly asked him what he what he would
+recommend he recommended I swap a couple
+of relays just to make sure that one of
+the relays is and go bad he's had a
+relay go bad like a center pin so
+several of these relays are identical so
+I just swapped them to see if that made
+a difference did not make a difference
+keeping in mind at the target parking
+lot I did not have a multimeter so my
+ability to assess what's going on is
+already limited matter of fact I didn't
+I bought a hammer to see if that would
+help alright so in here in the fuse box
+behind the glovebox there is in this
+lower right hand corner fuse position
+number 20 you can put a fuse in there
+and it will basically bypass the clutch
+safety switch I took this fuse and just
+put it down here see that made a
+difference it did not make a difference
+so really that's where I got stuck I did
+check there is a fuse which one is it
+this one here is a 30 amp starter fuse I
+checked that outside of that I'm like I
+don't know cables good although this is
+pretty sketchy I'm gonna mess with it
+right now I'm replacing these different
+video but after getting into this I'm
+just gonna replace all of this battery
+wiring but I get home tonight have a
+little bit of time before the Sun Goes
+Down - - check this out
+also have a multimeter which is helpful
+battery voltage is good voltage in all
+the places are good even including the
+the main battery wire - the starter
+solenoid let me see if I can get you a
+shot down in there alright it's kind of
+hard to see but down there is the
+starter solenoid and you can see two
+posts with cables on them the one on the
+left side of the screen is the feed
+straight from the battery that is
+getting 12 volts the one on the right is
+the line that goes to the starter and
+then what you see above it it's kind of
+hard to see this thing right here that
+isn't is a Spade connection that I have
+currently unplugged there's a wire that
+goes in there and it's this wire and
+that is the starter control wire that
+wire comes from your ignition switch and
+when you turn the key that wire sends 12
+volt power which then will push out the
+gear for the starter those other two
+posts basically become connected as well
+which speeds battery power to your
+starter so did some testing there and
+what I tried interesting enough and I
+can demonstrate this for you because I
+have it all pulled off all right so the
+Jeep still in neutral basically what I
+did is I just made a little quick wire
+that
+we'll go on to that Spade and I plugged
+it into there so now I have that plugged
+into there basically creating my own
+starter control wire and and the other
+end of that wire is just bare now if I
+touch this to the positive side of the
+battery if everything is working good it
+should crank and it does now what that
+tells me is my starter is good my
+battery voltage is good my relay is good
+my fuse is good all that stuff is good
+so why does it not turn with the key
+all right using that same test wire this
+time I put a male side on and I'm gonna
+plug that into the wire from the
+ignition so now I'm tapped into that
+starter control wire and what I want to
+do is connect that one end to my
+multimeter just like that and then the
+other end I can connect to a ground and
+then what should happen is when I turn
+the key as if I'm gonna start the
+vehicle that wire should send 12 volts
+something tells me it's not which is why
+the starter is not cranking okay so I
+just turned the key and yeah nothing
+happened so that means I am running into
+an issue with the ignition sending power
+to that wire all right so that leaves me
+just to double check because I'm not
+exactly sure where this fits into the
+circuit this is the clutch safety switch
+wiring so I disconnected it I just want
+to check and make sure that that switch
+is working like I said I'm not entirely
+sure how this fits into the scheme of
+things so I have my multimeter set for
+continuity
+so when I push the clutch pedal as you
+can see I'm getting continuity there or
+at least you can hear so my clutch
+safety switch is working so it leads me
+to one last thing which is what I
+suspected at the parking lot and that is
+inside this ignition is a actuator pen
+that is known to break and it doesn't
+actually activate that starter control
+wire that's that pin I guess that you
+turned we turn the key that makes that
+connection so I'm gonna pull this off
+and see if that's actually broken and my
+bet is it's gonna be alright so I'm
+gonna go ahead and replace this but
+before I do I'll show you what I'm doing
+so I pulled off the steering column
+cover there's just a couple of standard
+Phillips head screws holding in that and
+then I removed this and I'll show you
+why here in a second there's basically
+two torques these are T 15s that hold
+that on you don't have to remove the
+whole thing you just need to be able to
+lift it up to get to this ignition
+switch here so this is your your
+cylinder for your locked is where your
+key goes into your actuator pen for the
+ignition is underneath here and then
+your actual ignition switches underneath
+here so the pin assembly is sandwiched
+in between these two so we have to
+remove those to get to that I went ahead
+and also bought a new replacement
+ignition switch since I've got to take
+it apart anyway may as well just replace
+that it was only like 17 bucks so
+alright so here's that actuator pen and
+ignition switch assembly in order to
+pull this out it's basically just
+clipped in and I think the easiest thing
+to do is just apply a little pressure
+and work it out and boom Oh check it out
+so yes this was definitely my problem
+because this is broken here's the
+piece that broke off or even know where
+that goes oh just like that
+so this is broken so that's why when you
+turn the key it's not triggering the
+ignition which would then engage that
+starter control wire that we tested
+earlier that wasn't getting any power so
+yeah there we go
+[Music]
+[Applause]
+[Music]

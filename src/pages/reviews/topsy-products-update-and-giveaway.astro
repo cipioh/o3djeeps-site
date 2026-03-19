@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Topsy Products Update and Giveaway";
+export const description = "Get the latest on Topsy Products' upgrades and enter to win a giveaway! Discover the improved Stack, Rack, and Roll for Jeep doors.";
+const youtubeId = "RP8eNdi2nYo";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-07-03";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Topsy Products"
+  },
+  {
+    "label": "Product",
+    "value": "Stack, Rack, and Roll"
+  },
+  {
+    "label": "Use Case",
+    "value": "Door storage for Jeep"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In today's discussion, we're diving into some exciting updates on the <strong>Topsy Products Stack, Rack, and Roll</strong>. If you've been following our journey, you know we previously reviewed this innovative product designed for Jeep door storage.</p><p>In the initial review, I highlighted a minor issue with the nylon bushings that held the doors in place. Thankfully, the owner of Topsy Products, Eric, not only watched that video but proactively tackled the problem. This dedication to customer satisfaction exemplifies the kind of quality and service that we enthusiasts truly appreciate.</p><h2>Main Points</h2><p>First and foremost, let's talk about what Eric has done to resolve the nylon bushing issue. Instead of relying solely on adhesive, he has introduced <strong>retainer washers</strong>. These compact solutions effectively keep the bushings intact, ensuring that your doors remain securely stored without the inconvenience of dislodged parts. If you purchased the Stack, Rack, and Roll recently, you can rest easy knowing that you won't face this issue—Topsy has addressed it directly in the latest production run.</p><p>Moreover, I want to emphasize how beneficial this product is for Jeep owners. The Stack, Rack, and Roll not only simplifies the process of taking off your doors but also provides a safe and efficient storage solution. This means you can enjoy your open-top adventures without having to worry about where to put your heavy doors when they're not in use.</p><h2>Practical Implications</h2><p>For those venturing into the world of Jeep modifications and off-road adventures, having reliable equipment is vital. The Topsy Stack, Rack, and Roll is designed with practicality in mind. It mounts conveniently onto an engine stand, making it portable and easy to use in a garage setting.</p><p>Interestingly, after Eric's thoughtful updates, I used the product once again, and the installation process was seamless. With the new retainer washers, I felt a renewed confidence in the storage method. It's smart improvements like these that can make all the difference for Jeep enthusiasts who value both function and reliability in their gear.</p><h2>Key Takeaways</h2><p>1. <strong>Proactive Customer Service</strong>: Topsy Products’ response to feedback showcases their commitment to improvement and customer satisfaction.</p><p>2. <strong>Innovative Solutions</strong>: The introduction of retainer washers to fix the bushing issue demonstrates practical innovation.</p><p>3. <strong>Functional Design</strong>: The Stack, Rack, and Roll continues to be an invaluable tool for Jeep owners looking to manage their doors with ease.</p><p>Don’t forget—if you're watching this discussion, you're also in for a chance to win a Topsy Products t-shirt! Enter by commenting with your location and what you drive, and you could be selected to receive this cool giveaway at the end of the month.</p><p>In conclusion, the Topsy Products Stack, Rack, and Roll remains a top recommendation for Jeep doors storage. With its thoughtful design updates and Eric's dedication to enhancing user experience, this product is worth checking out if you haven't already. Thank you for joining me in this update, and I can't wait to see how you enter the giveaway!</p>
+
+</article>
+
+</SiteLayout>

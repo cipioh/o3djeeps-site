@@ -1,0 +1,404 @@
+hey everyone Scipio here and in this
+video I'm changing my stereo that's
+right if you've seen my channel before
+you know that I did a very involved
+installation series on the SE cane 10.1
+inch Android head unit into my Jeep
+overclocked today I'm changing it but
+I'm changing it to another second yeah
+so basically they have a newer version
+that has a better processor more memory
+and an upgraded Android OS and so I'm
+going to take the plunge
+and swap it out for the new one I've
+actually had this in my garage for a
+little while but I've been working on
+some other projects so now it's time to
+finally get this thing out of the garage
+and install it and see what I think I
+will tell you I'm a little bit nervous
+right there have been some changes so
+first of all every radio that comes out
+of the factory in China seems to be
+different so even though I installed the
+specific sake a model that I did before
+other people were buying it and
+reporting different things so I
+different wiring different features
+things look different they keep changing
+things up all the time SD card in the
+back SD card on the side so everyone is
+different now I've got this new radio
+this is the h2o 1g by the way you can
+still use my same discount code still
+works it's a 3d jeeps all capital
+letters if you want to go to second calm
+and and pick one of these things up save
+yourself some money but so this radio is
+newer but has some things that are
+different and a lot of people are
+reporting the factory sub doesn't work
+particularly in the same way like mine
+was plug and play I was pretty happy
+with the original say Kane install I'm
+told that people who are installing this
+newer version it's just not the subs not
+working and the wiring is different and
+doesn't give you the same options for
+connecting sub wires so let me show you
+the two radios side-by-side and I'll try
+and explain but
+I'm gonna change up the install instead
+of just installing it the way it comes
+out of the box I'm gonna use a pack
+that's an interface designed to to let
+your vehicle work with any aftermarket
+radio so it's pretty common for
+installing aftermarket radios the second
+has come with its own sort of canned bus
+adapter system but that doesn't seem to
+be working so I'm just going to go ahead
+and install this with a different unit
+that I've had on hand for quite a while
+actually I've never used it so now's the
+time so let me show you these two radios
+side-by-side show you the differences I
+can see at least just visually
+inspecting and then and then I'll wire
+this thing up and we'll throw it in the
+Jeep alright so this is the original
+version I installed that I just pulled
+out of the Jeep a few minutes ago this
+is the new version so yeah so this one
+was Android 7.1 two gigs of RAM and a
+quad core processor this one is an
+octa-core processor four gigs of RAM and
+Android eight so that's why I decided to
+upgrade its should be quite a bit more
+power this one never gave me any
+troubles I really really enjoyed it
+actually a lot but it would slow down
+from time to time or I would say it was
+slow from time to time for example
+opening up maps or google play music
+sometimes it would take a little while
+to load that stuff up once it all got
+loaded it ran fine very rarely had any
+issues I'm curious if the octa-core
+processor with the double of the RAM
+makes those things a little bit snappier
+so sometimes what I'm urging Lee trying
+to like plug in navigation information
+it does suck to have to wait for the
+interface to load up before you can
+start searching so I'm hoping that that
+gets resolved but they've changed a lot
+between the two so this one has an SD
+card slot this one has no SD card slot
+this one does come with like several USB
+connectors this one only had one it
+looks like they changed the Wi-Fi
+antenna from just the standard wire to
+this legit actual screw on antenna and
+then the wiring harnesses
+are all quite a bit different and in
+particular the things that I needed like
+to power the amp are missing from this
+version the only thing really I have is
+the backup camera and and of course the
+key one and key to which we'll talk
+about here soon but there is an amp wire
+but there is no thing to connect it to
+whereas this one I had an amp wire on
+one harness and another amp on the
+additional harness and you can connect
+them and that would power the amp this
+was sort of missing that option so I
+think that's why probably the factory
+amp if you have the Alpine upgraded
+system isn't working and even looking at
+the two different can bus adapters the
+wiring is different between the two so
+the one that would power the amp on the
+other one is not even there's not even a
+wire here they have different versions
+so I'm not even gonna try and mix and
+match these I'm gonna go straight to
+using this guy which is the pac RP 4 CH
+11 interface this is designed to allow
+aftermarket radios to operate with your
+factory system including CANbus and all
+that stuff so I'm just gonna basically
+cut off unfortunately a bunch of this
+junk and image wire directly to this and
+and the wiring harness that comes with
+it so as far as physical characteristics
+they're identical I will say I did
+notice up here on the top they now have
+a screw to hold this little piece end a
+lot of people tend to lose that actually
+lost mine on on my previous radio and so
+I found it later but I lost it so I
+think it's kind of interesting that they
+have screwed that in they must have had
+a lot of people complain about losing
+that but outside of that really it's
+just exactly the same
+all right so let me transfer these
+little connectors over to the new radio
+and I'll sort out this wiring harness
+and basically what I'll do is I'll go
+ahead and wire up the new PAC unit and
+then I'll show you where I wired
+anything it'll be a little bit more of a
+concise instruction hopefully for you
+alright guys so she's all wired up and
+ready to go into the Jeep I've got the
+pack plugged in I haven't bundled
+everything tidy because I want to show
+you what I did first of all here's what
+I removed so this is the harness side
+that goes to the Jeep and then this is
+their canvas adapter which I replaced
+with this pack and it's own harness so
+again this is the pack RP for CH 11 and
+I used adapter cable B they have an A
+and a B adapter B is the one that fits
+the JK alright so let me show you what I
+have going on here this isn't too
+complicated but it looks a little bit
+messy so just looking at this second
+harness while it's plugged into the
+radio just for reference your speaker
+wires are all here on the end and they
+are using a standard color convention so
+your greys are front rights your
+Purple's our rear rights your greens are
+rear left's and your whites are front
+left's but you'll notice I've got two
+sets bundled up I have the rears bundle
+up both left and right and I'm using
+only the Front's and the Front's are
+going to the rears on the adapter so the
+way the factory sub works and this is
+all explained in the pack instructions
+but the way the factory sub works is it
+can only take inputs from two channels
+so left and right your navigation your
+Bluetooth all that stuff is going to
+come through your front speakers on the
+sicán that's how that's designed so in
+order to make sure you have all that if
+you're going to use only two channels
+you've got to use the front channel so
+you take your fronts and then you plug
+it into the rear
+on the adapter to the rears is where
+it's gonna also take the base signal for
+your sub so you can just basically do
+what I did tape off the rears on the
+second and plug the Front's into their
+corresponding places on the the harness
+adapter so it's standard color coding
+for speaker wires except we're wiring
+them differently for this so so keeping
+on with this top row here you've got
+your red accessory which is going to the
+red on the pack
+you've got your blue amp power blue and
+white which is going to the blue and
+white on the pack so far so good
+you've got your Brown in black that's
+key one that one we have two the blue
+and yellow which is the the key output
+for the the adapter you're not going to
+need this little 3.5 millimeter plug and
+then key two we have which is solid
+Brown we're not actually using that
+we're leaving that one untouched then we
+have the solid blue which is going to
+solid blue and that is actually your
+antenna on power now the chances of us
+actually needing antenna on power is pre
+slim but since it does go to the factory
+harness just in case there's some weird
+thing that looks for that power I
+figured I'd go ahead and use it and then
+this last one this orange goes to the
+orange and white on the adapter and that
+is for the illumination or maybe the
+Illuminati I'm not sure exactly I'm
+thinking it's illumination though so
+whenever you turn on your headlights it
+will dim the unit on the radio looking
+at the bottom row skipping through the
+speaker wires where they talked about
+the solid yellow goes to the yellow on
+the on the adapter and that's your
+battery 12-volt battery feed then you
+have your black ground goes to black on
+the adapter then you have the pink
+and the pink one is your break detector
+and that's going to go onto the red and
+white output which is your parking break
+output on the harness and then you've
+got a brown one here that splits that is
+your reverse detection so that's going
+to go to the green on the harness
+adapter but it's also gonna split off
+and go to the camera power input on this
+other connector so that's the only one
+that we bridge harnesses on is this one
+which again is the the reverse output
+and then finally you have the next two
+are your can bus transmit and receive
+which we're not using because I'm not
+using the canvas on the scene doing it
+with the pack so hopefully that
+clarifies everything so the wires I'm
+not using I'm not using any of the rear
+speakers not using the can bus receive
+and transmit and I'm not using the key
+to everything else gets used on the
+second and then as far as the pack
+adapter I'm not using the speed output
+and I'm not using those front speaker
+wires connections and that's it
+everything else gets used there is this
+one blue I are in put on the other
+adapter with all these guys and I'm not
+using that by the way so everything else
+is good I'm going to use my reverse
+camera input and my aux video and audio
+inputs just like before everything else
+I'm leaving the same as far as the
+antennas my GPS antennas going to go
+here I still have to pull out off the
+other unit this is the Wi-Fi antenna and
+this is the AM FM antenna you've got a
+USB plug here that also has your
+microphone input and then you've got two
+additional USB
+extensions here so just right out of the
+box I've got three USB inputs alright so
+let me tidy up some of these wires with
+the bundle and then we'll go drop this
+thing in the Jeep alright so I've got
+everything sort of wired in I know it's
+a mess
+but I know what's going on see what
+happens when I put in the key my backup
+camera is on alright so for some reason
+I'm getting power for the backup camera
+I need to figure out why that's
+happening it thinks it's in Reverse so
+let me double check those connections
+alright so this feed running to camera
+12 volt in camera power off this second
+harness I went ahead and just cut that
+to see what that does so yeah we're in
+trial and error mode now hook up all of
+my antennas and then reconnect power
+turn the vehicle on okay that's better
+so what I don't know now is that I just
+disabled camera rear view or
+well bass is working pretty good we're
+turning it off before YouTube gets me
+where the heck this is a different
+interface than I am used to because I
+usually have my own custom I'm looking
+for video avian okay okay
+[Music]
+the bass is really pretty good actually
+yeah so this by the way this AV input is
+my switchable camera system so that all
+still works the same way and that's a
+really blurry dirty camera yeah so I
+guess I need to put it in reverse and
+see if it trips that now it does okay so
+everything I did before is exactly the
+way it needs to be except for you do not
+need to bridge that one camera 12 volt
+power connection so that was forcing it
+to always think that the reverse camera
+needed to be on so by undoing that I'm
+good
+alright by the way I just put it all
+back in so this is the replacements
+Akane so the head unit I didn't change
+out any of this other stuff like the the
+top cubby and the side piece that goes
+over the dash is all from the old sick
+Ain the new one just popped right into
+place and
+walked in nicely so no issues there and
+yeah now I want to program those keys
+but I wanted to get it someplace where I
+could manipulate it easier so all right
+so let's turn this thing on or kill the
+sound all right so what I'm looking for
+somewhere in the settings will be
+something for some key study steering
+wheel keys press steering wheel buttons
+okay all right so that's volume up
+that's volume down
+interesting that one's always the mute
+let's see here that one is the phone
+button so this is something I didn't
+have before was access to the phone
+button maybe changes the mode I don't
+know I'll experiment with these so
+basically here's the channel or the key
+selection so because I have key one
+programmed and the the pack is doing all
+the translation when I press buttons you
+can see how it changes what buttons are
+selected and then I can program those so
+let me say while these let's save so
+what happens if I press that I mute sit
+that's good if I hold it should have
+changed modes it did
+let's do Valle you meup mute mute okay
+it feels snap you're already but what I
+really need to do is install some apps
+so let me get Wi-Fi setup install some
+apps like Google Play Music all right so
+a couple things real quick before I wrap
+this video up first of all definitely
+noticeably faster I like this new
+interface I tend to to change the
+interfaces but I like this one for some
+reason I've got more information
+available to me
+so same thing that's how I run my XM
+satellite is through the AVN inputs so
+you can hear in the background that's
+actually the XM stereo which is
+controlled by this guy which I'm about
+to relocate so turn that down a little
+bit but play music just for example
+let's just get to something here and
+this is quite a bit snappier than before
+so yeah I'm pretty happy it sucks that I
+had to use the PAC unit to get good base
+but I figured it's probably the times
+saved and just doing that as opposed to
+trying to figure out how to troubleshoot
+because a lot of people are having so
+many problems definitely worth it to me
+in the long run but as far as the
+upgrade from quad-core to an octa-core
+with doubling the RAM can definitely
+tell a difference let me load up maps in
+a way that doesn't reveal my exact
+location
+[Music]
+so yeah so that's that's quite a bit
+quicker so I hate messing around too
+much in this stuff because I don't like
+revealing all my personal information
+but yeah there we go much quicker and
+yeah I kind of like it so anyway guys
+thanks for watching I'll catch you on
+the next one
+[Music]
