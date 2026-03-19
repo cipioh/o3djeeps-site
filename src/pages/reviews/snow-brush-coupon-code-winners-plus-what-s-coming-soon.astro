@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Snow Brush Coupon Code Winners PLUS What's coming soon...";
+export const description = "Discover coupon winners and upcoming reviews, including a seat warmer cooler. Stay tuned for exciting Jeep gear insights!";
+const youtubeId = "DCyhMvxQ6Dc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-12-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "O3D Jeeps"
+  },
+  {
+    "label": "Product",
+    "value": "Seat Warmer/Cooler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Enhancing comfort during off-road adventures"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this latest video update, we dive into some exciting news from the O3D Jeeps community. From our recent coupon giveaway to upcoming product reviews, there’s plenty to discuss that will enhance your off-roading experience. Let's break down the details!</p><h2>Main Points</h2><ol><li><strong>Coupon Code Winners:</strong> If you tuned in last week, you know we reviewed an impressive ice scraper. As a little thank-you for your engagement, we gave away five coupon codes that offer an incredible 99% off on this handy tool. If you participated, check the video comments for your name!</li><li><strong>Upcoming Review Teasers:</strong> We always aim to cater to our community's interests. A recent vote on our YouTube community page showed overwhelming support for reviewing a seat warmer that doubles as a cooler and massager. Yes, it’s as intriguing as it sounds! We'll put this product to the test, assessing how well it works in real off-road conditions.</li></ol><h2>Practical Implications</h2><p>Understanding the community's needs is essential for any enthusiast. Your engagement through comments and votes helps us curate content that resonates with you. Whether it’s a gear review or a discussion on practical modifications, your input is not just welcomed but essential.</p><h2>Key Takeaways</h2><ul><li>Stay engaged with our giveaways! Winners are already being contacted, and new opportunities are coming soon.</li><li>Exciting product reviews are on the horizon, specifically focusing on enhancing comfort in your Jeep.</li><li>Your feedback is crucial in shaping the content we create. Keep sharing your thoughts, and let’s build this community together!</li></ul>
+
+</article>
+
+</SiteLayout>

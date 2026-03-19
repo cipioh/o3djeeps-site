@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "JK Passenger Airbag Recall Prep - Removing JK Passenger Air Bag";
+export const description = "Prep your Jeep JK for airbag recall with DIY steps to avoid dealer headaches. Perfect for enthusiasts tackling airbag replacement challenges.";
+const youtubeId = "ASr7wOsFIjA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2020-01-19";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "JK Passenger Airbag"
+  },
+  {
+    "label": "Use Case",
+    "value": "Airbag Replacement Preparation"
+  }
+];
+const externalLinks = [{"label": "HERE IS THE RECALL INFO FOR THOSE CURIOUS:", "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V018-6898.PDF"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this tutorial, we'll explore the essential steps to prepare your Jeep JK for the passenger airbag recall. With over 787,000 units affected, it's crucial for Jeep owners, especially those with modified vehicles, to ensure a smooth experience at the dealership. Removing aftermarket modifications can feel daunting, but with the right guidance, it can save you time and ensure the technicians can quickly address the recall.</p><h2>What This Covers</h2><p>We’ll discuss the specific preparations needed for owners with modifications that can interfere with the airbag replacement process. This includes removing aftermarket stereo systems, dash bars, and security consoles, all of which can complicate the recall procedure.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Assess the Situation:</strong> Before heading to the dealership, take a good look at the modifications in your Jeep. Identify components that will need to be removed, such as your aftermarket stereo or any roll cage elements interfering with the airbag assembly.</li><li><strong>Remove Aftermarket Stereo:</strong> Start by carefully detaching your aftermarket head unit. This may require you to remove dash vents and harnesses. Make sure to store all screws safely to avoid losing them during reassembly.</li><li><strong>Disassemble Additional Components:</strong> If you have additional modifications, like a Tuffy security glove box, those might need to come out as well. Pay close attention to any bolts or clips that might be holding them in place.</li><li><strong>Handle Airbag Caution:</strong> While preparing the airbag for replacement, avoid any disconnection of the wiring while the battery is still connected. Keep the airbag assembly loose but secure—do not play around with the airbag electronics.</li><li><strong>Prepare for Dealer Visit:</strong> Once everything is disassembled, ensure your dealership has clear access to the airbag assembly, simplifying their work. This proactive approach not only ensures protection for your modifications but also speeds up the recall replacement process.</li></ol><h2>Helpful Tips</h2><ul><li>Document your disassembly process. Taking pictures can help when it’s time to put everything back together.</li><li>If you’re uncertain about reinstallation, review relevant tutorials online or refer to the Jeep service manual for detailed guidance.</li><li>Consider using a magnetic tray or small containers for storing screws and bolts to avoid confusion during reassembly.</li></ul><h2>Key Takeaways</h2><p>Preparing your Jeep JK for an airbag recall can seem like a hassle, especially with the added complexity of aftermarket modifications. However, by taking the initiative to disassemble anything that might obstruct the technician's work, you not only save them time but also ensure that your modifications remain intact throughout the process. Keeping communication open with the service center about your modifications can lead to an even smoother experience during the recall service.</p>
+
+</article>
+
+</SiteLayout>

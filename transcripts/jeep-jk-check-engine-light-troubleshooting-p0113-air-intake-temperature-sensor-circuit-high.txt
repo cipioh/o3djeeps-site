@@ -1,0 +1,201 @@
+rut ro we have a problem check engine
+light is on so I'm going to troubleshoot
+that right here right now with you and
+we're gonna figure out what that is so a
+couple things I'm gonna do first of all
+I do have a trail - - up here in the
+corner which I can do some Diagnostics
+with so I'm gonna pop into here and yes
+it's sideways because that's how I have
+it set up so it's out of my field of
+view go in here and check trouble codes
+read DTC's and I've got two codes
+po1 1 3 and P O 5 1 3 P L 1 1 3 is
+intake air temperature sensor circuit
+high and P O 5 1 3 is invalid skin key
+so invalid skin key not an issue that
+happens from time to time it just pops
+up it depends on if the security system
+is able to read the key microchip
+successfully every time and I guess
+every so often it just doesn't so it's
+never given me a problem but I get that
+code every so often but that's not gonna
+turn the check engine light on this one
+is alright so that tells me the code
+that I need to figure out right but if
+you don't have a superchips trail - - or
+any other code reader you can get one
+pretty cheap you get them off Amazon or
+Ebay or whatever or you can go to your
+local parts store and they'll read the
+codes for you for free so let's figure
+out what that code is telling us so I'm
+gonna cheat since I'm in a jeep with a
+second head unit I'm just gonna hit the
+browser right here so let's see what do
+we want to do we wanted to do p0 1 1 3
+Jeep let's just do that
+alright p01 1/3 is an obd to trouble
+code that occurs when jeep wranglers
+engine management computer detects that
+there is an issue with the air intake
+temperature sensor specifically that
+there is a high input problem with it
+easy enough first link here some info
+yeah yeah yeah blah blah blah blah
+alright yeah ok so clearly what we need
+to be doing is looking at our air intake
+sensor now there is one thing I did
+notice like so firing this thing up
+again I am going to show you something
+suspicious here and that is these two
+top numbers here
+86 and 86 this is the air intake
+temperature this is the ambient air
+temperature they're normally not the
+same in fact what I noticed is the
+intake air temperature has been
+mirroring the ambient air temperature
+which what that tells me is the computer
+in the Jeep is not able to get a good
+air intake temperature which matches our
+code and so thus it's just applying
+whatever the ambient air temperature is
+as its best guess for how to manage the
+air fuel ratio so if you didn't know the
+temperature of the air going into your
+intake impacts engine performance and
+the engine computer basically Tunes
+itself to account for those temperatures
+and and the density of the air changes
+with the temperature yadda yadda yadda
+long story short because those two are
+matching numbers that shows there's
+probably a problem so let's go look for
+our intake air temperature and see what
+we can see
+so our intake is here and the air intake
+sensors right underneath here oh and
+look okay well there's our problem folks
+this thing has come unplugged
+[Music]
+that would be an easy fix well I see the
+clip doesn't really want to hold on very
+much so something happened and it got
+pulled out but I can feel it clicking in
+there so let's see if that clears the
+code all right back in the Jeep coming
+here I'm gonna clear the codes in order
+to do that I need to start the Jeep and
+then once the trail - initializes I'll
+be able to turn it off and then we'll
+clear the codes
+well I could already see a difference
+here look at that the air intake
+temperature is at 123 and the ambient
+air temperature is at 86 which means
+we're getting a true and accurate
+reading of the air intake temperature
+which I expect it to be pretty high
+because it's really hot outside
+well 86 it's not super hot but the
+Jeep's I just got back home from a
+commute from work and it's been sitting
+in the temperature just sort of soaks so
+yeah not surprising that that's hotter
+right now but let's double check our
+codes so I'm gonna come in here and go
+back into diagnostics and trouble codes
+and clear engine cannot be running turn
+it off with the key in the on position
+[Music]
+yes
+shut the door that's beating Harvard
+just send the beeping there we go
+and they are cleared all right so I come
+back in here turn the vehicle off or
+restart it engine light go away
+and it didn't so as it turns out it's
+not uncommon for that sensor to come
+unplugged like when you really hammering
+it and so now that I think back I had
+pulled over to help a jeepers who was on
+the side of the road on the interstate
+and I stopped and he was fine he was
+just using the phone or something like
+that checking directions and he waved at
+me and and I left but when I got out of
+there I gunned it to get back on the
+freeway and that's when my check engine
+light came on so I must have blown that
+plug off of the intake air sensor during
+that time and as it turns out I was
+doing a little bit of research and that
+seems to be fairly common
+I don't know physically how that works
+because the air flow I mean obviously
+you're sucking more air in and I don't
+know but it's not uncommon to blow that
+wire if you know how that works
+comment below and let me know because
+I'm really curious about that but anyway
+so replacing that air sensor cable
+actually solves the problem and so right
+I mean obviously if your cable is
+unplugged it's not reading the sensor
+you're gonna generate an error so the
+most obvious problem is probably really
+what the problem is now those sensors
+can go bad they can get cruddy with oil
+residue and stuff like that so you can
+take it out and clean it but really the
+problem solver for me is plugging it
+back in actually had to sort of get that
+plug to clip back in a little bit better
+and now it's clipped in all the way and
+it won't just come undone so check that
+I mean maybe the the plug isn't isn't
+fully seating and you can fix that but
+now um here's the other thing and now as
+you can see the check engine light is
+gone and and I don't have any codes or
+anything like that so we're back to
+being a hundred percent there is a
+difference between having the check
+engine light on and the trouble codes
+I ran the Jeep a couple of times I went
+took my family up to the movies and then
+got in the Jeep the next morning and the
+check engine light was off I assumed
+that as long as I had a code I was going
+to have a check engine light but
+doesn't seem to be the case so I cleared
+the check engine light by fixing the
+problem but the code was still in there
+for reference so I have to go clear that
+and then yeah and then we'll all be good
+to go so you can clear the code by
+either doing it the way I'm doing it
+with the td2 or another sort of code
+reader manipulator thing or you can pull
+the battery on the Jeep for you know ten
+minutes or so and that will clear the
+codes but the check engine light had to
+clear separately by using the jeep and
+now retrieving trouble codes says there
+should be nothing yep okay so nothing
+they're good to go start it back up
+no check engine light all good alright
+guys so that's it problem identified and
+solved all in a single video that's the
+way I like it
+maybe this will be helpful for you if
+you have any ideas about the stuff I
+talked about or any questions hit it up
+in the comments and if I can't answer it
+somebody who's smarter than I might do
+that so anyway guys that's it thanks for
+watching I'll catch you on the next one
+[Music]
+[Music]

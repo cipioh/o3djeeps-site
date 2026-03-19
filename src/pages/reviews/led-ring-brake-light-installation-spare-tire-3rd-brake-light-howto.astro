@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "LED RING BRAKE LIGHT INSTALLATION - SPARE TIRE 3RD BRAKE LIGHT HOWTO";
+export const description = "Learn how to install an LED ring brake light on your Jeep's spare tire in this step-by-step guide.";
+const youtubeId = "aMOp_Odxcp0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-06-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Generic"
+  },
+  {
+    "label": "Product",
+    "value": "LED Spare Tire Brake Light"
+  },
+  {
+    "label": "Use Case",
+    "value": "Adding a third brake light to a Jeep with a spare tire"
+  }
+];
+const externalLinks = [{"label": "Helpful Link", "url": "https://amzn.to/2JeDpwv"}, {"label": "Helpful Link", "url": "https://www.youtube.com/watch?v=7WaTsjufPVk"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Installing a third brake light on your Jeep’s spare tire can enhance visibility and safety, particularly when off-roading or driving at night. In this tutorial, we will walk through the steps to install an LED ring brake light, connecting it seamlessly to your existing brake light circuit.</p><h2>What This Covers</h2><p>This guide will cover the installation process, including:</p><ul><li>Preparation and safety considerations</li><li>Wiring connections</li><li>Testing the setup</li><li>Finalizing the installation</li></ul><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Materials:</strong> Before you begin, ensure you have the LED brake light, wiring tools (like a wire stripper and crimping tool), electrical tape, and a zip tie.</li><li><strong>Remove the Spare Tire:</strong> Start by removing the spare tire from your Jeep. This gives you clear access to the rear brake light assembly.</li><li><strong>Access the Brake Light:</strong> Unscrew the screws holding the existing brake light in place. Disconnect the wiring harness to free the light.</li><li><strong>Identify Wires:</strong> Once you have access, identify the positive and ground wires—typically, the white wire with a red stripe is positive, and the black wire is ground.</li><li><strong>Make the Connection:</strong> Use a military splice technique to tap into these wires without cutting them. Carefully expose enough wire for a good connection.</li><li><strong>Testing Connections:</strong> Before finalizing your installation, plug in the new LED brake light and test it by pressing the brake pedal. Ensure the light illuminates correctly.</li><li><strong>Secure Everything:</strong> Once tested, secure the wiring with electrical tape and zip ties to prevent any loose connections. Make sure nothing is pinched or at risk of abrasion.</li><li><strong>Reassemble:</strong> Reattach the brake light assembly, screw it back into place, and replace the spare tire.</li></ol><h2>Helpful Tips</h2><ul><li>Consider using liquid electrical tape for extra protection against moisture and corrosion.</li><li>While working, always be cautious of exposed wires to avoid short circuits.</li><li>If you’re unsure of your wiring skills, consult a professional to help with the installation.</li></ul><h2>Key Takeaways</h2><p>Installing an LED ring brake light on your Jeep's spare tire is not only a practical safety upgrade but also a great DIY project. By following these steps and taking the necessary precautions, you can enhance the visibility of your vehicle while maintaining the functionality of your original brake lights.</p>
+
+</article>
+
+</SiteLayout>

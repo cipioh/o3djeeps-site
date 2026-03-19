@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Update on the seat cover giveaway";
+export const description = "Quick update on the seat cover giveaway due to inventory issues. Exciting alternatives included!";
+const youtubeId = "w0sg6DO-m1s";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-12-31";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Unknown"
+  },
+  {
+    "label": "Product",
+    "value": "Heated Cooling Massaging Seat Cushion"
+  },
+  {
+    "label": "Use Case",
+    "value": "Vehicle comfort and convenience"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the ever-evolving world of automotive gear, unexpected inventory issues sometimes pop up. Recently, our community was excited about a giveaway for heated cooling massaging seat covers that many of us hoped to add to our Jeep builds. Unfortunately, due to circumstances beyond our control, the giveaway had to take an unexpected turn.</p><h2>Main Points</h2><p>As shared in the latest video update, the original seat cover product has sold out on Amazon, and the company is currently unable to provide an estimated restock date due to manufacturing delays. While this is disappointing news, the good news is that the giveaway will still take place with alternative prizes.</p><ul><li>Two winners will still be selected for the giveaway.</li><li>Instead of the seat covers, winners can choose from a selection of 99% off coupons for other products, including a heated blanket or snow brush.</li></ul><h2>Practical Implications</h2><p>For those eyeing the heated seat cover, this update might come as a setback. However, it's a great opportunity to explore alternative products that are available. If you're still interested in heated seat covers, consider checking out similar items on Amazon. Even if the original product is unavailable, there are often comparable options from other brands offering similar features.</p><p>Additionally, if you're shopping online, always look for products that offer free returns. This can save you from a hefty headache if the item doesn’t meet your expectations.</p><h2>Key Takeaways</h2><p>While it's frustrating when a highly anticipated product is suddenly out of stock, it's essential to be adaptive and resourceful. Our community is built around sharing experiences and recommendations, so feel free to share any alternatives you find in the comments. As we continue our journey off-roading, adventure awaits us with the right gear—whether it's a heated seat cover or a heated blanket to keep cozy on our next adventure.</p>
+
+</article>
+
+</SiteLayout>

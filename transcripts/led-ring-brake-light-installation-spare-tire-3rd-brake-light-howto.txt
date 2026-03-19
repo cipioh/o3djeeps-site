@@ -1,0 +1,290 @@
+everyone's Scipio here and in this video
+we're going to install something really
+simple but if you've never done it
+before it might be sort of a challenge
+to figure out how to get started so I've
+already kind of started I'm kind of
+cheating because I wasn't planning on
+doing a video but then changed my mind
+halfway through but we'll catch you up
+to speed but my buddy Ryan bought this
+rear brake light off of Amazon it's an
+LED brake light you might have seen my
+DIY video on how to make one of these
+from several years ago before you could
+buy them like this on Amazon now it's
+probably a lot cheaper just to buy them
+like this a lot simpler basically comes
+with a single pigtail wire that you're
+gonna tap into your existing brake light
+circuit I'll show you how I'm doing that
+and all I've done so far is unscrew the
+one two three four screws on the back of
+this to pull it down and then unplug the
+wiring harness from this brake light and
+pull the tire off that's all I've done
+so far we're gonna do everything from
+outside the Jeep like this so come on in
+and I'll show you what I'm doing alright
+so on his he has an existing backup
+camera setup right here so we're going
+to sort of interface with that and this
+has a variety of poles that will align
+with probably different levels our
+vehicle so we found the one that aligns
+with his bolt pattern but also gets this
+wire up near the top and the reason I
+wanted up near the top is so that I can
+run it along this existing run from the
+camera so that puts me right here and
+then this plugged back in and back up
+that's gonna put me connecting in right
+around this range so I can always add
+length to this wire or I could just take
+advantage of whatever length is here
+there's pros and cons to both but since
+it's long enough to reach the wire we're
+trying to tap into which is for the rear
+brake light I'm gonna make that tap
+right about here all right so I'm gonna
+unplug this set it aside and then again
+I'm looking to tap in somewhere right
+around in here so carefully
+without cutting the wires I want to get
+access to them so I just basically slit
+that sheathing so we're gonna tap in
+right here and I'm going to do it using
+what's called a military splice but
+basically there's several ways to do
+this you can use a tea tap where you
+crimp it on and then your wire gets
+crimped in there or you can can do the
+way I'm going to do which is a splice so
+the way I'm going to do this and by the
+way there's no power coming to this
+because the breaks not on but you know
+always try and be careful with your
+power so I'm gonna cut these cheese but
+not the actual cable itself so that
+becomes a little bit challenging if
+you've never done it before the results
+of going too far in cutting the wire
+have very little impact because then you
+can just do a standard sort of splice
+but what I'm doing is shaving this just
+down to the wire and what i'm doing here
+is exposing this wire by getting rid of
+the sheath without cutting it
+there we go so there we go I've exposed
+that wire and I'll show you why that
+matters here in a second I'm gonna go
+ahead and do the other wire in the same
+location so this white wire with a red
+stripe is the positive wire and the
+black one is the ground so when we wire
+the LEDs up we're gonna wire them in a
+similar fashion all right there we go
+I have now both the positive wire and
+the ground wire exposed if you lose a
+strand or two in the process it's not
+that big of a deal just try and keep the
+bulk of the wires together now what I'm
+going to do is use this little punch and
+I'm just going to separate these and
+make a hole in the middle
+just like that all right so I'm gonna
+reset this up here just for a test fit
+and then we're going to before I start
+bolting everything down and finalizing
+just test the connections so so
+remembering that the black is ground on
+this particular light setup it's got a
+red striped one and a plain clear one
+the clear one is going to be the ground
+so I'm just gonna slip that through
+there and just sort of gently tie it and
+then that one's going to go through the
+positive side and then now we can test
+it so I'm gonna go press on the brake
+and we'll see if this lights up yeah
+sweet all right so now that I've tested
+it I know it works what I want to do is
+prepare the final install of this now
+these are held in with these little
+retaining clips same thing you'd find on
+on your wheel your brake rotors we're
+gonna pull these off and slip this on
+and then put them back on there and
+that'll just keep it keep it stabilized
+getting things things off is sometimes a
+pain
+[Music]
+once I get them spinning that house
+[Music]
+it's easier to get them off by breaking
+them but I'd like to try and reuse them
+so normally I would just if I wasn't
+gonna reuse them I just take a pair of
+pliers and just twist them off which is
+usually how you take them off but by the
+way if you don't have one of these
+aftermarket cameras you probably won't
+even have them so or you may have a
+camera and still not have these but this
+particular vehicle does have so we're
+just gonna hang on to them so if you get
+to this point and you don't see these
+hey you're done with that step twist be
+careful though because this will cut
+your fingers if you're not careful
+okay all right so just because I want to
+reuse these I'm gonna flatten them back
+out a little bit so when we push them
+back on no hole so now I can re set this
+up in here there we go and then I just
+want to make sure that I don't have
+anything interfering with those wires
+and that's not bad what happens that's
+not bad and so there's a couple ways I
+can handle this I can either try and fit
+it into this existing loom which is
+pretty tight or just run this along with
+it I mean all of this stuff is exposed
+anyway so it's not like protecting this
+one little five inch sections gonna make
+that big of a deal and that will do is
+we'll zip tie it to the loom
+so I think that's good there so now that
+I have that in place I'm literally just
+going to push these right back on
+[Music]
+socket this is the same socket I used to
+run the lug nuts all right so that now
+if that is held and nice and tight so
+that's kind of cool even if you don't
+have these to mess with for your install
+the light doesn't come with them but you
+can go get them from any auto parts
+store and it does kind of help hold
+everything nice and stable when you
+don't have your tire on so that's kind
+of cool all right so now what I'm doing
+this already had a fairly good length of
+wire sticking out so I'm just twisting
+it up but this is about the length I
+would want to work with anyway so what
+I'd like to do here now is again the
+clear sheath goes with the black and I'm
+gonna run it through like threading a
+needle and then pull it up tight and
+then I'm gonna run tight around one side
+and then flip over and then just wrap it
+around underneath and until it's tight
+so just like that and basically what
+that did is as I tighten it down it
+compresses that whole back down but with
+the wire sandwiched in between it's the
+same thing on this one goes through pull
+it and then one's gonna go over the top
+and then after that I'm gonna switch and
+then wrap it from the bottom side
+pull it nice and tight and just wrap it
+till you're out of wire and that turns
+out to be a very strong mechanical
+connection and is as effective as
+soldering the joint so if you're not a
+big solder this is a great way to do it
+this is the way a lot of stereo and
+alarm system installers add wires to
+existing wire runs and it works really
+well so now what we want to do is
+protect this electrical tape and and I
+recommend using a liquid electrical tape
+which is a liquid sealant the only real
+issue you have here is you've now broken
+this sheath and exposed this to
+potential corrosion I guess if you
+wanted to like think of all the
+downsides of doing it this way
+so using making sure you get a good seal
+with electrical tape will minimize that
+as much as possible all right so this is
+liquid electrical tape this bottle lasts
+a long time and basically what it is
+it's like literally liquid electrical
+tape it's just a liquid sealant that
+dries and has both a moisture and
+electrical sort of protectant so all I'm
+doing now is just coating that joint
+with this compound that's gonna dry into
+like a rubbery type seal
+the downside of using liquid electrical
+tape is you have to let it dry but
+that's okay all right let that dry now
+so this is dried and what we're going to
+do now is tape this connection so the
+plan is to run this along it's a little
+grab along the existing wire run tape it
+and then we're going to zip tie it to
+further secure it mechanically so I'm
+just going to take a strip of tape and
+start it a little bit higher
+stretching is like go
+all right so tape that connection so
+basically double securing it
+electrically with tape and the liquid
+sealant
+all right now that I've got that done
+I'm gonna run tape across the entire
+stretch of both of them
+all right just like that next take a
+small zip tie and put it around the
+bottom where the two wires now lay on
+top of one another and that gives them a
+canonical connection so if you pull on
+it it's not pulling on the joint it's
+just pulling on the zip tie the biggest
+pair of pliers I can find cut that I'm
+gonna try and push this up into that
+bloom as best I can which is not a lot
+but good enough this can get plugged
+back into here yeah that's gonna get
+rescrew din
+this is a 20 a t20 by the way
+I'm gonna run a little bit of electrical
+tape around this not necessarily for
+protection
+partly to secure it and just partly to
+conceal it the black I think what's
+better we have barely enough room here
+for that then zip ties on each end
+there we go alright just making sure
+that there's no wires sort of bound up
+anywhere pressed against anything that
+would cut it or shape it that's got lots
+of freedom of movement there let's go
+press the break alright one more test
+all right so that's it how to add in a
+third brake light awesome LED spare tire
+kit there's probably about a million
+ways to do this this is the method I
+choose I think it's super simple allows
+you to keep your existing upper light
+which is one of the requirements my
+customer had but no Ryan did want to
+make sure that this light still worked
+while adding that so that's why we
+tapped into it if you didn't want to use
+this light or you wanted to get rid of
+it altogether let's say you had a bigger
+tire that covered it up anyway
+then it would have actually been a lot
+easier because we just cut the the
+connector up where we unplug this and
+then just directly you know fuse them
+together but we did the t-tap method
+because you didn't want to keep both
+sets of lights running so anyway that's
+it yeah I guess I'll catch on the next
+one
+[Music]

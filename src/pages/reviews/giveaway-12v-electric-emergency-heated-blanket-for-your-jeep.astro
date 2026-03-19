@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "GIVEAWAY: 12V Electric Emergency Heated Blanket for your Jeep!";
+export const description = "Discover the benefits of a 12V Electric Emergency Heated Blanket for your Jeep. Perfect for off-roaders and winter sports lovers!";
+const youtubeId = "LkJIFGFIHwk";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2019-11-09";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Reviews, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Joytutus"
+  },
+  {
+    "label": "Product",
+    "value": "12V Electric Emergency Heated Blanket"
+  },
+  {
+    "label": "Use Case",
+    "value": "Emergency warmth in vehicles, winter sports, off-road adventures"
+  }
+];
+const externalLinks = [{"label": "I am giving away 5 of these!  Random selection will happen on Nov 17, 2019, so don't delay!", "url": "https://amzn.to/2Q2Koxf"}, {"label": "This giveaway is sponsored by #Joytutus", "url": "https://www.facebook.com/Joytutusofficial/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Joytutus 12V Electric Emergency Heated Blanket is a practical and versatile accessory for any Jeep owner, especially those who frequently venture into colder climates. Its ability to heat using your vehicle's power supply makes it an essential tool for emergency situations or for simply staying warm during outdoor activities.</p><h2>What Stands Out</h2><p>This heated blanket is not only designed for emergency warmth but also doubles as a cozy companion during chilly outdoor adventures. Whether you’re waiting in your Jeep during a winter sports break or stuck in an unexpected bind, this blanket ensures that comfort is just a plug away. It features a long power cord and a convenient storage bag, enhancing its usability for anyone actively involved in off-roading or cold-weather sports.</p><h2>Design and Features</h2><p>The blanket is made with a durable yet soft fabric, ensuring both comfort and longevity. With dimensions estimated to be around 3 by 5 feet, it provides ample coverage for one person and could potentially accommodate two if you’re willing to snuggle up. The core feature is its 12-volt power supply that plugs into your vehicle's cigarette lighter, making it easy to use on the go. There's a straightforward on/off switch without temperature settings, which streamlines the usability, especially in emergency scenarios.</p><h2>Real-World Use</h2><p>In practical testing, the electric blanket warms up effectively after a few moments of use. While it may not be a rapid heating solution, it provides consistent warmth that can be a game-changer in a cold vehicle. For instance, if you’re at a winter sports event, taking a warm break in your Jeep while wrapped in this blanket can make all the difference. Additionally, this blanket can serve well in scenarios where the engine is off, allowing you to conserve gas while still staying warm.</p><h2>Who This Is For</h2><p>This blanket is perfect for anyone who owns a Jeep or participates in outdoor winter activities. It's an investment in comfort and safety for those who might find themselves in a chilly situation. Families, outdoor enthusiasts, or anyone living in colder regions will especially appreciate having a heated blanket ready at their fingertips.</p><h2>Key Takeaways</h2><p>In conclusion, the Joytutus 12V Electric Emergency Heated Blanket is a thoughtful accessory that enhances safety and comfort for Jeep owners and off-road enthusiasts alike. It's easy to use, portable, and incredibly useful for both emergency situations and everyday winter outings. Whether you’re braving the cold or enjoying some time outdoors, having this blanket in your Jeep helps ensure you stay cozy, no matter the condition.</p>
+
+</article>
+
+</SiteLayout>

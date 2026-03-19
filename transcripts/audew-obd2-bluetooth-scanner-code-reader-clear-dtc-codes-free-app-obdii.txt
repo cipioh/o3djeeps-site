@@ -1,0 +1,307 @@
+everyone's Scipio here in this video
+we're gonna be talking about this guy
+this is the I'll do this is a an obd2
+reader not only a code reader but a code
+clear earth Oh guess what I'm giving one
+of these away for free now most of these
+guys that you buy Amazon eBay wherever
+they they allow you to connect to your
+smartphone and read the codes but they
+don't help you clear them this one
+supposedly also clears the codes and
+adds a bunch of other diagnostic
+capabilities that you might not find
+otherwise so this is Bluetooth enabled
+so it's gonna connect to your phone via
+a Bluetooth connection and yeah let's
+see how it works all right so the first
+thing we see here is that it's pretty
+simple product you basically just plug
+it in to the obd2 port in your vehicle
+now this is a jeep channel so obviously
+we're gonna be playing on Jeeps but this
+will work with any other vehicle what
+it's going to read is probably going to
+be dependent upon the capabilities of
+the can bus system for the different
+vehicle and we'll talk about that here
+in a second now you see these two
+barcodes this is to go get the app so
+another interesting thing about this
+particular version from do is it uses a
+specific app there are like a variety of
+obd2 apps out there torque is a very
+common one and a lot of those more you
+know more popular readers just use those
+apps but this one uses a specific app
+which is free and this is supposed to
+help you get there however what I found
+is it doesn't really help for Android
+and iOS it looks like it takes you right
+to the the app store where you can
+download it on the Google Play Store it
+doesn't seem to want to work so it's
+basically a bad link but what I will
+tell you is the name of the app that you
+want to get is called Nexus scan so you
+can search for that any X Z scan
+and in the Google Play Store if you have
+Android I'm just gonna go ahead and
+install this and let's open it boom
+so for permissions it wants media files
+photos all that stuff which is pretty
+typical and then this is what the
+interface looks like so let's go connect
+this into the Jeep and get the the odd
+do obd2 reader to connect to the app so
+the connection between the reader and
+the phone is going to be via bluetooth
+so just make sure you have bluetooth
+enabled on your device alright so going
+down to the obd2 reader which is right
+down here in the kick panel underneath
+the steering wheel if you're not
+familiar with that you actually have
+something plugged in there now that is
+my trail - - from superchips it's this
+guy up here you've probably seen that in
+in a lot of my videos
+there you go get some brightness change
+there I'm gonna unplug that because we
+need to unplug that to be able to plug
+in this reader so normally what you'll
+see is is an empty obd2 port just like
+that regardless of which vehicle you're
+in that's pretty much a standard thing
+across all of the the different brands
+and manufacturers of motor vehicles all
+right so I'm just gonna come in here and
+plug this guy in right now I don't even
+have the key in and I will need to do
+that in order to to fully set this thing
+up so I'm gonna go ahead put the key in
+and turn the ignition on without
+starting the vehicle just yet so here's
+the app I haven't actually sent anything
+up yet you're gonna see up here there's
+a red of Bluetooth indicator that tells
+you that it you haven't actually set
+anything up yet so it wants device
+location I don't know why I don't know
+if it hurts my head that I'm allowing
+GPS location there might be something in
+the Diagnostics that will be useful for
+that so I'm gonna go ahead and say allow
+only when using the app because I have
+the vehicle
+power-on you can see that it recognizes
+the m2 and that is what we're going to
+connect to so I'm going to go ahead and
+touch that and it says connecting and
+you can see up here it's connected now
+it shows blue and you can see the
+battery voltage this is just the the
+resting voltage of the battery now
+there's several options in here read DTC
+clear DTC live data freeze-frame smog
+check Oh - sensor mode six in my health
+status vehicle info battery test quick
+scan report review now I'm certain not
+all of these functions are gonna work
+for me on this Jeep and it may vary like
+I said depending on the obd2 data that's
+available from the can bus but I'm
+really want to focus on the the primary
+thing which is reading the codes and
+clearing the codes which is what a lot
+of people are going to use this for I do
+find the smog check and the o2 sensor
+stuff interesting but we'll look around
+a little bit battery test seems like
+something really cool but in reality it
+just tells you what your current voltage
+is so if I were to turn on the vehicle
+it's gonna show the charging voltage and
+it's gonna say it's high because it's
+charging so it doesn't really do like a
+load test or anything interesting it
+looks like it just reads it and then
+tries to figure out where it fits on a
+scale of what it thinks is good or bad
+but let's read dtc codes your car is
+very healthy and no fault code is found
+well that's great to know well that kind
+of sucks for this demonstration because
+if I don't have any codes then we can't
+test clearing codes I have an idea I
+remember a while back I had a code
+because the air intake temperature
+sensor came unplugged and it threw a
+code because it couldn't tell the
+temperature so that plug is right down
+here alright so I unplugged that air
+temperature sensor plug which when I
+start
+the vehicle should throw a code because
+it can't read the air-intake I'm sort of
+cheating you guys you don't understand
+what I have to do to make videos for you
+all right I'm gonna go ahead
+oh and look at there I threw a code all
+right that's what I wanted all right so
+now let's come in here and read DTC's
+and boom air intake temperature circuit
+high input and what I know if you've
+seen my last video where I troubleshoot
+of this problem that's the code I got
+before which led me to finding out that
+that thing came unplugged so not only
+does it give you the code it also gives
+you what it means which is really kind
+of cool usually what happens is you just
+get a code and you have to then go
+research what that means the Google is
+full of searches for p 0 1 1 3 I like it
+gives you the possible causes faulty
+intake arrant intake temperature sensor
+dirty air filter your air intake
+temperature sensor harness is open or
+shorted intake air temperature sensor
+circuit poor electrical connection which
+is equivalent to I just unplugged it
+which is a pretty poor electrical
+connection so I like I like that I
+really think that that's super helpful
+and and this alone is worth having this
+to me just being able to quickly look at
+and assess what the problem is and some
+possible solutions so I'm going to turn
+the Jeep off go plug that back in and
+then we'll see if we can't clear that
+code and I'm just making sure it's
+latched in there the problem I had
+before which is why it came undone is it
+wasn't completely latched in and it
+basically blew off I don't know how but
+it did so anyway that's back in there
+and in place and we should still have a
+check engine light because the code now
+exists so come back over here
+start the Jeep
+and yeah persistent check engine light
+is now on get it to find it
+warning this will clear code not cleared
+okay well the vehicles running so I
+would expect that the the engine light
+is clear trouble clothes are cleared
+successfully says it's cleared and it's
+showing it's cleared no check engine
+light so yeah I I think it did its job
+this thing says permanent all right so
+here's the issue with permanent dtc
+codes they're designed to keep you from
+cheating the system and going in and
+clearing codes doing a smog check and
+then having them just come back up so
+some codes related to emissions are
+considered permanent in which case
+clearing them doesn't just make them go
+away it clears the check engine light
+but doesn't actually get rid of the code
+until you do a driving cycle so usually
+what happens is you have to go let the
+vehicle run for a little while drive it
+over like I don't know 35 40 miles an
+hour for five or ten minutes and then
+what happens is is it will acknowledge
+that that code no longer or that problem
+no longer exists and that will clear it
+for you so the permanent ones there and
+they're generally like a set of missions
+related so you can't necessarily clear
+them but but yeah so that's why that
+doesn't clear but I have a lot of faith
+that would actually clear if it was a
+non permanent code I just want to go
+around creating more like random dtc
+codes just for this video I think you
+get the point let's look at some live
+data
+let's just see what else this thing can
+do so I'm just gonna click here all
+supported data and it's got the engine
+load coolant temperature that seems
+legit fuel trims not sure if those
+our relevance I'm getting some
+information there so yeah those look
+like they're working intake manifold
+pressure engine rpm let's see if that
+changes yep that actually works vehicle
+speed I'm not driving I'm assuming
+that's gonna work
+timing advancement intake air
+temperature throttle position that
+doesn't seem to change but engine rpm
+does so oxygen sensor voltages seem to
+work fine yeah it looks like it's
+reading a lot of very interesting data
+including barometric pressure Wow I mean
+there's a lot of troubleshooting options
+here you can record this it looks like
+and then save it as a file let's go into
+some other stuff what else does it do
+here transmission all supported data
+yeah
+control module voltage accelerator pedal
+position Oh smog check I have a
+permanent trouble code oh yeah so this
+is good fuel system monitoring which has
+to do with that trouble code EGR and V
+BT system monitoring catalyst monitoring
+huh interesting
+I don't know what that means but I'm
+gonna have to figure it out now
+I just trouble coded myself I'll see
+here mode six I don't know what that is
+oxygen sensors
+I don't know what these things mean this
+is way out of my pay grade guys mi L
+status so if you have a check engine
+light on people tell you how long it's
+been on that's kind of cool vehicle info
+so other than my VIN some other stuff
+yeah whatever let's get that out of
+there
+battery test like I said it doesn't
+really do anything other than tell you
+what your current battery voltage is
+yeah so that is what it is let's just do
+a quick scan what does that do oops
+gives me VIN but oh yeah so it's so it's
+a lot of the same sort of stuff and I do
+have this dtc code still somehow
+permanently in there and then you can
+look at reports I guess you can save
+reports I don't know exactly yeah anyway
+guys that's it
+this video is way long already it's the
+ado obd2 reader Diagnostics checker and
+apparently code clear kind of except for
+I generated a permanent code I got to
+figure out Oh guess what I'm giving one
+of these away for free I got all due to
+to allow me to give one away so if you
+want one of these comment in this video
+you guys have seen this before comment
+in the youtube video comments and in a
+week I will compile those up and then
+select a random person that we will have
+one of these shipped to you at no cost
+so otherwise I do have a 30% off
+discount code on Amazon for you in the
+description of this video so so you can
+go down there and and buy it if you
+don't want it or you don't want to wait
+a week take advantage of the 30% off
+deal anyway guys that's it thanks for
+watching I'll catch you on the next one
