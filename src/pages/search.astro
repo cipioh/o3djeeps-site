@@ -5,6 +5,16 @@ import BaseLayout from "../layouts/SiteLayout.astro";
 <BaseLayout title="Search | blasterKRAFT">
   <main class="content-card search-page">
     <h1>Search</h1>
+    <div class="search-toolbar">
+      <button
+        id="exactToggle"
+        type="button"
+        class="exact-toggle"
+        aria-pressed="false"
+      >
+        Exact
+      </button>
+    </div>
     <div id="search"></div>
   </main>
 
@@ -13,27 +23,116 @@ import BaseLayout from "../layouts/SiteLayout.astro";
   window.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const q = params.get("q") || "";
+    const exactParam = params.get("exact") === "1";
+    const exactToggle = document.getElementById("exactToggle");
 
     const search = new PagefindUI({
       element: "#search",
       showSubResults: true,
       showImages: true,
       excerptLength: 20,
-      pageSize: 10,
+      pageSize: 100,
       autofocus: true,
       resetStyles: false
     });
 
-    function filterToReviewsOnly() {
+    function setExactButtonState(isExact) {
+      exactToggle.setAttribute("aria-pressed", isExact ? "true" : "false");
+      exactToggle.classList.toggle("is-active", isExact);
+    }
+
+    function getExactButtonState() {
+      return exactToggle.getAttribute("aria-pressed") === "true";
+    }
+
+    function getSearchInput() {
+      return document.querySelector("#search .pagefind-ui__search-input");
+    }
+
+    function escapeRegex(value) {
+      return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function updateUrl(value, isExact) {
+      const url = new URL(window.location.href);
+
+      if (value && value.trim()) {
+        url.searchParams.set("q", value.trim());
+      } else {
+        url.searchParams.delete("q");
+      }
+
+      if (isExact) {
+        url.searchParams.set("exact", "1");
+      } else {
+        url.searchParams.delete("exact");
+      }
+
+      window.history.replaceState({}, "", url);
+    }
+
+    function isWholeWordMatch(text, query) {
+      if (!text || !query) return false;
+      const regex = new RegExp(`\\b${escapeRegex(query.trim())}\\b`, "i");
+      return regex.test(text);
+    }
+
+    function filterResults() {
+      const isExact = getExactButtonState();
+
       document.querySelectorAll("#search .pagefind-ui__result").forEach((result) => {
         const link = result.querySelector(".pagefind-ui__result-link");
         const href = link?.getAttribute("href") || "";
-        result.style.display = href.startsWith("/reviews/") ? "" : "none";
+
+        // Always restrict to review pages
+        if (!href.startsWith("/reviews/")) {
+          result.style.display = "none";
+          return;
+        }
+
+        // Normal mode: only review filter
+        if (!isExact) {
+          result.style.display = "";
+          return;
+        }
+
+        const input = getSearchInput();
+        const query = input?.value?.trim() || "";
+
+        if (!query) {
+          result.style.display = "";
+          return;
+        }
+
+        const titleText = link?.textContent || "";
+        const excerptText =
+          result.querySelector(".pagefind-ui__result-excerpt")?.textContent || "";
+
+        const combinedText = `${titleText} ${excerptText}`;
+
+        result.style.display = isWholeWordMatch(combinedText, query) ? "" : "none";
       });
     }
 
+    function placeExactButton() {
+      const input = getSearchInput();
+      if (!input) return;
+
+      const container = input.parentElement;
+      if (!container || container.contains(exactToggle)) return;
+
+      const clearButton = container.querySelector(".pagefind-ui__search-clear");
+
+      if (clearButton) {
+        container.insertBefore(exactToggle, clearButton);
+      } else {
+        container.insertBefore(exactToggle, input.nextSibling);
+      }
+    }
+
     const observer = new MutationObserver(() => {
-      filterToReviewsOnly();
+      placeExactButton();
+      filterResults();
     });
 
     const searchEl = document.getElementById("search");
@@ -41,10 +140,47 @@ import BaseLayout from "../layouts/SiteLayout.astro";
       observer.observe(searchEl, { childList: true, subtree: true });
     }
 
+    exactToggle.addEventListener("click", () => {
+      const input = getSearchInput();
+      const isExact = !getExactButtonState();
+
+      setExactButtonState(isExact);
+
+      const currentValue = input?.value || "";
+      updateUrl(currentValue, isExact);
+
+      filterResults();
+
+      if (input) {
+        input.focus();
+      }
+    });
+
     if (q) {
       search.triggerSearch(q);
-      setTimeout(filterToReviewsOnly, 300);
     }
+
+    setExactButtonState(exactParam);
+
+    setTimeout(() => {
+      placeExactButton();
+      filterResults();
+
+      const input = getSearchInput();
+      if (input) {
+        input.addEventListener("input", () => {
+          updateUrl(input.value, getExactButtonState());
+          setTimeout(filterResults, 50);
+        });
+
+        input.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            updateUrl(input.value, getExactButtonState());
+            setTimeout(filterResults, 50);
+          }
+        });
+      }
+    }, 300);
   });
 </script>
 
@@ -52,6 +188,39 @@ import BaseLayout from "../layouts/SiteLayout.astro";
   .search-page {
     max-width: 1100px;
     margin: 2rem auto;
+  }
+
+  .exact-toggle {
+    background: #111;
+    color: #fff;
+    border: 1px solid #2a2a2a;
+    border-radius: 999px;
+    padding: 0.45rem 0.9rem;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+  }
+
+  .exact-toggle:hover {
+    border-color: #ff6a00;
+  }
+
+  .exact-toggle.is-active,
+  .exact-toggle[aria-pressed="true"] {
+    background: #ff6a00;
+    border-color: #ff6a00;
+    color: #000;
+    box-shadow: 0 4px 14px rgba(255, 106, 0, 0.25);
+  }
+
+  #search .pagefind-ui__message {
+    display: none !important;
   }
 
   #search {
@@ -70,34 +239,41 @@ import BaseLayout from "../layouts/SiteLayout.astro";
     border: 1px solid #ff6a00 !important;
     border-radius: 999px !important;
     padding: 0.85rem 1rem !important;
+    height: 36px;
     box-shadow: 0 0 0 1px rgba(255, 106, 0, 0.08);
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
   }
 
   #search .pagefind-ui__search-input:focus {
     outline: none !important;
     border-color: #ff8a33 !important;
     box-shadow: 0 0 0 4px rgba(255, 106, 0, 0.18) !important;
-    background: #151515 !important;
-  }
-
-  #search .pagefind-ui__search-input::placeholder {
-    color: #9a9a9a !important;
   }
 
   #search .pagefind-ui__search-clear {
+    background: #111 !important;
     color: #fff !important;
-    background: #1a1a1a !important;
     border: 1px solid #2a2a2a !important;
     border-radius: 999px !important;
-    padding: 0.45rem 0.8rem !important;
-    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    padding: 0.45rem 0.9rem !important;
+    margin-left: 0.5rem;
+    font: inherit !important;
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s ease;
   }
 
   #search .pagefind-ui__search-clear:hover {
     background: #ff6a00 !important;
     border-color: #ff6a00 !important;
     color: #000 !important;
+  }
+
+  #search .exact-toggle {
+    margin-left: 0.5rem;
   }
 
   #search .pagefind-ui__result {
@@ -118,14 +294,36 @@ import BaseLayout from "../layouts/SiteLayout.astro";
     color: #ff6a00 !important;
   }
 
-  #search .pagefind-ui__result-excerpt,
-  #search .pagefind-ui__message {
+  #search .pagefind-ui__result-excerpt {
     color: #d0d0d0 !important;
   }
 
   #search .pagefind-ui__result-thumb img {
     border-radius: 10px;
-    display: block;
   }
-</style> 
+
+  #search .pagefind-ui__button {
+    display: inline-block;
+    margin: 2rem auto 0;
+    padding: 0.7rem 1.4rem;
+    background: #111;
+    color: #fff;
+    border: 1px solid #ff6a00;
+    border-radius: 999px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+  #search .pagefind-ui__button:hover {
+    background: #ff6a00;
+    color: #000;
+    box-shadow: 0 4px 14px rgba(255, 106, 0, 0.25);
+  }
+
+  #search .pagefind-ui__button-wrapper {
+    text-align: center;
+  }
+</style>
 </BaseLayout>
