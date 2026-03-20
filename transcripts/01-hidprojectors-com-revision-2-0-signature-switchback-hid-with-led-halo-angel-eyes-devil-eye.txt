@@ -1,0 +1,302 @@
+hey there CP oh here and in this video
+I'm gonna be showing you these new
+headlights that are going into overclock
+these are from hid projector scum I'm
+kind of excited because I'm one of the
+first to actually at my hands on a new
+light that's just coming out so these
+are the revision to Signature Series but
+also with the new switchback capability
+I'll explain what that means here in a
+second but I wanted to show you sort of
+what I have going on here in this video
+sort of in a controlled environment
+before I drag all of this out for an
+install in the Jeep because to be honest
+with you if you look at the wires that
+I'm going to show you it's gonna seem a
+little bit overwhelming so I'm gonna
+deconstruct that first to show you
+exactly what's going on here and then
+show you a little bit about these lights
+so I'm not gonna power these on in this
+video so if you're looking for demos
+actually hid projector scum has a
+YouTube channel and their website of
+course they have a lot of bench video
+showing them turned on and so you can
+check that out if you're interested so
+I'm not going to go through all of that
+trouble to wire these things up I will
+show you how to wire them in the Jeep
+and then of course what they look like
+when they're in but there are a lot of
+options here so the way I do it may be
+different from the way you want to do it
+and I'll talk a little bit about what
+that means here in a second but these
+are the signature two series these
+actually have an outer halo ring two
+inner angel eye rings and then there's a
+double I in the middle plus the hid
+actual headlight and then because these
+are switchbacks all of these halos that
+are white can turn to amber when you
+turn on your blinker or if you're gonna
+do them like me I'm gonna do a little
+bit different I want orange to be
+primary so I'm gonna wire them so that
+they glow amber all the time and I might
+actually wire them so they switch back
+to white during the blink I don't know
+we'll see what happens but most people
+are gonna probably use just a standard
+install white halos and angel eyes and
+in tighten to the blinker circuit I'll
+show you how that works
+it may look confusing but it's actually
+really simple what they've done is
+they've given you so many options that
+that you've got a lot of wires to deal
+with so let me first tell you what comes
+with these so so these are the two hid
+projector headlights so I got these with
+a 35 watt ballast so these ballasts are
+made by Hilux for HID projectors and
+they also have the can bus anti flicker
+harness plus an added ground wire for
+that and then you get into where you're
+going to light your actual HID
+headlights so each headlight is going to
+come with one of these ballasts now
+there is one wiring harness that comes
+with the pair the way HID lights work if
+you haven't installed them before is
+you're gonna have a main power source
+off of the battery and you're gonna tap
+into the passenger side headlight
+circuits the light the low beams and the
+high beams and then that is basically
+just going to switch on and off through
+a relay the actual headlights so you're
+not going to be powering the headlights
+by your normal Jeep headlight circuit
+all that circuit is going to do is trip
+a relay and you're gonna feed direct
+power from the battery because these are
+gonna draw a little bit more energy than
+the stock incandescent lights so that's
+what this harness is for this harness is
+going to get you from the battery into
+the HID lights and is going to tap into
+the passenger side of your Jeep
+headlight circuit and then when you turn
+on your lights it's gonna tell it hey
+turn on those HID lights and let's make
+things some brightness now each light
+comes with a lot of wires and that is
+because like I said we have some options
+here first of all you've got the white
+outer halo ring which will also switch
+back to amber depending on the
+circumstances you have the two angel
+eyes one of them is behind this really
+cool Center shroud here and then like I
+said before you've got the the devil eye
+now the devil I can't operate at the
+same time as your HID light it'll just
+burn it out it's not designed to handle
+the heat they're just for show
+parked conditions or whatever and I'll
+show you how to wire that you can
+actually wire it into your system so
+that when you turn on your headlights it
+automatically turns off the devil eye so
+you don't risk having them both on at
+the same time so that's pretty cool
+because I'm putting this into a Jeep
+Wrangler just know
+these are designed 7-inch headlights in
+all the wiring harnesses I need to
+install this completely what it doesn't
+come with is how I'm going to switch all
+these other things now you can make this
+as simple or as complicated as you want
+so each one of these halos or angel eyes
+is going to come with its own driver
+now these drivers are going to control
+behavior based on what type of input
+you're feeding it basically which wire
+are you providing 12 volt voltage - so
+what you get to do is figure out how
+creative you want to be in switching and
+wiring this thing up so at the end of
+these wire looms you have all of these
+connectors to allow you to do a lot of
+different things so let me deconstruct
+this for you first of all these
+harnesses are you know all this is made
+in USA in New York you can tell they are
+handmade and there's been a lot of time
+invested in building them the the wiring
+looms are very nicely done
+shrink-wrapped
+all of the electrical connections are
+well sealed so definitely kudos to them
+for that the other thing is the drivers
+are slightly different depending on what
+they're running so this one says it's
+running the eighty four millimeter front
+angel eye now it's got a plug that
+actually plugs into that harness on the
+light and they are color-coded I have a
+blue dot on both of these ends of the
+connector so if you pull all these off
+you know which one goes to which so
+that's important to note so in this case
+the 84 millimetre front angel eye is
+blue I have a 105 millimeter rear angel
+eye and that one is green and then I
+have the hundred and sixty millimeter
+outer halo and that one is orange hey
+that's awesome
+Cpl orange thank you guys so yeah that
+wasn't on purpose I'm sure out of each
+of those you have four wires a red a
+black a yellow and a white so obviously
+we'll start with black that's easy that
+your ground
+one thing I didn't tell you yet is that
+each of these halos has a low and a high
+setting and you can wire them all
+independently so you can like I said you
+can simply connect all of these to the
+same circuit have them all run high all
+the same you can have each one of them
+independently switched you can have a
+switch that will make it high low or
+amber on every single one of them
+you can build an entire switch panel
+just to control all of the different
+lighting options for these or you can
+simply wire them all together and then
+control them a little bit more simply
+but now that's it's so many options well
+which is why I'm spending time on the
+bench because I have to sort out how I'm
+gonna do this myself actually so black
+is ground red is going to be the bright
+white and then white is going to be the
+DEM white so you can let's say run
+bright halos during the daytime and dumb
+ones at night or the other way around
+but this yellow one is going to switch
+on the amber and all this is covered in
+a very comprehensive instruction sheet
+that comes with a wife what most people
+are going to do is wire in the probably
+the ground and maybe the bright halo
+wire and then they're gonna tap in the
+yellow amber switch back to their turn
+signal circuit what that means is when
+you turn on your turn signal all these
+white lights are gonna turn to amber
+lights and they're gonna flash with your
+turn signal again each separate halo has
+its own wiring driver with wiring
+options you can choose to wire them all
+together you can choose to wire them
+separately that's going to be up to you
+now the last thing I need to talk about
+is that red devil eye in the middle it's
+got its own little wiring harness it's a
+little bit simpler it's got a red 4
+power 12 volt power a black foreground
+and then a white wire with the white
+wire does like I mentioned before you
+can tap that into your headlight circuit
+and when your headlights come on that
+red devil I will automatically switch
+off yeah so
+is what it looks like when you pull it
+out of the box each one of these and
+it's a frightening mess when you first
+look at it but it really is fairly
+simple and of course there's just these
+two wires that are gonna plug into your
+harness to run the actual HID headlight
+now when I get into the install I'll
+talk about how to align these how to
+adjust them I'll show you the cut off
+all that stuff will be covered but I
+just want to spend some time on the
+bench with you just sort of showing you
+what all is involved because it it's a
+lot to think about but I really like the
+fact that they give you some options now
+these can be plug and play as headlights
+and then you can wire in all of your led
+halos later there's nothing that says
+you've got to figure all this out at
+once as a matter of fact I will probably
+do that I will probably plug in the the
+two headlights the harness to connect it
+to the Jeep and the battery and then
+just get my HID headlights running first
+that's priority number one
+then I will sort out the halos and the
+angel eyes and the devil eye and figure
+out how I want to do that and I may
+change that a couple of times before I
+decide I don't know I keep going back
+and forth do I want do I want them all
+to be orange do I just want the big
+outer one to be orange or maybe the
+outer one and the the center one in the
+front and then maybe the middle one
+that's kind of hidden back there glow
+white I don't know I'm gonna have to
+power them on to see what I want to do
+yeah that's where ratso hid projector
+calm now these again are or the
+brand-new switchback revision two
+Signature Series they have other
+versions of these lights they have
+versions less expensive on the price
+scale and if you want to go even the
+next step greater which I didn't do you
+can get the chroma series where all of
+these are RGB and controllable you can
+make anything any color you want and you
+can do it on the fly so with a you can
+have it connected your your smartphone
+and and do whatever you want I'm a
+little more simple I basically have one
+color I care about that's orange that
+comes in the the switchbacks which is
+why you know
+I'm kind of easy but I still have
+obviously a lot to think about here and
+and then on top of that if you want you
+can always have a custom set made you
+can go on there's like a DIY headlight
+builder app on the it's a web app on the
+website there and you can go in and you
+can pick do you want what color do you
+want your shroud you can pick all the
+different colors of the halos you can
+make them chrome and not chroma
+individual or or whatever you want and
+you can even get some custom edging on
+there so go check that out if you really
+want to make them custom I know a lot of
+people that have done that and they
+really like it but if you just want to
+buy them straight out of the box install
+them and then make them rock this is
+gonna be what my videos about here
+coming up because that's what I'm doing
+in overclock so anyway guys thanks for
+watching stay tuned lots to come here
+I'll catch you on the next one
+[Music]

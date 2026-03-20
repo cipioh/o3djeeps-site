@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #10 - Just an Update";
+export const description = "Join our update on upcoming giveaways, Jeep projects, and plans for the Moab trip in this quick jogging video.";
+const youtubeId = "7Mp65uIXbUc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-22";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Platform",
+    "value": "Jeep"
+  },
+  {
+    "label": "Use Case",
+    "value": "Community Engagement"
+  },
+  {
+    "label": "Event",
+    "value": "Moab Trip"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://youtu.be/w5YoZvQvctI"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In our latest episode of "Going Jogging," we take a break from the usual format to share some important updates with our community. It's a beautiful February day, and what better way to connect than through a quick video while enjoying the outdoors?</p><h2>Main Points</h2><p>First and foremost, we are excited to announce a giveaway that is just around the corner! Thanks to J-3 Overland, we have a fantastic opportunity where you could win a $50 gift certificate. It’s a chance to snag some exclusive 203 D Jeep sticker holders or whatever else you might need for your Jeep build. Be sure to check out the linked giveaway video for details on how to enter.</p><p>Additionally, I'm currently juggling several projects, including some long-awaited product installations. As many of you have pointed out, I haven't yet finished my snorkel side install. I’m working hard to ensure that it’s done right and will provide updates as I progress. The recent warm weather has been a blessing, allowing me to work more outside, though balancing projects with my schedule can be challenging.</p><h2>Practical Implications</h2><p>With the Moab trip planned for September, I’m eager to meet up with fellow Jeep enthusiasts. If you’re interested in hitting some off-road trails together, feel free to reach out through comments or social media. Connecting with others in the community adds so much value to our off-roading experiences, and I’m looking forward to it!</p><p>On a related note, many of you have asked about the performance of my SAR Cane radio — it’s still going strong without any issues. Its reliability keeps it at the forefront of my gear choices, particularly for off-road adventures.</p><h2>Key Takeaways</h2><p>Remember to enter our giveaway, keep an eye out for the upcoming project videos, and consider joining us on the Moab trails this September. Community and collaboration are what make our off-roading experiences worthwhile, and I can't wait to see where the trails take us next!</p>
+
+</article>
+
+</SiteLayout>

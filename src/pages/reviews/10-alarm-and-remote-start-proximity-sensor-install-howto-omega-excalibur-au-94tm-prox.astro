@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "10 - Alarm and Remote Start - Proximity Sensor Install - Howto - OMEGA Excalibur AU-94TM Prox";
+export const description = "Learn how to install the Omega AU-94TM proximity sensor for enhanced security on your Jeep with easy-to-follow steps.";
+const youtubeId = "jVZ5oaYsKQ4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-11-18";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Omega"
+  },
+  {
+    "label": "Product",
+    "value": "AU-94TM Proximity Sensor"
+  },
+  {
+    "label": "Use Case",
+    "value": "Vehicle security enhancement"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In today's article, we're diving into a practical installation tutorial for the Omega AU-94TM proximity sensor, designed to enhance the security of your Jeep. If you've been considering adding an extra layer of protection to your vehicle, this guide will walk you through the installation process step-by-step. With a few tools and essential wiring modifications, you'll be on your way to a more secure off-roading experience.</p><h2>What This Covers</h2><p>We will cover the following key areas:</p><ul><li>Preparation and Tools Needed</li><li>Step-by-Step Installation Process</li><li>Wiring Modifications</li><li>Testing and Adjusting the Sensor</li></ul><h2>Step-by-Step Breakdown</h2><p>Let's get into the nuts and bolts of the installation:</p><ol><li><strong>Preparation and Tools:</strong> Before you begin, ensure you have the following tools: wire strippers, connectors, a flat-head screwdriver, and double-stick tape for securing the sensor. It's also important to have a well-lit workspace to make the process easier.</li><li><strong>Accessing the Center Console:</strong> Start by removing the shift knob of the transfer case, which allows you to take off the center console cover. This gives you access to the area where the sensor will be installed. Be prepared for some dirt and debris—it’s a good opportunity to clean the area while it’s exposed.</li><li><strong>Running the Wiring:</strong> The AU-94TM sensor requires power, so you'll need to run a wire from the alarm's brain unit located under the dash to the sensor location within the center console. Utilize existing wiring to minimize additional drilling. In this case, the installer cleverly extended the sensor wire using spare wiring from a shock sensor.</li><li><strong>Installing the Sensor:</strong> With the wiring in place, use double-sided tape to secure the proximity sensor in a location that provides optimal sensing coverage. Make sure to choose a spot that allows for easy adjustments if necessary.</li><li><strong>Final Assembly:</strong> After securing the sensor and ensuring all wires are neatly organized, it’s time to reassemble the console components. Slide everything back into place and secure the shift knob once again.</li></ol><h2>Helpful Tips</h2><p>Here are some additional insights that might come in handy during your installation:</p><ul><li>Make sure to label your wires during installation to avoid confusion later on. Color coding can help.</li><li>Double-check that the connections are secure and insulated, preventing any shorts during usage.</li><li>Consider the sensitivity settings of the sensor to avoid false alarms—test in your Jeep's actual environment.</li></ul><h2>Key Takeaways</h2><p>Installing the Omega AU-94TM proximity sensor can greatly enhance your Jeep's security without necessitating complex modifications or professional assistance. By using existing wiring, it simplifies the process and keeps it clean. Remember to periodically check the sensor settings to ensure it’s functioning as intended. With these steps, your vehicle will be better protected against unauthorized access, whether you're out on the trails or parked in your driveway.</p>
+
+</article>
+
+</SiteLayout>

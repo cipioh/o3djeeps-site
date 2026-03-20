@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Readers' Rides #3 - Jeep Momma's 2015 Jeep Wrangler Unlimited Rubicon";
+export const description = "Discover Jeep Momma's modified 2015 Jeep Wrangler Unlimited Rubicon in our latest Readers' Rides episode. Get inspired!";
+const youtubeId = "B9tgPImLePk";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2015 Wrangler Unlimited Rubicon"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-roading and Adventure"
+  }
+];
+const externalLinks = [{"label": "Want to show off your ride?  Go here:", "url": "https://www.facebook.com/groups/o3dje"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back, Jeep enthusiasts! In this installment of Readers' Rides, we dive into the world of Jeep Momma and her well-loved 2015 Wrangler Unlimited Rubicon. This episode showcases not only the vehicle's impressive modifications but also the passion and thought put behind each upgrade. Join us as we explore her journey and the exciting features of this fantastic build.</p><h2>Main Points</h2><p>Jeep Momma, a true off-road aficionado, has made her mark with her vibrant personality and dedication to her build. Starting with her front end, she replaced the stock bumper with the Extreme Terrain Trail Force HD bumper, a rugged upgrade that enhances not only durability but also the vehicle's overall aesthetic. She took on this modification herself, showcasing her DIY spirit—a critical trait in the Jeep community.</p><p>Additionally, her choice of headlights demonstrates a commitment to both functionality and style, opting for Ox Beam 7-inch round headlights that improve visibility in challenging conditions. Enhancing safety on the trails is essential, especially during night excursions where clarity matters most.</p><p>Moving beneath the Jeep, the discussion of upgraded steering components is crucial. The steering attenuator, drag link, and tie rod adjustments are not just improvements; they are necessities for off-roading. These upgrades enhance steering responsiveness, which is paramount during rugged trail navigation where precision can mean the difference between a smooth ride and a rough tumble.</p><h2>Practical Implications</h2><p>Jeep Momma's choice of Riddler diff covers is a solid example of necessary upgrades for those who venture off the beaten path, protecting critical components from potential damage. Her installation of a 3.5-inch Metal Cloak lift shows her understanding of the importance of ground clearance when tackling tough terrains. Bigger tires, specifically her 35-inch Goodyear Duratracs, provide the grip needed for both on- and off-road adventures, and they enhance the Jeep’s aggressive stance.</p><p>Not just focused on performance, Jeep Momma adds personality with custom touches like a painted footman loop and purple accents, making her Jeep truly one of a kind. The easy install of the grille insert is a perfect example of how simple modifications can amplify flair without extensive effort.</p><h2>Key Takeaways</h2><p>Jeep Momma's 2015 Wrangler Rubicon serves as an inspiration for overall build integrity and personal expression in the Jeep community. From rugged upgrades beneath the chassis to stylish enhancements above, her journey illustrates the balance between functionality and individuality. Every item is a thoughtful nod to her experiences and preferences as an off-roader, and her dedication to maintenance reflects a practical approach to vehicle care that all Jeep owners should embrace.</p><p>So whether you're planning your next trail ride or looking to modify your Jeep, take notes from Jeep Momma's journey. Remember, every Jeep tells a story, and with the right modifications, your ride can be as unique as your adventures. Happy wheeling!</p>
+
+</article>
+
+</SiteLayout>

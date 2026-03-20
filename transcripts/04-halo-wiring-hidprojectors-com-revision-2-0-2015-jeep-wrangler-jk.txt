@@ -1,0 +1,206 @@
+hey there's Scipio here and in this
+video I'm gonna show you sort of some
+wiring of these Angel Eyes halos and
+I'll let me show you the devil eye so
+let's see what I have going on here
+[Music]
+alright so I went ahead and plugged in
+the harness wires for the different LEDs
+that has the LED drivers on there now if
+you recall correctly they provide these
+nice male spades now you don't have to
+use these you can certainly trim these
+wires to be smaller if you need to but
+it is nice that they provide them and
+particularly for the initial phase of
+the install because it allows you to
+experiment which is what I'm doing now
+remember these are color-coded so orange
+goes the orange blue goes to blue and
+green goes to green and then the devil
+eye is a little separate deal altogether
+so what do I have on the Jeep well first
+thing is I have a ground wire that is
+going to that ground post right there
+and it's got three female connectors to
+mate to the
+the male on the the ground here so I'm
+going to use that this is a wire that
+comes out of my switch inside the cab
+this is a switched 12-volt power what I
+used to use for my halos and you'll see
+I've added a bunch of pigtails let's
+let's do this alright so the first thing
+I'm going to do is for each of these LED
+drivers I'm gonna plug in my ground
+and one more all right so grounds are
+plugged in now from here I get some
+choices right so if you remember the red
+is the bright LED the white is the
+dimmer LED and then the yellow is the
+orange flash bag which is basically what
+I want to run is the amber
+so let me just show you I'm gonna go
+ahead and plug in the red LED which is
+the bright white for all three of these
+and let's see what you can see
+all right so that is all three of the
+LED halos so you have your outer halo
+ring and your two inner angel eyes
+that's in white now remember with this
+version of the revision 2.0 Signature
+Series with the switchback we will also
+have Amber options for all of these and
+that can be triggered via the turn
+signal circuit or manually which I'm
+going to show you right now so basically
+I'm going to just plug in the yellow
+even with the red because it will take
+priority as if my blinker circuit came
+on how it's going to be a mess of
+connectors all right so that's as if my
+blinker just turned on and you can see
+now all of those whites have switched to
+amber and it's a very nice bright amber
+of course that's gonna go nicely with my
+theme now I'm trying to decide how I
+want to do this normally I would run
+when I just had this the single outer
+ring I ran amber but I think I like the
+fact that I have three here I think I'm
+gonna make that middle one turn white
+instead and run it that way let's see
+what that looks like
+there we go oh yeah I like that then
+what I could do is make that Center one
+flash orange with my blinker but the
+other two will always be on let's see
+what that looks like pink blink blink
+blink blink blink and then back to white
+I like that
+blink blink blink it looks good right
+see that's the thing is there's so many
+options where the front one is white and
+it blinks with the blinker
+and then back to white I don't know I
+kind of think I kind of think I like
+that with this one being the blinker
+I don't know time will tell so don't
+worry I'll wrap this up and then I'll
+show you how to tap in to the blinker
+circuit yeah I kind of like that oh I
+got to show you the devil I'm
+so the devil eyes in the middle again
+it's a very subtle red LED not not
+super-bright like these are and I need
+to show you that and I also need to show
+you the difference in the dim white
+versus the bright white so first the
+devil eye so basically I'm just gonna
+connect this to power and then this the
+ground and then I'll show you what that
+looks like so you can see that subtle
+red tint it's really hard to see in the
+daylight off on off on anyway I'm not
+gonna run that but if you choose to
+that's how it would hook up and remember
+the white wire will allow you to turn
+that off when your headlights come on if
+you run that to your main headlight
+wiring circuit so again I'm not using
+this but that's the great thing about
+these is you know you've got options
+built the way you want all right so now
+the difference between the dim white and
+the bright white alright so remembering
+that the red wire is the bright wire the
+white wire is the dimmer wire for the
+white so if you look at that Center halo
+ring all I'm gonna do is attach the
+white wire leaving the red one there and
+you'll see how it changes in intensity
+so if you want bright in one situation
+and dimmer in the other then that's how
+you would achieve that so you can use
+one or the other wire or you can put
+them both on and you will always get dim
+so your choice but I just want to make
+sure you knew the difference there I'm
+gonna run completely bright white I
+think it's gonna look better standing
+out particularly with the orange there
+so anyway and that's sharp
+and the video doesn't do the LEDs
+justice yeah that's awesome now I got to
+go
+wire up that other one to match but
+that's what I'm gonna go with for now I
+will add in the blinker functionality
+and I will show you that don't worry I
+decided to wire everything from the
+driver's side for my LEDs because I had
+that one feed that came in from my
+switch inside the Jeep that was to power
+the the halos actually let me show you
+that switch it's this switch right here
+that says halo lights and it's a
+three-position switch so in the middle
+position there's no power at all in the
+bottom position power comes on whenever
+I turn the key on it's it's got a feed
+from the accessory circuit and then in
+the top position it comes on and powers
+my LED halos whenever I want so I can
+just push it on there and it's on full
+time and that's for when I'm parked or
+at a show or something like that so yeah
+so that's the switch I have I'm not
+going to go into wiring that because
+again these are things that get really
+complicated quickly to try and follow
+along with somebody else's build but you
+can do something like that for a
+three-position again you could build an
+entire switch panel that does nothing
+but control all the different variants
+of your angel eyes and halos and devil
+eyes I'm literally just using one switch
+to turn them all on off or or have them
+automatically come on which is how I
+normally leave it and then they act as
+daytime running lights when I'm driving
+alright so back to here so that feed
+comes through and then I created some
+pigtails off of that the harnesses they
+give you is long enough that I literally
+just ran that all the way across and
+then attached to the same wire so
+everything comes from there and it
+actually made it nice because I could
+fasten these drivers up here sort of out
+of the way that's literally one of the
+hardest parts about this install is
+figuring out what to do with all of this
+stuff because you not only have the
+wires but you've got these drivers for
+each of the
+Halos and it's that way because they're
+more than just power sources they have
+some sort of relay circuitry that
+manages you know the high the low the
+Switchback capability all that stuff so
+it creates a little more bulk so but it
+was nice that they give you a harness
+that's long enough to come in this is it
+right here I didn't extend it at all
+and could tap right into that same feed
+so I'm tapped in the ground here I'm
+tapped into that 12-volt circuit here
+and then you'll see on both of these I
+have left out my switch back pigtail for
+that Center LED remember that's the one
+that I want to turn amber when the turn
+signals come on so each of those are
+there
+[Music]
+you

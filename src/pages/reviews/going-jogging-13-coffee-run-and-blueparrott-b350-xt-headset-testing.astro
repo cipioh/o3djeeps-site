@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #13 - Coffee Run and BlueParrott B350-XT Headset Testing";
+export const description = "Explore hands-free calling options and Jeep gear in our latest morning adventure with the BlueParrott B350-XT headset.";
+const youtubeId = "9Y0mIcaWOFQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-12";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "BlueParrott"
+  },
+  {
+    "label": "Product",
+    "value": "B350-XT Headset"
+  },
+  {
+    "label": "Use Case",
+    "value": "Hands-free communication while off-roading"
+  }
+];
+const externalLinks = [{"label": "If you have ever tried to take a hands free phone call in the Jeep on the road, especially with the doors off, then you know why I am looking at some options!", "url": "https://amzn.to/2Iaoo10"}, {"label": "If you have ever tried to take a hands free phone call in the Jeep on the road, especially with the doors off, then you know why I am looking at some options!", "url": "https://amzn.to/2wyvFlR"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to another exciting episode in our Jeep adventure series. Today, we’re hitting the open road for a coffee run while testing out the BlueParrott B350-XT headset. As any off-road enthusiast knows, maintaining clear communication while on the move—especially with the Jeep's doors off—can be a challenge. This discussion will cover the practicality of hands-free devices in the Jeep and some useful modifications to improve our casual outings.</p><h2>Main Points</h2><p>Our journey begins with preparations for the coffee run, where I spoke about updating my overnight gear setup. A rain cover has been added for extra protection—especially useful in unpredictable weather. I found that saving time when securing the cover made my mornings smoother, allowing me to focus on the adventures ahead.</p><p>Next, I want to mention the importance of securing your pet during drives. I’ve rigged up a lightweight harness for my dog, which clips securely to the Jeep’s framework. This provides a stable and safe anchoring point while we’re cruising around. It's these little adjustments that enhance both our safety and enjoyment on the road.</p><p>Now, let’s dive into the real reason for this discussion—the BlueParrott B350-XT headset. In the Jeep, wind noise can often drown out sound, making a simple phone call quite frustrating. With this headset designed to cut down on background noise, I was eager to see if it lived up to the claims of superior performance. The model is specifically touted for its ability to block out up to 96% of background noise, making it a strong contender for off-road use.</p><h2>Practical Implications</h2><p>As I tested the headset while driving with the doors off, the results were promising. It not only facilitated hands-free phone communication but also enhanced my recording experiences while on the move. Like many Jeepers, I cherish capturing moments, whether it’s scenic views or the excitement of a spontaneous drive. Using this blend of equipment allows a seamless flow of communication and creativity.</p><p>Moreover, modifying your Jeep isn’t merely about aesthetics or rugged capability; it’s also about enhancing your experience, both off-road and on-road. These small but impactful upgrades, like investing in the right gear, can significantly improve how you interact with your vehicle and surroundings.</p><h2>Key Takeaways</h2><p>To wrap up, integrating high-quality communication devices into your Jeep can elevate your off-roading endeavors tremendously. The BlueParrott B350-XT headset offers an appealing solution for noise cancellation and connectivity while on the trail. Remember, whether you're setting out for a casual coffee run or embarking on a challenging off-road trip, stay equipped and enjoy the journey!</p><p>Thanks for tuning in, and be sure to join me next time as we explore more modifications and gear that can enhance our adventures. Until then, happy trails!</p>
+
+</article>
+
+</SiteLayout>

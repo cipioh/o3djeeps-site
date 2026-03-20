@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Krazy Beaver Shovel AKA Murder Spork VS Seymour Super Shovel";
+export const description = "A detailed comparison of the Krazy Beaver Shovel and Seymour Super Shovel, ideal for off-roaders and outdoor enthusiasts.";
+const youtubeId = "cc0yyqRtBK8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-22";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Krazy Beaver Tools"
+  },
+  {
+    "label": "Product",
+    "value": "Krazy Beaver Super Shovel"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Roading, Search and Rescue, Outdoor Activities"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://krazybeavertools.com"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>When it comes to off-road shovels, the Krazy Beaver Super Shovel stands out as a rugged tool designed for serious work. Unlike typical gardening shovels, the Krazy Beaver is built from heat-treated steel and designed for durability under challenging conditions. Whether you're digging through hardened ground or snow, this shovel promises to perform when it matters most.</p><h2>What Stands Out</h2><p>The Krazy Beaver Super Shovel, affectionately dubbed the 'Murder Spork' due to its aggressive look and function, is not just an upgrade from your typical garden variety shovel; it’s specifically tailored to meet the needs of off-roaders and emergency personnel. The shovel's heavy-duty construction and thoughtful design make it equally suitable for outdoor adventures and search and rescue missions. The unique attributes like the removable D-Grip handle, storage capabilities, and enhanced durability truly elevate its practicality.</p><h2>Design and Features</h2><p>The shovel measures 40 inches in total length and sports a head constructed of 13-gauge heat-treated tempered steel. This thickness is double that of standard residential shovels, making it robust enough to handle extreme activities like penetrating ice or clay. The shovel features:</p><ul><li><strong>Reinforced Teeth:</strong> Designed to resist bending and breaking under stress.</li><li><strong>Powder Coating:</strong> Both the head and handle are powder-coated to enhance rust resistance.</li><li><strong>Lightweight Fiberglass Handle:</strong> The handle is not only strong but also lightweight, featuring a stealthy black finish.</li><li><strong>Storage Capacity:</strong> The D-Grip handle has a hollow section perfect for packing emergency items.</li></ul><p>In comparison, the Seymour Super Shovel, while also sturdy, is primarily a garden tool. The Krazy Beaver has gone through a more stringent manufacturing process to enhance quality control and durability.</p><h2>Real-World Use</h2><p>Users in the off-roading community have praised the Krazy Beaver shovel for its versatility and durability. On trails where standard shovels might falter, the Krazy Beaver excels, making it a crucial part of any recovery gear. Its ability to cut through roots and tackle tough terrain makes it indispensable for those who venture off the beaten path. Additionally, the ability to use it with gloves due to the design of the lock pins simplifies the user experience in rugged conditions.</p><h2>Who This Is For</h2><p>The Krazy Beaver Super Shovel is designed for outdoor enthusiasts, overlanders, and anyone who finds themselves needing a reliable shovel in extreme situations. If you’re a camper, hiker, or someone engaged in tasks requiring heavy-duty tools, this shovel will meet your needs. It's particularly beneficial for those involved in search and rescue operations or any outdoor work where a traditional shovel just doesn't cut it.</p><h2>Key Takeaways</h2><p>In summary, the Krazy Beaver Super Shovel is a noteworthy investment for serious adventurers. It's built to last, designed to perform under pressure, and offers features that add convenience and functionality. While the Seymour Super Shovel may be sufficient for garden work, when it comes to off-road adventures, the Krazy Beaver is unparalleled in terms of performance and durability. This shovel can be your best friend in challenging situations, making it a must-have in your outdoor gear collection.</p>
+
+</article>
+
+</SiteLayout>

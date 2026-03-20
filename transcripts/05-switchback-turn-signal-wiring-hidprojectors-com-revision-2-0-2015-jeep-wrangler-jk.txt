@@ -1,0 +1,214 @@
+well as you can see it's a snow day here
+in Maryland but I'm not gonna let that
+stop me from showing you how to finish
+off this hid projectors revision 2.0
+Signature Series with switchback
+installation so what I have left to do
+is tap into the turn signal circuit so
+we're going to tap into this guy using
+these wires right here so I've got the
+heater running right here some of the
+snow is finally starting to melt off I'm
+gonna pull that grille off one more time
+show you how I finished wiring in the
+passenger-side halos and I did it from
+the driver's side so the thing about
+vehicle wiring is there are so many
+different ways to achieve the same end
+result and a lot of different
+preferences particularly if you have
+installers who do a certain type of
+wiring they'll never use this and
+they'll always use that so lots of
+options do whatever makes the most sense
+for your situation but I'm gonna show
+you how I did it for mine having the
+grill off was nice because I could show
+you how I ran those wires but I will say
+having the grill off is nice because it
+makes it much easier to get into here
+and and tap into this turn signal
+circuit I see a lot of people try and do
+that from underneath you've got a little
+bit of room here and it ends up with a
+really janky sort of a wire tap with
+some not so pleasant to look at and
+probably not very secure wiring done but
+if you pull off the grill you can see
+you've got a lot more room to work with
+so what we're going to do is tap into
+one of these wires and I'll show you
+which one because we're going to test it
+so because I have all of my wiring from
+the passenger side ran over to the
+driver's side where I have all my
+connections for my headlights and my
+halos and angel eyes and all that stuff
+the one thing I do need to still do is
+tap into the passengers
+side turn signal but my connector is
+over here not over there anymore so I'm
+just going to run one wire from the turn
+signal over I'm just gonna take and make
+a jumper and basically what I'm gonna do
+to tap into the turn signals is make two
+of these jumpers one of them longer to
+get from the turn signal over and then a
+short one that's right here for the
+driver side turn signal and then up
+behind that light so just going to take
+a length of wire one is gonna be bare
+I'll show you why and the other end is
+going to have the female Spade
+connection to tap into the male Spade
+connection that's already there on the
+wiring harness alright here we go is
+basically what I have this is the long
+one the short one looks just like it
+except you know shorter so one end is
+bare and I'll show you how we're gonna
+fit the bear in I'm gonna go ahead and
+strip off maybe two inches of this
+sheathing off the wire and I'll show you
+why so I'm gonna go ahead and build and
+install the passenger-side one and then
+I'll show you the driver's side one in a
+little bit more details just a better
+angle for getting video alright so I've
+got my turn signal on and just using a
+test light to verify I'm pretty sure I
+know yep that's it so it is going to be
+this white wire on the end that's the
+one we're gonna tap into and what I want
+to do is pull this little bit of wire
+harness off and and get back up in there
+and make sure you go ahead and turn off
+your turn signal you're not going to
+need that anymore
+it's very duct tape II
+more tape okay so now we can break out
+the wire we want again it's that wire on
+the end now again there's a couple ways
+to do this you can t tap into it
+military supplies so I pushed it through
+I don't see there goes through there and
+basically comes out down here next to
+and behind the headlight which is where
+our existing wiring is running that way
+I can have it all sort of run up
+together and it won't look unsightly and
+will also be protected all right so what
+I want to do is carefully remove some of
+the sheathing off of this wire without
+actually cutting the wire because I'm
+going to use what's called a I've always
+heard it called a military tap but
+basically instead of separating the wire
+what you're doing is splitting it in
+half
+and so the wire itself the integrity of
+the wire is not disrupted as opposed to
+what would happen if you cut it and then
+and then re spliced it right so this
+wire this wire is just as whole as it
+was before I took the sheath off it's
+just now been exposed this is how I like
+to tap into existing wires and I'm gonna
+use my test light to split that where I
+are basically right in the middle and
+now I've just made a little hole in
+there that conveniently will allow me to
+tap in this new wire just like threading
+a needle so bring it down like that and
+I'm gonna wrap a couple of turns on one
+side of that wire and then I'm gonna
+come around and then wrap a couple of
+turns on the other and I'm just gonna
+finish it off I realize my camera
+decided not to play nice but that's what
+I end up with so threaded it through
+wrapped a couple times on this side of
+the purple wire and then went on to the
+other side wrapped a couple wires and
+basically have a an actual mechanical
+t-tap now this is going to be very
+strong without solder so a lot of people
+are gonna decide they want to solder
+this joint right here but to be honest
+with you I don't like that idea so this
+joint is gonna hold very well
+just the way it's tied together and at
+this point it's still easy to reverse so
+this method will work really well
+without solder it'll be fine if you do
+decide to solder it what I'm gonna do is
+put a zip tie on that as a strain
+reliever and it shouldn't go anywhere so
+the zip tie is gonna go at the top of
+the joint that basically is going to
+tighten up and suck up those two wires
+so they're not able to move freely I did
+it while the liquid electrical tape is
+still wet so that that could sort of
+mush in all together and then form a
+nice watertight seal around the entire
+perimeter so I'm going to let that dry
+and it'll come back and clean it up all
+right now that that is dried for the
+most part reapply tape and I'm just
+going to go ahead and roll all the way
+up and passed this jointed area you
+cannot tear this tape you have to cut it
+will not tear alright there we go now
+what I'm going to do is get this loom
+back in
+all right so now that's like that and
+next I'm gonna wrap on the outside of
+this this is overkill I get it for what
+most of you are going to do sometimes I
+enjoy the process of trying to make
+these things look as factory-fresh as
+possible alright so there we go that is
+how we have tapped in to that turn
+signal circuit and by golly that is a
+fine job if I do say so myself and then
+this side I think looks pretty good so
+this wire is running up and comes along
+here with all this loom comes up and
+then taps into the harness here
+everything is buttoned down and tidy all
+right and now the grill goes back on now
+if you've never done this before with
+the grill really the thing you need to
+know is you have to get the bottom lined
+up again this is harder because I have a
+winch here and there's a sinner indexing
+post that has to go into place first and
+once that gets lined up with its hole
+then all the other clips should line up
+and then click into place and don't
+forget to click the sides then our
+little plastic rivet things go in leave
+them extended push them in and then push
+the top down that's pretty easy I can
+plug back in the turn signals which you
+can't even tell it's been modified now
+looking at it from the outside
+all right here we go this is the final
+moment of truth right blinker left
+linker hazards boom alright guys that's
+it that's the revision 2.0 Signature
+Series with switchback HID headlights
+from hid projector calm and yeah it's
+been a really fun install and like I
+said as you've probably seen this video
+this can can be either really simple or
+really complicated depending on how you
+want to do it so sometimes I go
+overboard in other areas in short cut
+other areas you may do the same but in
+the end you have many options here on
+how you want to do this install so
+anyway guys thanks for watching I'll
+catch you on the next one
+[Music]

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Christmas Eve Eve Update! Project 2004 Jeep Wrangler TJ";
+export const description = "Get the latest on the 2004 Jeep Wrangler TJ build, including rear suspension upgrades and tire installations.";
+const youtubeId = "6o3eqZ-rHOY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-12-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Wrangler TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Adventures"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this update on the Project 2004 Jeep Wrangler TJ, we delve into the progress made as the holiday season approaches. The excitement is palpable, especially with the planned improvements for the vehicle, intended to enhance its performance during off-road adventures. Join me as we explore the latest developments and what lies ahead for this build.</p><h2>Main Points</h2><p>The rear suspension is now fully complete, and a set of robust 33-inch tires has been mounted—an upgrade that not only improves aesthetics but also boosts off-road capabilities significantly. Initially, when the Jeep was lowered after the suspension work, it appeared quite high, offering a stark contrast to its previous stance. As Jeep enthusiasts know, switching to bigger tires can transform the entire look and feel of a vehicle, and this project is no exception.</p><p>Other notable updates include the careful mounting of the spare tire to the tire carrier, signifying work on both functionality and appearance. As we move towards the front end of the build, there’s excitement about what improvements can be made there, though it remains to be seen how easy or challenging that process will be.</p><h2>Practical Implications</h2><p>One of the challenges faced during this update was ensuring everything fit properly after the body lift. When lifting the body, it's essential to adjust components like the filler neck, which often stretches due to the change in height. In this case, the rubber hose connecting to the fuel tank fell short, requiring significant effort to re-adjust everything. Such experiences are common and serve as valuable learning moments for any Jeep builder or modifier.</p><p>An important tip shared was using a visual reminder for fluid checks. A key stabbed into the differential serves as a helpful cue to check the fluid levels, ensuring everything is ready before taking the Jeep out for a ride. Such simple reminders can help avoid oversight, especially in lengthy builds where multiple tasks are in play.</p><h2>Key Takeaways</h2><p>This update on the 2004 Jeep Wrangler TJ highlights the ongoing process of enhancing a beloved vehicle for off-road adventures. Key improvements include:</p><ul><li>Completion of rear suspension upgrades</li><li>Installation of 33-inch tires which significantly enhance off-road capabilities</li><li>Adjustments needed for the fuel filler neck post-body lift</li><li>Utilization of visual cues to aid in maintenance and checks</li></ul><p>As we look forward to completing the project, the anticipation builds not just for the finished product but for the adventures it will surely bring. Stay tuned for more updates and exciting content on o3djeeps.com as the Jeep gets closer to hitting the trails!</p>
+
+</article>
+
+</SiteLayout>

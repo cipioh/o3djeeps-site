@@ -1,0 +1,17 @@
+🔔 Please CLICK THE BELL if you want to see my videos! 🔔
+
+
+In this video I finally get to installing the Omega proximity sensor for my Excalibur AL-1775-3DB Alarm and Remote Start system. I placed this in the lid of the center console for a couple of reasons:
+
+1.  It's an easy location to install, and easy to run wires to
+2.  It's practically dead center in the passenger area of the Jeep! 
+
+This required lengthening the wires for the prox (motion) sensor...but I show you how I used wires I already had. I borrowed some length of wiring from shock sensor that wasn't needed. 
+
+The AU-94TM is designed to provide both internal and external zones of protection for the vehicle. When the exterior zone is penetrated by someone, a pre-warn signal is generated and sent to the security system's pre-warn input. When the interior zone is violated, the system immediately triggers.
+
+Features:
+• Dual zone sensing protects both an inside and outside of the vehicle
+• Each zone is independently adjustable
+• LED sensitivity test light
+• Pre-wired 4-pin plug allows easy connection to all Omega systems

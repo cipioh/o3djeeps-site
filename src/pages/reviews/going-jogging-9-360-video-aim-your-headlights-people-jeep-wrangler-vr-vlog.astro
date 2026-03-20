@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #9 - 360\u00b0 VIDEO! - Aim Your Headlights People! Jeep Wrangler VR Vlog";
+export const description = "Learn how to properly aim your Jeep's headlights to ensure safety and compliance with fellow drivers.";
+const youtubeId = "mRwXNO5HP4o";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-01-19";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "General Rule",
+    "value": "2-inch drop over 25 feet"
+  },
+  {
+    "label": "Tip Location",
+    "value": "Use a flat wall for adjustment"
+  },
+  {
+    "label": "Vehicle Type",
+    "value": "Jeep Wrangler"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>When it comes to enjoying your Jeep, safety on the road is a top priority. However, many Jeep owners overlook an essential aspect of vehicle modification: headlight alignment. In this tutorial, we'll discuss how to properly aim your headlights, especially after lifting your Jeep or upgrading your lighting system.</p><h2>What This Covers</h2><p>This article provides step-by-step instructions to ensure your headlights are aimed correctly. Proper alignment not only enhances your visibility while driving but also prevents blinding other drivers on the road. We'll explore the common misconceptions surrounding lifted Jeeps and aftermarket headlights, and how to resolve this issue effectively.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Understanding the Problem:</strong> Lifting your Jeep or installing aftermarket headlights can cause your headlights to point inappropriately. From the factory, headlights are designed to cast light downward at a slight angle. Modifications can alter this angle, resulting in bright lights shining directly into oncoming traffic.</li><li><strong>Initial Setup:</strong> Find a flat surface, such as a parking lot, and a nearby wall. This will serve as your reference point for adjusting your headlights.</li><li><strong>Marking Hot Spots:</strong> Pull your Jeep up to the wall so that your headlights are just inches away. Use tape to mark where the brightest part of the light beam hits the wall. This will act as your guideline.</li><li><strong>Adjustment Position:</strong> Move your Jeep back approximately 25 feet from the wall. Check the position of your taped marks against the hot spots.</li><li><strong>Align the Headlights:</strong> If the marks on the wall show that your headlights are aiming too high, it's time to adjust them. The goal is to achieve a 2-inch drop from the marks you made. This will ensure they are aimed safely and effectively.</li><li><strong>Final Check:</strong> After making the adjustments, take your Jeep for a short drive at night to test the new alignment. Observe whether other drivers are still flashing their brights; if they are, you may need to adjust again.</li></ol><h2>Helpful Tips</h2><ul><li>Invest in quality aftermarket headlights that are well engineered to ensure a proper beam cutoff.</li><li>Regularly check your headlight alignment after making any significant changes like lifting your Jeep or altering tire pressure.</li><li>If other drivers are flashing their brights at you consistently, it's a clear sign that your headlights may need adjustment.</li><li>Don't take it personally when drivers flash their lights; see it as an opportunity to enhance your Jeep's setup and safety.</li></ul><h2>Key Takeaways</h2><p>Aiming your headlights is a simple yet crucial part of Jeep ownership that ensures safety for you and others on the road. By understanding the relationship between Jeep modifications and headlight alignment, you can prevent unnecessary glare for oncoming drivers. Take the time to adjust your lights correctly, and your fellow road users will appreciate the effort. Happy Jeeping!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Installing JKS Adjustable Track Bar - Project 2004 Jeep TJ Wrangler - Howto Center Front Axle";
+export const description = "Learn how to install a JKS Adjustable Track Bar on a 2004 Jeep TJ Wrangler for improved axle alignment.";
+const youtubeId = "eGW6epC5s5s";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-12-30";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "JKS"
+  },
+  {
+    "label": "Product",
+    "value": "Adjustable Track Bar"
+  },
+  {
+    "label": "Use Case",
+    "value": "Centering front axle on Jeep TJ"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to the hands-on guide for installing the JKS Adjustable Track Bar on your 2004 Jeep TJ Wrangler. This modification not only enhances your vehicle's performance off-road but also ensures that your axles are aligned correctly for optimal driving experience. Centering your axle is crucial, especially after lifting your Jeep or making other modifications.</p><h2>What This Covers</h2><p>In this article, we’ll guide you through the installation of the track bar, a step-by-step process that includes removing the old bar, installing the new one, and ensuring proper axle alignment. Whether you’re working in your garage or on the trail, you’ll find these tips useful.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Remove the Old Track Bar:</strong> Start by loosening the castle nut on the frame side with a cotter pin. A ball joint spreader tool can help pop the tapered stud free. Don’t forget to take out the bolt at the axle side.</li><li><strong>Install the Zerk Fitting:</strong> Installing a Zerk fitting on the new track bar allows for easy greasing and maintenance in the future. Take this time to secure it before continuing.</li><li><strong>Correct Orientation:</strong> Pay attention to the orientation of the track bar; the Zerk fitting should point outwards while the hoop pushes up and away from the differential.</li><li><strong>Drill for Bolt Fit:</strong> You may need to drill out the mounting hole to fit the new 9/16 inch bolt through the frame bracket.</li><li><strong>Adjust for Height:</strong> Before bolting the track bar into place, set the tires back on the ground to ensure the Jeep is at ride height. This is crucial for the proper adjustment of the track bar.</li><li><strong>Align the Axle:</strong> Use a thread or string method to ensure the axle is perfectly centered under the Jeep. Measuring from the same points on both sides helps ensure accuracy.</li><li><strong>Final Installation:</strong> Once you’re confident the axle is centered, attach the track bar using the provided bolts and tightening methods discussed. Apply anti-seize lubricant to prevent future issues.</li></ol><h2>Helpful Tips</h2><ul><li>Always wear safety equipment when working on your Jeep.</li><li>Have the necessary tools ready, including a ball joint spreader, wrenches, and a drill.</li><li>Keep a level at hand to ensure accurate measurements while adjusting.</li><li>Grease the track bar regularly after installation to prolong its life.</li><li>If you’re unsure about fitting or centering, consider reaching out to a fellow enthusiast for assistance.</li></ul><h2>Key Takeaways</h2><p>Installing the JKS Adjustable Track Bar is a rewarding experience that can significantly improve your Jeep's handling and performance, especially off-road. By following the steps outlined here, you can ensure a properly aligned axle and a smooth driving experience. Remember, a well-maintained track bar translates to better tire wear and overall durability of your vehicle.</p>
+
+</article>
+
+</SiteLayout>

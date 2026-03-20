@@ -1,0 +1,368 @@
+[Music]
+hey everyone Scipio here and I'm back to
+working on the installation in
+overclocked with the Omega Excalibur
+alarm system this time I've got the
+linker so you've heard me talk about the
+linker in previous videos if you go back
+to the very first video where I
+introduced this xcalibur alarm system I
+mentioned something about GPS tracking
+and smart phone control this is the guy
+that's going to do it
+now they've been working to revamp the
+whole linker product line so they have
+this that they just came out with the
+linker lt1 it's a light version of the
+linker they're working on a more robust
+version here in the near future that's
+going to come out it's going to be the
+full-featured version that will also
+give you some additional functionality
+so what do you get in the lt1 will you
+get basic GPS tracking you get alert
+notifications if your alarm goes off to
+your smart phone and you can control
+unlock lock and remote start on off from
+your smart phone in the full-featured
+version later on they're gonna be able
+to do things like geofencing and other
+interesting things that is above and
+beyond but anyway I'm gonna get to
+installing this but I'll take you onto
+the bench and I'll show you what wiring
+harness wires you need and what you need
+to do to get this done alright so again
+this is the linker unit itself pretty
+tiny little guy here and the box it
+comes in now there are a plethora of
+wiring harnesses and the instruction
+sheet sort of tells you exactly which
+ones you need to install as you can
+imagine it's designed to fit with a
+variety of products but the good news is
+because we're using a 70 series xcalibur
+alarm system we really only need this
+main harness and then not all of these
+wires alright so this one harness this
+is the main big harness basically one
+side is going to go into the linker the
+other side is going to plug into our
+alarm system brain now there are some
+other wires that are pigtailed off of
+here a red black and a yellow we
+not going to need the red and black I'm
+going to cut those and tape those off
+those are if if you need it for a
+different alarm system that doesn't get
+power through the brain but ours will
+send power and ground through there so
+we don't need it the only one we do need
+is the yellow what the yellow does is
+allows us to get triggering events sent
+to our cell phone that our alarm has
+gone off so we're gonna tap this into
+the siren wire on our wiring bundle so
+I'm not gonna take you with the camera
+up underneath I've been under there a
+lot so I've done a lot of videos on the
+installation of this where I've shown
+you exactly how things are gonna go just
+know that the alarm siren wire that's
+what I'm gonna tap this yellow went into
+using the same methods for tapping into
+wires that I've used before so go back
+and review those older videos if you
+don't know what I'm talking about but my
+assumption is if you're installing the
+linker you've already been through my
+install series and you know exactly what
+I'm talking about all right so I went
+ahead and pulled my alarm system out of
+the Jeep because I need to update the
+firmware so that is the one catch here
+is if you are adding the linker module
+you need to have at least version 1.4
+firmware in your xcalibur system now if
+you buy a new unit let's say you you
+order now after this video is made from
+kicky ride comm you order it you will
+already have version 1.4 but if you
+already have the the previous version
+which is 1.3 you need to update it now
+like I said if you buy it the system it
+will already be updated for you so if
+you've already got a unit and you need
+to update it you can use this Oh el
+loader but you don't have to buy one you
+can contact my kit kicky ride and he's
+putting together some loaner program
+where you can get this link or tool and
+use it to update and then send it back
+and when that happens they'll give you
+all the instructions on what you need to
+do it but I'm going to update my
+firmware really quick and then I'll show
+you the rest of the process so it's
+important to know that you do have to
+have this alarm system completely
+disconnected from everything when you
+update the firmware so that's why I went
+ahead and pulled it out of the Jeep just
+bring it in here and
+and updated on the desktop all right
+there we go non flashing the update from
+version 1.3 that I had to version 1.4
+anyway all this will be explained to you
+if you need to update the firmware again
+this is only going to be an issue if you
+already have an existing system that
+you're adding the linker to so while
+that's going let's go ahead and cut
+these wires that we're not going to need
+so I'm gonna cut them in a staggered
+configuration just so that they're not
+touching and then I'm gonna tape those
+off leaving that yellow wire
+alright there we go it shows my flashing
+is complete and I've taped off the wires
+I'm not going to need I just have this
+yellow wire and bonus with every order
+you get a free fuse holder and a fuse so
+hang on to that you might need it
+sometime so on the linker you're gonna
+plug this harness in it's kind of nice
+there's only one place to put it makes
+it nice and easy and then on the
+xcalibur it's going to go into the data
+port which is that same port we just use
+to update that black port and then
+that's it again we're good to go
+we actually don't ever need to use this
+yellow wire if we don't want to but this
+is how we're gonna get notifications if
+our alarm is triggered so if my alarms
+going off I want to get an alert so I
+want to put this yellow wire on so if
+you're not interested in that capability
+you don't even need that wire you can
+just plug in just like this and then be
+good to go alright this obviously isn't
+a problem with my install and it may not
+be with 99% of you if you're doing the
+same sort of an install but just in case
+I want to let you know if for whatever
+reason you're a black port your data
+port is in use by something else you can
+use this green port but you need to use
+this extra adapter that comes in the
+package and that's basically allow you
+to adapt this harness to that green port
+I'm not using that but I thought I would
+mention it just in case somebody runs
+into that situation where that black
+part isn't available or you don't have
+one maybe you got a different model so
+alright so I'm going to throw this in
+the Jeep get it all button back up and
+then I'll show you the smartphone app
+how to configure it set it up and then
+how it works all right so I did get the
+linker installed everything back with
+the alarm system and just want to show
+you here I've got the solid green
+and red light which tells me it is
+connected and everything is working fine
+the cellular signal and the GPS signal
+are both connected so that's good and
+I'm actually inside a garage so that's a
+good sign that I've got that I've got
+that signal immediately so that's
+awesome and where I'm gonna put this I
+don't yet know so I still have to sort
+that out obviously I'm gonna default to
+try and keeping it hidden in this area
+and then I'll have to see if my location
+impacts its ability to connect I'll play
+around with it here in a second and see
+what I come up with but in the meantime
+because I do have an active connection I
+would like to install the app and get
+that out setup so for that I'm going to
+use this card here that walks this
+step-by-step through the process alright
+so I'm on Android I think this applies
+to both I'm gonna use this my car app so
+I've got to install that so we're
+installing the my car controls up let's
+open that what do we got here alright so
+I need to create an account super secret
+stuff alright they just sent me an email
+that is allows me to set my password
+alright I set my password and says my my
+car controls account is activated I'm
+going to go back to the mobile app and
+log in alright so I'm in I'm going to
+tap here to add a vehicle and it's
+asking for the device serial number
+which is on the device itself but also
+there's little stickers that come with
+it that you can use for that so let me
+do this real quick boom okay so there's
+my car alright so now it isn't estimate
+which is why you have this release a
+vehicle thing so if you're a dealer and
+you're installing this for somebody you
+can set it up test it and then release
+it and then the user can go in and
+reclaim it so let's just look at my car
+and we need to set the protocol so I'm
+gonna leave the protocol at default of
+80s hit confirm then I'm gonna give my
+car a name unfortunately it's a Jeep but
+oh well I'll let it slide overclocked
+all right there are auxiliaries which I
+will play with later you can do things
+control auxilary so that's kind of
+interesting image let's see what image
+we want okay
+so 2015 Jeep Wrangler Unlimited boom oh
+it's even anvil that is awesome you can
+set it as a Rubicon Asahara it's the
+same picture I'm just gonna leave it at
+that that's kind of cool though at least
+it's the right color for overclocked
+alright confirm yeah anvil clearcoat of
+course alright let's go into okay here
+alright so now I'm in here in test mode
+still I haven't released the vehicle to
+myself pretending like I'm an installer
+and you can see here that it's got a
+signal to the car in this case it's got
+a signal to the Jeep and that's my
+battery voltage right now 13.1 so I can
+start lock stop unlock doors are
+currently unlocked let's locate vehicle
+real quick oh man
+yeah that's pretty accurate okay yeah
+that's pretty awesome alright so let's
+get it out of test mode and then I'll go
+button things up and then keep playing
+with it so we will go back to the main
+screen here and I'm gonna do release a
+vehicle alright so I'm going to release
+and device has been successfully
+released so now I'm going to go back in
+and re add the vehicle we add the code
+all right and now it is no longer in
+test mode you can see here overclocked I
+can click on it and boom there you go I
+am ready to control of the vehicle what
+if I lock it oh nice says doors are
+unlocked but doubt doors are locked
+oh so I get an indication that it
+received the signal and then I get an
+indication that the signal works so I'm
+going to unlock oh yeah I just heard it
+outside unlocked oh that's pretty
+awesome it's in the garage now so I'm
+not gonna remote start it but let me go
+button this thing up and then we'll do
+some more testing but yeah there we go
+this is the beginnings of a long-lasting
+relationship with me and my vehicle
+through the linker that's pretty awesome
+alright so I got everything put away I
+wanted to show you where I put it so the
+brain is down here the linker is right
+over there you see it
+I literally stuck it with double stick
+tape to the side of this speaker
+enclosure and I'll show you why here in
+a second but if you look in there you
+can see how I have it mounted the the
+LED lights are up and the side that's
+supposed to be up is facing out I'm in
+the garage and I still have a connection
+with it there I know they said three
+feet away from metal which is impossible
+in a vehicle but I think that that is a
+nice clear location that has a lot of
+space around it and of course the other
+benefit is those status lights tell me a
+lot right so I'll know if I've got a GPS
+signal and a cellular signal but once I
+button everything up check it out
+alright so one of the reasons I picked
+that spot is you can see even after
+everything's all buttoned up you can
+look in there and see the status of the
+of the system so if I ever have any
+issues I know where to look to find out
+if if I've got good connect
+or not so time will tell if I'm gonna
+have any problems with that or not but I
+think it's gonna be a good spot so now
+let me get everything put back together
+and then we'll go out and test it all
+right I am out here kind of sort of away
+from people not super far away but let's
+let's see how this thing's going to work
+for us first of all it looks like when
+you pop it open it takes a couple of
+seconds for it to connect and update I
+don't see a way to refresh by pulling
+the screen down so I'm going to load up
+overclock here and there we go I'm going
+to lock of the vehicle and again this is
+going through the cellular network look
+at that okay locked I get a confirmation
+back that says that the vehicle is
+locked or is that confirmation there we
+go it says in the middle doors are
+locked let me unlock it
+there we go unlocked alright that's
+pretty awesome and you know that's not a
+bad delay remember it's completely
+dependent upon going through the
+cellular network let me start it
+all right Chuck nice tone to tell you it
+started
+and I have a feeling I'm gonna get a run
+time and there's the countdown 15
+minutes is what I set my run time to so
+it'll tell me how much time I have left
+I'm gonna go ahead and stop it
+just like that so that's pretty awesome
+now what I need to do is test the alarm
+reporting so I'm gonna go ahead and lock
+it and set the alarm now you do have to
+have the alarm set off for at least 10
+seconds or it will not send an alert to
+your phone the reason is it's getting
+its signal from the alarm siren and if
+you recall correctly every time I arm
+and disarm its using the siren as a
+chirp so it doesn't want to send signals
+for that kind of stuff so the alarm has
+to be going off for about 10 seconds
+before it will finally decide to say
+okay yeah we'll send a notification to
+him so I do have pre warned so like that
+is not going to trigger anything on the
+app it needs to actually alright so I
+had to turn that off I did get a
+notification alarm detected let's let's
+do a quick GPS tracking find our vehicle
+locate vehicle
+where am I where in the world is
+overclocked yep that's where I'm at so
+good job there so it is working as
+expected and yeah so that's it that is
+how the linker works to integrate your
+alarm system with your cell phone and
+now my installation is finally complete
+so thanks for watching guys I'll catch
+you on the next one
+[Music]
+[Music]

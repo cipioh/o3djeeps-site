@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #5 - Snow Day Driving, My LED headlights and Halos, and some other randomness!";
+export const description = "Join us for a snowy Jeep drive as we explore snow driving tips and the advantages of LED headlights with halos.";
+const youtubeId = "ZBiw2dP5CD0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-01-04";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Mods, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Generic LED"
+  },
+  {
+    "label": "Product",
+    "value": "LED Headlights with Halo Rings"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Driving and Visibility"
+  }
+];
+const externalLinks = [{"label": "In this video I take you on a \"snow day\" drive... which actually turns out to have been not too bad of a mess.  I talk a little about snow and ice driving, then dig into a question from a subscriber about my headlights with halos, and talk a bit about lighting in general. Next, its some random drive time and Jeep spotting!", "url": "http://amzn.to/2CG5hZ1"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the latest installment of our video series, we embark on a snowy adventure that combines real-world Jeep driving experience with some valuable insights about vehicle lighting. From navigating slippery conditions to enhancing visibility with custom LED headlights, this episode is packed with practical knowledge for fellow Jeep enthusiasts.</p><h2>Main Points</h2><p>The first part of our journey focuses on the unpredictable challenges of driving in snow and ice. While many of us enjoy the beauty of a snow day, it's crucial to acknowledge the dangers that accompany it. Understanding the basic principles of driving in these conditions is essential:</p><ul><li><strong>Stopping:</strong> The most vital skill in snow driving. If you can't stop safely, no amount of four-wheel drive will help you.</li><li><strong>Steering:</strong> Being able to maintain control of your vehicle is just as important as stopping.</li><li><strong>Going:</strong> Getting traction is key, but remember that four-wheel drive does not guarantee safety when stopping.</li></ul><p>Equipping your Jeep with snow gear, like boots and jackets, isn't merely for comfort; it's a practical precaution for any unexpected situations that may arise while off the beaten path. In fact, being prepared can help you assist others who may find themselves in need.</p><h2>Practical Implications</h2><p>As we progress through the snowy roads, I shift focus to a subscriber’s question about my custom LED headlights with halos. These lights aren't just for style; they are a vital component in improving visibility during those dimly lit snowy conditions. With a duo of amber halos providing a unique touch to my Jeep, it's important to consider both aesthetics and functionality.</p><p>Several options exist for Jeep lighting upgrades. My LED headlights are cost-effective, coming in at around a couple of hundred dollars, but I’ve also looked into premium brands like Truck-Lite and JW Speaker for their higher-quality offerings. Custom modifications like those from Retrofit Factory can add even more personality to your Jeep, with options including HID lights, demon eyes, and customizable halos.</p><p>Moreover, the way I wired my halos adds another layer of convenience and functionality, with a three-position switch allowing me to control the lights based on my needs—be it showing off at a car meet or keeping a low profile in a parking lot. However, there’s a catch. The halos can interfere with my CB radio communications, which poses a challenge during trail rides. Knowing when to turn off the halos for clear communication can be a game changer for maintaining safety in a convoy.</p><h2>Key Takeaways</h2><p>Ultimately, this snowy adventure showcased how essential it is to think beyond the performance of your Jeep. Understanding driving principles in adverse weather can save lives. Equally, personalizing your vehicle with lighting that enhances both safety and style is a rewarding investment. If your Jeep isn't properly equipped for snow, now’s the time to consider modifications that elevate safety and visibility. Follow us on future adventures as we continue to explore, build, and learn together in the world of Jeeping!</p>
+
+</article>
+
+</SiteLayout>

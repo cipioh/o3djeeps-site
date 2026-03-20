@@ -1,0 +1,329 @@
+hey there CP oh here in this video I'm
+going to show exactly what it takes to
+prep this Excalibur alarm system and
+remote start to go into my 2015 Jeep
+Wrangler I'm going to show you exactly
+what wires you do need and a whole bunch
+that you don't so stay tuned if you're
+not subscribed to my channel go ahead
+and do that right now that way you can
+keep up with this series as well as any
+other future videos I might post on this
+channel alright so the first thing we
+need to do is take a look at the wires
+that come with this thing out of the box
+so this alarm system is designed to fit
+in any vehicle so all of these wires are
+supplied depending on what needs you
+have now in a normal situation maybe say
+six months ago I would have to use many
+of the wires in these bundles to
+complete my installation but ladies and
+gentlemen welcome to the Future because
+we have a tea harness like this from
+Omega that allows us to remove a lot of
+these wires and just use this one
+harness alright so let me help you rule
+out a lot of this that we're not going
+to need right away this gone this is
+gone this by by this big guy yeah we
+don't need this thing yeah get rid of it
+that leaves us with this and we're
+probably gonna remove most of the wires
+out of this and then we'll add that so
+let's get to it so this is a pretty
+scary bundle of wires and a very
+detailed instruction guide on where
+those wires go by the way it's also on
+the back of your system
+[Music]
+so this bunch of wires here we're not
+going to use a lot of it now I'm gonna
+hang on to these wires I may use them to
+splice and lengthen other wires this is
+pretty good wire here so I may use this
+later but what I'm going to do is help
+you identify exactly which of these
+wires we're going to need for this
+install remember this is a 2015 Jeep
+Wrangler now there's a couple of ways to
+handle this most installers will
+generally cut the wires you don't need
+just to clean things up and the
+recommendation would be obviously to cut
+them and make them all different links
+so that when you tape them together
+they're not in a position where they can
+accidentally short one another out so if
+you do choose to cut them cut them
+different links and the goal of cutting
+them is to get them out of the way but
+also leaving a little bit of wire there
+that for some reason you make a mistake
+or you change your mind or you
+reconfigure your installation you can
+still get back to that I'm going to do
+something similar by removing the wires
+from this harness and just get them out
+all together and I'm going to do it in a
+way that will allow me to reinstall them
+should I need to so this isn't
+necessarily something you have to do
+actually you don't have to cut the wires
+at all you could you know tie them off
+but that's all that's a lot of wires to
+tie off that you don't need so I would
+recommend at least cutting the ones you
+don't need and if you want to go so far
+is to remove them you can do that as
+well now there are specific removal
+tools for this most people probably
+don't have those on hand there are some
+how-tos on YouTube about using staples
+simple staples can be used to remove
+these I actually have a terminal tool
+that is a little bit too large for this
+but I've figured out how to make it work
+again if that's too hard don't worry
+about it just cut them and then tape
+them off all right so what I'm gonna do
+first is remove all the wires
+I don't need and then I'll tell you
+which wire's I left and walk all right
+here is the new 18 pin harness with the
+wires
+I don't need removed so I got rid of
+half of the wires exactly actually it's
+an 18 pin harness and I took out nine
+wires
+you're probably like CP oh I thought you
+said there was less wiring than that
+well well hang on not all of these
+number one are going to the vehicle
+some of them are going to things like a
+siren
+or a hood pan or something like that the
+other point to make is that this is for
+the increased functionality so the
+additional wires get me flashing parking
+lights and a horn honk integration so
+first I'll show you the wires that are
+mandatory and then I'll show you the
+other wires and then I'll give you a
+good look at the harness to make sure
+you know where everything is because
+it's going to be a lot easier to follow
+this than it will be to follow this
+required is this ground wire the black
+one the red and brown is mandatory that
+goes to the brake circuit and the brown
+is going to go to your siren so
+basically these three wires are required
+for minimum functionality so what else
+do I have in here well the grey one down
+here is for the hood pin and Mercury
+switch sensors the white and the green
+and violet and the red and black are all
+for the parking light flashing
+unfortunately a lot of wires to make
+that happen and then these last two the
+violet and black and the blue and black
+are for the horn honk integration and of
+course the inverse of that is there are
+nine wires I'm not using in this install
+and I'm kind of bummed about this one
+because you know orange is my jam but
+unfortunately orange has to go
+[Music]
+all right now that we have the 18 pen
+harness figured out we can move to this
+tea harness so a lot of the connections
+we got rid of in those bundles of wire
+are replaced by simple plug-and-play
+connections these two are gonna go in
+line in the ignition
+harness plug and play into the Jeep
+directly and then these two plugs are
+gonna plug into our alarm system so
+because this harness is largely
+plug-and-play I don't really need to do
+a lot to it but I am gonna get rid of
+some of these extra wires I'm not gonna
+use for this installation so I'm cutting
+these down I don't need them I left a
+little bit just in case like I said
+before if I decide to change
+configurations or for whatever reason
+these need to come into play I can still
+get to them and notice here I'm gonna
+make one a little bit shorter than the
+other one just so when I tape them
+together there's no chance of them ever
+touching so I use a 3m or scotch super
+33 super 88 this happens to be super 88
+but for all that is good and holy in
+this world please do not use cheap
+electrical tape stay away from the
+dollar store or Harbor Freight tape get
+something good high-quality that's got a
+good stretch stays flexible sometimes I
+find myself buying that Harbor Freight
+stuff and I question why I do it every
+time it doesn't stretch very well it's
+hard and it turns into a gooey mess
+later on so do yourself a favor and
+spend money on good electrical tape I
+also like to use scissors to cut the
+tape or a sharp knife or a razor instead
+of tearing it because I don't like those
+ratty stretched ends and all I'm doing
+is basically just cleaning this up so
+that it looks nice there's no exposed
+wires in particular no you know no
+chance of shorting anything out but
+mostly just so it looks nice
+there we go so those wires are now
+hidden again this is going to go into
+the ignition and then the only thing I'm
+gonna do down here is I'm gonna fold
+this back and tape that I could cut this
+off but I want to leave that bullet on
+there because I don't want to hack this
+thing up too bad there's really no harm
+and leaving this stuff but I just like
+cleaning that stuff up all right there
+we go and now I've got these two plugs
+they're gonna go into the xcalibur
+system and that's it the tea harness is
+ready to go so now what I'm going to do
+is show you this Excalibur system sort
+of all plugged in and set up where
+everything's gonna go now I'm going to
+unplug all that when I take it to the
+vehicle but I thought it'd be helpful to
+do a little bit of benchtop
+show-and-tell so you know exactly what
+we're dealing with once we get inside
+the Jeep so you have your blade here so
+you just need that there are some wires
+down here but you don't need these wires
+because we've got that fancy tea harness
+so here's another bundle of wires we can
+get rid of so this is actually going to
+go right in here there's that sliding
+door it's gonna come off and then this
+is gonna slide right into place this
+door won't fit with the blade in there
+so this can go in your junk drawer so
+our 18 pin harness that we prepped up
+before is going to go right there our
+tea harness is gonna plug in one side
+and then this is gonna plug in on that
+side so t-harness
+18 pin harness all of these we don't
+need because this blade t-harness combo
+so that's pretty awesome
+so your system came with this impact
+sensor this is going to go into one of
+the four pin analog ports that are right
+here next to this 18 pin harness if
+you're doing like me and adding in an
+additional proximity sensor this will go
+into that second analog 4 pin port
+just like that your antenna with your
+valet and programming switch and your
+warning I have an alarm LED is going to
+plug in right back here by your t
+harness plug and then the last thing
+we're gonna do is add in our battery
+backup which is going to go right here
+on the side it comes with this little
+battery holder and there's a little
+metal piece to hold the battery in I
+always use high end batteries for this
+type of stuff kind of like electrical
+tape don't skimp on backup batteries so
+you're gonna slip your battery into this
+with the terminal side towards the back
+I guess this metal piece literally just
+clip into place over there holding that
+now it's a little loose and rattling so
+what I'm going to do is get a piece of
+foam or something underneath that to
+take up that extra space so it doesn't
+rattle I mean I Drive a Jeep right so I
+want to be bouncing around and I don't
+want this thing to be making noise I
+found this piece of foam that'll work
+perfect you can use anything a folded up
+piece of paper paper towel it doesn't
+really matter I'm just going to cut off
+a little section of this and then all
+I'm going to do is set it on top
+and then wreak lamp the battery not
+super pretty but guess what it doesn't
+rattle so I'll take that now on the side
+of this xcalibur there's a little spot
+here that you can slide this battery
+assembly onto it just like that and it
+will sort of walk into place
+it fits either way then you can wrap
+this around here and attach your wire
+for the backup battery now as far as the
+other things we're going to install this
+alarm siren remember this is going to go
+to the brown wire and I'm gonna send
+this straight to chassis ground wherever
+I mount the siren we have our hood pin
+that is going to go to the gray wire on
+our 18 pin harness and it even comes
+with a blade connector for that now I am
+also adding in this it's they call it a
+mercury switch but it's no longer has
+mercury in it but it is a tilt switch
+that is going to go into the same wire
+that this goes in I'm basically gonna
+wire them together and then this one has
+a second wire that's gonna have to go to
+ground alright guys that's it this is
+the table top prep work we're basically
+ready to go take this to the Jeep and
+start the actual installation now I am
+going to be extending some wires I don't
+know exactly which ones or how much yet
+so I'll save that for when I get out of
+the Jeep but I can get a good sense of
+how much length I'm gonna need when I do
+that I'll probably use a lot of these
+wires I removed from the 18 pen harness
+and I use just standard waterproof butt
+connectors to make that connection but
+you'll see that in future videos for
+sure as I dig in to the rest of this
+installation and congratulations if
+you're still watching this video you'll
+be the first to know that I'm working a
+great arrangement with keke ride comm
+and they're actually putting together in
+a 3d jeeps comm package maybe even a
+couple of them with options that will
+allow you to easily one-stop shop and
+get this exact set up and like I said
+maybe a couple options in there for
+those of you who want more functionality
+or less functionality but it should make
+it easy so you don't have to go figure
+out which harness to buy and which blade
+to buy and all the other accessories
+it'll all be there together identified
+I'll give you the information on that
+when I get it that'll probably be in a
+different video but I'm hoping that
+makes it easier for you guys that are
+looking to do the same thing and don't
+wanna have to go figure out where to
+find it all so anyway
+thanks for watching guys I'll catch you
+on the next one
+[Music]
+you

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Giveaway Announcement - Sponsored by JM3 OVERLAND";
+export const description = "Join our exclusive O3DJEEPS giveaway sponsored by JM3 Overland, with chances to win $50 or $100 gift certificates for gear!";
+const youtubeId = "w5YoZvQvctI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "JM3 Overland"
+  },
+  {
+    "label": "Gift Certificate",
+    "value": "Up to $100"
+  },
+  {
+    "label": "Eligibility",
+    "value": "O3DJEEPS Sticker Holders"
+  }
+];
+const externalLinks = [{"label": "Yep... here's another O3DJEEPS sticker holder exclusive giveaway. This is to say thanks for supporting me and my endeavors!  Those of you who are rocking O3DJEEPS stickers on your rides are eligible to win something awesome!", "url": "http://jm3overland.com"}, {"label": "Yep... here's another O3DJEEPS sticker holder exclusive giveaway. This is to say thanks for supporting me and my endeavors!  Those of you who are rocking O3DJEEPS stickers on your rides are eligible to win something awesome!", "url": "http://jm3overland.com/our-partners"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're an O3DJEEPS supporter, we're thrilled to announce our latest giveaway! We want to show our appreciation for your support with a chance to win a gift certificate courtesy of JM3 Overland. This opportunity is not just about winning something cool; it's about connecting with our community and encouraging your passion for off-roading and Jeep modifications.</p><h2>Main Points</h2><p>The giveaway features exciting rewards: a $50 gift certificate for purchases up to $1,000 or a $100 gift certificate for purchases over that amount. JM3 Overland is a trusted name in the industry, offering a wide array of high-quality products from various brands. This giveaway isn’t just a chance to win; it’s a nudge to get you thinking about all the upgrades you might want for your Jeep!</p><h2>How to Enter</h2><p>To participate, it’s easy! Here’s what you need to do:</p><ol><li>Ensure you have an O3DJEEPS sticker displayed on your ride.</li><li>Take a clear photo of yourself holding up a sign with the required text, alongside the sticker on your vehicle.</li><li>Post this photo publicly on Instagram, Facebook, or Twitter, tagging @O3DJEEPS and @JM3OVERLAND.</li></ol><p>Make sure the entry is public so we can see it! You can find the guidelines and even purchase stickers directly from our site.</p><h2>Understanding the Stakes</h2><p>The real value of this giveaway lies in what you might want to purchase. With brands JM3 Overland partners with, you can explore a multitude of gear—be it the latest off-road accessories, recovery gear, or even camping supplies. Just think about how your Jeep could be transformed with the right tools and enhancements!</p><h2>Key Takeaways</h2><p>Don't miss out on this chance to upgrade your ride while being a part of our community. Engaging in this giveaway isn't simply about the prize; it's about celebrating the Jeep lifestyle together. So, grab that sticker, snap that photo, and showcase your passion for off-roading! May the best Jeep fan win, and thanks to JM3 Overland for making this giveaway possible.</p>
+
+</article>
+
+</SiteLayout>

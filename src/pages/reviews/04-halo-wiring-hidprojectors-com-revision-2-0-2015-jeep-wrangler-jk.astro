@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "04 - Halo Wiring - HIDProjectors.com Revision 2.0 -  2015 Jeep Wrangler JK";
+export const description = "Explore the wiring setup for Halo, Angel Eyes, and Devil Eyes in the 2015 Jeep Wrangler JK, enhancing your off-road lighting experience.";
+const youtubeId = "RvcY_npOp98";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-03-29";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "HIDProjectors"
+  },
+  {
+    "label": "Product",
+    "value": "Revision 2.0 Signature Series Switchback HID Headlights"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrading Jeep lighting with customizable LED options"
+  }
+];
+const externalLinks = [{"label": "This is the Halo, Angel Eyes, and Devil Eye wiring of my  Revision 2.0 Signature Series Switchback HID headlights.", "url": "https://www.hidprojectors.com/collections/revision-2-0"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Upgrading your Jeep's lighting can enhance visibility and aesthetics, especially when venturing off-road. In this tutorial, we're diving deep into the wiring for the Halo, Angel Eyes, and Devil Eyes featured in the Revision 2.0 Signature Series Switchback HID headlights. These headlights provide robust light output and customizable features, making them a worthy investment for your 2015 Jeep Wrangler JK.</p><h2>What This Covers</h2><p>This article covers the necessary steps and tips for wiring your new headlights, explaining the functionality of each LED component. You’ll learn about the installation of the wiring harnesses, how to make optimal connections, and how to achieve the best lighting effects on your Jeep.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Materials</strong>: Ensure you have the HIDProjectors wiring harness, a set of tools (wire strippers, crimpers), and any additional connectors needed for your specific setup.</li><li><strong>Connect the Ground</strong>: Start by connecting the ground wire to the designated ground post in your Jeep. This is crucial for all your LEDs to operate correctly.</li><li><strong>Identify Wire Functions</strong>: The harness comes color-coded, making it easier to plug in the LED drivers. Remember: orange corresponds to orange, blue to blue, and green to green. This allows for a more straightforward installation process.</li><li><strong>Wiring the LEDs</strong>: Connect the red wire for the bright LED and the white wire for the dimmer LED. This setup offers versatility, as you can choose between brighter light for driving or a dimmer light for parking.</li><li><strong>Configure the Angel Eyes and Devil Eyes</strong>: You can wire the devil eyes separately for subtle red illumination. It’s important to note that with the right configuration, you can switch the colors based on driving conditions, such as incorporating amber when using turn signals.</li><li><strong>Utilize Switch Logic</strong>: If you plan to use a switch to control your halos, ensure you're tapping into a 12-volt circuit. A three-position switch can give you control for on, off, or automatic functionality. This is particularly useful for daytime running lights.</li><li><strong>Hide the Wiring</strong>: One of the challenges during installation is managing the additional bulk created by LED drivers. Use zip ties to clean up the wiring and keep everything organized. This not only looks good but makes future maintenance easier.</li><li><strong>Final Adjustments</strong>: Once everything is wired up, adjust your LEDs to see the effects of different configurations, ensuring the halos and switchback functionality work as intended.</li></ol><h2>Helpful Tips</h2><ul><li><strong>Plan Your Wiring:</strong> Before starting, sketch out your wiring plan to avoid confusion during installation.</li><li><strong>Use Quality Connectors:</strong> Investing in high-quality connectors can prevent electrical failures down the road.</li><li><strong>Test Before Finalizing:</strong> Power on the system and test all configurations prior to securing everything. This ensures you catch any issues early on.</li><li><strong>Don’t Rush:</strong> Take your time to ensure each connection is secure; a rushed installation can lead to failures or hazards down the line.</li></ul><h2>Key Takeaways</h2><p>The Revision 2.0 Signature Series headlights are an excellent choice for Jeep enthusiasts looking to upgrade their lighting system. With the right wiring, you’ll not only improve visibility during off-road adventures but also personalize your Jeep's look. The ability to customize color and intensity adds a unique flair to your vehicle, ensuring you stand out on and off the trails.</p>
+
+</article>
+
+</SiteLayout>

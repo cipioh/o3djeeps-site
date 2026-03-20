@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "5-Tire Rotation on OVERCLOCK3D";
+export const description = "Learn the step-by-step process of performing a 5-tire rotation for optimal Jeep performance.";
+const youtubeId = "fiTSuFlDg_0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-03-11";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "N/A"
+  },
+  {
+    "label": "Product",
+    "value": "Tire Rotation"
+  },
+  {
+    "label": "Use Case",
+    "value": "Regular Maintenance"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Tire rotation is a crucial maintenance task for Jeep owners who want to prolong the life of their tires and ensure safe handling on the trails. In this article, I'll detail the steps I follow for a 5-tire rotation, sharing important tips and techniques based on my own experiences with Jeep maintenance.</p><h2>What This Covers</h2><p>This tutorial will walk you through the 5-tire rotation process I use, focusing on the tools you'll need, safety tips, and the best practices for achieving an even wear pattern on your tires.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Prepare Your Jeep:</strong> Begin by ensuring your Jeep is parked on a stable, flat surface. Engage the parking brake and ensure your vehicle is in four-wheel drive. This prevents the vehicle from rolling, especially if you're on an incline.</li><li><strong>Gather Your Tools:</strong> You'll need a high-lift jack, a breaker bar, impact wrench, torque wrench, and a tire truck. If you have spline drive lugs and locking nuts like I do, make sure you have the correct tools to handle them.</li><li><strong>Remove the Spare:</strong> Start by taking off the spare tire. Roll it to the appropriate position for mounting. This will help facilitate the rest of your rotation process.</li><li><strong>Jack Up the Jeep:</strong> Use the high-lift jack to lift one side of your Jeep at a time. Make sure you have jack points on all four corners for stability.</li><li><strong>Remove Old Tires:</strong> Begin with the rear tire. Use the breaker bar to loosen the spline lugs before switching to the impact wrench for quick removal. Remember to lift the tire just enough to make the process easier—it reduces physical strain on your back!</li><li><strong>Install Tires in Correct Pattern:</strong> Match the lug pattern with the tire on the ground. Start the nuts by hand to avoid cross-threading. Then, use the impact wrench to snug them up, but be cautious not to over-tighten.</li><li><strong>Use a Torque Wrench:</strong> Set your torque wrench to 100 ft-lbs and ensure each nut is tightened correctly. It’s advisable to check them twice—for safety!</li><li><strong>Repeat on Other Wheels:</strong> Follow the same procedure for the remaining tires, ensuring consistency throughout.</li></ol><h2>Helpful Tips</h2><ul><li>Always break the lug nuts loose with a breaker bar before using an impact wrench.</li><li>When using a torque wrench, go through each wheel twice to ensure even distribution of tension.</li><li>Keep all tools organized to avoid distractions during the process.</li><li>Consider the weight of your tires—if you’re moving larger sizes like 40s, plan for extra effort or help!</li></ul><h2>Key Takeaways</h2><p>Tire rotation is more than just a maintenance chore; it's essential for safe off-roading and extending tire life. By following these steps and using caution, you can complete a 5-tire rotation efficiently and effectively. Regular rotations will ensure your Jeep handles well on and off the trails.</p>
+
+</article>
+
+</SiteLayout>

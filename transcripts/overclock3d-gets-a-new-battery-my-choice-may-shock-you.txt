@@ -1,0 +1,282 @@
+hey there's Scipio here in this video I
+want to talk about my battery and the
+fact that it is dead
+[Music]
+that's right overclocked has a heat dead
+battery actually a cell has gone bad
+I'll show you what tells me that here in
+just a second but so I've kind of been
+going through this process of trying to
+figure out what I wanted to replace the
+battery with so before I talk about what
+battery I got and why and and thank you
+guys I called out for help earlier today
+to to sort of get a feel for what people
+were thinking but before I get to that
+let me show you a little bit about
+what's going on with this particular
+battery alright so here it is in all of
+its glory you know I do the obvious
+things like double check and make sure
+all of my connections are good that's
+all good and I'll talk a little bit
+about parasitic amp draw which I will
+test after I get this battery place but
+you really can't test parasitic amp draw
+on a battery that's less than fully
+charged because things behave
+differently depending on the batteries
+charge
+so this stock battery this is stock when
+I bought it all right so take a look at
+this battery first thing I want to show
+you something interesting I found here
+this is made by Johnson Controls battery
+group out of Milwaukee now here's a fact
+that you will find interesting Johnson
+Controls is the same company that makes
+drumroll please
+Optima batteries so those of you that
+are huge fans of Optima yellow top red
+top which seems to be the majority this
+is made by the same company this is the
+OEM battery for the Jeep Wrangler so
+it's kind of interesting it's got six
+hundred cold cranking amps 120-minute
+reserve capacity 70 amp power and I
+don't know what the en figure is there
+is a thing called European norms which
+is a different standard I don't know
+what that is I'm just gonna tell you I
+have no idea and I don't see that Ian's
+value represented
+other batteries so if you know what that
+is comment below and let me know because
+I'm now I'm really curious so anyway
+that's this battery let me put a meter
+on this and I'll show you what I'm
+getting right now for voltage all right
+so I've got this set for DC voltage and
+I'm gonna check here I'm getting ten
+point three volts and that's how it was
+it's been sitting at ten plus volts for
+a long time when I checked it this
+morning about I don't know six seven
+hours ago maybe even longer
+it was not very far away from here so
+this is sort of the normalized state
+including any current draw I have coming
+out of the vehicle right now the vehicle
+is you know it's still connected that is
+after charging with both a battery
+charger and and then eventually I still
+had to drive this thing around yesterday
+I was getting about eleven maybe eleven
+point four volts at at its max like
+charges state as I'm driving around but
+then quickly drops after the vehicle
+turns off right because the alternator
+stops putting current to it realizing
+the alternator is not designed to charge
+the battery you guys I get it but when
+you have to jumpstart your vehicle and
+drive it um it does top it off whether
+we like it or not it will raise the
+voltage back up usually to normal in
+this case with the battery charger or
+even with the alternator there's nothing
+I can do to get this thing up to twelve
+volts which tells me one of these cells
+is bad and ten volts is also a pretty
+good indicator of that so again ten
+point three volts that is a it's a bad
+battery so let me show you what I'm
+gonna put into this alright here we go
+the diehard advanced gold this is an AGM
+battery I spent an incredible amount of
+time trying to figure out which battery
+I was gonna go with partly to see what
+was the best right we read Facebook I
+queried you guys on YouTube got a lot of
+great advice and again it's funny how
+polarizing this topic is there's a lot
+of
+brand loyalty when it comes to things
+like batteries the Optima people are
+diehard Optima Optima opto you know
+yellow top red top
+then there's the Odyssey people and and
+those guys are pretty passionate and
+then there's the inner sis and the you
+know the and there's diehard people
+there's all these people who sort of
+loyal to brands what's fascinating as
+many people don't know exactly why
+they're loyal to brands and and others
+are very passionate about the fact that
+their brand is the best now Optima
+people or even more so just super
+passionate about the fact that the
+Optima is the best battery in the world
+hands down no question but for as many
+of those people there are there's
+probably two people that will say that
+Odyssey is no longer what it used to be
+it is not the greatest you're buying the
+brand it's way over hyped and so it
+makes buying decisions really hard
+especially for people like me I'm trying
+to do this on a budget so one of the
+things I had to look at was oh what was
+a really good battery but also what was
+a really good battery for the money I
+could go buy an odyssey and know I'm
+probably getting the best battery does
+that get me anything more for an extra
+hundred and fifty dollars over what I'm
+getting with this and that's what I
+don't know right but and and there's
+there were a lot of pinions that were
+actually really helpful in that you
+should just buy whatever the best
+batteries you can get from a local auto
+parts store because for a warranty
+perspective if you have to return or
+exchange one they're all over the
+country so if you ever run into a
+problem it'll be easy to find an
+autozone or an advanced auto Sears this
+kind of that way although arguably Sears
+is sort of declining and there's there's
+worry that they're gonna shut down
+eventually and then who's gonna support
+the warranty on this diehard battery and
+that's a risk that I'm taking obviously
+because I have a die-hard I come a
+little bit old school we're diehard was
+sort of a well-known brand now the
+die-hard Platinum's where were basically
+rebranded Odyssey batteries and they had
+really good reputation but then again
+they also had a lot of problems they
+ended up discontinuing that brand this
+is sort of their high-end model now
+their flagship is the advanced Gold AGM
+this is actually made I did a lot of
+research this is actually made by East
+Penn which makes the DECA AGM
+Intimidator and the Intimidator is a
+very well-regarded battery and they
+actually you spend is an OEM supplier
+for several other batteries so like I
+think a CARQUEST Platinum AGM or maybe
+even some of the other like autozone or
+advanced auto their AGM batteries are
+probably going to be something like this
+like an East Penn but they make the
+advanced gold diehard
+and made in the USA they have a great
+reputation so well whether or not
+there's a better battery out there I
+would say that there are probably brands
+that will endure more extreme torture
+than I'm probably going to give this
+battery and if they also come at a very
+high premium there were a couple of
+batteries I looked at where I thought oh
+that's it that's clearly the best but
+you know do I want to spend $300 when I
+can get this one and I did on sale for a
+hundred and fifty dollars so one hundred
+and fifty dollar battery I think this is
+a really good choice but anyway so
+that's it the diehard advanced goal this
+is what I went with I would love to go
+to a dual battery situation right now
+but I just don't have the money because
+they do it right it costs a lot more
+than just two batteries because you have
+this complicated circuitry that you have
+to add plus a new battery tray you got
+to move some things around I just don't
+have time or money for that right now so
+this is it the die hard so I'm gonna get
+this installed and hopefully this fixes
+my problems and if not well I've got
+some more work to do so after I do get
+this installed I will be doing some
+parasitic amp draw testing just to see
+how much draw is coming through my
+system now I run a dash camera that has
+a parking mode so it's constantly
+recording in a state of the vehicle
+being off but it does have a low voltage
+cutoff I have it set fairly
+conservatively so
+it will stop fairly soon I do have an
+alarm system now I have a Android radio
+that might be consuming some voltage so
+it would be nice to kind of figure out
+exactly where that voltage is coming
+from what could have killed the battery
+I have in this view now is I left the
+vehicle sitting for several days without
+using it which is pretty rare for me so
+in that period of time the battery may
+have just drained enough that that cell
+finally went and and it was done for but
+that could be a symptom of a different
+problem right it could be could be I
+have something draining and I just I
+keep using the vehicle enough that it
+sort of masked that problem because the
+alternator will top off the charge and
+then I let it sit for a while and then
+the math the alternator will top off
+that charge so if I doubt that charge
+and just let it drain well that's where
+we run into some problem so this being a
+new battery of course it has a I think
+it's a four year up to double check it's
+either a three or four year no prorated
+just replace warranty so hopefully I
+won't have any problems here it is 760
+cranking amps which is quite a bit more
+so I should have some more power the
+reserve capacity is the same and the amp
+hours is the same you know 120 and 70
+anyway that's it I just wanted to share
+that with you thanks for everybody who
+responded to my request for a battery I
+was really looking for somebody to say
+oh yeah you can get a whatever you know
+ACME widget battery for 50% off this
+weekend because of Black Friday
+nobody really threw that at me nobody
+could you know plunk me to a place where
+I could get an Optima battery at a super
+great deal which I would have probably
+done it just you know to trial out or an
+odyssey battery for that matter so I
+ended up still sort of struggling with
+this 150 to 175 dollar range and all of
+those batteries are fairly similar
+probably even made by mostly the same
+people like I said East Penn and this
+one was 150 out the door
+so I'd say guys that is me installing a
+new battery in to overclock a little bit
+unexpected but hey it is what it is
+sometimes you don't get to choose the
+timing so let me know in the comments if
+you have any questions or other
+suggestions
+but right now 150 dollar battery made by
+Eastern pens seems to be the right way
+to go for me doesn't mean I'm not gonna
+change things up in the future I still
+would like to do a two battery system
+just now's not the time so anyway that's
+it guys thanks for watching I'll catch
+you on the next one
+[Music]

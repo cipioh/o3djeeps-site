@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "IT'S A GIVEAWAY!!! Two of them, actually.";
+export const description = "Join our exciting giveaways and discover how to win amazing Jeep gear!";
+const youtubeId = "rNLeCiVIVck";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-01-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Builds, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "GPCA"
+  },
+  {
+    "label": "Products",
+    "value": "Interior makeover, Survival pen"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep upgrades and gear"
+  }
+];
+const externalLinks = [{"label": "GPCA Interior Makeover", "url": "http://gpca.us/giveaway"}, {"label": "Need a sticker?  You can get them from:", "url": "https://www.facebook.com/pg/o3djeeps/shop/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're a Jeep enthusiast, you'll want to pay attention to the exciting giveaways we're hosting! This article outlines the details and how you can participate in these giveaways, focusing on amazing gear that can enhance your off-road experience.</p><h2>Main Points</h2><p>We've teamed up with GPCA to bring you two fantastic giveaways:</p><ul><li><strong>Giveaway #1:</strong> An entire Jeep interior makeover featuring GPCA products such as grip pros and cargo covers.</li><li><strong>Giveaway #2:</strong> A survival pen exclusively for those rocking our O3D Jeep sticker.</li></ul><p>Each giveaway offers a unique way for our community to engage and win. Let's delve into the specifics of how to enter each giveaway.</p><h2>Giveaway Details</h2><h3>Giveaway #1: The Jeep Interior Makeover</h3><p>Anyone can enter the first part of the giveaway by visiting <a href='http://gpca.us/giveaway'>GPCA's website</a>. This giveaway includes some truly valuable Jeep upgrades:</p><ul><li>Four GP grip pros</li><li>One GP cargo cover</li><li>One GP organizer</li></ul><p>The winner of this giveaway will be announced on February 1st, 2017, so be sure to register before then!</p><h3>Giveaway #2: The Special Sticker Holder Giveaway</h3><p>This second giveaway is a bonus opportunity for those who have our O3D Jeep sticker. The prize is a black aluminum GPCA GP1945 bolt-action survival pen. Here’s how to enter:</p><ol><li>Attach your O3D Jeep sticker to your vehicle. Be creative – it can go anywhere!</li><li>Take a picture of your ride with the sticker visible.</li><li>Include a sign with the hashtags <strong>#gpca</strong> and <strong>@o3djeeps</strong>.</li><li>Make sure your post is public and share it on social media platforms like Instagram or Twitter.</li></ol><p>Each sticker will serve as a unique entry, so be sure to participate!</p><h2>Practical Implications</h2><p>These giveaways are not just about winning gear; they’re about building a community of Jeep enthusiasts. By showcasing our stickers, you're representing the O3D Jeeps brand while also having the chance to enhance your vehicle and off-road experience significantly.</p><p>Make sure to check out GPCA's products as they're designed with functionality and quality in mind, which is exactly what every off-road adventure calls for. Additionally, the survival pen is a handy tool for anyone who enjoys the great outdoors, making it a smart addition to your Jeep gear.</p><h2>Key Takeaways</h2><p>Don't miss out on these exciting giveaway opportunities:</p><ul><li>Register for the Jeep interior makeover giveaway on GPCA's site before February 1st.</li><li>Show off your O3D Jeep sticker on social media for the chance to win the survival pen.</li><li>Join us in celebrating our community and the Jeep lifestyle – there are no limits to where your Jeep can take you.</li></ul><p>Best of luck to everyone participating! We can't wait to see your entries.</p>
+
+</article>
+
+</SiteLayout>

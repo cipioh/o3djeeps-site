@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "JK Pockets - Get Rid of that Sagging Sack! Jeep Wrangler JK JKU Door Storage";
+export const description = "Upgrade your Jeep JK's door storage with JK Pockets\u2122 for a cleaner, stylish solution to sagging nets.";
+const youtubeId = "FxvfTU2Ftzg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-19";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Slick Rock Gear"
+  },
+  {
+    "label": "Product",
+    "value": "JK Pockets"
+  },
+  {
+    "label": "Use Case",
+    "value": "Door storage upgrade for Jeep Wrangler JK"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://www.slickrockgear.com/interior/jk-pockets/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you own a Jeep Wrangler JK, you may be all too familiar with the frustration of sagging door nets. These factory options become less useful over time, often stretching out and failing to hold gear securely. Fortunately, Slick Rock Gear has introduced JK Pockets™, a stylish and functional solution to this common problem. In this article, we’ll explore how to upgrade your Jeep’s storage and improve your overall experience on the trails.</p><h2>What This Covers</h2><p>This tutorial will walk you through the installation process of JK Pockets™, including what tools you’ll need, step-by-step instructions, and some practical tips based on real-world user experiences.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools:</strong> You only need a razor blade and a pair of scissors, making this a straightforward DIY project.</li><li><strong>Remove the Old Nets:</strong> Start by carefully cutting away the factory netting. Make sure to cut as close to the trim as possible without scratching the visible edges. This is a permanent modification, so be sure you're ready to make the change.</li><li><strong>Install the JK Pockets:</strong> The new pockets are designed to fit seamlessly. Start by slipping the back portion in and then flex it to pop into place. It’s really that easy!</li><li><strong>Repeat for All Pockets:</strong> Follow the same process for the rear and other doors. Make sure everything is secured into place without any rattles.</li></ol><h2>Helpful Tips</h2><ul><li>Remember: JK Pockets are not stretchy like the factory nets, so consider what you carry! Some larger items may no longer fit, but the security and look will be worth the switch.</li><li>Consider the materials: JK Pockets are made from fire-retardant, aircraft-grade plastic, ensuring durability and safety.</li><li>Installation time is quick, roughly 5 minutes per pocket, so you can easily tackle this project on a weekend.</li></ul><h2>Key Takeaways</h2><p>The JK Pockets™ upgrade is a smart modification for any Jeep Wrangler JK owner frustrated with sagging door nets. By opting for these sleek, handmade pockets, you not only enhance storage versatility but also elevate your Jeep’s aesthetic. It’s a simple solution that adds value and functionality, so why wait? Get rid of that sagging sack today!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #02 - AutoZone Loan-A-Tool for a Spring Compressor & an Impulse Sammich! - Jeep Vlog";
+export const description = "Explore the benefits of AutoZone's Loan-A-Tool program as we install new springs on a Jeep TJ Wrangler with ease.";
+const youtubeId = "PNzAJnvgLqk";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-12-27";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "AutoZone"
+  },
+  {
+    "label": "Product",
+    "value": "McPherson Strut Compressor"
+  },
+  {
+    "label": "Use Case",
+    "value": "Spring installation for Jeep TJ Wrangler"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this episode of our Jeep vlogging series, we dive into the practical aspects of installing new springs on a 2004 Jeep TJ Wrangler. With a little help from AutoZone's Loan-A-Tool program, we grab a McPherson Strut Compressor to ease the installation process. Join me as I share tips, tricks, and insights from this hands-on project.</p><h2>What This Covers</h2><p>This article will guide you through the steps involved in using a spring compressor for Jeep suspension work, highlighting the value of borrowing tools versus purchasing them outright. We'll also touch on maintaining your vehicle during modifications and why having the right equipment can make a significant difference in ease and efficiency.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Tools:</strong> Start by heading to your local AutoZone to utilize their Loan-A-Tool program. You can rent various tools, such as the McPherson Strut Compressor, which is crucial for safely compressing springs.</li><li><strong>Prepare Your Workspace:</strong> Make sure you have a clean and safe workspace. Removing the old springs can be dusty and involves working with heavy components, so organize your area for efficiency.</li><li><strong>Remove Old Components:</strong> Carefully disassemble your Jeep’s suspension. This includes removing the shocks, track bar, and sway bar links. Always remember to support the vehicle on jack stands for safety.</li><li><strong>Use the Compressor:</strong> Once you're ready to install the new springs, use the strut compressor to compress the springs. This tool keeps the springs tightly wound, making it much easier to fit them into place without the risk of them springing out suddenly.</li><li><strong>Reassemble:</strong> With the new springs in place, reattach all of the components you removed earlier. Ensure everything is tightened to the manufacturer’s specifications.</li><li><strong>Test Drive:</strong> After completing the installation, take your Jeep for a test drive to ensure all adjustments are correct and the vehicle feels stable.</li></ol><h2>Helpful Tips</h2><ul><li>Always double-check the fit and functionality of borrowed tools before using them on your vehicle.</li><li>Consider documenting your steps if you're new to modifications; this can help keep track of what you’ve done and provide a reference for future projects.</li><li>When borrowing tools from AutoZone, remember the time frame for returning them to avoid any unexpected fees.</li><li>If working alone, ensure that you have proper lifting equipment and safety measures in place when handling heavy components.</li></ul><h2>Key Takeaways</h2><p>Installing new springs on your Jeep doesn't have to be a daunting task, especially with the right tools at your disposal. AutoZone's Loan-A-Tool program is a fantastic resource that allows Jeep enthusiasts to save money while accessing the necessary equipment for vehicle modifications. Take your time, follow safety practices, and enjoy the process of enhancing your off-road vehicle!</p>
+
+</article>
+
+</SiteLayout>

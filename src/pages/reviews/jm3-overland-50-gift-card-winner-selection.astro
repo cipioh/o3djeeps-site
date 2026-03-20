@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "JM3 Overland $50 Gift Card Winner Selection";
+export const description = "Join us as we announce the winner of the JM3 Overland gift card giveaway, plus details on future giveaways and appreciation for our community.";
+const youtubeId = "0h7WAvjTzlo";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-03-02";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "JM3 Overland"
+  },
+  {
+    "label": "Gift Card Value",
+    "value": "$50 or $100"
+  },
+  {
+    "label": "Event Type",
+    "value": "Giveaway"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In an exciting moment for our community, we gathered to announce the winner of the JM3 Overland gift card giveaway. This is more than just a draw; it's a celebration of our engaged community and a token of appreciation for those who support us. As enthusiasts, giveaways serve as a fun and interactive way to give back to our audience.</p><h2>Main Points</h2><p>The process of selecting a winner was not your traditional high-tech affair. Faced with a power outage, our host, Scipio, adapted quickly by utilizing a trusty bag to randomize entries. This spontaneity highlights the authenticity and community spirit at the heart of O3D Jeeps. Even in less-than-ideal circumstances, the focus remains on connection and engagement.</p><p>The giveaway was exclusive to supporters who proudly displayed O3D Jeep stickers, showcasing their commitment to the community. This level of dedication perhaps explains the smaller number of entrants, but it also means the odds of winning were incredibly favorable.</p><h2>Practical Implications</h2><p>Winners, like the chosen individual 'too quick to see', receive a $50 gift card with the potential for it to double to $100 with qualifying purchases. Such incentives encourage community involvement and underscore the value of loyalty to our sponsors, like JM3 Overland. These partnerships enrich our experiences and provide opportunities to reward our community members. Additionally, with our sponsors rallying behind us, we can expect exciting giveaways in the future, with a $50 gift card from Extreme Terrain being the next up.</p><h2>Key Takeaways</h2><ul><li>Participating in community giveaways fosters connection and enriches the off-road journey for enthusiasts.</li><li>Adaptability in hosting events (like using a simple bag to collect entries) showcases the passion behind O3D Jeeps.</li><li>Future giveaways promise exciting prospects, reinforcing our gratitude to the community and sponsors.</li></ul>
+
+</article>
+
+</SiteLayout>

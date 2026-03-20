@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "I'm Giving Away Free Stuff from 67 Designs!";
+export const description = "Join our exciting giveaway for 67 Designs products! Find out how to enter and what you could win.";
+const youtubeId = "-KE0EgnhZmM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-11-28";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Builds, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "67 Designs"
+  },
+  {
+    "label": "Product",
+    "value": "JK Mount and Rock Hard 4x4 Sport Cage Upgrade Pack"
+  },
+  {
+    "label": "Use Case",
+    "value": "Accessory mounting for Jeep vehicles"
+  }
+];
+const externalLinks = [{"label": "My website where you register:", "url": "https://o3djeeps.com"}, {"label": "The 67 Designs website:", "url": "http://www.67d.com"}, {"label": "The Facebook post you need to share for a bonus entry:", "url": "https://www.facebook.com/o3djeeps/posts/1962313794032939"}, {"label": "The links to the two products:", "url": "https://www.67d.com/products/the-rockhard-4x4-sport-cage-upgrade-pack-pack-rh1"}, {"label": "The links to the two products:", "url": "https://www.67d.com/collections/jeep-jk-mounts-accessories/products/jeep-jk-mount-with-universal-mount"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of Jeep modifications, accessory mounting plays a crucial role in enhancing your off-road experience. Whether you're looking to mount your phone for navigation or other essential tools, having a reliable system is key. In this article, we’ll dive into the exciting giveaway we’re hosting with 67 Designs, highlighting their innovative products and how you can participate for a chance to win one of them.</p><h2>Main Points</h2><p>The giveaway features two standout products from 67 Designs. The first is the <strong>JK Mount</strong>, designed for those looking to securely position their devices on the dash of their Jeep. This ingenious mount utilizes the factory stereo space for an unobtrusive fit that doesn’t sacrifice personal space or functionality. The second option is the <strong>Rock Hard 4x4 Sport Cage Upgrade Pack</strong>, which is perfect for those with a roll cage. This upgrade allows you to efficiently mount necessary gear securely within reach while maintaining a sleek interior design.</p><h2>Practical Implications</h2><p>Having these mounting solutions not only provides convenience but also enhances safety while on the trails. The ability to keep your devices within easy reach can prove invaluable when navigating through tough terrains or needing to access GPS and communication tools quickly. Plus, as the holiday season approaches, entering this giveaway could secure a fantastic gift for yourself or a fellow Jeep enthusiast.</p><h2>Key Takeaways</h2><ul><li>Participating in the giveaway is straightforward: visit our website, fill out the registration form, and leave a comment on the video.</li><li>Sharing the giveaway on Facebook grants an additional entry, increasing your chances of winning.</li><li>Whether you choose the JK Mount or the Sport Cage Upgrade Pack, both are designed to elevate your Jeep experience significantly.</li><li>The drawing will take place on December 15th, ensuring a timely arrival for holiday gifts.</li></ul><p>Don’t miss out on this opportunity to enhance your Jeep's functionality with top-notch gear from 67 Designs. Good luck to all participants!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "American Outlaw Mirrors for Jeep Wrangler - The Original Outlaw and the Sidewinder";
+export const description = "Explore the top mirror solutions for your Jeep with American Outlaw's Outlaw and Sidewinder mirrors. Stay legal without sacrificing visibility.";
+const youtubeId = "8yovZI3QW8A";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "American Outlaw Jeep Parts"
+  },
+  {
+    "label": "Products",
+    "value": "Outlaw Mirrors, Sidewinder Mirrors"
+  },
+  {
+    "label": "Compatible Models",
+    "value": "JK, TJ, YJ, CJ"
+  }
+];
+const externalLinks = [{"label": "I finally have some legit mirrors for the Jeeps. Taking the doors off, and looking for the right mirror solution to stay legal AND still be able to see?  Look no further. These mirrors from American Outlaw Jeep Parts are the ticket... to not getting a ticket. lol", "url": "https://americanoutlawjeepparts.com/"}, {"label": "Outlaw Mirrors - see out of the passenger-side mirror No drilling or permanent mounting bracket Fits JK, TJ, YJ, and CJ models.  (SOLD IN PAIRS, A SET OF 2) DOUBLE DIPPED rubber coated mounting points for safe no scratch install and removal", "url": "https://store.americanoutlawjeepparts.com/outlaw-mirrors"}, {"label": "Sidewinder Mirrors- Excellent field of view, simple one bolt installation and removal. (SOLD IN PAIRS, A SET OF 2) DOUBLE DIPPED rubber coated mounting points for safe no scratch install and removal", "url": "https://store.americanoutlawjeepparts.com/sidewinder-mirrors"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The American Outlaw Mirrors offer a practical solution for Jeep enthusiasts looking to remove their doors while maintaining legality and visibility on the road. The Outlaw and Sidewinder mirror designs provide excellent field of view and secure installation without permanent modifications, making them ideal for any Jeep owner.</p><h2>What Stands Out</h2><p>Both mirror types feature a unique rubberized coating that prevents scratches during installation, which is a crucial consideration for many Jeep owners. They are both sold in pairs and designed to provide a balance of functionality and aesthetics, allowing users to focus on their off-road adventures without compromising safety.</p><h2>Design and Features</h2><p>The Outlaw Mirrors distinguish themselves with their innovative mounting mechanism. Unlike typical mirrors that require drilling or complex mounting brackets, these mirrors fit over the door hinges, ensuring a snug fit that minimizes rotational movement. This design is especially beneficial for JK models where traditional mirrors can be cumbersome. The Sidewinder Mirrors offer a more portable option that mounts directly to the Jeep’s pillar, providing a seamless look while maintaining utility from the driver’s seat.</p><h2>Real-World Use</h2><p>Installing these mirrors is straightforward and does not require any special tools beyond what's included in the package, which is a huge plus for those who prefer DIY solutions. Many users have reported improved visibility with both models, particularly when driving on highways or in busy urban environments. The adjustable feature allows for easy modifications on the go, ensuring you can always find the perfect angle without fussing over the installation.</p><h2>Who This Is For</h2><p>If you frequently drive your Jeep without doors, or if you use half doors or trail doors, these mirrors are essential. They cater to both casual Jeep users and avid off-roaders who need a reliable mirror solution that fits seamlessly with their vehicle’s design. Additionally, those who prioritize keeping their Jeep's aesthetics intact will appreciate the way these mirrors blend into the overall look of the vehicle.</p><h2>Key Takeaways</h2><ul><li>The Outlaw and Sidewinder mirrors from American Outlaw Jeep Parts provide excellent visibility and legality for doorless driving.</li><li>Both models are installed without drilling, offering convenience and ease of use.</li><li>Reflection and adjustment features of the mirrors ensure they meet safety standards while keeping a stylish appearance.</li><li>Suitable for multiple Jeep models and adaptable to various setups, reinforcing their value in the market.</li></ul>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,320 @@
+hey there CP oh here it's finally time
+to start the in vehicle installation of
+that Excalibur alarm system with remote
+start I've been setting up for in the
+last few videos no question the hardest
+part of this isn't going to be doing the
+install it's going to be doing the video
+of the install there's a lot of tight
+areas down in here but basically I'm
+going to be working up in here inside
+the steering column making some
+connections back in here and and up
+underneath there so I'm gonna do my best
+to get it all on video for you and the
+areas where it's kind of hard to show
+you as I do it I'll do it and then I'll
+show you what I did and how I did it so
+hopefully that will be helpful for those
+of you who are gonna tackle this on your
+own the first thing I'm gonna do is get
+this door out of the way alright so
+underneath the steering wheel there's
+this protective plastic panel it's just
+held in place with these plastic clips
+and now that that's out of the way we
+can see we've got this panel here with
+two 10 millimeter bolts we're gonna pull
+those out to access that area
+all right and pull this out it just
+pulls up and then out alright this gets
+us back inside the area we're gonna be
+working and actually where I'm going to
+be installing the brain so the brain is
+gonna go here our shock sensor is gonna
+go here we're still gonna have to pull
+off your steering column cover to get to
+that harness that we're gonna install
+that tea harness but I'm gonna do that
+probably later on all right so let me
+give you a quick tour down here before I
+get started first of all I'd like to
+show you where I'm coming in through the
+firewall from the engine compartment of
+the vehicle and that's right there you
+can see I've got some other wires in
+there those are camera wires I kind of
+wish I installed those little bit better
+how I didn't think I was gonna be
+showing everybody but that's actually
+where the sensor wires and the siren
+wire is gonna go out now it's pretty
+easy to find from in here way back
+tucked up inside there this is the
+driver's side kick panel over here and
+there's like a rubber kind of a grommet
+II covering thing that is solid but you
+could just poke a hole in it and run
+wires through it and it's actually going
+to come out underneath your master
+cylinder which you can't really see
+which is a good thing which is why I
+kind of like use it again so I find it's
+easier to push things from the inside to
+the outside
+and then as they hang down find them and
+run them but almost all of these wires
+cameras and this is for my trail - to my
+locker switches all that stuff is
+running through there now there are a
+couple of other options to get stuff
+into the vehicle and I'm using them here
+so you can see right there in the cowl
+there's actually a foam filled hole that
+runs in through here and this is where I
+have a lot of my switch wiring on this
+side and then I've got the same thing on
+the other side the passenger side has CB
+wiring and stuff like that so I've
+already used up these holes which is why
+I'm now going to that third option but
+that is where I'd recommend you you run
+your wires again it's tucked up in there
+nice out of the way and it's already
+sort of grommeted for you and yeah it's
+easy alright so another thing I want to
+show you is where we're going to connect
+the brake switch why
+so if we look back we're back into that
+hole that I opened up underneath and if
+you look straight through here on my
+vehicle anyway it's a white switch that
+is your brake switch so when you depress
+your brake pedal that's which is what
+gets activated and we need to tap into
+that that's actually going to be super
+easy I'll show you that the other thing
+we're gonna need to tap into is right
+here I actually have a trail - - plugged
+into it right now but your obd2 port
+this guy right here we're gonna tap into
+wire in the back of it and I'll show you
+how to do that and let's see what else
+it's really it I mean this isn't that
+challenging now mentioned before in a
+previous video if your manual
+transmission you've got a couple of the
+things there is a clutch switch now your
+clutch is going to be over here the
+switch is gonna be on the other side on
+the on the engine side and then you're
+gonna tap into your emergency brake
+switch right again this is a 2015 Jeep
+Wrangler automatic and so your mileage
+may vary a little bit depending
+year-to-year but most of this should be
+pretty much the same and if I know of
+anything I'll try and remember to call
+it out it might be different what I'm
+going to do next let's figure out we're
+gonna mount your antenna this also has
+the valet switch and programming button
+and also this little LED to warn people
+that your alarm is armed this needs to
+be high up and you know someplace
+visible but however you decide to do
+that get it installed and then run down
+and mines kind of easy because I'm
+missing some trim pieces but you can
+tuck it back in between trim and you
+want to get it to run down here and come
+out the bottom so lots of ways to do
+that this trim is usually pretty
+flexible you can usually slip that thin
+wire back in there I just happen to have
+it all opened up so it's gonna be super
+easy for me I did go ahead and route
+that antenna right up here because I
+have so much going on there I guess it
+makes sense to go there and then that's
+pushed through and around and I'm zip
+tied along this existing
+the wires anytime you can find an
+existing wire harness to follow that's
+the best route because from the factory
+they run those in safe places and have
+good routes so and as you can see that's
+going to come down here enter that pop
+down through here unfortunately for me
+I'm running a rollcage which makes this
+inaccessible but for most of you you'll
+be able to pop a panel off here and then
+be able to shove wires back through I
+got mine shoved in through there and
+then it comes out right here which is
+gonna give me a place to start plugging
+it in for the brain and then I'll tidy
+up that excess wiring anyway that's
+where I ended up going right up in there
+that's actually my rear facing camera of
+a dashcam with dual cams and one of them
+is an inside view so that's right there
+[Music]
+alright so one thing I did want to point
+out is you'll notice I did tape and zip
+tie the first part of this wire bundle
+and also taped in zip tied right here
+that just keeps these wires in place I
+don't want anything tugging them pulling
+them out of the connectors or putting
+undue stress on them I can't do the
+entire bundle because a lot of them are
+gonna run different routes but for this
+initial set I just felt more comfortable
+and I'm going to also zip tie this to
+structure or other wire looms once I get
+in there but the other thing I want to
+do is I've got a couple wires here that
+I'm gonna run over to that kick panel so
+I'm gonna extend those and I'm gonna do
+that using wires that I removed out of
+this harness already so I'll match the
+wire gauge and and just extend those so
+let me figure out which one those are
+and get them extended real quick alright
+guys so I'm back on the bench because I
+wanted to extend the wire that's going
+to go to my parking lights across on the
+passenger kick panel and so I wanted to
+add a little more length than that but
+one thing I also did was down here
+his I removed two wires that I told you
+you needed in a previous setup video
+that after working with the guys at
+Omega to try and find the most efficient
+way to install we found we actually
+could get two wires out of this system
+for the parking light now before the
+three wires we were told we needed were
+the white the green and violet and
+the red and black and that's because of
+the complicated circuitry that exists in
+these jeep wranglers but in testing and
+in talking about the vehicle circuitry
+we were able to find out that the single
+white wire will be enough to power all
+of the parking lights so that allowed me
+to remove these other two wires and
+further trim down my harness so remember
+this is a 2015 Jeep Wrangler automatic
+there are definitely going to be some
+differences in a manual transmission
+Jeep but I'll cover some of those
+oddities in a later video but for now
+just know basically any automatic
+transmission
+JK this one white wire should work fine
+so what I'm going to do is use another
+one of these harness wires of the same
+gauge and I'm not using in this case
+whatever brown and black and I'm gonna
+use it to extend this white wire so I
+personally like to use these saw durable
+butt connectors but any standard butt
+connector will work it all the way
+and then I'm hooking these and then
+twisting
+so I've got a good mechanical joint
+there and I'm gonna send this over there
+to seal that joint with solder and then
+also the shrink tubing
+I just like the type of connection that
+that makes and again it was mechanically
+connected and then this just sort of
+seals it all up into place so anyway
+that's how I do those all right one more
+thing I'm going to show you while I'm
+here on the bench is how I'm splicing
+into these existing wires because it's
+gonna be hard to show you inside the
+vehicle so what I'm using is a military
+splice or what you might hear is called
+as a NASA splice but basically what I'm
+going to do is poke a hole in the middle
+of the wire I'm going to tap into and
+then I'm going to splice it in
+mechanically so I'll sort of show you on
+this extra wire that I'm not using but
+basically so let's say this is a wire
+that I need to tap into what I'm gonna
+do is come in with the cutters and I'm
+just going to remove the sheathing off
+of the middle of that wire then I'm
+going to split the wire and I'll
+generally use my test probe to do that
+like that I'm going to take the new wire
+that I want to tap into it and run it
+through sort of thread the needle and
+depending on which way I want the wrap
+to go basically I'm going to wrap it
+around one side and then come back
+and do just like that and I'm going to
+fold this over to run along the wire and
+then that is how I'm going to tap into
+now I'm gonna tape that connection
+because I can't get heat shrink on there
+because this wires connected on both
+ends I'm just tapping into it so then I
+want to tape that connection and then
+down where the two wires come together
+maybe an inch or so away from that joint
+a little bit big of a zip tie I have
+here but you get the point
+I'm gonna run a zip tie right there so
+that if these wires are tugged you're
+not tugging on the joint which is up
+here you're tugging on the zip tie so
+that is going to be a very strong and
+secure connection and that's a great way
+to tap into these without worrying about
+soldering or tea taps or anything like
+that you can use a simple tea tap with a
+tea tap it'll clamp on to the wire use
+pliers to clamp it in place and then
+stick a Spade in there that's perfectly
+acceptable if you use a good quality
+brand like a 3m or something like that a
+lot of people don't seem like the Scotch
+locks which route the wire a parallel
+but either way this is actually a really
+secure connection so this is how I'm
+doing all mine just wanted to show you
+because it's gonna be hard to show you
+underneath the dash all right so another
+thing I'm doing is I'm putting a little
+bit of a harness sheathing on the gray
+and the brown wire that's the siren and
+the hood pin wires and the reason I'm
+sheathing those is because they're gonna
+run through the firewall outside I don't
+know how much she think I need so I kind
+of just picked a length I may have to
+trim it because eventually those wires
+are gonna split but before that to
+transition from inside to outside I
+wanted to have them in a protective loom
+so that's what I'm doing now just
+inchworm in this along that will keep
+the wires together but also again sort
+of give them some protection make it
+look clean
+and that's how I roll you get real good
+at inch worming so and then all these
+wires that are getting looms get a
+little tape love on the end and once I'm
+done with adding any wire looms then
+I'll zip tie that to hold everything in
+place
+but let's go ahead and plug in our tea
+harness into the ignition
+[Music]

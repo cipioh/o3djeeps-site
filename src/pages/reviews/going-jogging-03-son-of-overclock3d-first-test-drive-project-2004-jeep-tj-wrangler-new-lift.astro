@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #03 - Son of OVERCLOCK3D First Test Drive - Project 2004 Jeep TJ Wrangler - New Lift";
+export const description = "Join us on the maiden test drive of a lifted 2004 Jeep TJ Wrangler, as we explore its performance and adjustments after a substantial upgrade.";
+const youtubeId = "uM1G2bDfkkg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-12-31";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ Wrangler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road adventures with family"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this article, we're diving into the first-ever test drive of a revamped 2004 Jeep TJ Wrangler, affectionately referred to as the "Son of OVERCLOCK3D." After a substantial lift kit installation, I'll share my experience on how it handles both on and off the road. The anticipation of hitting the trails with a vehicle modified to improve its capabilities is palpable, and I'm excited to recount the journey so far.</p><h2>Main Points</h2><p>The primary focus of this initial drive was to evaluate the vehicle's modifications and see if everything functions as intended. Here are some of the key components that were upgraded:</p><ul><li><strong>Suspension Lift:</strong> A DPG Off-Road Ultimate TJ kit providing a 2.5-inch lift, along with an additional 1.25-inch body lift result in about 3.75 inches of total lift.</li><li><strong>Tires:</strong> Equipped with 33-inch Wrangler Duratrac tires, notable for their snow handling capabilities.</li><li><strong>Drive Components:</strong> Utilizing components from Old Man Emu and JKS, this combination was designed to enhance on-road stability and off-road prowess.</li></ul><p>While the lift kit installation took a considerable amount of time, the relief and joy that come from finally getting behind the wheel of a fresh build make every moment of effort worth it. Despite the cold, there's something exhilarating about taking a newly modified Jeep for its maiden drive. This is where dreams of adventure begin, and every bump in the road becomes a test of triumph.</p><h2>Practical Implications</h2><p>One key takeaway from this experience is the importance of practice in vehicle operation, especially with manual transmissions. As I plan for my son to learn to drive this Jeep, it's essential to help him gain confidence in using a standard shift while also enjoying the off-road driving experience. The modifications aim to make this Jeep not only a learning vehicle but also a reliable companion for outdoor adventures.</p><p>During the test drive, I found myself pondering whether I had remembered to tighten every bolt and assemble the suspension correctly. Long-term projects like this can create a nagging feeling of doubt, but it's crucial to trust your skills and knowledge. Regular maintenance and checks are vital; keeping track of every element of installation can prevent future mishaps.</p><h2>Key Takeaways</h2><p>The first journey in a modified Jeep is often a mix of excitement and anxiety. Here are several lessons learned from this test drive:</p><ol><li>Always double-check your work; it's better to be meticulous from the start than to deal with issues post-installation.</li><li>Familiarize yourself with your vehicle, especially after significant modifications. Handling can change and understanding those changes can enhance your driving experience.</li><li>Encourage learning in manual driving; it builds valuable skills that every driver should have.</li><li>Don't forget to enjoy the process! Building and modifying a Jeep is as much about the journey as it is about the destination.</li></ol><p>With each outing, not only will we see what this Jeep is capable of, but it will also serve as a bonding experience with my son, making memories that will last a lifetime. The road ahead is filled with possibilities, and I can't wait to see where this journey takes us.</p>
+
+</article>
+
+</SiteLayout>

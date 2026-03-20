@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "My New Jeep!!! Axial SCX10-II 2017 Jeep Wrangler Unlimited CRC RTR";
+export const description = "Explore the Axial SCX10-II 2017 Jeep Wrangler Unlimited CRC RTR, from design to real-world adventure.";
+const youtubeId = "y3lx9paB7YU";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-11-29";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Axial"
+  },
+  {
+    "label": "Product",
+    "value": "SCX10-II 2017 Jeep Wrangler Unlimited CRC RTR"
+  },
+  {
+    "label": "Use Case",
+    "value": "RC off-roading and scaling"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://www.towerhobbies.com/cgi-bin/wti0001p?&I=LXGUSM"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Axial SCX10-II 2017 Jeep Wrangler Unlimited CRC RTR is a strikingly realistic ready-to-run (RTR) RC vehicle that combines impressive off-road capability with beautiful detailing. It's ideal for both new and experienced RC enthusiasts who want a dependable and good-looking truck that performs well on trails.</p><h2>What Stands Out</h2><p>This model stands out for its build quality and realistic features. The combination of high-pinion 44 axles and a meticulously detailed body enhances not just its performance but also its aesthetic appeal. The inclusion of all metal gears in the transmission elevates the RTR experience, often reserved for higher-end kits.</p><h2>Design and Features</h2><p>The SCX10-II is designed with precision and showcases several notable features:</p><ul><li><strong>Realistic Body:</strong> Molded fenders and body details, complemented by a stunning design that closely resembles the full-size Jeep Wrangler.</li><li><strong>Lighting:</strong> Equipped with LED headlights, marker lights, and brake lights, providing both functionality and realism.</li><li><strong>Metal Components:</strong> The addition of metal links and gears significantly improves durability and performance, setting it apart from previous RTR offerings.</li><li><strong>Upgraded Axles:</strong> The AR44 high-pinion axles offer better ground clearance and driving angles, enhancing off-road capability.</li></ul><h2>Real-World Use</h2><p>In real-world testing, the SCX10-II handles beautifully across various terrains. Its robust construction allows it to tackle tough trails while navigating rocks and steep inclines with ease. The various scale accessories included, such as the molded side mirrors and door handles, only enhance your experience when you're out on adventures. Many enthusiasts have reported a notable increase in performance compared to earlier models, making it a solid choice for casual outings or more serious trail runs.</p><h2>Who This Is For</h2><p>This RTR model is perfect for those new to the world of RC trucks who may feel overwhelmed by assembling a kit from scratch. It's also an excellent option for seasoned hobbyists looking to add a realistic vehicle to their fleet without sacrificing performance. The added details make it visually appealing for collectors, while the robust build satisfies those serious about RC off-roading.</p><h2>Key Takeaways</h2><p>The Axial SCX10-II 2017 Jeep Wrangler Unlimited CRC RTR offers:</p><ul><li>Outstanding design and realism</li><li>Durable and performance-oriented metal components</li><li>Ready-to-run convenience for immediate use</li><li>Great for beginners and seasoned RC enthusiasts alike</li></ul><p>In conclusion, the SCX10-II represents a significant step forward for Axial in the RC market. Whether you're off-roading or showcasing your vehicle on a shelf, this jeep delivers on both performance and aesthetics.</p>
+
+</article>
+
+</SiteLayout>

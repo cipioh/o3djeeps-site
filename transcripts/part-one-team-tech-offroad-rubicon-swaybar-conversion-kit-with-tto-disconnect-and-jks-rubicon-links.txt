@@ -1,0 +1,395 @@
+hey there's Scipio here and in this
+video I'm replacing my sway bar that's
+right not just the sway bar links but
+the entire sway bar and I'm doing it
+with a Jeep sway bar let me show you
+[Music]
+alright guys this is a Jeep Rubicon
+factory sway bar now if you know
+anything about me and my build you'll
+know that this is not a Rubicon so why
+the heck am i putting a Rubicon sway bar
+well because I want to be able to
+disconnect fully with the push of a
+button and what allows me to do that is
+this guy here which I'll show you here
+in a little bit more detail this is from
+Team Tech off-road and this allows me to
+activate the disconnect from the inside
+of the Jeep using my air compressor so
+anyway I'm going to be replacing the
+sway bar and the links why am I doing
+this well let me tell you there's a
+couple reasons so besides the fact that
+I want to be lazy and disconnect the
+sway bar from inside the Jeep you know
+I'm getting tired of getting out and
+crawling on the ground trying to get the
+Jeep perfectly level while I reconnect
+sway bar links so yeah I'm taking the
+easy way out but one thing I can say for
+sure is I'm not a huge fan of these
+steinhager disconnects they make a lot
+of noise but just to kind of show you
+before I take this thing down same thing
+over here
+and when I hit bumps they rattle a lot
+so I'm just I'm tired of that the reason
+I went with those Styne Yeager's is
+because I had pretty limited clearance
+down here on the passenger side so I
+figure if I can go to a Rubicon sway bar
+that I can just leave connected
+clearance is no longer an issue there
+and I can be lazy and use that air
+compressor to do all the work for me
+yeah that's a bonus shut up bird so a
+lot of people don't fully understand how
+the Rubicon sway bar system works called
+a smart bar or electronic sway bar or an
+electronic torsion bar but what it is
+basically is
+it's got two gears in here and I'll put
+some pictures up that I found for you to
+show the inside of this it's got two
+gears that are sort of connected by a
+collar and whenever it's connected this
+acts as one big single piece however
+when you disconnect in this case I'm
+going to use an error actuator from Team
+tech offroad then that caller will
+separate those two gears and these will
+move independently of one another
+completely 100% disconnected tto sway
+bar disconnect Rubicon sway bar remove
+motor added pneumatics here we just have
+an air tank just set into less than 60
+psi and we are locked
+we are unlocked we are locked
+this is 100% completely two separate
+components when in a disconnected state
+so other than getting as much Flex out
+of your links as you can there's really
+not a limitation because of this and one
+of the ways I'm ensuring that I get as
+much articulation out of the links as I
+can so I'm going with these J KS
+adjustable sway bar links for the
+Rubicon now these are not disconnects
+but they are high misalignment ends
+which means first of all they're
+adjustable so I can get the exact height
+and I'll show you how I do that on the
+install but I can get as much flex as
+possible out of this system using these
+J KS links so I'll show you the rest of
+the install components here in just a
+second because it's important for you to
+know exactly what you're going to need
+but I do want to say this even if you
+have a Rubicon and you have a functional
+electronic disconnect sway bar there's a
+couple of good reasons why you'd still
+want to convert to this tto air actuated
+and disconnect first of all if you have
+an air compressor it's pretty easy to
+add it into the system
+right you've already got the plumbing
+they're the hard work is done it's just
+now adding in another airline and a
+switch but the reason why that would be
+a good idea is if you're familiar with
+the rubicon you'll know a couple of
+things number one it won't let you
+disconnect the sway bar unless you're in
+four-wheel drive so that means if you
+get into a situation where you're on a
+trail you want to pick up the speed put
+it in a two wheel drive yeah you can't
+run disconnected that way
+number two above 25 miles an hour it's
+gonna automatically reconnect for you
+so this basically gets rid of all the
+nanny features and I can control when I
+want to be connected or disconnected now
+I want to follow the same safety
+principles I don't want to be
+disconnected on the road I don't
+necessarily want to be disconnected on
+high speeds but I don't want the vehicle
+to dictate when that happens I'd like to
+be in control the other thing is the
+electronic system is known to fail when
+it gets muddy or wet oftentimes the
+electronic components will mess up
+that's a big expense that's like a
+$1,200 replacement part so if you have a
+sway bar that has a failed electronic
+actuator I would seriously consider
+going this route if you have an
+electronic actuator and has it failed
+yet I would still consider going this
+route and if you don't even have a
+Rubicon I would consider going this
+route doing like I'm doing you can do it
+one of two ways you can source a Rubicon
+sway bar take off somebody took it off
+to replace it with something else
+or you can buy them on Craigslist or in
+local Jeep club for sale ads and things
+like that some of you have you've amid
+some lucky as to get them for free I am
+NOT that look I guess if I was more
+patient and maybe that would happen or
+you can do what I did and I just bought
+a complete Rubicon sway bar with the
+actuator it's a little more expensive
+that way but the reality of it is it
+saves me a lot of trouble up sourcing a
+good way bar and then adding on the
+additional air actuation module that
+it's all sort of comes to me in a box
+ready to go now ideally right it's heavy
+so shipping is expensive so really they
+encourage you to find your own Rubicon
+sway bar and then buy the actuator but
+if you're in a bind like me yeah just by
+the
+whole set up from them as a matter of
+fact I'll give you a discount code to
+get free shipping on that because
+shipping is what really costs a lot of
+money so stay tuned to the end of this
+video I'll give you discount code for
+free shipping on a complete Rubicon sway
+bar with the tto actuator if you just
+want the actuator say you already have a
+Rubicon sway bar or you're gonna find
+your own I'll give you a discount code
+for that as well so don't worry all
+right so before I dig into the install I
+do want to show you the other components
+you're gonna need to tie this into your
+air system so first of all you're going
+to need a couple of these push fittings
+these are for a five millimeter ARB
+airline and they're going to screw in
+directly to the air actuator on the tto
+disconnect and they're also going to
+screw in to your solenoid I recommend as
+does team tech off-road to get an actual
+ARB solenoid they have some design
+features that makes them better for this
+application so you're gonna need a
+solenoid which is probably the most
+expensive secondary part you're gonna
+end up with because these aren't that
+cheap it's made in Italy for crying out
+loud so two of the connectors to connect
+your air hose one
+Sylla need in my case I'm getting a tee
+fitting so that I can tap in an
+additional airline and these are cheap
+like five bucks for I think maybe even a
+couple of them but I need that to be
+able to add in a third airline because I
+already have two solenoids and use and
+then you're gonna need some air hose
+that's really it and you can tie this
+entire system into your existing onboard
+air setup now if you're not using ARB
+obviously do whatever makes the most
+sense when I guess one other thing you
+are going to need a switch so I'm using
+an S Tech switch system and that gives
+me a sway bar disconnect switch that's
+gonna go right up above the rear view
+mirror so if you haven't seen my video
+on this I did the unboxing and I'll be
+doing the install after I get this sway
+bar in all right let's start knocking
+this out alright the actual removal of
+the factory sway bar is pretty simple
+you can see here there's these brackets
+it's going to be
+same so you're gonna have four bolts
+that are holding this up to the frame
+and then you've got your two bolts that
+are holding it to the top links and then
+you'll have to remove whatever you have
+connecting your links to the axle side
+so let me pull that out should be pretty
+quick and painless and then we're
+actually just gonna bolt this right back
+up in the same place now I'm doing this
+without taking the tires off so I'm
+getting in here with some wrenches
+obviously would be easier just to zip
+them off with an impact but go ahead and
+get in here and disconnect all right
+there's the the old link driver's side
+[Applause]
+[Applause]
+all right so there's a look at the
+factory non Rubicon sway bar next to a
+factory Rubicon sway bar pretty much the
+same except for that big beast right
+there
+so it's going to be a direct replacement
+so I'm just gonna stick it right where I
+got the other one all right so these jks
+links are designed to go with the
+Rubicon sway bar and they're not
+disconnected they're just adjustable
+links so you can extend these to
+whatever length works for your
+particular build now there's two part
+numbers one of them is for a larger lift
+than the other so make sure you know
+which part number I got the one for the
+larger lift and you basically can just
+expand these out until they're the right
+length and tighten down your jam nut and
+then install them
+but it's never that easy is it
+[Music]
+alright so if you're using these jks and
+links like I am you're gonna have to
+drill out more than likely these holes
+on the end of the sway bar link to
+accept these half inch bolts it may seem
+like drilling these out with a half-inch
+bit is easy but honestly it's easier
+just to do what I do and use a dremel so
+I have a buddy Paul Warren who runs a
+World Tour offroad he recommends using a
+Vaseline for these so I figured hey
+can't hurt so before I set those into
+place I'll lubricate them with Vaseline
+keep it from squeakin alright so this
+one is a little heavier just because
+it's got the added disconnect function
+not gonna lie so what I'm gonna do is
+prop it up on top of that drag link just
+until I can get things sort of organized
+and get one of these stab through on
+this side okay now I'll come on the
+other side and get a second one in there
+one thing I do want to point out as I'm
+using a blue thread Locker on this and
+these are gonna get torque down to 75
+foot-pounds
+all right I'll torque these down to 75
+foot-pounds now we can get those end
+links on and we'll be done at least with
+this part
+I'll cover the air compressor
+integration in the next video
+all right so here's the jks links
+interesting enough they want this
+bushing to be on the outside face of the
+sway bar but it's actually in all the
+photos it shows the link to look like
+this so I think what I'm gonna do is pop
+this out and pop that out and basically
+adjust it so it looks like this which is
+how it looks in the photos in the
+instruction sheet and that also puts jks
+upright so I think that's how it's going
+to go and then the good news is these
+are just adjustable you don't have to do
+any cutting you can just adjust them to
+where they need to be and then set your
+jam nuts so I'm going to go ahead and
+level the sway bar so it's pretty much
+parallel with the frame I'm going to
+take this bolt stick it through there
+and then a line now keeping in mind I'm
+on level ground here then I'm gonna test
+fit
+just lower through there I think that is
+the length I want them you want both of
+the certs to point forward just like
+that
+all right so I'm going to take this
+other one and do the exact same thing
+with it
+swap these out and then now I'm going to
+adjust it what I like about these is it
+means they're adjustable should you
+change or your lift dimensions these can
+just adjust with as opposed to those of
+you cut and you're sort of stuck with it
+for that period of time all right so I'm
+just using these longer boots from the
+top
+to get things where they look like
+they're about the same all right those
+look like they're the same so with that
+I'm gonna go ahead and tighten these Jam
+nuts down I'm gonna hit it with a little
+threadlocker
+let's see I think I have the right size
+wrench right here alright we'll see if
+that'll hold that thread lock should
+help but it's pretty tight right there
+oh and this actually is gonna go on it's
+gonna go on that side so there we go
+passenger side driver's side there boom
+and then it's gonna get tightened down
+and just like that
+so jks is saying to torque these to 65
+foot-pounds which is a little bit lower
+than what the factory bolts are but
+because those are specific bushing I'm
+gonna follow jks is guidelines and yeah
+alright I just need to grease these all
+right I'm just essentially greasing them
+until stuff comes out everywhere so
+there we go
+alright guys so that's it that's the
+install of the team tech off-road sway
+bar Rubicon sway bar and the sway bar
+disconnect now if you just by the
+disconnect obviously you're just gonna
+mount that piece on your existing sway
+bar it's super easy but since I bought
+the entire thing I ended up exchanging
+my old sway bar with the new sway bar
+and then adding in those JK s links so
+depending on how much of that that
+you're doing this could be a super quick
+like literally a 20 minute swap not
+including installing the airline which
+we're going to cover in the next video
+but just swapping out the sway bar is
+really easy so I took the time to
+lubricate swap out those bushings with
+some better bushings that I currently
+had
+and and then add in those additional jks
+extended sway bar links I recommend that
+I mean if you have a Rubicon and you're
+using stock links make sure you get the
+longer ones a lot of guys when they do
+the lift kits will take the rears and
+put them on the front they're longer in
+my case those weren't long enough for my
+needs the sway bar is most optimum at
+the zero degrees like frame level or
+maybe plus or minus five but I like to
+have it completely parallel with the
+frame so because of that the jks links
+were perfect and as you can see they're
+easy to adjust I didn't have to cut
+anything and if I change my lift later
+if I add another inch or subtract an
+inch it's not that difficult just to
+readjust and those links so anyway guys
+stay tuned for more of the team tech
+off-road install and until then thanks
+for watching I'll catch you on the next
+one
+[Music]
+[Applause]
+[Music]

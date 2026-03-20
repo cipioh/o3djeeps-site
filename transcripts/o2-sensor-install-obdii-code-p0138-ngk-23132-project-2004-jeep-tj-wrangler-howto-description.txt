@@ -1,0 +1,32 @@
+🔔 Please CLICK THE BELL if you want to see my videos! 🔔
+
+
+In this video, I change out a bad oxygen sensor (Bank 1, Sensor 2 
+ - Downstream) but this video will be helpful if you have a code that references other sensors.
+
+There are four O2 sensors in my 2004 Jeep Wrangler with a 4.0L six cylinder engine:
+
+Bank 1, Sensor 1 (upstream)
+Bank 1, Sensor 2  (downstream)
+Bank 2, Sensor 1 (upstream)
+Bank 2, Sensor 2 (downstream)
+
+Based on my research, I recommend only using NGK/NTK sensors as these Jeeps are known to be pretty picky. I can tell you that my install solved the issue, and no more check engine light (CEL) so I feel it was money well spent not having to try a Bosch sensor to find it may or may not work.  Anyway... 
+
+Here are the NGK/NTK part numbers and amazon links if you need them. These are affiliate links, so it helps me a little if you decide to buy from them... but it doesn't cost you any more than it normally would. :-)
+
+These are for a 2004 (what I have) only... see below for other part numbers. BTW... these prices are much cheaper than what I paid at the local parts store... but I didn't want to wait for shipping. 
+
+NGK/NTK #23137 - Bank 1, Sensor 1 (Upstream)
+http://amzn.to/2ED3d21
+
+NGK/NTK #23132 - Bank 1, Sensor 2 (Downstream)
+http://amzn.to/2CfTlKc
+
+NGK/NTK #23135 - Bank 2, Sensor 1 (Upstream)
+http://amzn.to/2qi5BZ2
+
+NGK/NTK #23531 - Bank 2, Sensor 2 (Downstream)
+http://amzn.to/2lJK85x
+
+If your vehicle is different, you can always look here to find the right part numbers: https://www.ngk.com/automotive-oxygen-sensors-ngk-c904.aspx

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Guest Install #2 - Slickrock Gear JK Pocket Center Console Pocket - Sam from @rosieredjku";
+export const description = "Explore the DIY installation of the Slickrock Gear JK Pocket center console pocket, enhancing your Jeep's functionality and style.";
+const youtubeId = "HslPOuSVkAY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-03-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Slickrock Gear"
+  },
+  {
+    "label": "Product",
+    "value": "JK Pocket Center Console Pocket"
+  },
+  {
+    "label": "Use Case",
+    "value": "Organizing interior space in Jeep Wrangler JK"
+  }
+];
+const externalLinks = [{"label": "In this Guest Install video, Sam from @rosieredjku (on Instagram) shows us how she installed the Slickrock Gear JK Pocket center console pocket in her Jeep... Rose Red. Cool Jeep, btw!!  You'll be seeing more of this Jeep in an upcoming Readers' Rides video.", "url": "https://www.slickrockgear.com/interior/jk-pockets/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this exciting Guest Install tutorial, we’re featuring Sam from @rosieredjku, who shares her experience installing the Slickrock Gear JK Pocket center console pocket in her Jeep, affectionately known as Rose Red. This installation not only improves organization but also adds a touch of style to your Jeep's interior. Let’s dive into how you can achieve this upgrade and what makes it a worthwhile addition to your ride.</p><h2>What This Covers</h2><p>This article will guide you through the installation process of the Slickrock Gear JK Pocket, including tips and insights drawn from Sam's successful installation. We’ll also highlight the product’s features that enhance interior functionality, making your Jeep more enjoyable during adventures.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Remove the Existing Console Panel:</strong> Start by carefully detaching the existing panel from your Jeep's center console. Sam demonstrated this by using a flathead screwdriver to pop out the clips securely fixed to the original piece.</li><li><strong>Eliminate the Factory Netting:</strong> The next step involves removing the outdated netting that many Jeep owners find inadequate. If you haven't already done so, clear out all remnants of the factory-installed netting to prepare for the JK Pocket installation.</li><li><strong>Install the JK Pocket:</strong> Position the JK Pocket by placing one tab into the console area, then work your way around to ensure a snug fit that minimizes rattling. The product is designed to fit tightly without the need for adhesive tape, making for a clean and professional look.</li><li><strong>Reassemble the Console:</strong> Once the JK Pocket is securely in place, it’s time to put the interior piece back. Sam found that the assembly slides right into place easily, thanks to the product’s thoughtful design.</li></ol><h2>Helpful Tips</h2><ul><li>Ensure all clips and remnants are cleared for a clean installation site. This not only makes installation easier, but also ensures that your new pocket sits securely without obstruction.</li><li>Take your time fitting the JK Pocket into the console to avoid damaging it or the surrounding areas.</li><li>Follow the provided instructions carefully; the installation should take roughly five minutes per piece, allowing you to enhance your interior quickly and efficiently.</li></ul><h2>Key Takeaways</h2><p>The Slickrock Gear JK Pocket center console pocket is an excellent mod for Jeep Wrangler JK owners seeking improved utility without compromising style. Handmade in Southern California using robust materials, it’s designed to stand up to the rigors of off-road life while enhancing the aesthetic of your interior. Whether you’re storing your phone, snacks, or other essentials, this product offers a class-leading solution to the less-than-ideal factory options. If you’re looking to upgrade your Jeep's functionality and make trips more organized and enjoyable, consider making this mod a priority!</p>
+
+</article>
+
+</SiteLayout>

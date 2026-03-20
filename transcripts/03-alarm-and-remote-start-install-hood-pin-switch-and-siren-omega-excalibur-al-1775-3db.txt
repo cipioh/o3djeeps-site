@@ -1,0 +1,357 @@
+hey there CP oh here it's finally time
+to start the in vehicle installation of
+that xcalibur
+alarm system with remote start I've been
+setting up for in the last few videos so
+it's gonna be a several video series I'm
+going to try and give as much detail for
+those of you that are actually looking
+for that type of information and I'm
+gonna show you exactly what I'm
+installing where and how now that may
+seem risky because this is a security
+system and it would be counterintuitive
+to show everybody exactly where I'm
+installing it but the reality of it is
+the people who are able to defeat this
+system they don't need my help they
+already know how and where I'm
+installing this and how to get the
+things my goal is to create a layered
+defensive boundary that will allow me to
+prevent people from taking opportunistic
+advantage of my Jeep and then also
+perhaps alert me if somebody is actually
+going into that next level of actually
+trying to do something with it
+so anyway I'm not scared besides I mean
+nobody watches these videos anyway right
+so anyway let's get to it alright so the
+first thing I'm going to do is start
+working on the things I can handle under
+the hood and the reason I'm starting
+here is because if I get my engine
+compartment accessories installed I'll
+have a good idea of how much wire I need
+to reach the brain inside the cockpit so
+I'm actually going to install three
+things under the hood I'm gonna install
+a pin switch so that it will detect if
+the hood is opened I'm gonna install the
+siren which is also another sort of
+required element and then I'm going to
+install a third optional accessory which
+I'm gonna wire in parallel with the hood
+pin switch and that is going to be a
+mercury switch although it's not really
+a mercury switch anymore these days but
+it is a tilt switch a switch that will
+close a connection to ground when tilted
+and that's going to be a redundant
+backup for the hood but we need the hood
+pin switch for the remote start
+basically that's a safety item that
+requires that the hood is closed the
+system acknowledges that
+before you can remote start the vehicle
+so that's what I'm doing in here so
+let's get to it so starting with the pin
+switch there are a couple things to know
+first of all if you have a vehicle with
+a factory start already pre-installed
+you're not going to need one because
+you're gonna have one right here there's
+gonna be already a bracket coming off
+and a pin switch right there for you so
+you don't need to do anything you don't
+even need to tie into that switch
+because the Excalibur system will
+recognize that there is a pin switch
+through the data Channel and will
+automatically recognize when that switch
+is activated or disengaged
+now if you're like me and you don't have
+that we're gonna have to install this
+there's a couple ways to do that as well
+you can drill in and mount the pin
+switch straight into the body I know a
+lot of people tend to to find this area
+a great place to put it one thing to
+keep in mind is you've got a lot of
+contours in the hood so what you want to
+try and do is find a place where those
+hood contours line up in a place where
+you can install the switch so that
+you're getting good contact so another
+thing you can do which is actually what
+I'm gonna do is I'm gonna take advantage
+of this hole right here which is where
+the factory bracket would come out for
+for the pin switch if I had that
+installed from the factory and I'm gonna
+mount an L bracket using that hole and
+then set my pinch which right here
+alright so the pin switch that comes
+with the system looks just like this
+it's already got a female Spade
+connector on there I'm gonna take that
+off for now it's got two nuts that allow
+you to adjust the placement and tighten
+the switch in the location you want Plus
+this little locking washer here but the
+idea being is that you can adjust where
+you want this to be and then still
+adjust the height so this needs to be
+installed to something that is grounded
+and the way it works is when the switch
+is depressed like when the hoods closed
+there is no connection here to ground
+but as soon as you let go the wire which
+is going to go to the unit will be
+connected to ground and it will
+that that circuit is now in this case
+being closed but that means your hoods
+been open so that's how that works now
+fortunately for me I found a perfect
+little L bracket in my garage so if
+you're like me I keep a junk drawer of
+sorts in the garage of just random stuff
+I have no idea where I got this bracket
+what it belongs to but it turns out to
+be a perfect fit go check your garage
+junk drawer if you've got a bracket use
+it if not you can always get a bracket
+for this auto parts or hardware stores I
+know that keiki ride calm the guys that
+are putting together a package and alarm
+system package for us has brackets L
+brackets I believe in stock there that
+you can use but you just need a simple L
+bracket for where I'm going to install
+this today so as you can see the pin
+switch is going to mount on the bracket
+and the bracket is going to mount to the
+vehicle using one of these I haven't
+really decided yet but I'll figure out
+here in just a second and that's really
+how it's gonna go the key here is you
+want to make sure that whatever whatever
+you have holding this connection in
+you've got plenty of freedom of movement
+of this pin so that it doesn't get bound
+up on anything and you also don't want
+it to accidentally touch anything metal
+in the process so any bolts you have or
+any other metal objects you want to make
+sure that this is free and clear anyway
+so let me let me show you how I'm
+getting this onto the vehicle I actually
+picked up some speed nuts and I think
+these are gonna be perfect for getting
+me into that hole and then a couple of
+bolts just to fit with the speed nuts so
+let me show you how this works all right
+again I'm right here in the corner this
+is right behind the where my hand is
+here this is the driver's side headlight
+and ignore my little aluminum Burrito
+here this is actually my halos
+controller that I put some aluminum tape
+on to try and shield it because I was
+getting some CB interference and to be
+honest with you it didn't work at all
+but ignored that it just happens to be
+zip tight in there so it's kind of in
+the in the shot but what I'm looking for
+is this hole right here that is on this
+factory brace right here and so what I'm
+gonna do
+because this hole is on the side I can
+slide this little speed nut in there and
+use it to capture the back end so let me
+figure out I've got a couple of sizes
+here looks like I really just need a
+small one oh that's gonna be perfect
+right there
+alright so that speed nut is now in
+place again I just picked those up at
+like Pep Boys or something like that I
+want to take a look this is gonna mount
+there I think I'm gonna use the middle
+hole that's gonna give me a fairly good
+alignment I believe and I can always
+adjust that later
+again I just got super lucky with this
+bracket because it just happened to be
+in my toolbox drawer but now and the
+speed nut just basically gives me a nut
+to screw this into alright just get this
+good and tight that's the official
+torque spec on this good and tight and
+the fact that I'm using this speed nut
+means I don't have to put a wrench on
+the back side which is nice I just got
+to hold my bracket so it's level and now
+what I'm gonna do is put my pin switch
+in there just like that now obviously
+I'm gonna have to adjust this but I've
+got to start somewhere so put my locking
+washer underneath there
+and then that first nut and basically
+the idea is that you want to have I
+don't know a quarter inch of clearance
+when that hood pane compresses actually
+that might actually oddly enough that
+might be just perfect so I can actually
+here and you can see when the pressures
+off that's the that's resting on top of
+the pin switch and I've got about that
+much room maybe a half of an inch I may
+go a little bit deeper kind of shooting
+for that quarter-inch because I don't
+want people to be able to reach in there
+very easily and and defeat the switch
+you probably can't hear that maybe you
+can so that's the the switch compressing
+and I'm just basically gauging my
+distance on how much of the hood moves
+as after I'm resting on the top so I
+think that's perfect right there
+now we close the hood just to
+double-check things
+all right so check this out you don't
+even have to pop the hood to set the
+alarm off just undoing the hood will
+allow it to raise up enough that it will
+trip that pin switch so that's pretty
+awesome so if you just decide to get
+curious you're gonna set off my alarm
+haha whoo all right you might recognize
+this harness as the harness that I'm
+using to go into the brain of the
+Excaliber unit this is the trim down
+version of things I need but one of the
+wires in here one of the long wires
+actually is the gray wire and that's
+actually the hood trigger wire so that's
+the one that's going to connect into
+here now I'm gonna go in through the
+firewall underneath this brake master
+cylinder I'll show you that later but I
+sort of want to just mock up sort of
+some rough distances just to get a sense
+of how much wire I need and you know
+what I might not even have to extend
+this wire at all if I do it's literally
+gonna be you know a few inches a foot
+max depending on how things get run so
+I'm gonna leave this gray wire alone and
+just know that if I need to add to it I
+can add to it after the fact as I put in
+this down but in my opinion it's better
+to get everything routed from inside to
+the outside and then make your final
+connections on the outside you can fine
+tune the length but if I wanted to if I
+needed to add something to get it
+outside of here I would rather do it
+before I get the brain actually mounted
+but knowing that this is long enough to
+get out here fine I'm just gonna leave
+this B now the other thing I'm gonna tie
+into this and I'll probably tie in
+somewhere in the middle of it is going
+to be that switch that detects the hood
+tilt but before we install that I do
+want to take care of one of the primary
+items that you're gonna need because not
+everybody's gonna want that that extra
+switch but that'll be the siren let me
+show you where that's going
+all right so here's the little alarm
+siren it's really tiny and all we need
+to do is find a place to mount it and a
+place to ground it and then we'll run
+the positive lead into the vehicle to
+connect to the brain now I looked at a
+lot of places under here trying to
+figure out the best fit for me and you
+know your installation may be a little
+bit different you may find something
+that is more convenient actually back in
+here would be a really good spot
+eventually I'd like to upgrade to maybe
+a double battery setup so I don't really
+want to put anything right here because
+I'll have to move it anyway but that's
+an option some people may have options
+up here in the front I actually have a
+aftermarket snorkel system that runs in
+the fender so my airbox isn't taking up
+as much space so something right here
+would be good but I found this little
+ground post back here on the firewall
+and it actually is small enough to fit
+inside the holes on this bracket so I've
+really been looking at a way to do a
+mounting position here so I tried to
+avoid drilling into the firewall and
+unfortunately there's only one post here
+but the good news is this alarm bracket
+has a center hole which means if I get
+it hung off of that one Center one the
+weight should be equally distributed and
+it shouldn't rotate or spin or anything
+like that now the hole is on the side
+facing out and I want this to point down
+because I want the sound to go down you
+know there behind behind the engine of
+the firewall and get to the ground
+if possible and splash off the ground
+underneath the Jeep so what I'm gonna do
+is I'm gonna rotate the siren on the
+bracket so that the hole is on top here
+and then I'm gonna mount this using that
+center hole on that post and I'm also
+going to ground to that post so I'm
+gonna put a ring terminal on this and
+when I mount it just add that right into
+the mix and I think that's gonna work
+out great so as you can imagine
+this is the highly coveted ten
+millimeter and what I'm going to do is
+I'm going to leave that grounded
+connection that's there now in place and
+then press the bracket over the top of
+it and then my grounded connection over
+that alright I do see one thing I want
+to do so I swapped this but I want to
+reverse where the screw is on this so
+that I can reach a screwdriver back in
+here and tighten it once I get it in
+place I've actually got it pretty tight
+but I need it to be pointed down I also
+want to route that around like that
+I think that's gonna work out really
+well it's sort of I haven't tightened it
+yet but that bracket is sort of locked
+in a place that it can't easily come
+undone from so once I tighten it down
+yeah there we go so that's got the siren
+pointed down good from a water
+you know just infiltration general noise
+will go back splash back there I don't
+think that's going anywhere my wiring is
+right here so when I tie in this
+positive I'll be able to feed it right
+up the Loom there yeah I like it I think
+that's gonna hold I see no reason why
+that one screw can't hold that in place
+the other good thing is that's not going
+to be accessible from underneath the
+vehicle you just cannot get up there and
+reach and find it it's not accessible
+from the sides of the vehicle and it's
+sort of in a place that stays fairly
+clean so I'm really happy with that
+[Music]

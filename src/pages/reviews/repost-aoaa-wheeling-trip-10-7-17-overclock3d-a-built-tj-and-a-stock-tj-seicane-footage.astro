@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "[REPOST] AOAA Wheeling Trip - 10-7-17 - OVERCLOCK3D, a built TJ, and a Stock TJ - Seicane Footage";
+export const description = "Join us for a thrilling wheeling trip at AOAA with a stock and a built TJ, showcasing tips, gear, and off-road adventures.";
+const youtubeId = "i7izTbrMDek";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-11-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Seicane"
+  },
+  {
+    "label": "Product",
+    "value": "Model S18JP25"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Adventures"
+  }
+];
+const externalLinks = [{"label": "I hope you enjoy the video.", "url": "http://bit.ly/S18JP25"}, {"label": "For more info about the Stereo and a ton of install videos, see my Seicane playlist:", "url": "https://www.youtube.com/playlist?list=PLKivmulOhtZgXRmaZjF2hJuGVfHfRhjFW"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Recently, we had the opportunity to explore the Anthracite Outdoor Adventure Area (AOAA) in Pennsylvania, an outing filled with camaraderie, adventure, and valuable learnings for both novice and experienced jeepers alike. The day featured a mix of a well-built TJ with 37-inch tires and a stock TJ, allowing us to test the limits and capabilities of stock versus modified rigs on various terrains.</p><h2>Main Points</h2><p>Our adventure revolved around getting a new Jeeper acquainted with the trails, while simultaneously pushing the boundaries of our own modified vehicles. With elements like flex testing and camera evaluations, we aimed to make this day not only fun but also a valuable learning experience. Here are some key highlights from the trip:</p><ul><li><strong>Test Runs:</strong> Each vehicle showcased its unique strengths and weaknesses, especially comparing the stock TJ’s limitations against a more modded rig.</li><li><strong>Camera Performance:</strong> We evaluated the effectiveness of a new trail camera setup for guiding and spotting obstacles, ensuring safety and precision during climbs and descents.</li><li><strong>Trail Exploration:</strong> We navigated both easy greens and a few challenging blue trails, providing insights into suitable options for different skill levels.</li></ul><h2>Practical Implications</h2><p>This outing at AOAA highlighted some crucial lessons for off-road enthusiasts:</p><ul><li>Always assess your vehicle’s capabilities before hitting more advanced trails. Knowing where your stock rig stands helps in planning its modifications down the line.</li><li>Investing in quality gear, like cameras and navigation tools, can elevate your off-road experience by providing additional safety and fun ways to document your journey.</li><li>Sometimes the best outings come from the simplest adventures. The stock TJ, while limited, brought about a fun exploration dynamic as we adapted our routes to allow for a more beginner-friendly experience.</li></ul><h2>Key Takeaways</h2><p>Our day at AOAA was an unforgettable blend of friendship, adventure, and learning. Whether you're just starting your off-road journey or looking to push your modified Jeep to its limits, there’s a lot to gain from outings like these. Remember, it’s not always about how built your vehicle is; sometimes, it's about how much fun you can have with the gear you have. So, gather your fellow enthusiasts, hit the trails, and make some memories!</p>
+
+</article>
+
+</SiteLayout>

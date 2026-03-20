@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Pretty Cool Collaboration Video  Teaser - OVERCLOCK3D Walkaround with WALTERRIFIC";
+export const description = "Join Scipio as he hangs out with Walter from WALTERRIFIC for a Jeep collaboration video walkaround of the OVERCLOCK3D build!";
+const youtubeId = "DrAjhOJO_y4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-12-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Collaborator",
+    "value": "WALTERRIFIC"
+  },
+  {
+    "label": "Location",
+    "value": "Maryland"
+  },
+  {
+    "label": "Build",
+    "value": "OVERCLOCK3D"
+  }
+];
+const externalLinks = [{"label": "Here's his YouTube channel:", "url": "https://www.youtube.com/user/Walterrificonline"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In a thrilling meetup, Scipio from o3djeeps.com connects with Walter, famously known as WALTERRIFIC, a prominent figure in the world of moto vlogging and Jeep enthusiasts. Their collaborative efforts promise an exciting glimpse into the details of a notable Jeep build, specifically the OVERCLOCK3D.</p><h2>Main Points</h2><p>WALTERRIFIC's popularity stems from his engaging personality and unique blend of humor and commentary in his videos, which have captivated over a million subscribers. His passion for Jeeps, particularly his supercharged JKU, brings an exciting new perspective to the Jeep community. The planned video walkaround of the OVERCLOCK3D build showcases the features of this impressive vehicle, allowing viewers to gain insights into modifications and enhancements that can elevate their own Jeep experience.</p><h2>Practical Implications</h2><ul><li><strong>Community Engagement:</strong> Walter and Scipio’s collaboration reflects the strength of the Jeep community, where enthusiasts come together to share experiences and knowledge.</li><li><strong>Content Creation:</strong> The video promises to delve beyond aesthetics, focusing on the mechanics and thought processes behind the OVERCLOCK3D build, which serves as a valuable resource for both new and seasoned Jeep owners.</li><li><strong>Inspiration for Builds:</strong> Especially for those contemplating their own modifications, Walter’s walkaround is likely to spark ideas and discussions on popular upgrades and design choices.</li></ul><h2>Key Takeaways</h2><p>The upcoming video is sure to be a rich resource for Jeep enthusiasts looking to enhance their builds while connecting with fellow Jeep lovers. Keep an eye on WALTERRIFIC's channel for the release, as it will undoubtedly be packed with insights and visuals that highlight just what makes the OVERCLOCK3D build special.</p>
+
+</article>
+
+</SiteLayout>

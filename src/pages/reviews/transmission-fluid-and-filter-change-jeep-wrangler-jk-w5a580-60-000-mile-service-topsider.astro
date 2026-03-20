@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Transmission Fluid and Filter Change - Jeep Wrangler JK - W5A580 - 60,000 Mile Service - Topsider";
+export const description = "Learn how to change the transmission fluid and filter on your Jeep Wrangler JK with this detailed step-by-step guide.";
+const youtubeId = "aiFY--sfAOE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-04-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Mopar"
+  },
+  {
+    "label": "Product",
+    "value": "Transmission Fluid and Filter"
+  },
+  {
+    "label": "Use Case",
+    "value": "60,000 Mile Service"
+  }
+];
+const externalLinks = [{"label": "Also, as mentioned in the video, here's the Topsider MVP that I used:", "url": "https://amzn.to/2JvJ0xI"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Changing the transmission fluid and filter in your Jeep Wrangler JK is an essential part of vehicle maintenance, especially for off-roaders who demand a lot from their drivetrains. With a recommended interval of every 60,000 miles, this service ensures your transmission operates smoothly and can extend its lifespan considerably.</p><h2>What This Covers</h2><p>This article provides a comprehensive guide to changing the transmission fluid and filter in your Jeep Wrangler JK, specifically for the W5A580 transmission. We’ll cover everything from the tools you’ll need to the step-by-step process to complete this maintenance task efficiently.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation:</strong> Begin by warming up your engine. As the oil heats, it will flow more freely, making the extraction process easier. Aim for a temperature of around 165°F.</li><li><strong>Tools and Parts:</strong> You’ll need the following parts: a new filter (part number 52108325-AA), a gasket (part number 52108332-AA, optional but highly recommended), and ATF+4 fluid (part number 68218057-AB). For extraction, a Topsider MVP oil extractor is recommended for easy fluid removal without the mess.</li><li><strong>Fluid Extraction:</strong> Use the Topsider to suck out the old fluid through the dipstick tube. This method is cleaner than removing the pan and can be very effective if done correctly.</li><li><strong>Removing the Pan:</strong> After draining as much fluid as possible, it's time to tackle the transmission pan. While there are aftermarket pans available with a drain plug, many enthusiasts find them inconvenient, especially in terms of access. Bolts on the transmission pan can be tricky to reach, but lifting the transmission slightly can provide the necessary clearance.</li><li><strong>Filter Replacement:</strong> Once the pan is off, you’ll see the filter. Remove it carefully to prevent spillage. Ensure to clean the magnet and the pan to remove any sludge that may have accumulated.</li><li><strong>Installation:</strong> Replace the filter and install the new gasket on the pan. Torque the bolts to the manufacturer's specifications and ensure a proper fit without over-tightening.</li><li><strong>Refilling the Transmission:</strong> Finally, refill the transmission with fresh ATF+4 fluid. Start with around four quarts, then check the level, adding more as necessary to reach the proper mark on the dipstick.</li></ol><h2>Helpful Tips</h2><p>Here are a few tips to help make your transmission fluid and filter change smoother:</p><ul><li>Always use quality parts. Genuine Mopar parts are often preferred for their reliability and fit.</li><li>If you're using a Topsider, ensure the tube length is correctly measured against the dipstick to prevent any mishaps.</li><li>Keep a catch pan handy to minimize mess when removing the transmission pan and filter.</li><li>Check for leaks after completing the job and taking a short drive to circulate the new fluid.</li></ul><h2>Key Takeaways</h2><p>Performing a transmission fluid and filter change in your Jeep Wrangler JK is a valuable skill for any Jeep enthusiast. Not only does it improve the functionality and longevity of your transmission, but it also gives you peace of mind when hitting the trails. Be sure to maintain a regular service schedule, and don’t hesitate to reach out to fellow enthusiasts for tips and support along the way!</p>
+
+</article>
+
+</SiteLayout>

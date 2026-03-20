@@ -1,0 +1,11 @@
+🔔 Please CLICK THE BELL if you want to see my videos! 🔔
+
+
+The melted and brittle multifunction switch harness plug... it's a pretty common issue of the mid-2000s Jeep/Chrysler/Dodge vehicles... There is lots of speculation on why this happens, but many agree its because they decided to run way too many amps into a single switch.  The switch connector gets very hot, and melts on the Batt+ side (as mine did) and the overall connector becomes very fragile.  Replacement is the best solution. 
+
+I bought this http://amzn.to/2E4VjBO but didn't use any of the wires.  See this video to learn how to remove the existing wires: https://www.youtube.com/watch?v=syRUAg4A_ns
+
+If you need just a connector, maybe you can find it by itself... but I couldn't.
+
+Here's the pinout reference I used: 
+http://www.wranglerforum.com/attachment.php?attachmentid=21130&d=1277945342

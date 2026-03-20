@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep Wrangler TJ - Multifunction Switch Wiring Harness Connector Replacement";
+export const description = "Learn how to replace the melted multifunction switch connector in your 2004 Jeep Wrangler TJ for better reliability.";
+const youtubeId = "TwDmlL8MdG4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-07";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "Chrysler"
+  },
+  {
+    "label": "Product",
+    "value": "Multifunction Switch Connector"
+  },
+  {
+    "label": "Use Case",
+    "value": "Replacement and repair of melted connectors"
+  }
+];
+const externalLinks = [{"label": "The melted and brittle multifunction switch harness plug... it's a pretty common issue of the mid-2000s Jeep/Chrysler/Dodge vehicles... There is lots of speculation on why this happens, but many agree its because they decided to run way too many amps into a single switch.  The switch connector gets very hot, and melts on the Batt+ side (as mine did) and the overall connector becomes very fragile.  Replacement is the best solution.", "url": "http://amzn.to/2E4VjBO"}, {"label": "Here's the pinout reference I used:", "url": "http://www.wranglerforum.com/attachment.php?attachmentid=21130&d=1277945342"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Replacing the multifunction switch wiring harness connector in your Jeep Wrangler TJ can seem daunting, especially if it's your first time tackling electrical work. However, this is a common issue for mid-2000s Jeep models due to overheating and melting of the connector. In this guide, we'll walk you through the steps to replace this critical component effectively, ensuring your vehicle runs smoothly and safely.</p><h2>What This Covers</h2><p>This tutorial will cover:</p><ul><li>Identifying the faulty multifunction switch connector</li><li>Gathering necessary tools and parts</li><li>Step-by-step instructions for replacement</li><li>Testing the new connector</li></ul><h2>Step-by-Step Breakdown</h2><p>Here is a detailed step-by-step process to replace the multifunction switch connector:</p><ol><li><strong>Prepare Your Workspace:</strong> Start by ensuring your Jeep is in a safe, well-lit area. Gather required tools: a pick tool, wire strippers, and your new connector.</li><li><strong>Disconnect the Battery:</strong> Safety first! Before proceeding, disconnect the negative terminal of the battery to prevent any electrical mishaps.</li><li><strong>Remove the Old Connector:</strong> Locate the multifunction switch connector and assess its condition. If it's brittle and falling apart, use the pick tool to carefully extract it from its housing.</li><li><strong>Document the Wiring:</strong> Take a clear picture of the old connector or refer to the pinout reference found online. This step is crucial to ensure you correctly transfer the wiring to the new connector.</li><li><strong>Transfer the Wires:</strong> Methodically remove each wire from the old connector and insert it into the new one, one at a time, following your reference. Make sure the wires are firmly seated and the ramp mechanism is engaged.</li><li><strong>Connect and Test:</strong> Once you've transferred all wires, firmly attach the new connector to the multifunction switch. Reconnect the battery and test all functions, including headlights, blinkers, and other functions linked to the switch.</li></ol><h2>Helpful Tips</h2><p>As you work through this replacement, keep these tips in mind:</p><ul><li><strong>Take Your Time:</strong> Rushing can lead to mistakes. Be patient and double-check each step.</li><li><strong>Use Quality Parts:</strong> Opt for a well-reviewed replacement connector to avoid future issues with overheating and reliability.</li><li><strong>Follow Safety Protocols:</strong> Always work with the battery disconnected when dealing with electrical components to prevent shorts and shocks.</li></ul><h2>Key Takeaways</h2><p>Replacing the multifunction switch connector in your Jeep Wrangler TJ is a straightforward process that can significantly improve your vehicle's electrical reliability. By following the outlined steps and using proper safety practices, you can restore function to your vehicle's vital systems and extend the life of your Jeep. Don't hesitate to reach out to the Jeep community for support or further tips on your modifications!</p>
+
+</article>
+
+</SiteLayout>

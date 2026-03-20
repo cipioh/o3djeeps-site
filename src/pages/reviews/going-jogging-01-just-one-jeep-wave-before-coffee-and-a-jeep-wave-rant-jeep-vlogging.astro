@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #01 - Just One Jeep Wave Before Coffee - and a Jeep Wave Rant - Jeep Vlogging";
+export const description = "Join Scipio on his Jeep vlogging adventure as he explores the culture of the Jeep wave while on a coffee run.";
+const youtubeId = "y9eOLt8YkIY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-12-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Platform",
+    "value": "Wrangler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Community Engagement"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this episode of Jeep Vlogging, Scipio takes us on a lighthearted excursion as he attempts to catch just one Jeep wave before heading out for coffee. This fun journey dives into the often humorous yet deeply rooted culture surrounding the Jeep wave, a gesture of camaraderie among Jeep owners.</p><h2>Main Points</h2><p>Scipio humorously notes the challenges he faces during his quest for a Jeep wave, highlighting the camaraderie and connections that make being part of the Jeep community so rewarding. Throughout his cheerful stroll, he reflects on the preconceived rules of the Jeep wave: who should wave, who often does, and who might miss the gesture entirely. It’s a unique world where owners of different Jeep models—especially Wranglers—enjoy a distinct sense of belonging.</p><p>As he traverses the streets, Scipio maintains a lighthearted tone, discussing how some Jeep drivers might not even recognize the wave or understand its importance. He humorously ponders if waving at stock Grand Cherokees is worth it, stating that modified Jeeps elicit a more enthusiastic response. This discussion touches upon the idea that being part of the Jeep community is a conscious choice, and not all who own a Jeep feel the need to engage with the culture.</p><h2>Practical Implications</h2><p>The implications of these observations extend beyond just a fun anecdote; they reflect the experience of many Jeep owners. The Jeep wave acts as a social connector, encouraging camaraderie among drivers, and while it's common for Wranglers, other models like the Cherokee often fly under the radar. New Jeep owners might wonder why they aren't getting waves in return, prompting a broader conversation about how Jeep culture has evolved. Scipio's reflections serve as a reminder that Jeep ownership can be more than a means of transportation; it can be about community and connection.</p><h2>Key Takeaways</h2><ul><li>The Jeep wave is a unique but sometimes misunderstood gesture within the Jeep community.</li><li>Not all Jeep models receive equal recognition in wave culture—Wranglers dominate the conversation.</li><li>Engagement in Jeep culture is a choice; not all Jeep owners feel the pull to participate.</li><li>The drive to connect with fellow Jeep enthusiasts can significantly enhance the ownership experience.</li></ul>
+
+</article>
+
+</SiteLayout>

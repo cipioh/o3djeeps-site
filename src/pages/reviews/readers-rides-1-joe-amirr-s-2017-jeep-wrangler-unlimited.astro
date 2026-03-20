@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Readers' Rides #1 - Joe Amirr's - 2017 Jeep Wrangler Unlimited";
+export const description = "Explore Joe Amirr's unique 2017 Jeep Wrangler Unlimited build and the thoughtful modifications he's made.";
+const youtubeId = "iz1bstVAS78";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-01-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "Wrangler Unlimited"
+  },
+  {
+    "label": "Year",
+    "value": "2017"
+  }
+];
+const externalLinks = [{"label": "Want to show off your ride?  Go here:", "url": "https://www.facebook.com/groups/o3djeeps/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this inaugural episode of the Readers' Rides series, Scipio presents a detailed look at Joe Amirr's 2017 Jeep Wrangler Unlimited. This feature is more than just a showcase of a vehicle; it’s a celebration of the individuality and creativity that Jeep owners bring to their builds. Joe's approach offers a fresh perspective on modifications, making this episode a must-watch for anyone interested in off-road vehicles.</p><h2>Main Points</h2><p>What makes Joe's build particularly interesting is his unconventional approach. Rather than focusing solely on lifting the Jeep and upgrading tires first—standard steps for many enthusiasts—Joe prioritized functional modifications. This strategy reflects a thoughtful approach to customizing a vehicle for specific use cases and personal preferences.</p><ul><li><strong>Dual Battery Setup:</strong> One of Joe's earliest modifications was the installation of a dual battery kit. This addition, featuring two DieHard batteries, ensures that he has ample power for accessories and emergencies, particularly useful for off-road adventures where electrical demands can spike.</li><li><strong>Bumpers and Steps:</strong> Joe opted for a Barricade front and rear bumper, enhancing the Jeep's rugged aesthetic while improving functionality. The side steps serve a dual purpose—making it easier to enter and exit the vehicle and offering protection from off-road obstacles.</li><li><strong>Versatile Roof Rack:</strong> The Smittybilt roof rack is a standout feature, allowing Joe to remove the roof and utilize it for various purposes. He cleverly integrated a makeshift awning and a water reservoir, demonstrating innovative thinking in maximizing utility.</li><li><strong>Rugged Interior:</strong> Inside, Joe has designed custom features that cater to both daily driving and outdoor adventures. From LED lights to a sleeping platform for his dog, it’s clear that this Jeep is built for real-world use.</li><li><strong>Modern Audio and Tech:</strong> Joe's upgrade to a Pioneer stereo and the inclusion of a backup camera not only enhance the driving experience but also provide modern conveniences often found lacking in older models. The efficient placement of electric components, like the ARB air compressor, shows his attention to detail.</li></ul><h2>Practical Implications</h2><p>Joe's journey with his Jeep is a great reminder of how personalization can evolve. His decision to hold off on a lift kit and tire upgrades is a refreshing take—many builders often prioritize these modifications without considering their true functional needs. This approach not only reflects personal preference but also allows for a more balanced build that can serve the owner's lifestyle.</p><p>This method encourages viewers and aspiring Jeep modifiers to think critically about their builds. What are your needs? What types of adventures do you plan to undertake? Tailoring your modifications around these questions can lead to a more satisfying experience and a more functional vehicle overall.</p><h2>Key Takeaways</h2><p>Joe Amirr's 2017 Jeep Wrangler Unlimited exemplifies how thoughtful modifications can create a highly personalized off-road vehicle. His unique choices emphasize functionality over trend, demonstrating that there’s no one-size-fits-all approach to Jeep builds. Whether you are looking to enhance capability for off-roading or simply want a vehicle that suits your aesthetic and practical preferences, Joe's journey is an inspiring case study. For those looking to share their own rides or learn more from other enthusiasts, joining the O3D Jeeps Facebook group might be your next step!</p>
+
+</article>
+
+</SiteLayout>

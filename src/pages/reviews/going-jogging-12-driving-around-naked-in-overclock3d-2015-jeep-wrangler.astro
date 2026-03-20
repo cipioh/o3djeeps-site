@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #12 - Driving around NAKED in OVERCLOCK3D - 2015 Jeep Wrangler";
+export const description = "Experience the thrill of driving a Jeep Wrangler without doors or top in an exciting ride along adventure.";
+const youtubeId = "6EOw_bW0dMY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-05";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Mods, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "Wrangler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Naked off-road driving experience"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this exhilarating installment of our Going Jogging series, we take a ride in a 2015 Jeep Wrangler—completely naked. No doors, no top. This is an experience that many Jeep enthusiasts crave but few dare to try. Today, we’ll explore what it means to fully embrace the open-air Jeep life.</p><h2>Main Points</h2><p>Driving a Jeep naked provides a unique sense of freedom. The wind in your hair, the sun on your face—there’s nothing like it. For those of you who haven’t experienced this, it can be a bit daunting at first. But once you feel that exhilarating rush, you’ll understand why many Jeep owners opt for this style, especially on a sunny day.</p><ul><li><strong>Windows Down, Doors Off:</strong> Driving without doors and a top gives you an unobstructed view of your surroundings and makes every twist and turn an adventure.</li><li><strong>Practicality:</strong> Removing the doors can also add a level of convenience when it comes to hopping in and out of the vehicle.</li><li><strong>Safety Considerations:</strong> It’s essential to consider the increased risk. While driving without doors, using a motorcycle mirror can be a clever way to enhance your visibility.</li></ul><h2>Practical Implications</h2><p>When driving with no doors, preparation is key. In this video, I highlight my setup, which includes a rear-view camera for a practical reason—visibility. This is particularly important when you're missing side mirrors. Using a motorcycle mirror can aid visibility on the driver’s side, which many Jeep owners find to be a valuable upgrade. My setup includes a dash camera that captures all angles, adding security to my ride and peace of mind when I leave my Jeep unattended.</p><h2>Key Takeaways</h2><p>If you’re considering going naked with your Jeep, take some time to prepare. Make sure you have safety equipment, and don’t forget that you might need to adjust your driving style. Use your rear-view systems effectively, and invest in mirrors that can provide the visibility you need. Most importantly, embrace the adventure and enjoy the experience—the Jeep lifestyle is about freedom and exploration!</p>
+
+</article>
+
+</SiteLayout>

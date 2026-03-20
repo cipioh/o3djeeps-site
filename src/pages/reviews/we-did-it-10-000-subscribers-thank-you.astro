@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "We did it! 10,000 Subscribers! Thank you!";
+export const description = "Celebrating 10,000 subscribers! Join CP-O as he reflects on the journey and shares exciting plans for the future of o3djeeps.";
+const youtubeId = "Q3b4t45E-J8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "o3djeeps"
+  },
+  {
+    "label": "Platform",
+    "value": "YouTube"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep community engagement and education"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to our celebration of reaching a pivotal milestone—10,000 subscribers on YouTube! In this article, CP-O, the voice behind o3djeeps, shares insights into what this achievement means, the journey so far, and what exciting things lie ahead for our dedicated Jeep community.</p><h2>Main Points</h2><p>The milestone of 10,000 subscribers is not just a number; it’s a testament to the vibrant community we’ve built around our shared passion for Jeeps. CP-O emphasizes that the channel was born out of a desire to fill the gaps in available information for Jeep enthusiasts familiar with basic mechanic skills yet longing for more detailed guidance. With a mechanical background, he was driven to create content that is accessible and useful for fellow Jeep fans.</p><h2>What The Channel Represents</h2><p>Each video on o3djeeps is designed to address common challenges faced by Jeep owners. From simple modifications to complex builds, the goal is to support and empower viewers with the knowledge and confidence to enhance their vehicles. The name "o3djeeps" embodies this mission, evolved from CP-O’s own Jeep build journey and experiences with his son’s Jeep. The personal connection woven into the brand resonates with the community, as shared experiences foster camaraderie among enthusiasts.</p><h2>Building Community</h2><p>CP-O has also recently expanded his reach with social media platforms like Instagram, Twitter, and Facebook. The creation of the Facebook group, "Official Authority Jeeps," showcases the intention to create a welcoming environment for everyone, where questions can be asked freely, and ideas shared without judgment. This initiative is vital as it offers a dedicated space for the Jeep community to come together, respecting and valuing each other’s contributions.</p><h2>Future Collaborations and Activities</h2><p>In the spirit of growth, CP-O is eager to collaborate with fellow YouTubers and influencers in the automotive space. He emphasizes that collaboration is not about competition; it’s about collective growth and shared exposure to broader audiences. By teaming up with those who have established followings, o3djeeps can tap into new opportunities while continuing to serve the community.</p><h2>Key Takeaways</h2><ul><li>10,000 subscribers mark a significant milestone reflecting community support and engagement.</li><li>The focus of o3djeeps is to bridge the gap for Jeep enthusiasts seeking practical, actionable content.</li><li>Community building through new social media channels fosters an inclusive environment for all Jeep lovers.</li><li>Future collaborations aim to enhance the channel’s reach and provide fresh perspectives on Jeep modifications and lifestyle.</li></ul><p>As we move forward, CP-O encourages all viewers to stay engaged, provide feedback, and participate in upcoming giveaways, like the exciting one announced in this celebratory video. Thank you for being part of the o3djeeps family!</p>
+
+</article>
+
+</SiteLayout>

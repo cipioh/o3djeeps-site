@@ -1,0 +1,291 @@
+hey there's Scipio here and I wanted to
+go over the actual remote features how
+it works what you can expect to receive
+both from the remote and the vehicle
+when you issue certain commands so this
+is sort of a getting familiar with the
+equipment perspective first of all
+you'll notice you've got five buttons
+you've got your lock button you've got
+your unlock button
+you've got your remote start button then
+you have a trunk button or a auxilary
+button we'll use that in several
+commands even though we don't have a
+trunk in the Jeep and we also have a
+program button so pressing the buttons
+will do different things depending on
+different circumstances and then you can
+do different functions by issuing a
+series of buttons almost like you're
+executing certain commands based on the
+order of button presses all right so
+this remote has a melody feature to
+alert you in addition to LEDs of things
+that are happening so you can set the
+volume of that melody or mute it all
+together so you're gonna do that by
+pressing the P and trunk button
+simultaneously for half a second
+you can barely hear that but that is the
+low melody sound I'm gonna press it
+again it's gonna go to mute you just see
+the lights flash press it again it's
+gonna go back to the high volume so it's
+really not that loud but you have to
+experiment on which setting works for
+you for me using it on the highest
+setting makes the most sense and while
+I'm here talking about these buttons you
+can lock these buttons to prevent
+accidental pressing of them and you do
+that by the P and then the remote start
+for one second you heard a little tone
+and then the lights flash and now all
+the buttons are locked and you can see
+whenever I try and press a button it
+just flashes the lights so to unlock it
+you do the same thing P and start for
+one second and now it's unlocked
+[Music]
+alright so basic functionality this
+probably doesn't need to be said but I'm
+gonna go through it anyway you have your
+lock if you press it it will lock and
+armed your vehicle and you get one flash
+of the lock button and then one beep on
+the transmitter that's a confirmation
+that that happened now when i unlock it
+I get a double beep and then a flash of
+the unlock that tells me that the
+transmitter has unlocked and of course
+you can see parking lights flash and the
+headlights come on
+[Music]
+so if you happen to be out of range of
+your vehicle you will not get the
+audible alert that tells you something
+just happened a code a command was
+executed and received by your vehicle
+instead it will be silent and the LEDs
+will flash all four of them at once and
+that's an out of range indicator that's
+a great indication that you're too far
+away from your vehicle or for whatever
+reason you're not able to communicate
+with your vehicle so you don't think
+you're doing something that you're not
+so if I execute the remote start command
+and I'm out of range I don't think that
+it started I'm getting feedback from my
+remote that tells me it didn't work so
+that's very handy speaking of remote
+start it's super simple
+you press the start button twice now
+this is programmable by default it's
+twice and that's where most people are
+probably gonna leave it but it's a
+double press
+if you want to turn it off it's the same
+exact thing
+double press and that's how you would
+actually shut down the vehicle if you
+decided you didn't want to actually
+drive it but you wanted to turn it off
+so once your vehicle's been started with
+remote start you'll see here these
+lights are gonna flash periodically to
+tell you how much runtime is left now
+that's dependent upon how you program
+the system but it's telling me right now
+that somewhere between 75% and a hundred
+percent of my runtime is still left
+because I'm getting all four lights
+flashing then we'll go to three lights
+flashing which tells me somewhere
+between 50% and 75% of my run time is
+remaining then two flashes and then one
+flash then it will beep at me in the
+last minutes to let me know that the
+vehicle is about to shut off unless I
+choose to extend it now you can extend
+the runtime once any time in the cycle
+but only once and you do that simply by
+pressing the remote start button again
+and then it will restart that cycle and
+of course like I showed you before
+turn it off two presses puts it back to
+to the off position so sometimes you may
+not want it audibly indicated that
+you're arming or disarming your vehicle
+so you can arm in disarm silently using
+that trunk button so if you double press
+that trunk button it will cycle through
+the armed and disarmed functions
+basically choosing the opposite of
+whatever the current condition is but it
+will do it silently so double tap so I
+just unlocked the vehicle and when I do
+that my headlights come on I'm gonna
+double tap again and I locked the
+vehicle and it is now armed actually so
+it just basically removes the chirp and
+allows you to silently arm and disarm
+that's pretty cool
+so let's say you have your proximity
+sensor installed and you want to leave
+your dog in the vehicle and you don't
+want the dog to set off the proc sensor
+you can disable those sensors by
+pressing the arm and then within five
+seconds of the arming press that truck
+button again that trunk button gets a
+lot of use for not having a trunk
+doesn't it so I'm gonna arm it press the
+trunk and it tripped again and it let me
+know that that sensor has been disabled
+now it's going to disable any sensors
+that you have that are plugged into
+those analog sensor ports so right now
+my motion detection and my shock
+detection sensors are deactivated
+however the hood pin switch is still
+active and if somebody opens up the
+doors also set the alarm off it just
+disables those things that you might
+want to typically disable so here's a
+secret sort of power user feature if you
+want to disable the alarm functionality
+altogether and you just want to lock the
+doors you can actually do that by
+pressing the trunk and then the arm
+button now it's locked just like you
+would lock your vehicle with a key or
+whatever but the alarm isn't set so
+there may be a time where that makes
+sense for you all right as mentioned in
+the user configurable settings video
+there is a temperature-controlled
+auto start and a battery condition
+controlled auto start if the battery
+drops below a threshold voltage your
+vehicle can automatically start to
+recharge the battery or if the
+temperature reaches a low threshold or a
+high threshold based on how you have it
+programmed you can also have it turn on
+your vehicle to say engage the
+air-conditioning so for example if you
+leave a dog in the vehicle or your
+canine cop and you have this in your
+patrol car right you can have it set so
+that if the temperature goes below or
+above a certain temperature it will warm
+or cool the vehicle automatically so
+your gonna activate that by doing unlock
+and then start in the period of five
+seconds so so something different
+happened there and that was a horn honk
+that let me know that it enabled that
+all right so there is a remote valet
+capability so you can engage the valet
+mode from the remote I'm going to cover
+that in a later video when I talk more
+about valet mode and there's also a
+panic mode
+an enhanced panic mode actually which is
+very unique then I'm going to talk about
+when I get into the actual alarm
+activation so I'm making a lot of noise
+and I'm gonna go someplace else to do
+that video because I'm going to be
+setting off sirens and stuff like that
+so just know that there is a an enhanced
+panic mode which is very unique and
+worth checking out so different than
+your normal panic mode
+[Music]
+alright so the last two functions I want
+to cover just in this transmitter
+overview is the vehicle temp request and
+the lock/unlock status request so those
+are two options where you can actually
+use your transmitter to query the
+vehicle for certain information you can
+issue a temp request command to your
+vehicle and basically ask it what the
+temperature range is inside the vehicle
+it's a nice feature if you want to know
+if it's too cold or too hot for
+something you might have in there so the
+way you do that is you press the P
+button and then the start button within
+five seconds and it will tell you the
+range of temperature so when it flashes
+one LED it's less than thirty degrees
+Fahrenheit to LEDs it's 31 to 60 degrees
+Fahrenheit three LEDs is 61 to 90
+degrees Fahrenheit and four LEDs is over
+90 degrees now as cold as it is out here
+I'd expect probably two LEDs out of mind
+I think it's above thirty and it's
+definitely below sixty so let's try it
+and see what we get so P and then start
+I got two LED flashes which tells me it
+is somewhere between 31 degrees and 60
+degrees which is true
+[Music]
+all right in the last one I want to show
+you in this video is the status update
+so you can actually query the vehicle
+and it will tell you whether not its
+armed or disarmed so I don't know how
+many times in the past I've questioned
+whether or not I actually lock the
+vehicle or not and I walk away in the
+parking lot frantically hitting the lock
+button trying to listen for the horn
+honk or see if I can see the lights
+flash not knowing even at the time if
+I'm in range to do so so this makes it
+very easy because you can literally just
+ask your vehicle hey what's your
+condition all right so you'll press P
+and then the lock button the light will
+flash three times unlock and then the
+fourth flash will tell you whether it's
+locked or unlocked so for example I'm
+going to hit P lock the fourth flash was
+on lock it tells me it's in a locked
+condition so I'm gonna go and unlock the
+vehicle and then let's query it and you
+can see that fourth flash is down on the
+lock so it's a great way to accurately
+check without any notification from the
+vehicle itself of what its condition is
+just to your transmitter
+it doesn't change what's happening
+behind me it only tells me the condition
+so again checking it looking to see yep
+it's still unlocked lock the vehicle
+check the status and it's locked so
+that's a pretty cool feature alright
+guys so that's that I try to run through
+this transmitter how it works what you
+can expect when you issue commands not
+only from the transmitter perspective
+but also what you can expect out of the
+vehicle now again we're gonna cover some
+of the more alarm sort of centric
+commands we'll cover
+panic mode valet what happens when the
+alarm is triggered how the alarm can be
+triggered and also the anti carjacking
+mode which most people probably don't
+talk about very much but it is built
+into this system which is kind of cool
+depending on where you live it may be
+almost mandatory anyway that's it thanks
+for watching I'll catch you on the next
+one
+[Music]

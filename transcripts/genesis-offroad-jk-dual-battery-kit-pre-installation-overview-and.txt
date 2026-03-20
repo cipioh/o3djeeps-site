@@ -1,0 +1,310 @@
+this thing's gonna go up a let's let's
+separate these batteries because we
+don't want to run this one down well
+we'll continue to let you use this one
+for your accessory power we do a lot of
+hand gestures five days ago I had a dead
+battery in my Jeep Wrangler JK that's
+overclocked for those of you who have
+been following my channel five days ago
+dead battery like so went bad I
+explained a little bit about how I
+determined that in that video bad cell
+done how did you get a new battery and
+you guys sold that process I ended up
+with a die hard
+AGM battery but in that very video where
+I talked about the fact that I need a
+new battery I also mentioned man I would
+love to go dual batteries I just can't
+justify it I can't afford it so it's not
+gonna happen I didn't have time to do it
+that's still true whether or not I can
+afford it still yet to be determined but
+what you see here on the table is a dual
+battery setup yes from a Genesis
+off-road so as you can tell you got to
+be simpler Gumby with me you got to be
+flexible because I'm always going to
+change things up on you when you're not
+paying attention so I just put in a
+brand new battery single battery install
+would love to do dual batteries but
+can't afford it and now here I am five
+days later dual battery kit sitting on
+the table in front of me why well to be
+honest with you I started trying to
+diagnose and dissect my battery needs
+situation my battery consumption where
+I'm drawing power and why and and also
+why I have a premature battery failure
+right to have a have a cell go bad in a
+battery that's only two and a half years
+old well that's a little bit premature
+so anyway part of that is the downside
+of a lead acid battery and AGM batteries
+should be able to handle the discharge
+recharge discharge cycle that I tend to
+do to those but really when I start
+diagnosing my battery consumption I
+started realizing that I really do put a
+big demand on a single battery
+particularly with my dash camera that's
+always running 24 by 7
+and so I started thinking how do I limit
+the load that I'm putting on my main
+vehicle battery by draining it
+constantly and then recharging it and so
+I started looking at battery packs
+specific for my dash camera now they do
+make them and they're basically lithium
+ion batteries that you plug in it's
+hardwired the batteries will charge up
+when the vehicle is running and when the
+vehicles turned off the camera works off
+of that battery exclusively and does it
+pull from your main battery but what am
+i doing I'm adding a second battery into
+my system anyway worse I'm adding a
+battery that's prone to not like heat
+and cold even worse that battery packs
+like three hundred bucks anyway so like
+well if I'm gonna spend that much money
+why wouldn't I just go add a dual
+battery system put two usable 12-volt
+batteries in the Jeep that can handle a
+lot more and and power a lot more than
+that little lithium ion battery can then
+I'm not just using it for my dash cam
+I'm using it for everything everything I
+do with my vehicle winching accessory
+lighting CB radio stereo like all that
+stuff it can now be used for that so
+that's what I did I mean the Genesis kit
+gets me in a position where I can
+install two batteries and through a very
+smart way sort of manage those batteries
+for me so that's what I did so I ditched
+the whole idea of adding another battery
+into the system that can't do anything
+else but we're on my dash camera and and
+what would Genesis off-road so let me
+show you a little bit about this because
+this is a fascinating little kit very
+well put together the guy that runs
+Genesis offroad that founded that
+company is a jeepers himself and was
+looking for a dual battery solutions
+that were sort of plug and play and
+that's what we've got here now I'm not
+gonna lie to you you can go out and
+build a similar system you can go find
+parts source different battery trays you
+can go sources Cole verse isolator
+yourself and
+like it but what I can tell you is I did
+the math on that and you actually don't
+save any money actually I think you
+probably spend more money by trying to
+source it yourself and then you've got
+to build it so it turns out after all of
+that research I did just going and
+getting the Genesis off-road kit comes
+with a very nice dual battery tray and a
+very nice lady was the way to go and he
+adds in some other niceties here that I
+wouldn't have probably done on my own I
+would have skipped those steps and to be
+honest with you I think this is the best
+dual battery system for Jeep alright so
+here is the the system now one of the
+things that I had to call them about and
+I'm fairly confident it's gonna work is
+I do have a rugged Ridge snorkel system
+and this should work just fine with that
+so you've got an aftermarket intake this
+should still work nicely for you so it's
+got the the single piece steel battery
+tray and then it's got this nice top
+plate that acts as a hold down for the
+batteries but also contains all of your
+electronics now as I mentioned this is a
+coal Hersey isolator I went with the
+upgrade it comes with either an 85 amp
+or you can pay for an upgraded 200 amp
+isolator most people will probably be
+fine with an 85 amp but the reality of
+it is it's just a little bit more money
+to upgrade to the 200 amp then you sort
+of future-proof yourself if you do
+upgrades to the alternator or or what
+have you but I would suggest probably if
+you can swing the extra few bucks just
+to upgrade to the 200 like I did so your
+batteries are gonna fit in like this if
+you consider that you're where the
+engine would be and this would be like
+the the outside of the vehicle back here
+a battery normally would sit just like
+this you'd have your positive post here
+and your negative post here
+JK batteries stock are group 34 are it's
+kind of a reverse instead of the
+positive normally being over here jeeps
+are backwards and the positives over
+there so with that said this will take
+to group 30 for batteries but not to the
+standard the Jeep
+like reversed post battery it takes the
+normal group 34 batteries that's a
+problem if you're in a position like me
+where I just bought a brand new diehard
+battery I can't just buy another one of
+those and put it in here because of
+where the posts end up lining up it's
+not going to work so it's good to plan
+ahead if you're gonna buy batteries and
+get this system do it at the same time
+or at least do it knowing you're gonna
+you're gonna do one or the other that
+way you can get the right batteries that
+you need again group 34 is what you need
+which is a fairly standard battery but
+Jeep just for some reason likes to use
+that reverse post schema so this takes
+that into account by giving you positive
+where your positive posts would be and a
+negative where your negative posts would
+be so then you're connecting the two
+batteries the negative is going to the
+negative over here the positive is going
+into this isolator stuff here which I'll
+show you a little bit more detail about
+and then over to the vehicle alright so
+he's also added these power bus bars and
+this positive bar has a nice little cap
+for it and then there's a negative bar
+right here
+so this allows you to attach accessory
+items that need 12-volt power to this
+system so it's got these screws around
+the perimeter for low amperage needs but
+if you have high amp accessories like
+winches and things like that you can use
+this huge center post and then same sort
+of a setup here for the ground so that's
+a nice feature so if you need a place to
+connect accessories then this would be a
+really neat option this is a cool thing
+and I'll tell you a little bit more
+about how this works here in a second
+but if you drain your starting battery
+you can actually press this boost button
+once and it will connect the two
+batteries and basically will let you use
+your accessory battery to jumpstart your
+vehicle so that's a really cool feature
+basically have a built-in jumpstart
+between the two because remember with
+this smart isolator it's gonna separate
+the batteries depending on a charge
+state so let's talk about that now I'm
+gonna try explain how this works without
+batteries in here I'm gonna do a lot of
+hand gestures you know
+as if I can convey to you the fact that
+batteries are here and power is moving
+but basically how this is gonna work is
+you have two batteries in here and if
+they're both fully charged they're both
+going to be connected so you're
+basically going to get extended battery
+life because you're pulling from two
+different batteries now once your main
+starting battery gets to 12 point 7
+volts for 1 minute then it's going to
+isolate this thing's good to go ok let's
+separate these batteries because we
+don't want to run this one down but
+we'll continue to let you use this one
+for your accessory power and so what's
+gonna happen is it's going to continue
+to allow you to have access to one of
+the batteries but not your main starting
+battery trying to protect that from
+being run down so then you get in and
+you start your vehicle and what's what's
+gonna happen next well your little
+lights gonna come on to say hey by the
+way these guys are not connected so your
+status light will tell you that these
+are separated because of the charge
+level so it's gonna charge your main
+battery first so your alternator is not
+gonna see differences charging one
+battery at a time it's gonna charge your
+main battery first once that battery
+gets up to thirteen point three volts
+for two minutes which means it's
+basically sure it wasn't just a spike in
+voltage that it's actually fully charged
+because it's holding there then it will
+reconnect the batteries and then begin
+charging the second battery so then that
+battery will charge all the way up and
+then you're back to where you were so
+that's how it works
+both batteries are connected both
+batteries will drain until your main
+battery gets to 12 point 7 volts they
+will disconnect then you'll be draining
+off of your accessory battery as far as
+you need to go until you know you end up
+starting the vehicle again and then it
+will start charging this battery
+reconnect them and then charge up the
+other battery to match so that's how
+that works
+hopefully that made sense it really is a
+great thing and by the way remember
+you've got this sort of boost button
+that if for any reason your main
+batteries
+you can just just boost it and it will
+take advantage of your accessory battery
+and the voltage in that to help you get
+that start returning so don't knowwe
+guys that's it I just wanted to show you
+this Genesis off-road dual battery kit
+because I didn't think I was gonna do it
+and then what I decided that I wanted to
+do something I tried to figure out all
+the ways to do it on my own sort of a
+DIY style and this ended up just being a
+better option so this is going in I've
+got batteries to deal with so when those
+arrive I'll give you the hook-up on
+what's going on there did make some
+changes on that obviously because I
+can't just put that diehard I just
+bought into this setup so yeah life's a
+compromise and be prepared for change so
+that's the rule of the day anyway that
+said the Genesis off-road JK dual
+battery kit is going into overclock soon
+I will show you the details but he's got
+an amazing how-to on his website you go
+find on youtube the genesis off-road
+main video that the install video is is
+amazing so I'm gonna use that as a guide
+to install it but I will talk about the
+things that I run into such as my
+aftermarket intake system and how I have
+my which connected I'm and have to
+figure out how to how to resolve that
+maybe some other little things that I'll
+make sure that I share with you as I get
+into the process but that's it guys
+thanks for watching I'll catch you on
+the next one
+[Music]

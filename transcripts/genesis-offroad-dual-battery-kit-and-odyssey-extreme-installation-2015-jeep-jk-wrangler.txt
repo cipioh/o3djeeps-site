@@ -1,0 +1,317 @@
+and there's Scipio here and it's
+ridiculously cold outside but I've got
+work to do I'm gonna be installing this
+and this into overclocked with the help
+of this that's right it's dual battery
+day yeah so of course I would have
+preferred to have a little nicer weather
+for this operation but to be honest with
+you this is as good as it's gonna get
+for a while so I'm not gonna do a
+extensive how-to video because with you
+I don't need to because the guys that a
+Genesis off-road have done an amazing
+job on their install video and there are
+several other videos you can find on
+their website or on YouTube of other
+installers doing a detailed video so I'm
+just gonna install this and I'm gonna
+show you anything that I have to run
+into that might be different for example
+I have a circuit breaker here on the
+factory battery tray for my winch that
+I'm gonna have to relocate so I'm gonna
+have to figure out what to do with that
+and I have a non factory airbox but it
+uses some of the factory mounting bolts
+so I'm gonna have to still sort of
+manage that is if I had a factory airbox
+but anyway I'm gonna go knock this thing
+out and by the way the batteries let me
+tell you about those so for this build
+I'm going with Odyssey extreme these are
+the group 34 PC 1500 if you google
+what's the best battery you'll run into
+a couple options it'll be the Odyssey
+and you'll see Optima the problem I ran
+into of an Optima is for as many people
+that say it's the best battery in the
+world there are other people who say
+yeah that that has changed they're not
+the same anymore but with Odyssey their
+reputation still stands very strong so I
+thought you know let go big or go home
+so it's Odyssey extreme all the way
+that's gonna give me the best chance of
+never having to worry about these
+batteries again so you know I've got
+some big trips planned I got to trip to
+Moab plan for next year
+and it makes sense to ensure that I've
+got good quality batteries under there
+so anyway that's why I went with Odyssey
+got a lot of great recommendations and
+feedback from you guys that Odyssey was
+pretty much on top of that list so
+that's why we're there I do have two of
+these group 34s not the reverse kind the
+standard JK battery has reverse polarity
+post you need the normal and so even
+though I had this brand new die hard in
+here I can't use it I had to get two new
+batteries
+let me get to two knocking this thing
+out and I'll check it with you from time
+to time and show you anything
+interesting I run across all right so
+first thing I'll point out here is my
+aftermarket lower airbox this is from
+the rugged Ridge snorkel I've got a
+snorkel here runs through underneath you
+can see there goes into a silicone 90
+degree comes up in here and as you can
+see it reuses two of the factory
+mounting positions that third one is
+unused by this but but because of that I
+do need to retain this part of the
+factory battery tray so this is gonna
+work out basically just like a stock
+airbox for me and then there's a another
+look at that circuit breaker this
+enables my winch and then disables the
+winch and then has a breaker that will
+trip if if I pull too many apps so
+anyway let's keep going I'm gonna go
+ahead and disconnect the battery now and
+start taking off the rest of this
+electronics I do want to talk about one
+important point and that is you should
+always disconnect the negative the
+ground cable first and the reason is if
+I accidentally touch this to ground
+let's say I've short it with a wrench to
+something no harm no foul because it's
+already grounded if I start with the
+positive side and I accidentally hit
+something grounded with the wrench for
+example I'm gonna short because the
+battery is still connected to both
+positive and negative and electricity is
+gonna jump from the positive through the
+wrench or me or whatever in the ground
+and that's bad and that's why you want
+to remove your
+ground cable first and then also when
+you reassemble the ground cable should
+be the last one if the ground cables off
+and you touch the positive side to
+ground nothing's going to happen because
+nothing's connecting the other side of
+the battery so it really is a good
+safety practice so anyway there you go
+smarter every day
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+man there are these little wiring
+tie-downs everywhere just sort of making
+my way around trying to be careful one
+of the problems with doing this when
+it's cold is the plastics more brittle
+than it would be if it was hot so I've
+got to really make sure you don't pull
+too hard on things because you don't
+want to break anything
+[Music]
+so the hard part is done you ever do one
+of those puzzles that seem like they're
+impossible unless you get it just right
+and know the exact solution that's kind
+of what this is like I thought there's
+no way this thing's going to come out of
+here
+but you just got to kind of work at it
+and keep at it eventually is going to
+come out I do have my circuit breaker
+here that I'm gonna remove from this but
+I figured it was easier to take it off
+from here than it was to try and
+disconnect the back because that was
+kind of a pain to do originally so you
+can see what we have going on here it's
+a good time to do some inspections and
+check things out now one thing I did I
+kind of cheated I didn't completely
+disassemble that lower air box because I
+have the silicone hose for the air
+intake I just let it be flexible like
+it's good at doing and bent that out of
+the way but man do I have a lot of
+existing cables here so the more
+aftermarket stuff you've done with
+electronics the more challenging this is
+gonna be I've got CB antenna cable I've
+got winch lines I've got CB power and
+ground I have air compressor okay well I
+got all kinds of stuff happening here
+but this will all be cleaned up very
+soon but really getting the factory
+battery tray out was the hard part
+hopefully it should go a lot easier but
+anyway take some time inspect make sure
+everything looks good if you've got a an
+intake like I do you can now easily
+inspect that whole setup so that's kind
+of cool
+didn't get that view when I installed it
+that would've been nice alright so one
+thing I did notice while I was in here
+inspecting is this wire loom that runs
+across used to have a plastic loom on at
+a cover and it all rotted away and sort
+of has fallen apart I was chipping
+pieces of it off so that leaves these
+wires a little more exposed than they
+were from the factory I don't know if
+it's just Heat I'm guessing that caused
+that to break down but anyway I'm going
+to go ahead and add a couple more layers
+of electrical tape around this just to
+give it some more protection than it has
+now
+and then I also have
+this hose that is cracked
+it's the breather I'll have to probably
+I'll buy another one of those eventually
+as well but for now but for this install
+once I put in the new battery tray it's
+probably going to cover part of this up
+so I'm gonna go ahead and tape that up
+right now
+[Music]
+[Music]
+all right I'd be real careful make sure
+I get all my wires out of the way and my
+airline I had to just adjust my airline
+and place them a little bit
+here's little trick to getting that long
+bolt down there this guy do you have any
+little magnetic tool or anything like
+that
+it'll definitely help it's just one of
+those telescoping magnets from a parts
+store now when I took off that bolt the
+bottom fender retainer fell out so I'm
+going to go underneath and put this on
+the other side of that just personal
+preference for me but I like to finish
+them all off by hand so I can feel how
+tight things are instead of trying to
+guess how much torque I'm putting on
+things battery tray is in and that went
+in a lot easier then the old one came
+out for sure
+[Music]
+[Applause]
+[Music]
+[Music]
+[Applause]
+[Music]
+[Music]
+all right so I'm ready to put the
+batteries in I've got pretty much
+everything all done my airbox is back in
+relocated the evap solenoid and cut the
+line it was all easy like I said the
+instructions on Genesis off-road are
+like spot-on so all these extra things
+are things I've added that I'm going to
+figure out how to add them to the system
+but I'm ready now to add in two
+batteries
+[Music]
+[Music]
+all right so for my winch remember I've
+got this circuit breaker which I also
+use as an on/off switch for the winch
+what I'm going to do is I'm going to
+mount it right here on the front of this
+there's two mounting holes right here
+that I can use and that will allow me to
+easily get to it to flip it on and off
+and then looking at the existing cable I
+have this will run nicely over to this
+accessory post just like that and then
+my load is on this side which I can also
+run around and connect through here
+somehow so I think that would be a good
+spot out of the way and solid so that's
+what's gonna happen it's gonna go right
+there
+alright so pretty much have everything
+wired up I'm ready to do the final
+battery connections I like to call this
+controlled chaos it looks messy but it
+really does I have a lot of stuff going
+on here and I was able to really make it
+work very nicely again my winch breakers
+there now I do have some wires that
+aren't ideal that are run through places
+but I was dealing with existing wiring
+and unless I wanted to cut move
+resupplies change links it's like you
+know that's fine I'm okay with that so
+I'm ready to start connecting to the to
+the vehicle and I've lost that blasted
+nut
+where the heck it's been sitting up here
+commercial break
+[Music]
+all right we're back in business I found
+it it slipped off right into there I was
+worried I was gonna have to halt the
+whole project to go to the parts store
+so I'm tightening these down before I
+tighten the battery post connection so
+that I can make sure everything's lined
+up right so you may notice it's a little
+dark outside sorry I didn't mean to
+leave you hanging and stop the install
+in the middle but the family wanted to
+go see Star Wars and Who am I to say no
+to that
+so I left with just one more battery
+connection to make and I'm gonna make
+that right now even though it's dark
+outside but I didn't want to leave you
+guys hanging so let me knock this out so
+there we go that's it dual batteries
+installed with the Genesis off-road dual
+battery tray got dual odyssey extremes
+in here and as you can see my winch
+switch so yeah I should have power in
+the Jeep I guess I should go see if
+that's actually the case all right looks
+like I've got Jeep power that's that's
+awesome that's what I need so guys
+that's it I'm done so anyway thanks for
+watching I'll catch you on the next one
+[Music]

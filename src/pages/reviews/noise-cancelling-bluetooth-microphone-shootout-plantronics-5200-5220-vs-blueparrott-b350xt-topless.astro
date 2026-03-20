@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Noise Cancelling Bluetooth Microphone Shootout! Plantronics 5200/5220 vs BlueParrott B350XT Topless";
+export const description = "Discover which Bluetooth microphone reigns supreme for Jeep calls with doors off: Plantronics 5200 or BlueParrott B350XT.";
+const youtubeId = "tCthpv6i9V8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Plantronics"
+  },
+  {
+    "label": "Product",
+    "value": "Voyager 5200"
+  },
+  {
+    "label": "Use Case",
+    "value": "Bluetooth calls in noisy environments"
+  }
+];
+const externalLinks = [{"label": "Here are the links to the two products I tested in this video:", "url": "https://amzn.to/2ImzcJy"}, {"label": "Here are the links to the two products I tested in this video:", "url": "https://amzn.to/2rJ9Xq8"}, {"label": "Here are the links to the two products I tested in this video:", "url": "https://amzn.to/2KWU2g9"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>When it comes to Bluetooth headsets for Jeep enthusiasts who love open-air driving, the choice between the Plantronics Voyager 5200 and BlueParrott B350XT is a compelling one. While both offer excellent noise-canceling features, the BlueParrott B350XT excels in extreme environments, particularly for those hardcore off-roaders who ride with the top down.</p><h2>What Stands Out</h2><p>Both headsets come packed with features aimed at ensuring clarity during phone calls, even at highway speeds. The BlueParrott’s robust noise-canceling technology and longer battery life make it ideal for those who frequently venture into particularly noisy terrains. Meanwhile, the Plantronics model’s compact design and wireless capabilities shine for everyday use, making it a versatile choice for Jeep life.</p><h2>Design and Features</h2><p>The <strong>Plantronics Voyager 5200</strong> offers a sleek, in-ear design with an adjustable ear tip that ensures a snug fit. It also features six layers of WindSmart technology for superior wind noise reduction. On the other hand, the <strong>BlueParrott B350XT</strong>, with its over-the-ear design, provides a more rugged build that is exceptionally durable, making it favorable for those who hold rough-and-tumble adventures dear.</p><p>Both devices allow for multipoint pairing, meaning you can connect them to two devices simultaneously—perfect for juggling calls and music or GPS directions while on the trail.</p><h2>Real-World Use</h2><p>Testing these headsets in the noisy environment of a Jeep proved their mettle. The Voyager 5200’s adaptability means it performs well even at lower speeds, providing clear audio. However, at higher speeds (50-60 mph), things start to test its limits. In contrast, the BlueParrott B350XT delivers consistent performance across a range of speeds, handling the wind and engine noise much more adeptly, making it the standout option for open-air driving.</p><h2>Who This Is For</h2><p>If you’re someone who frequently drives with your Jeep doors off and top down, the BlueParrott B350XT is likely your best bet, especially for highway cruising or on rugged trails where noise levels soar. The Plantronics Voyager 5200, however, is perfect for users who appreciate a lightweight, low-profile design for quieter environments or daily commuting.</p><h2>Key Takeaways</h2><ul><li>Choose the <strong>Plantronics Voyager 5200</strong> for urban driving or quieter situations where portability is key.</li><li>Opt for the <strong>BlueParrott B350XT</strong> for off-road enthusiasts who need supreme noise cancellation on the go.</li><li>Both headsets showcase impressive battery life, ensuring they can keep up with long days of adventure.</li></ul><p>Ultimately, the best choice boils down to your specific needs and how you’ll mostly use the headset. Both brands have captured the essence of what it means to communicate freely while enjoying the outdoor thrill of Jeep driving.</p>
+
+</article>
+
+</SiteLayout>

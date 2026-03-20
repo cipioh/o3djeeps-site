@@ -1,0 +1,15 @@
+🔔 Please CLICK THE BELL if you want to see my videos! 🔔
+
+
+Get the OVERCLOCK3D AL-1775-3DB PACKAGE FOR 2007+ WRANGLERS over at https://www.kickyride.com/shop/2007-jeep-wrangler-jk-only-plug-in-remote-start-alarm-kit/
+
+In this video we complete all of the wiring for the basic system.  I still have a proximity sensor and hood tilt sensor to wire in, but I'll do that later. The final wiring demonstrated in this video is the two power connections to the OBD-II port, the ground connection, the parking lights tap, and wiring in the horn, hood pin switch, and the siren.  The only thing left to do after this is basically plug in the brain of the Omega Excalibur 1775 and run through a couple of easy self-programming steps for the system and the remote start capability. We're so close to being done!!! Next video gets you operational, I promise!!!!
+
+Here's the playlist containing all of the videos for this install:
+https://www.youtube.com/playlist?list=PLKivmulOhtZjzT8-D_3LBg5ex3ldvoFOS
+
+PLEASE READ - IMPORTANT INFO! 
+
+So you want to install an alarm system and remote start into your Jeep Wrangler?  Well… this is the page for you!  What follows below is the complete video series regarding the selection, overview, installation, setup, and howtos of the Omega Excalibur AL-1775-3DB security system and remote start I installed in my 2015 Jeep Wrangler with automatic transmission. If you happen to have the same vehicle (including similar years) then this page should be a step-by-step guide for you. If you have a manual transmission, there will be some additional steps and wiring for you, and what exactly depends on what year your Jeep is.  I tried to mention some of those things throughout the video series.  If you have a 2017 or newer, also note that the access to the ignition switch harness is a little different. I’ll also try and help you out there.
+
+Please watch all of the videos BEFORE YOU START your own installation.  This is important because I may point out things in later videos that would be helpful to know about early on.  It’s just part of the process.  Once I get into the install, I know more about what exactly needs to be done, versus what I believe needs to be done.  A great example of this is the wiring for the parking lights. In the wiring prep video, I told you that you needed three wires for this because that was the industry standard based on how the Jeeps were wired.  However, in actual testing during the install (and working closely with the tech guys at Omega Research and Development) I found that only one wire was really needed.  So I modified the harness from the original 9 wires, down to 7!! BONUS!!!

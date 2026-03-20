@@ -1,0 +1,445 @@
+so today I'm finally installing that
+proximity sensor into the alarm system
+of overclocked and we're doing it right
+now
+[Music]
+alright guys yep it is finally time to
+knock this out let me show you what I
+have going on here I've done a little
+bit of prep work in the Jeep that you
+may notice such as I've got light bars
+in the ceiling you know they say light
+bars before lockers well I have lockers
+now but anyway nobody else that I know
+is running light bars in the roof so
+that's badass right there anyway
+yeah I got the doors propped open on
+both sides and I'm ready to go
+and we're gonna install the Prok sensor
+into this center console I've got the
+lights up there because I know pretty
+soon the sun's gonna go down and I'm
+gonna be stuck working in the dark
+because that's pretty much how I roll so
+I didn't want to be left trying to show
+you how to do all of this with a
+flashlight so I'm prepared in advance
+today and we're gonna get to it now this
+is gonna involve running cable from
+underneath the dash along the center
+console up into here and I'm gonna try
+and make this as emotionally painless as
+I can in other words I'm gonna try and
+do it without having to do a lot of
+disassembly or drilling or anything like
+that I'm gonna do my best to try and
+figure out a way to make this painless
+we may have to extend that cord that
+runs for the Prok sensor I don't know
+yet if we do I'll show you what I have
+in mind for that as well so just to give
+you a preview we're going to pull this
+part of the console out which means we
+have to remove this shift knob which is
+easy easier than most people say it is
+once we remove this we should be able to
+see how to run some wires through here
+and then up in here in the center
+console I'm gonna install the Prok since
+our up in here now most of you don't
+even know that this exists so you're
+welcome for that if you did not know
+this was here here you go you've got two
+pen or pencil holders you've got a
+little Kleenex box holder
+and you have a paperclip holder right
+here in the top of your center console
+so like I said a lot of people don't
+even know that's there they never see it
+you know you've got your change drawer
+and all that stuff and then your normal
+console but what I'm gonna do is take
+advantage of this space up in here and I
+may actually leverage this space here
+we'll see once I get into it now I do
+have a bar tact cover on this so it may
+look a little different than yours but
+this is just a just a cover so
+everything else should be the same and
+what my plan is is to mount it through
+here run the wiring down through here
+inside under maybe pop over here
+somewhere and then out and then over to
+underneath the dash where I can tap into
+the system so that's the plan we'll see
+how it works out and let's do it
+all right the first thing I need to do
+is get in here to the excalibur system I
+have it sort of tucked away at least
+temporarily because I do have my sensor
+wiring for the project already sort of
+in there so I didn't lose it
+alright let me cut some of these zip
+ties it's always a good idea to not cut
+your wiring all right so there we go so
+I can already tell you now I'm positive
+I'm gonna have to extend this wire so
+let me show you how I'm gonna do that
+I'm gonna take advantage of the fact
+that I don't need all of this other
+sensor wire which is my shock sensor and
+we're gonna steal some of that wire to
+extend our proc sensor cable make sense
+right so I know that I only need a short
+run maybe a foot at the most maybe that
+much all right so what I'm gonna do is
+cut about I don't know that much this is
+the sensor side of the wire off and then
+on the other cable I'm gonna cut a
+little bit off from the from the brain
+side of the wire and then I'm gonna
+connect those together so that's gonna
+give me a run like that
+but that what that means is that I can
+connect the other two sides together
+which is going to give me a nice long
+run so hopefully that makes sense but
+I'll show you exactly what I'm doing
+here alright so this is the again the
+sensor side of that wire I just cut that
+awfully short but that's okay now on the
+other wire that I didn't cut yet I'm
+gonna cut a short part off of the brain
+side now the brain side is the bigger
+connector you can see here the the
+sensor side is a small connector the
+brain side is a bigger connector alright
+so when you're planning this out you
+need to pay attention to one thing
+that's pretty important and that is the
+connector end on the sensor side now the
+brain side of these connectors is
+exactly the same but the sensor sides
+are a little bit different so the
+smaller one is at least on - ooh
+this way for everybody's the smaller one
+is for my proximity sensor that I'm
+installing the bigger one is for the
+motion sensor so that's the big
+connector the small connector won't fit
+in there right so when you're building
+your new wires make sure you build the
+short wire with the fat connector
+because if you're not paying attention
+and you end up with the wrong connector
+you'll have to redo it so I just want to
+give you that a little bit of a tip
+because that may not be obvious
+especially since the brain side is
+identical on both of those all right so
+I'm going to build the smaller shock
+detector cable first again the the brain
+side not to worry but make sure you've
+got the big side that goes into the
+shock sensor for the smaller cable so
+I'm going to connect these using my
+favorite method of these little saw
+durable buck characters so let me I'll
+do one for you and then I'll knock out
+the rest and the cool thing about
+extending these wires by stealing from
+the other wire is you've got the value
+of color coding and similar wire gauge
+so you don't have to worry about trying
+to match too much you literally just cut
+and splice
+just slip my butt connector down first
+then I'm gonna make a little mechanical
+joint just like I showed you in the
+wiring tips video make a little hook and
+then twist those together that makes for
+a very strong mechanical and electrical
+joint just like that and then I can slip
+my butt connector right over the end of
+that and then shrink that down
+once that solder flows I like to pull it
+taut and just hold on to it till it
+cools down boom all right that one's
+good so I'm gonna go ahead and finish
+this off and then retype it and then
+I'll come back alright so now I've got
+my little shorty cable made for the
+shock sensor I go ahead and plug that
+back in and I've got just enough wire to
+get down to the brain which is fine
+because that's really all I need and
+then all the rest of that wire can be
+used to run that procs sensor so this is
+gonna go right into there and then now I
+can remount that alright so I finished
+wiring up the proximity sensor cable and
+as you can see I've got lots of length
+here all of that now allows me to run
+very easily to the center of the console
+so the next thing I'm going to do is
+pull out this center console piece so
+that we can get access underneath there
+and run those wires all right I've done
+an entire video on this process so feel
+free to go search out my video on
+youtube about removing the transfer case
+shift knob but I'm gonna do that really
+quick
+I'm basically what I'm gonna do is move
+this down in the neutral bring this down
+where I can get a good grip and then
+pull my break and then for this process
+it's sort of a quick snap you if you
+just pull pressure on it it's not gonna
+come loose you you kind of have to just
+jerk on it and then that will come off
+the reason we did that is because we
+wanted to be able to pull this off this
+whole piece the deals come off which
+leaves us all of this area exposed to to
+run our wires up through here so that's
+pretty much why we did that now I could
+put this back in the park and as you can
+see everything is pretty nasty down here
+I have the usual collection of coins and
+random screws and who knows what's in
+there but basically what I'm gonna do is
+look for a route to run that wire that
+is sort of out of the way I'll run it
+alongside this loom here and what I want
+to do is run it inside of here and then
+come out under here somewhere so that
+I'm not interfering with the emergency
+brake so I'm gonna figure out how to do
+that and we'll make it happen all right
+so the first thing I'm going to do is
+pull off this panel this is basically
+held in with a couple of clips and I'm
+just gonna get in here and pull up on it
+you can see there those two clips and
+then it fits around that bar back there
+but once that's out of the way I've
+actually got access to the underneath of
+this without having to pull it all apart
+I'm trying to avoid lifting the console
+up right so what you see here this route
+that I'm taking just in the top where we
+took off that little cover and it comes
+out right here so that would allow me to
+drop the wire the cable down to here
+once I'm out here then I can push
+forward along the inside of this so
+that's my plan so I'm going to tape
+just a piece of paracord any string work
+I just happen to have this handy to the
+bottom of this and I'm going to pull the
+cord up and then I'm gonna connect the
+cable and then pull it down trying to
+pull the actual wire you want to run for
+the coat hanger because it's kind of
+rigid this is flexible so it'll sort of
+navigate a little bit better so now I
+need to add the cable make sure you know
+which end is which so the bigger tan
+color end that's going into the brain is
+what I want to push down and it
+shouldn't require a whole lot of tape to
+hold it in place it should be fairly
+easy and then how much do I want to
+leave top enough to be able to mount
+this up in there I'll leave that for now
+just kind of fold it over there and then
+you can see I'm coming out now with my
+wire underneath there you notice I don't
+have any carpet here so I'm also trying
+to think of ways that you guys can do
+this if you have full interiors so I
+don't want to have to have you pull out
+seats if we can avoid it so I think this
+is going to be an easy way to accomplish
+that all right so we've got a little bit
+of our lengths of wire hanging out here
+we're coming straight down into here and
+then shooting forward you can see the
+wire right here and then we'll take a
+look at that just make sure that you
+sort of secure this so it doesn't fall
+back in there so I'm gonna close that up
+just to hold it there because I don't
+want to rerun that I don't have to all
+right so there we go there's my wire
+that goes to that sensor and it
+basically runs down along the inside of
+this underneath the plastic and then
+right here
+you know about this area it cuts across
+and then is pulled tight so it's all
+nice and concealed up inside of this
+plastic on the console and then runs up
+along there and all right so now I tied
+it up that wire running along that loom
+goes up underneath the center and then I
+have it popping out back in here in
+which case I've got some other wire
+looms that I'm gonna start running with
+and cinching it up and then it's gonna
+come up and pop out here with the other
+wiring so when I knock that out plug it
+in and then we'll get back to this side
+and I'll show you how I'm gonna do that
+all right I got the brain in its final
+resting place and his little tip if you
+ever want to be able to get to your
+backup battery when you install the
+brain try and make sure that that's
+accessible so I have that it's secured
+solid but I have it in such a way that
+that backup battery is able to be
+changed out because I do not want to
+take this thing all apart again just to
+change a battery so anyway just a little
+side tip for you
+this should be the last time and that's
+with this other than to adjust that
+shock sensor all right all right if
+you're smart you're gonna clean this
+while you have it out I just don't have
+time to so sorry it's going back in
+nasty I've got this switch panel that
+most of you probably aren't gonna have
+to deal with I could take it out once it
+goes it should flip right back into
+place and this goes on in just the way
+it came off make sure you line it up so
+it's right snap it in you're good to go
+like we were never in there including
+the mess all right so here's the sensor
+we're gonna install it is a two-stage
+sensor just like the shock sensor so
+there's an external sort of pre warn
+zone and then an internal zone just like
+I did on the shock sensor I'm gonna sort
+of set a default of about 60 on the
+external actually I'm gonna do 50/50 and
+I found using a little flat-head
+screwdriver is actually easier and that
+a Philips head for this what I don't
+know is what the final settings are
+gonna be so when you install this you
+need to adjust it in the place that's
+gonna be so you can't like set it up put
+it in place hide it and never be able to
+get to it again and then assume it's
+gonna work so that's why I wanted to put
+it in a place that's easily accessible
+after the install so that I can make
+those adjustments
+close the top test it make adjustments
+close the top test it so that's kind of
+what I'm doing here alright so looking
+at the top of our console this may shock
+some of you but basically what I'm going
+to do is press the two buttons at the
+top and reach in here and just pull that
+out it's held in place with all of these
+clips but you got to make sure you pull
+this up otherwise it'll catch on those
+and I'll break that so now you can see
+sort of what we have underneath there
+and there's a little tray for the
+tissues that's actually right behind
+this area so now I'm looking this so
+what I think I'm gonna do is set this on
+the backside of this so it's not
+accessible from inside but it's for
+adjustment I could just pop this off and
+take a look at it so if I plug that in
+right there just check fit I should be
+able to run the wire right here along
+this hinge I think that'll work nicely
+it won't be quite as convenient to test
+oh and you can already see the sensor
+doing its job I can only imagine what it
+would be like if I set the alarm right
+now all right so what I'm gonna do is
+take some 3m double stick tape
+make sure you clean the surface and
+that's how that is again run it right up
+alongside that hinge pick my buttons up
+my cover out of the way here and there's
+my sensor right inside here you can't
+even see it when you open that up I
+think that's a really awesome place to
+put it
+unfortunately I can't necessarily adjust
+it easily I have to pull this thing off
+make some adjustments put it all back
+but once I get it adjusted it should be
+fine and with it tucked up in here it
+keeps it from being exposed to anything
+that may have floating around inside it
+doesn't change anything about what I
+store or how I store it with it right
+there so anyway oh and now I can put
+this back in nice just a little bit of
+slack for that wire so that's it we've
+actually installed this we didn't have
+to really do a whole lot of work we
+didn't have to take out the seats we
+didn't have to take out this whole
+center console piece the hardest part is
+probably pulling that transfer case knob
+off outside of that the rest of it was
+just was it was a breeze so anyway that
+is that I'm gonna do some testing of
+this and figure out where I want my
+zones and here pretty soon I'll be doing
+a video showing you how I'm triggering
+things and what I've got it set up just
+know there are two adjustments there's
+an external pre warm perimeter that will
+just honk the horn to say hey you know
+this thing is alarmed I don't want to be
+that guy that has that zone so far out
+that if you walked by the Jeep it goes
+off actually with it up here in the
+front it's gonna protect more of this
+area if you think about it like a sphere
+the
+surrounds it it's in the middle of a
+ball that is a protection zone and that
+ball extends up and down inhibited by
+metal so the metal doors will contain it
+a little bit the metal floor will
+contain it a little bit and and that
+also means there may be different
+settings with the doors off than with
+the doors on if you have the doors off
+it may allow that sensor to spill
+further outward than with the doors on
+so those are things to keep in mind and
+again why you want to make it someplace
+that's easily adjustable so even though
+I have this sort of hidden it is pretty
+easy to get to all I have to do is
+patterning that to use tools I just
+pulled that thing apart and and adjust
+it so hey there's Scipio here and I just
+installed the proximity sensor in
+overclock and we're just doing some
+testing thought I would show you kind of
+where it's at I actually set it just as
+a starting point but I really like where
+it's at right now so I find the vehicle
+no problem the window actually pre-warn
+to let people know hey easy this thing
+has an alarm in it does nothing
+that's pretty awesome hope you enjoyed
+this video thanks for watching and I'll
+catch you on the next one
+[Music]

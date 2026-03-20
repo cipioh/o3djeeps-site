@@ -1,0 +1,377 @@
+hey there's Scipio here and in this
+video we're gonna go through the user
+programmable features of the xcalibur
+alarm and remote start system and we're
+gonna do it right now in this video
+we're gonna go through all of the user
+programmable features of the Excalibur
+70 series alarm system remote start I'm
+gonna go through a lot of information
+but don't worry it's all right here in
+this manual and if you want to find the
+defaults pop to the back of that manual
+there's a table in here with defaults
+that will help you recognize what should
+already be set now we're gonna ignore
+the install or programming because
+that's all pretty much done with vehicle
+learn mode that I showed you in a
+previous video so all we really have to
+deal with are the user preferences the
+the way you want the system to respond
+in certain situations and how you want
+to interact with it alright so this is a
+timed operation so you're gonna have to
+do things within a certain period of
+time so I'm going to walk through what
+I'm gonna do and then I'm going to do it
+for each of the programmable features so
+what you're gonna do is turn on the
+ignition turn it off within 5 seconds
+come up here press your valet button 5
+times then the siren and horn will chirp
+letting you know you're in programming
+mode then you have 10 seconds to press
+the button for which programming feature
+you want so if you want programming
+feature one you press one you want
+programming feature 13 you press it 13
+times and we're gonna go through that
+for each of our programming features
+after you identify which programming
+feature you want the siren and horn will
+chirp again and then you change the
+feature by pressing the appropriate
+button on your transmitter so what I
+recommend you do is when you start this
+go ahead and take your transmitter out
+of the ignition so you can easily get to
+these button I'm gonna set you back
+there so that you can watch me go
+through this process and then hopefully
+we can knock this out again all of the
+defaults are found in the back of your
+manual alright so the first one I'm
+gonna do is the remote start time and
+according to the manual that's default
+at 10 minutes now 10 minutes is a pretty
+good time but if you find yourself
+constantly extending that time then you
+might want to change it to something
+else so your options are going to be 3
+minutes
+10
+minutes 15 minutes 20 minutes and 30
+minutes I think I'm gonna bump mine to
+15 minutes that'll give you a good idea
+of how this process is gonna go so for
+15 minutes what I'm gonna do is press
+the trunk button to program it once I'm
+in programming mode alright so here you
+go here's the process alright
+on/off 1 2 3 4 5 ok now I want to do
+programming feature 1 ok and then I want
+to press the trunk button to set that
+feature all right now from here I can
+keep going or if I wait I think it's 10
+seconds it should timeout and be out of
+programming mode let's see what happens
+there we go
+so we're out of programming mode so if
+you already know in advance what you
+want to program you can just keep going
+through the process or if you want to
+stop each time and restart the process
+you can so now I've just set my run time
+for remote start to 15 minutes easy
+enough what's the next one
+so for flashing like confirmations you
+can say what options you want when the
+vehicle is unlocked and when remote
+start is on so by default when i unlock
+the vehicle or disarm it
+the parking lights will flash and when
+I'm in remote start the parking lights
+will stay on solid and again all this is
+detailed in the manual so if you'd
+prefer your parking lights to flash when
+you're in remote start mode then you can
+set that mm-hmm
+I think I'm gonna leave that one alone
+let's go to confirmation trip volume so
+let's go to the confirmation trip volume
+the default is medium-high but if you
+find that that's a little bit loud you
+can lower it or if you find you want it
+louder you can raise it I think for me
+it's just a little bit high so I'm going
+to drop at one level I'm gonna drop it
+down to medium-low so for that I'm gonna
+program that using the unlock button so
+let me go in and program that that's
+feature number 3
+okay one two three and it confirmed
+three now I'm gonna press the unlock it
+confirmed that and then I'm good to go I
+can let it timeout or I can keep going
+I'm gonna let a timeout boom so now my
+trip should be a little bit quieter than
+it was before so feature four is about
+your audible output your horn and your
+siren now the default for this because
+it has an alarm system and a siren is
+steady siren but there is an interesting
+feature called the random horn honk
+which is a very unique sound when the
+alarm goes off normally when an alarm
+goes off in a parking lot it's a and
+maybe alarms going whe you know that
+kind of thing and everybody's used to
+hearing that sound but what happens when
+people are actually in a state of panic
+they honk the horn a little bit more
+randomly not so rhythmic like an alarm
+so what this xcalibur system has is a
+random horn honk function that's
+designed to get people's attention so
+I'm gonna set that in a future video
+when I show you about triggering the
+alarm and what you can expect when the
+alarm is triggered in different ways
+that can be triggered you'll definitely
+get a chance to hear that but for now
+I'm just gonna program the setting so
+that's feature number four and I'm gonna
+set it by pressing the lock and unlock
+button together ok let's do it one two
+three four okay and I'm gonna program
+that by pressing those two buttons
+together
+now the horn actually chirped five times
+in because it's telling me I select
+setting number five now I just timed out
+again so there's one thing I forgot to
+add so it will confirm to you which
+setting you have by chirping through the
+number of options so even though they're
+not numbered in your manual just know
+the first one is 1 all the way down to
+the last one in this case the one I just
+set was 5
+all right feature 5 is ignition
+controlled lock and unlock
+so with this feature you can set it so
+that when you turn on the ignition it
+can automatically lock the doors and
+when you turn off the ignition it can
+automatically unlock the doors that
+might be something that's important to
+you so if it is that's feature 5 related
+to that is feature number 6 which can be
+programmed to cancel that automatic
+unlocking or locking of doors if your
+door is open with the ignition on so in
+other words if you have a door open when
+you start the vehicle if this feature is
+enabled it won't automatically lock the
+doors if you set that in feature 5 and
+conversely if you have the ignition on
+and you open up your driver door let's
+say and then turn the vehicle off it
+won't automatically unlock all the doors
+again if feature 5 is enabled because
+I'm not enabling feature 5 I'm gonna
+leave this to off as well because I'm
+not using it so we don't have a trunk in
+our jeeps so this really isn't a setting
+that I'm gonna worry about but feature
+number 7 allows you to set it if you
+want the trunk button to also unlock the
+vehicle and disarm the system by default
+that is on because we don't have a trunk
+it doesn't actually do anything in the
+jeeps alright feature number 8 is about
+remote start and basically what it takes
+to activate that by default it's 2
+presses of the start button but you can
+change that to be either 1 2 3 or 4
+presses I'm gonna leave it at the
+default of 2 feature number 9 is last
+door arming now by default this is off
+but if you wanted to you can set it so
+when you get out of the vehicle the
+vehicle will automatically arm itself
+after the last door is shut
+so how this works is when the feature is
+enabled and everybody gets out of the
+vehicle in the last door shut the alarm
+siren will chirp and then it will start
+a countdown of 30 seconds if at any time
+a door is opened it will pause that
+countdown
+and then when you shut again the last
+door the countdown will restart until a
+point where there's been no door
+activity for 30 seconds the vehicle will
+automatically arm itself again all the
+details of this found in your user's
+manual right so feature of 10 is
+automatic rearming and this is a little
+bit more interesting so automatic
+rearming will automatically rearm the
+alarm in cases where you accidentally
+unlock it say you accidentally press it
+in your pocket or gets press in a purse
+so if the alarm is disarmed from the
+remote then the system will start a 90
+second countdown and then will
+automatically rearm itself if the
+ignition key isn't turned on now there's
+an enhanced automatic rearming option it
+does the same thing but it also allows
+you to cancel that automatic rearming if
+you double press the unlock instead of a
+single press so I'm not going to enable
+that on mine but some of you may be
+interested in making sure that if you
+accidentally disarm the vehicle it will
+automatically arm itself if there's no
+activity
+alright so feature number 11 is
+confirmation chirps the default is siren
+only but you can use it to set it for
+the horn only the siren and the horn and
+the siren but it does not affect the
+output and whenever the alarm is
+triggered or you issue panic mode both
+are gonna go off regardless in those
+conditions so feature number 12 is about
+anti carjacking so you can set it for
+ignition based anti carjacking door
+based or ignition and door now we're
+going to talk about anti carjacking in a
+later video but this is where you would
+set that option so feature 13 is
+actually one that you do want to set and
+that is your secure code so the secure
+code allows you to do an emergency
+override
+and basically disarm your vehicle and it
+would also be required to disable anti
+carjacking mode each time you use the
+vehicle if that option was enabled and
+the secure code is unique in this
+particular installation because Omega
+has allowed for a two digit code most of
+them have a single digit code and by
+code its you press it once you press it
+twice do you press it three times in
+this case with the Excalibur you can do
+two digits so it gives you a lot more
+code options which minimizes the chances
+of people being able to guess it easily
+so I'm gonna set my code
+and I'm not gonna tell you what it is
+I'm gonna turn on the ignition turn off
+the ignition press the ballet button
+five times inner programming mode then
+I'm gonna press the valet button 13
+times to go to that 13th feature setting
+and then I'm actually gonna set the code
+using my lock button on the transmitter
+so I'm gonna press the desired number
+for the first digit and then I'm gonna
+pause and then I'm gonna enter the
+second digit and then I'm gonna pause so
+what's gonna happen is each time I press
+it it's gonna chirp acknowledging the
+button press so you have to wait for the
+chirp before you go to the next it
+should be pretty self-explanatory and if
+you mess up just go back to the valley
+button press it 13 more times and it'll
+start you back into that programming
+[Applause]
+[Music]
+and there we go it's programmed you did
+get my code did you so feature 14 is
+ignition activated override what that
+means is if your alarm is triggered and
+within 10 seconds you come in put a key
+in the ignition and turn it on it will
+actually turn off your alarm for you now
+the key here is within 10 seconds of
+that you have to press your override
+code that we just set in the previous
+step so it basically allows you the
+opportunity to disarm the alarm system
+without the transmitter using just the
+key and the valet button by default
+that's off I'm gonna leave it off on
+mine as well all right so feature 15 is
+a programming setting for how long you
+want the alarm to be active once
+triggered the default is 30 seconds but
+you can set it for 30 60 90 or a hundred
+and 20 seconds I think 30 seconds is
+just fine I don't want to be that guy
+with the alarm system blaring in the
+parking lot for 2 minutes off of a false
+alarm so feature 16 is the arming delay
+by default that's set at 3 seconds so
+when you armed the system you've got 3
+seconds before it actually takes effect
+it allows the vehicle to sort of settle
+a little bit but you can change that to
+15 30 or 45 seconds I'm gonna leave mine
+alone at 3 and the last one we're gonna
+do is feature 17 which I'm actually
+gonna set to on it's off by default and
+that is an open-door warning upon arming
+so when you armed the vehicle if you
+have any of your doors opening including
+the tailgate in the Jeep Wrangler then
+it will alert you that you've got an
+open door so you don't accidentally
+armed it thinking it's all locked up and
+it's not so let's do that feature 17
+two three four five okay one two three
+four five six seven eight nine 10 11 12
+13 14 15 16 17 and I'm going to press
+the lock button to set that to on and
+then let it timeout and there we go I've
+just programmed the user settings on my
+Excalibur alarm system
+so hopefully that all made sense it's
+pretty self-explanatory you've got to go
+through it at least look in the manual
+to see if the default settings are
+something you're agreeable with if not
+going and change those things that you
+want to change I would definitely go in
+and add a secure code also in just keep
+in mind even though I let the system
+timeout between settings so that I could
+explain it to you you can do all of
+those at once so you just move through
+get the confirmation sure and then go
+back to the valet button pick which
+setting number you want next and go
+through that when you get a confirmation
+shirt go back to the valet button and
+just keep going but anyway that's it the
+next video I'm gonna go into great
+detail on this little guy here the
+controller what you can expect by
+different button presses and
+combinations from this what the vehicle
+is gonna do in response and then what
+type of notifications you're gonna get
+on this as well so and then after that
+we're gonna go trigger the alarm we're
+gonna set it off we're gonna make some
+noise and I'm gonna go try and find a
+desolate place to do that but stay tuned
+guys thanks for watching I'll catch you
+on the next one
+[Music]

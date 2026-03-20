@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #8 - 360\u00b0 VIDEO! Test Run - Upcoming Plans - I Need an Alignment! Jeep Wrangler - Vlog";
+export const description = "Explore the exciting world of 360\u00b0 video for Jeep adventures! Dive into insights, upcoming trips, and DIY alignment tips.";
+const youtubeId = "16D88Wcu8T4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-01-18";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Mods, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Not specified"
+  },
+  {
+    "label": "Product",
+    "value": "360° Camera"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-roading and vlogging"
+  }
+];
+const externalLinks = [{"label": "I added this camera to my Amazon store, for those who are interested. When I saw this one was down to $70 I jumped on it. It was a $300-$400 camera last year.  I am okay being a year behind.", "url": "https://www.amazon.com/shop/o3djeeps"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the latest episode of Going Jogging, we’re diving into the exciting possibilities offered by 360° video while taking a trip down the road with our trusty Jeep Wrangler. This new toy not only promises to elevate our visual storytelling but also opens the door for more engaging content. Let’s break down what’s new, what’s coming up, and how my Jeep is evolving for future adventures.</p><h2>Main Points</h2><ul><li><strong>Introduction to 360° Video:</strong> For those unfamiliar with 360° video, it allows viewers to take control of their viewing experience. Unlike traditional POV videos, where you're constrained by the camera's direction, this enables you to look around the environment as you wish. If you want to check out the scenery outside, just swipe your screen!</li><li><strong>Feedback Request:</strong> As this is a new way to share experiences, viewer feedback is crucial. I’m eager to hear whether you prefer this approach over standard POV. Do you enjoy the freedom to explore the surroundings, or do you find it distracting?</li><li><strong>Upcoming Wheeling Trip:</strong> I have a wheeling adventure lined up with fellow Jeep enthusiasts. Collaborating with YouTubers like Tammy from Jeep Mama and Nate from the Jeep Talk Show, we aim to capture compelling content on some challenging trails. The camaraderie and shared experiences among Jeep owners make these outings particularly enjoyable.</li><li><strong>Alignment Issues:</strong> A key topic in this episode is the need for an alignment. As my Jeep is my daily driver and off-road vehicle, maintaining its performance is essential. I've noticed a slight thrust angle misalignment, which is affecting my tires' positioning. This leads to rubbing and potential wear, highlighting the importance of regular maintenance and adjustments.</li></ul><h2>Practical Implications</h2><p>There’s a lot to consider for both casual and serious off-road enthusiasts when it comes to equipment and vehicle maintenance. Investing in a quality 360° camera is just one of the many ways to improve the documentation of your adventures, but there’s also the self-maintenance aspect that cannot be overlooked. Taking the time to learn how to adjust control arms and perform rudimentary alignments is vital for any Jeep owner. It not only enhances your vehicle's performance but also saves money in the long run.</p><h2>Key Takeaways</h2><p>As we proceed into the wheeling trip and continue exploring the potential of 360° video, it's crucial to keep communication open with the community. Your feedback will shape future videos, and together we can explore the best ways to document our off-road adventures. And remember, before heading out on your excursions, always ensure your Jeep is aligned properly to avoid any issues on the trail!</p>
+
+</article>
+
+</SiteLayout>

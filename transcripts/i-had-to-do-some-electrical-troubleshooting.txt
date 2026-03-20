@@ -1,0 +1,162 @@
+hey there's Scipio here and just gonna
+do a quick video to show you just some
+problem-solving I had to do on
+overclocked did it last night I had an
+electrical gremlin I was sort of running
+down and solved it just sometimes it's
+helpful to see how other people process
+problem solving and particularly with
+electrical challenges they can be tough
+to figure out where to start so I'll
+tell you sort of what my problem was
+what I did to narrow it down I've got
+have a lot of electrical things
+happening here I have dual batteries I
+have waterproof fuse relay box that
+controls the electronics I got a bunch
+of other electronics in there so
+figuring out where to start is key
+[Music]
+alright so first the problem right so I
+first noticed a problem when I was out
+wheeling in Virginia I was out with some
+friends Jeep mama was there and and we
+were out in Peters mill and that's the
+first time I experienced a problem which
+kind of got me wondering what was going
+on so my CB power went off and my Sirius
+XM satellite receiver went off and my
+dash camera went off as in like no power
+but it was just a glitch it's sort of
+like went off and they came back on
+again and I was a little confused about
+what happened I don't have a circuit
+breaker I've got fuses on these things
+the camera the satellite receiver it's
+all wired in together in my switch panel
+the CB however is wired separately
+separate fuse but they both come off the
+waterproof fuse relay box so anyway so I
+had that problem sort of glitchy
+weirdness and and it happened to me
+several times so that day where the
+satellite would just reset like it would
+like reboot and I didn't know if I had a
+wiring problem with that if I had like a
+ground loop somewhere or short or
+something
+and and then after I left that trip a
+few more times I started experiencing it
+and it started to get worse like it was
+more and more common than I would turn
+on the Jeep and have no satellite it was
+just no power to it
+and so I decided I was gonna try and
+figure out what was going on and last
+night was my chance to do that so the
+good news is I did all the wiring in the
+Jeep which is helpful because I know the
+circuits that everything have like I
+know I have off the dual batteries I
+have one humongous fuse that comes over
+and feeds a line to the waterproof fuse
+relay box off of that I have a fused
+connection that feeds into here several
+of them each of these is independently
+fused but I know sort of the circuits
+and the fact that I have a problem with
+this and the CB at the same time tells
+me it's either got to be something fed
+to the waterproof fuse relay box or that
+box itself is acting up for some reason
+because it's a different circuit so it's
+not something that's wired in here it's
+something that's wired out there so
+let's go out there
+all right so I've got dual batteries and
+there was a point in time where I was
+wondering if maybe there wasn't
+something goofy with this stuff feeds
+over hits here's the fuse back here that
+feeds over and goes to the waterproof
+fuse relay box which is over here and
+you can see I'm not using all of those
+circuits last night was a time when I
+was experiencing the problem by the way
+it's not just that when I turned on my
+light bar this bumper light bar down
+here it did not come on either the power
+for that that triggers the relay is the
+same feed that the satellite receiver
+and the dash camera on so I think
+clearly there's a problem with that
+circuit so I come over here I you know
+pull and check and and you know I'm like
+receiving things to make sure everything
+is good to go and what I found out is
+what I was getting so I don't know maybe
+not everybody knows this but you can put
+a multimeter on the top of these and
+read the voltage there's a little little
+metal contact on the top of these so I
+put a multimeter on there and I wasn't
+getting you know 12 volts what I was
+getting was like 0.17 like something
+ridiculously low on all of them so I
+started looking at the voltage feed that
+comes around and goes over to the
+batteries and that took me to following
+this circuit around and that's actually
+this big wire here I checked voltage on
+this and I was getting 12 volts so 12
+volts here but by the time it makes its
+way over it's like 0.17 like I don't
+even know it's like I don't know
+atoms in the air are providing voltage
+so I reached back in here and started
+manipulating this fuse I've since cut
+this out it was a zip tight in there but
+I haven't read zip-tied it back up but
+as I was touching it
+suddenly oh my light bar came on it was
+nighttime so I was watching to see if
+that light bar came on the light bar
+came on and so I went over checked
+voltage over there and I was getting 12
+volts so I realized it was something to
+do with manipulating this wire where
+there's a loose connection or something
+and what I think happened is these caps
+here unscrew this one unscrews on this
+side that one unscrews on that side and
+basically the fuse is just compressed in
+the middle so what happened is over the
+course of the last you know two and a
+half to three years that I've been using
+this thing
+these have started to vibrate loose and
+spread just enough that I was losing
+connection intermittently of that fuse
+which basically kills the entire system
+so what I did was tighten that down now
+what I recommend in what I'm going to do
+is I'm gonna take some electrical tape
+and just basically wrap the seam so that
+can't accidentally back out anymore
+although I may use this as an excuse to
+put a resettable circuit breaker
+something like this I use for my winch
+I'd like to do that there instead of a
+blow and replace fuse system but anyway
+that is it that is the problem statement
+and then how I tracked it down and what
+the final solution was so since then
+I've had no issues and it was happening
+pretty pretty consistently so I'm pretty
+sure that was my problem so yeah just
+thought I'd share that since I was
+having some weirdness and had to do some
+troubleshooting to figure out why anyway
+guys thanks for watching I'll catch you
+on the next one
+[Music]

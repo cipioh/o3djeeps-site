@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Part 6 - HYPERFLASH FIX - Metalcloak LED Tail Light Kit - Load Resistor - 2015 Jeep Wrangler JK";
+export const description = "Learn how to solve the hyperflash issue caused by LED tail lights in your 2015 Jeep Wrangler JK with this step-by-step guide.";
+const youtubeId = "4ysfXdMQ8v8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-04-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "Metalcloak"
+  },
+  {
+    "label": "Product",
+    "value": "LED Tail Light Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Hyperflash Fix"
+  }
+];
+const externalLinks = [{"label": "This is part six of the overall Metalcloak Overline Fender install series. This video is solving the hyperflash issue.", "url": "https://amzn.to/2vF6xJE"}, {"label": "This is part six of the overall Metalcloak Overline Fender install series. This video is solving the hyperflash issue.", "url": "https://amzn.to/2qWqB4s"}, {"label": "I'm installing Metalcloak Overline Tube Fenders on my 2015 Jeep JK Unlimited Wrangler. I am also installing the standard overline flares, Metalcloak inner fender liners, the rear overline fenders with exoskin, and the rear corner skins with LED tail lights.", "url": "https://www.metalcloak.com/Jeep-Wrangler-JK-Overline-Tube-Fender-p/3214.htm"}, {"label": "Easy to Install", "url": "http://www.metalcloak.com/Jeep-Wrangler-JK-8-Overline-Front-Flare-p/3281.htm"}, {"label": "Ball Lock Joints secure each end of the Flare for incredible strength while providing the best Turning Clearance, best Object Deflection Angle and best Tire Clearance in the industry.", "url": "http://www.metalcloak.com/Jeep-Rear-Fender-Flare-JK-p/3426.htm"}, {"label": "Dovetailed for the best Object Deflection Angle, the Ball Lock Joints secure Flares for incredible strength and tub protection with just the right amount of clearance and coverage.", "url": "http://www.metalcloak.com/Jeep-Rear-Flare-Mounting-Base-Plate-JK-Unlimited-p/3410.htm"}, {"label": "Designed specifically as a mounting system for Quick Release rear flares, the flare mounting hardware is built right in.", "url": "https://www.metalcloak.com/JK-ExoCorner-Crawler-Kit-p/3430.htm"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In our latest tutorial, we're diving into how to fix the frustrating hyperflash issue that arises when replacing factory tail lights with LED units in the 2015 Jeep Wrangler JK. This issue isn’t unique to just this model, but it is particularly common due to the vehicle's advanced monitoring system that misreads the lower power draw of LEDs as a malfunction.</p><h2>What This Covers</h2><p>This guide focuses on installing a load resistor to restore normal blinking rates and eliminate false warnings. This procedure can significantly improve the usability and reliability of your Jeep's turn signals.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Identify the Hyperflash Issue:</strong> If you notice your blinkers flashing rapidly, it's a clear sign the vehicle’s computer is detecting a problem—specifically, that the LED lights draw less power than stock halogen bulbs.</li><li><strong>Gather Your Tools:</strong> You will need 6-ohm load resistors, appropriate wiring tools (like wire strippers, T-taps, and zip ties), and optionally, a pack of magnets for mounting the resistors securely.</li><li><strong>Remove Tail Light Assembly:</strong> Start by carefully removing the tail light assembly to access the wiring. Be cautious to avoid unnecessary damage.</li><li><strong>Wiring the Resistor:</strong> Connect the load resistor in parallel with the turn signal wire from the brake light assembly. For the Metalcloak system, this typically involves tapping into the white (ground) and red (signal) wires.</li><li><strong>Secure the Resistor:</strong> The resistor will generate heat, so it's critical to mount it properly. Using your magnets, secure the resistor inside the lighting compartment. This allows for easy removal in the case of future maintenance.</li><li><strong>Testing:</strong> After everything is connected, turn on your blinkers. If done correctly, you should see normal blinking rates without any warning indicators on the dashboard.</li></ol><h2>Helpful Tips</h2><ul><li><strong>Choosing the Right Resistor:</strong> Look for resistors rated at 50 watts with a resistance of around 6 ohms for the best results.</li><li><strong>Heat Management:</strong> Ensure adequate airflow around the resistor since they can get hot during operation. Positioning it away from sensitive components is critical.</li><li><strong>Follow Color Codes:</strong> Be sure to refer to your vehicle's wiring diagram as colors may vary between different Jeep setups.</li></ul><h2>Key Takeaways</h2><p>By installing load resistors, you can successfully eliminate hyperflash issues when switching to LED lights in your Jeep Wrangler JK. This modification not only enhances functionality but also adds a modern touch to your vehicle's lighting. Remember, always prioritize safety during installation, and enjoy the enhanced visibility and longevity of LED lighting!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep Wrangler TJ LED Headlight Install";
+export const description = "Upgrade your Jeep TJ's headlight with an easy LED installation tutorial.";
+const youtubeId = "3NfgDfasgn0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-07";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Aftermarket"
+  },
+  {
+    "label": "Product",
+    "value": "LED Headlights"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep TJ Headlight Upgrade"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Upgrading your Jeep's lighting system can immensely improve your night driving experience, especially when it comes to older models like the Jeep Wrangler TJ. This article walks you step-by-step through replacing your stock headlights with a high-quality LED option, making it a worthwhile DIY project for Jeep enthusiasts.</p><h2>What This Covers</h2><p>In this guide, we'll cover:</p><ul><li>The tools you need for the installation.</li><li>Step-by-step instructions for the headlight swap.</li><li>Tips for aligning your new headlights.</li></ul><h2>Step-by-Step Breakdown</h2><p>Ready to dive in? Let's go through the installation process together:</p><ol><li><strong>Gather Your Tools:</strong> You'll need a T15 Torx screwdriver and possibly some pliers for better grip.</li><li><strong>Remove the Trim Ring:</strong> Start by locating the three screws that hold the trim ring in place. Carefully use the T15 Torx screwdriver to remove these screws.</li><li><strong>Take Out the Headlight:</strong> Once the trim ring is off, you'll see the headlight secured by four T15 screws. Remove these screws, remembering to leave one at the top for last to hold everything in place.</li><li><strong>Plug in the LEDs:</strong> The great thing about using LED lights from a JK in your TJ is the compatibility. These LED headlights come with a plug that fits the TJ's harness perfectly, making the swap easy.</li><li><strong>Align Your Headlight:</strong> Ensure that the alignment marks on the headlight match up with those in the headlight assembly. Rotate the light slightly as you secure it to ensure it is correctly positioned.</li><li><strong>Reattach the Trim Ring:</strong> With the new LED headlight in place, reattach the trim ring. This should fit snugly and only go in one way.</li></ol><p>Once everything is secured, double-check your wiring connections to ensure there are no loose ends.</p><h2>Helpful Tips</h2><p>Here are some additional tips to ensure a smooth installation process:</p><ul><li>Consider doing this installation at a time when you can easily check the alignment, ideally after dark so you can assess the light output correctly.</li><li>If you're planning to wire in additional features like halos, consider planning the wiring before you complete the headlight installation.</li><li>Always test your new headlights in various conditions to ensure they meet your visibility needs.</li></ul><h2>Key Takeaways</h2><p>Replacing your stock Jeep TJ headlights with LED options can make a significant difference in nighttime visibility. This straightforward installation is an excellent first project for new Jeep owners or enthusiasts looking to make practical upgrades. Not only does it enhance the vehicle's lighting, but it also increases safety while driving at night. Don't overlook the importance of headlight alignment after installation; properly aligned lights can make all the difference on off-road trails and dark highways alike!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,210 @@
+hey there's Scipio here and in this
+video I'm gonna show you how you can
+check your axle alignment and I don't
+mean like track bar left and right
+alignment what I'm talking about is your
+squareness as it pertains to the frame
+of the vehicle and in the rear axle it's
+really gonna be the thrust angle we're
+looking at and we're going to do it with
+nothing but they take measure let me
+show you how this works so I'm
+suspicious that my rear axle is a little
+bit tilted and I think it's pointed
+where the passenger side is a little bit
+closer to the front and then the
+driver's side I come with this
+conclusion for two reasons number one I
+did have it put on an alignment rack and
+they said my thrust angle was off by 0.3
+degrees pointed in that direction I just
+explained the other thing is when I'm
+out wheeling now that I've got these 37
+s on they fill up the wheel well a lot a
+lot tighter and so what I found is that
+on the passenger side I'm actually
+hitting the front pinch seam right up
+here but on the driver's side I'm not so
+that tells me that there might be an
+alignment issue because in theory if one
+sides hitting the other side should be
+hitting as well but I'm not seeing that
+I'm seeing one side hit and not the
+other so those two things combined lead
+me to believe that my thrust angle is
+off and that is a result of my rear axle
+being out of alignment now I did not put
+on these arms so the shop that did the
+work for me
+did the alignment and I've never really
+questioned that the alignment was
+spot-on or not but what happened is when
+I went to these bigger tires it sort of
+become more obvious that maybe there was
+a problem so let me show you how I'm
+gonna check this and then we're gonna
+compare it against what I learn from the
+alignment shop and see if we're on the
+right track alright so what we need to
+do is find a point of reference
+someplace that it's consistent left to
+right so that we can measure a distance
+from that point all the way back to our
+axle so I'm gonna use is this forward
+body mount to bolt right here now
+contrary to popular belief body mount
+bolts are actually known
+placement locations on the jeep and
+there are several of those I'm assuming
+this bolt here is probably one of them
+but I'll put up a graphic here you can
+see that there are some known
+measurements so they are good for using
+as reference points now what I'm going
+to do here is just take this and set it
+on the edge of that bolt now we're
+getting pretty close measurements here
+but you know ideally you'd want to hit
+the center but I don't have anybody here
+to help me so I'm gonna go with the
+outside edge of that head of that bolt
+and I'm gonna pull a measurement all the
+way to the wheel now I want it to be the
+same on both sides so what I'm gonna do
+is run past and then get it lined up
+with the center cap and then come back
+here and see where I'm hitting this seam
+this seam should be the same on both
+tires and the fact that I went all the
+way to the center cap means this is
+going to be pretty close to the middle
+but ideally will be the same location on
+both sides of the Jeep so it looks like
+I'm right at 76 inches right here on
+this using that front body mount bolt
+pull the tension all the way to here
+grab that measurement 76 let's see what
+I get on the other side so all things
+being equal I'm actually getting 75 and
+a half here so I'm a half inch further
+forward on this wheel than I am on that
+other one or in order to calculate the
+degrees that I am out of alignment on
+this rear axle what I want to is get the
+distance from this tire to that tire at
+this bigger point that I've measured
+from up there in the front so I just set
+a tape measure on the ground got it
+lined up pretty close to where it aligns
+with that and then just going across on
+this side and seeing where it hits and
+weird about 78 maybe 79 78 and a half
+somewhere around that range it doesn't
+have to be exact I just want to show you
+how the math is working out on this in
+comparison to what I got from the
+alignment shop so the alignment shop
+showed that I was point three degrees
+out of alignment towards basically if
+you're if you're looking at the back of
+the Jeep sort of counterclockwise
+rotation but let's see how accurate our
+calculations are versus what they put on
+the laser machine so if I put in that
+distance between the two measuring
+points on the tire that's basically
+going to be the radius of the arc we're
+going to calculate I'm gonna put 78
+inches in there and then the length of
+the arc is that half an inch that I'm
+tilted a little bit too far and then
+when I run the calculator it basically
+tells me that the angle of the arc in
+degrees is 0.36 so we're pretty much
+dead on with our rough measurements with
+a measuring tape of what a laser machine
+was able to tell me so now that I've
+confirmed exactly where the problem is
+how much of a problem in inches I need
+to fix all right so that's super useful
+information particularly because it
+confirms two things it confirms what I
+got from the alignment shop that said
+that my axle was tilted in that
+direction based on the thrust angle
+reading that they gave me of point three
+degrees but also it confirms what I
+experienced out on the trail where I was
+hitting on that passenger side wheel
+well but not the driver's side well
+that's because it's half an inch further
+forward on that side now why it's half
+an inch further forward I don't know are
+the control arms the same length or my
+control arm brackets in the in the same
+exact location on either side it doesn't
+really matter how we got there what
+matters is we're able to measure and
+identify that it needs to be fixed and
+then now we know how to measure and
+confirm that it's right so what I'm
+going to do is extend these control arms
+on the passenger side both the lower and
+the upper to move this axle back and
+I'll move them back equally because I
+don't really want to mess with pinion
+angles at this point alright so before I
+button this whole thing up I did extend
+the control arms upper and lower you can
+see I kind of had to do some beading to
+get that lower control arm out the
+reason is these lower brackets were all
+bent to crap from hitting the rocks
+so I had to spread those as much as I
+could and then pound that bad boy down
+to get it to clear and getting it back
+on wasn't too bad but once I got the
+control our mallet I could get some
+pliers on there and spread this gap a
+little bit there but it's back in place
+I extended both of these about that much
+so I've already tightened up the jam nut
+on the bottom one before I do the top
+one I thought I would share with you I
+think that's probably I don't know maybe
+3/8 of an inch
+somewhere between 1/4 and 3/8 why I
+don't know is because I don't really
+care what I do care is what's that
+distance between there and here on both
+sides of the Jeep so I literally would
+do some adjustments put the tire back on
+ree measure since the tires on the other
+side I had to have similar circumstances
+so it took a little bit longer to do
+that so anyway I want to put this whole
+thing back together so I can go to work
+in the morning and it should be tracking
+much straighter and hopefully straights
+can be so what I'll do is next time I
+get a chance to get it put on in the
+Lima track I'll see how close I got so
+so now you know how to check your thrust
+angle and your rear axle alignment now
+front axle is exactly the same you can
+do it with the same sort of reference
+points now that we've got the rear axle
+line you can also use it to measure to
+the front and just basically go from
+axle tube to axle tube that way but
+we'll do some more measurements later on
+I will actually check the the front axle
+later on maybe in a different video I'll
+go through that with you but for now I
+want to get this rear axle straightened
+out and the next weekend when I go
+willing I can see if that solved by
+problems with hitting on that passenger
+side wheel well so do we guys thanks for
+watching I'll catch you on the next one
+[Music]

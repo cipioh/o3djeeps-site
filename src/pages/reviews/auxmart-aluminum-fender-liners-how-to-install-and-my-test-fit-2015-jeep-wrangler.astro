@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Auxmart Aluminum Fender Liners - How To Install and My Test Fit - 2015 Jeep Wrangler";
+export const description = "Learn how to install Auxmart aluminum fender liners on a 2015 Jeep Wrangler, including tips for modifications and real-world implications.";
+const youtubeId = "WWmU4fc8ijU";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-17";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Auxmart"
+  },
+  {
+    "label": "Product",
+    "value": "Aluminum Fender Liners"
+  },
+  {
+    "label": "Use Case",
+    "value": "Protection and ventilation for engine compartment"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://amzn.to/2Crt1Mi"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this article, we’ll delve into the installation process for the Auxmart aluminum fender liners, specifically designed for the 2015 Jeep Wrangler. Whether you're looking to enhance your rig's aesthetics or improve its functionality, installing fender liners can be a rewarding project. This guide will take you through the necessary steps, alterations, and tips to make your installation smooth and effective.</p><h2>What This Covers</h2><p>We’ll explore the installation process, required tools, and highlight any modifications needed for an optimal fit. Additionally, we will discuss the real-world applications of these fender liners, so you know exactly what to expect after installation.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Remove the Existing Factory Liner:</strong> Start by carefully removing your factory fender liner. In many cases, this may already be cut or modified due to previous customization, as was the case with our test fit.</li><li><strong>Test Fit the New Aluminum Liners:</strong> Before securing the new fender liners, perform a test fit to check for any interference with existing modifications, such as shocks or other components.</li><li><strong>Modify as Needed:</strong> If your Jeep has modifications, you may encounter some interference. For example, if you have Teraflex speed bumps installed, you might need to trim specific areas for clearance. Use a cutting tool for precise adjustments.</li><li><strong>Install the Liners:</strong> Once satisfied with the fit, proceed to secure the new fender liners using the provided nuts and bolts. The installation should be straightforward if no modifications are needed.</li><li><strong>Add Finishing Touches:</strong> Consider customizing your liners by painting them or adding a side marker light for better visibility and aesthetics.</li></ol><h2>Helpful Tips</h2><ul><li>Always test fit before drilling or securing components. This will save you time and potential issues during installation.</li><li>Take your time with modifications; precision trimming is key to ensuring a clean fit and preventing any potential vibration or rubbing.</li><li>Consider painting the components if you want them to complement the overall look of your Jeep.</li><li>Make sure to have all necessary tools on hand, including a drill for any additional holes needed for securing the liners.</li></ul><h2>Key Takeaways</h2><p>The Auxmart aluminum fender liners offer an affordable solution for those looking to enhance their Jeep Wrangler's functionality without the need for heavy-duty options. They are lightweight, easy to install, and provide the necessary protection and ventilation for your engine compartment. While some DIY adjustments may be required depending on your existing modifications, the overall installation process is straightforward and manageable for the average enthusiast.</p><p>Whether you’re a seasoned Jeep enthusiast or a newcomer to the customization scene, these fender liners can be a great addition to your build. They represent an excellent opportunity to dive into some hands-on work while enhancing both the look and functionality of your vehicle.</p>
+
+</article>
+
+</SiteLayout>

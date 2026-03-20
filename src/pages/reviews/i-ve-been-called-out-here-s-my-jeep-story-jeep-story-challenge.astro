@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "I've been Called Out! Here's my Jeep story! JEEP STORY CHALLENGE";
+export const description = "Explore the personal Jeep journey of CP Oh, from early models to current builds, and discover the community behind Jeep stories.";
+const youtubeId = "TTQKijM2ObI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-06";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "First Jeep",
+    "value": "1990 YJ"
+  },
+  {
+    "label": "Current Jeep",
+    "value": "2015 JK"
+  },
+  {
+    "label": "Future Aspirations",
+    "value": "Potential JL or other models"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://www.youtube.com/channel/UCwGMZrUOdL0eUJyZBrmnYKw"}, {"label": "I'm calling out:", "url": "https://www.youtube.com/user/TheJeepMomma"}, {"label": "I'm calling out:", "url": "https://www.youtube.com/channel/UC1rX-3_NV5IujpHBKwspYDQ"}, {"label": "I'm calling out:", "url": "https://www.youtube.com/user/bleepinjeep"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the ever-evolving world of off-roading and Jeep culture, sharing our stories not only creates community but also inspires fellow enthusiasts. In this article, we will delve into the Jeep journey of CP Oh, an avid off-roader and content creator. He recently participated in a challenge set forth by fellow Jeep YouTuber Chris Meacham, inviting him to recount his unique Jeep story. Let's take a look at his experiences, the vehicles he's owned, and the community that surrounds this adventure.</p><h2>Main Points</h2><p>CP Oh starts his Jeep journey back in the early 1990s with a 1990 YJ. This was more than just a vehicle; it was an introduction to the world of off-roading. With a lift kit and oversized tires, this Jeep was his trusty partner through the mountains of Wyoming. However, it wasn’t just about the vehicle; it was a lifestyle choice that started his fascination with off-road adventures.</p><p>As CP mentions, the Jeep scene was vastly different before the advent of social media. Back then, camaraderie among Jeepers was more about shared experiences on the trail than posting on Instagram. Despite this solitude, his first YJ became the foundation of what would become a life-long passion.</p><p>After some time, CP transitioned from his first Jeep to a Toyota Tacoma to fulfill a more practical need, but the Jeep passion didn’t fade. Fast forward to the late 90s, and he found himself driving a Jeep Cherokee Sport—an unassuming family car that served a role, although he laments the lack of documentation from that era. This reflection underscores a common theme among enthusiasts: the nostalgia tied to their first vehicles.</p><h2>Practical Implications</h2><p>In 2015, CP made an interesting return to the Jeep world with a 2015 JK, largely driven by the practicality of a four-door model, which offered the space he needed. This choice resonated with many other Jeep owners who may have similarly sought out more functional models. His story serves as a reminder that both practicality and adventure can coexist. Moreover, CP’s decision to keep the JK for an extended period—longer than he usually keeps his vehicles—is noteworthy. It hints at the deep connection that can form between a person and their Jeep.</p><p>As enthusiasts, we often find ourselves caught between the allure of the latest models and our attachment to our existing vehicle. CP has expressed curiosity about the JL models but remains committed to his current build, illustrating the complexities of ownership in the off-roading space.</p><h2>Key Takeaways</h2><p>CP Oh's Jeep story is a testament to the journey every owner embarks upon. From the initial model that ignited his passion to the current builds that fuel his dreams, his experiences highlight the importance of community among Jeep owners. His call-out to fellow YouTubers encourages an engaging culture of sharing stories, further solidifying the bond within the Jeep community.</p><p>So whether you're just starting your Jeep journey or are a seasoned veteran, remember that every scratch, every modification, and every adventure contributes to your unique Jeep story. Take a page from CP's book; reflect, share, and inspire others in the Jeep world.</p>
+
+</article>
+
+</SiteLayout>

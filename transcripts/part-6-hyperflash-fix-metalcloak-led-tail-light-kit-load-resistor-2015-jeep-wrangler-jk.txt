@@ -1,0 +1,253 @@
+hey there's Scipio here in in my last
+video I showed you the installation of
+the metal cloak EXO corners with the
+integrated LED tail lights in that video
+I mentioned the hyper flash problem and
+that is a common problem with a lot of
+late model vehicles but particularly
+these JK's when you exchange the factory
+halogen bulb setups for an LED setup
+because LEDs draw a lot less power and
+they put a lot less load on the system
+so to the Jeep which is monitoring that
+resistance it looks like you have a bulb
+out but you don't so the result of that
+is the hyper flash let me catch you back
+up to the end of that video and then I
+will show you how to install a load
+resistor and in a creative way I think
+that I came up with to achieve getting
+it mounted so anyway let's get caught up
+[Music]
+alright so one thing I need to talk
+about and that is the hyper flash let me
+go turn on a blinker alright so as you
+can see I'm getting the rapid flash of
+my blinker that's commonly known as a
+hyper flash the reason it does that is
+the JK doesn't have an old-school sort
+of blinker relay module like you may be
+familiar with on older Jeep it's all
+handled by the computer and so what
+happens is it senses the resistance in
+that circuit and if it identifies that
+there is less resistance then it thinks
+it should have it assumes that your
+light bulb is out so that's a rapid
+flash and then a also an indicator on
+the actually let me show you this you'll
+likely get an indicator that looks like
+this that says left turn signal out and
+if I switch to the right it won't take
+long before it thinks it's bad there you
+go right so the reason it does that like
+you said is because your computer thinks
+you have a light bulb out because the
+LEDs draw a lot less power and thus the
+computer sees it as less resistant so
+there is a fix of that on
+fortunately it's something you're gonna
+have to do now some people choose to put
+up with the hyper flash and the warning
+every time you turn on the vehicle
+you're gonna get a ding and then that
+warnings gonna come up it's up to you
+whether or not that bothers you or not
+for those of you that want to make it
+back to normal
+here's what you need you need a resistor
+like this it doesn't have to be this
+exact one I'll put a link down in the
+description so you're gonna wire this in
+parallel not in series and what that
+means is you're just gonna tap into it
+and I'll show you that here but you'll
+need a resistor to to get it to behave
+normally 5.6 ohms to 6 ohms is probably
+where you want to be a lot of people use
+six a lot of people use 5.6 all seem to
+have consistently similar results all
+right so I got my taillights out and on
+the table you can see I did a really
+great job of bundling those wires
+problem is now I've got to undo some of
+that so I can add these load resistors
+so again this is the load resistor that
+I'm using a 50 watt 6 ohm I got them in
+a pack of 4 so it wasn't much more
+expensive to get a 4 pack over a 2 pack
+and it guarantees I have a spare on hand
+in case there's a failure of some sort
+so anyway that's those package does come
+with a bunch of these quick splices
+which I do not use these so I'm not
+going to use them in this now this load
+resistor is going to heat up a lot do
+they do generate heat basically that's
+what resistance does is it converts the
+electrical energy into heat so this
+thing is going to get really hot so you
+want to mount it securely inside the the
+lighting compartment area and you can
+you can use self drilling screws and tap
+that into the side of the sheet metal on
+the tub on the passenger side as you can
+see it's pretty easy to get to on the
+driver's side not so much so a little
+bit more challenging to do there
+so what I chose to do is thankfully
+somebody posted a little tip for me
+about using magnets for for mounting
+those so I took that and ran with it I'm
+going to use this setup which is
+basically two magnets that will
+to the tub and two of them makes it
+extra SuperDuper secure and but also
+removable so if I have a failure or for
+whatever reason I need to change things
+up I could just remove it and and then
+replace it so what you'll see here is a
+threaded post so let me show you this
+first and then we'll get to the wiring
+so I just got a pack of these magnets
+with four millimeter posts and what I
+found is on these guys it doesn't quite
+fit through but it is just close enough
+where actually we can use it to tap the
+threads now normally I would use a
+thread tap a proper tap to do this but
+because this is a steel post and this is
+an aluminum body it actually is good
+enough to tap itself so I'm just gonna
+start this slowly and then what I find
+is eventually it's just gonna thread
+itself through and then in that case I
+don't need to use a nut or anything and
+basically what I'm doing now it's
+threaded through I'm just going to run
+it through about half way gives it a
+little bit of offset from the magnet but
+you know secures it in place if you
+wanted to put a nut on to cap it off
+that's fine but I don't think it's going
+to go anywhere I just do the same thing
+to the other side I've never seen
+anybody do it like this so that could be
+because I'm an idiot
+and this is a dumb idea or it could be
+I'm a genius and I'm the first to come
+up with something really cool or I just
+haven't found where somebody else has
+done this but anyway that's that so
+that's now how I have a magnet mounted
+load resistors yeah all right so let's
+talk about the wires so these wires are
+basically going to run in parallel to
+those wires and we're just going to
+basically tap into the existing wire
+harness for the ground and
+blinker brake circuit I'm gonna do that
+on the wires that come out of the light
+it's a better wire it's a thicker wire
+it's a more pliable wire the wires on
+these plugs from the factory are super
+thin and in almost more brittle wire
+type so I guess now I get to undo some
+of my fancy wire loom work all right so
+for the wires we're going to tap into on
+the the actual brake light assembly from
+a metal cloak we're going to use the
+white and the red I know that seems odd
+because we need a ground and the turn
+signal / brake light so that's the red
+one the turn signal brake is red the
+white is actually the ground on the
+system not the black so make sure you
+understand that now if you're connecting
+to the actual factory harness and those
+wiring colors black is ground and it's
+the white and yellow wire that is the
+turn signal / brake circuits so make
+sure you know which wires do what so
+again it's going to be the white and red
+we're going to tap into on this
+particular setup so and then we're just
+literally going to t tap or t splice
+into those you can use the taps that
+came with the resistors but I'm going to
+do a different type I call it a military
+tap or a t tap but basically I'm going
+to remove a little bit of the sheathing
+here open up the wire stab the end
+through wrap it up and yeah that's how I
+do things so you can solder it if you
+want you can use butt connectors cut in
+whatever this is how I do
+[Music]
+[Music]
+[Music]
+[Applause]
+[Music]
+[Music]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+all right so there we go that's the the
+new harness with the addition of the
+load resistor and the magnetic mount for
+it so let's go stick it in and see how
+it works all right
+plug in my harness and then this is just
+gonna go right there clips in there
+nicely should be nice and secure stays
+out of the way of everything move it up
+out of the way I'm gonna put the reverse
+lights up this time and of course the
+other really nice thing about using the
+magnet mount and having it attached to
+the light itself is I can unplug it from
+the Jeep and then pull out the entire
+assembly and so yeah it's not like I
+have to unscrew anything on the inside
+in order to do any work on this I do
+like how these lights are reversible up
+and down so you can change it up you
+want it to look more like a TJ with the
+reverse lights on top go for it it's
+just that easy all right let's go turn
+on that blinker boom hyper flash
+resolved no more warning signal on the
+on the Jeep and as far as it knows and
+that's the factory light sweet
+and now I'll knock out this driver's
+side one in exactly the same way all I'm
+doing is giving myself just enough room
+to get a couple wraps
+in there so compressing that sheath
+using a little pick tool to just make a
+hole right in the middle like threading
+a needle
+if you want to see more detail about how
+I'm using this particular splice method
+you can go look at my wiring of the
+switchbacks on my front led halos for my
+hid projector lights I go through that
+in pretty good detail so then the zip
+tie is a strain relief so it keeps any
+tugs on the wire from pulling against
+the joint and rather just locks that in
+place in this case I'm doing sort of a
+triple strain relief because then I'm
+relieving the entire bundle here these
+little zip tie heads add a little more
+bulk but in the end it doesn't really
+matter this is wire loom tape it's
+actually designed for vehicle wiring so
+it's heat abrasion chemical water
+resistant one more strain relief for the
+bundle boom ready to go
+[Music]

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Going Jogging #7 - How and Why I Started O3DJEEPS - Jeep Vlogging";
+export const description = "Discover the journey behind O3DJEEPS, exploring how passion for Jeep culture transformed into a vibrant YouTube channel.";
+const youtubeId = "rGkyV0ppEoY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-01-12";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "O3DJEEPS"
+  },
+  {
+    "label": "Platform",
+    "value": "YouTube"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep Enthusiast Community"
+  }
+];
+const externalLinks = [];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this episode of "Going Jogging," we dive into the origins of O3DJEEPS—exploring the motivations and experiences that led to the creation of a successful Jeep vlogging platform. Whether you’re a seasoned Jeep enthusiast or just curious about what goes into building a Jeep-centric online community, this discussion offers insights into the passion that fuels our adventures.</p><h2>Main Points</h2><p>Each step in the journey of O3DJEEPS has been fueled by a love for Jeeps and a desire to share that enthusiasm with others. From humble beginnings inspired by a father-son bond to tackling off-road adventures, here are some key milestones:</p><ul><li><strong>Initial Inspiration:</strong> It all started with a quest to bond with my son through memorable activities. After introducing him to remote-controlled hobbies, I realized that sharing experiences together could extend to our interest in vehicles.</li><li><strong>The Shift to Jeeps:</strong> Transitioning from RC helicopters to a Jeep was a pivotal moment. As a family man, the introduction of four-door Wranglers opened new doors for exploration and adventure.</li><li><strong>Creating Content:</strong> Noticing a gap in content that catered to beginners, I set out to create videos answering common questions and sharing experiences that others could learn from.</li><li><strong>Community Engagement:</strong> The interaction with viewers has transformed my channel. Constructive feedback, advice, and shared stories foster a vibrant community that keeps the passion alive.</li></ul><h2>Practical Implications</h2><p>The evolution of O3DJEEPS is an embodiment of how personal interests can transform into community-driven initiatives. For anyone considering sharing their automotive passions, here are several takeaway lessons:</p><ol><li><strong>Start with Your Passion:</strong> If you have a genuine interest, pursue it. Your enthusiasm will resonate with others.</li><li><strong>Learn and Share:</strong> Create content that helps answer questions or fills gaps in existing information. Don’t be afraid to provide a unique perspective.</li><li><strong>Invest Time Wisely:</strong> Building an online presence requires significant dedication, whether it’s filming, editing, or engaging with followers. Appreciate the journey as much as the destination.</li><li><strong>Build a Community:</strong> Validate and appreciate the input from your audience. Their encouragement often sustains your motivation.</li></ol><h2>Key Takeaways</h2><p>The journey of O3DJEEPS highlights the rich tapestry of Jeep culture and the deep connections we forge through shared experiences. It’s not just about the vehicles; it's about the people, the adventures, and the community that forms around them. The next time you hit the trails or engage with fellow Jeep lovers, remember that shared stories and experiences can lead to exciting new beginnings.</p>
+
+</article>
+
+</SiteLayout>

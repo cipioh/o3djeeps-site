@@ -1,0 +1,218 @@
+hey there's Scipio here and welcome to
+what is pretty much the end of the
+installation phase for the Omega
+Excalibur alarm system with remote start
+now we're not completely done because
+I've got a couple of optional sensors
+I'm going to install later on but we are
+to the point where we have the base
+functionality ready to go we're doing it
+right now so this video is really about
+buttoning things up and then starting
+the basic configuration we're gonna
+program the blade to the vehicle and and
+make sure it's got the right firmware
+settings for that
+that's an automatical process which
+simplifies things a lot and then vehicle
+learn mode which is the shortcut of the
+century when it comes to security system
+programming alright so I'm ready to
+actually start putting the brain in the
+system so the first thing I need to do
+to prep the brain is put in the blade so
+the cartridge is gonna slide in and then
+you're good to go there I have one more
+sensor I haven't installed and that's
+this proximity sensor I'm gonna install
+that after I get the basic functionality
+in but I want to go ahead and plug in
+the cable so I don't have to pull that
+all apart I'm gonna pretend like it's
+being plugged in when it's actually just
+gonna be a blank cable and I'm gonna
+tape this up nicely real quick alright
+there we go I got it all nice and taped
+up to be tidy I may or may not have to
+extend this whenever I actually
+installed the sensor but I'll figure
+that out later I'm gonna go ahead and
+plug it into one of these analog ports
+and the other sensor the shock sensor
+which I also taped up it's already
+installed we're going to plug that into
+the other analog port now I've got up
+still button these wires up but for now
+I'm just going to start plugging things
+in so that I can get some testing done
+so first is going to be the antenna then
+my 18 pin harness which now has all set
+and done one two three four five six
+seven wires in it
+now I'm going to plug in the back side
+of my harness that goes to the ignition
+and then the last one I'm going to plug
+in is this one and that one's got power
+so now the unit is powered and I just
+heard it click I'm going to go ahead and
+plug in my battery backup while I'm here
+because that's gonna be critical when I
+start looking at where I'm gonna finally
+position this all right so I've plugged
+in the Excalibur and I'm getting a red
+flashing light from the blade that's
+telling me it still needs to be
+programmed to my vehicle so this is a
+pretty easy process and actually is one
+of the things that makes this really
+cool because what its gonna do is
+automatically set up for my vehicle I'm
+gonna put my key in the ignition I'm
+gonna turn on the ignition and now I'm
+flashing blue I'm gonna take the key out
+of the ignition and just hit unlock now
+I have a solid blue and that tells me
+that the blade has been programmed to
+match my vehicle that's it that's all I
+had to do and now the hard part of the
+install is done and check this out
+that's pretty awesome so I've got a
+little bit of programming to do here to
+get creature comforts I do want to do my
+vehicle learn mode real quick for the
+remote start so that that is set up and
+that's that's a one-time thing it's
+gonna set up the vehicle for everything
+it needs to properly manage the remote
+start capability
+[Music]
+but for now what I really need to do is
+get this all tidied up and that blade
+unit installed in its final resting
+place inside of there so I'm gonna work
+on that then we'll we'll deal with the
+rest of setup and all of that good stuff
+here soon all right I've got my brain
+zip tied down I've got the bundle of
+wire sort of pressed down on top it's
+not perfectly clean I've got to get back
+in here later so I didn't spend a whole
+lot of time on it for now and then this
+panel will come back in and then we'll
+be able to restore these bolts and then
+after that we're good to go
+[Music]
+all right so now that the blade has been
+programmed to identify my vehicle and
+the basics of how it works I want to do
+vehicle learn mode which will help set
+up the remote start function this is
+going to detect a lot of stuff
+automatically that most people would
+normally have to manually set up this is
+going to make things much much easier so
+I'm just going to follow the
+instructions here in the guide I'm going
+to turn the ignition key on but not
+start so now I'm going to activate the
+remote start on the transmitter and I do
+that by pressing the start button twice
+within five seconds okay so the one
+chirp tells me it's a gasoline engine
+which is true and I don't need to change
+that now I'm going to start the engine
+with the ignition key
+[Music]
+now I'm going to turn the ignition key
+off and the system chirps for the number
+of ignition starts Serkis detected so it
+did the one that I need within 20
+seconds of Step five activate the remote
+start the engine is now running
+and I'm gonna press the brake pedal to
+shut everything down and save the
+changes now hold up what just happened
+happened so fast and so easy I don't
+want you to miss how important this
+capability really is
+so this patent-pending vehicle learn
+mode capability literally handles dozens
+of setup steps that used to have to be
+manually done by the Installer now if
+you're a DIY or you're doing this
+install yourself you may not even know
+what some of these settings are gonna be
+but the great news is vehicle learn mode
+automatically makes those decisions for
+you and then programs it on your behalf
+so it's not only about saving time it's
+about reducing opportunity for human
+error because do you know whether you
+want tack tack lists or data attack mode
+for detecting whether the engines
+running doesn't matter the system knows
+which is best in which your vehicle can
+handle and then programs it based on
+that so that is a huge deal this saves a
+lot of time from the traditional install
+and makes life much easier on you so I
+didn't want you to miss out on that
+point because it was so fast it seemed
+like that was normal but that is not
+normal this is an awesome thing that
+Omega is done with this xcalibur system
+it will also take into account
+installation errors so we didn't have a
+whole lot of opportunity for wiring
+errors because we use that new T harness
+but if you were doing a manual install
+let's say it wasn't this vehicle let's
+say you decided you liked it so much you
+want to put it into a different vehicle
+which is entirely possible you may have
+to do more manual wiring work the system
+will actually go through and check your
+wiring and look for things that expects
+to see it may reroute things internally
+to work with whatever you came up with
+that's pretty huge deal and in fact this
+comes into play in our particular
+install because if you recall back to a
+previous video we're actually neglected
+to install that neutral safety wire and
+when I didn't install that I told you
+the system's gonna figure out we don't
+have it and it's gonna skip it it's this
+vehicle learn mode process that
+recognizes there is no neutral safety
+switch wire and then eliminates it from
+the requirement so again pretty awesome
+stuff I just didn't want you to miss it
+and if you're a power user and you want
+to learn more about the details of
+what's happening in vehicle learn mode
+in the description of this video I'll
+give you
+linked to omegas official YouTube video
+on this and they go through it in great
+detail so it's really interesting stuff
+if you're into that sort of thing
+so that's it I went to this real time
+with you for the first time and it's a
+breeze so that's pretty awesome so and
+now remote start
+[Music]
+that's pretty cool all right guys that's
+it for this video in the next video
+we're gonna start getting into user
+configurable settings trying to select
+options I'll tell you what the variety
+of options you can set are and then also
+a little bit about the different
+transmitter functions how it works and
+what type of responses you should expect
+to get from the vehicle we're gonna go
+into that in great detail here soon but
+for now thanks for watching I'll catch
+you on the next one
+[Music]

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "02 - The HID Installation - HIDProjectors.com Revision 2.0 Signature Switchback -  2015 Jeep";
+export const description = "Learn how to install Revision 2.0 Signature Series Switchback HID headlights on a 2015 Jeep for enhanced visibility and style.";
+const youtubeId = "I_a-KMNDmCA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-03-27";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "HIDProjectors"
+  },
+  {
+    "label": "Product",
+    "value": "Revision 2.0 Signature Series Switchback HID Headlights"
+  },
+  {
+    "label": "Use Case",
+    "value": "Headlight installation and upgrade"
+  }
+];
+const externalLinks = [{"label": "This is the installation of the Revision 2.0 Signature Series Switchback HID headlights with Halo, Angel Eyes, and Devil Eve.  This is just the HID headlight install, and the headlight aiming and and LED halos/angel eyes videos will be separate uploads.", "url": "https://www.hidprojectors.com/collections/revision-2-0"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Upgrading headlights is one of the best modifications you can make for your Jeep, particularly if you're often off-roading or driving at night. In this article, we'll take you through the step-by-step process of installing the Revision 2.0 Signature Series Switchback HID headlights on a 2015 Jeep. With their enhanced light output and modern design features, these headlights are a worthwhile investment to improve your driving experience.</p><h2>What This Covers</h2><p>This tutorial focuses specifically on the HID headlight installation. It will guide you through the necessary steps, tools, and tips for successfully replacing your existing headlights with the new HIDProjectors model, without getting into the halos or angel eyes just yet.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools and Materials:</strong> Before starting, ensure you have all necessary tools—such as a flathead screwdriver, pliers, wire tape, and the Revision 2.0 headlight kit. Ensure your Jeep is parked on a flat surface for safety.</li><li><strong>Remove the Front Grille:</strong> Begin by removing the top plastic rivets of the grille. Carefully pop the center piece out with a flathead screwdriver and remove the rivet. Be mindful of not losing these pieces! Disconnect the front turn signals before pulling the grille free by pressing on the release tabs.</li><li><strong>Remove Existing Headlights:</strong> With the grille removed, you'll need to unscrew the four tabs holding the existing headlight in place. Once these are undone, the old headlight can be taken out, revealing the stock wiring.</li><li><strong>Install the New HID Headlights:</strong> Start by laying out your new harness and connect it to your new HID headlight. Plug it into the stock wiring harness using the provided adapter. Make sure all connections are secured and properly taped to prevent moisture infiltration.</li><li><strong>Wire Management:</strong> Use wire loom tape to bundle your wires neatly. Secure the ballast with double-stick tape in a suitable location that prevents it from moving or getting damaged while driving.</li><li><strong>Adjust the Headlights:</strong> After installation, it’s crucial to adjust the angle and height of your new headlights to ensure optimal road visibility. Aim them against a wall to see the cut-off pattern and adjust accordingly.</li><li><strong>Connect Additional Features:</strong> If you’re planning to use the halos and angel eyes later, ensure you have them ready for the next part of the installation.</li><li><strong>Final Checks:</strong> With everything in place, double-check all connections and wiring. Once you're satisfied, replace the grille and test the new headlights to see the significant difference in light output.</li></ol><h2>Helpful Tips</h2><ul><li>When tightening screws, be careful not to overtighten, as this may cause damage.</li><li>Use dielectric grease on electrical connections to prevent corrosion.</li><li>Label your wires during installation to avoid confusion.</li><li>Consider installing a relay for your HIDs if your Jeep’s electrical system requires it.</li></ul><h2>Key Takeaways</h2><p>Installing HID headlights greatly enhances visibility and improves the look of your Jeep. Remember to maintain proper wire management and adjust your lights for the best driving experience. Follow these steps carefully, and you’ll be well on your way to enjoying your new lighting setup. If you decide to tackle the halo, angel eyes, and devil eyes later, you'll find the initial installation prepares you well for that next stage of customization. Happy off-roading!</p>
+
+</article>
+
+</SiteLayout>

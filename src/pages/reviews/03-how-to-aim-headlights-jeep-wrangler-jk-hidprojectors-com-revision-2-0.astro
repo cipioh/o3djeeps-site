@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "03 - How To Aim Headlights - Jeep Wrangler JK - HIDProjectors.com Revision 2.0";
+export const description = "Learn how to properly aim your Jeep Wrangler JK headlights for optimal visibility and to avoid blinding oncoming traffic.";
+const youtubeId = "5852s5_TJ-A";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-03-28";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "HIDProjectors"
+  },
+  {
+    "label": "Product",
+    "value": "Revision 2.0 Signature Headlights"
+  },
+  {
+    "label": "Use Case",
+    "value": "Headlight aiming and adjustment"
+  }
+];
+const externalLinks = [{"label": "The lights installed are these:", "url": "https://www.hidprojectors.com/collections/revision-2-0"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Aiming your headlights is a vital maintenance task that ensures optimal visibility while driving, especially when you've upgraded to brighter or different headlights. In this guide, we will walk you through the process of adjusting the headlights on your Jeep Wrangler JK, specifically when using the HIDProjectors Revision 2.0 Signature headlights.</p><h2>What This Covers</h2><p>This article covers the importance of proper headlight alignment, tools you'll need, and a step-by-step guide to achieving the perfect aim. Whether you've recently installed new lights or altered your Jeep's height with a lift kit, aligning your headlights is critical for safe and effective nighttime driving.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools:</strong> For this adjustment, you will need a T15 Torx screwdriver. You might also want some duct tape and a flat, level wall for the adjustment check.</li><li><strong>Locate the Adjustment Screws:</strong> The adjustment screws on the JK headlights are positioned conveniently: look for a T15 screw near the two o'clock position on the driver's side and around ten o'clock on the passenger side. These screws control the vertical angle of your headlights.</li><li><strong>Prepare for Adjustment:</strong> Drive your Jeep to a flat area where you can back up 25 feet from a wall. Using duct tape, mark the cutoff line for your headlights on the wall.</li><li><strong>Initial Adjustment:</strong> As a starting point, aim for a two-inch drop at 25 feet. If you installed new bulbs, you might want to lower the headlights slightly more to avoid blinding oncoming traffic.</li><li><strong>Raise or Lower the Headlights:</strong> Turn the T15 screws to adjust the height of the headlights. Turning the screws in will lower the lights, while turning out will raise them. It's usually best to err on the lower side initially and increase the height later if needed.</li><li><strong>Final Check:</strong> After making your adjustments, take a test drive to see if you’re still getting flashed by oncoming drivers. If you are, you may need to lower the lights further.</li></ol><h2>Helpful Tips</h2><ul><li>Always start with a lower setting and adjust upwards to prevent dazzling other drivers.</li><li>Consider the elevation of your vehicle; a lift kit can impact headlight alignment, requiring a more significant adjustment.</li><li>If unsure about the correct height, refer to specifications provided by the headlight manufacturer.</li></ul><h2>Key Takeaways</h2><p>Properly aimed headlights are crucial not just for your visibility, but for the safety of others on the road. With the HIDProjectors Revision 2.0 Signature headlights, you can achieve superior light output, but without appropriate adjustment, that brightness can become a hazard. Following this guide will ensure that your Jeep is equipped for any night adventure while keeping both you and fellow road users safe.</p>
+
+</article>
+
+</SiteLayout>

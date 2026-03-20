@@ -1,0 +1,237 @@
+hey there's Scipio here and in this
+video we're digging even deeper into the
+install of this Omega Excalibur alarm
+and remote start system into my 2015
+Jeep Wrangler in this video I'm going to
+show you how easy it is to connect that
+T harness from Omega into the ignition
+system of the Jeep and also how to wire
+up that brake switch wire which is also
+really really easy so let's get to it
+[Music]
+and do me a favor make sure you watch
+all of these install videos before you
+start your own installation that way you
+can make sure you catch up on any
+changes I make from video to video it's
+a process right so as I go I learn
+things that I share with you do yourself
+a favor and watch everything before you
+start so since we've already got our
+front panel off we're good to go to
+start removing this this is a t20 Torx
+and this big one right here in the
+middle and then you've got two more ones
+right up in here and then the other one
+is right here on this side they're
+pretty far up in there so you might need
+one of these screw driver type Torx
+drivers if you've got one on us on a
+ratchet it probably won't work and this
+thing should sort of just pop down just
+like that
+it's just got these little clips that
+sort of hold it together alright so
+basically what we're dealing with here
+is the immobilizer
+and there's a little plug right here now
+it's a good idea to disconnect the
+negative battery wire anytime you're in
+here just because of the airbag even
+though we're not doing anything that
+should impact the airbag always best to
+be safe rather than sorry and if you
+look at the t harness that we're going
+to plug into that spot you can see what
+we're looking for we're looking for this
+little guy here and it's kind of tucked
+back in there there's a little tab it's
+just a little awkward to press because
+it's on the back side once you get it
+that should come out pretty easily and
+then all we're gonna do plug that into
+there
+and then this is gonna plug in right
+where you unplug that there you go our
+tea harness has been added and that was
+pretty easy without this extra harness
+this process would take much longer all
+right so now I've got a little bit of
+extra length here in the ignition wires
+and I've got this I'm gonna bundle this
+together and zip tie it this will keep
+things from flopping around keep
+everything nice and tidy I think I'm
+going to add one more small zip tie
+right here to bundle these two together
+there we go now I can punch these down
+into there so that's going to go believe
+it or not we can put this back together
+now
+once you get it all lined up you'll hear
+those clips sort of snap back into place
+so all you that are super scared about
+doing this in this 2015 Jeep Wrangler it
+is a breeze now with that said you guys
+that have 2017 and perhaps newer it's
+gonna take a little more work but after
+I get this last screw in I'll give you
+guys some help alright guys so if you
+have a 2017 Wrangler or perhaps even
+newer than that I'm imagine the
+eighteens will be about the same way
+they did make a change to the steering
+column and it's gonna require a little
+more work you saw how easy it was for me
+to get to it it's gonna be pretty easy
+for you but not as easy so what they've
+done in the newer jeeps is they've added
+some sort of a flange that makes popping
+this off less easy than it was in the
+2015 2016 and it has something to do
+with I don't know if something the way
+the steering wheel is basically going
+over the top of this so what you need to
+do is loosen up your steering wheel and
+pull it out just a little bit you do not
+need to remove it here's what you do
+need to do first of all go unplug the
+negative lead on your battery you don't
+want to be playing with airbags with a
+connected battery so do that first then
+if you come around here and look on the
+back right here on both sides there's a
+believe it's a 10 millimeter bolt you
+need to loosen up both of those what
+that's gonna allow you to do is slide
+out this entire airbag horn cartridge
+and as you can see in this picture here
+you can just set that up on top of the
+steering wheel there's a center bolt
+that you're gonna want to loosen and
+maybe a quarter inch you don't need to
+take it all the way off please don't
+take it off because then you have to
+deal with
+rique locking with the splines and all
+that stuff just loosen it up so that you
+can pull the steering wheel back aways
+and free it from from this clam shell
+that's probably not going to just pop
+right out when you would loosen up that
+bolt what you need to do
+it's just wrap this thing and in jar it
+loose and it will pop and it will come
+come out and you'll be able to slide it
+off so just you know kind of beat on it
+like a drum and that will loosen up on
+the spline still it can pull forward
+then once you get it forward you should
+be able to remove this clamshell and get
+to that harness like we did on mine then
+just tighten it back down put your
+airbag and horn assembly back on reapply
+these bolts and you're caught up with me
+[Music]
+all right the next thing I want to do is
+figure out where I want to place the
+brain in here so that I can know what
+length of wires I need when I run around
+and tap into things there are several
+places there's a shelf down here right
+here that might be a good place you want
+some place that you can firmly attach
+the brain to as well as you know get
+everything plugged in so there's a
+couple different options here what I
+found is every installer is going to
+have their own preference on the way
+they do things I kind of like the Shelf
+there's a nice cross bar right here
+and I think with some zip ties I could
+get it cinch to that fairly easily I've
+got room out each side for the wires and
+then I can run a zip tie around this bar
+so I think that's what I'm gonna do my
+watch got stuck and so knowing that
+basically means that my wire harness is
+going to come out of this side and I'll
+use that as sort of a guide on where I
+want to run wires and I think I'm gonna
+follow some of these harnesses across
+the top until I get over there so yeah
+that's what I think I'm gonna do yeah
+[Music]
+all right so I'm gonna start with the
+brake wire and again that switch is that
+white went in there so what I'm doing is
+I'm reaching underneath this is a brake
+pedal
+now I'm gonna rotate this
+counterclockwise and pull it out and
+this will allow your entire brake switch
+assembly to come down so you can get to
+those wires
+all right so actually I found if I can
+remove this one little tie-down right
+here I can bring this whole brake
+assembly out the front of that cubby
+makes it a lot easier to work with
+including removing this factory tape to
+get to the right wire and splicing it in
+all right so using a test circuit I can
+easily identify which wire I want this
+first one here
+which is the white and brown wire so
+when the brake pedal is pressed it
+releases the switch and activates that
+power so I know that that's the one I
+want this green one is hot all the time
+and then these others don't do anything
+with the brake pedal that white one
+though
+white and brown one that's the one we're
+gonna tap into now a pro installer would
+probably spend a lot of time making sure
+they had exactly the right links from
+the harness because we're connecting
+this brown and red wire to that white
+and tan wire here I don't know exactly
+how much length I want or don't want so
+I'm gonna default on too long and I'll
+bundle up what I don't use but the more
+accurate you can get your links the
+better
+[Music]
+this is actually one of the few
+connections I can show you and keep in
+mind this is hot right now because the
+switch for the break is extended so
+anytime you're playing with this stuff
+if you have the battery connected just
+remember these things are going to have
+power to them so make sure you know
+what's going on with the other end
+all right so I'm going to thread that
+through there
+pull it tight
+also you make sure you know where your
+harness is because you don't want to
+wide yourself into something you can't
+get out of so in this case my harness is
+here and the whole thing is going to go
+back inside when I'm done
+all right tiny zip-tie
+and I'll retake this whole bundle
+alright so the way this is going to go
+back in I'm just gonna slip it back into
+its place and then rotate it clockwise
+this time to lock that in place that's
+offset that's why you have to rotate it
+so it works out really well it's a very
+nice design makes for easy replacement
+just like that zip tie up here
+there we go right circuit wired
+[Music]
+you
+[Music]

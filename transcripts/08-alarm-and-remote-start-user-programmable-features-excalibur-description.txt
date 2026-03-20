@@ -1,0 +1,35 @@
+🔔 Please CLICK THE BELL if you want to see my videos! 🔔
+
+
+In this video, I go over setting the various User Programmable Features in the Omega Excalibur AL-1775-3DB Alarm and Remote Start System. 
+
+Feature #1 - Remote Start Run Time
+Feature #2 - Flashing Light Confirmations
+Feature #3 - Confirmation Chirp Volume
+Feature #4 - BROWN Wire Audible Output
+Feature #5 - Ignition Controlled Lock/Unlock
+Feature #6 - Open Door Bypass of Ignition Locking
+Feature #7 - Unlock w/ Trunk Release
+Feature #8 - Remote Start Activation From The Remote
+Feature #9 - Last Door Arming
+Feature #10 - Automatic Rearming
+Feature #11 - Confirmation Chirps
+Feature #12 - Anti-Carjacking
+Feature #13 - SecureCode
+Feature #14 - Ignition Activated Override
+Feature #15 - Alarm Trigger Duration
+Feature #16 - Arming Delay
+Feature #17 - Open Door Warning Upon Arming
+
+Here's how to enter programming mode:
+
+Step 1 Turn the ignition key “ON”, then “OFF”. 
+(I found waiting a couple of seconds helped)
+
+Step 2 Within 5 seconds of step 1, press the valet switch 5 times to access user features
+~ The siren/horn will sound and the status light will turn on.
+
+Step 3 Within 10 seconds of step 2, press the valet switch the number of times corresponding with the desired feature’s number.
+~ The siren/horn will chirp, the status light, and the parking lights will flash equal to the selected feature.
+
+Step 4 Change the feature by pressing the transmitter button that corresponds with the desired setting. The siren/horn will chirp to correspond with the chosen setting.

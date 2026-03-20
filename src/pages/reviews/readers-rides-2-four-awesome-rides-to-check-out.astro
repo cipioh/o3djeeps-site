@@ -1,0 +1,44 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Readers' Rides #2 - Four Awesome Rides to Check Out!";
+export const description = "Check out four amazing Jeep builds in our latest Readers' Rides segment! Learn about unique modifications and gear each owner chose.";
+const youtubeId = "3R8awPEk7pc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-02-04";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  }
+];
+const externalLinks = [{"label": "Want to show off your ride?  Go here:", "url": "https://www.facebook.com/groups/o3djeeps/"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back to another exciting installment of Readers' Rides! In this edition, we dive into four impressive Jeep builds submitted by fellow enthusiasts. This segment pays homage to the days of classic car magazines where enthusiasts shared their rides and modifications, allowing dreamers to glimpse what was possible with their own vehicles.</p><h2>Main Points</h2><p>Each Jeep showcased here is a testament to personal style and off-road capability. Whether it's about aesthetics, utility, or performance, these readers have selected components that reflect their unique vision for their off-road machines. Let's take a closer look at what sets these vehicles apart.</p><h3>John Hall's 2015 JK Rubicon</h3><p>Starting off, we have John Hall’s 2015 JK Rubicon, a formidable vehicle equipped with 35-inch Nitto tires and a rugged Ridge front bumper outfitted with an 8500-pound winch. This Jeep doesn’t skimp on protection either, featuring a Rock Hard 4x4 oil and transmission pan skid plate and differential covers to ensure durability during tough climbs and descents.</p><p>John's attention to detail is apparent with a full suite of gear including a high-lift jack, shovel, axe, and plenty of lighting options, such as Casey lights and Vision X fog lights. His build exemplifies a focus on both capability and safety, making it a reliable companion for any off-road journey.</p><h3>Ron Hill's 2013 JK Unlimited</h3><p>Next up is Ron Hill’s 2013 JK Unlimited, sporting a 3-inch BDS lift and 35-inch Goodyear Dirt Track tires. Aesthetically pleasing, this Jeep features a complete JCR front and rear bumper setup and Smittybilt sliders, establishing an aggressive look while ensuring functionality. Ron’s rig has proven itself in the field, having wheeled with community members at Roush Creek, an experience he fondly recalls. This Jeep strikes a balance between form and function, making it both stylish and rugged.</p><h3>Orion Moy's 2016 Jeep Wrangler Sport</h3><p>Orion Moy shows us that a single photo can say a thousand words with his striking 2016 Jeep Wrangler Sport. Built on a 3-inch Zone lift with 35-inch BF Goodrich KM2 tires, this build utilizes a Magnaflow rock crawler exhaust to enhance performance while keeping it aggressive. Orion incorporated quality components like rugged Ridge bumpers and a sleek set of JW Speaker lights, setting high standards for versatility and reliability.</p><h3>Christopher Leonard’s Modified 2014 JK</h3><p>Finally, we have Christopher Leonard’s transformation from a standard 2014 JK to a badass off-road machine. Christopher’s two-and-a-half inch Rock Crawler lift paired with 35-inch Treadwright Guard Dogs allows for excellent clearance and handling. He has focused on functionality with heavy-duty skid plates and custom grab handles but is not done yet; his future plans for upgrades reflect his commitment to continually improving his rig.</p><h2>Practical Implications</h2><p>What can we take away from these builds? Each Jeep showcases the individuality of its owner while demonstrating practical modifications that enhance capability and reliability. For enthusiasts considering their own builds, note the importance of balancing aesthetics with functionality. The right combination can lead to a well-rounded vehicle that performs brilliantly on and off the trails.</p><h2>Key Takeaways</h2><ul><li>Collaboration within the Jeep community fosters creativity and inspiration.</li><li>Emphasizing safety and protection with quality skid plates and winches is crucial.</li><li>Personalization can significantly enhance both the aesthetic and practical function of your Jeep.</li><li>Joining forums or groups can provide exposure to innovative ideas and components.</li></ul><p>So there you have it! Another insightful look into our fellow enthusiasts' rides. Remember, if you want to see your build featured in the next Readers' Rides segment, drop by our Facebook group and show off your incredible Jeep. Happy wheeling!</p>
+
+</article>
+
+</SiteLayout>

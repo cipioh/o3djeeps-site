@@ -1,0 +1,212 @@
+hey there's Scipio here and in this
+video I'm replacing an o2 sensor in a
+2004 Jeep Wrangler alright guys so you
+might notice I'm inside where it's nice
+and toasty warm because outside it's
+freezing so I'm gonna give you the info
+up front and then we're gonna go outside
+and work on the Jeep
+I wanted to limit my cold exposure as
+best I can so I can keep feeling my face
+which I really enjoy anyway so
+CJ's Jeep the 2004 Jeep Wrangler got the
+lift kit all and went out for a test
+drive and through a check engine light
+and actually ended up with two codes one
+of them was an evap slow leak which
+turns out was related to the fuel cap
+that wasn't locking in properly so I
+replaced that that code is now gone the
+other code though is related to an o2
+sensor it's the p01 3/8 code and it's a
+very common code especially in these
+jeeps once they get around 100,000 miles
+Oh two sensors do go bad so I'm gonna
+replace it and I'm gonna take you along
+for that journey but let's talk about
+the o2 sensors it's actually four of
+them in the Jeep it's a 4.0 6 cylinder
+and there are two banks and they come
+into two different exhaust manifolds two
+different catalytic converters and then
+they converge again back into one
+exhaust pipe but so you need to figure
+out which Oh two sensors bad and the
+code actually is specific to the sensor
+that went bad so if you Google p0 138
+you'll find out that it's bank 1 sensor
+2 what that means is it's gonna be part
+of bank 1 which is the front half of the
+engine cylinders 1 through 3 and then 2
+is the downstream oh to sensor
+so there's upstream and downstream
+upstream is above the catalytic
+converter that's what's going to be
+sensor 1 and then once you get past the
+catalytic converter there'll be another
+sensor that's the downstream sensor and
+that is sensor number 2 so I'm going to
+the manifold on the front tracing down I
+see the sensor number 1 the upstream
+ignore that go down past the catalytic
+converter and there's another sensor
+there that is sensor number 2 and that's
+the one I'm replacing and thankfully
+that one isn't too difficult to get to
+but these
+censors are notoriously challenging to
+get out I mean if you think about it
+they've been plugged into the exhaust
+for a very long time and that's a recipe
+for thread welding stuck in this so in
+order to give this thing the best chance
+of coming off nicely I'm doing a couple
+things number one I PB blasted it a
+little bit in advance knowing I was
+gonna do this number two is the jeeps
+out there actually running right now I
+took it for a drive actually went to
+pick up the o2 sensor part which I'll
+talk about here in a second and then
+brought it back left it parked in
+neutral parking brake on wheels chalked
+plenty of ventilation and it's still
+running because I want to keep that
+thing hot because when I'm working on it
+I want to work on it while it's still
+warm because I think that's my best
+chance of dealing with it so I'm gonna
+turn it off as soon as I get out there
+and then start wrenching on it to see if
+I can get it while still warm
+the other thing I did is I stopped over
+to autozone and use their Lona tool
+program which I've talked about before I
+think it was my jogging video number
+three I believe I'll but anyway you can
+borrow basically buy in the returned to
+get all your money back these oxygen
+sensor wrench sets so this is a special
+socket with a slot in it that allows you
+to put it over the o2 sensor and then
+have the cable come out and then use a
+breaker bar to loosen that up so I'll
+show you that here in a second but first
+I need to make sure I talk to you about
+the o2 sensors themselves I went and got
+the ntk this is a two three one three
+two part number this is the part number
+for the bank 1 sensor 202 sensor that
+I'm replacing they do have different
+part numbers so make sure you realize
+that and also be aware that not all
+manufacturers of the o2 sensors play
+nicely with these jeeps in my research I
+found it's a pretty well-known fact that
+Bosch Oh two sensors don't seem to play
+nicely and the ones that are almost
+always guaranteed to work are the in
+TK's which are the OEM provider so
+they're more expensive and that's a hard
+pill to swallow because it's easy to get
+a Bosch for 30 bucks instead of paying
+60 bucks for an ntk but as much as I
+love to save money I also like only
+doing repairs once so I'm gonna go ahead
+and splurge and get the product that I
+is most likely to work and and spend the
+extra money it ended up only cost me 20
+bucks more because what I do and it's
+something I recommend for you is if you
+can find it online it particularly
+Advance Auto I can usually get a 15% off
+or a 20% off coupon code at Advance Auto
+buy it online drive down pick it up and
+save myself some money so I saved myself
+10 bucks on this just by buying it and
+my office and then driving down and then
+picking it up so anyway you might
+consider that 50 bucks for an o2 sensor
+though is still a lot of money but it is
+what it is and we need to clear that
+code but more importantly we need a
+properly operating o2 sensor so that the
+engine can run as efficiently as
+possible fuel mileage tends the tank
+when the o2 sensors go bad so so let me
+show you how the sockets gonna fit on
+and then and then I'll take you outside
+and we'll knock this thing out alright
+so here is the o2 sensor itself here's
+the socket and basically it's going to
+be plugged in to the exhaust and what
+you're gonna do is slip this over the
+cable and it's gonna clamp down right
+there it's basically just a socket with
+a slot in it to allow you to get it over
+that cable and then what you do is you
+plug in a ratchet or a in this case I'm
+going to use a breaker bar because it's
+gonna give me the best chance of getting
+this thing loose so anyway that's how
+the o2 sensor sockets work and I highly
+recommend going down and borrowing them
+you don't need to buy them just go
+borrow one there are other ways to do
+this you can obviously get a wrench on
+it
+some people have luck with that some
+people don't if you're replacing it
+anyway I've seen people break off the
+cable and use a deep well socket either
+way this is an easy way to do it it's
+designed for this job so why not take
+advantage of it so anyway let's go out
+walk on the street
+[Music]
+so now once I have this broken free with
+the breaker bar I can use just a regular
+wrench to take this off and I'm just
+going to use a crescent wrench for that
+all right now as you can see on this new
+replacement Oh to sensor
+it has an ICS already pre added to the
+threads that's why there's this little
+plastic cap so make sure you leave this
+cap on until you're ready to install it
+otherwise you'll get an SES everywhere
+and then I also wouldn't touch the end
+of this sensor if you can avoid it I try
+your best to avoid touching neck now
+there are torque specs identified in the
+instructions make sure you follow that
+for this application it looks like it's
+about a half to a three-quarter inch
+turn past finger tight so what I'll do
+is go in there finger tighten it and
+then use that crescent wrench to to pop
+it about another three-quarters of a
+turn after that
+[Music]
+[Music]
+[Music]
+all right there we go that is finger
+tight now I'm going to hit a quarter
+turn another quarter and one more
+quarter for three-quarters of a turn
+nice and snug awesome
+now this replacement cable is a little
+bit longer than the cable that came with
+it from the factory so order to keep it
+from getting hung up on things I'm gonna
+go ahead and tidy it up with a zip tie
+alright guys that is the new Oh to
+sensor bank 1 sensor 2 installed so now
+I'm gonna pull the negative cable on the
+battery let it sit for about 10 minutes
+clear those codes and then take her back
+out for a test drive and if all is well
+I should get no more check engine light
+so anyway guys thanks for watching I'll
+catch you on the next
+[Music]

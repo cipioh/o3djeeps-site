@@ -1,0 +1,302 @@
+everyone's CP oh here and in this video
+I'm going to continue the coverage of
+the xcalibur
+security system with remote start this
+is video number six and hey let's get
+started so in this video pretty much
+we're going to finish up all of the
+wiring so we're going to tap into the
+obd2 port for power we're gonna tap into
+a ground post underneath the dash we're
+gonna tap into our parking light circuit
+I'm gonna wire up the horn the hood pin
+switch and the siren so I'm gonna show
+you less detail in this video and I'm
+gonna get things done under the
+assumption that you've watched the
+previous five videos that sort of go
+through a progression so if you want
+more information on how I'm doing things
+such as how I'm splicing wires using the
+military splice or military tap method
+you can go look at video number four
+will actually show you on the bench how
+I'm doing that and then video number
+five I do it for you on camera with an
+actual circuit to the brake switch but I
+figure you've seen that stuff now you
+don't need to see it every single time
+so basically what I'm doing is pointing
+out the wires making it happen and then
+showing you the result now I am
+extending this blue and black wire
+that's going to go to the horn
+underneath the hood I should have
+extended it earlier but I wasn't real
+clear on where it was going so but I'm
+doing it now so let me go heat this up
+and then I'll cut this to match the
+length of the other wires running into
+the engine compartment
+[Music]
+now for the obd2 connections I'm
+basically going to pull this connector
+out and I'm just pinching in the sides
+of those clips and that will allow me to
+pull this connector down and I can't get
+very much out of it unfortunately I
+can't get it on the side because of my
+cage so I'm not sure if you have more
+access over there than I do but
+basically what I'm going to do is tap
+into the positive in that connector now
+for the positive I'm going to use the
+red kind of looks pink to me the red
+wire that came out of the t harness we
+put into the ignition and then also this
+black and violet wire that comes out of
+the main harness which is going to feed
+power to the horn so the way the horn
+honk works is it's going to take power
+out of here and then send it through the
+other wire the blue and black wire which
+I have extended with a black wire that's
+another good point if you extend wires
+make sure you know what color the new
+wire is otherwise you're gonna have a
+hard time so so I've got three wires
+sort of bundled together in a harness
+that go into the engine compartment the
+siren the hood trigger and now the horn
+so those three are going to go through
+and that's why they're all bundled
+together but for power I need to connect
+both of these to the same place the obd2
+port is a good place to add that power
+all right so I the wires tapped into the
+obd2 port you can see which wires are
+there that red and then the purple and
+black always originally gonna do the
+ground wire as well but you know I
+noticed there's this ground post right
+here so close I'm just gonna go ahead
+and put a ring terminal on this and stab
+that over to there just because these
+wires in here in the OBD terminal are
+really hard to get to for me because I
+can't pull it down very far and you know
+why not just use the easy option right
+there oh yeah I guess it would be
+helpful to show you which wire actually
+tapped into it's the red wire there are
+actually very few pins in the obd2 port
+but the red wire is this one right here
+in the very bottom and that could be
+easily verified
+the test light anyway tap into the red
+one you should be good to go
+basically I'm gonna stick this back
+where I got it alright so that's back in
+there it's actually harder to get back
+in there than you would imagine what I
+found is pushing it up and then trying
+to bring it back down makes the most
+sense it gets the wires tucked up
+they're out of the way which is really
+the problem it's a wire harness that
+kind of keeps it but anyway that's back
+in I'm gonna go put a ring terminal on
+this send that to ground and then we'll
+be ready to move along
+[Music]
+all right
+here we go that's all set I can plug in
+my trail - two again and we're good to
+go so believe it or not we've already
+tapped into all the wires we need to tap
+into here underneath the dash so what
+I'm going to do is clean up these wires
+I'm gonna zip tie them to existing wire
+runs and make sure of course I have
+enough slack for plugging into the the
+brain itself then I've got to run this
+wire across to the passenger side
+through the back for my parking lights
+and then these all go in the engine
+compartment area and then I have a
+couple sensor still to plug in but as
+far as wiretapping that's it we've done
+it all including the ignition remote
+start all that stuff I mean that's
+that's pretty amazing that t-harness
+really does simplify things so I'm gonna
+go ahead and stab these through that
+hole in the firewall that I showed you
+earlier I'm going to tape the end to
+give me a nice single piece here
+to push through I'm gonna push you
+through and then I'll show you a where
+on the other side it comes out but be
+careful - don't push through from
+underneath make sure you follow the
+route you need to go once this thing is
+installed otherwise you're gonna be
+wishing you did a better job all right
+now that's through I'll show you where
+it comes out like right in this area so
+you should be able to crawl in here in
+the engine compartment and find it right
+here and basically what I'm going to do
+is run it up these other side of that
+master cylinder to come up in here with
+all these other wires so I'm gonna work
+on that here all right so one thing I
+found that works is if I can get one of
+these grabbers to get a good hold on
+that loom then I can pull it up through
+here
+once I've got it up through here it is
+no longer detectable at all from
+underneath you can't find it from
+underneath the vehicle so it really is a
+great little spot alright so now I've
+got my wires out here I'm basically just
+trimming my she's back so I can split
+them where I want them I'm just using
+these flush cut cutters which are nice
+and sharp obviously you don't want to
+cut your wire but I just want to get
+this trimmed back to where I can
+basically terminate the bundle right
+about here and then let individual wires
+come out from there that looks like a
+pretty good spot right there and then I
+can zip tie that in go ahead and tape
+this off so that it doesn't unravel
+alright so got siren wire hood pin wire
+all coming out of here
+I'll manage that and I also have the
+horn wire which is right here so
+probably harder on me than you guys
+because of what I have going on here
+combination of a lot of things including
+this differential breather extension I
+put in alright so this blue and yellow
+or gray and yellow it's like blue and
+yellow horn wire alright as you can see
+here I tapped the horn wire into here
+normally I would point away from the
+connector but in this case it was so
+hard to get in there
+I haven't pointed towards the connector
+now that's getting plug right back in to
+the horn and then I guess I can risa
+cure this now ok now I need to run my
+hood pin switch
+[Music]
+and as I mentioned earlier I didn't
+think I'd have to add too much link to
+this I also want to look for sort of
+optimum routing
+seems like a good place to go and
+actually it's just barely gonna fit I
+think it will I'm gonna go ahead and
+install it just like that I definitely
+wouldn't want to go any shorter
+but I think that link will work
+oh yeah baby got plenty of room I'll tie
+that rundown that's golden
+[Music]
+all right been working on wiring have my
+siren wire the brown one now extended to
+run around there I did put a wire loom
+around it so it'll be nice and clean and
+also protected run that over to there
+attach it to the positive of the siren
+so I did tap into the hood pin switch
+with a wire just to get ready for
+installing that hood switch so I'll be
+doing that later not now because I want
+to make sure the entire system has been
+tested before I add those new components
+that are going to introduce complexities
+so I want to get baseline system done
+but that wire is there I'm just gonna
+tuck that out of the way make sure it's
+not touching ground and then and then
+we'll be good to go and once I connect
+the siren because I have the hood pin
+and the horn we're done underneath here
+all right and then we go siren is wired
+up and that siren wire is properly
+concealed and protected so now that
+everything is done into the hood the
+siren the pin switch and the horn now
+the last thing I want to tap into before
+I start plugging in modules and
+finalizing the installation is again
+back over there in the kick panel
+there's a wire that will give me access
+to flash the parking lights I extended
+that wire with this brown and black wire
+but I have it in a loom here originally
+I forget what color wire it is now you
+have to go back and look at the video
+but this is going to parking lights so
+I'm gonna feed this back somewhere
+underneath and behind and get it to the
+passenger side then I'll show you where
+I'm going to tap in all right I ran that
+wire came across the backside of this
+I'm going to tie it up into some of the
+structure up in there find an
+interesting way to round it but I want
+to show you is which wire I'm tying into
+now I've already pulled off this side
+kick panel but there's this whole bundle
+of wires that go to the back and in
+those wires you will find this white and
+orange so it's a white wire with an
+orange stripe and as you can see I've
+already prepped it to tap
+that's the wire that runs your parking
+lights now there are some larger
+diameter wires but this is the smaller
+diameter orange with white stripe so
+that's where I'm going to tap that into
+so I want to make that happen and there
+you go there's how it looks after the
+completed tap all right now I want to
+install my shock sensor and then that's
+really the last thing I can start
+prepping the brain and then we can get
+it plugged in so with the shock sensor
+basically what I'm going to do is zip
+tie it to the steering column there's a
+metal tube that the inner steering
+components work in so it doesn't rotate
+that's the one you want and you want to
+put it in a way that you can actually
+adjust it so there's these little
+phillips head adjustment screws wherever
+you go you've got to make sure that you
+can get to those screws otherwise
+adjusting is gonna be a pain and I need
+a longer zip tie there we go that's
+perfect
+so maybe you can see in there where that
+is connected to and I thought about
+putting it with the wires coming forward
+or back but I didn't see where it made
+that much of a difference so I'm just
+gonna zip tie the wires there to secure
+them and keep them out of the way what
+you don't want is anything interfering
+with the actual steering action so as
+long as that's okay you're good to go
+all right guys we're just about done
+just a couple of more small items and
+then I'll get you actually setting up
+and testing this system so thanks for
+watching I'll catch you on the next one
+[Music]

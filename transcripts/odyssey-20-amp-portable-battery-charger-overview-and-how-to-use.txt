@@ -1,0 +1,264 @@
+hey there Scipio here in this video
+we're talking battery charging so this
+is my current battery charger I've had
+this for I don't even know how many
+years
+my guess is at least 20 possibly 25
+years anyway this has been my battery
+charger in the garage I use it for
+everything but it just can't handle my
+current needs particularly with regard
+to AGM batteries which I'm moving to in
+the overclocked build and so this guy
+has got to go and it's time to replace
+it with something a little bit more
+modern and that's where this Odyssey
+battery charger comes in
+besides being like 50 times lighter than
+that old century charger it's packed
+full of features and technology that's
+going to really make sure that I'm able
+to take care of the batteries in my
+household as well as possible so let me
+talk a little bit about this because
+when I was doing my own research there
+wasn't a lot of information out there on
+this Odyssey battery charger so I'm
+gonna give you the lowdown and I'll show
+you how it works alright guys so here it
+is this is the Odyssey 20 amp portable
+charger from inner sister now this is
+all digital technology definitely
+something different than I'm I'm used to
+with my former battery charger it's
+fully automatic basically plug and play
+it has six stage performance charging it
+has an LED battery charge monitor it
+will tell you if the system is okay or
+if not it will tell you if there's
+trouble in the system it has an
+integrated cable that wraps around kind
+of a unique deal there and it's got some
+safety features built in and I'll tell
+you about again 20 amps they come in a
+six amp a 12 amp and a 20 amp but the 20
+amp is what's recommended for the
+automotive batteries basically the
+higher amp power batteries especially
+the AGMs
+now even though I'm getting this because
+I need it for AGM batteries it can also
+handle traditional flooded batteries up
+to 950 cranking amps alright so first
+let's talk about this system check light
+so if this system check is off and a red
+trouble status LED that could be from
+poor battery connections it actually
+detects reverse polarity and will not
+allow the battery charger to operate if
+you get the polarity backwards if your
+battery is too low of a charge below 2.5
+volts then it can't charge it and this
+is not going to be able to do that or if
+it has a high battery voltage input so
+you know if you have a battery that's
+not a 12 volt battery something else
+that will give you that trouble status
+so that's kind of nice alright as I
+mentioned it's got six stage charging
+the first stage is going to be a
+self-test during this stage the battery
+charger is going to check connections
+polarity and make sure the battery is
+good and then it will go into the
+analyzing stage at that point the
+charger is checking to make sure the
+battery is capable of being charged and
+when it gets through stage one and two
+the system check okay indicator will
+illuminate green and then we'll go into
+stage three which is charging during
+this mode the charging indicator will be
+red and the charge will use all of its
+available charging amps a
+temperature-controlled also until the
+battery voltage is raised to fourteen
+point seven volts then it goes to stage
+4 which is conditioning during this mode
+the conditioning status indicator will
+be amber and batteries will be held at
+fourteen point seven volts for several
+hours to conditioned batteries and fully
+charged a battery upon completion the
+charger will go into its auto maintain
+which is an energy saver mode so this
+light will will turn green here for auto
+maintain and it will basically monitor
+and maintain batteries only when needed
+to maintain a full state it's kind of a
+storage mode and then Stage six
+storage recondition during this mode the
+green indicator will illuminate with a
+slow fade in and out pulse this
+indicates that while your batteries are
+in storage the charger will
+automatically recondition the battery
+for up to 3 hours once a month extending
+the battery life and maximizing battery
+performance so for most people that are
+just using this as a standard charger
+you're probably not going to go into
+storage reconditioning and probably not
+into auto maintained for very long but
+basically you can leave this thing
+hooked up to a battery indefinitely I
+guess and it's going to automatically go
+into this storage mode over time they do
+have a graphic that shows the average
+voltage during all of these cycles I'll
+throw it up right here for you so you
+can check that out
+all right I'm really gonna put this
+battery charge of the test because this
+is the battery that I pulled out of my
+Jeep the factory battery that I believe
+has a dead cell I'm curious to see what
+this is going to do but it will also
+show you how the battery charger works
+all right so the first thing I want to
+do is get a current voltage measurement
+and we're ten point four seven which is
+about where we left it when I pulled it
+out of the Jeep several weeks ago so
+definitely should be within the range
+that the Odyssey will be able to try and
+charge it the big question here is can
+it still hold a charge now one of the
+things that Odyssey recommends actually
+a lot of battery charging companies
+recommend using an extension for the
+negative lead on your battery when
+you're charging the reason for that is
+because the negative lead is the one
+that you're going to add last to the
+battery you're gonna connect the
+positive first and then the negative and
+that is something you should do even
+when the batteries in the vehicle but
+that's the opportunity that you're most
+likely to have a small spark now these
+lead acid batteries tend to generate
+nitrogen gas and it's highly explosive
+and so one of the problems is that if
+you spark a battery and there's nitrogen
+sort of hanging around it will explode
+now it's not a common occurrence but it
+is definitely something that happens and
+thousands of people are injured every
+year in battery explosion so better to
+be safe than sorry I'll be honest with
+you I'm 45 I've never done this I've
+always just connected directly to
+battery post but hey I'm able to learn
+and grow so I'm hoping to share some of
+this with you and hopes that you'll do
+the same so I actually just got this I
+made this little extension so I bought
+the the battery cable this is a four
+gauge battery cable got it from Pep Boys
+they also had this little quick-release
+terminal a connector so
+see what I can do is just set this on
+here and then clamp it down to the
+battery and now I've got an extension
+and the point being is now that whenever
+I add the negative side of the battery
+charger the spark is going to be at
+least you know 24 inches away from the
+battery and less likely to cause any
+damage so that's why that is there and
+I'm gonna try and use good best
+practices for safety all right now with
+regard to the charger itself it's got
+this little velcro tie here at the top
+allows you to release all the cables and
+they're wound around it's really kind of
+cool that actually gives you
+instructions on how to wind and unwind
+and then on the end you have your
+different leads nice long leads and you
+can see here it tells you the
+instructions for winding everything back
+up which is kind of cool my problem is
+I'll probably lose this little strap so
+in order to not lose it I'm going to set
+it on the top there while we do this
+exercise all right so I'm gonna go in
+tack the positive lead to the battery
+now I'm gonna go ahead and connect the
+the negative lead to that extension
+cable that I have connected to the
+battery and of course now the last step
+is to plug in the charger itself okay
+you can see it going through the
+self-test does show a battery charge
+status I'll explain that here in a
+second now it can take a little while to
+get through the self-test stage that's
+okay all right so there we go it went
+through the self-test process was able
+to identify the charge level of the
+battery the green check indicates that
+the system is okay and now we have a red
+light showing that it's charging so for
+the charge monitor let me
+you about those LEDs that first red LED
+lights up when the battery level is at
+zero to ten percent you can see it held
+there while it was doing the self-test
+probably checking the battery voltage
+the first green light is when the
+charging level is at ten to thirty
+percent then two green LEDs is thirty to
+fifty percent three green LEDs which is
+where I'm at now is fifty to seventy
+percent charge for green LEDs is seventy
+to ninety percent and when all five
+green LEDs are lit the battery level is
+at 100 percent alright so this is my bad
+battery so what I'm gonna do is leave
+this bad boy to charge and we'll see if
+it can recover I'll be surprised but hey
+I've been surprised before so I'll check
+back on this after several hours and
+we'll see what's going on and I'll fill
+you in on how it's going all right so
+here's something interesting it's
+showing it's not quite a full charge I
+don't have five green LEDs but I am
+already in the conditioning stage so I
+wonder if that's indicative of the fact
+that it can't get to a full charge kind
+of interesting actually
+I don't expect miracles out of a battery
+charger but I did want to go through
+this exercise just to show you sort of
+how the battery charger worked and and
+what to expect so I think mission
+accomplished on that I'm not going to
+mess around with this old battery
+anymore but anyway so I think we're
+gonna call this one done I'll check the
+voltage real quick just to see you know
+just like it was doing before it get up
+to 11 and a half-ish and then just
+steadily drop and it's dropping like a
+brick so I replace this battery for a
+reason this just sort of confirms it but
+anyway but at least gives you a sense of
+how this charger works and I do expect
+it to help me keep my healthy batteries
+healthy so anyway that's it
+thanks for watching and I'll catch you
+on the next one
+[Music]

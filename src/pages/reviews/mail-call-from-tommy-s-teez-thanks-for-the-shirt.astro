@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Mail Call - from Tommy's Teez - Thanks for the Shirt!";
+export const description = "Exciting unboxing of a custom Jeep-themed shirt from Tommy's Teez - a must-see for Jeep enthusiasts!";
+const youtubeId = "9G0k2iWBsPY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2018-05-17";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Gear, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Tommy's Teez"
+  },
+  {
+    "label": "Product",
+    "value": "Custom Jeep T-Shirt"
+  },
+  {
+    "label": "Use Case",
+    "value": "Casual wear for Jeep enthusiasts"
+  }
+];
+const externalLinks = [{"label": "A little surprise package from Tommy's Teez:", "url": "https://www.facebook.com/pg/tommysteez2017"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Today, we're diving into a fun surprise that showcases the spirit of the Jeep community—an exciting unboxing from Tommy's Teez! This custom shirt highlights a unique collaboration between Jeep enthusiasts and local businesses, reinforcing the bonds that make this hobby so rewarding.</p><h2>Main Points</h2><p>In a recent video, our host Scipio received a package from Tommy's Teez, a company that's known for creating custom apparel. The shirt included a fantastic design featuring both the 'overclocked' moniker and Scipio's name on the back. Additionally, the sleeves showcased the trail club, Trails Concord Off-Road, illustrating how apparel can serve not just as clothing but as a badge of community pride. Scipio expressed genuine excitement as he unboxed the shirt, demonstrating that even the smallest gestures within this community can have a big impact.</p><h2>Practical Implications</h2><p>For Jeep enthusiasts, wearing custom gear is more than just fashion—it’s about expressing one’s identity and connecting with fellow adventurers. Shirts like the one from Tommy's Teez can serve as conversation starters on the trails, fostering friendships and community bonds. Additionally, they are great for team events, off-road adventures, or just relaxing around town. If you're considering stepping up your Jeep gear game, reach out to your local custom print shops like Tommy's Teez to design something that represents your own Jeep story.</p><h2>Key Takeaways</h2><ul><li>Tommy's Teez provides a great opportunity for personalization in Jeep-themed apparel.</li><li>A custom shirt can symbolize community connection and personal identity within the off-road culture.</li><li>Custom shirts make fantastic gifts for fellow Jeep enthusiasts and can elevate a group event or outing.</li></ul>
+
+</article>
+
+</SiteLayout>
