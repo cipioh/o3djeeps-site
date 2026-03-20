@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "OVERCLOCK3D GIVEAWAY UPDATE!";
+export const description = "Join our exciting Jeep giveaway with awesome sponsors and products! Find out what's in store for our 1000 subscriber celebration.";
+const youtubeId = "eXuZn6XML-Y";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-03-10";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Builds"
+  },
+  {
+    "label": "Event",
+    "value": "Giveaway"
+  },
+  {
+    "label": "Goal",
+    "value": "Celebrate 1000 YouTube subscribers"
+  },
+  {
+    "label": "Participants",
+    "value": "Vendors and manufacturers in the Jeep community"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Waterproof Fuse Relay Box (WFRB)", "url": "https://www.facebook.com/Waterproof-Fuse-Relay-Box-1391112501215493"}, {"label": "The Retrofit Factory", "url": "https://www.facebook.com/theretrofitfactory/"}, {"label": "Justice Off Road", "url": "http://justiceoffroad.com/"}, {"label": "JeepsNeeds", "url": "http://jeepsneeds.com/"}, {"label": "AELighting", "url": "http://www.aelighting.net/"}, {"label": "FACTOR55", "url": "http://factor55.com/"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>We’re thrilled to celebrate a major milestone—reaching 1,000 subscribers on our YouTube channel! To give back to our supportive community, we're hosting an exciting giveaway featuring fantastic products from some amazing brands dedicated to Jeep enthusiasts.</p><h2>Main Points</h2><p>In our recent update, we introduced the fantastic sponsors who have joined us for this giveaway. Each sponsor brings something unique, catering to various needs of Jeep owners and off-road adventurers. Here’s a closer look at the participating brands:</p><ul><li><strong>Waterproof Fuse Relay Box (WFRB)</strong> - Ideal for cleaning up those messy accessory wiring jobs, this relay box ensures efficient power management both on and off the trails.</li><li><strong>The Retrofit Factory</strong> - If you’re looking to amp up your vehicle's lighting performance and aesthetics, their custom headlight refits are a game-changer.</li><li><strong>Justice Off Road</strong> - Specializing in aftermarket parts for Jeep Wranglers, they have everything you need to enhance your Jeep’s capability and style.</li><li><strong>JeepsNeeds</strong> - This brand focuses on innovative parts that are essential for every off-road adventure, perfect for customizing your Jeep.</li><li><strong>AELighting</strong> - Known for a wide selection of high-quality LED emergency equipment and tools, they provide reliable options at great prices.</li><li><strong>FACTOR55</strong> - An expert in winching products, their engineering innovations like the flatlink and ultra hook enhance your off-road capabilities.</li></ul><h2>Practical Implications</h2><p>Each of these brands not only offers top-notch products but also expertise in the Jeep and off-road community. By visiting their websites for the giveaway, you not only get a chance to win some awesome stuff but also discover products that could enhance your Jeep's performance. Plus, it's a great opportunity for vendors to gain visibility among enthusiasts.</p><p>As the giveaway progresses, we're excited about the potential for more sponsors to join. If you're a vendor or manufacturer interested in contributing, we’d love to offer a platform for you to showcase your goods in exchange for participation in our giveaway.</p><h2>Key Takeaways</h2><p>This giveaway is more than just winning prizes—it's about connecting with the Jeep community and supporting brands that cater to our unique needs as off-road enthusiasts. Stay tuned for updates, and make sure to check out the websites of our sponsors for your chance to win!</p>
+
+</article>
+
+</SiteLayout>

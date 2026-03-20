@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Jeep Hard Top Freedom Panel Tip - CPO";
+export const description = "Learn how to use Jeep Freedom Panels without the hard top to protect your cab from rain. Quick tips and practical advice inside!";
+const youtubeId = "OW02gP1qm4g";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-04-22";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "Freedom Panels"
+  },
+  {
+    "label": "Use Case",
+    "value": "Protecting cab from rain while top is off"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're a Jeep owner, you know how much versatility your vehicle offers, especially when it comes to removing the hard top for that open-air experience. However, one of the most annoying aspects of a topless Jeep is dealing with unexpected rain. In this article, we'll cover a simple yet ingenious tip for mounting your Freedom Panels without the hard top, ensuring that you can enjoy the outdoors while also protecting your cab from the elements.</p><h2>What This Covers</h2><p>This tutorial will walk you through the process of installing your Jeep Freedom Panels independently of the hard top. It's a straightforward fix that can significantly enhance your Jeep experience, particularly during unpredictable weather.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Get Your Materials Ready:</strong> Make sure you have your Freedom Panels on hand. These are the removable panels located at the front of your hard top.</li><li><strong>Locate the Mysterious Foot:</strong> On each Freedom Panel, there is a small 'foot' at the back that many Jeep owners do not notice. This foot allows for a secure connection to the Jeep even when the hard top is not installed.</li><li><strong>Flip Up the Foot:</strong> Before attempting to install the panels, flip up this little foot. This transforms the panel into one that can bridge the gap left by the removed hard top.</li><li><strong>Install the Freedom Panels:</strong> Place the Freedom Panels in position as you normally would. Only now, the foot will help to stabilize them against the sport bar.</li><li><strong>Use the Necessary Bolts:</strong> While you can skip the rear bolts when using the hard top, they are essential for securing the Freedom Panels when the hard top is off. Make sure these bolts are in place to avoid any issues during your drive.</li></ol><h2>Helpful Tips</h2><ul><li>Always keep an eye on the weather before heading out. If rain is coming, consider securing the Freedom Panels to protect the front of your Jeep.</li><li>If you usually drive topless, carrying these panels can be a lifesaver for sudden downpours.</li><li>Make this installation a part of your routine if you frequently remove your hard top. The more you do it, the faster it will become!</li></ul><h2>Key Takeaways</h2><p>This simple modification allows you to enjoy the thrill of driving your Jeep without the hard top while still ensuring you're protected from the rain. The Freedom Panels are not just for when the hard top is on; they provide a flexible solution for maintaining a cozy cabin during unpredictable weather. So, don't hesitate to utilize this tip the next time you take your top off and hit the trails!</p>
+
+</article>
+
+</SiteLayout>

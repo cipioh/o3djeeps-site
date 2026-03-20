@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ Control Arm Track Bar Brakes and Wipers";
+export const description = "Explore the journey of fixing a 2004 Jeep TJ with control arm, track bar, brakes, and wiper upgrades for inspection readiness.";
+const youtubeId = "h4aAUoHS5cI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-13";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Inspection Preparation"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this article, we delve into the repair journey of a 2004 Jeep TJ, focusing on several essential upgrades and fixes needed to pass inspection. Following the YouTube video, we will explore the procedures for replacing the control arm, track bar, brake components, and wipers, while also imparting some valuable tips for fellow enthusiasts.</p><h2>What This Covers</h2><p>This guide covers:</p><ul><li>Replacement of the rear lower control arm</li><li>Upgrading the front track bar</li><li>Changing the front brake pads and rotors</li><li>Installing new windshield wipers</li></ul><h2>Step-by-Step Breakdown</h2><p>Each of the tasks performed can be daunting for many, but with the right approach, it can be incredibly rewarding, especially when shared with another person. Here’s a breakdown of each step taken during the repairs.</p><h3>1. Control Arm Replacement</h3><p>The video starts with the removal and replacement of the rear lower control arm. This was achieved with a used takeoff provided by a friend, showcasing the camaraderie in the Jeep community. Removing the old arm revealed significant wear, as seen in the wallowed-out hole. Precision was key here; we ensured that the new control arm was torqued down correctly to 130 ft-lbs, an essential step for safety and performance.</p><h3>2. Front Track Bar Installation</h3><p>Next up was the front track bar replacement. This task presented its challenges, particularly with a broken cotter pin and a stubborn castle nut. A breaker bar was necessary to gain enough leverage, and improvisation was key when a bolt had to be removed. The new track bar not only fit well but significantly improved stability over the old, worn-out component.</p><h3>3. Brake System Overhaul</h3><p>The front brake system received a thorough upgrade, involving the replacement of both pads and rotors. Initially, the rotors were rust-welded, requiring some extra persuasion to remove. Attention to detail here is critical; cleaning the contact surfaces and ensuring the caliper slides were greased prevented premature wear and maintained performance. Installing new pads was straightforward, using a C-clamp for compressing the calipers made a significant difference in efficiency.</p><h3>4. Wiper Replacement</h3><p>Lastly, the windshield wipers were replaced to ensure safe driving in inclement weather. A small but crucial part of preparation for inspection, these were simply swapped out, but not without ensuring to remove the manufacturer’s protective cover from the new blades.</p><h2>Helpful Tips</h2><p>Here are some helpful takeaways from this repair process:</p><ul><li><strong>Stay organized:</strong> Keep your workspace neat, with tools and parts sorted to prevent losing anything essential.</li><li><strong>Know when to get help:</strong> The Jeep community is excellent for sourcing used parts and for advice—don’t hesitate to reach out.</li><li><strong>Document your process:</strong> Taking video or pictures can help replicate processes in future repairs while also serving as a reference for other enthusiasts.</li><li><strong>Safety first:</strong> Always prioritize safety by using the correct torque specifications and tools to prevent injuries or further damage.</li></ul><h2>Key Takeaways</h2><p>Completing these repairs not only ensures that the Jeep is ready for inspection but strengthens the owner's bond with the vehicle. It shows the importance of community in the Jeep culture, whereby help and resources are shared amongst friends. Repairing your Jeep can be a fulfilling endeavor, enhancing both the vehicle's performance and your skills as a mechanic.</p>
+
+</article>
+
+</SiteLayout>

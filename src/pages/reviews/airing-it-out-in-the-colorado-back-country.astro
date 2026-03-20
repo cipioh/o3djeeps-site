@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Airing It Out in the Colorado Back Country";
+export const description = "Explore the thrilling experience of airing out in the off-road trails of the Colorado backcountry with tips and insights.";
+const youtubeId = "Qc9CWpv5mUk";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-06-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Mods"
+  },
+  {
+    "label": "Region",
+    "value": "Colorado Back Country"
+  },
+  {
+    "label": "Activity",
+    "value": "Off-Roading"
+  },
+  {
+    "label": "Focus",
+    "value": "Airing Out Tires"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Airing out your tires can dramatically enhance your off-road experience, especially in the rugged terrain of the Colorado backcountry. Whether you're traversing rocky paths or sandy washes, knowing how to adjust your tire pressure can make all the difference.</p><h2>Main Points</h2><p>In the video, we dive into the significance of airing out tires while off-roading, discussing both the technical and experiential benefits. Lowering tire pressure increases the tire's footprint on the ground, which improves traction and grip on loose surfaces. This technique is particularly useful in challenging landscapes where conventional tire pressure would leave you stuck or bouncing over obstacles.</p><h2>Practical Implications</h2><p>Being in the Colorado backcountry means you’ll face a variety of obstacles – from rocky inclines to muddy paths. Proper tire pressure management can provide you the edge in these conditions. For example, when navigating through sandy areas, airing down can prevent your tires from digging in too deep. However, it's vital to find the right level; too low and you risk damaging your rims or losing a tire in tough spots.</p><h2>Key Takeaways</h2><ul><li>Airing out enhances traction, especially in soft or uneven ground.</li><li>Monitor your tire pressure before and after airing out to avoid potential damage.</li><li>Every off-roader has their preferred pressure - experimentation will help you find yours.</li></ul>
+
+</article>
+
+</SiteLayout>

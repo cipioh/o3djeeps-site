@@ -1,0 +1,60 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Installation of Smittybilt SRC Rear Bumper and Tire Carrier - Project 2004 TJ Wrangler";
+export const description = "A detailed guide to installing the Smittybilt SRC rear bumper and tire carrier on a 2004 TJ Wrangler.";
+const youtubeId = "q62ei09XK68";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-08-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Smittybilt"
+  },
+  {
+    "label": "Product",
+    "value": "SRC Rear Bumper and Tire Carrier"
+  },
+  {
+    "label": "Compatibility",
+    "value": "2004 TJ Wrangler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road adventures and vehicle modifications"
+  }
+];
+const externalLinks = [{"label": "This is the bumper and tire carrier combo:", "url": "https://www.extremeterrain.com/smittybilt-src-classic-w-tj-yj-76651d.html"}, {"label": "As you can see in the video, we didn't get the final mounting bolts in because we will need to drop the fuel tank, and we just weren't ready to do that yet.  We'll do that part later.", "url": "http://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Upgrading your Jeep is not just a hobby; it's a way of life for many enthusiasts. In this tutorial, we're diving deep into the installation process of the Smittybilt SRC Rear Bumper and Tire Carrier for the 2004 TJ Wrangler. This project includes everything from drilling to handling unexpected challenges, ensuring that you get a solid rear setup that can handle off-road adventures.</p><h2>What This Covers</h2><p>In this article, we will explore:</p><ul><li>The tools and materials needed for the installation</li><li>A step-by-step breakdown of the installation process</li><li>Common challenges and how to overcome them</li><li>Tips for ensuring a secure, long-lasting installation</li></ul><h2>Step-by-Step Breakdown</h2><p>The process begins with some critical preparation to ensure everything goes smoothly:</p><ol><li><strong>Gather Your Tools:</strong> You'll need standard tools, including a drill, a uni-bit for larger holes, and basic hand tools. Don’t forget protective gear to keep safe while working.</li><li><strong>Prepare the Area:</strong> Identify the locations where the bumper will mount. Use a template to mark drilling points, which helps prevent errors—especially around sensitive components like the fuel tank.</li><li><strong>Drilling Holes:</strong> Carefully drill the holes for mounting. It's crucial to take your time here; using a block or collar on the drill bit can help control depth and avoid damaging the fuel tank. </li><li><strong>Mounting the Bumper:</strong> Once the holes are prepped, it’s time to lift the bumper into position. Ensure it fits snugly against the Jeep's frame.</li><li><strong>Securing the Tire Carrier:</strong> Follow the manual closely when securing the tire carrier. Adjust to ensure it can hold the weight of the tire without being too tight. If necessary, incorporate greasable fittings for easier adjustment later on.</li></ol><h2>Helpful Tips</h2><p>Here are some best practices to keep in mind while tackling this installation:</p><ul><li>Always double-check the hardware supplied with your bumper. In our case, mismatched bolt sizes slowed us down and required a trip to the hardware store.</li><li>When dealing with existing rusted bolts, don't hesitate to perform thread repairs. It may take extra time, but proper fitting is essential for safety.</li><li>Consider the weight of the spare tire when positioning your tire carrier. It can significantly affect your vehicle’s balance, especially during off-road maneuvers.</li><li>If you plan on further modifications in the future, think about how this bumper will integrate with additional accessories, such as a lift kit or recovery gear.</li></ul><h2>Key Takeaways</h2><p>Installing the Smittybilt SRC Rear Bumper and Tire Carrier on a 2004 TJ Wrangler not only enhances your vehicle's aesthetics but also significantly improves its off-road capabilities. While challenges may arise—such as rusty bolts or hardware mismatches—being prepared with the right tools and a solid plan can mitigate most issues. Remember, this is a project that many Jeep enthusiasts undertake, and with patience and attention to detail, you can enjoy a successful upgrade. Happy Jeeping!</p>
+
+</article>
+
+</SiteLayout>

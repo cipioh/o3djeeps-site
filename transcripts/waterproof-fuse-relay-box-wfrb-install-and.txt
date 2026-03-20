@@ -1,0 +1,230 @@
+hey there CPO here let's talk vehicle
+accessory wiring when you buy a light
+bar or some other accessory for your
+vehicle you end up with a wiring harness
+like this it's usually got a relay
+probably a fuse and a switch you get a
+few accessories you end up with a few
+harnesses all to be independently run
+around your vehicle and quite frankly
+it's kind of a pain in the butt so I
+wanted a solution to add multiple
+accessories uh with a clean install
+platform and I also wanted some nice
+switches inside the cab of the vehicle
+I'm doing this on my 2015 jku what I
+chose to use was this Wireless fuse
+relay box these are handmade uh in
+Maryland and shipped all over the world
+for people just for this purpose and it
+actually works fantastic so here's what
+you're getting with the waterproof fuse
+relay box it's basically got this busman
+fuse SL relay box with a cover it's
+completely waterproof and as you can see
+on the bottom uh he's gone through a lot
+of great effort to make sure that all
+those connections are waterproofed uh
+it's got the mounting bracket it's got
+five relays it's got 5 30 amp fuses
+there's 5 15 amp fuses it comes with
+some butt connectors and some shrink
+tube and also this 32 in of expandable
+uh heat and chemical resistant Loom the
+positive wire is 8 gauge the negative
+wire is 12 gauge all of the accessory
+wires 12 gauge the switch wires are 16
+gauge and then the fused non- relay
+wires are also 16 gauge he can do
+anything custom that you'd like
+including if you want more lengths like
+all of the wiring comes standard with 36
+in of length but if you need more than
+that you can reach out to him uh and
+it'll cost you some more but you can add
+additional wiring I actually did that
+for my install so I didn't have to
+splice wires to get to the switch panel
+or uh for example the winch but the
+great thing about this is it keeps
+basically one connection to your battery
+fused uh so every time you add
+accessories you don't have to keep
+adding additional uh individual
+components to your battery all of it
+comes off of this one box so like I
+mentioned I am doing this in my 2015 JK
+and finding real estate in the engine
+compartment is always a challenge what I
+chose to do is I just used a couple of
+pieces of aluminum stock one of them is
+kind of shaped like an l and then
+another flat piece on top and I
+basically bolted the L into an existing
+bracket using the existing bolt that was
+already there and then using that top
+piece I use self-tapping screws to
+attach the relay box using its bracket
+that it came with uh straight to the top
+of that and I think it worked out really
+well
+so one very thoughtful thing about this
+box is the wires are colorcoded which
+makes it really simple for install uh
+like I mentioned before you have a uh
+switch wire and an Associated accessory
+wire and I'll show you a diagram here of
+my install which will probably make
+things more clear but they're colorcoded
+the same so if you have a red switch
+wire it's going to control the accessory
+that's attached to the red accessory
+wire so it's very simple in that and
+like I said you got five of those you
+can see here where I ran the wires uh
+from the engine compartment through the
+firewall into the cabin of the JK now
+for my installation I wanted to use the
+dimer switch to control the lighting on
+the switches so I found the dimer switch
+and tapped into that uh in the kick
+panel on the passenger side and uh now
+whenever I have my headlights on uh then
+my switches will come on with them and
+can be dimmed
+along with the rest of my interior
+lighting once you have all of your
+accessories installed uh make sure you
+go in and remove fuses you're not using
+at the time and then make sure that your
+fuse uh values are consistent with what
+you need for your accessories let me
+show you a little bit about my wiring
+setup here I have five switches in my
+switch panel three of them are to
+control LED lights two of them are
+dedicated for the winch um in in
+addition to that I have a CB that is on
+12vt constant power and that is also run
+off of this fuse relay box so I don't
+have all of the lights yet for my JK I
+actually only have the bumper LED which
+is uh on this circuit shown uh from the
+red uh accessory and switch wire but
+I've went ahead and wired for the roof
+LED and then also two rear LEDs because
+I know they're coming I just haven't
+bought
+yet so uh I've got the positive and
+negative running to the battery now it's
+not demonstrated here in the diagram but
+there is a fuse uh next to the battery
+you've seen it in the video already it
+comes with the waterproof fuse relay box
+so Supply with the box is a basic wiring
+diagram to give you an idea of how to
+get started and a lot of people wire
+their switches to a ignition 12vt Source
+uh and that would be what would if you
+look at the kind of purple line down at
+the bottom it says switch power to
+trigger relay normally a lot of people
+would wire that to the ignition so that
+the switches are only active when the
+ignition's on I wanted to have my
+switches active at all times in other
+words all of my accessories would be
+active at all times because I wanted to
+be able to turn on the LED lights
+without having to put in the key and
+turn it on so um that was a personal
+choice I made so what I did is I used
+one of the 12vt constant
+wires coming out of the waterproof fuse
+relay box to actually power the switches
+as well so I'm sort of using the uh the
+fuse relay box to power the switch bank
+that then activates the switch box to
+activate accessories so little bit
+interesting there how I did that but it
+works out really well so um again to the
+battery and then um I have let's talk
+about 12volt constants here I have one
+12volt constant going into the cab of
+the vehicle which then uh Powers my
+switches then I have a second 12volt
+constant uh run through the engine
+compartment to my CB and that allows my
+CB to always have fused power um even
+when the vehicle's off which is how I
+want
+it now for the switches uh the wires
+coming out of the side I have three
+going to my switch boox for each of the
+lights the bumper lights the roof light
+and the rear lights and then there are
+associated wires run for those
+accessories colorcoded to be the
+same now the winch setup what I've done
+here is the winch is connected directly
+to the battery always on 12vt power um
+but I didn't want my switch to be active
+all the time for winch controls inside
+the cab so basically what I have is a
+switch that activates the winch inout
+controls and then the controls will work
+from within the the cab but the controls
+don't work unless that switch is
+activated how I've done that is
+basically uh taken power uh just like
+all the other switches uh to the um to
+activate the winch and then once that
+switch is enabled it then feeds power
+into the uh in-out switch which goes
+directly to the solenoid on the winch
+sorry I'm probably confusing or boring
+uh half of you uh this isn't a how-to
+wire your vehicle video but more just
+showing you the power of how uh using
+the foundation of something like this
+waterproof fuse relay box uh you can
+pretty much do whatever you want um you
+know within some some constraints but
+that's how I have mine wired up now and
+I'm really liking it and I think it's a
+fantastic setup for me and also you
+might notice one thing you don't see on
+this wiring diagram are my switch LED uh
+circuits uh that's way too complicated
+and really is secondary to the
+waterproof fuse relay box uh it's a
+separate circuit so that's not included
+in here because it gets really messy at
+that point and it all depends on what
+type of switches you end up with as well
+so that's it that's how I've chose to uh
+install and run my accessory wiring uh I
+think it's a great concept there are
+other more expensive options to achieve
+this same end goal but at this price
+point this is really hard to beat so
+where do you find it you can go to
+Facebook and search for waterproof fuse
+relay box or you can go to this link
+here I have on the screen and that will
+get you to uh where you can get more
+information about this particular item I
+do know he sells them uh all over the
+world and uh has had zero returns um he
+sold hundreds of them uh he's so
+meticulous every single one is tested uh
+before it goes out the door he's never
+had a problem uh and that says a lot so
+uh anyway thanks for watching uh I hope
+this gives you some ideas about your own
+uh vehicle wiring and it's just not a
+Jeep thing you can do this in anything
+this is universal application uh so have
+at it and uh go light some stuff up
+thanks for watching I'll catch you on
+the next one

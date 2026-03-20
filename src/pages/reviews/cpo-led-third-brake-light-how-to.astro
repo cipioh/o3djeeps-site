@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "CPO LED Third Brake Light How-To";
+export const description = "Learn how to wire a third brake light on your 2015 Jeep Wrangler JKU with this detailed step-by-step guide.";
+const youtubeId = "7WaTsjufPVk";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-01-12";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "CPO"
+  },
+  {
+    "label": "Product",
+    "value": "LED Third Brake Light"
+  },
+  {
+    "label": "Use Case",
+    "value": "Custom brake light wiring for Jeep JKU"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "LED Lights:", "url": "http://amzn.to/2x94cWC"}, {"label": "Dust Shield:", "url": "http://amzn.to/2glkZve"}, {"label": "and here is the waterproof connector I mentioned:", "url": "http://amzn.to/2xPwClA"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this article, we're diving deep into the process of wiring a third brake light on your 2015 Jeep Wrangler JKU, a topic that has sparked significant interest among Jeep enthusiasts. While this modification represents one way to enhance visibility on the trail and during urban driving, it's important to remember that there are various approaches. This guide will help you understand how to tackle this mod and encourage your creativity along the way.</p><h2>What This Covers</h2><p>This tutorial will take you through the materials and steps needed to create your own custom third brake light setup. We'll look at the tools you'll need, the process of installing the LED lights, and tips for successfully connecting to your existing wiring. By the end of this guide, you'll have an operational brake light that not only functions well but looks great too.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Materials:</strong> To start, you're going to need a few key components. The LED lights used in this build are 3/4 inch marker lights, which can be found online or at your local auto parts store. Additionally, a dust shield is crucial—it will serve as the mounting platform for your lights. You should also have waterproof connectors to ensure your installation is durable against the elements.</li><li><strong>Prepare the Dust Shield:</strong> The dust shield you select should have the appropriate hole pattern for your tire carrier. Using a 15-inch dust shield with a 5x5 bolt pattern should fit perfectly. Start by calculating the circumference of the dust shield and marking equal sections to evenly distribute your lights around the perimeter.</li><li><strong>Drill Holes for the LEDs:</strong> Precision is key. Use a hole punch to create clean holes for the LEDs, ensuring they fit snugly. This step is crucial as it keeps the lights secure and properly aligned.</li><li><strong>Soldering the Connections:</strong> Before finalizing the installation, test fit your LEDs to ensure everything is in place. Solder the connections using waterproof methods to resist moisture and vibrations. This is essential because the reliability of your brake light hinges on the quality of these connections.</li><li><strong>Tap into the Existing Brake Light Circuit:</strong> Locate the harness connected to your tailgate, where you'll find the third brake light wires. Use a wire tester to confirm the positive and negative wires. Connecting your new setup to this existing circuit ensures everything works seamlessly.</li><li><strong>Final Assembly:</strong> Once all the wires are secured and tested, assemble your spare tire and check the functionality of the third brake light. The added LED visibility not only enhances your Jeep's look but also increases your safety on the road.</li></ol><h2>Helpful Tips</h2><p>Always double-check connections before finalizing any installation. Using a multimeter can help avoid any potential wiring errors that could lead to malfunctions.</p><h2>Key Takeaways</h2><p>Wiring a third brake light on your Jeep JKU is both a functional and aesthetic mod that many owners can appreciate. Whether you're hitting the trails or parked in the city, this upgrade increases visibility and safety. Remember, this guide is just one approach; feel free to experiment with materials and methods to make it your own. Safe driving!</p>
+
+</article>
+
+</SiteLayout>

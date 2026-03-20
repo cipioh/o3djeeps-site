@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Colorado Backcountry Trip Update  CPO";
+export const description = "Exciting updates on an upcoming Colorado backcountry trip featuring Jeep preparation and adventure planning.";
+const youtubeId = "jT7cTT0jkMI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-06-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Vehicle",
+    "value": "Jeep"
+  },
+  {
+    "label": "Companion Vehicle",
+    "value": "Motorcycle"
+  },
+  {
+    "label": "Trip Duration",
+    "value": "8-9 days"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Sorry it's been a while since I've given an update...but here it is. We are now 10 days away from the beginning of the adventure!", "url": "http://facebook.com/overclock3d.jku"}, {"label": "Sorry it's been a while since I've given an update...but here it is. We are now 10 days away from the beginning of the adventure!", "url": "http://overclock3d-jku.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>With only ten days left until the highly anticipated Colorado backcountry adventure, excitement is building! This trip is a collaboration between myself and my friend Drew, who will be tackling the trails on a motorcycle while I navigate in my trusty Jeep. This journey holds the promise of breathtaking landscapes and thrilling challenges, but preparation is key.</p><h2>Main Points</h2><p>A significant portion of my pre-trip focus has been on vehicle preparations, particularly recovery gear. Knowing that Drew's motorcycle can't easily assist me if I encounter trouble, I feel the need to equip my Jeep with various recovery tools.</p><ul><li><strong>Recovery Equipment:</strong> The centerpiece of my setup will be a winch, which I consider an absolute must for any serious off-roading. Beyond that, I acquired a Pull Pal (also known as a land anchor), tire chains, and I'm set to evaluate some Tread Pro products. These tools will give me peace of mind against getting stuck in snow or mud.</li><li><strong>Suspension Enhancements:</strong> I also installed a Steer Smarts Yeti steering kit to beef up the Jeep's steering. This modification offers not only a better driving experience on highway stretches but also adds off-road strength against rocky encounters.</li></ul><h2>Practical Implications</h2><p>This trip spans three driving days to reach Colorado before diving into the core adventure of camping and trail exploration. My initial plan, as it currently stands, is to head towards the Colorado-Wyoming border first, where the elevation is lower, likely resulting in less stubborn snowpack. We plan to camp most nights and transition to hotels for occasional refreshers—though the exact itinerary remains a bit fluid, dependent on road conditions and weather forecasts.</p><p>Interestingly, many of the trails we'd like to explore still bear snow cover. Tracking their status is crucial leading up to departure, and should we encounter bottlenecks like closed roads, I aim to leverage snow chains to push through while Drew might follow on the bike. However, legalities concerning forest service roads must be strictly observed.</p><h2>Key Takeaways</h2><p>As we gear up for this adventure, the excitement mounts, and your input is invaluable! I encourage readers to share tips or advice that could enhance our experience. Follow the journey through updates on my Facebook page as well as upcoming YouTube video uploads documenting our progress. This is shaping up to be an unforgettable exploration of the Rocky Mountains, and your support is appreciated. Stay tuned for more updates!</p>
+
+</article>
+
+</SiteLayout>

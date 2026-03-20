@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Rear Axle Upgrades and Diff School - Part Five  - Final Assembly and ARB Air Line";
+export const description = "Explore the final assembly of rear axle upgrades in our Diff School series, highlighting critical techniques and insights.";
+const youtubeId = "_6dFby7HxOg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-21";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Dynatrac"
+  },
+  {
+    "label": "Product",
+    "value": "Trail Leader Axle Package"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrading Jeep JK axles for off-road durability"
+  }
+];
+const externalLinks = [{"label": "These rear axle upgrades come as part of the Dynatrac Trail Leader Package. Here is the info on that package:", "url": "https://www.dynatrac.com/trail-leader-axle-package.html"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back, Jeep enthusiasts! In the final episode of our Diff School series, we’ll dive into the meticulous process of assembling rear axle upgrades for your Jeep, centering around the Dynatrac Trail Leader Axle Package. This tutorial aims to provide valuable insights and practical techniques that make a significant difference in the assembly and performance of your drivetrain.</p><h2>What This Covers</h2><p>This article will walk you through the key steps involved in the final assembly of your rear axle, including essential tasks like installing the ARB air locker and ensuring proper backlash. We’ll also share some handy tips and tricks that can make your installation smoother and more efficient.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation</strong>: Before starting the assembly, ensure you have all your components ready. The Dynatrac Trail Leader Axle Package includes high-quality parts designed to withstand off-road challenges.</li><li><strong>Creating Drainage Slots</strong>: One of the first tasks involves cutting drainage slots that ensure proper oil flow in the axle housing. This step is crucial to maintain lubrication and prevent overheating. Follow ARB instructions closely, which specify tolerances and cutting techniques to perform this modification safely.</li><li><strong>Installing the Air Locker</strong>: Position the ARB air locker correctly. While it may require some force, ensure it fits snugly without jamming. Using a brass punch can help here, minimizing damage.</li><li><strong>Checking Backlash</strong>: Once the locker is in place, it’s time to check the backlash. Aim for specifications around 6 to 10 thousandths of an inch to ensure proper gear engagement without excessive wear.</li><li><strong>Final Assembly</strong>: With backlash checked and adjustments made, complete the assembly by securing the diff cover. Ensure all seals and O-rings are properly installed to prevent leaks.</li></ol><h2>Helpful Tips</h2><p>Throughout this assembly process, attention to detail is paramount. Here are some tips to keep in mind:</p><ul><li>Always double-check your measurements when cutting and fitting components—accuracy avoids costly mistakes.</li><li>Maintain a clean working environment to prevent debris from entering the axle.</li><li>Use the right tools for the job, especially when working with delicate components like the ARB air compressor and O-rings.</li><li>Document your process! Consider taking photos or notes for reference if you need to revisit or troubleshoot any part of the assembly.</li></ul><h2>Key Takeaways</h2><p>The final assembly of your rear axle is a crucial step in ensuring your Jeep can handle off-road conditions without hiccups. By following the instructions closely and applying some of the techniques we discussed, you set yourself up for a reliable build that can conquer the trails. Stay tuned for our next adventures as we wrap up this build with axle shaft installation!</p>
+
+</article>
+
+</SiteLayout>

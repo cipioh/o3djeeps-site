@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ - Smittybilt SRC Classic Rock Crawler Front Bumper Installation";
+export const description = "Learn how to install the Smittybilt SRC Classic Rock Crawler Front Bumper on a 2004 Jeep TJ in this hands-on guide.";
+const youtubeId = "4EAEK840dBM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-06-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Smittybilt"
+  },
+  {
+    "label": "Product",
+    "value": "SRC Classic Rock Crawler Front Bumper"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep TJ Front Bumper Installation"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://extremeterrain.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://www.extremeterrain.com/smittybilt-src-classic-w-tj-yj-76740d.html"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Upgrading your Jeep is always an exciting endeavor, especially when it involves something as crucial as the front bumper. In this article, we'll guide you through the step-by-step process of installing a Smittybilt SRC Classic Rock Crawler Front Bumper on a 2004 Jeep TJ, with insights from a hands-on experience shared between a father and son duo.</p><h2>What This Covers</h2><p>This guide details the removal of the stock bumper and the rigorous yet straightforward installation of the new Smittybilt bumper. Whether you're a seasoned enthusiast or a newcomer to Jeep modifications, you'll find valuable tips and techniques to ensure a successful install. Plus, this particular project also serves as a great opportunity to bond with a young mechanic-in-training.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools:</strong> Before diving in, ensure you have the right tools at your disposal. For this install, you’ll need a T-55 Torx socket, breaker bar for extra leverage, and some PB Blaster to loosen up those well-seated bolts.</li><li><strong>Remove the Old Bumper:</strong> Start by spraying the current bolts with PB Blaster to help ease their removal. The stock bumper attaches with three T-55 bolts on each side (two on top, one underneath). Use pressure and proper torque to avoid stripping the bolts during removal.</li><li><strong>Detach Fog Lights:</strong> If your Jeep has fog lights, disconnect them carefully before removing the bumper. This ensures you won’t damage them during the process.</li><li><strong>Install the New Bumper:</strong> Once the old bumper is off, position the new Smittybilt bumper onto the frame rails. Ensure the orientation is correct, usually with a flat base facing down for support. Line up the bolt holes and begin fastening them by hand to avoid cross-threading.</li><li><strong>Secure Everything:</strong> After threading the bolts in manually, go back and tighten them carefully using a torque wrench or socket set. It’s wise to apply some thread locker on the last few threads to prevent any vibrations from loosening them over time.</li><li><strong>Adjust for Aesthetics:</strong> The final touches can make your install look professional. If you opted for D-ring tabs, consider factors like bumper noise and appearance—some prefer a clean look without them.</li></ol><h2>Helpful Tips</h2><p>1. Always work with a partner when tackling heavier bumpers to make the installation smoother and safer.</p><p>2. Take your time: If you feel any resistance while threading bolts, stop and realign before applying more torque.</p><p>3. Keep fog lights in mind for future modification, ensuring you have a plan for their installation that doesn’t compromise the new bumper’s aesthetics.</p><h2>Key Takeaways</h2><p>Installing a new front bumper like the Smittybilt SRC Classic Rock Crawler is an excellent way to upgrade your Jeep while also engaging in hands-on learning. This project not only enhances the vehicle's off-road capabilities but also strengthens your skillset. Remember, each modification is a step towards personalizing your Jeep. So load up your tools and enjoy the transformation, together!</p>
+
+</article>
+
+</SiteLayout>

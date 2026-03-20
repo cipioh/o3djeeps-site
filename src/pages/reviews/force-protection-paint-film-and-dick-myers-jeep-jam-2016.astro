@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Force Protection Paint Film and Dick Myers Jeep Jam 2016";
+export const description = "Explore the benefits of Force Protection Paint Film and the highlights from the 2016 Dick Myers Jeep Jam.";
+const youtubeId = "nrIeAMCSzwU";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-06-05";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Force Protection, LLC"
+  },
+  {
+    "label": "Product",
+    "value": "Clear Paint Protection Film"
+  },
+  {
+    "label": "Use Case",
+    "value": "Protection during off-road adventures"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "This is sort of a two-for-one video... It was really about showing off the clear paint protection film that Force Protection, LLC put on my doors, but ended with a great day hanging out with cool folks at the Dick Myers Jeep Jam in Harrisonburg, Virginia. Of course, I \"talked Jeep\" with a lot of folks, and pretty much talked about anything people wanted to talk about...from how to remove doors, carpet removal, tires, snorkels, seat covers, tailgate gear, suspension, steering, headlights and light bars....and I even took off my grill to show someone how I did my grill inserts.  It was an awesome day, and if you are anywhere near Harrisonburg...checking out the Dick Myers Jeep Jam is something you should add to the list!", "url": "http://forceprotectionllc.com/"}, {"label": "This is sort of a two-for-one video... It was really about showing off the clear paint protection film that Force Protection, LLC put on my doors, but ended with a great day hanging out with cool folks at the Dick Myers Jeep Jam in Harrisonburg, Virginia. Of course, I \"talked Jeep\" with a lot of folks, and pretty much talked about anything people wanted to talk about...from how to remove doors, carpet removal, tires, snorkels, seat covers, tailgate gear, suspension, steering, headlights and light bars....and I even took off my grill to show someone how I did my grill inserts.  It was an awesome day, and if you are anywhere near Harrisonburg...checking out the Dick Myers Jeep Jam is something you should add to the list!", "url": "http://www.dickmyerschryslerdodgejeep.net/jeep-jam-2013.htm"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The world of Jeeping is more than just the vehicles themselves; it’s about the community, the adventures, and the gear that enhances our journeys. Recently, I attended the Dick Myers Jeep Jam in Harrisonburg, Virginia, where I experienced a fantastic blend of showcasing new products and connecting with fellow Jeep enthusiasts. One of the highlights was the clear paint protection film from Force Protection, LLC, which I had installed on my Jeep’s doors to protect against the scratches and dings often incurred while off-roading.</p><h2>Main Points</h2><p>The event itself was buzzing with excitement. The Jeep Jam has become a staple for local enthusiasts and draws a diverse crowd, eager to share tips and experiences. It featured an obstacle course packed with rocks and mud, perfectly illustrating the capabilities of the rigs present. I spent a lot of time talking about everything from door removals to tire choices, reconnecting with the core of what makes off-roading so enjoyable—community and shared knowledge.</p><p>During the event, in collaboration with Brad from Force Protection, I demonstrated the installation and benefits of the protective film. This film is critical for those of us who love to push our Jeeps to the limits. Not only does it defend against trail pinstriping, but it also protects your paint when the doors are stored off the vehicle. After a day of off-roading, the film saved me from scratches that would have marred the original paint job.</p><h2>Practical Implications</h2><p>As Jeep enthusiasts, we all want to keep our vehicles looking sharp while navigating through trails. The protective film does just that, proving its worth when facing tough terrains. I've seen the pain of scratched paint firsthand, and this was a proactive step to avoid it. The film’s durability is impressive, allowing for a level of security during off-road adventures that gives peace of mind to worry less about cosmetic damage and focus more on the trail ahead.</p><h2>Key Takeaways</h2><ul><li>The Dick Myers Jeep Jam is a valuable event for Jeep enthusiasts to meet, share knowledge, and enjoy the company of fellow off-roaders.</li><li>Force Protection's clear paint protection film is essential for protecting your Jeep’s aesthetic during heavy use.</li><li>Connecting with the community adds immense value to the Jeeping experience—whether it’s at an event or online, sharing stories and tips enriches our journeys.</li><li>Always prioritize your Jeep’s protection with quality gear that can withstand the challenges of off-roading.</li></ul>
+
+</article>
+
+</SiteLayout>

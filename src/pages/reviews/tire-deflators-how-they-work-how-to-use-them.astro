@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Tire Deflators - How They Work, How to Use Them";
+export const description = "Learn how to properly use brass tire deflators for your Jeep, enhancing your off-road experience with easy tire pressure adjustments.";
+const youtubeId = "Lb6d0_jLkUs";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2015-07-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Smitty Built"
+  },
+  {
+    "label": "Product",
+    "value": "Brass Tire Deflators"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Roading Tire Pressure Adjustment"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Tire deflators are an essential tool for any off-road enthusiast looking to improve their vehicle's traction and performance on challenging terrains. In this guide, we'll explore how brass tire deflators work, how to set them up, and the best practices for using them effectively in your Jeep.</p><h2>What This Covers</h2><p>This article provides a comprehensive look at brass tire deflators, including:</p><ul><li>How they operate</li><li>Step-by-step instructions for calibration and use</li><li>Helpful tips for optimizing their functionality</li></ul><h2>Step-by-Step Breakdown</h2><p>Setting up and using your brass tire deflators is a straightforward process. Follow these steps to ensure you correctly calibrate and use them effectively:</p><h3>Calibration Steps</h3><ol><li>Begin by deflating your "calibration" tire to the desired PSI. A spare tire works great for this.</li><li>Screw the cap on the deflator all the way down (clockwise).</li><li>Attach the deflator to the valve stem of the tire securely.</li><li>Unwind the cap counter-clockwise until you hear air escaping, then turn back until the air stops.</li><li>Tighten the locking jam nut counter-clockwise against the cap to prevent accidental adjustments.</li><li>Remove the deflator from the valve stem.</li><li>Repeat for all your deflators.</li><li>Don’t forget to re-inflate your spare tire back to normal PSI!</li></ol><h3>Using Your Brass Tire Deflators</h3><ol><li>Screw the deflator onto each tire.</li><li>Wait for the hissing sound to cease—this indicates the tire has reached the preset PSI.</li><li>Remove the deflators.</li></ol><h2>Helpful Tips</h2><p>Here are some further insights to maximize the benefits of using tire deflators:</p><ul><li>While they’re airing down your tires, you can work on other preparations for off-roading, making the process more efficient.</li><li>You don’t have to set all deflators to the same PSI if you have different preferences for various tires; just keep track of which is which.</li><li>If you find they’re taking longer than desired to deflate to lower PSIs (like 10 or 8 PSI), you can use the manual release feature to assist.</li></ul><h2>Key Takeaways</h2><p>Brass tire deflators provide an effortless way to prepare your Jeep for off-road adventures. They may take a bit longer than manual methods, but the convenience of setting a desired PSI and letting the deflators do the work is invaluable, freeing you to focus on other tasks. Take advantage of this simple yet effective tool and enjoy your next trail ride with enhanced performance. Happy off-roading!</p>
+
+</article>
+
+</SiteLayout>

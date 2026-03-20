@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ Third Brake Light and Parking Light Repair";
+export const description = "Learn how to fix the third brake light and parking lights on a 2004 Jeep TJ with practical tips and insights from real-world experience.";
+const youtubeId = "ky6y5MQiyXw";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-07";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Electrical Repair"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In today’s tutorial, we dive into the nitty-gritty of troubleshooting and repairing the third brake light and passenger rear parking lights on a 2004 Jeep TJ. As any Jeep owner knows, electrical issues can be a real headache, but with some patience and the right approach, these problems can often be resolved without the need for costly replacements.</p><h2>What This Covers</h2><p>This article will guide you through the diagnosis and repair process we followed to fix the malfunctioning third brake light and rear parking lights, including the necessary tools and techniques to get your lights back in working order.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Inspection:</strong> Before assuming the bulbs were faulty, check the vehicle’s electrical connections. Often, the issue lies within the wiring or connections rather than the bulbs themselves.</li><li><strong>Locate the Wires:</strong> In our case, we traced the wires to the passenger side tail light and found a broken wire connected to an old trailer wiring harness. Removing this harness might also spare you from future electrical headaches.</li><li><strong>Replace Broken Wires:</strong> Ensure you have the right tools to replace or repair any broken wires. It’s often easier to remove components like the rear tire to access tight spaces.</li><li><strong>Clean the Contacts:</strong> For the third brake light, corrosion on the metal contacts caused the malfunction. Cleaning these contacts is crucial for restoring functionality.</li><li><strong>Button Replacement:</strong> When working on the third brake light’s contact buttons, be cautious; the wires can disconnect easily. Using a little WD40 on the rubber grommet can aid in reassembly.</li></ol><h2>Helpful Tips</h2><ul><li>Always use a multimeter or test light to check for power at the harness before assuming the bulbs are faulty.</li><li>A clean workspace can help avoid confusion and make reassembly easier.</li><li>Document your wiring connections, either through diagrams or photos, during disassembly to simplify the re-installation process.</li></ul><h2>Key Takeaways</h2><p>Don’t let electrical issues discourage you! With a methodical approach and the right tools, fixing your Jeep’s lighting can be a rewarding DIY project. Whether you are preparing for an inspection or just want to improve your Jeep’s functionality, these repairs are an integral part of vehicle maintenance. Join us next time as we delve into modifications that will further enhance the performance and aesthetics of your 2004 Jeep TJ!</p>
+
+</article>
+
+</SiteLayout>

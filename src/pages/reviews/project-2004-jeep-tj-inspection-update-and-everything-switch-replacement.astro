@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ Inspection Update and \"Everything Switch\" Replacement";
+export const description = "Learn how to inspect and replace the 'everything switch' on a 2004 Jeep TJ for better functionality.";
+const youtubeId = "CweQoNDyaZI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-20";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ Everything Switch"
+  },
+  {
+    "label": "Use Case",
+    "value": "Parts replacement and vehicle inspection"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome, Jeep enthusiasts! This article will guide you through inspecting and replacing the 'everything switch' on a 2004 Jeep TJ. This particular component is crucial as it controls your blinkers, hazard lights, and fog lights, ensuring everything functions smoothly while you're on the road.</p><h2>What This Covers</h2><p>We’ll explore the common issues associated with the everything switch, the steps for its replacement, and helpful tips to make the process easier. Whether you're gearing up for an off-road adventure or simply performing routine maintenance, understanding this switch will enhance your Jeep experience.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Inspection:</strong> Before starting any repairs, ensure your Jeep is in a safe position. Check that your vehicle is stationary and you have access to all necessary tools.</li><li><strong>Identifying the Problem:</strong> In our case, the blinker and hazard lights were malfunctioning, indicating a faulty everything switch. When activated, the blinkers were erroneously triggering the hazard lights, which is a clear sign of an issue.</li><li><strong>Gathering Tools:</strong> For this job, you'll need a few basic tools, including <strong>T10 and T20 Torx drivers</strong>. These are necessary for removing the switch assembly and any additional connectors.</li><li><strong>Accessing the Switch:</strong> Remove the two screws beneath the assembly to detach it from the dashboard. Take care as you maneuver around the windshield wiper assembly attached to the switch.</li><li><strong>Replacing the Switch:</strong> After removing the old switch, transfer any necessary components – like the blinker relay – to the new unit. Make sure you connect everything securely before reattaching the assembly.</li><li><strong>Final Steps:</strong> Reattach the screws, and test the new switch by activating your blinkers and hazard lights. A successful test indicates you’ve completed the job correctly!</li></ol><h2>Helpful Tips</h2><ul><li>Always make sure to disconnect your vehicle's battery before starting any electrical work to avoid shorts or shocks.</li><li>If you find yourself struggling to remove screws or components, a bit of WD-40 can help loosen rusted parts.</li><li>Label any wires you remove during the process to avoid confusion when reconnecting.</li></ul><h2>Key Takeaways</h2><p>Replacing the everything switch on your 2004 Jeep TJ can be a straightforward task, provided you have the right tools and follow the steps diligently. Not only does it improve vehicle safety by ensuring all lights function as intended, but it also prepares your Jeep for all those exciting trails ahead. Regular maintenance of electrical components can save time and prevent costly repairs down the line. Happy driving and stay tuned for more tips and tricks as we continue to explore the world of Jeep modifications and repairs!</p>
+
+</article>
+
+</SiteLayout>

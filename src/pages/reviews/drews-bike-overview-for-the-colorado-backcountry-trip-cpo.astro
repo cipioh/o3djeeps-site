@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Drews Bike Overview for the Colorado Backcountry Trip   CPO";
+export const description = "Explore Drew's modified Honda XR 650L for the Colorado adventure; learn about its features and preparations for off-road performance.";
+const youtubeId = "O2ngS3BphOg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-06-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Gear, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Honda"
+  },
+  {
+    "label": "Product",
+    "value": "XR 650L"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road trail riding"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://facebook.com/overclock3d.jku"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the lead-up to our epic adventure in the Colorado backcountry, there's more than just my Jeep that has been getting ready for the trails. My buddy Drew has been meticulously preparing his Honda XR 650L, transforming it into a formidable companion for some serious off-road riding. Let's take a closer look at the modifications he's made and how they bolster both performance and safety for this rugged journey.</p><h2>Main Points</h2><p>Drew's bike is primarily a stock Honda XR 650L, known as a reliable trail bike with a robust design that has remained largely unchanged since its debut in 1993. However, Drew’s modifications are key to enhancing its off-road capabilities and ensuring it can handle the demanding conditions of the Colorado trails. Here are some essential upgrades that stand out:</p><ul><li><strong>Tires:</strong> Drew has equipped his bike with 9010 street tires—DOT approved yet trail-friendly. These tires strike a balance between highway performance and off-road grip, crucial for the varied terrain of Colorado.</li><li><strong>Case Protection:</strong> After a prior unfortunate incident where he damaged the case with the gear shifter, Drew added custom-built case protection. Using durable metal, he fortified the area to prevent leaks and potential breakdowns during the trip.</li><li><strong>Gear Ratio Adjustment:</strong> To better manage the bike's power band, Drew swapped out the front sprocket for a 14-tooth version, filling a noticeable gap between first and second gears that would affect climbing performance on steep trails.</li><li><strong>Comfort Enhancements:</strong> Recognizing the challenges of balancing while standing on the bike, he added peg extensions and upgraded the seat to a lower profile. This results in improved stability when navigating technical sections of the trail.</li><li><strong>Weight Management:</strong> With added gear for safety and comfort, Drew has ensured his bike can handle it all, including a robust set of tools for repairs and overnight essentials.</li></ul><h2>Practical Implications</h2><p>Drew's thoughtfully chosen upgrades reflect a commitment to not only personal riding comfort but also to the practicality of endurance and safety on long trips. His choice of robust tires and upgraded gear ratios prepares him for a range of terrains, while the case protection and weight management strategies are vital to avoid mishaps in the backcountry where help can be hours away. The integration of safety gear, including RotoPax for extra fuel capacity and ample mechanical tools, showcases a pragmatic approach that all off-road enthusiasts can appreciate.</p><h2>Key Takeaways</h2><p>As we gear up for our trip into the heart of Colorado's rugged landscape, it's evident that Drew’s Honda XR 650L is not just a bike; it’s a carefully curated tool designed for adventure. His experience emphasizes the importance of preparation and adaptability in off-road pursuits. Whether you’re outfitting a motorcycle or a Jeep for off-road travel, the principles remain the same: prioritize safety, ensure reliability, and prepare for the unforeseen. We cannot wait to hit the trails and see how Drew’s modifications perform alongside my overclocked Jeep!</p>
+
+</article>
+
+</SiteLayout>

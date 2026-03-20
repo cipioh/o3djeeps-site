@@ -1,0 +1,181 @@
+hey there CP oh here and we're at
+twilight hours because no jeep project
+would be complete if it didn't start in
+the daylight and end it dark so I've
+been working on rewiring the second head
+unit and making some upgrades adding XM
+satellite radio adding in a really
+hopefully interesting switching system
+for three cameras so before it gets too
+dark let me show you at least where I'm
+at so you can see sort of the progress
+and then I'll show you the finish sort
+of result all right so here I am of
+course everything is still out and a
+mess it was actually a lot worse while I
+was wiring as a matter of fact here's a
+photo of what it looked like about
+midway through as you can see I have
+sort of a lot going on so I made some I
+made some modifications to my switches
+pretty much so I took off my roof
+mounted light bar and even though you
+see there's a switch here the switch
+label says that but it's actually no
+longer what it does it's now a three
+position switch which I'll explain but
+that's four cameras so I have to order a
+new rocker whenever I decide what I want
+to say on it but my bumper light bar and
+my rear lights all still function as do
+my halos both it's a three position
+ignition off and then on always and then
+my winch of course works with the N out
+in my fighter jet toggle switch so
+that's what I took apart to do I have a
+lot of wiring in there that controls
+things but as we roll it up one of the
+things I added into that sorry for the
+bright light this is the camera switch
+module so somebody on YouTube turned me
+on to this which was really awesome it
+basically is a relay box which I was
+planning on doing manually building it
+but I didn't realize somebody had
+already sort of had a plug-and-play one
+so
+it'll take three inputs and send them to
+one output and then it uses 12-volt
+positive wire feeds there's a see here
+there's a purple wire here and a red
+wire here so one of the cameras will be
+on default that'll be the front camera
+Center and then if I flip the switch one
+direction it feeds the red which engages
+the second camera and if I flip it down
+it'll engage the purple which will
+engage the third camera and that'll be
+the output I also have wired into that
+same switch the camera power so that
+cameras won't be powered on 24/7
+they will come on when the switches
+engage that way they're just not sitting
+there running hot the entire time when
+they're not being used so that's sort of
+what's going on there I'd like to
+explain more but I haven't even tested
+it yet I just wanted to get it all wired
+up and then I'll start playing around
+with adding the cameras what I also did
+is added in XM satellite so you can see
+here I have a serious module here but
+that is for the touch commander here's
+the actual unit itself that's gonna plug
+into there I haven't quite figured out
+where I'm at this but that's okay it's
+just a simple like USB style connection
+with a lot of cables so I can figure
+that out later but I wanted to get the
+actual power module and that's actually
+the control module in here the receiver
+and everything so this has accessory
+power battery power a dimmer wire which
+will adjust the illumination of the
+display based on the dimming of the
+lights inside and also has the satellite
+antenna which I explained here in a
+second as well as two outputs one output
+is a regular like 2.5 millimeter stereo
+output and then the other one is one
+that plugs into the FM radio and forces
+the feed through there
+I'm not positive which one of those I
+want to do I'm gonna start with the 2.5
+millimeter and then I have a splitter
+here don't worry all the links to these
+products will be in the video
+description so you can find out what I'm
+using here but this splitter basically
+takes a 2.5 millimeter stereo and bumps
+it to RCA's which I can then plug in to
+the back of this akane got an auxilary
+audio left right and then a video so I'm
+going to use the left/right auxilary or
+the satellite see how that works if I
+don't like that then I can plug in the
+other thing which comes with the
+receiver which pushes it into the am/fm
+radio so like I said I'm still sort of
+experimenting here but I want to show
+you where I'm at so for the antenna the
+Jeep's
+2015 a lot of the newer jeeps I'll
+remember what your started but the late
+2010 zish jeeps maybe 2013 and newer um
+have a dual XM satellite and GPS antenna
+which means the the wire can be used for
+both so I plugged it into the say cane
+earlier which gave me GPS signal but now
+I need that same antenna because I don't
+want to run a new antenna
+I want the XM out of that so I found
+this splitter that will allow me to
+split that signal so one side the XM is
+getting and then the other side they say
+Kane will be good for the GPS so it's
+just as simple I guess it's not simple
+but it's a satellite signal splitter so
+that should be interesting and then I
+have another adapter cable which is this
+one here that takes that splitter would
+be the same one I just used I would use
+if I went straight from the XM satellite
+antenna into the Sirius XM receiver is I
+need this little adapter to convert this
+square plug to their round plug anyway
+all these things are down in the
+description if you want to try any of
+them out see what else do I have going
+on here oh I did finally decide to go
+ahead and pull out to that extension for
+the SD card it's right here plugged into
+the back in the SD card slot
+see that it plugs in right there where
+the SD card goes that's quite a long
+extension actually so I actually have no
+problem rounding it off here to the side
+and coming out on the side of the globe
+box I'll double stick tape it somewhere
+alternatively I thought I could just you
+know tape it up here so I have access
+from from the top cubby area but either
+way that extension does work I hope I
+haven't actually tried it but that's
+where it goes that's what it's designed
+to do it so one last thing I want to
+point out before I let you go and then
+start button in this thing back up is
+I've seen a few people who have been
+curious about this little slot right
+here on the side and whether or not that
+is an SD card slot I can tell you
+unequivocally without doubt that is not
+an SD card slot as a matter of fact if
+you look here there's nothing behind it
+it's just it's just an empty hole so
+it's quite possible that they may have
+had it provisioned for an SD card slots
+depending on what hardware went in but
+there is no hardware to accept an SD
+card in there so sorry folks those of
+you that saw that slot and we're
+wondering please do not push an SD card
+in there it will not work so anyway
+that's where I'm at right now I'm gonna
+button all this up I'll do another video
+later sort of showing you the final
+results but yeah
+welcome to boi tests meter and a lot of
+crimping and soldering but I'm pretty
+close to to be in awesome anyway thanks
+for watching I'll catch you

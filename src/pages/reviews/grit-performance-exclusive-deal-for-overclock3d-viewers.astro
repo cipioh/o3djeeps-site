@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Grit Performance Exclusive Deal for OVERCLOCK3D Viewers";
+export const description = "Exclusive deals and insights on Grit Performance products for off-road enthusiasts!";
+const youtubeId = "kngSwDIwwms";
+const buyLink = "https://grit-performance.com/trk-launch-optin";
+const buyText = "View Product \u2192";
+const discountCode = "s";
+const discountText = "This is for 75% off of the Tire Repair Kit (Limit 75 codes)";
+export const date = "2017-05-13";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Grit Performance"
+  },
+  {
+    "label": "Product",
+    "value": "Tire Repair Kit, Tire Deflators, Cargo Net"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road recovery, tire maintenance, cargo management"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "This is to sign up for the giveaway:", "url": "https://grit-performance.com/contest-signup"}, {"label": "View Product →", "url": "https://grit-performance.com/td4pc-optin"}, {"label": "View Product →", "url": "https://grit-performance.com/bn1632-optin"}, {"label": "View Product →", "url": "https://grit-performance.com/tdg-optin"}, {"label": "Go check them out!", "url": "https://grit-performance.com"}, {"label": "Go check them out!", "url": "https://www.facebook.com/Grit-Performance-177474052764433/"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you’re an avid off-roader or simply a Jeep enthusiast, you've probably faced the unexpected challenges that come with life on the trails. That's why kit essentials like tire repair tools, deflators, and cargo nets are necessary items to have in your arsenal. In this discussion, we're diving into a fantastic opportunity brought to you by Grit Performance, which is not only affordable but also tailored for our adventurous audience.</p><h2>Main Points</h2><p>Grit Performance is rolling out an exclusive deal for the viewers of the OVERCLOCK3D YouTube channel. They’re offering significant discounts—75% off on a variety of their gear—along with a giveaway for a product bundle worth over $100. This is an encouraging initiative from a brand that is making waves in the off-road marketplace.</p><ul><li><strong>Exclusive Discount Codes:</strong> Quick access to special pricing for first-time buyers.</li><li><strong>Tire Repair Kit:</strong> Essential for anyone who ventures off the beaten path, this kit contains everything you need to handle road-side emergencies regarding flat tires.</li><li><strong>Tire Deflators:</strong> The convenience of having your tires deflated to the desired PSI quickly is crucial for enhancing traction in soft terrains.</li><li><strong>Cargo Net:</strong> Secure your gear on those rough rides with a robust cargo net that prevents your supplies from bouncing around.</li></ul><h2>Practical Implications</h2><p>By sharing exclusive discounts and hosting giveaways, Grit Performance is not only promoting their products but is also adding value to our community. Here's why you should consider these items:</p><ol><li><strong>Tire Repair Kit:</strong> This kit is a must-have. Equipped with essential tools and instructions, it helps you tackle punctures easily.</li><li><strong>Tire Deflator Kit:</strong> If you’re serious about your off-roading experience, setting tire pressure is crucial for maximizing your vehicle's performance, especially on diverse terrains.</li><li><strong>Bungee Cargo Net:</strong> Even when you're not on the trail, this product can be useful for everyday hauling and securing items.</li></ol><h2>Key Takeaways</h2><p>Grit Performance is providing exceptional gear tailored for off-road adventures, and with the promotions they’re offering, it’s an excellent time to stock up on crucial recovery and maintenance items. Make sure to grab your discount codes as soon as possible—supplies are limited! By supporting new brands like Grit, we contribute to a vibrant off-roading culture that thrives on quality and innovation.</p>
+
+</article>
+
+</SiteLayout>

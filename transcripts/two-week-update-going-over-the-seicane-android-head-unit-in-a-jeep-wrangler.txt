@@ -1,0 +1,587 @@
+hey there Scipio here and I wanted to
+give my couple of weeks overview of the
+say Cain now I just started this after
+the vehicles been turned off and it's
+been turned off for quite some time so I
+have a setting that is set to instantly
+come on all the time the important thing
+to note here is that both the USB drive
+and the internal sd card are
+consistently recognized and also my wife
+I consistently connects right now I'm
+connected to the house so that anytime
+I'm in my driveway which is where I'm at
+and the vehicles on I'm getting Wi-Fi so
+that'll be important for updating
+offline maps or music or things like
+that I'm gonna go ahead and turn the
+Jeep off leave the the vehicle running
+look I just got email come through so
+that we can here without the the sound
+of the engine it's a little warm so I'm
+gonna probably make this pretty quick
+but let me go over a little bit about
+what I think about the unit itself first
+of all I'm completely happy with it I
+had some reservations based on feedback
+about poor audio quality and whether or
+not the sub was working I get great
+sound out of this is a 2015 Jeep
+Wrangler with the Alpine sub I don't
+feel like it's lacking over the factory
+but then again a lot of audio files will
+argue that the factory Alpine upgrade is
+pretty you know mediocre in quality I
+don't know
+I'm not a huge audiophile I don't spend
+a lot of energy worrying about my stereo
+in the Jeep but this sounds good I've
+got good bass response now so far I
+would say I probably get less out of the
+sub than I used to but I definitely get
+a lot of bass out of the sound bar
+speakers up above my head a lot of bass
+but I'm not feeling like I'm lacking in
+bass so you will hear other people who
+are I don't know it's just a matter of
+perspective on what you think is good
+versus not good and by the way all of
+this discussion is going to be a matter
+of perspective what I think is fine or
+acceptable other people maybe like there
+is no way a good example is people have
+complained to me privately or maybe
+publicly I don't even know about a hum
+or a buzz in the system I have it I'm
+trying to listen right now I don't hear
+it
+I did hear with no input source playing
+and with the vehicle off but right now I
+don't hear anything
+it could be there's enough ambient noise
+just outside that's causing me to not be
+able to hear it so anyway let's talk
+about the screen
+you know dimming and not dimming this is
+the dim and then this is the bright I
+wish it would dim lower than it does
+whoops but but that's as low as it goes
+so I leave it on the brightest setting
+during the day and whenever I turn on my
+headlights it does drop the dim level
+and it's enough picking a dark
+background kind of like what I have here
+is helpful in that regard but I I do
+wish it would dim even more and I've
+tried some apps that would allow you to
+control those settings and it doesn't
+seem to make a difference while I'm here
+the other thing it does is these buttons
+will light up whenever you turn on the
+headlights or the parking lights so at
+night you can see those buttons the
+launcher I'm using right now is Nova
+prime and - Nova Launcher with the the
+premium upgrade allows me to sort of set
+things the way I want I custom-made
+these icons you're not gonna be able to
+find these icons but basically I was
+trying to get the thing set up that I'm
+most likely to use when I'm driving
+haven't done one for the phone I don't
+use the phone a lot when I'm in the Jeep
+although when somebody calls me it'll
+put up the number and all that and I can
+answer it right from the display but I
+should probably build a phone icon and
+put it somewhere up in here I'm also
+using Tasker to automate some things for
+example Sirius XM is coming in through
+the a/v input but so also is my front
+camera but when I listen to Sirius XM
+I've got this guy so I don't necessarily
+need to see anything different on the
+display so for example if I hit this
+it's gonna go to that AV input you can
+hear it there but it goes back to the
+home screen it's just a Tasker that I
+set up that says switch to AV in and
+then immediately go back home if I go to
+a VN directly what you're gonna see is
+my front camera same input I'm just
+basically using that for two different
+purposes this one is the google play
+music and I have it set to go to a
+different home screen I'll show you why
+here in a second because I built a
+custom widget and then open up play
+music I'll go ahead and hit play here
+unmute
+so there's some music there if I go back
+to the home you'll see my widget is
+displaying album art its title and an
+artist and I have some controls here so
+that's why I have that set up the way I
+do is and that's just basically a little
+side home screen so when I press this it
+goes to that home screen opens up play
+music so I can start or change and then
+when I hit the home button I told it
+stay there so those are things you can
+do with tasker custom widgets the custom
+widget maker is this guy here which is
+pretty awesome you can do anything you
+wanted I have only started to touch the
+surface but for example this widget that
+I have here I have all these shapes and
+things and you can tell it to pull
+information out of a variety of sources
+so I'm getting the album information the
+artwork and all of that I'm stealing it
+from google play as it's playing which
+is how I can get it on here so that is
+is fun for me and and I had little clock
+here so I still have it here the radio
+is here bth and basically it's going to
+assume whatever background you have so I
+don't I think that that might be
+adjustable separately but right now it's
+just going over my existing background
+which works out really well I honestly
+don't listen to the radio very often
+unless I need some local news or weather
+or something like that I've got this
+Bluetooth one which is basically
+streaming from my phone so anything that
+I want to stream which I don't think I
+have anything going on here right now
+but it would come in through here this
+is for watching videos I don't think I
+have anything loaded up right now but
+it's the basic video player you can come
+in here select from a variety of sources
+I'll pick from usb if you hold this
+it will give you a list of the things
+that are on that I have zero dark thirty
+I always tend to use as an example and
+that and that will play on here we can
+scroll through I will say in
+high-contrast scenes like daylight
+scenes the video player works really
+well in darker scenes however there's
+not a whole lot of contrast and the
+display so as you can see it's really
+hard to make out what's happening on the
+screen I didn't buy this for a movie
+player so you know those things don't
+bother me too much
+let me go back out of here I have this
+which is a power amp which I'm not
+actually I haven't loaded any music on
+here yet so and my trial is expired darn
+it I haven't even used it yet but that
+sets like that and now I'll use the same
+display so this camera will eventually
+be for the front and rear cameras when I
+access it now I don't get anything so I
+think it's because my rear camera
+doesn't have power unless my reverse
+lights are on I'm going to change that
+so that I can access it at any time
+through this F cam app I think once it
+sees that it will then allow me to pick
+the front cam I'm not entirely sure I'll
+play with it in the meantime I can just
+go to that avian input mute that and
+then you can see what's going on in the
+front cam I also have some switches down
+below that will allow me to manipulate
+between three cameras and switch which
+camera view I'm looking at that's not
+quite done being set up yet and then
+finally here is my navigation which I'm
+using Google Maps it comes with I go
+loaded but quite frankly I just like the
+sort of lean Google Maps usage and works
+really well I have my maps loaded
+offline in my area so when I'm not
+connected to a hotspot or Wi-Fi it will
+work but as you can see now I'm
+connected to my house and it gives me
+real-time traffic updates which is just
+fine I also have ways on here which
+works equally well it's really all
+have my main interface is pretty simple
+I spend most of my time listening to
+Sirius XM and by underneath that that'll
+play my controls are here and I really
+like having this to mix feature which is
+just phenomenal I can set up a whole
+bunch of favorite channels and then to
+mix we'll go through and just it's song
+to song and I don't have to listen to a
+bunch of stuff I don't want to hear I
+don't have to listen to talk or
+commercials or anything like that that's
+really nice
+as you can see it's plenty fast I mean
+sometimes it takes a little bit to load
+the first time I open up something but
+overall I'm perfectly happy with this I
+know there was a question on whether or
+not I would have gone with the octa-core
+model I don't think so two gigs of ram
+is just plenty I've loaded up a lot of
+stuff and done a lot of things with you
+even right here let's just look at how
+much RAM I'm using so yeah I'm not even
+using half of my memory if you have a
+one gig of memory system you're gonna be
+hurt you're gonna be maxed out right now
+I've still I've got half of my available
+memory free and I think that makes a
+huge difference on how things work let's
+pick dashcam viewer right so I have a
+dashcam that will allow me to connect
+with Wi-Fi so one of the things that I
+liked about this and why I bought it is
+the ability to use that Wi-Fi connection
+and get video straight off of my dash
+cam I used to do that on my phone but
+now I can do it straight on the dash cam
+viewer
+I mean it's not super speedy but to be
+honest with you it's no slower than heck
+you know this is a Samsung Galaxy 7 it
+drives me crazy a lot you can see here
+I've got two different cameras forward
+facing and anti rear facing so I'm able
+to access that through Wi-Fi I don't use
+it for anything of the configuration but
+if I want to pull a video then I can
+come in here and grab video I say
+there's an accident or whatever I'll
+just pick one hopefully that's innocent
+I can come in here take a look at actual
+dashcam footage that has been recorded
+on my system and it's just me talking
+that's kind of funny let me go back to
+that I'll give you a little better idea
+of what we're dealing with here let's go
+back earlier let's go let's take a drive
+here
+somewhere on my lunch break there we go
+so it doesn't play very smoothly through
+Wi-Fi if I download it locally it plays
+plays much smoother so anyway that's one
+utility one function and like I said I
+don't have any real issues with it I
+feel like I've got plenty of horsepower
+for what I'm looking for so one thing
+that I do want to talk about is how to
+get split screen one of the features of
+the Android 7 version is the ability to
+have split screen whether you use it or
+not is another story but let's say I
+have maps open and I want to have that
+open and also say my my audio player
+let's say that I'm running see what I
+have on here google play music alright
+so here's how this works
+it works best if you have these things
+all right look at all these things I
+have loaded and it's still running fine
+I've got maps up and what I'm going to
+do is press and hold that same button
+that will allow me now to select a
+second app that I want so I'll do play
+music
+and this is probably one of the slowest
+loading ones because it has to have
+connect to the Wi-Fi as well for this so
+now now I've got both of these apps open
+side-by-side so I've tried doing the
+adjustment thing and just subtly adjust
+that doesn't seem to work really well
+but and if you if you go home it will
+split them apart and if you hit that
+again it'll bring them back into play
+for you so it's kind of interesting that
+way but anyway just want to show you
+that because that is one of the
+differentiators between Android six and
+Android seven so and if you've got one
+that you wanted to keep you could just
+swipe the other one off and then you've
+got that one one of my gripes is the
+home button and the power button here
+are really close so sometimes I'll
+accidentally hit the power button when
+I'm actually trying to go home so that
+takes a little bit of annoyance but use
+that so anyway that's to see what else
+do I want to talk about here one thing I
+will say is don't be afraid to go in
+here and experiment with settings what I
+found is a lot of apps are hidden from
+view until you enable them so I go into
+the factory settings em one two three
+four five six and and I've enabled a lot
+of these things for example DBR if it's
+no you won't see an option for DVR
+recording I put I pod radio TV you know
+also I'm obviously not using TPMS my
+point being is that if you want to plug
+in a USB webcam for example then you
+want to set this to DVR USB and then
+what that's going to give you is an app
+that is DVR right here that app does not
+exist until you go in and make a
+selection there as a matter of fact I
+have this Logitech USB camera
+that I just plugged in for fun to see if
+it would work so if you're interested in
+using a dashcam of any sort you can see
+here I just this is a straight like from
+Walmart dashcam you can also set it to
+record and I don't know how this all
+works because I haven't played with it
+and I already have another camera for
+dashcam you can tell it to record to the
+GPS SD card or internal flash memory of
+it anyway
+that is a straight up I think I just
+took a picture that is a straight up
+dashcam that's a crazy picture and and
+that is through the DVR app like I said
+that did not exist until I enabled that
+function so if you're looking for
+something then try that unplug that
+there are several other things that that
+I noticed when I was in here in the
+settings you can change the car logo you
+can do a user-defined a custom one and
+then come in here and see I think in
+download I have here's a pretty lame Oh
+3d profile logo but you can set this for
+an animation logo and then do apply and
+then it'll ask you to reboot and when
+you reboot now this is gonna look ugly
+because it's white but just trust me on
+this if you have something with a black
+or transparent background this could
+look pretty amazing you can do pretty
+much whatever you want with this so bad
+example but just in the sake of
+expediency I'll show you what I happen
+to have on the system but see it just
+threw that in there instead of saying
+whatever it did I think before
+had Jeep and it animates it for you also
+a little bit cool you don't don't worry
+about figuring that out so I don't know
+what file types it takes but I'm
+assuming JPEG you know paying sort of
+stuff oh one thing while that's still
+running I want to point out is you don't
+need for the system to be booted for the
+reverse cam to work that's a really nice
+feature because even though Android
+isn't loaded I can get in and go and
+have access to my camera I don't have to
+wait for the system to boot up and
+that's uh that's a very welcome thing
+that I was actually really surprised to
+see loads up you know that's a full boot
+right there and that's really not too
+bad but again I've got access to my
+camera it'll take a few seconds for my
+audio player and all that stuff to be
+able to come online what else here I've
+installed a lot of apps some apps that
+say they're not compatible with this
+device in the App Store I've been able
+to successfully side load messages is
+one of them this is from AT&T it sends
+my text messages
+here I'm not gonna open it cuz you can
+see all my text messages when I went to
+the Play Store it said not available for
+your device so if your device is not
+compatible I just win found an APK and
+then installed it directly and it worked
+amazingly well so that was pretty cool
+there is a little bit of a lag I can't
+even play games and stuff and this is
+probably a good one to show you
+lag but yeah I mean it's a capable
+machine now I didn't buy this to replace
+my phone or any other tablet but you
+know if you're sitting you know sitting
+in line at Starbucks drive-through is
+where I end up messing around with stuff
+like this but yeah it does work
+[Music]
+top
+so now you can start to see the
+processor slow down it takes a little
+while for these things to load once they
+get loaded it's not it's not too bad I
+don't you think about it you're playing
+a game on your stereo so you can see a
+little bit of this lag see what is it
+500 milliseconds half a second something
+like that see so it does cause me to
+miss but anyway so that's a real look at
+the performance of this particular
+device if you bought this to play fruit
+ninja though you'll probably be annoyed
+if you bought it as a stereo you'll be
+happy that you can also play fruit ninja
+which is kind of ridiculous so anyway
+all right one other thing I want to talk
+about in that settings probably one
+other thing maybe there'll be more this
+comes up a lot the CANbus there is no
+canvas for this it's got its own little
+can bus adapter and it uses that it
+doesn't use your can bus directly so
+there's nothing in here I've been able
+to find that actually is compatible with
+this unit so if you find it let me know
+but don't be surprised if it says no if
+your steering wheel controls aren't
+working the way you expect them to don't
+be surprised it's just the way this
+particular unit is is made these
+interfaces the the settings the firmware
+the the apps they're designed for a
+broad variety of manufacturers and
+nuances and this one just happens to
+have stuff that doesn't matter I pretty
+much left these settings the same I may
+crank some things up or change them here
+and there radio I went set it to America
+one
+I think mine was actually set to
+something else like China or whatever so
+you might go in there and do that we've
+already talked about the car logo notice
+it defaults back when you come in here
+I'll put it back to Jeep where was Jeep
+there you are all right apply and then
+what else I think that's it key study
+doesn't work again with this different
+settings here front camera I have turned
+on I have disabled switch front camera
+after reverse you might try that every
+printing everything pretty much I've
+left the same unfortunately aunt volume
+I thought maybe I could increase the
+volume but it's actually only has
+decrease so that didn't help me very
+much I'm gonna exit out of here I'm
+gonna say cancel the reboot because I
+don't want to take you through that EQ I
+felt like the EQ was a little bit
+overpowering so what I did is I reduced
+the normal level so before this this was
+like a rock preset or something
+everything was pushed up I brought
+everything down except I left the base
+and I cranked that sub up I don't think
+it makes a difference oh but that did
+help instead of having everything like
+this you know basically I brought it all
+the way the lowest one down to zero and
+then played off of that which got I
+probably just totally messed up my sound
+but because I care about you guys and
+I've got my loudness on I'm not entirely
+sure that makes a difference so anyway
+that's the EQ you can get to that by
+going to the radio
+it's the same EQ what I find though is
+some apps will have their own EQ
+settings and you can fine tune Google
+Play is one of them that will allow you
+to independently adjust EQ settings
+power amp is another one I come in here
+to settings though I believe yeah there
+is an equalizer I don't have it turned
+on but you can further manipulate things
+what I found is the inputs that are
+internal the music players audio players
+all that are much better than the radio
+to be honest with you my XM is coming in
+through the AV input and it sounds
+really good I think again it's all gonna
+be relative as far as steering wheel
+keys go by the way this works is the
+volume up and down are here on the back
+the middle one is a source select so you
+would think the mute would be on the
+side with the volume but it's not so
+what's going video avian radio so I can
+go through and change those music movies
+all that on the left side the middle one
+is the mute button and the up and down
+are going to be preset selects or next
+song back song so if I go to the radio
+it's gonna jump through my pre-selects
+[Music]
+and let me mute that but those are all
+of the controls you're gonna get you're
+not gonna get stop and pause none of the
+front controls well I mean a cruise
+control still works but the voice
+recognition doesn't work now you can get
+a separate device a pack interface that
+will give you the ability to map
+probably all of your buttons I don't
+have that I may play with that later but
+all right so one question I need to
+answer is where is my SD card this is
+one hand down here in the glove box
+right here is where my SD card
+extension comes out I can actually open
+it up right there and take out the SD
+card it just goes up through the
+backside and that works really well as
+far as fit and finish you can see it's
+not bad it's not perfect when I'm
+completely done I will probably use some
+sealant around this to keep water out
+the only NIT I have is this little
+raised section right here I don't know
+if you can see it right there I haven't
+quite figured out how to get rid of that
+I may have to heat it up a little bit
+what else I think that that's really it
+I've done another video on how to mirror
+using the EZ connected app that can also
+be done I now have an an activated phone
+iPhone it's going to work exactly the
+same way I'm just going to go in here
+and select that hotspot connect to it
+and then once you do that you come in
+here to the phone for airplay mirroring
+and you set this EC Mirror TV and it
+will mirror your phone so if I pick
+something like news you can see when you
+rotate the screen
+it goes up on there so the only downside
+is you can't control it like you can
+with the Android you can control the
+screen from your head unit but there's
+another video that talks about that but
+anyway that's it
+I'm happy and it's working well for me
+could it be better
+of course could it be worse absolutely
+but yeah I mean that's where I'm at
+right now I'm really enjoying the heck
+out of it and starting to make it my own
+so if you have any questions let me know
+in the comments thanks for watching I'll
+catch you on the next one

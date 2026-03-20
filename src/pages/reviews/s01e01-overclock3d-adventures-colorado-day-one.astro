@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "S01E01 OVERCLOCK3D ADVENTURES | COLORADO | DAY ONE";
+export const description = "Join us on the Colorado adventure exploring the backcountry with Jeeps and motorcycles.";
+const youtubeId = "VH-a4PpnuCE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-04-04";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Overclock3D Jeeps"
+  },
+  {
+    "label": "Product",
+    "value": "Adventure Series"
+  },
+  {
+    "label": "Platform",
+    "value": "Jeep"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road adventures"
+  },
+  {
+    "label": "Category",
+    "value": "Off-Road"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to the first exciting episode of the OVERCLOCK3D Adventures, where we embark on a thrilling journey through Colorado's hauntingly beautiful landscapes. In this episode, we set off from Baltimore, Maryland, and travel a staggering 5,400 miles across 11 states. Join me and my buddy Drew on this epic adventure where we're ready to tackle the infamous Colorado Backcountry Discovery Route.</p><h2>Main Points</h2><p>Day one starts early at 5:45 AM, filled with anticipation and a vehicle loaded for the long journey ahead. The unique pairing of Drew on his modified motorcycle and me in my trusty Jeep sets the tone for what promises to be an unforgettable experience. Together, we navigate through winding roads and explore the stunning Colorado trails, designed for both two-wheeled and four-wheeled enthusiasts.</p><h2>Practical Implications</h2><p>This journey isn't just about driving; it's about exploring the spirit of adventure that off-roading embodies. It's essential to prepare adequately, from knowing your vehicle's capabilities to understanding the trails you'll encounter. The Colorado adventure illustrates how a well-planned expedition can lead to many awesome memories, given the proper equipment and a reliable buddy by your side.</p><h2>Key Takeaways</h2><p>As we delve deeper into our Colorado adventure, stay tuned for more captivating days filled with excitement, challenges, and the joy of discovering new places. This is just the beginning, and for all Jeep enthusiasts and outdoor lovers, the upcoming episodes promise to deliver a wealth of tips, gear reviews, and unmissable trail experiences!</p>
+
+</article>
+
+</SiteLayout>

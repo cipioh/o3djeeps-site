@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Steer Smarts YETI Teaser";
+export const description = "Explore the Steer Smarts YETI steering upgrade for Jeep JKUs and its features, benefits, and installation tips.";
+const youtubeId = "Ap-U7RQwotk";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-05-29";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Steer Smarts"
+  },
+  {
+    "label": "Product",
+    "value": "YETI Heavy Duty Steering"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Steering Enhancement"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Steer Smarts YETI heavy-duty steering system is a solid upgrade for any Jeep JKU owner looking to enhance off-road performance and tackle challenging terrains. With its robust design and innovative features, it stands out as a worthwhile investment for both hardcore off-road enthusiasts and casual adventurers.</p><h2>What Stands Out</h2><p>One of the most impressive aspects of the YETI steering setup is its durable construction. The heavy-duty 30mm ball joints and 1.625-inch outer diameter tubing offer a sturdy framework that can withstand the rigors of off-road driving. Additionally, the anti-flop capability is an innovative feature that allows for better articulation without losing control over the steering.</p><h2>Design and Features</h2><p>The YETI steering system integrates several design elements aimed at improving performance and reliability. Key features include:</p><ul><li><strong>Durable Materials:</strong> Constructed from DOM quench inner wall tubing, which provides superior strength compared to standard materials.</li><li><strong>Ball Joints:</strong> The 30mm ball joints ensure a tight fit and reduced risk of wear and tear, which is critical when navigating rough terrains.</li><li><strong>Anti-Flop Capabilities:</strong> This unique design allows one side to articulate while the other remains stable, preventing steering flop and enhancing response.</li><li><strong>High Steer Mount Compatibility:</strong> The patented reverse taper system enables high steer mounting without the need for drilling the knuckle, which simplifies installation and preserves vehicle integrity.</li></ul><h2>Real-World Use</h2><p>Based on firsthand experience, the YETI system significantly improves steering feedback and control during off-road excursions. The steering feels precise and is responsive even over the most rugged trails. With the added stabilization from the anti-flop feature, drivers can navigate through rocks and technical sections without the anxiety of losing control. Furthermore, the upgrade’s compatibility with existing components, like the Synergy track bar bracket, means you can achieve high steer configuration with minimal hassle.</p><h2>Who This Is For</h2><p>The Steer Smarts YETI steering overhaul is perfect for Jeep JKU owners who frequently venture off the beaten path. Its robust construction and advanced features make it suitable for both amateur off-roaders looking to enhance their vehicle's capabilities and seasoned enthusiasts wanting to fine-tune their setup for extreme situations.</p><h2>Key Takeaways</h2><p>Overall, the Steer Smarts YETI heavy-duty steering upgrade represents a significant advancement in steering technology for Jeep JKUs. Its exceptional build quality, along with innovative features like the anti-flop capability and high steer mount compatibility, make it a top choice for anyone serious about their off-roading experience. Stay tuned for more detailed installation insights and performance reviews in upcoming videos!</p>
+
+</article>
+
+</SiteLayout>

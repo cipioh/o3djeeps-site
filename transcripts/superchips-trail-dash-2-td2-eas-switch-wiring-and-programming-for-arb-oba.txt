@@ -1,0 +1,253 @@
+hey there CPO here and I'm going to let
+you look over my shoulder as I program
+the new switches for the Super Chips
+Trail dash2 I just installed an air
+compressor and two air lockers so I've
+got three switches that I'm going to use
+one is the air compressor master switch
+that just charges the system and then a
+front locker and a rear Locker so I
+decided to use the Super Chips uh
+tr-2 as the switch panel for the lockers
+um number one uh it's something that's
+not easily accessed accidentally and the
+only time I'm really using lockers is
+when I'm out off-roading in which case
+the trail dash2 is a part of that um
+environment so um anyway let me catch
+you up to where we're at uh all the
+wiring I did and I can't really show you
+but basically the uh the trail Dash 2
+comes with um some adapters for switches
+um but let me show you that just know
+it's all hooked up and plugged what I'm
+going to do now is start the vehicle um
+after you take a look at the wiring and
+uh and then we'll uh program these
+switches I'll show you how that works
+all right I got my wiring all done I
+haven't I haven't tied it up yet but I
+got it figured out which was the hard
+part so uh the way I'm going to power
+the um the lockers and the air compress
+in general is through my Super Chips
+Trail -2 using these EAS these accessory
+switch is so um this is really
+interesting how this works but this goes
+uh through the firewall to the Super
+Chips uh and then out of here I can
+control uh two switches per module uh
+and you can stack three modules to have
+six switches total I've got four
+switches total although I'm only using
+three now I'm not using the factory
+wiring harness from ARB I'm just using
+this part that connects uh to um you
+know the essential stuff the essential
+one that goes to the battery but the
+other one is a big Rat's Nest that is
+for the switches so I'm not using that
+one at all that one uh would have
+plugged into here uh I cut off the uh
+Spades off the end of that and then
+figured out my wiring strategy here so I
+did leave it a little bit the same of
+how they intended which is you have to
+turn on the main isolator switch in
+order to activate the um the two um
+Locker switches so I I left that the
+same even though I don't know if I
+really need to do that I guess the cool
+thing for me is I can basically leave
+the two lockers um on and then just use
+the master switch to engage both lockers
+at the same time if I wanted to um and
+obviously I want to use the air
+compressor without lockers uh so uh I
+just I'm not 100% sure I really care
+about the utility of that especially
+with virtual switches but it is what it
+is so this is going to be the power for
+the switches it's going to come off of
+the fuse box and a tap where I already
+have uh a tap for my uh IND dash camera
+uh or my dash camera but that um so
+that's going to come on when the keys on
+that's going to activate the
+switches and then switch one on this
+will be uh the main ARB compressor power
+I flip that on compressor will you know
+spool up to whatever 100 PSI and then I
+could go air tires or whatever
+switch uh one and two on this are the
+actual um lockers so the switch one
+feeds uh into switch two as the inbound
+power and then uh the two outbounds on
+this one are Locker one and Locker two
+so I'm getting ready to put all that
+together and like I said I'll probably
+do another video
+on uh the Super Chips component because
+that's a whole different Monster uh
+getting this stuff connected um but uh
+that's where so Common Grounds on all
+these uh switches uh they're just going
+to the ground on the
+ARB um the red is the um is being fed by
+turning on switch two or switch one uh
+on this first uh block so the output of
+that powers the red and also uh axes an
+input red to the two other switches um
+and then
+yellow and let's see
+here uh switch
+one my green which feeds switch one on
+ARB which is yellow and then switch two
+here is blue these are labeled but
+they're they're kind of upside down so
+switch to is the blue one on this that's
+going to feed the green AR B circuit
+which is Locker number two uh then I've
+got to hook up my solenoids and get my
+pressure switch in here and then um good
+to go so I'm going to start tidying up
+the wiring now that I've explained it to
+you I'm going to tape it up and and make
+it tidy um and then uh hopefully this
+thing will be going soon I got to like I
+said install the solenoids still um I
+didn't want to do that right away
+because those need Airlines and I
+haven't run Airlines yet so once I get
+all the wiring figured out then I'll run
+the airlines next all right hopefully
+you can see that okay
+in order to turn on the uh td2 we have
+to turn on the vehicle and then I will
+turn off the Jeep but then leave it in
+the on position uh for the programming
+so we don't have the vehicle running the
+entire time
+[Music]
+all right so I'm going to go ah aad and
+turn off the vehicle and then flip it
+back into the on position so as you can
+see here it's automatically identified
+four switches um I had to have those all
+powered up and connected before that
+worked otherwise uh there was nothing
+there and you just press them and uh
+they it just says you know you have to
+have these accessories so once you get
+everything all wired up basically I
+think it looks for a detection of that
+power source that you need for the
+switches um I happen to know uh switch
+one on 958 is my primary arm switch for
+the compressor um so the two um EAS
+accessory uh boxes have little
+identification numbers or like serial
+numbers and the last three digits was
+958 on one and 61 on the other and
+that's how it's identifying which is
+which so I have switch one from 61
+switch one from 958 switch two from 61
+and switch two from
+958 that's not the order I want to leave
+them in but that's how it came by
+default so uh if I turn this switch
+on you can hear my compressor uh kick on
+because that's the master compressor um
+but I don't want to leave this with
+switch one switch two blah blah blah
+blah blah so I'm going to long press
+this and then uh I get to go in here and
+rename that
+switch one or two words and less than 12
+characters each word
+so um what I can do here is I'm going to
+go
+a i
+r I just want to see what that looks
+like I just called it
+air it doesn't have to be fancy it says
+air it's not very big long press let
+go um you can change the button color
+things like that um switch information
+just says it's E power switch on off
+it's the green wire okay well I knew
+that going into
+this um so let me go back to the other
+switch
+so uh I made switch one on the other one
+the front
+Locker so I'm going to long press that
+and then I'm going to rename
+switch and I'm going to
+do front
+[Music]
+um
+space c k oops it helps if I can
+uh type OC c k e
+r see what that looks like exit
+menu all right front
+Locker um and then switch to
+is rear
+Locker rename
+switch done exit
+menu all right front Locker rear Locker
+Air now I don't like air because it
+seems kind of light oops
+there we go rename
+switch Let's
+Do
+master master air I don't
+know the good news is I can change this
+as many times as I want later until I
+figure out what I really want so front
+Locker master air rear Locker now what I
+don't let me switch to there's nothing
+on switch
+to so I'm going to rename
+it um
+eject just so it has something
+interesting
+there all
+right so now I want to rearrange the
+order of these
+switches um I don't really care about
+the color actually I do care care
+about so I'm going to change master
+air to be
+green yeah I like that better and then
+with the lockers being
+Reds okay so now I want to rearrange so
+I want faster air to be here in the
+front so select new
+Switch uh e switch one 958 is the green
+one okay so now master air is there I
+want this one to be
+eject oh I can deactivate that
+what does that look
+like oh nice I'm just going to leave it
+deactivated I
+guess yeah okay not that it matters
+but all right and then uh I want this
+one to be front
+locker and that is uh switch one on 61
+and then this one to be rear Locker
+there we
+go uh select new Switch switch two on
+61 all right there we go master
+air front Locker rear Locker
+wasn't didn't I make this
+green I could have swore I made that
+green maybe it changes if you move it
+around all right master air yeah there
+we go all right master
+air front and rear
+lockers boom that's it that's
+programming the Super Chips Trail Dash 2
+with a couple of EAS uh switch adapters
+thanks for watching I'll catch you on
+the next one

@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "MasterFlow MF-1050 Tsunami Air Compressor (MV-50-VIAIR-400P)";
+export const description = "A comprehensive review of the MasterFlow MF-1050 Tsunami Air Compressor including features, performance, and real-world applications.";
+const youtubeId = "Hv6zZS95U3w";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-02-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Reviews, Gear, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "MasterFlow"
+  },
+  {
+    "label": "Model",
+    "value": "MF-1050 Tsunami"
+  },
+  {
+    "label": "Flow Rate",
+    "value": "2.54 CFM"
+  },
+  {
+    "label": "Weight",
+    "value": "5 lbs"
+  },
+  {
+    "label": "Power Source",
+    "value": "12V DC"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Here is a great comparison:", "url": "http://www.parksoffroad.com/prodreview/inflatortest/inflatormain.htm"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The MasterFlow MF-1050 Tsunami Air Compressor is a stellar choice for off-road enthusiasts seeking a budget-friendly compressor that doesn’t compromise on performance. With an efficient airflow capacity and compatibility with various fittings, it stands out as a reliable companion for inflating tires, sporting equipment, and more.</p><h2>What Stands Out</h2><p>This compressor's affordability is one of its biggest selling points. Retailing for around $60 but often found on sale (like the $45 deal mentioned in the video), it offers excellent value for money compared to other compressors in the same category. Additionally, its compact design means it’s easy to store and transport, which is essential for on-the-go adventures.</p><h2>Design and Features</h2><p>The MF-1050 Tsunami is built with practicality in mind. It comes with a <strong>10-foot power cord</strong> for easy connection to your vehicle's battery and a <strong>16-foot air hose</strong> that comfortably reaches your tires. The addition of a <strong>Type-M fitting</strong> allows it to work with standard air hose connectors, making it versatile for various attachments.</p><p>The compressor's lightweight design, tipping the scales at just 5 pounds, ensures it won’t add unnecessary weight to your gear. Plus, it arrives in a handy nylon bag for easy storage and organization.</p><h2>Real-World Use</h2><p>In practical applications, the MF-1050 has proven effective in quickly inflating tires after a tough trail ride. User reviews consistently highlight its reliability and speed, with an airflow rate of <strong>2.54 CFM</strong> that lets you get back on the road faster.</p><p>Moreover, its compatibility with various fittings and accessories means you can use it not just for tires but also for inflating sports equipment or air mattresses, making it a versatile addition to your off-road toolkit.</p><h2>Who This Is For</h2><p>This compressor is perfect for budget-conscious off-roaders who need a dependable air compressor without breaking the bank. It's ideal for those who frequently venture into remote areas where tire inflation is essential. Whether you're a casual driver or a dedicated off-roader, the MF-1050 provides peace of mind that you’ll be able to handle any air-related situation.</p><h2>Key Takeaways</h2><ul><li>Affordable and reliable option for inflating tires and equipment.</li><li>Lightweight and portable design ensures easy transport and storage.</li><li>Versatile connections with Type-M fittings enhance functionality.</li><li>Excellent user ratings indicate strong community approval.</li></ul>
+
+</article>
+
+</SiteLayout>

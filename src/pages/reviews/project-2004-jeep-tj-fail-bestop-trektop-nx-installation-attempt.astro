@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ - FAIL - Bestop Trektop NX Installation Attempt";
+export const description = "An engaging look at a challenging DIY install of the Bestop Trektop NX on a 2004 Jeep TJ, featuring real-world setbacks and tips.";
+const youtubeId = "3RF_3DXbyoo";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-06-19";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Bestop"
+  },
+  {
+    "label": "Product",
+    "value": "Trektop NX"
+  },
+  {
+    "label": "Platform",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Soft top installation"
+  },
+  {
+    "label": "Category",
+    "value": "Mods"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "We started to install CJ's new top and, well, Mother Nature had other plans.  I talked to CJ earlier that morning about it being a nice day to take the old top off and I can help him install the new top when I get home from work. Then I later saw the weather warnings roll in, so I called him to tell him to disregard. I was too late, as he had already removed the old top!  Based on forecasts... we had about three hours until the storm was expected to roll in, so I rushed home to get his top installed. Well... the weather was early!", "url": "https://www.extremeterrain.com/bestop-trektop-nx-tj-5682035.html"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Installing a new soft top can dramatically improve the look and functionality of your Jeep, but as recent adventures showed, it can also be fraught with unforeseen challenges. In this article, we'll go through the steps involved in installing the Bestop Trektop NX on a 2004 Jeep TJ and share some valuable insights to avoid the pitfalls that can stall your project.</p><h2>What This Covers</h2><p>This guide will specifically cover the installation of the Trektop NX, from removing the old top to properly fitting the new components, including door surrounds. We’ll also discuss preparation and what to expect when Mother Nature has other plans.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation:</strong> Before starting the installation, ensure your workspace is clear, and you have all necessary tools at hand. This includes torx screwdrivers and any additional hardware that comes with the new top.</li><li><strong>Removing the Old Top:</strong> Begin by carefully disassembling the old top. The process involves removing the frame assembly and any existing door surrounds. Be mindful of how parts are attached, as these details will guide the installation of your new top.</li><li><strong>Installing New Door Surrounds:</strong> The Trektop NX comes with new door surrounds. Install these correctly to ensure a proper seal against the elements. Align the holes with the provided pins, making sure no foam is twisted, which could compromise waterproofing.</li><li><strong>Setting Up the New Top:</strong> With the new door surrounds in place, it’s time to fit the Trektop NX. This part should be done carefully, ensuring that all components align correctly to avoid leaks.</li><li><strong>Final Adjustments:</strong> Once the top is installed, adjust all parts to make sure they are secured in place. Take the time to test the fit and check if there are any gaps or areas that need further alignment.</li></ol><h2>Helpful Tips</h2><p>To ensure a smoother installation, consider these tips:</p><ul><li>Check the weather forecast ahead of time. Thunderstorms can sneak up quickly and ruin your day, as we learned the hard way.</li><li>Allow the new top to acclimate to the temperature outside before the install. This can make the material more pliable and easier to work with.</li><li>Have a friend help out during the installation. It can make handling large pieces much more manageable.</li></ul><h2>Key Takeaways</h2><p>Installing the Bestop Trektop NX on your Jeep TJ can significantly enhance your off-road experience, but it’s essential to be prepared for unexpected challenges. Don’t rush your installation; take the time to do it right, and don’t be disheartened by setbacks like inclement weather. With careful planning and execution, you'll be driving under a new top in no time.</p>
+
+</article>
+
+</SiteLayout>

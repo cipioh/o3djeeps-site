@@ -1,0 +1,111 @@
+hey there's Scipio here and one of the
+things I get frequently asked is for
+help on how to tune a CB antenna so I'm
+getting ready to tune this because
+number one I've changed my front bumper
+I haven't actually checked
+SWR since I remounted a new bumper
+that's gonna change things and I've got
+an off road trip coming up this weekend
+so I'll be using the CB on the trail I
+wanted to make sure I have things set up
+right so let me show you this process
+maybe it'll help you out if you were
+curious how this works so basically what
+I've done is I've just double checked my
+antenna made sure I had good ground and
+then my actual CB module is in here
+under where the glovebox goes and I've
+connected my SWR meter which I'll show
+you here in a second and I'll show you
+this process of how to check your SWR
+and what the readings mean alright so
+here's my meter here and basically I
+have it plugged in line in the place of
+the antenna so the antenna actually the
+CB antenna plugs in here this end plugs
+into where the antenna would go on the
+CB I've got to kind of hold this just
+because of positioning but I want to
+show you the controls really quick
+there's a switch between forward and ref
+and then this little knob here so what
+I'm gonna do first is check channel one
+and then I'm gonna check channel 40 I
+usually don't really worry about
+checking the middle channel I just
+checked the front and the last so one in
+40 and then those will tell me how
+things are going with my antenna alright
+so I've got my CB here I'm gonna put it
+on channel one alright channel one and
+then I'm gonna put this two forward and
+I'm gonna key the mic and then adjust
+this knob I'm trying to do this holding
+until that needle is on set and then I'm
+gonna flip it to forward and you can see
+my SWR is like really low like below one
+and a quarter maybe one point one okay
+and basically I'm just holding down the
+transmit button now what I'm going to do
+is move to channel 40 and do the same
+exact thing put it to 40 key the mic
+adjust this until it's right on the set
+mark which I cannot do with two fingers
+and then flip it down to reference and
+you can see I'm still good I'm at 1.5
+anything below two is actually really
+good three gets into the danger zone but
+what I can tell you is I'm a little bit
+higher on the upper channel than I am
+the lower channel so one was channel one
+was very low down here and then channel
+40 was you know probably one and a
+quarter what that tells me is my antenna
+is electrically long so I'm gonna go
+shorten my antenna so this is actually
+kind of easy for me because I have a
+fire stick adjustable antenna so I've
+got this little tip here and I can
+literally loosen up the lock and then
+shorten this down so I'm just going to
+shorten it a little at a time put my cap
+back on cuz you want to test it with
+your cap on and then I'll check in see
+did that make a difference all right
+same thing again go to channel one key
+the mic
+still one good go into 40 key the mic
+just a set knob boom and I'm down to
+pretty much one so that is basically as
+good as I'm gonna probably get so that's
+one of the benefits of number one and
+adjustable tip antenna and number two
+having an SWR meter in hand that you can
+literally just plug into your system
+double check I can go in and check the
+middle the 19 channel now and I should
+be pretty much the same right around
+that one mark yep
+so I'm good across the board with regard
+to this particular CB alright that's it
+that's how to check your antenna
+SWR using an SWR meter and obviously how
+to lengthen and shorten that antenna now
+if you get really crazy readings you'll
+find anything like above 3 generally I
+found is a grounding problem where I
+just don't have a good ground for the
+antenna or or something like that so if
+you're below 2 even in the 1 and 1/2
+range one and a half to two like that as
+long as you can get those to be the same
+from one channel 1 to 40 you should
+probably be okay
+I'm not a CB expert I just know what
+other people tell me and what research I
+do but I'm super happy to have that all
+the way down at one on Channel 119 and
+40 that makes me happy so anyway thanks
+for watching I'll catch you on the next
+one

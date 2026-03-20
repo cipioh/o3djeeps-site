@@ -1,0 +1,175 @@
+Hey there, Supio here and welcome back
+to diff school. This is the old pinion
+uh
+gear. So, why are we tearing it down?
+We're going to tear it down so I can
+measure the shim that's between the
+pinion gear and the pinion bearing
+because that shim is controlling our
+pinion depth dimension
+and we want to know what that size is
+cuz we're going to copy.
+Okay, so it basically saves us the
+trouble of figuring that out in another
+way. If you were to
+go by a couple of gear install manuals
+or spend a lot of time reading OEM gear
+installation procedures,
+they all have a mathematical
+plan for determining pinion depth.
+Um, and this is, I would say,
+[Music]
+a bit of the potential gray area from
+shop to shop to decide
+how they want to to determine what
+pinion depth to use.
+What I do that seems to work for me
+is
+I I copy the old pinion depth,
+put the gears in,
+take a look at what those results were,
+and I go from there. Especially in this
+case, right, where it was a manufacturer
+installed
+setup. Do you run the risk of
+copying somebody else's pad setup?
+No, because
+we are just using that as a start point.
+Okay.
+[Music]
+But you can see how this how deformed
+this is
+from the floor right
+and this is our
+our pinion depth shim that the OEM used.
+So that's what we pulled out to copy.
+Yeah.
+First pinion race
+which we use these aluminum,
+you know, indust industry standard
+uh kits here to tap them in.
+[Music]
+[Music]
+[Music]
+So, really just making sure this doesn't
+jam while we're pushing.
+As long as this bins by hand,
+I figure that it's not
+wrecking the cage. Bearing cage
+[Music]
+[Music]
+So up here I can see how many how much
+pressure we're putting on it.
+Heat. Heat.
+[Music]
+[Music]
+So now we're finally to the stage where
+we take this carrier and ring gear
+assembly
+and uh start trying to fit it into the
+housing. And this is sort of the fit and
+measure and test and fit and shim and
+test and fit uh part of things. And I'm
+not going to lie, I watched Paul uh
+insert and remove this assembly, I don't
+know, six or seven, maybe even eight
+times during the process of this. and he
+explains it here in a minute, but
+basically he's working his way up uh to
+tightness, leaving um a backlash, a felt
+backlash, but sort of sneaking into it
+as opposed to starting too tight and
+then uh and then having issues trying to
+back out. And he explains why here in a
+second. Um but anyway, uh this is uh you
+know, we're getting close, but uh this
+is sort of the uh got to feel it, got to
+test it. And then here pretty soon we
+start measuring it. Um and uh and we're
+going to leave this video once we get
+this thing sort of uh in place. But uh
+hope you guys are enjoy this. Uh here
+you go. Back to Paul.
+Like that's getting more snug.
+But
+there was no
+feelable backlash.
+Now there is
+But I don't know how much
+we fine tune that as we go along.
+So right now, just by feel, I know I do
+have some backlash. Really have no idea
+how much until I tighten this down. But
+what you can't do
+is you can't just blindly tighten this
+because these bolts can just chip the
+teeth. Like there's no movement in here.
+You're just jamming
+the teeth together. So you can just be
+like really tight my wrench,
+you know, you just hear this crack or
+snap or whatever or or crack it worse,
+crack it, not even notice you cracked
+it, you know, crack it enough that it's
+got a crack in it, but a piece doesn't
+fall off. So to say maybe you don't
+notice it. So when you're working on
+this,
+you kind of keep closing in on getting
+it tighter. You don't start off like
+cuz you don't know where that point is
+yet.
+So as you tighten for the first time,
+I just got to know that I always keep
+have I always have some backlash.
+[Music]
+As long as you kind of hear that still,
+you know you have jammed it.
+[Music]
+So, our current backlash is 17.
+So, we're going to have to adjust that
+a little bit tighter before we can do
+our first pinion depth check. If we were
+trying to teach someone how to do gears,
+we we'd write that 17 down and then we'd
+make a a note of what amount of shims
+were adding to what side and then we'd
+make a
+and for someone learning it to see how
+it progresses. So now what I'm going to
+be doing
+is
+being more particular about when I pull
+this out
+what goes where. Now I'm going to see if
+I can add 20,000 to this side. I don't
+know if that'll fit. This is 12,000.
+I'm going to try to see if I can sneak
+in 20,000 or close to that.
+This where clean hands matter for
+handling these shims.
+That's just to the driver's side. Going
+to throw this in and
+[Music]
+see what kind of an impact it made.
+Definitely getting tighter.
+What's your final target? Don't know.
+It's different on everyone.
+Yeah.
+If this were a
+If you weren't changing carriers,
+[Music]
+we would have recorded that better.
+But this is going to be more
+performance-based correction as compared
+to mathematicalbased correction.
+I don't know if that makes sense, but
+Yep.
+So, this isn't falling out anymore. It's
+starting to get snug. Bam. So, now we're
+8,000 47
+7,000.
+So, that was just a kind of a lucky
+guess based on,
+you know, a little bit a little bit of a
+good guess and a little bit of luck.

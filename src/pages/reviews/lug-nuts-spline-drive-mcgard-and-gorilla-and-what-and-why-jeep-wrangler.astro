@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Lug Nuts - Spline Drive McGard and Gorilla and What and Why Jeep Wrangler";
+export const description = "Explore the best lug nuts for Jeep Wranglers with insights on McGard and Gorilla options for your off-road adventures.";
+const youtubeId = "3DrePZ_ok5c";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-10-06";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "McGard"
+  },
+  {
+    "label": "Product",
+    "value": "SplineDrive Lug Nuts"
+  },
+  {
+    "label": "Use Case",
+    "value": "Aftermarket lug nut selection for Jeep Wrangler"
+  }
+];
+const externalLinks = [{"label": "I found this when searching the McGard... and found it interesting. That piece at the cone is actually a brass washer and it's designed to allow you to tighten things without damaging the rim.", "url": "https://forum.miata.net/vb/archive/index.php/t-312032.html"}, {"label": "McGard 65540BK SplineDrive Chrome/Black (1/2\" - 20 Thread Size) Wheel Installation Kit for 5-Lug Wheels", "url": "http://amzn.to/2xmagvU"}, {"label": "Gorilla Automotive 21183BC 1/2\" Black Tuner Lug Nut, (Pack of 20)", "url": "http://amzn.to/2y2J5oF"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Lug nuts might not be the most glamorous part of your Jeep, but they play a crucial role in ensuring your vehicle's wheels are secure and functioning properly. In this article, we'll dive into the benefits of using aftermarket lug nuts, specifically comparing the McGard and Gorilla spline drive options available for Jeep Wranglers. Whether you're upgrading your wheels or just looking to replace worn-out factory lug nuts, understanding your choices is essential.</p><h2>Main Points</h2><p>When selecting lug nuts for your Jeep, there are a few key considerations:</p><ul><li><strong>Thread Size:</strong> Jeep Wranglers typically use a standard 1/2" x 20 thread size, which you must confirm before making a purchase.</li><li><strong>Seat Type:</strong> Make sure you choose lug nuts with a cone seat, as Wranglers have a 60-degree cone cut that ensures proper fitment.</li><li><strong>Material and Construction:</strong> Opting for stainless steel options like McGard provides durability and rust resistance.</li><li><strong>Security Features:</strong> Spline drive lug nuts, like those from McGard, come with an added layer of theft deterrence thanks to their unique design.</li></ul><h2>Practical Implications</h2><p>The choice between McGard and Gorilla lug nuts largely comes down to your budget and the specific needs of your Jeep build. McGard products tend to be priced higher, with premium features like a built-in taper washer designed to protect your rims from damage during installation. This innovative design allows the washer to spin freely until it contacts the rim, preventing any grinding that might occur with standard lug nuts.</p><p>McGard's kits typically include locking lug nuts that enhance security, making it less likely for thieves to easily access your wheels. While the Gorilla lug nuts are more economical, they offer a solid performance with less frill — making them a great choice for those not focusing as much on aesthetics or high-end security.</p><h2>Key Takeaways</h2><p>When it comes to lug nuts for your Jeep Wrangler:</p><ol><li>Confirm the thread size and seat type to ensure proper fitment.</li><li>Consider your intended use: McGard offers premium protection and reliability, while Gorilla provides a budget-friendly option.</li><li>Keep in mind that spline drive lug nuts may require specific tools for installation, so maintaining your lug nut key is essential.</li><li>Always make sure to follow proper torque specifications to prevent issues down the line.</li></ol><p>Your choice of lug nuts can drastically affect your Jeep's performance and safety. Regardless of the path you choose, ensuring that your wheels are securely fastened is non-negotiable for any off-road enthusiast.</p>
+
+</article>
+
+</SiteLayout>

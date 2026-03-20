@@ -1,0 +1,136 @@
+hey there CP oh here and I want to do a
+quick video to address a specific
+question about the state Kane version
+7.1 Android with the got two gigs ram
+and the quad-core processor and the
+question surrounds whether or not when
+you come in and out of sleep mode if the
+SD card and USB devices are still
+recognized by the system don't worry I'm
+gonna still do another video hopefully
+soon in the next couple of days maybe
+even today if I could swing in sort of
+giving you my overall thoughts after
+having lived with it for a little over a
+week now but I wanted to address this
+specific topic because I actually
+struggled with this in the beginning as
+well and I'm not sure if I did something
+to change that or not but I was having
+the same issue where when I turn off the
+vehicle it goes into sleep mode I would
+turn it back on you know after getting
+out of the store or you know whatever
+and in the SD card was no longer
+recognized so that was problematic when
+I was storing music offline files to it
+then they weren't available dealing way
+to get out of it is to do a reboot but
+I'm not having that problem anymore so
+I'll show you one change I made I'm not
+sure if it makes a difference but let's
+take a look alright so I'm actually
+turned off now and and it is in the
+dormancy sleep mode so I'm gonna go
+ahead and turn it on and as you can see
+[Music]
+we mute that I've got the XM satellite
+receiver right there and that's which
+actually playing through the AVN so
+that's why I defaulted to that screen
+ignore my launcher I'm just sort of I
+don't have a launch or set up yet anyway
+so as you can see here my SD card is
+recognised and accessible so oddly
+enough it's oddly enough you know it's
+working fine and then I'll go ahead and
+turn the vehicle off again everything
+shuts down and it doesn't matter how
+long minutes ours comes back on got a
+mute and then boom
+still still here so that is reassuring
+what I can tell you is I did make a
+change and
+oh right there I did make a a change in
+the settings that I didn't have before
+I'm not sure if that's what caused it to
+start working or not better but I'll
+tell you about it just in case you can
+try this in the other there is a section
+that says front camera on mine came
+default off and I don't actually have a
+front camera on now but I wanted to see
+what difference it did so one of the
+things that did is it gave me the F
+camera app this can't this F cam app
+which I don't have anything there and my
+rear camera is only powered when the
+reverse lights are on so that app did
+not exist until I set that front camera
+on now what I'm wondering is if it does
+something to refresh this SD card
+because the front camera essentially can
+be used as a DVR so I wonder if this
+forces that to to reacquire that device
+I would say if you're having problems
+with that try that front camera it's in
+the settings
+and it's in the factory settings
+password is em 1 2 3 4 5 6 and then over
+here in the other so I turn that on so
+that I could get that F cam app and I
+think that may actually have helped but
+so try that if if you're having problems
+and I don't know about the USB actually
+I'm gonna plug in a USB device right now
+old rebooting I just plugged a thumb
+drive into the console while that's
+rebooting the XM kind of cool I wish it
+was a more of an integrated look but it
+has a lot of cool features that even the
+UConnect serious didn't have like to mix
+and the ability replay I get a replay
+list here I can go check out songs that
+have played and then select them up on
+demand like the monster with Eminem and
+Rihanna boom
+alright so there we go yep SD card and
+USB device are recognized so that's a
+good thing looking at the SD kind of an
+interesting side note
+I do have a movie in here a bunch of
+movies in here but I have zero dark
+thirty backed up here I'll just open
+straight up with the video player I'll
+resume playing pretty awesome quality by
+the way sorry there's that reflection
+from the window but yeah totally good
+video player so what I'm gonna do is
+turn the vehicle off now see what
+happens it's gonna shut down
+and then I don't know why my XM supposed
+to shut down when I do that to it maybe
+freaking out because I've been turning
+it on and off so much
+it's like screw you I'm just staying all
+right so let's turn it back on
+interesting so no everything's back up
+it just takes a little moment to load so
+alright anyway guys so that's it just
+wanted to go through that with you I'm
+consistently able to reacts s my SD card
+and my USB device after a restart I'm
+not sure if it has anything to do with
+that front camera setting or not but at
+least try it if you're having a problem
+if you're not having a problem don't fix
+what's not broke I did have a problem in
+the beginning which is why I'm not sure
+if that change made a difference but I
+have noticed lately it's always been
+back on so I may start reusing it as a
+download source for offline videos and
+audios so let me know in the comments if
+you are experienced in this and or if
+you have a solution anyway thanks for
+watching I'll catch you on the next one

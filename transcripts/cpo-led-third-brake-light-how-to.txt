@@ -1,0 +1,166 @@
+hey there CPO here and this video is
+going to be an answer to probably the
+most requested bit of information I've
+ever had on my Jeep and that is how I
+wired my third brake light uh this is
+the way I did it there's a lot of ways
+to do this um it's all limited to your
+own creativity and whatever materials
+and supplies you might have on hand the
+way I did mine is with these uh wheel
+dust Shields this is a 15-in dust shield
+that had a 5x5 bolt pattern uh which
+would fit my tire carrier um I've seen
+people use uh you know bucket tops or
+any other things uh the brake Shield was
+easy but you know whatever you want to
+use that will fit will work um for the
+lighting I used these 3/4 in LED marker
+lights uh these were supposedly made in
+the USA I got a bundle of 10 of them I'm
+using eight for my particular
+application because I've got eight holes
+in my rims
+now the most challenging part is
+probably just figuring out uh how to lay
+the light so that they're equally
+distributed uh in the rim the way I
+chose to do that was to um calculate the
+circumference of this particular uh
+brake dust cover and then basically
+divide it by eight so that I ended up
+with eight uh equal sections of that
+circumference so about 13 cm is where I
+made each Mark and what that's going to
+give me is 8 equally distributed lights
+um around the
+circumference and there we go I have my
+marks then the next thing I wanted to do
+was go ahead and uh find the center I'm
+going to put it on the outside edge of
+this brake dust cover so I just found
+the center of each of those marks and
+the dust cover is really flimsy uh thin
+material and you'll see that whenever I
+use this uh hole punch to uh make my uh
+holes uh for drilling uh super super
+soft and in hindsight you know I'm not
+really thrilled with how that worked out
+I mean I almost would rather you know
+use a uh another piece of flat plastic
+or something like that but hey I had
+this um and it worked so uh I made all
+of my holes um for where I was going to
+drill and then eventually I went down
+and just kind of flattened out this
+whole thing because uh it's like I said
+it's really flimsy material uh but it
+doesn't really matter and in the end
+result you can't tell at all um but
+that's what it looked like and then the
+next thing I needed to do was go drill
+uh my 8 3/4 in uh
+holes and uh the more precise you get
+those the better because these LEDs have
+grommets that are going to fit in and
+you can see how this works um and
+everything is sort of pressed into place
+so it has to fit snug to uh to hold
+properly but I will say once you get
+them pressed in uh they don't go
+anywhere so that's a good thing and
+that's how the light fits in and uh I'll
+just put in uh the other seven of those
+and Bam there you go that's what it
+looks like before I complete the
+wiring now when I did the wiring uh
+before I soldered everything up I did a
+test fit to make sure um everything was
+exactly the way I wanted it uh but I
+didn't do video of soldering the wires
+but I did solder use whatever method you
+want but make sure it's going to be
+waterproof and vibration resistant I
+bundled the lights into groups of four
+and uh and soed them together and then
+took the two bundles and then soldered
+those together uh additionally um I had
+to figure out how to tap into the third
+brake light circuit now there is already
+a third brake light wire coming out of
+the uh tailgate and what I did is just
+Trace those wires uh in the harness that
+goes back into the main vehicle uh and
+figured out which two of those wires um
+I needed to use all right so here is the
+final sort of
+assembly and
+basically hopefully you can
+see I have all eight of the LEDs
+wired and basically they're wired in
+parallel so so it's probably hard to
+tell from here but all the blacks are
+connected together and all of the whites
+are connected together and they
+terminate here in this plug this is a
+actually a fairly High amperage uh
+capable plug but it's a just a couple
+plugs I had on hand for my RC stuff I
+wanted the ability to disconnect should
+for whatever reason I need to remove
+this and then it would just come off and
+unplug here since I've made this video I
+did switch to these waterproof plugs
+which I think are a much better
+option now
+this is running back along here what I
+needed was a way to have the tire
+carrier open and
+close without having a whole bunch of
+cable hanging out and then
+additionally wanted to be able to open
+it all the
+way without uh you know being Tethered
+to the tailgate so um the
+original wire for the third brake light
+came out here that's no longer there
+this is the new wire I have
+running and I actually have it going
+under
+underneath this up into
+here and I'm literally tapped into the
+third brake light
+wiring which is the same wiring that
+actually goes into the
+tailgate and comes over here comes over
+here for the third brake light so I
+still have it I just uh tied it up here
+and covered it up so it's out of the way
+but still 100% functional and I could
+easily pop it back through the tailgate
+if I want to go back to
+stock uh but that's basically the wire
+that I just use some quick uh Taps here
+and it's the white and gray wire and a
+gray
+wire and quite frankly I don't remember
+which one was positive and which one was
+negative but uh when you get it wired up
+it will only work one way so uh these
+LEDs uh don't work backwards so I just
+used a test one to figure out if I
+needed black or white connected to which
+wire and that's it so um let me put the
+tire on I'll show you how it all works
+so that's it that's how I wired my third
+brake light on my 2015 jku it's held up
+really well and I'm very happy with it
+since uh I did this I've also relocated
+my license plate to uh the center of the
+spare tire and it still looks really
+cool I think with the red LEDs
+surrounding the license plate when the
+brake is applied so that's it uh hope
+you enjoyed it thanks for watching and
+I'll catch you on the next
+one

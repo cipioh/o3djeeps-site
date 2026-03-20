@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "S01E02 OVERCLOCK3D ADVENTURES - COLORADO -DAY 2/3 - WESTON PASS BUENA VISTA";
+export const description = "Join us on our Colorado off-road adventure, tackling trails and embracing the spirit of exploration.";
+const youtubeId = "oiTIoUTYWd8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-04-06";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Adventure",
+    "value": "Colorado Off-Road"
+  },
+  {
+    "label": "Route",
+    "value": "Colorado Backcountry Discovery Route"
+  },
+  {
+    "label": "Trail Type",
+    "value": "Mixed Terrain"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back to another exciting episode of our off-road adventure series! This time, we journey through the stunning landscapes of Colorado, tackling the rugged terrains of the Colorado Backcountry Discovery Route (COBDR). This episode showcases not only the challenges we face on the trails but also the camaraderie among friends and the sheer joy of exploring the great outdoors.</p><h2>Main Points</h2><p>In this part of our journey, we connect with old friends while navigating some breathtaking routes from Buena Vista, where we unloaded Drew's motorcycle and left our trailer behind, to the peaks that we aim to conquer. Despite mild off-road conditions on this initial segment, the adventure was anything but dull. </p><ul><li><strong>Trail Repairs:</strong> An unexpected hiccup arose when Drew encountered some trouble with his motorcycle, needing trail repairs after a misadventure involving wildlife.</li><li><strong>New Connections:</strong> Having friends like Craig and Shane join us reinforces the community aspect of off-roading and highlights the friendships formed over shared adventures.</li><li><strong>Camp Spot:</strong> Our chosen campsite by a rushing mountain river offered not just beautiful scenery but also a place for reflection and connection with nature.</li></ul><h2>Practical Implications</h2><p>This episode serves as a reminder of the unpredictability of off-roading adventures. Weather conditions, trail closures due to snow, and mechanical failures can all impact the best-laid plans. Tread lightly and be well-prepared: these are the main takeaways for anyone looking to embark on an off-road journey. It's also a nod to the importance of flexibility in one's plans. Being ready to adapt is essential, especially when traversing the wilderness.</p><h2>Key Takeaways</h2><p>As we reflect on this first leg of our Colorado adventure, we reveal key lessons for fellow enthusiasts:</p><ol><li>Always expect the unexpected and prepare for repairs; pack accordingly for mechanical mishaps.</li><li>Finding the right balance between adventure and safety is crucial, especially in remote places.</li><li>Create lasting memories by sharing these experiences with friends who share your passion.</li></ol><p>Join us in the next episode as we continue our trek through the Colorado backcountry, where the trails are as unpredictable as they are thrilling!</p>
+
+</article>
+
+</SiteLayout>

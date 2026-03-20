@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Seicane Head Unit Temperature Test - Is it Getting Too Hot?";
+export const description = "Exploring the Seicane S18JP25 head unit temperature and performance insights from real-world use.";
+const youtubeId = "v24tlcimVTE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-09-16";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Seicane"
+  },
+  {
+    "label": "Product",
+    "value": "S18JP25 Head Unit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Vehicle multimedia and navigation"
+  }
+];
+const externalLinks = [{"label": "I don't feel like it's running hot... but curious about others who say that theirs is.", "url": "http://bit.ly/S18JP25"}, {"label": "O3DJEEPS", "url": "http://amzn.to/2gT0eaG"}, {"label": "O3DJEEPS", "url": "http://amzn.to/2xj8iwb"}, {"label": "O3DJEEPS", "url": "http://amzn.to/2xjbPuh"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the bustling world of aftermarket head units, the <strong>Seicane S18JP25</strong> stands out for its robust features and performance. Today, we'll dive into a curious topic that has surfaced among users: the operating temperature of this head unit. After a lengthy 45-minute commute utilizing various functions like radio, Google Play Music, and Bluetooth connectivity, the objective was to test if the S18JP25 runs hot or remains cool under pressure.</p><h2>Main Points</h2><p>Our host, Scipio, embarked on this simple yet revealing temperature test, aiming to demystify the ongoing discussions within the community regarding the heat generation of this head unit. While many users report excessive heat from their units, the data collected from Scipio's experience points to a different conclusion.</p><ul><li>After a robust usage scenario involving high volume and bass, the display temperature was noted to reach around <strong>100 degrees</strong>.</li><li>The internal components of the unit, however, showed much lower temperatures, ranging between <strong>89 and 93 degrees</strong>.</li><li>Interestingly, the mount surface of the dash, which was significantly hotter than the head unit itself, suggests that the stereo's performance in heat management is commendable.</li></ul><h2>Practical Implications</h2><p>The implications of this test are noteworthy for both current users and potential buyers of the Seicane S18JP25. If you're hesitant about overheating issues, Scipio's findings may provide reassurance. Here are some practical insights based on this experiment:</p><ul><li><strong>Heat Management:</strong> The head unit appears to effectively manage its temperature during prolonged use, signaling that it may not require additional cooling modifications, such as fans, unless users experience abnormal conditions.</li><li><strong>Real-World Application:</strong> If you're planning on high-intensity usage, you can proceed with confidence knowing that the S18JP25 can handle the heat generated without risking component failure.</li><li><strong>Community Feedback:</strong> For users who do experience overheating, it may be worthwhile to share specifics with the community. Differences in installation or environment could explain the discrepancies in performance.</li></ul><h2>Key Takeaways</h2><p>In conclusion, the <strong>Seicane S18JP25</strong> exhibits commendable thermal performance when subjected to a demanding operation. While some users report excessive heat, this practical test suggests that the actual performance of the head unit under normal operating conditions is quite satisfactory. As always, continual feedback from the community will enhance understanding and address concerns as they arise.</p><p>For anyone considering an upgrade or replacement of their vehicle's multimedia system, the Seicane S18JP25 appears to be a viable contender, not only for its features but also for its capacity to remain cool when the music gets loud.</p>
+
+</article>
+
+</SiteLayout>

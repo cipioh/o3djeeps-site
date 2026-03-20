@@ -1,0 +1,60 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Surprise Present for OVERCLOCK3D!";
+export const description = "Discover the new Seicane 10.1 inch Android head unit for OVERCLOCK3D and explore its features and potential upgrades for your Jeep.";
+const youtubeId = "vQlJn2wEzQM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-09-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Seicane"
+  },
+  {
+    "label": "Product",
+    "value": "Model S18JP25 Head Unit"
+  },
+  {
+    "label": "Platform",
+    "value": "Android 7.1"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep Wrangler Upgrade"
+  }
+];
+const externalLinks = [{"label": "I've been thinking about doing this for a long time. Researching. Thinking. Planning. Here is what I am putting into OVERCLOCK3D:", "url": "http://bit.ly/S18JP25"}, {"label": "Here's that Wrangler Forum thread I mentioned in the video:", "url": "http://www.wranglerforum.com/f202/seicane-10-1-hd-headunit-2073001.html"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Seicane Model S18JP25 is a game-changer for Jeep enthusiasts looking to upgrade their factory head unit. With a 10.1-inch touch screen and Android 7.1 operating system, this unit blends functionality with a sleek design, promising to enhance the driving experience significantly.</p><h2>What Stands Out</h2><p>The standout feature of the Seicane head unit is its ability to seamlessly integrate with the factory Alpine sound system without requiring additional adapters. The quad-core processor ensures smooth operation, while the large screen provides ample space for navigation and media controls.</p><h2>Design and Features</h2><p>The design of the S18JP25 is modern and intuitive. The lack of physical buttons gives it a clean look while retaining ease of use through on-screen controls. The unit boasts 2GB of RAM and 16GB of internal memory, allowing for quick access to apps like Google Maps and Waze, which can be crucial for off-road navigation.</p><h2>Real-World Use</h2><p>In practical terms, users can expect a significant upgrade in functionality. The Bluetooth performance, a common pain point in the stock units, is expected to improve drastically. The large display also enhances usability during off-road adventures, making it easier to view maps and trail information at a glance. Additionally, it includes a rearview camera input and provisions for a forward-facing trail cam, adding another layer of functionality.</p><h2>Who This Is For</h2><p>This head unit is ideal for Jeep Wrangler owners who are frustrated with their factory systems and want a more powerful solution for media and navigation needs. It's especially beneficial for those who frequently go off-road and require responsive and reliable technology on the trails.</p><h2>Key Takeaways</h2><ul><li>Seicane’s S18JP25 head unit offers a large touchscreen display and Android features for off-road navigation.</li><li>Compatible with factory Alpine sound systems, minimizing installation hassle.</li><li>Expect improvements in Bluetooth connectivity and general usability.</li><li>Preparation for future upgrades, such as rear and forward-facing cameras, provides extra value.</li></ul><p>Overall, the Seicane Model S18JP25 not only meets the basic needs of entertainment and navigation but promises to enhance the overall Jeep experience, making it a solid investment for any Wrangler enthusiast.</p>
+
+</article>
+
+</SiteLayout>

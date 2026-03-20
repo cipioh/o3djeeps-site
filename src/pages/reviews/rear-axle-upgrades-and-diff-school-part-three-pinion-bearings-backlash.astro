@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Rear Axle Upgrades and Diff School - Part Three -Pinion & Bearings & Backlash";
+export const description = "Explore rear axle upgrades and learn about pinion, bearings, and backlash in this detailed Diff School segment.";
+const youtubeId = "zyjOTmlVEMY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-13";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "Dynatrac"
+  },
+  {
+    "label": "Product",
+    "value": "Trail Leader Axle Package"
+  },
+  {
+    "label": "Use Case",
+    "value": "Rear axle upgrades for Jeep JK models"
+  }
+];
+const externalLinks = [{"label": "These rear axle upgrades come as part of the Dynatrac Trail Leader Package. Here is the info on that package:", "url": "https://www.dynatrac.com/trail-leader-axle-package.html"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back to Diff School! In this third part of our series on rear axle upgrades, we dive deep into the intricacies of pinion gears, bearings, and the crucial concept of backlash. Understanding these elements is essential for any Jeep owner looking to enhance their off-road adventures, particularly if you've upgraded to larger tires and need your drivetrain to keep up.</p><h2>What This Covers</h2><p>In this segment, we focus on the practical steps of adjusting pinion depth, measuring shims, and achieving the right backlash in your axle setup. These adjustments can greatly affect your Jeep's performance on and off the road, so it's vital to grasp these concepts thoroughly.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Tear Down and Measurement:</strong> Begin by disassembling the rear axle to access the pinion gear and bearings. Take note of the shim's thickness, as it controls the pinion depth. This measurement will serve as your starting point for reassembly.</li><li><strong>Fit and Measure:</strong> Once you have your shim size, it's time to fit the carrier and ring gear back into the housing. This process can be meticulous; expect to measure and adjust multiple times to ensure everything aligns perfectly.</li><li><strong>Backlash Adjustment:</strong> Backlash is the play between the ring and pinion gears. Aim for a slight amount that allows the gears to mesh seamlessly without binding. Monitor this adjustment closely, as excessive tightness can lead to catastrophic failures during operations.</li><li><strong>Testing Tightness:</strong> As you adjust, continuously test the tightness of your assembly. You want to be cautious here — tightening too aggressively can cause damage. Instead, gradually close in on the desired tightness while keeping a felt backlash.</li></ol><h2>Helpful Tips</h2><ul><li><strong>Documentation:</strong> Keep a record of your measurements and adjustments. Not only does this aid in making informed changes, but it also serves as a great reference for others learning the process.</li><li><strong>Caution with Tightening:</strong> Always approach tightening with care. Bolts can chip gear teeth if torqued blindly, leading to long-term damage you may not notice immediately.</li><li><strong>Practice Makes Perfect:</strong> If you're new to axle work, expect to repeat the measuring and adjusting a few times. Each attempt is a learning opportunity that hones your skills.</li></ul><h2>Key Takeaways</h2><p>Rear axle upgrades are not just about adding strength; they're about refining the setup to ensure your Jeep is ready for whatever the trail throws at it. Understanding pinion depth, backlash, and the importance of precise measurements is essential for every Jeep enthusiast who wants to maximize their off-roading experience. Take your time with the adjustments, and don’t hesitate to seek help or advice from experienced hands like Paul Warren, who generously shared his knowledge throughout this diff school process.</p><p>Next time you gear up for an axle swap or upgrade, remember these steps and tips. Happy wheeling!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Rear Axle Upgrades and Diff School - Part One - Stock Removal, Gear Oil, and Wear";
+export const description = "Learn about rear axle upgrades, including gear oil importance and maintenance tips for your Jeep.";
+const youtubeId = "OmCuNhQjmPE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-11";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Dynatrac"
+  },
+  {
+    "label": "Product",
+    "value": "Trail Leader Axle Package"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrading Jeep rear axles for off-roading"
+  }
+];
+const externalLinks = [{"label": "These rear axle upgrades come as part of the Dynatrac Trail Leader Package. Here is the info on that package:", "url": "https://www.dynatrac.com/trail-leader-axle-package.html"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this first part of our "Diff School" series, we're diving deep into rear axle upgrades and the crucial role of maintaining gear oil. This in-depth exploration not only covers the essentials of the Dynatrac Trail Leader Package but also sheds light on the intricacies of axle gear maintenance and upgrades.</p><h2>What This Covers</h2><p>The video provides detailed insight into several key areas:</p><ul><li>Removal of stock axles</li><li>Proper gear oil types and maintenance</li><li>Understanding the impacts of oil contamination on axle performance</li><li>Upgrading to 35-spline axles for enhanced durability</li></ul><h2>Step-by-Step Breakdown</h2><p>As we proceed with the upgrades, it’s essential to understand the steps involved:</p><ol><li><strong>Stock Removal:</strong> Begin by carefully removing the existing axle components. Make sure to document the layout and orientation of all parts to ensure proper reinstallation.</li><li><strong>Cleaning and Inspections:</strong> After removal, inspect all parts for wear. Note any areas where sludge has built up, as this can indicate problems with the oil.</li><li><strong>Installing the Upgrades:</strong> With the new Dynatrac components ready, you’ll install the 35-spline axles, ARB locker, and upgraded diff cover. Don’t forget to align everything to the manufacturer’s specifications to avoid future wear.</li><li><strong>Gear Oil Application:</strong> As you finish installation, make sure to add high-quality synthetic gear oil to the system. This is vital for preventing sludge and maintaining optimal operating temperatures.</li></ol><h2>Helpful Tips</h2><p>Throughout the process, keep these practical tips in mind:</p><ul><li>Regularly change your gear oil, especially after off-road trips. If you’re frequently pushing your Jeep's limits, consider changing it after each trip.</li><li>Use a certified synthetic gear oil to enhance lubrication and heat dissipation, which will extend the lifespan of your axle components.</li><li>If you encounter dark, sludgy oil during changes, investigate further for potential bearing damage.</li><li>Mark all components before disassembly to prevent confusion during reassembly, especially with complex parts like axle carriers.</li></ul><h2>Key Takeaways</h2><p>Understanding and upgrading your Jeep's rear axle is crucial, especially for those who enjoy off-roading. The insights shared during this "Diff School" event not only equip you with knowledge for a successful axle upgrade but also highlight the importance of routine maintenance to enhance vehicle longevity. Upgrading to the Dynatrac Trail Leader Package, in particular, provides substantial benefits for the avid off-roader, ensuring your setup is reliable and durable under the stresses of terrain. Make sure to follow along as we delve deeper into the installation process in upcoming videos.</p>
+
+</article>
+
+</SiteLayout>

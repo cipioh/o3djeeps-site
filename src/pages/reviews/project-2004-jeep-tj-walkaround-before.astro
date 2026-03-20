@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ Walkaround - BEFORE";
+export const description = "Explore the details of a 2004 Jeep TJ before its transformation. Discover repairs, modifications, and insights for your own Jeep build.";
+const youtubeId = "SZ7QCYYa-uA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-06";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Model",
+    "value": "2004 Jeep Wrangler TJ"
+  },
+  {
+    "label": "Engine",
+    "value": "Inline 6"
+  },
+  {
+    "label": "Differential",
+    "value": "Dana 44"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The 2004 Jeep Wrangler TJ is a classic choice among off-road enthusiasts, and in this article, we're diving into the details of a specific project Jeep — a vehicle purchased for a new adventure. This marks the beginning of a build process aimed at transforming this TJ into a reliable adventure machine. Here, we’ll cover what to look out for in pre-build inspections, the necessary repairs, and our plans for future modifications.</p><h2>Main Points</h2><p>This Jeep was acquired at a fair price, but it’s important to note that with any used vehicle, especially one from the early 2000s, there are inevitably a few quirks to manage. The seller indicated some possible issues, including potential leaks from the valve cover gasket and the rear main seal. Both are common areas of concern but not necessarily debilitating, allowing us to prioritize our repair list and modifications.</p><ul><li><strong>Frame Condition:</strong> One of the standout features of this Jeep is its remarkably clean frame. Many TJs suffer from rust, especially in critical areas. However, this vehicle showcased minimal rust, making it an optimal candidate for continued use and modification.</li><li><strong>Engine Choice:</strong> Opting for the inline six-cylinder engine, known for its reliability and power, is a crucial decision in this build. While some might favor the four-cylinder option, the inline six provides a blend of power and performance that should suit the needs of any trail adventure.</li><li><strong>Comfort Features:</strong> We’re pleased to see that this Jeep maintained basic comfort amenities like air conditioning, which can significantly enhance the driving experience, especially during those hot summer months.</li><li><strong>Interior Setup:</strong> While the interior is in decent shape, it will require some updates, including new seat covers. The current cloth seats, while functional, don't quite meet the desired aesthetic or utility for off-road use. The plans include upgrading to more durable seat covers that offer protection without sacrificing comfort.</li><li><strong>Top Replacement:</strong> This purchase came with the understanding that a new soft top is a priority. The existing top is torn and needs replacing, a key element as we anticipate some weather challenges during adventures.</li></ul><h2>Practical Implications</h2><p>As enthusiasts, it's vital to approach any used Jeep with a discerning eye, especially when planning for modifications and upgrades. The lessons learned here will apply to many who are contemplating similar builds. Ensuring a solid foundation with a strong frame, clean engine components, and functional comfort features should always be the primary focus when choosing your project vehicle.</p><p>This Jeep is not just a vehicle; it represents an opportunity to customize it according to personal needs and preferences. Whether it’s enhancing off-road capabilities, improving comfort, or modifying for aesthetic appeal, this build serves as a blank canvas.</p><h2>Key Takeaways</h2><p>The journey to transforming this 2004 Jeep Wrangler TJ has just begun, and we’re excited for what’s ahead. Here are some key takeaways to consider for your own Jeep project:</p><ol><li>Inspect for rust and frame condition — a clean frame can save you time and money in the long run.</li><li>Choose the right engine configuration that aligns with your off-road ambitions and daily driving needs.</li><li>Always account for necessary replacements in your budget, such as tops and interior upgrades.</li><li>Enjoy the process! Building a Jeep is as much about the journey as it is about the final product.</li></ol><p>Stay tuned as we document the modifications and repairs we undertake, and remember to subscribe to catch all the action on our YouTube channel!</p>
+
+</article>
+
+</SiteLayout>

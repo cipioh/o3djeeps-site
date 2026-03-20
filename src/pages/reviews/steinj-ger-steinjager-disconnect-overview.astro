@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Steinj\u00e4ger (Steinjager) Quick Disconnect Overview";
+export const description = "Explore the Steinj\u00e4ger Quick Disconnects for Jeep sway bars. Learn why they stand out for tight setups and how to optimize your off-road experience.";
+const youtubeId = "WS_tMGOqaEc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-08-13";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Steinjäger"
+  },
+  {
+    "label": "Product",
+    "value": "Quick Disconnects"
+  },
+  {
+    "label": "Platform",
+    "value": "Jeep Wrangler (2007-2017)"
+  },
+  {
+    "label": "Suspension",
+    "value": "5.5 - 8.0 Inch Lift"
+  },
+  {
+    "label": "Use Case",
+    "value": "Sway Bar Disconnects"
+  }
+];
+const externalLinks = [{"label": "While I had my front bumper off, I thought I'd show you what I am running for quick disconnects on the front swaybar. I couldn't find anything else that would work for me... but these solved my needs!", "url": "http://steinjager.com/shop/index.php?route=product/product&product_id=29856"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The Steinjäger Quick Disconnects provide an innovative solution for Jeep enthusiasts looking to enhance their off-road capabilities. Designed specifically for use with lifted Wranglers, these disconnects are particularly useful for those who often hit the trails and require flexibility in their suspension setup. This article delves into the features, practical implications, and why they might be the right choice for your build.</p><h2>Main Points</h2><p>One of the significant challenges many Jeep owners face is finding sway bar disconnects that fit properly, especially with varying lift heights and tight spaces. During a recent front bumper replacement, it became necessary to explore options that could accommodate a Pro Rock 44 axle with a lift ranging from 5.5 to 8.0 inches. The Steinjäger disconnects emerged as a standout solution due to their unique design that allows for quick disconnection without needing to slide components off a post.</p><ul><li><strong>Ball Joint Design:</strong> The Steinjäger disconnects utilize a ball joint mechanism, which means you are not restricted by post clearance issues. This innovative approach allows you simply to lift and pull the disconnect apart, making it highly efficient during trail adjustments.</li><li><strong>Adjustable Length:</strong> The kit includes a pair of adjustable sway bar end links, which not only fit within the specified range of lift heights but also can be fine-tuned for optimal compatibility with your specific suspension setup.</li><li><strong>Ease of Use:</strong> The simplicity of disconnecting and reconnecting makes these a practical choice for off-road warriors. When you're on the trail and need better axle articulation, having a reliable and easy-to-use disconnect mechanism is critical.</li></ul><h2>Practical Implications</h2><p>The placement of components around the axle can significantly affect which disconnects will work best. During installation, it was discovered that many of the conventional quick disconnects would not fit due to space limitations caused by other components like the steering stabilizer and track bar mount. This is a common issue that can frustrate off-road enthusiasts.</p><p>Having the Steinjäger disconnects allows for performance without compromising clearance. The fact that they can be operated easily even in tight spaces provides peace of mind for those tackling challenging terrains. While there's a noted rattle associated with this setup, many users, including myself, are willing to accept this in exchange for their functionality.</p><h2>Key Takeaways</h2><p>If you're considering upgrading your Jeep's sway bar disconnects, the Steinjäger Quick Disconnects are worth looking into. Their design, which emphasizes ease of use and adaptability, is particularly appealing for those running lifted setups. While noise may be an issue for some, the practicality of quick disconnect capabilities generally outweighs this downside. Be sure to measure and assess your specific build requirements before purchase, but for many Jeep owners, these could be the perfect addition to enhance off-road performance.</p>
+
+</article>
+
+</SiteLayout>

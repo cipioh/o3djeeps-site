@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Mickey Thompson Baja ATZP3 and Metal Series MM-366 Review (Install)";
+export const description = "An in-depth review of Mickey Thompson Baja ATZP3 tires and Metal Series MM-366 wheels for Jeep enthusiasts.";
+const youtubeId = "TTmK4xBs_lw";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2015-09-02";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Mickey Thompson"
+  },
+  {
+    "label": "Product",
+    "value": "Baja ATZP3 Tires and Metal Series MM-366 Wheels"
+  },
+  {
+    "label": "Use Case",
+    "value": "All-terrain and mud terrain for daily driving and off-road adventures"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "See the 4 Wheels and a Motor article here (which has some more technical detail):", "url": "http://4wheelsandamotor.com/reviews/mickey-thompson-metal-series-mm-366-wheels-baja-atz-p3-tires"}, {"label": "See the 4 Wheels and a Motor article here (which has some more technical detail):", "url": "https://www.mickeythompsontires.com/"}, {"label": "Shout out to John Loucks and his crew over at Adams Jeep of Maryland!", "url": "http://www.adamsjeepofmaryland.com/adams-extreme-shop.htm"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Mickey Thompson Baja ATZP3 tires paired with the Metal Series MM-366 wheels offer a perfect blend of style and functionality for Jeep enthusiasts. These products are designed for those who demand both daily drivability and off-road capability. With their robust features and aggressive aesthetic, they make a strong case for any Jeep build.</p><h2>What Stands Out</h2><p>One of the standout features of the Baja ATZP3 tires is their hybrid design, offering the best of both all-terrain and mud-terrain capabilities. The wide footprint and deep tread blocks provide excellent traction whether on rocky trails or highway drives. The Metal Series MM-366 wheels complement these tires brilliantly, featuring a striking eight-spoke design with a matte black finish that not only looks great but also enhances durability.</p><h2>Design and Features</h2><p>The Baja ATZP3 tires feature several innovative technologies:</p><ul><li><strong>PowerPly™ 3-ply Sidewall Construction:</strong> This adds strength and protection against abrasions.</li><li><strong>Multi-draft Grooves:</strong> Engineered for self-cleaning and improved wear, making maintenance easier.</li><li><strong>Deep Sidebiters:</strong> These provide additional side traction, vital for off-road maneuverability.</li></ul><p>The MM-366 wheels showcase an eye-catching eight-spoke design with a faux beadlock look, which appeals to many off-road aficionados. The corrosive-resistant pop-top center cap enhances not just aesthetics but functionality as well.</p><h2>Real-World Use</h2><p>The installation process for these wheels and tires is user-friendly and involves important steps that you should be aware of:</p><ol><li>TPMS sensors from old rims are transferred to the new ones, ensuring you don’t lose knowledge of your tire pressure.</li><li>An advanced road force tire balancer is used. This balances the tire more effectively than traditional methods, applying significant pressure during the process for precision.</li><li>Optimal psi settings are crucial; starting at a default of 37 PSI allows you to adjust based on your specific load.</li></ol><p>When driving with these tires, expect a smooth ride on the highway, thanks to the silica-reinforced tread compound. However, they do not shy away from performance, granting impressive traction when it’s time to hit the trails.</p><h2>Who This Is For</h2><p>These tires and wheels are perfect for Jeep owners who desire versatility—from weekday commuting to weekend off-road excursions. If you enjoy going off the beaten path but also require reliable handling on paved roads, the Mickey Thompson Baja ATZP3 and MM-366 package is an exceptional choice.</p><h2>Key Takeaways</h2><p>In summary, Mickey Thompson has crafted a robust offering for those seeking enhanced off-road performance without sacrificing on-road comfort. The Baja ATZP3 tires are well-regarded for their hybrid capabilities, while the MM-366 wheels deliver excellent style and durability. If you’re upgrading your Jeep, consider this combination for your next adventure!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ Serpentine Belt Replacement";
+export const description = "Learn how to replace the serpentine belt on a 2004 Jeep TJ, ensuring your vehicle runs smoothly and passes inspection.";
+const youtubeId = "CwIaKjKxnl0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-07";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Serpentine belt replacement"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Replacing the serpentine belt on your Jeep TJ is a crucial maintenance task that not only extends the life of your vehicle but also ensures it runs reliably. This tutorial will guide you through the process of replacing the serpentine belt on a 2004 Jeep TJ, highlighting important steps and tips for a successful job.</p><h2>What This Covers</h2><p>In this article, we will cover the necessary tools, step-by-step instructions for removing and installing the serpentine belt, and some common pitfalls to avoid during the process.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Tools:</strong> Before starting, ensure you have the right tools. For this job, you will need:</li><ul><li>A breaker bar or ratchet</li><li>A new serpentine belt</li><li>Wrenches or socket sets</li></ul><li><strong>Inspect the Current Belt:</strong> It's essential to assess the condition of your existing serpentine belt before attempting replacement. In our case, the belt was cracked, indicating it was due for replacement.</li><li><strong>Remove the Old Belt:</strong> Use the breaker bar to relieve tension from the belt by rotating the tensioner. With the belt loose, carefully slide it off any pulleys.</li><li><strong>Install the New Belt:</strong> Follow the routing diagram often found near the front of the engine or in the owner's manual. Ensure the belt is seated properly on each pulley.</li><li><strong>Test the Installation:</strong> Before closing everything up, spin each pulley by hand to ensure the new belt is operating smoothly. Re-engage the tensioner to apply the necessary tension on the belt.</li></ol><h2>Helpful Tips</h2><p>Here are some useful tips to ensure a smooth serpentine belt replacement:</p><ul><li>Always replace the belt with the manufacturer-specified model to ensure the correct fit and function.</li><li>Check the tensioner and pulleys for any wear or damage while you're in there; a faulty tensioner can lead to premature belt wear.</li><li>Regularly inspect your serpentine belt as part of your overall vehicle maintenance routine. Catching issues early can prevent more extensive damage and costly repairs down the line.</li></ul><h2>Key Takeaways</h2><p>Replacing the serpentine belt on your 2004 Jeep TJ is a straightforward maintenance task that can improve vehicle reliability significantly. By keeping an eye on your belt's condition and replacing it as needed, you're ensuring your Jeep continues to perform at its best. Not only will this help your vehicle pass inspections, but it also provides peace of mind knowing your drive system is in top shape. For those looking to tackle this DIY job, following the steps outlined above will help ensure a successful replacement. Happy wrenching!</p>
+
+</article>
+
+</SiteLayout>

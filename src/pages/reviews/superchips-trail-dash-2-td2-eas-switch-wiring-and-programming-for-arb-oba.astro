@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Superchips Trail Dash 2 (TD2) EAS Switch Wiring and Programming for ARB OBA";
+export const description = "Learn to wire and program your Superchips Trail Dash 2 for ARB OBA and lockers in this detailed tutorial.";
+const youtubeId = "EaU6U68rXSY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-09";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Superchips"
+  },
+  {
+    "label": "Product",
+    "value": "Trail Dash 2"
+  },
+  {
+    "label": "Use Case",
+    "value": "Wiring and programming auxiliary switches"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of off-roading, having reliable control over your vehicle's systems can make all the difference between a smooth adventure and a frustrating day on the trails. One of the most popular tools for Jeep enthusiasts is the <strong>Superchips Trail Dash 2 (TD2)</strong>, which not only enhances your Jeep's performance but also offers a smart way to manage additional accessories. In this article, we'll guide you through the process of wiring and programming virtual switches using the TD2 for your ARB Onboard Air (OBA) compressor and lockers, making sure you're ready for your next off-road journey.</p><h2>What This Covers</h2><p>This tutorial will take you step-by-step on:</p><ul><li>Wiring your ARB compressor and lockers to the TD2.</li><li>Using EAS (Expandable Accessory System) adapters to create virtual switches.</li><li>Programming these switches for practical use during off-road adventures.</li></ul><h2>Step-by-Step Breakdown</h2><p>First things first, let's look at the wiring process:</p><ol><li><strong>Preparing the Components:</strong> Ensure you have the Superchips TD2 and the necessary EAS adapters ready. Begin by reviewing your wire connectors and ensuring they are compatible with your ARB accessories.</li><li><strong>Planning Your Wiring:</strong> It's essential to map out how you want to configure the wiring for your air compressor and lockers. In this case, our setup includes a master switch for the compressor and individual switches for the front and rear lockers.</li><li><strong>Connecting Wires:</strong> Begin connecting the wires from the compressor and lockers to the EAS switch modules. It's important to keep the wiring as neat as possible to avoid any electrical issues later on. Use the TD2's wiring layout as a reference.</li><li><strong>Power Supply Setup:</strong> Connect your switches to the vehicle's power source, ensuring that they receive adequate power only when the key is in the 'on' position. Utilizing a tap from the fuse box is often the best strategy.</li><li><strong>Tidying Up:</strong> Once the initial connections are made, organize and secure your wiring with zip ties or electrical tape to prevent any accidents while you are out on the trails.</li><li><strong>Programming the TD2:</strong> After everything is wired up, turn on your Jeep, and access the TD2 interface. Follow the on-screen prompts to program your switches according to your preferences. You can customize the labels for each switch (e.g., 'Master Air', 'Front Locker', 'Rear Locker').</li></ol><h2>Helpful Tips</h2><p>Here are some pointers to keep in mind while you're wiring and programming your TD2:</p><ul><li>Always double-check your connections before powering up the switches. A loose connection can lead to malfunctions.</li><li>Take your time with the programming. It's easy to rearrange the switch order or modify their labels, so make it convenient for your needs.</li><li>If you are unfamiliar with wiring, consider seeking advice from a professional to avoid any mistakes that could lead to electrical failures.</li><li>Document your wiring layout and the programming sequence for future reference, especially if you plan to make adjustments later.</li></ul><h2>Key Takeaways</h2><p>Wiring and programming the <strong>Superchips Trail Dash 2</strong> to control your ARB onboard air compressor and lockers provides a more organized and efficient way to operate your off-road accessories. With virtual switches at your disposal, you can streamline your setup and minimize the risk of accidental engagement. Follow the steps outlined here, and you'll be ready for your next adventure in no time!</p>
+
+</article>
+
+</SiteLayout>

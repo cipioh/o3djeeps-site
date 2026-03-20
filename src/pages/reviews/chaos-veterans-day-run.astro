@@ -1,0 +1,60 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "CHAOS Veterans Day Run";
+export const description = "Join us as we dive into the highlights of the CHAOS Veterans Day Run, covering vehicle setups, performance tuning, and practical off-roading tips.";
+const youtubeId = "sSOzuDL0VPw";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2015-11-18";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Mods, Maintenance"
+  },
+  {
+    "label": "Event",
+    "value": "CHAOS Veterans Day Run"
+  },
+  {
+    "label": "Date",
+    "value": "2015-11-11"
+  },
+  {
+    "label": "Vehicle Type",
+    "value": "Jeep JK"
+  },
+  {
+    "label": "Key Focus",
+    "value": "Suspension tuning and vehicle performance"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The CHAOS Veterans Day Run is not just an event but an opportunity to learn more about your vehicle's capabilities while enjoying the thrill of off-roading. Participants, including members of the CHAOS team, came together to see how their Jeeps handled various terrains while also addressing some of the mechanical specifics that often get overlooked in traditional discussions.</p><h2>Main Points</h2><p>One of the standout features of this run was the emphasis on vehicle maintenance and modification strategies. Participants shared their experiences regarding the Jeep JK's radiator coolant tank, specifically noting how it can potentially detach from the radiator during intense off-roading. A discussion among team members led to the decision to add a safety mechanism to ensure that the overflow tank remains secure, which is a valuable reminder for Jeep owners about preventative maintenance.</p><p>Furthermore, the team evaluated their suspension setups. The bump stops in the rear were working excellently, preventing the shocks from bottoming out, while adjustments were made to the front shocks. The importance of tuning—considering factors like spring rates, ride height, and shock valving—was heavily stressed. Proper tuning not only enhances comfort but significantly improves off-road performance. Participants noticed differences after making minor adjustments to their setups, emphasizing the personalized nature of modding your vehicle based on specific needs.</p><h2>Practical Implications</h2><p>The need for additional cooling units, particularly for the transmission and power steering systems, was highlighted during the run. By keeping these components cool, participants were able to mitigate overheating, which is critical especially during long, high-speed runs. The hands-on experience shared by the team served as a practical guide for anyone looking to enhance their own Jeep’s performance.</p><p>After their practical tests on the trail, the team noticed their shocks heating up gradually, prompting them to plan another high-speed run. This cyclical nature of testing, tweaking, and retesting is a central theme that all off-road enthusiasts can benefit from, highlighting the importance of continual improvement and adaptation in real-world scenarios.</p><h2>Key Takeaways</h2><p>For Jeep owners and off-road enthusiasts, the CHAOS Veterans Day Run illustrated the importance of not just enjoying the ride but understanding the mechanics behind it. Key takeaways include:</p><ul><li>Routine checks for safety mechanisms on vital components, like the coolant tank, can prevent on-trail mishaps.</li><li>Proper tuning of suspension and shock systems can greatly enhance handling and comfort.</li><li>Monitoring engine and transmission temperatures is key to maintaining performance during extended off-road adventures.</li></ul><p>This event was not only memorable and fun, but it also emphasized the commitment of the off-roading community to share knowledge and improve safety and performance across the board. Keep gearing up, tuning in, and hitting those trails!</p>
+
+</article>
+
+</SiteLayout>

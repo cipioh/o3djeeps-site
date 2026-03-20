@@ -1,0 +1,263 @@
+hey there Scipio here and now that I
+have the sick cane installed I'm just
+doing some sort of getting familiar with
+time with it before I upgrade any other
+components I will do another video later
+watch for it I'm going to talk about my
+overall impressions after having lived
+with it for a few days I wanted to
+experience it for a little bit before I
+gave any real opinions out but this
+video I'm specifically going to talk to
+getting the music on the device either
+directly from the device itself
+or from your phone and I've had a lot of
+questions about how that looks because
+people want to know you know how the
+music looks are you able to get artists
+and song info' things like that so
+that's what this video is I'm going to
+talk about that stuff so obviously right
+away
+we do have a radio and I'm gonna mute
+this real quick we have a radio in the
+unit am/fm radio so by default that is
+right there what I'm gonna be adding in
+later is this little Sirius XM commander
+touch unit to give me XM satellite
+capability in this display I don't know
+exactly where I'm gonna mount this yet
+I'll figure that out that will be a
+future video but I'll put the link to to
+this product in the description of the
+video so you can at least see what it is
+I'm looking at then the other option is
+getting music off of your phone so this
+is an Android phone and an iPhone so
+we're gonna look at both of them and
+I'll show you basically how they will
+work alright so the very first thing
+let's talk about is just standard
+bluetooth streaming off of the device
+now you can see here there's a Bluetooth
+mem menu I do have a Samsung that's this
+paired with the device
+and if I wanted to play music let me
+pull up something here let's pull up
+Spotify all right so I have Spotify
+playing on here very quietly of course
+because I don't want to violate any
+Terms of Service my Bluetooth I will go
+ahead and connect to the stereo and then
+the way that you want to get audio from
+your Bluetooth you want to use this a2dp
+app and now mute it again I've got the
+bluetooth streaming from my phone
+straight to here and you can see there
+is a little bit of information this is a
+slipknot song the devil and I showing
+right there if I change that blood and
+thunder by Macedon I'm just listening to
+some heavy metal channel so you can see
+that the controls work hopefully you can
+see that you can't hear it if I fast
+forward I can fast forward it's making
+those changes on the device itself if I
+go back to the home screen it's all
+going to depend on your launcher on this
+particular launcher I can see that I'm
+connected by bluetooth audio I have some
+basic controls but this launcher the
+default one doesn't show any information
+I would want to jump to that a2dp app to
+see the details and that's gonna vary
+from launcher to launcher of course but
+that's basically simple functionality of
+how you would get music from your device
+to to the sit cane so that's a streaming
+app if I wanted to go in and just play a
+locally installed song I can go in as
+soon as I swap now I'm playing something
+new off of Google Play Music that's
+reflected there so that is the essential
+screaming to your device now you could
+do that with an Android or an iPhone
+you're just screaming a2dp which is the
+protocol for streaming Bluetooth audio
+now on top of that you do have an
+Android tablet essentially here so
+there's nothing to prevent you which is
+probably what a lot of people are going
+to do from installing a Spotify or a
+music streaming app on the device itself
+the downside of that is you need to have
+constant connectivity Wi-Fi connectivity
+to something either a mobile hotspot or
+have in a cellular network dongle or
+something like that so you could do that
+you could scream it basically use your
+device as a hotspot and then and then
+use the app on the display which will
+give you a more featured look right the
+difference between using Spotify on the
+device and Spotify as a stream is you
+get all this extra information album art
+and all that stuff now there is a way to
+get that onto here and you can do that
+with the mirror link capability you
+could actually view anything with mirror
+links so let me show you mirror link you
+come in here there is an app called easy
+connector and the way easy connector
+works is you can connect Android USB
+hang on I want to look at this Android
+USB Android Wi-Fi or iPhone Wi-Fi and
+you can connect and mirror your display
+to any one of these so for example this
+is the USB cable that is plugged into my
+console which is connected to that if I
+connect my phone to USB what it's going
+to do is double check and make sure that
+it can find it it did and now I am
+basically
+goes into drive mode I'm basically
+mirroring my display onto here but not
+just mirroring the display I have full
+control of the display so it basically
+replicates whatever's on my phone as
+even a touch device so that's kind of
+cool but they also think about this I'm
+not just limited to now music this is
+actually notifications from my phone so
+you can see I have all kinds of things
+happening here don't worry about that so
+if I want to I can do it from here let's
+say what's the safe one to do if I want
+to switch to google play music
+I'm still literally controlling my phone
+and the stereo is muted because I don't
+want the background music I'm literally
+controlling my phone from my tablet
+anyway so but any other app and as you
+can see whatever's on your home screen
+will mirror to the device the downside
+of this is you have to always keep it in
+landscape mode because if you go to
+portrait it looks kind of funny so when
+you set your phone up here you're kind
+of and then things that don't rotate
+obviously aren't gonna rotate whoops but
+so when you when you put your phone in a
+cradle you want to put it like this so
+that things match let me go to YouTube
+YouTube is a good example hey there's
+one of my videos I'll play that if I
+rotate this and I wanted to leave this
+playing then you know I have to keep it
+like this all right so the other way you
+can connect is through Wi-Fi so now I am
+not connected hardline at all and I'm
+gonna go ahead and enable my mobile
+hotspot so that my second will connect
+directly to this through a Wi-Fi direct
+connection and once I've got that
+connection in place I can choose the
+Wi-Fi method now it gives you an option
+of your hotspots basically what it's
+doing is searching for available Wi-Fi
+networks and the first time that you
+connect you're going to want to plug in
+your cable
+and it's going to start the connection
+service and then it will tell you you
+can remove your cable my phone
+automatically goes into driving mode so
+now I can remove the cable and I am now
+streaming through Wi-Fi but let's go
+back to that YouTube
+but you can see it works exactly the
+same let me mute that um it works
+exactly the same but that is a way to
+get music video or other content
+straight onto this device so that's
+pretty cool
+last thing let's look at it from the
+iPhone perspective by the way if you
+lock your screen if it goes off I know
+automatically if it locks your whole
+display is going to do the same thing
+that's kind of a sneaky thing but you
+have little control it's kind of
+interesting
+swipe screen to unlock I can even unlock
+it from there
+which is I mean it's kind of crazy when
+you think about it all right now iPhone
+Wi-Fi you need to set up a mobile
+hotspot here unfortunately on this
+device I don't have mobile hotspot
+availability so I can't do it my FBI
+surveillance plane is actually this
+phone so you know if I want to change
+that to another hotspot but I don't have
+one to give it right now so I can't
+really demonstrate this for you
+I'm hoping it's exactly the same it it
+seems like it is it's a pretty standard
+protocol so you would do the same exact
+steps except you would be able to have
+control of your iPhone a lot of cool
+stuff still yet to learn but this does
+have some amazing capability including
+you know I have a default YouTube app on
+here so not even streaming and boom
+there we go
+I mean I have full access this is a
+tablet system so that's pretty cool
+alright so there is one other thing I
+wanted to talk about and that is
+accessing your files directly off of the
+device I'm plugging in once again into
+the console USB which will give me a
+connection as you can see here to my
+phone which means I can also view those
+files
+so these are files that are on my phone
+let me allow that connection sometimes
+you have to give permissions there now
+that I gave permission to have a lot
+more data if I wanted to play some music
+or videos or anything like that
+browse pictures I mean that's kind of
+cool actually so I can even go in and
+view my my camera roll and check out
+photos so that's that's kind of cool but
+let's get to some music where do I have
+some music on here alright so in here I
+happen to have in my music folder I have
+some files that aren't playable by
+default
+I don't believe ya these are odd files
+or gorebyss or something like that but
+my music mate has pretty standard file
+convention so you can see here these are
+things that have been backed up from my
+google play offline so if I want to play
+some Drake I could come in here and and
+play that so this is another way I could
+just play music straight from the device
+so once I start this playing I can even
+leave and go back to my home screen and
+as you can tell that musics gonna
+continue to play there are some other
+music player options on here that you
+could use a better turn that down anyway
+so just want to make sure you knew that
+there was an option to to literally just
+browse your filesystem and you can
+install other file browsers I'm using a
+total commander as a browser as well but
+anyway that's at another way to get to
+your music from your phone anyway that's
+that thanks for watching I'll catch you
+on the next one

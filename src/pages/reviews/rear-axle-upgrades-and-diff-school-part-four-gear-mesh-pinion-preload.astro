@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Rear Axle Upgrades and Diff School - Part Four - Gear Mesh & Pinion Preload";
+export const description = "Learn about rear axle upgrades and pinion preload in our detailed guide for Jeep enthusiasts.";
+const youtubeId = "X0NDAVRNimI";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-16";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Dynatrac"
+  },
+  {
+    "label": "Product",
+    "value": "Trail Leader Axle Package"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrade for Jeep JK owners"
+  }
+];
+const externalLinks = [{"label": "These rear axle upgrades come as part of the Dynatrac Trail Leader Package. Here is the info on that package:", "url": "https://www.dynatrac.com/trail-leader-axle-package.html"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the latest episode of our ongoing <strong>Diff School</strong> series, we dive deep into rear axle upgrades, focusing specifically on pinion preload and gear mesh. This informative segment is not just a walkthrough; it's a chance to learn from industry expert Paul Warren as he guides us through the technical aspects of upgrading your Jeep's rear differential. Whether you're a seasoned modder or a newbie, there's valuable knowledge to gain here.</p><h2>What This Covers</h2><p>This tutorial takes you through the critical steps of setting up your Jeep's rear axle, including how to achieve the optimal pinion preload for your new gears. Understanding the nuances of gear installation can be the difference between a smooth-running off-road experience and a trail disaster. We will explore:</p><ul><li>Setting pinion preload</li><li>Understanding gear contact patterns</li><li>Importance of diff shimming</li><li>Using gear marking compound for proper setup</li></ul><h2>Step-by-Step Breakdown</h2><p>The process we followed is crucial in ensuring the longevity and reliability of your Jeep’s drivetrain. Here’s a structured approach to the main steps involved:</p><ol><li><strong>Setting Pinion Depth:</strong> The setup begins by adjusting the pinion depth, which is essential for proper gear mesh. Paul demonstrates how this affects driving dynamics.</li><li><strong>Gear Marking Compound Application:</strong> Applying gear marking compound helps visualize the contact pattern between the pinion and ring gear. This step is essential for understanding whether your setup is correct.</li><li><strong>Pinion Preload Adjustment:</strong> Using a crush sleeve, we adjust the preload tension on the pinion bearings. This step determines how tightly the pinion fits into the housing, which impacts performance and longevity.</li><li><strong>Final Assembly:</strong> Reinstalling the pinion and ensuring everything is sealed properly is the last crucial step. We discuss the importance of using the right seals and avoiding any leaks.</li></ol><h2>Helpful Tips</h2><p>Here are a few tips that we learned throughout the installation process that will be helpful whether you're doing this for the first time or refining your technique:</p><ul><li>Always check your gear patterns after adjustment. A visual reference can save time and effort in setting things up correctly.</li><li>Use quality tools to check pinion preload. A specialized torque wrench can make a huge difference in achieving the right specifications.</li><li>Don't rush the process! Proper setup takes time, but a well-done job can pay off in better off-road performance.</li></ul><h2>Key Takeaways</h2><p>The upgrades to your Jeep's rear axle can significantly enhance your off-road capabilities. By ensuring tight tolerances in your pinion setup, not only do you improve reliability, but you also can enjoy smoother driving experiences both on and off the trail. This <strong>Diff School</strong> segment emphasizes that taking time with specifics—like pinion preload and gear mesh—allows you to build a strong foundation for your Jeep modifications.</p>
+
+</article>
+
+</SiteLayout>

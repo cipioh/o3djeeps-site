@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Tom Woods Driveshafts - Install, Benefits, and Maintenance - Jeep Wrangler JKU 1310/1350";
+export const description = "Explore the benefits and installation of Tom Woods Driveshafts for Jeep Wrangler JKU, featuring key insights on maintenance and performance.";
+const youtubeId = "PlpS1huav0Q";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-08-11";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Tom Woods"
+  },
+  {
+    "label": "Product",
+    "value": "Driveshafts"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrading Jeep drivability and durability"
+  }
+];
+const externalLinks = [{"label": "In this video, Paul over at World Tour Off Road helps me install my new Tom Woods Driveshafts. In this video, I'll show you the driveshafts in detail, and Paul provides some pro installation tips and a comparison of the factory rzeppa driveshaft to the double cardan or cv joint of the Tom Woods shafts.", "url": "https://O3Djeeps.com"}, {"label": "In this video, Paul over at World Tour Off Road helps me install my new Tom Woods Driveshafts. In this video, I'll show you the driveshafts in detail, and Paul provides some pro installation tips and a comparison of the factory rzeppa driveshaft to the double cardan or cv joint of the Tom Woods shafts.", "url": "http://www.4xshaft.com/"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the off-roading community, ensuring your Jeep's drivetrain is capable of handling adventurous terrains is not just a luxury—it's a necessity. Today, we're diving into the installation and advantages of Tom Woods Driveshafts, particularly for the Jeep Wrangler JKU. This tutorial, inspired by my YouTube experience with Paul from World Tour Off Road, will provide you practical insights into the benefits of upgrading your driveshaft as well as handy installation tips.</p><h2>What This Covers</h2><p>This article explores the entire process from selecting the right driveshaft to the installation itself. We will look at:</p><ul><li>Understanding driveshaft types and specifications.</li><li>Installation tips for getting the job done smoothly.</li><li>Maintenance advice to extend the lifespan of your new driveshaft.</li></ul><h2>Step-by-Step Breakdown</h2><p>The installation begins with receiving your Tom Woods Driveshafts. Each one is custom-made based on the measurements you provide, ensuring a perfect fit. Here's how you can approach the installation:</p><ol><li><strong>Gather Your Tools:</strong> Ensure you have all necessary tools, including a wrench set, grease gun, and a pry bar.</li><li><strong>Remove the Old Driveshaft:</strong> Start by loosening the nuts that hold the old driveshaft to the yoke at both the differential and the transfer case ends. It may require an impact gun for stubborn nuts.</li><li><strong>Inspect and Clean:</strong> Before installing the new driveshaft, clean the mating surfaces on the transfer case and differential to remove any old RTV sealant and debris.</li><li><strong>Install the New Driveshaft:</strong> Position the Tom Woods Driveshaft and attach it to the yoke with the provided hardware. Pay attention to the orientation—incorrect alignment can lead to imbalance and spinning issues.</li><li><strong>Lubricate U-Joints:</strong> Before final installation, ensure you grease the u-joints using the grease fittings to help them operate smoothly.</li><li><strong>Final Checks:</strong> Make sure everything is secured. Spin the driveshaft manually to check for any binding or unusual noises.</li></ol><h2>Helpful Tips</h2><p>As you look towards installing your driveshaft, consider the following:</p><ul><li><strong>Take Accurate Measurements:</strong> The fit of your driveshaft hinges on the accuracy of your measurement. Use the formula discussed in the video—20,168 divided by tire diameter, multiplied by differential gear ratio—to ensure you select the appropriate series (1310 or 1350).</li><li><strong>Prevent Oil Leaks:</strong> Pay attention to seals, especially when replacing flanges. Using a little grease on the double lip seal during installation will help maintain a good seal and keep oil from leaking.</li><li><strong>Regular Maintenance:</strong> Check the driveshaft joints regularly for wear. Cleaning the boots and ensuring debris does not accumulate can extend the life and performance of both the driveshaft and joints.</li></ul><h2>Key Takeaways</h2><p>Upgrading to Tom Woods Driveshafts will not only enhance your Jeep Wrangler’s performance but also its durability over time. A well-maintained driveshaft can withstand the rigors of off-roading, reducing the risk of failure when tackling challenging terrains. By following this guide and considering the provided tips, you can confidently install and maintain your driveshaft for many off-road adventures to come. Happy wheeling!</p>
+
+</article>
+
+</SiteLayout>

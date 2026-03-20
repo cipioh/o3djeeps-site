@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "OVERCLOCK3D Overview - Subscriber Request";
+export const description = "Explore the OVERCLOCK3D Jeep build with detailed insights on mods, features, and practical use for off-road enthusiasts.";
+const youtubeId = "dN1DCobjZtc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-04-22";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Model",
+    "value": "2015 Jeep Willys Wheeler Edition"
+  },
+  {
+    "label": "Tires",
+    "value": "35-inch tires"
+  },
+  {
+    "label": "Suspension",
+    "value": "Teraflex suspension with King remote reservoir shocks"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this article, we're taking a comprehensive look at the OVERCLOCK3D Jeep build, a project that’s been a labor of love and innovation for every off-road enthusiast. The desire for a well-rounded daily driver that doubles as a formidable off-road vehicle has driven the customization of this particular Jeep. From the suspension lift to the upgraded components carefully selected along the way, this build reflects both practicality and the thrill of adventure on rugged trails.</p><h2>Main Points</h2><p>The 2015 Jeep Willys Wheeler Edition serves as the base for the OVERCLOCK3D build, featuring enhancements that make it capable of tackling off-road challenges while being drivable in everyday situations. Starting with the suspension, the Jeep is equipped with a Teraflex suspensions system designed to improve off-road capability without compromising comfort during daily drives. The addition of King 2.5-inch remote reservoir shocks not only increases suspension performance but also allows for heat dissipation during long treks, enhancing the driving experience on the trails.</p><p>One of the standout features of the build is the choice of tires. Running a set of 35-inch Guard Dogs from Treadrite, this Jeep can conquer any terrain it encounters. Not to forget, the Mickey Thompson rims add an extra layer of rugged style to the build, as well as aiming for a future upgrade to true beadlocks for serious off-road protection in case of tire punctures.</p><h2>Practical Implications</h2><p>While many components enhance the off-road capabilities of the OVERCLOCK3D build, they're also tailored for real-world use. For instance, the Barricade HD front and rear bumpers not only provide robust protection but also include features like a swing-out tire carrier that maximizes space and functionality. The build maintains accessibility, with details like quick-disconnect sway bar links for an easy transition from daily driving to full off-road mode.</p><p>The interior setup is equally impressive, showing extensive thought on tool accessibility and gear storage. With specialized mounts for fire extinguishers, high-lift jacks, and a thoughtful arrangement of gear storage tailored with organization in mind, this Jeep is not only ready for adventure but is equipped for emergencies when they arise. The inclusion of a CB radio with an aftermarket antenna has been critical for communication during outings as well.</p><h2>Key Takeaways</h2><p>The OVERCLOCK3D build is a testament to what can be achieved when passion for the outdoors meets practical enhancements for everyday use. Whether you're considering a build of your own or just interested in understanding what modifications can make a Jeep more capable, it's evident that this setup strikes a balance between daily driver comfort and rugged off-road prowess. Staying tuned to updates not only on this build but future enhancements will continue to inspire fellow Jeep enthusiasts.</p>
+
+</article>
+
+</SiteLayout>

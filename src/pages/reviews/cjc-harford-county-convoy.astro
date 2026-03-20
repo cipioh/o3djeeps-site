@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "CJC Harford County Convoy";
+export const description = "Join the Chesapeake Jeep Club in a poignant convoy honoring fallen deputies in Harford County, showcasing community support and solidarity.";
+const youtubeId = "BxaHAXWltjQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-02-15";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds"
+  },
+  {
+    "label": "Event",
+    "value": "CJC Harford County Convoy"
+  },
+  {
+    "label": "Organizer",
+    "value": "Chesapeake Jeep Club"
+  },
+  {
+    "label": "Purpose",
+    "value": "Honor law enforcement officers"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>On a meaningful day in Maryland, the Chesapeake Jeep Club organized a heartfelt convoy to honor the memory of two Harford County Sheriff's Deputies who tragically lost their lives in 2016. The event turned into a significant gathering not just for Jeep enthusiasts but for the entire community, showcasing an outpouring of love and support for the families affected by this tragedy.</p><h2>Main Points</h2><p>This convoy, consisting of over 100 Jeeps, started in Middle River and made its way to Edgewood, where the community had gathered to pay homage to Deputies Pat Dy and Mark Logston. Such an act of remembrance is far more than just a convoy of vehicles; it is a vivid display of community solidarity and respect for those who serve and protect. The community's response illustrates the profound impact these deputies had, not only in their professional capacity but also as family men, friends, and role models.</p><ul><li>The participation of numerous Jeep owners created a striking visual as they traveled together, showcasing their vehicles and a bond formed through shared interests and values.</li><li>As the Jeeps rolled through, many community members stopped to show their support, leaving flowers, cards, and balloons at a memorial outside the precinct.</li><li>The convoy culminated at the precinct where a squad car, adorned with tributes, served as a focal point for the gathering.</li></ul><h2>Practical Implications</h2><p>This convoy is a poignant reminder of the role vehicles, and specifically, the Jeep community can play in civic engagement and public support during times of loss. It highlights several key aspects:</p><ol><li>Community engagement: The power of gathering together to show support cannot be underestimated. Events like these foster unity and demonstrate the strength of community bonds.</li><li>Public awareness: Such events can help raise awareness about the sacrifices made by law enforcement and encourage discussions about public safety.</li><li>Support for families: The convoy provided an opportunity not only to remember the fallen deputies but also to support their families, illustrating the ongoing connection the community wishes to maintain.</li></ol><h2>Key Takeaways</h2><p>Participating in or witnessing such a momentous occasion serves as a significant reminder of the sacrifices made by first responders. They are not just members of a profession but integral parts of the communities they protect.</p><p>In conclusion, the CJC Harford County Convoy was much more than a gathering of Jeep enthusiasts; it was a fundamental affirmation of community spirit, solidarity, and gratitude for those who serve. It left an indelible mark on all who participated, reinforcing the idea that together we can honor, support, and remember those who have given so much.</p>
+
+</article>
+
+</SiteLayout>

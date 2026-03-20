@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep Wrangler TJ Update";
+export const description = "Get the latest updates on our 2004 Jeep Wrangler TJ project, including undercar maintenance and upgrades.";
+const youtubeId = "7mbLi02IOpE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-09-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Wrangler TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road build and maintenance"
+  }
+];
+const externalLinks = [{"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back, Jeep enthusiasts! In today’s article, we’ll delve into the ongoing journey of the 2004 Jeep Wrangler TJ project. As with any build, progress can often feel slow, but every bolt tightened and fluid changed brings us one step closer to the finished vehicle. Let’s take a look at some critical updates and insights that I've gathered along the way.</p><h2>Main Points</h2><p>Currently, I’m in the midst of a significant stage in the project - the rear end maintenance and upgrades. Recently, I removed the fuel tank to address several essential tasks underneath. While this may seem like a monumental chore, it’s an excellent opportunity to assess what needs attention in that often-neglected space.</p><ul><li><strong>Fluid Change:</strong> I took the opportunity to drain and replace the differential fluid. Ensuring that your diff is filled with clean fluids is crucial for maintaining optimal performance and preventing wear on the gears.</li><li><strong>Undercoating:</strong> Given that we're located in a rust-prone area of the country, applying Eastwood’s rust-encapsulating undercoating is a key part of my strategy to combat corrosion. Since I had access to the underside while the fuel tank was out, it seemed like the perfect time to coat the top of the tank as well.</li><li><strong>New Hardware:</strong> I’ve ordered all-new carriage bolts for reinstalling the fuel tank. It’s essential to use the correct hardware to avoid potential nightmares in the future. Carriage bolts are designed for easy installation, and nobody wants to deal with rusted nuts that are hard to reach later on.</li></ul><h2>Practical Implications</h2><p>Taking the time to perform these maintenance tasks not only enhances the longevity of the vehicle but also improves safety and performance on the trails. Regular upkeep can save you from costly repairs down the line, making these moments pivotal in the build process.</p><p>Additionally, dealing with aspects like the track bar while I have everything opened up allows for a smoother installation of upgraded components later. If you’re considering doing similar maintenance on your Jeep, I highly recommend planning out your upgrades simultaneously.</p><h2>Key Takeaways</h2><p>In summary, the ongoing project for the 2004 Jeep Wrangler TJ is progressing steadily, albeit at a measured pace. Regular maintenance tasks like fluid changes, rust prevention, and ensuring proper hardware installation are fundamental steps that not only enhance the vehicle's performance and reliability but also set the stage for future modifications. Stay tuned for more updates as I continue to push forward with this Jeep project and tackle additional upgrades. Thanks for tuning in, and I'll catch you in the next video update!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "New Bumpers! They Have Arrived! Excessive Industries NBO";
+export const description = "Discover the new Excessive Industries bumpers designed for Jeep JK and JKU, including features, installation insights, and practical uses.";
+const youtubeId = "ZgWCf0GcNxc";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-19";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Excessive Industries"
+  },
+  {
+    "label": "Product",
+    "value": "NBO Series Bumpers"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road protection and improved approach angle"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://www.excessiveindustries.com"}, {"label": "All necessary grade 8 mounting hardware is included.", "url": "http://overclock3d-jku.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The new NBO Series bumpers from Excessive Industries deliver robust protection without extensive modifications to your Jeep JK or JKU. These bumpers offer high clearance, integrated hi-lift jacking points, and customizable options that enhance both functionality and aesthetics. If you’re looking for a solid upgrade that doesn’t compromise off-road capabilities, these bumpers might just be what you need.</p><h2>What Stands Out</h2><p>What really catches the eye with the Excessive Industries bumpers is their well-thought-out design. These bumpers strike a balance between functionality and style, featuring high clearance corners for superior approach and departure angles. Whether you're navigating tight trails or tackling obstacles, these bumpers offer the protection you need while maintaining a sleek profile.</p><h2>Design and Features</h2><p>The NBO Series bumpers are crafted from durable 3/16-inch plate steel, making them tough enough to withstand the rigors of off-road adventures. Key features include:</p><ul><li><strong>Hi-lift jacking points:</strong> Strategically located on each corner for safe and easy recovery.</li><li><strong>Customizable fit:</strong> Options for a stinger or bull bar allow for personalization based on your needs.</li><li><strong>Integrated light enclosures:</strong> Accommodates up to a 20-inch light bar and several pods, ensuring you’re well-lit on your adventures.</li><li><strong>NBO – Nearly Bolt On:</strong> Designed for ease of installation, with minor modifications required for optimal fit.</li></ul><p>This design philosophy ensures that each bumper not only meets high standards for durability but also enhances your Jeep’s capabilities.</p><h2>Real-World Use</h2><p>When tested in real-world conditions, these bumpers excel both in terms of strength and usability. The high clearance allows for better navigability when taking on steep inclines or rocky terrains, and the built-in jacking points greatly speed up recovery times in challenging situations. Given their solid towing capacity of 3,500 lbs, you won’t have to worry about your trailer while off-roading.</p><p>For example, during a recent trail excursion, the combination of the front and rear bumpers helped maintain vehicle stability even on uneven ground. The design’s snug fit to the Jeep's body ensured that I retained maximum approach and departure angles, allowing for smooth transitions over obstacles.</p><h2>Who This Is For</h2><p>These bumpers are perfect for Jeep enthusiasts who regularly engage in off-road adventures yet want a product that doesn’t require excessive modifications. Whether you’re a weekend warrior or a serious off-roader, the Excessive Industries bumpers will serve as a reliable upgrade. The ease of installation—labeled as Nearly Bolt On—means that both seasoned mechanics and DIY newcomers can tackle the project with confidence.</p><h2>Key Takeaways</h2><p>In summary, Excessive Industries has delivered an impressive product with the NBO Series bumpers. They combine durability, functionality, and aesthetic appeal, making them a great choice for Jeep JK/JKU owners. With user-friendly installation and excellent performance in the field, these bumpers will undoubtedly enhance your off-road experience. Make sure to check out their website for more details and consider upgrading your Jeep’s armor for your next adventure.</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Important PSA - Inferior Hardware Alert - Jeep JK Rear Seat Spacers";
+export const description = "Important PSA about Jeep JK rear seat spacers and hardware quality. Ensure you're using proper OEM equivalent fasteners for safety.";
+const youtubeId = "n7mQCnjOQH4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-06-25";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "iar store"
+  },
+  {
+    "label": "Product",
+    "value": "Jeep JK Rear Seat Spacers"
+  },
+  {
+    "label": "Use Case",
+    "value": "Seat comfort and safety upgrade"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "This is the original set I ordered:", "url": "https://www.amazon.com/gp/product/B01MR1ARIW/"}, {"label": "This is the second set I ordered, and am still waiting on delivery:", "url": "https://www.amazon.com/Wrangler-Delrin-Plastic-Recline-Washers/dp/B014TF6ID4/"}, {"label": "Information about Grade and Class of bolts can be found here:", "url": "https://www.boltdepot.com/fastener-information/materials-and-grades/bolt-grade-chart.aspx"}, {"label": "and here", "url": "http://www.fastenermart.com/understanding-fastener-grades-and-classes.html"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of Jeep modifications, attention to detail can mean the difference between a comfortable ride and a potentially dangerous situation. Recently, a discussion within the local Jeep Club brought to light an important consideration when upgrading OEM components, particularly when it comes to the hardware that holds our cherished vehicles together. Today, I want to talk about the implications of using inferior hardware when installing Jeep JK rear seat spacers.</p><h2>Main Points</h2><p>The core of the issue lies in the choice of fasteners included with aftermarket parts. Many enthusiasts have been excited about installing aluminum seat spacers to elevate the rear seat. This seemingly simple modification can drastically improve passenger comfort by angling the seat back, but it can also introduce risks if the hardware used is not up to standard.</p><p>In my particular case, I ordered a set of spacers that were advertised as coming with Class 10.9 bolts, a metric equivalent to Grade 8 in the imperial system. However, upon receiving the product, I discovered that the bolts were actually only Class 8.8, equivalent to a Grade 5. This discrepancy is concerning because Class 8.8 bolts are significantly weaker and thus not suited for critical applications such as passenger seating where safety is paramount.</p><h2>Practical Implications</h2><p>When it comes to modifications that involve seat hardware, the implications of downgrading can be serious. The rear seats in your Jeep are not only about comfort; they directly relate to passenger safety. Using lower-grade bolts could compromise the structural integrity of the seat, increasing the risk of failure in an accident. Therefore, I strongly advise fellow Jeep enthusiasts to double-check the specifications of any hardware that replaces factory parts.</p><p>I ended up returning the initial order after reaching out to the seller, who unhelpfully offered only a refund due to the incorrect specifications. I took my chance on a second set of spacers from a company that clearly indicated they used Class 10.9 hardware in their advertising. This made me feel much more confident, even if it cost me a slight premium.</p><h2>Key Takeaways</h2><ul><li><strong>Always verify hardware specs:</strong> Don’t take advertising claims at face value, especially for critical vehicle components.</li><li><strong>Prioritize safety over cost:</strong> Sometimes spending a little extra can save you from dangerous situations.</li><li><strong>Research before you buy:</strong> Look for reputable sources when upgrading any components that affect safety.</li></ul><p>In conclusion, an upgrade to your Jeep should enhance your driving experience, not jeopardize it. Always do your due diligence and ensure that you’re using reliable hardware to keep your adventures safe and enjoyable.</p>
+
+</article>
+
+</SiteLayout>

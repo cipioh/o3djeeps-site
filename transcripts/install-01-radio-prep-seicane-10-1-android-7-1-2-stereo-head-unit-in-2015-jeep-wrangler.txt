@@ -1,0 +1,267 @@
+everyone Scipio here and in this video
+we're gonna get started with this say
+cane head unit installation in my 2015
+Jeep Wrangler we're gonna start with
+just the basics what we need to get it
+functional
+this will be a staged approach I'm
+looking at the the bare basics how do we
+get it installed so that we can test it
+and that'll be this video we're gonna do
+a test run and test installation and
+then eventually we'll upgrade and
+enhance the capabilities for example
+adding additional cameras or satellite
+receiver or things like that but for now
+let's just look at what we need to do to
+get in the Jeep turned on and test to
+make sure it's even working properly
+alright so use this piece of foam that
+came in the packaging to give me a place
+to set this without scratching the
+display which of course is on this side
+so we're looking right now at the back
+of the unit and this is a fairly
+self-explanatory
+but we're going to go through it anyway
+I've got the connections and all that
+here there are some things we're gonna
+need to do we're gonna need to bridge
+jump some connections between these two
+harnesses you've got your main can bus
+harness this will be the one that plugs
+in to the factory Jeep harness and then
+this is the one that has a variety of
+outputs and inputs for for the head unit
+all right so this harness here I'm gonna
+tell you right now I'm not going to use
+this in my system so I'll show you where
+to plug it in but it's not going in with
+mine
+this is an output for audio this is
+basically a 5.1 audio out you can use it
+to plug in your system into say an
+external amplifier or something like
+that so you've got your rear right and
+left your front right and left you've
+got a center channel and you've got a
+subwoofer channel here again that's for
+output if you choose to use that
+[Music]
+it's going to go right there so that'll
+be the farthest one in on that little
+row of connectors there but like I said
+I'm not using this for my build so that
+can go away
+all right so we'll knock out the easy
+things first this will be your USB
+connector this will allow you to plug in
+any USB devices into your Android system
+which you know the great thing about
+Androids especially the modern versions
+of Android is you can plug pretty much
+anything into it and there are drivers
+for and it will recognize so you can use
+this for external cameras external
+storage whatever so this is going to
+plug in right here in this little center
+spot now this cable isn't very long it
+might be long enough I'm not sure
+exactly if for whatever reason you
+decide you need to extend that you can
+get an extension cable like this plug in
+your USB extension cable and then now
+you've extended your output I'm probably
+gonna try and connect this to my center
+console USB so I don't know if I'm going
+to need an extension or an adapter or
+not yet till I get in there the other
+thing that might be useful
+for some of you is to use a USB hub this
+only has one USB input so you can use a
+hub to split that into probably I would
+say four to five or even as high as you
+know seven reasonably USB inputs for
+this device so if you want to add let's
+say a DVD player and a USB camera and a
+thumb drive you would need a hub to do
+that because this only gives you a
+single output this is for your am/fm
+radio antenna this is an adapter that
+will allow you to plug in to your
+vehicle's antenna
+and we will go through that now here's
+where you have a decision point you have
+a GPS antenna that comes with the head
+unit this guy right here plugs in right
+here
+remove this right behind or on top of
+your AM FM antenna and then you can run
+this GPS antenna up someplace that's
+convenient
+I'm not going to use this one that came
+with the unit instead I'm going to use
+the one that came in my vehicle there's
+already a GPS antenna there so I'm going
+to take an advantage of it
+in order to do that I'm going to use
+this little adapter here because the GPS
+antenna in the Jeep has a different
+connector than this so this is going to
+allow me to connect it I'll put the
+information for this inside the
+description of this video but this is
+going to go right here
+and then now this is gonna go to my
+factory GPS antenna so let me put this
+back on so there we go
+am/fm GPS now the other thing we have to
+deal with is the microphone in
+unfortunately I don't think it's so easy
+to use at the factory microphone because
+it's a noise cancelling microphone not a
+simple signal ground sort of a setup
+like this is so I will probably use this
+aftermarket one that's gonna plug in
+right here although for basic
+functionality I'm not gonna worry about
+this right now there is a microphone on
+the front of the unit and when I do the
+final install I'll do this alright so
+obviously you can see what we have left
+this is where those audio outputs come
+from that I'm not going to use this is
+unused in this particular installation I
+don't know what that's for but it
+doesn't come with anything to plug into
+there and on their website they don't
+tell you what it's for so we're just
+gonna have to ignore that for now this
+is an SD card slot I will plug an SD
+card in probably initially I'm gonna do
+some different things with that later
+though it's a matter of fact let me plug
+in an SD card there now so I don't
+forget this is a micro SD card
+it's a Lexar 300 X 64 gig that's just
+gonna click into place just like that so
+now I've got that 64 gigs of storage
+right there so now we have this block
+here for harnesses this is pretty
+self-explanatory but I'll go ahead and
+plug them in with you just to be sure
+you know where things go these are going
+to plug in you can see there's a notch
+on the top here which is gonna align
+with that notch and then that's gonna
+slip in it's gonna clip in on both sides
+[Music]
+and then this other one is actually zip
+tied together in the orientation that it
+goes so these are identical plugs so if
+you don't know which one goes where it
+could be a little bit confusing so they
+zip tie them together for you just in
+case there is one with a couple of
+blanks in it well that's gonna go on the
+bottom but like I said it should fit in
+just like that for you
+and you can see those two blanks alright
+so that is the extent of our harnesses
+now in order to make some of the
+functionality work we're gonna have to
+jump some of these cables between the
+two harnesses so let's talk about that
+next all right so I am using a reverse
+camera and for that I'm gonna want to
+jump a back car on the one harness with
+reverse on the other harness so the
+reverse one on mine is orange and then
+the back car is purple and then
+basically what I would do is connect
+those two I'll go ahead and do that now
+[Music]
+[Music]
+then the other one I know I need because
+I have a factory Alpine upgrade is I
+need to have the PAMP
+power for that I need this amp con wire
+which is like a darker purple on one
+connector and I'm gonna bridge it
+against the brown amp con wire on the
+other connector the problem I have here
+though is they didn't actually give me a
+bullet on this amp wire I have no idea
+why so I'm gonna end up just splicing
+these together initially and they
+shouldn't have to come disconnected ever
+so it doesn't really matter to me so
+let's cut that now I'm going to go ahead
+and there's a couple ways you could do
+this you could put your own bullet on
+there or you can just do what I'm doing
+which is just redo the whole thing with
+a proper splice
+[Music]
+[Music]
+[Applause]
+[Applause]
+all right there we go amp con wires are
+now permanently soldered together using
+that solder connector so we're good to
+go there
+and then the other one that people tend
+to do a lot is the brake the brake just
+like a pink one and a brown one and to
+be honest with you I don't know what
+this achieves I think I have an idea
+what it achieves but I want to do some
+testing with it
+what I believe this is for and I've
+actually asked sake Ames customer
+support and they have been unhelpful in
+answering this question well there is a
+setting option that allows you to
+disable video play when the vehicle is
+in motion my assumption is it's this
+wire through the canvas that's gonna
+sense that and then when you have that
+feature enabled it will deactivate the
+ability to place videos in that
+situation I'm assuming that's what
+that's for if you left this disconnected
+I don't think there's any negative
+impact you just can't use that feature
+so that's what I believe to be the case
+so I bridge three connections back to
+reverse the amp ones together and then
+the brake ones together and that's it
+now there are several others there's k1
+k2 and ground that's if you need an
+external steering wheel key controller
+and ours will use the built-in steering
+wheel controls on the Jeep so we don't
+need an external one and then an IR
+controller for some sort of an external
+IR device what I am gonna do is make
+sure that all of these little rubber
+covers are pulled down so there's no
+exposed metal and they sort of click
+down into place I don't
+exposed metal there and then camera in
+I'll utilize with my backup camera when
+I install it and then there's another
+aux-in and a video in and then aux out
+so if you have for example headrest
+monitors or your own run to a separate
+monitor you have AV outs you have two
+different audio or you have a left and
+right audio out and then two different
+video outs and then two video ends so
+this will be a rear camera and then when
+I run a front camera all running in
+through here all right I think I'm ready
+to go and start getting this thing put
+into the Jeep but what that means is
+disassembling and taking out the current
+ones so let's go do that now

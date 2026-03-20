@@ -1,0 +1,64 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Upcoming Trip : Am I crazy?";
+export const description = "Join Scipio on an epic 2,000-mile Jeep trek to the Colorado Backcountry Discovery Route. Will he conquer the trails?";
+const youtubeId = "9JNmJ_I4eAE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-03-10";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Starting Point",
+    "value": "Maryland"
+  },
+  {
+    "label": "Destination",
+    "value": "Colorado Backcountry Discovery Route"
+  },
+  {
+    "label": "Total Distance",
+    "value": "2,000 miles"
+  },
+  {
+    "label": "Trail Length",
+    "value": "675 miles"
+  },
+  {
+    "label": "Adventure Type",
+    "value": "Camping and wheeling"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Scipio is gearing up for an adventurous journey, navigating a staggering 2,000 miles from Maryland to the Colorado Backcountry Discovery Route (CBDR). This route promises not only breathtaking vistas but also a variety of challenges designed for dual sport and adventure bikes. However, he's determined that his Jeep will not miss out on this incredible experience.</p><h2>Main Points</h2><p>The CBDR spans roughly 675 miles from the Four Corners area, where Utah, New Mexico, Arizona, and Colorado intersect, all the way to the Wyoming border. Scipio is embracing the thrill and uncertainty of taking his Jeep through this rugged terrain, which is primarily meant for motorcycles. This blend of vehicles presents some unique compatibility opportunities, and he describes previous test runs where the Jeep worked harmoniously with his motorcycle. With newfound confidence, he is ready to tackle what lies ahead.</p><h2>Practical Implications</h2><p>Although Scipio is excited, there are legitimate concerns regarding vehicle preparedness for a journey of this scale. He highlights the details of his custom Jeep build, specifically that it’s tailored for this adventure, featuring upgraded suspension and accessories. Yet, he admits that uncertainties loom over critical components like the front axle and steering, especially without lockers, which can significantly affect performance in off-road conditions. Scipio's candid acknowledgment of these vulnerabilities adds a layer of relatability for viewers who may have experienced similar trepidations on their own off-road journeys.</p><h2>Key Takeaways</h2><p>As Scipio prepares for his thrilling expedition, there are several lessons for off-road enthusiasts:</p><ul><li><strong>Pre-Trip Preparation:</strong> Ensure your vehicle is comprehensively prepped for the journey ahead. Consider whether you have all necessary mods to tackle challenging routes.</li><li><strong>Testing Compatibility:</strong> Always test compatibility of your gear, especially when combining different vehicles on the trail.</li><li><strong>Embrace the Adventure:</strong> While concerns may arise, such as vehicle limitations, don’t let them overshadow the excitement of exploration.</li><li><strong>Community Support:</strong> Connect with others in the off-road community who may offer help or sponsorship during ambitious trips.</li></ul><p>Join Scipio on this unforgettable adventure through one of the most mesmerizing off-road routes. Stay tuned for a detailed account of the trip and the challenges he faces along the way!</p>
+
+</article>
+
+</SiteLayout>

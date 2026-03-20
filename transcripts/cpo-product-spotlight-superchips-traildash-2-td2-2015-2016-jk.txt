@@ -1,0 +1,145 @@
+Hey there, CPO here and I have another
+product spotlight for you. This one
+comes to us from Super Chips. This is
+the Trail Dash2. Particularly, this is
+the Trail Dash2 now compatible with 2015
+and 2016 Jeep Wranglers. So, some of you
+may or may not be aware, but starting
+with the 2015 model year for the
+Wrangler, Jeep has decided to lock down
+the ECM. So tuners don't really get a
+chance to talk to the computer because
+of the encryption involved and how they
+have it locked down. So it's taken a
+little while, but Super Chips has
+finally figured out a way around it.
+Unfortunately for us, it also requires
+getting an unlocked ECM and then
+swapping that out with our stock ECM.
+Alternatively, you can send in your own
+uh ECM and they'll unlock it and send it
+back to you. But who wants to be down
+that long while you wait? So, they're
+willing to cross ship it for you uh so
+that you can get your vehicle uh swapped
+out. So, anyway, the Trail D-2, um this
+is like a supercomput for your vehicle.
+Uh and they're available for a lot of
+vehicles, but it so happens I'm putting
+mine on my 2015 uh Jeep Wrangler JKU.
+All right, so what are the features of
+this new Trail Dash2 from Super Chips?
+Well, it's got a slim, sleek case
+design. That's what they say. But I have
+to agree with them. It's a lot smaller
+actually than I expected it to be. Um, I
+watched a lot of videos and looked at
+some, uh, you know, product photos
+online and it was really kind of hard to
+get a feel for the size,
+but this is my iPhone 6, not the Plus,
+the the regular size. Um, and as you can
+see,
+um, in comparison, this thing isn't too
+big. I, um, like I said, I'm shocked. It
+was smaller than I expected to be, but
+it does have a 5- in fullcolor touch
+display. Um, so small, but feature-
+packed. I haven't played with everything
+yet because quite frankly, it just got
+it. And I've got some work to do to get
+it installed because obviously I have to
+deal with an ECM swap. Don't worry, I'll
+show you that process in a future video.
+It's actually quite easy. But one thing
+I do know about this is it does have the
+ability to have custom color uh gauges
+and displays, which means there's likely
+to be an orange somewhere in here that I
+can bring out. So, it's got multiple
+gauge screen uh layouts, and you can
+custom configure them. It also has
+switches that can be customized to power
+accessories. I'll talk about that here
+in a second. Fully customizable
+background. Cool. easy menu navigation.
+Um, it's got a notification system. It
+may be smarter than the rest of the
+vehicle, actually. For power, it uses a
+single HDMI
+interface, and that's all that's needed
+to both power and connect to your
+vehicle. So, it has the option of having
+both analog and digital gauge displays
+for you old-timers that like to see
+needles. Uh, it's got a light meter on
+the front that will auto dim the display
+when it's dark and brighten it back up
+again when it's bright outside. It's got
+a mileage coach which can help you with
+fuel economy. It's got all kinds of data
+logging uh stuff and uh, of course, it's
+a tuner, right? So, you can have
+performance tuning or fuel economy
+tuning. There's a tune for crawling or
+towing. It can do all that on top of the
+other configuration that you can get
+from like a flash pack or flash cal. You
+can adjust your tire size so that your
+speedometer, your shift points are
+right. You can adjust uh your TPMS
+system. And that's actually one thing
+I'm looking forward to a lot is with the
+unlocked ECM, I should be able to set
+specific uh tire pressure ranges for
+what I want my vehicle to have, not what
+the factory says. Unfortunately, with
+the 2015, I'm kind of stuck with either
+flashing uh TPMS lights or uh disabling
+entirely until now. This is going to
+give me the ability to go in and
+customize that. You can also do daytime
+running light modes and one-touch
+blinker,
+headlon, you can also control your
+lockers and your sway bar disconnect
+from the uh the display. I mentioned
+before that you can have switches that
+would control accessories. So, it's EAS
+compatible, which is expandable
+accessory system. So, there's these
+connectors that can plug into the cable.
+Doesn't plug into the back of the trail
+dash, but it plugs into the cable, so
+you can have everything tucked away
+nicely. One of these allows you to
+connect up to two accessories. Anything
+with an onoff switch, basically that's
+controlled with a relay. Um, you can
+trigger the relay using the Trail Dash 2
+and these connectors. The other cool
+thing is if you've got a few of these,
+you can actually piggyback them
+together. I believe you can piggyback
+like eight of these things together. And
+each one of these can control two
+different accessories. So just what I
+have right here, I can control four
+accessories uh with the uh Trail Dash 2.
+So again, and all of this is kind of
+plugged into wiring on the back end,
+like uh behind the dash or wherever you
+want to put it. But you don't have a
+whole bunch of wires coming off of this.
+You only have that one HDMI cable. More
+on that later. I'll be doing a video um
+showing that off. But for now, just
+wanted to do a quick product sort of uh
+highlight on the Super Chips
+Trail-A-2 now available for 2015 2016 uh
+Jeep Wranglers, which is awesome. Thank
+you, Super Chips. So, stay tuned for the
+video on getting this thing updated and
+doing my ECM swap and then install. All
+right, that's it. Thanks for watching.
+I'll catch you on the next one.

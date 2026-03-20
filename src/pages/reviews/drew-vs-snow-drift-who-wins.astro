@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Drew vs Snow Drift - Who wins?";
+export const description = "Drew and friends tackle a snow drift, putting their vehicles to the test in Colorado's winter conditions.";
+const youtubeId = "NmBxUsEq-CY";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-06-26";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Off-Road, Builds, Mods"
+  },
+  {
+    "label": "Location",
+    "value": "Colorado"
+  },
+  {
+    "label": "Conditions",
+    "value": "Snow Drift"
+  },
+  {
+    "label": "Vehicles Involved",
+    "value": "Jeep and Motorcycle"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the beautiful and challenging landscapes of Colorado, off-roading enthusiasts Drew and his friends embark on an adventure that tests their skills and equipment. With a significant snow drift blocking their path, they engage in a friendly showdown between Drew on a motorcycle and a formidable snowbank, showcasing both the excitement and unpredictability of winter off-roading.</p><h2>Main Points</h2><p>The scenario begins with a hefty snow drift that takes center stage. Drew attempts to tackle it head-on, armed only with his motorcycle, while the host has previously navigated the area using chains. Despite the confidence and courage, Drew quickly learns that snow can be an unforgiving opponent, especially when you're on two wheels. This situation encapsulates the essence of off-roading: overcoming challenges and learning from experiences.</p><h2>Practical Implications</h2><p>For off-roaders, especially those in snowy or challenging terrains, a key takeaway from this episode is the crucial role of preparation and the right equipment. While Drew's attempt was valiant, it highlighted the distinct advantages of four-wheel drive vehicles, particularly when confronted with deep snow. This serves as a reminder to enthusiasts planning winter adventures that proper gear and strategy are just as critical as skill. Furthermore, the camaraderie displayed by Drew's friends—offering support by shoveling him out—reinforces the community aspect of off-roading.</p><h2>Key Takeaways</h2><ol><li>Always assess conditions before setting out; snow presents unique challenges that can stall even the best-laid plans.</li><li>Having the right vehicle capabilities, such as four-wheel drive, can dramatically alter outcomes in winter conditions.</li><li>Emphasize teamwork; the off-roading community thrives on helping one another tackle obstacles.</li></ol>
+
+</article>
+
+</SiteLayout>

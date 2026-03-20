@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Rear Axle Upgrades and Diff School - Part Two - ARB Carrier and Ring Gear Get Stoned";
+export const description = "Explore essential tips on rear axle upgrades and ARB locker installation for Jeep enthusiasts in this detailed guide.";
+const youtubeId = "oqKs1KDH_3I";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-12";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Dynatrac"
+  },
+  {
+    "label": "Product",
+    "value": "Trail Leader Axle Package"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep JK rear axle upgrades"
+  }
+];
+const externalLinks = [{"label": "These rear axle upgrades come as part of the Dynatrac Trail Leader Package. Here is the info on that package:", "url": "https://www.dynatrac.com/trail-leader-axle-package.html"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this tutorial, we dive into the intricacies of rear axle upgrades, focusing on the installation process of an ARB locker and the attention needed for ring gear fitment. This guide follows a hands-on approach documented during a visit to World Tour Off Road in Annapolis, MD, where Paul Warren generously shared his expertise. This knowledge is invaluable for Jeep enthusiasts looking to enhance their rig's performance on the trails.</p><h2>What This Covers</h2><p>We will discuss the following key aspects of rear axle upgrades:</p><ul><li>The importance of proper gear fitting and inspection.</li><li>Steps to ensure components are prepped for installation.</li><li>Critical considerations for torque specifications and mechanical integrity.</li><li>Practical tips for using tools effectively during the installation process.</li></ul><h2>Step-by-Step Breakdown</h2><p>Let’s go through the process step-by-step:</p><ol><li><strong>Inspect the Ring Gear:</strong> Begin with a thorough inspection of the ring gear for any machining inconsistencies or burrs. Uneven surfaces can prevent a tight seal during assembly.</li><li><strong>Preparation of Components:</strong> Use mineral solvent to clean the components, removing any residues from the manufacturing process. Ensure that all surfaces that will bolt together are free of particles that could affect torque specs.</li><li><strong>Check for Burrs:</strong> As you handle the parts, pay attention to burrs that may interfere with the torque application. A piece of cardboard can serve as a protective surface to avoid damaging the parts.</li><li><strong>Dry Fit the ARB Locker:</strong> Before final assembly, dry fit the ARB locker and ensure alignment with the ring gear. This is crucial for achieving the right torque specifications.</li><li><strong>Finding the Right Hardware:</strong> When dealing with non-matching bolts, always search for alternatives that fit properly, and if necessary, drill out holes to accommodate the correct hardware.</li><li><strong>Using Loctite:</strong> Applying a thread-locking adhesive on bolts can prevent them from loosening over time, which is critical for high-stress applications like a locker setup.</li></ol><h2>Helpful Tips</h2><p>The following tips can make the installation process smoother and more effective:</p><ul><li><strong>Detail-Oriented Work:</strong> Always double-check the cleanliness of surfaces before applying torque. A clean joint allows for better torque retention and reduces the risk of parts loosening later.</li><li><strong>Bolt Size and Fit:</strong> Be mindful of bolt sizes during installation. Mismatching bolt sizes can lead to complications; precision is key.</li><li><strong>Think Ahead:</strong> When preparing parts for installation, consider potential future issues. For example, ensure that both the differential and related gears are aligned well to prevent premature wear.</li><li><strong>Observe Manufacturer Instructions:</strong> Always refer to manufacturer guidelines for torque settings and installation procedures to avoid misalignment or improper installation.</li></ul><h2>Key Takeaways</h2><p>Upgrading your Jeep's axle with a new ARB locker and ring gear is a rewarding project that can significantly enhance your off-road capability. Remember to take your time during the assembly process, as a diligent and detail-oriented approach will pay off in the long run. Observing the parts you work with and ensuring a clean fitment will contribute greatly to the durability and reliability of your upgrades. Happy wheeling!</p>
+
+</article>
+
+</SiteLayout>

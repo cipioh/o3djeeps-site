@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Measuring for Tom Woods Driveshafts - Jeep JK with Dynatrac PR44 Front Axle";
+export const description = "Learn how to measure for custom Tom Woods driveshafts for your Jeep JK with Dynatrac PR44 axle. Accurate tips for successful installation.";
+const youtubeId = "onFOlQf3WgM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-07-09";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Maintenance, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Tom Woods"
+  },
+  {
+    "label": "Product",
+    "value": "Custom Driveshafts"
+  },
+  {
+    "label": "Use Case",
+    "value": "Upgrading Jeep drivetrain for off-road performance"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "This is a quick video showing how to measure for custom driveshafts, and in my case, Tom Woods driveshafts.  Tom Woods gives you an easy guide on their website, but if you have something other than a stock configuration, as I do, your measurements may look a bit different.", "url": "http://www.4xshaft.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>When it comes to modifying your Jeep JK, one of the key upgrades you might consider is replacing your driveshafts, especially after installing larger tires or new axles. This tutorial walks you through the precise measurements you need to take to order custom driveshafts from Tom Woods, ensuring that they fit your aftermarket setup perfectly.</p><h2>What This Covers</h2><p>This guide will cover the entire measurement process, from setup to final dimensions needed for ordering your Tom Woods driveshafts. With the right measurements, you can avoid common pitfalls and ensure your upgraded drivetrain operates smoothly.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation:</strong> Before you measure, make sure your Jeep is on a flat surface and at ride height. This position is crucial for accurate measurements.</li><li><strong>Check Pinion Alignment:</strong> Confirm that your pinion is correctly adjusted to your transfer case. This alignment is important for driveshaft longevity and performance, especially with aftermarket differentials like the Dynatrac PR44.</li><li><strong>Measuring for Rear Driveshaft:</strong> Measure from the lip of the transfer case to the lip of the pinion flange. My measurement came to 42 5/8 inches. Ensuring your tooling (like tape measure) is straight and free of obstructions will improve accuracy.</li><li><strong>Measuring for Front Driveshaft:</strong> Due to the aftermarket fixed yoke, measure from the flange lip at the transfer case to the center of the U-joint on the yolk, which should give you a measurement of approximately 37 1/4 inches.</li><li><strong>Record Your Measurements:</strong> Communicate these numbers to Tom Woods. They will account for any additional adjustments needed when manufacturing your custom driveshafts.</li></ol><h2>Helpful Tips</h2><p>Ensure you follow Tom Woods' guidelines readily available on their website, especially if your setup differs from factory specifications. Each Jeep can have its unique requirements based on modifications, so adaptability is key.</p><h2>Key Takeaways</h2><p>Measuring for custom driveshafts may seem daunting at first, but with careful preparation and attention to detail, it can be a straightforward process. Remember: accurate measurements lead to better performance and reliability on and off the trails. After placing your order, stay tuned for an installation guide once your driveshafts arrive. Happy wheeling!</p>
+
+</article>
+
+</SiteLayout>

@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ -  Teaching CJ to do an Oil Change";
+export const description = "Join us as we teach the essentials of performing an oil change on a 2004 Jeep TJ, including tips for beginner maintenance.";
+const youtubeId = "HyDyxofTbhA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-22";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Off-Road"
+  },
+  {
+    "label": "Vehicle Model",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Oil Type",
+    "value": "Valvoline Full Synthetic"
+  },
+  {
+    "label": "Use Case",
+    "value": "Basic Maintenance"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Changing the oil in your Jeep may seem like a daunting task, especially if you're new to off-roading or vehicle maintenance. In this tutorial, I’ll guide you through the essential steps for performing an oil change on a 2004 Jeep TJ, while sharing tips for beginners like my buddy CJ, who’s tackling this for the first time.</p><h2>What This Covers</h2><p>This article covers not only how to do an oil change but also includes changing the air filter and checking battery connections—all fundamental maintenance tasks that every Jeep owner should be comfortable performing. We’ll emphasize safety and how to prevent common mishaps that can occur during an oil change.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation:</strong> Before you start, make sure you have the right tools and supplies. You’ll need synthetic oil, an oil filter, an oil filter wrench, an oil catch pan, and gloves. Make sure your Jeep is on a flat surface and you've allowed the engine to cool down.</li><li><strong>Drain the Old Oil:</strong> Loosen the drain plug using the righty-tighty, lefty-loosey method. Be ready to contain the outflow; oil can splash, so angle your catch pan accordingly.</li><li><strong>Remove the Oil Filter:</strong> Using an oil filter wrench can help you get a good grip. When removing, expect some oil spillage, so stay prepared with your catch pan. Make sure to apply a bit of oil onto the rubber seal of the new filter before installation, ensuring a good seal.</li><li><strong>Add New Oil:</strong> Pour in your new oil with the funnel. It’s advisable to check the oil level with the dipstick after adding some oil before running the engine to get an accurate measurement.</li><li><strong>Finalize and Clean Up:</strong> Start the engine and let it run for a minute, then check for leaks. Once everything looks good, dispose of the old oil and filter correctly.</li></ol><h2>Helpful Tips</h2><ul><li><strong>Use the Right Oil:</strong> For the TJ, I switched to Valvoline full synthetic to help with a small rear main seal leak.</li><li><strong>Stay Organized:</strong> Keep your tools together and make a checklist for the steps to ensure you don’t miss anything.</li><li><strong>Take Your Time:</strong> For beginners, it’s important to go slow. Take the opportunity to ask questions if you’re unsure of a particular step.</li><li><strong>Involve a Friend:</strong> As CJ and I discovered, having someone to share the experience with can make learning enjoyable and less stressful.</li></ul><h2>Key Takeaways</h2><p>Performing an oil change on your Jeep is not only rewarding but also an essential skill that promotes your vehicle's longevity. By being methodical and patient, even a novice can successfully tackle this task. Remember that regular maintenance is key to keeping your Jeep trail-ready, and knowledge gained during these hands-on experiences builds confidence for future mods and repairs. So, grab your tools and get to it—your Jeep will thank you!</p>
+
+</article>
+
+</SiteLayout>

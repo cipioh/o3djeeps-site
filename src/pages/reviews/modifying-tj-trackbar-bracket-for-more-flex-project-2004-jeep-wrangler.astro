@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Modifying TJ Trackbar Bracket for More Flex - Project 2004 Jeep Wrangler";
+export const description = "Learn how to modify your TJ trackbar bracket for enhanced suspension flex and performance, perfect for off-road adventures.";
+const youtubeId = "oO1QaexIESM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-10-01";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Old Man Emu"
+  },
+  {
+    "label": "Product",
+    "value": "Ultimate TJ/LJ Lift Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Improving suspension flex on Jeep TJ"
+  }
+];
+const externalLinks = [{"label": "So, naturally, I called him.  This video covers what we discussed. I think it's a great idea!", "url": "http://dpgoffroad.com/products/old-ma"}, {"label": "This is the kit to start with if you want a complete suspension package that isn’t missing parts!", "url": "http://O3Djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you're looking to maximize the suspension capabilities of your Jeep TJ, modifying the factory trackbar bracket is a crucial step. In this guide, we'll take a detailed look at how to efficiently trim the bracket for improved flex, allowing for better articulation and performance on the trails.</p><h2>What This Covers</h2><p>We'll discuss the reason behind this modification, the process involved, and the benefits it brings to your off-roading experience. By the end of this article, you should feel confident in tackling this small yet impactful project.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation:</strong> Ensure you have all necessary tools on hand, including a cutting tool, paint for touch-ups, and safety gear. Clear your workspace, especially since you'll be working near the rear suspension area.</li><li><strong>Identify the Section to Cut:</strong> Focus on the plastic piece surrounding the bracket—this is not needed and should be discarded. The primary area to modify is a small section at the top of the bracket that limits track bar movement.</li><li><strong>Cutting the Bracket:</strong> Carefully trim the identified section using your cutting tool. This modification will allow for more vertical movement of the track bar, which can often restrict flex, especially while using long travel shocks.</li><li><strong>Finish Up:</strong> Once you've made your cuts, apply some paint to prevent rusting on your freshly exposed metal. Then, proceed to install your adjustable track bar as part of your suspension upgrade.</li></ol><h2>Helpful Tips</h2><ul><li>Always double-check the part you plan to cut. A small mistake can lead to complications later.</li><li>If you're uncertain, consult with fellow Jeep enthusiasts or professionals familiar with suspension work.</li><li>Document your process with photos or notes, especially if this is your first time making such modifications. This can help you and others in future projects.</li></ul><h2>Key Takeaways</h2><p>Modifying the TJ trackbar bracket is a relatively simple yet effective way to enhance your Jeep's off-road capabilities. By allowing for more suspension travel, you can achieve better performance and enjoy a smoother ride over rough terrain. Always remember to prioritize safety and consult resources or forums as needed when making modifications to your vehicle.</p>
+
+</article>
+
+</SiteLayout>

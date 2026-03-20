@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Oakley Radarlock Prism Daily with Optx / Hydrotac Bifocals";
+export const description = "Discover how to transform Oakley sunglasses into bifocals with a simple DIY modification for better vision on the go.";
+const youtubeId = "It2FJeS3JVU";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-03-19";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Oakley"
+  },
+  {
+    "label": "Product",
+    "value": "Radarlock Prism Daily Sunglasses"
+  },
+  {
+    "label": "Use Case",
+    "value": "Custom bifocal sunglasses for driving and everyday use"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of off-road adventures, being able to see clearly—especially under bright sunlight—can make all the difference. As a seasoned enthusiast who’s spent countless hours behind the wheel of my Jeep, I understand how vital good vision is for safety and enjoyment. That’s why I decided to explore a simple but effective DIY modification to my Oakley Radarlock Prism sunglasses to meet my bifocal vision needs without breaking the bank.</p><h2>What This Covers</h2><p>This article dives into how I customized my sunglasses to include bifocal lenses, providing a practical solution for those of us who struggle with near-sightedness as we age. You'll learn each step of the process and, by the end, you’ll feel inspired to try a similar approach for your own gear.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Choosing the Right Sunglasses:</strong> Start with a pair of Oakley Radarlock Prism Daily sunglasses, which can be customized in terms of frame color and lens type. The black prism daily lens is particularly great for driving as it enhances contrast and increases clarity in bright conditions.</li><li><strong>Understanding Your Vision Needs:</strong> As I neared my 40s, my vision started failing me—specifically, my ability to read small print while still needing sunglasses for outdoor activities. This realization led me to investigate bifocal options without paying premium prices.</li><li><strong>Finding the Ideal Bifocal Solution:</strong> Instead of ordering expensive prescription Oakleys—which can cost upwards of $800—I sought a practical, budget-friendly alternative. Enter Hydrotac bifocal lenses, which I found on Amazon for around $15. These lenses are adhesive and designed to be trimmed to fit any pair of glasses.</li><li><strong>Custom Cutting:</strong> After buying the Hydrotac lenses, I carefully cut them to fit inside the frames of my sunglasses. Precision is key, as you want them to blend in with the aesthetics of your glasses while providing functional vision correction.</li><li><strong>Permanence and Flexibility:</strong> One of the best features of these bifocal lenses is that they are removable. If I decide to switch up my Oakley lenses or frames, I can easily transfer the bifocals between them.</li></ol><h2>Helpful Tips</h2><ul><li>When cutting the Hydrotac lenses, take your time—measure twice and cut once to ensure a perfect fit.</li><li>Be mindful of the positioning of the bifocal section; it should be located where it’s easily accessible for reading without obstructing your vision while driving.</li><li>If you're experimenting, consider trying different width options to see what feels most comfortable for you.</li></ul><h2>Key Takeaways</h2><p>This DIY bifocal modification not only saves money but also allows for customization without sacrificing style or functionality. Whether you're a Jeep enthusiast like me or just someone looking for a convenient eyewear solution, this is a great way to tackle common vision issues without the hefty price tag associated with prescription sunglasses. Give it a try—you might find that this simple hack transforms your outdoor experiences as much as it did mine.</p>
+
+</article>
+
+</SiteLayout>

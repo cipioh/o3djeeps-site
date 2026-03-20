@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "The OVERCLOCK3D Build - Teraflex, King, Evo, Artec";
+export const description = "Explore the impressive OVERCLOCK3D Jeep build featuring top-notch components from Teraflex, King, and Evo for ultimate off-road performance.";
+const youtubeId = "87bThlaRuU0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-03-08";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Teraflex"
+  },
+  {
+    "label": "Product",
+    "value": "Long Arm Suspension Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Performance"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The OVERCLOCK3D build exemplifies what a proper lift kit should achieve in terms of performance and handling off the beaten path. With a meticulous selection of components like the Teraflex long arm suspension, King shocks, and Evo springs, the Jeep Wrangler Unlimited is not just about looks—it's built for adventure.</p><h2>What Stands Out</h2><p>What truly stands out about this build is the combination of quality parts sourced from well-known brands, designed specifically for enhanced stability and comfort. The use of Teraflex products allows for better articulation and a more stable ride, especially important when tackling challenging terrains.</p><h2>Design and Features</h2><p>The heart of the OVERCLOCK3D build is the Teraflex long arm suspension system, which replaces the factory control arms with longer arms that provide a lower center of gravity and reduce body roll. This kit includes robust components such as:</p><ul><li>Teraflex Long Arm Suspension Kit</li><li>Monster Forged Adjustable Trackbars (Front and Rear)</li><li>3-inch Speedbump Kits</li><li>Exhaust Spacer Kit</li><li>Limit Strap Kit</li></ul><p>Additionally, the installation of Evo Plush Ride Coil Springs and King 2.5-inch OEM shocks with compression adjusters ensures that the shock absorption and handling characteristics are top-notch. This level of design is all about performance without sacrificing comfort.</p><h2>Real-World Use</h2><p>In practice, installing a long arm kit isn't a weekend DIY project. As showcased in the video, the author opted for professional installation due to the extensive modifications required, including air chiseling, cutting, and welding. This complexity emphasizes the importance of understanding your own mechanical limits. After the install, a wheel alignment ensures that the Jeep handles well on and off the road.</p><p>The real-world use of the OVERCLOCK3D build resonates with off-road enthusiasts who will appreciate the vehicle's ability to traverse rough terrain confidently. However, it’s worth noting that some adjustments may be necessary post-install, like the adjustments made for the rear bump stops with the addition of Teraflex strike pads and spacers.</p><h2>Who This Is For</h2><p>This build is ideal for dedicated off-road enthusiasts who want a reliable and responsive suspension system that can handle aggressive trails and rocky paths. If you're someone who prioritizes a smooth ride paired with performance, this setup would be a solid choice. However, keep in mind that it also requires an understanding of vehicle dynamics and the potential need for further upgrades like axles or steering components in the future.</p><h2>Key Takeaways</h2><p>The OVERCLOCK3D build is not just aimed at aesthetics but targets functionality as well, making it a comprehensive solution for off-roading challenges. The blend of Teraflex, King, and Evo products in this Jeep build is a testament to careful planning and execution.</p><p>For anyone considering a similar upgrade, the importance of professional installation cannot be overstated. Not only does it enhance the Jeep’s off-road capabilities, but it also instills confidence in the vehicle’s performance. In summary, this build stands as an exemplary choice for serious adventurers looking to elevate their Jeep experience.</p>
+
+</article>
+
+</SiteLayout>

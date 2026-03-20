@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Lost Footage! CPO Willys to OVERCLOCK3D";
+export const description = "Explore the transformation of the CPO Willys to OVERCLOCK3D, including tips on decal application and customization.";
+const youtubeId = "epUr6w0q0MQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-05-28";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "CPO Willys"
+  },
+  {
+    "label": "Use Case",
+    "value": "Transforming and customizing off-road vehicles"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of Jeep builds, there’s an incredible sense of nostalgia that comes with uncovering lost footage. Recently, while sifting through some older video files, I stumbled upon some raw content showcasing the transformation of the CPO Willys into the OVERCLOCK3D build. It’s fascinating to see the meticulous details behind the customization process, even if the footage didn't make the cut initially.</p><h2>Main Points</h2><p>This video isn't just another build diary; it highlights the careful attention to detail required for such an iconic vehicle modification. One of the most critical aspects discussed is the process of removing old decals and applying new ones to give the Jeep a fresh identity. This transformation not only showcases the aesthetic evolution but also emphasizes the personal touch that each enthusiast brings to their projects.</p><h2>Practical Implications</h2><p>Decal application may seem trivial, but how it’s done can significantly affect the final appearance of a Jeep. The meticulous methods employed, like cutting the decals into smaller sections and using a hinge technique, help to avoid common pitfalls like air bubbles or misalignment. This is an approach that can benefit both seasoned builders and newcomers alike. The process also serves as a reminder that building a Jeep is not just about the mechanical upgrades; it’s also about the personal expression that comes from customizing its look.</p><h2>Key Takeaways</h2><ul><li>Transforming a Jeep like the CPO Willys into OVERCLOCK3D involves careful planning and execution of details.</li><li>Decal application is an art that requires patience and precision, which can enhance the overall aesthetic of the build.</li><li>Utilizing techniques like the hinge method can simplify the decal placement process and lead to better results.</li></ul>
+
+</article>
+
+</SiteLayout>

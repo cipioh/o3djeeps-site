@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "67D Swag - Thanks guys!";
+export const description = "A fun shoutout to 67 Designs and their quality products for Jeep enthusiasts.";
+const youtubeId = "oE_ldQqMUBE";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-04-13";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Gear, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "67 Designs"
+  },
+  {
+    "label": "Product",
+    "value": "Apparel"
+  },
+  {
+    "label": "Use Case",
+    "value": "Jeep Enthusiast Gear"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://67d.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In this exciting showcase, we take a moment to highlight a thoughtful gift from our friends at 67 Designs, known for their innovative Jeep products. This isn't just any gift; it represents a bridge between practical automotive accessories and community spirit. As enthusiasts, we thrive on sharing experiences, and the thoughtful gestures from brands we trust are always appreciated.</p><h2>Main Points</h2><p>Firstly, let's celebrate the relationship between Jeep lovers and 67 Designs. The brand is renowned for creating smart, user-friendly products like mounts for phones and tablets, which are built with Jeep adventures in mind. Many of us have been using their JK mounts in our builds, a testament to their quality and function. We recently received a stylish shirt that clearly showcases the company's branding and ethos, reminding all of us that these gadgets are as much a part of our Jeep identity as the vehicles themselves.</p><h2>Practical Implications</h2><p>Wearing gear from brands we support doesn't just show allegiance; it also serves practical purposes. The shirt I received features the logo prominently, allowing for casual wear while still promoting the brand. Additionally, the message on the shirt resonates with those of us who want our hands free for steering while still staying connected on the trail. It’s a conversation starter, too; every time someone sees that logo, it may lead to questions about new gear or trail stories.</p><h2>Key Takeaways</h2><p>While this video didn't dive deeply into product reviews or tutorials, it shines a light on brand loyalty and community. The takeaway here is simple: our relationships with brands like 67 Designs enhance our off-roading lifestyle. Remember to support those who support the Jeep community, and don’t hesitate to show off your favorite gear. Here’s to more adventurous travels and the gear that helps us take on every trail!</p>
+
+</article>
+
+</SiteLayout>

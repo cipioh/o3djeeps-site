@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "TRED PRO - See them in action";
+export const description = "Explore the TRED Pro's performance in off-road adventures and why they're a must-have for Jeep enthusiasts.";
+const youtubeId = "qQ6pqQF4vVQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-04-02";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "TRED"
+  },
+  {
+    "label": "Product",
+    "value": "TRED Pro"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road recovery and traction aid"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://www.tred4x4.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The TRED Pro is an essential tool for any serious off-roader, offering a versatile solution for traction and recovery needs. While they may show wear and tear with heavy use, their functionality remains strong. For Jeep enthusiasts venturing off the beaten track, these recovery boards are a worthy investment.</p><h2>What Stands Out</h2><p>The TRED Pro is designed with both a ramp and shovel edge, allowing for adaptability in different terrains. Their rugged build is meant for tough environments, delivering performance even when pushing their limits. The balance between lightweight construction and robust capability makes them an appealing choice, especially for those who frequently explore rockier terrains.</p><h2>Design and Features</h2><p>Crafted with durability in mind, the TRED Pro features a dual-sided design tailored for sand, dirt, and rocky surfaces. One side acts as a ramp, while the other provides a more shovel-like surface for various recovery applications. As noted in the review, these boards can handle a fair amount of abuse, with minor damage being a testament to their strength under pressure.</p><h2>Real-World Use</h2><p>After many adventures, the TRED Pros have proven their worth in recovering vehicles stuck in difficult situations. In rocky environments where traction is usually compromised, these boards are invaluable for providing additional grip under tires that are spinning. Personal anecdotes from wheeling experiences emphasize their utility in helping vehicles overcome obstacles that would otherwise halt progress. Despite showing signs of wear, their ability to facilitate movement remained intact.</p><h2>Who This Is For</h2><p>The TRED Pro is ideal for off-road enthusiasts and Jeep owners who regularly navigate challenging terrains. If you find yourself in conditions where standard tires struggle for grip, these recovery boards can make the difference between being stuck and getting back on the trail. They are particularly beneficial for modded Jeeps without lockers, where maintaining traction is critical.</p><h2>Key Takeaways</h2><p>The TRED Pro has garnered a solid reputation among off-roaders for its performance, versatility, and ease of use. While they may not be indestructible, their capability in overcoming various obstacles and their functional design justify their place in any off-roading gear collection. As the wheeling season approaches, understanding and optimizing their use will enhance your outdoor adventures.</p>
+
+</article>
+
+</SiteLayout>

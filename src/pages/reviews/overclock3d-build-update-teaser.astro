@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "OVERCLOCK3D BUILD UPDATE TEASER";
+export const description = "Exciting updates on the OVERCLOCK3D Jeep build, featuring new axles, tires, and upgrades for off-road adventures.";
+const youtubeId = "qNY1fTO-Nv0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-18";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "OVERCLOCK3D Build"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-road adventures and daily driving"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome back, Jeep enthusiasts! If you’ve been following our journey with the OVERCLOCK3D Jeep build, you’re in for a treat. Today, I wanted to share some exciting updates and the direction we're heading with this build. Over the past year, this Jeep has transformed tremendously and continues to evolve based on my needs as a daily driver and an adventure vehicle.</p><h2>Main Points</h2><p>The journey of building a purpose-built Jeep has been nothing short of exhilarating. While I won’t go into a complete walkthrough today, it's essential to highlight the substantial changes and upgrades that are in the pipeline. This vehicle has become a reliable family car, weekend warrior, and adventure traveler, especially during my time in the Colorado backcountry last year. As we take a break this year to focus on upgrades, next up is the iconic trails of Moab!</p><p>So, what can you expect to see in the future? Here’s a sneak peek:</p><ul><li><strong>New Axles:</strong> One of the biggest upgrades on the horizon is a new set of axles. While I’m keeping the manufacturers under wraps for now, this enhancement will significantly improve performance.</li><li><strong>Beadlock Wheels and New Tires:</strong> We're upgrading from 35-inch tires to beefy 37-inch tires, paired with brand-new beadlocks. This change will enhance traction and provide more stability on those rugged terrains.</li><li><strong>Full Underskid System:</strong> A robust underskid system is coming to protect the vital components underneath the vehicle, especially when tackling challenging trails.</li><li><strong>Sport Cage:</strong> For added safety and structural integrity, I'm installing an internal sport cage, making off-roading even safer.</li><li><strong>Boat Slide Sliders:</strong> These rock sliders will protect the vehicle's body while providing various mounting options for gear.</li><li><strong>Big Brakes:</strong> To complement the larger tires and axles, I’m also upgrading to larger braking components, making sure that stopping power matches the enhanced performance.</li></ul><h2>Practical Implications</h2><p>Each upgrade has a purpose tailored specifically to my adventures. A purpose-built vehicle must cater to your unique needs. For instance, the Colorado backcountry was an unforgettable experience, but that terrain demands the highest-quality components to ensure not only performance but also safety.</p><p>Switching to a soft top with the Bestop Trek top NX has also been a big change. It offers more versatility and an enjoyable experience during warm-weather adventures. Plus, the new roll bar covers add a touch of personalization, even though they aren't available for purchase just yet!</p><h2>Key Takeaways</h2><p>As we continue to evolve the OVERCLOCK3D build, it’s crucial to keep innovating and enhancing our Jeeps to meet the demands of off-road adventures. Each upgrade we implement brings us closer to a truly optimized vehicle for all my adventures ahead, be it daily driving or tackling rugged trails.</p><p>Stay tuned for more updates and videos showcasing these exciting changes as they happen. Thank you for being part of this journey!</p>
+
+</article>
+
+</SiteLayout>

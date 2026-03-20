@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Son of OVERCLOCK3D! -  My Son's New 2004 TJ";
+export const description = "Join us on the journey of building my son's first Jeep Wrangler TJ in our new video series!";
+const youtubeId = "s8cwohgK0Pg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-04-30";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Off-Road"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Wrangler TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Father-son build project"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The adventure of Jeep ownership is a special one, especially when it involves the next generation. In our latest video, we introduced the world to my son's first Jeep — a 2004 Wrangler TJ. This is not just any vehicle; it's a platform for creativity, bonding, and personal growth as we dive into a father-son build project. Join us as we explore what makes this Jeep a perfect starting point for his off-roading journey.</p><h2>Main Points</h2><p>Finding the right Jeep is crucial, and as we explored various options, it became clear that the choice had to resonate with my son. After weeks of searching and evaluating different models, we finally found a 2004 TJ with around 100,000 miles. Much to our delight, this Jeep has been well-cared for and shows no signs of having been off-roaded or abused. The frame is in exceptional condition, setting a solid foundation for the modifications we envision for the build.</p><h2>Practical Implications</h2><p>A Jeep is more than just a vehicle; it's a canvas for customization. For a first-time owner, this 2004 TJ will serve as an excellent learning experience. We plan to embellish it with personal touches, including a few Broncos-themed orange accents since he is a fan. With a 5-speed manual transmission, he’ll learn essential driving skills that come with operating a stick shift. As we proceed with the build, our journey will encompass not just upgrades but shared moments of discovery and achievement.</p><h2>Key Takeaways</h2><ul><li>Choosing a Jeep that speaks to the new owner is paramount.</li><li>The 2004 Wrangler TJ provides a perfect blend of classic design and off-road capabilities.</li><li>Getting started with a solid frame ensures potential for future modifications.</li><li>Building a vehicle together can foster invaluable life lessons and strengthen family bonds.</li><li>Stay tuned for upcoming videos showcasing the lift kits, upgrades, and our overall transformation process!</li></ul>
+
+</article>
+
+</SiteLayout>

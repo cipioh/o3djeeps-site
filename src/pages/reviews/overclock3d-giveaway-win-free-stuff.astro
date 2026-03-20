@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "OVERCLOCK3D GIVEAWAY! WIN FREE STUFF";
+export const description = "Join our exciting giveaway at O3D Jeeps to win fantastic off-road gear and accessories! Enter now to increase your chances of a great prize!";
+const youtubeId = "PTq3NbcCoyo";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-03-13";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Off-Road, Mods"
+  },
+  {
+    "label": "Prize Sponsors",
+    "value": "Waterproof Fuse Relay Box, Retrofit Factory, Justice Off-Road, AE Lighting, Factor 55, Bartact"
+  },
+  {
+    "label": "Entry Method",
+    "value": "Answer questions from sponsor websites"
+  },
+  {
+    "label": "Sweepstakes Duration",
+    "value": "Now through March 31st"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://win.overclock3d-jku.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to the exciting world of O3D Jeeps! We're thrilled to announce our latest giveaway, offering you a chance to win an array of fantastic off-road gear and accessories. This isn't just about free stuff; it’s a celebration of our community and the brands that support our adventures.</p><h2>Main Points</h2><p>To participate in this sweepstakes, simply visit <strong>win.overclock3d-jku.com</strong> where you'll find detailed instructions. You’ll need to navigate through our sponsors' websites and answer a few questions to secure your entries. Each correct answer grants you more entries, greatly enhancing your chances to win!</p><h2>Prize Overview</h2><p>Let's break down the prizes, because we have some awesome gear up for grabs:</p><ul><li><strong>Waterproof Fuse Relay Box:</strong> $20 gift certificate.</li><li><strong>Retrofit Factory:</strong> $50 gift certificate, ideal for upgrading your headlights.</li><li><strong>Justice Off-Road:</strong> LED pods with impressive 1,800 lumens per pod and a t-shirt.</li><li><strong>AE Lighting:</strong> Two versatile 47s pin lights, perfect for off-road illumination.</li><li><strong>Factor 55:</strong> A generous $100 gift certificate, great for any recovery needs.</li><li><strong>Bartact:</strong> Grab handles in your choice of color, combining utility with style.</li></ul><h2>Entering the Giveaway</h2><p>When you enter, you'll be asked to provide your name and email address. Make sure this information is accurate because it’s how we’ll validate your win and contact you. The process is simple: answer the questions posed by the sponsors and ensure you get them right—this verifies your engagement and keeps the contest fair.</p><h2>Winning and Claiming Your Prize</h2><p>Winning is thrilling, but don’t forget: if you’re selected, you have 24 hours to claim your prize. Choosing promptly helps us keep things moving smoothly, and ensures that other winners get their chances as well.</p><h2>Practical Implications</h2><p>This giveaway does more than just award prizes; it strengthens our community ties with the brands that support us. Each sponsor has generously contributed to provide these exciting items, so visiting their sites as part of your entry is not only important for your chances to win but helps show our gratitude to them as well.</p><h2>Key Takeaways</h2><p>Don’t miss out on this great opportunity! Follow the entry steps closely, and take your chances on winning top-notch off-road gear. Engage with our sponsors, and who knows? You might just walk away with some incredible equipment to enhance your Jeep adventure!</p>
+
+</article>
+
+</SiteLayout>

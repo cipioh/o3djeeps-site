@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "OVERCLOCK3D PA Jeeps All Breeds 2016 Best of Show Unlimited Class";
+export const description = "Celebrate the success of the Overclock3D Jeep build and the community that supports it.";
+const youtubeId = "DdZrUbsmPJ0";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-07-28";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Model",
+    "value": "2015 JKU Willys Wheeler Edition"
+  },
+  {
+    "label": "Event",
+    "value": "PA Jeeps All Breed Show"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>The Jeep community is one that thrives on collaboration and support, and there's no better example of this than the journey of the Overclock3D Jeep. From its humble beginnings to achieving recognition at events like the PA Jeeps All Breed Show, this build reflects a passionate blend of hard work, creativity, and community backing.</p><h2>Main Points</h2><p>After starting the build in June 2015, the transformation of the 2015 JKU Willys Wheeler Edition showcased the dedication and personal investment of its owner. As he highlights during his short video, the recognition for his efforts wasn't just about the trophy; it was about the acknowledgment of the community who supported him throughout this journey.</p><h2>Practical Implications</h2><p>This win at the PA Jeeps show serves as a reminder of several key points about building a Jeep:</p><ul><li><strong>Community Support:</strong> The Jeep community thrives on shared experiences, advice, and connections.</li><li><strong>Continuous Improvement:</strong> A build is never truly complete. There's always room for upgrades and personalization.</li><li><strong>Recognition Matters:</strong> Earning accolades from peers brings validation to the time and effort invested in your build.</li></ul><h2>Key Takeaways</h2><p>We can all draw inspiration from the Overclock3D Jeep's success story:</p><ol><li>Engage with the community and seek feedback to enhance your build.</li><li>Celebrate milestones and achievements, as they often motivate further improvements.</li><li>Remember to thank those who support you in your journey; sharing the passion is what makes this hobby rewarding.</li></ol><p>As we look ahead, the owner of the Overclock3D Jeep is excited for what’s next, promising more upgrades and new adventures. After all, a Jeep is more than a vehicle; it's a canvas for creativity and a gateway to exploring the great outdoors.</p>
+
+</article>
+
+</SiteLayout>

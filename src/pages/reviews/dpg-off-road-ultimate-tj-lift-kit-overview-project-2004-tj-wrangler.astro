@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "DPG Off Road Ultimate TJ Lift Kit Overview - Project 2004 TJ Wrangler";
+export const description = "Explore our comprehensive overview of the DPG Off Road Ultimate TJ Lift Kit for Jeep enthusiasts looking to enhance their rig's performance.";
+const youtubeId = "FaNgQEy2CB8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-08-20";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Off-Road, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "DPG Off Road"
+  },
+  {
+    "label": "Product",
+    "value": "Ultimate TJ Lift Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Suspension Lift and Off-Road Capability"
+  }
+];
+const externalLinks = [{"label": "Today, CJ and I start the installation of the DPG Off Road Ultimate TJ Lift Kit.  Here is an overview of the components in the kit.", "url": "http://dpgoffroad.com/products/old-man-emu-ultimate-tjlj-wrangler-kit/"}, {"label": "This is the kit to start with if you want a complete suspension package that isn’t missing parts!", "url": "http://O3Djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The DPG Off Road Ultimate TJ Lift Kit is designed for Jeep enthusiasts who want a balanced setup for daily driving and off-road adventures. With tailored components that accommodate a wide range of needs, this kit stands out among typical suspension options.</p><h2>What Stands Out</h2><p>One of the most striking features of the Ultimate Lift Kit is its customization. Unlike many off-the-shelf lift kits, DPG Off Road offers a variety of coil spring rates and shock options based on your specific Jeep configuration and driving style. This level of personalized service is invaluable for newcomers and seasoned Jeepers alike.</p><h2>Design and Features</h2><p>The Ultimate Kit includes <strong>4 OME Sport Series Shocks</strong>, <strong>4 OME Coil Springs</strong>, JKS body lift components, and adjustable track bars—essentially everything you'll need to elevate your Jeep’s capabilities significantly. The coil springs are color-coded by height, facilitating a more balanced setup that considers the natural weight distribution of the vehicle.</p><p>This kit not only makes your vehicle off-road ready but also maintains comfort on asphalt, critical for those who commute regularly. Additionally, the choice of a Brown Dog Motor Mount upgrade offers more flexibility and durability.</p><h2>Real-World Use</h2><p>After extensive discussion with DPG’s Dirk, it becomes clear that the kit is not just a parts list; it’s a complete package. Each component, from shocks to the installation guide, is chosen to help you understand how to get the most out of your lift. The included installation cheat sheet is a particularly useful feature, offering valuable tips to avoid common pitfalls during installation.</p><p>When tested, the kit performs admirably on various terrains, allowing for the fitting of 33” tires (and even 35” with minor modifications). This versatility means that whether you're traversing rugged trails or cruising through town, your Jeep can handle it all without compromise.</p><h2>Who This Is For</h2><p>This lift kit is perfect for anyone looking to upgrade their TJ Wrangler, particularly those who need a balanced suspension for urban commuting while also craving off-road capability. Whether you're a first-time Jeep owner or an experienced builder, the Ultimate Lift Kit caters to a wide spectrum of off-road and daily driving needs.</p><h2>Key Takeaways</h2><p>The DPG Off Road Ultimate TJ Lift Kit is a well-rounded enhancement for your Jeep, drawing on years of expert knowledge and real-world application. It exemplifies the importance of personalized vehicle modifications, allowing you to customize your suspension to fit your unique driving style and off-road needs. If you're considering a suspension upgrade, this kit is certainly worth a closer look.</p>
+
+</article>
+
+</SiteLayout>

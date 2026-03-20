@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "DIY Magnet Mount Trail Camera (DVR or Reverse Rear Camera Too!)";
+export const description = "Learn how to create a DIY magnet mount for trail cameras on your Jeep with this easy guide.";
+const youtubeId = "6a8DExnFpmg";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-09-27";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Off-Road, Gear"
+  },
+  {
+    "label": "Brand",
+    "value": "Unknown"
+  },
+  {
+    "label": "Product",
+    "value": "DIY Magnetic Camera Mount"
+  },
+  {
+    "label": "Use Case",
+    "value": "Mounting trail cameras on vehicles"
+  }
+];
+const externalLinks = [{"label": "This is a simple way to mount cameras. It is easily done and allows for the cameras to be securely placed, yet movable.", "url": "http://amzn.to/2wU6U3j"}, {"label": "This is a simple way to mount cameras. It is easily done and allows for the cameras to be securely placed, yet movable.", "url": "http://www.acehardware.com/product/index.jsp?productId=3633664"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of off-roading, the right footage can transform a memorable adventure into a beautiful story worth sharing. One effective way to capture those moments is through mounting cameras on your Jeep. In this article, I will guide you on how to create a simple yet robust DIY magnetic mount for trail cameras. This versatile solution allows you to easily reposition your cameras as needed, enhancing your filming capabilities without compromising safety.</p><h2>What This Covers</h2><p>This tutorial will cover the entire process of designing and building a magnetic camera mount. I'll share insights on the materials required, as well as practical tips to ensure that your cameras are securely attached while remaining easy to relocate during your trail adventures. Whether you're capturing views from the front, side, or underneath your Jeep, you'll have the flexibility to adjust your cameras without hassle.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Select Your Cameras:</strong> Opt for CCD cameras with an IP68 rating for waterproofing. This ensures that your equipment can withstand the elements during outdoor adventures. I used small cameras that allow for versatile mounting.</li><li><strong>Gather Your Materials:</strong> You’ll need strong neodymium magnets (I recommend 3/4" in diameter) and a two-part epoxy adhesive. Make sure to have a plastic knife or popsicle stick for mixing the epoxy, along with a disposable surface for your mixing.</li><li><strong>Prepare the Base:</strong> Remove the camera's original mount if necessary. Then, apply the epoxy to the areas where the magnets will be attached. Use enough epoxy to ensure a strong bond between the magnets and the camera base.</li><li><strong>Attach the Magnets:</strong> Carefully place the magnets in position within the epoxy, ensuring they are correctly oriented for maximum attraction. Allow the epoxy to cure completely. During this time, it’s crucial to avoid disturbing the setup to ensure a strong bond.</li><li><strong>Testing the Mount:</strong> Once the magnets are secured, test the mount by placing the camera on various surfaces of your Jeep. Adjust its angle to capture the desired views, whether you're documenting your drive or taking scenic shots. Ensure it remains secure during bumps and vibrations.</li></ol><h2>Helpful Tips</h2><ul><li>Start with one camera mount to refine your technique before building additional ones.</li><li>Explore different camera placements, such as under the vehicle for unique undercarriage shots or alongside the body for tire shots.</li><li>Be mindful of cable management when positioning your cameras to avoid tangling.</li></ul><h2>Key Takeaways</h2><p>This DIY magnetic camera mount is an excellent way to enhance your Jeep's functionality and capture off-road adventures on film. With simple materials and a straightforward approach, you can create a robust solution that offers flexibility and durability. Whether you're filming for personal keepsakes or creating content for your social media, this modification will elevate your filming experience and provide exciting perspectives on your next Jeep adventure.</p>
+
+</article>
+
+</SiteLayout>

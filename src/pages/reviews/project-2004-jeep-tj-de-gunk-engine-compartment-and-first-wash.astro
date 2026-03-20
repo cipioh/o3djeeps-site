@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ De-Gunk Engine Compartment and First Wash";
+export const description = "Learn how to clean and maintain your Jeep's engine compartment in this fun project video with practical tips.";
+const youtubeId = "y4CeDAeUpPU";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-05-07";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods, Builds"
+  },
+  {
+    "label": "Brand",
+    "value": "Jeep"
+  },
+  {
+    "label": "Product",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Engine compartment cleaning and maintenance"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>If you've ever jumped into a vehicle project, you know that cleaning often comes before any tuning or modification. In this tutorial, we’ll explore how to effectively degunk your Jeep TJ's engine compartment and give it some TLC, ensuring you have a clean slate for future upgrades.</p><h2>What This Covers</h2><p>This article focuses on the essential steps involved in cleaning the engine compartment of a 2004 Jeep TJ. We'll tackle how to appropriately degrease engine components, perform an exterior wash, and discuss the future maintenance you'll want to consider once your engine bay is cleaned up.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Safety First:</strong> Always wear rubber gloves to protect your hands from engine grime and degreasers.</li><li><strong>Select Your Degreaser:</strong> We recommend using a heavy-duty engine degreaser like Gunk, which is effective for tough residue.</li><li><strong>Application:</strong> Spray the degreaser generously on the dirty areas of the engine compartment, especially the valve cover and any other gunky spots.</li><li><strong>Let it Sit:</strong> Allow the degreaser to sit for 15-20 minutes to penetrate grease and grime.</li><li><strong>Pressure Wash:</strong> Rinse off the degreaser using a pressure washer, taking care to avoid electrical components.</li><li><strong>Inspect:</strong> Once cleaned, start the Jeep and check for any leaks or residual problems that may need addressing.</li><li><strong>Interior Cleaning:</strong> Don't forget to transition to the interior, as it deserves just as much love and care!</li></ol><h2>Helpful Tips</h2><p>While cleaning your engine compartment, keep the following tips in mind:</p><ul><li>Always let the engine cool down before you start any cleaning to avoid burns.</li><li>Cover sensitive electronics to protect them from water during the wash.</li><li>Inspect your valve cover gasket, as cleaning can sometimes reveal leaks that need immediate attention.</li><li>Consider expanding your cleaning routine to the entire vehicle; a clean engine compartment complements a clean exterior.</li></ul><h2>Key Takeaways</h2><p>Cleaning the engine compartment of your Jeep TJ is not just about aesthetics; it's about maintaining your vehicle’s performance and longevity. Regular cleanup will help you spot potential issues like oil leaks early, allowing you to address them proactively. Plus, a tidy engine bay is a pleasure to work on during future maintenance and upgrades. Whether you’re getting ready for a summer build or simply want to keep your ride in top shape, this simple cleaning step is one of the best places to start.</p>
+
+</article>
+
+</SiteLayout>

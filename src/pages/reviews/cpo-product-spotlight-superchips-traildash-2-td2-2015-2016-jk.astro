@@ -1,0 +1,60 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "CPO Product Spotlight : Superchips TrailDash 2 (TD2) 2015/2016 JK";
+export const description = "Explore the features and benefits of the Superchips TrailDash2 for 2015/2016 Jeep Wranglers in this comprehensive review.";
+const youtubeId = "qicpjPxJKLM";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-08-10";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Gear, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "Superchips"
+  },
+  {
+    "label": "Product",
+    "value": "TrailDash2"
+  },
+  {
+    "label": "Platform",
+    "value": "2015/2016 Jeep Wrangler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Tuning and monitoring"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://superchips.com/products/traildash2-42051-42051/"}, {"label": "This free service will be available to you anytime. Once we receive your stock ECM, we will quickly unlock it and get it back to you so you can tune with your TrailDash2.", "url": "http://overclock3d-jku.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The Superchips TrailDash2 is a game-changer for 2015 and 2016 Jeep Wrangler owners looking to enhance their vehicle's performance. It offers not only robust tuning options but also an advanced monitoring system, making it an indispensable tool for both off-road adventures and daily driving.</p><h2>What Stands Out</h2><p>The TrailDash2 stands out with its sleek design, a large 5-inch full-color display, and a wide range of customizable features. Its compact form factor makes it a practical fit for any Wrangler, and the ability to interface directly with the vehicle’s ECM offers unparalleled control.</p><h2>Design and Features</h2><p>At first glance, the TrailDash2 reveals its sleek design, significantly more compact than previous models. The 5-inch full-color touchscreen is not just a pretty face; it allows for easy navigation through menus and customizable displays that enhance the driving experience.</p><ul><li><strong>Customizable Gauges:</strong> Users can change the background colors, gauge layouts, and more, tailoring the interface to their personal preferences.</li><li><strong>Performance Tuning:</strong> With options for performance and economy tuning, including a specific CRAWL mode, the TD2 caters to all situations, whether you're navigating tough terrains or simply cruising.</li><li><strong>Expandable Accessory Control:</strong> The unique EAS Power Switch system enables you to control up to 16 different accessories from the device, reducing clutter and simplifying connections.</li></ul><h2>Real-World Use</h2><p>When it comes to practicality, the TrailDash2 shines. Users no longer have to drill holes in their vehicles or run extensive wiring for aftermarket accessories. With its EAS Power Switch capability, controlling lights, lockers, and more can easily be done from the device. This results in a cleaner installation overall.</p><p>The data logging functions provide insights into your driving habits, allowing you to adjust performance or monitor fuel efficiency as needed. For off-road enthusiasts, the customizable tire pressure monitoring setup is a huge upgrade over factory settings.</p><h2>Who This Is For</h2><p>The TrailDash2 is ideal for Jeep owners who are serious about enhancing their vehicle's performance and usability. It caters to those wanting to maximize control over their rig, particularly in off-road scenarios or in situations where towing performance is crucial. Moreover, tech-savvy users will appreciate the extensive customization options.</p><h2>Key Takeaways</h2><p>The Superchips TrailDash2 offers a wealth of features that significantly enhance the functionality of 2015 and 2016 Jeep Wranglers. From an upgraded display to customizable tuning options and accessory control, it meets the demands of both off-roaders and everyday drivers alike. If you're looking to elevate your Jeep’s capabilities, investing in a TrailDash2 could be one of the best decisions you make.</p>
+
+</article>
+
+</SiteLayout>

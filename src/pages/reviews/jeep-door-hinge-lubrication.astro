@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Jeep Door Hinge Lubrication";
+export const description = "Learn how to properly lubricate Jeep door hinges for easy removal and extended door life.";
+const youtubeId = "eANSz3eOa6E";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-03-12";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Permatex"
+  },
+  {
+    "label": "Product",
+    "value": "Copper Anti-Seize"
+  },
+  {
+    "label": "Use Case",
+    "value": "Door hinge lubrication for Jeep JK"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Maintaining your Jeep is not just about the big upgrades or off-road modifications; the little things matter too. One such essential maintenance task is ensuring that your Jeep door hinges are properly cleaned and lubricated. This simple procedure can significantly reduce the hassle of removing your doors after a long season of use and keep them functioning smoothly.</p><h2>What This Covers</h2><p>In this guide, we will go over a step-by-step process for cleaning and lubricating your Jeep JK door hinges. You’ll learn why it’s essential, what products to use, and some handy tips to make the job easier.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Gather Your Materials:</strong> For this process, you will need WD-40 (or a similar penetrating oil), a suitable lubricant like copper anti-seize, and a cleaning tool. Many enthusiasts find that a 45 caliber bore snake works wonders for cleaning hinges.</li><li><strong>Cleaning the Hinges:</strong> Start by applying WD-40 to your door hinge pins. Although commonly used as a lubricant, WD-40 excels in removing dirt and grime, making it an excellent cleaner. Allow it to soak in for a moment before wiping it off with a cloth. You may find that the pins don’t have much corrosion—just surface gunk—so a thorough cleaning should suffice.</li><li><strong>Clearing Out the Hinges:</strong> Next, use your bore snake or a rolled-up paper towel to clean out the interior of the hinges. This step is crucial as it helps to remove built-up dirt that can hinder the smooth operation of the doors.</li><li><strong>Applying Lubricant:</strong> Once you're happy with the cleanliness of your hinges, it’s time to apply your chosen lubricant. The copper anti-seize from Permatex is an excellent option, as it only requires a small amount. Apply it to both hinge pins, ensuring an even coating. The lubricant will spread out naturally, providing ongoing protection.</li></ol><h2>Helpful Tips</h2><ul><li>If you prefer a different type of lubricant, you can also use lithium-based lubricants or dry graphite, depending on your preference.</li><li>Regular maintenance can save you laborious work down the line. Aim to check and grease your hinges at the start or end of each off-road season.</li><li>When removing your doors, having them well-lubricated will make this task significantly easier; you shouldn't need to use excessive force.</li></ul><h2>Key Takeaways</h2><p>Taking just a few minutes to clean and lubricate your Jeep door hinges can make a world of difference. Proper maintenance extends the life of your hinges and keeps your doors functioning smoothly, allowing for hassle-free removal when you want to go doorless. So, don’t skip this simple yet crucial task, and your Jeep will thank you!</p>
+
+</article>
+
+</SiteLayout>

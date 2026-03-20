@@ -1,0 +1,72 @@
+hey there Scipio here and I did a video
+previously on how I wired the third
+brake light for my rear tire carrier on
+the JK you and I talked about how I
+bundled the wires in groups of four and
+Aaron had posted a comment asking for
+more details so this is just a quick
+video to address that how I soldered
+these together so here's some wires
+simulating the wires on the third brake
+lights basically I did four to one and
+then the individual ones now two to one
+to get my eight so the trick to doing
+this is to group them in little bundles
+of to put the two together and then get
+some wire strand from another wire the
+thicker the strand the better but in
+this case I'm just using the same wire
+that I'm using for this example but
+anything will work and basically what
+you want to do is you're gonna tie all
+these together by wrapping the wire
+strand around it I start out with a
+single strand just to kind of get
+everything held into place and then
+later on I grab two or three more
+strands and tied that together because
+when you solder it you want something to
+help with that mechanical connection
+soldering does two things it gives a
+mechanical connection and also an
+electrical connection so this will help
+bridge that so it's supporting the
+mechanical connection you're gonna need
+a fairly high power soldering iron and I
+use a broad tip for this but once you
+get it nice and hot that solder should
+flow through all of those wires and
+basically merge them together as one and
+it works out really well I've used this
+a lot in the in the RC hobby and it's
+just it works well so it's very strong
+connection as you can see and it's you
+know not relying exclusively on the
+solder to hold that joint because I've
+got that stranded wire there that's kind
+of bundling it up now from here my
+preference is to hit it with some liquid
+electrical tape to to seal that up
+and I go up a little bit past into the
+into the wires past the connection there
+and then I let that dry for a little
+while and then I'll hit it with some
+shrink tubing I do not like using
+electrical tape at all if I can help it
+but shrink tubing I would normally use a
+little bit longer piece than this but
+you know this is to show you and I
+didn't want to waste good shrink tube
+but we shrink it down you know just get
+it nice and tight and again I would use
+probably shrink tube another inch or so
+on either end of that if you want to
+wrap that up afterwards with electrical
+tape that's fine I would even probably
+use a zip tie or something to to hold
+those connections even better and then
+now just take that one wire and connect
+it to your other bundle of four to make
+eight wires into one so I hope that
+helps and you know good luck with your
+bill

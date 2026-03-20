@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Camera setup";
+export const description = "Explore the camera setup used for Jeep adventures, featuring gimbals and mounts for steady footage.";
+const youtubeId = "LJA5gf6Ilk8";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2016-06-23";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods"
+  },
+  {
+    "label": "Camera",
+    "value": "GoPro"
+  },
+  {
+    "label": "Gimbal",
+    "value": "3-axis wearable gimbal"
+  },
+  {
+    "label": "Mount Type",
+    "value": "Suction cup and ball mount"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Capturing the excitement of off-road adventures is essential for any Jeep enthusiast, and having the right camera setup can make a world of difference. In this article, I’ll share my camera mounting setup that not only provides steady footage but also allows for flexibility and ease of use while navigating rugged terrains.</p><h2>What This Covers</h2><p>We’ll dive into the specifics of the gear I use, including the camera, gimbal, and various mounts. You’ll learn how they come together to create a reliable system for filming your Jeep outings, ensuring that your footage is as epic as the adventures themselves.</p><h2>Step-by-Step Breakdown</h2><h3>1. The Camera</h3><p>At the heart of my setup is the GoPro, renowned for its versatility and durability. It’s the perfect choice for capturing both breathtaking landscapes and wild off-road antics. The wide angle lens provides an immersive view, making viewers feel like they are right there in the Jeep with me.</p><h3>2. The Gimbal</h3><p>To maintain steady footage, I use a 3-axis wearable gimbal. This device keeps the camera level, compensating for the natural movements of the Jeep as we tackle bumpy trails. When I power it on, you can see how the camera horizon remains stable, regardless of the terrain. This capability is critical for creating smooth, enjoyable videos.</p><h3>3. Mounting Solutions</h3><p>For mounting, I utilize a Pano-ice suction cup mount attached to a 67 Designs ball mount. This combination provides a solid foundation and allows for easy adjustments. Since I zip-tied the gimbal to a robust double ball mount, I enhance its stability against the rugged movements of off-roading. It’s this attention to detail that results in high-quality footage.</p><h3>4. Additional Devices</h3><p>I also have a secondary ball mount for my cell phone and a tablet for navigation. The phone mount is particularly handy for quick access to footage or maps without losing focus on the trail. Thanks to the slight flex from the dash mount, my phone has a bit of a natural stabilization effect, supplementing the work of the gimbal.</p><h2>Helpful Tips</h2><p>Before heading out, ensure everything is securely mounted and check the gimbal's battery life. Depending on the length of your adventure, carry spare batteries to avoid losing footage. Also, consider practicing with the setup prior to hitting the trails to get used to how the camera behaves when mounted on the moving Jeep.</p><h2>Key Takeaways</h2><p>Utilizing a combination of a durable action camera, a reliable gimbal, and solid mounts allows you to capture your off-roading experiences effectively. Whether you're filming for personal memories or creating exciting content for others to enjoy, having a well-thought-out camera setup greatly enhances your ability to tell your Jeep's story.</p>
+
+</article>
+
+</SiteLayout>

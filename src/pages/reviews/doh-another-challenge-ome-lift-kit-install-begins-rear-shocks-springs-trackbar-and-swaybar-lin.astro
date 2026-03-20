@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "DOH! Another Challenge! OME Lift Kit Install Begins - Rear Shocks Springs Trackbar and Swaybar Lin";
+export const description = "Join us as we install the OME lift kit on a Jeep TJ, facing common challenges like broken bolts and tips for success.";
+const youtubeId = "7w_qVl6MpG4";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-09-04";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Builds, Mods, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Old Man Emu"
+  },
+  {
+    "label": "Product",
+    "value": "Ultimate TJ Lift Kit"
+  },
+  {
+    "label": "Use Case",
+    "value": "Suspension Upgrade"
+  }
+];
+const externalLinks = [{"label": "This is part of the DPG Off Road Ultimate TJ Lift Kit:", "url": "http://dpgoffroad.com/products/old-man-emu-ultimate-tjlj-wrangler-kit/"}, {"label": "This is the kit to start with if you want a complete suspension package that isn’t missing parts!", "url": "http://O3Djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>Welcome to another exciting installment from O3D Jeeps! In this article, we will guide you through the installation process of the Old Man Emu (OME) Ultimate Lift Kit for Jeep TJ and LJ models. This comprehensive kit promises improved performance both on and off-road, allowing your Jeep to comfortably handle larger tires and rougher trails. While installing a lift kit is a great way to enhance your vehicle's capabilities, it can also come with its challenges. Let's dive in and explore the process, along with some tips for a successful installation.</p><h2>What This Covers</h2><p>This tutorial will cover the key steps in the installation of the OME lift kit, including:</p><ul><li>Preparation for installation</li><li>Dismantling the rear suspension</li><li>Dealing with common issues like broken bolts</li><li>Reassembly and re-tightening of components</li></ul><h2>Step-by-Step Breakdown</h2><p>1. <strong>Preparation: Gather Your Tools</strong><br />Before starting, ensure you have all the necessary tools. This includes socket sets, wrenches, a floor jack, jack stands, and penetrating oil (like PB Blaster) to help with stubborn bolts.</p><p>2. <strong>Raise the Vehicle</strong><br />Use the floor jack to lift the rear of your Jeep, then secure it with jack stands. Safety is paramount, so ensure the vehicle is stable before getting underneath.</p><p>3. <strong>Remove the Tires</strong><br />Start by removing the tires to access the rear suspension components. This step clears the way for a smooth installation process.</p><p>4. <strong>Dismantling Suspension Components</strong><br />Begin with the shocks and springs. Be mindful of your control arms; loosen their bolts but leave them attached for now. You will revisit them later.</p><p>5. <strong>Address Broken Bolts</strong><br />Ah, the infamous broken bolt! If you encounter this issue, as we did with the upper shock bolt, don’t panic. Apply PB Blaster and let it soak. You may need to drill out the broken bolt if it won’t budge; however, this may require specialized tools or even a professional to assist.</p><p>6. <strong>Install New Components</strong><br />Once you’ve successfully removed the old components, it’s time to install the new OME parts. Follow the kit instructions carefully for proper alignment and fitting.</p><p>7. <strong>Reattach and Retighten</strong><br />After you’ve installed all the new components, reattach the control arms and retighten them to the correct torque specifications. Remember to do this after lowering the Jeep back to its intended ride height.</p><h2>Helpful Tips</h2><ul><li><strong>Patience is Key:</strong> Don’t rush through the job. Take your time, especially when dealing with stubborn parts.</li><li><strong>Work with a Buddy:</strong> Having a second pair of hands can make a significant difference, especially during the reassembly of heavy components.</li><li><strong>Follow Up:</strong> Check all connections after your first off-road trip. Ensure everything is secure and functioning as expected.</li></ul><h2>Key Takeaways</h2><p>Installing the OME Ultimate Lift Kit can significantly change your Jeep's performance, but expect some challenges along the way. Breaking bolts, especially on older models, is common; however, preparation and the right tools can make this process smoother. Stay proactive, keep your workspace tidy, and enjoy the transformation of your Jeep as it is lifted for adventure!</p>
+
+</article>
+
+</SiteLayout>

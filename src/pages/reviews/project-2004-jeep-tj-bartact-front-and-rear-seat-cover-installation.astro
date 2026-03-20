@@ -1,0 +1,60 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Project 2004 Jeep TJ - Bartact Front and Rear Seat Cover Installation";
+export const description = "Learn how to easily install Bartact seat covers on a 2004 Jeep TJ in this detailed guide with tips and tricks for a perfect fit.";
+const youtubeId = "QFmVY0jaHfs";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-06-21";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Mods, Builds, Maintenance"
+  },
+  {
+    "label": "Brand",
+    "value": "Bartact"
+  },
+  {
+    "label": "Product",
+    "value": "Seat Covers"
+  },
+  {
+    "label": "Platform",
+    "value": "2004 Jeep TJ"
+  },
+  {
+    "label": "Use Case",
+    "value": "Interior Upgrade"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "https://o3djeeps.com"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>When it comes to personalizing your Jeep, upgrading the interior can dramatically refresh the entire vehicle. In this tutorial, we'll walk you through the simple yet effective process of installing Bartact seat covers on a 2004 Jeep TJ. Whether you're looking to enhance aesthetics or protect your seats from wear and tear, Bartact seat covers deliver both functionality and style.</p><h2>What This Covers</h2><p>This article provides a detailed guide on how to install Bartact front and rear seat covers. We will go over the necessary tools, preparation steps, and the installation process. Plus, we'll share some helpful tips to make the job as smooth as possible.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Preparation:</strong> Before installation, ensure that the Jeep’s interior is clean. Vacuuming the seats and using an air freshener can help eliminate any odors.</li><li><strong>Front Seats Installation:</strong> Start with the front seats. Align the seat cover properly over the seat and begin to fit it around the edges. Bartact covers are designed to be user-friendly, allowing for easy adjustments.</li><li><strong>Fitting the Covers:</strong> Tuck the top portion of the cover under the seat back, wrapping it around neatly. Ensure that the cover sits snugly and evenly across the seat surface to avoid any bunching.</li><li><strong>Adjusting the Straps:</strong> Adjust any straps provided with the covers for a secure fit. This is crucial to maintaining both aesthetics and functionality, especially for extended use.</li><li><strong>Rear Seat Installation:</strong> The rear bench is fitted using a combination of Velcro and buckle strap systems. Position the cover on the seat, making sure to align it properly before securing the straps underneath the seat.</li><li><strong>Final Adjustments:</strong> Once everything is in place, double-check the seat belt slots and ensure that the covers are fitted correctly throughout. Make any final adjustments to tighten the fit and smooth out any wrinkles.</li></ol><h2>Helpful Tips</h2><ul><li><strong>Color Selection:</strong> Choose colors that not only match your Jeep's exterior but also reflect your personal style. The video showcases an appealing black and orange theme, reminiscent of classic Broncos.</li><li><strong>Additional Features:</strong> Some Bartact covers come with lumbar support options which can be used if needed. Consider your comfort and adjust the covers accordingly.</li><li><strong>Installation Time:</strong> This project can typically be completed in under 2 hours. Having a second set of hands, like a family member or friend, can expedite the process.</li></ul><h2>Key Takeaways</h2><p>Upgrading your Jeep TJ’s interior with Bartact seat covers is a straightforward and rewarding project. Not only does the installation enhance the appearance of your ride, but it also protects your seats from future wear and tear. With just a little time and effort, you can give your Jeep a fresh look that represents your style. So gather your tools, choose your colors, and get ready to transform your Jeep!</p>
+
+</article>
+
+</SiteLayout>
