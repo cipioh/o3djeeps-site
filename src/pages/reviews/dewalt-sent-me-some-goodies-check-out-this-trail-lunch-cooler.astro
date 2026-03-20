@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "DeWalt Sent Me Some Goodies!!!! Check out this Trail / Lunch Cooler!";
+export const description = "Discover the DeWalt cooler and tools that enhance your off-road adventures, from durability to functionality.";
+const youtubeId = "aX3oK7DlPhQ";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-10-11";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Gear, Mods, Reviews"
+  },
+  {
+    "label": "Brand",
+    "value": "DeWalt"
+  },
+  {
+    "label": "Product",
+    "value": "10 Liter Lunch Cooler"
+  },
+  {
+    "label": "Use Case",
+    "value": "Off-Road Adventures, Job Sites, Outdoor Activities"
+  }
+];
+const externalLinks = [{"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://amzn.to/2yZidDW"}, {"label": "🔔 Please CLICK THE BELL if you want to see my videos! 🔔", "url": "http://dewaltcoolers.com/"}, {"label": "Here's the info on that cool laser measurement tool!", "url": "http://www.dewalt.com/products/hand-tools/measuring-and-layout-tools/laser-distance-measurers/30-ft-pocket-laser-distance-measurer/dw030pl"}, {"label": "Here's the charger:", "url": "http://www.dewalt.com/en-us/products/accessories/batteries-and-chargers/chargers/20v-max-fan-cooled-fast-charger/dcb118"}, {"label": "Here are the Flexvolt batteries:", "url": "http://www.dewalt.com/en-us/products/accessories/batteries-and-chargers/batteries/flexvolt-2060v-max-battery-pack-60ah-dual-pack/dcb606-2"}, {"label": "And finally, here's the Bluetooth battery!", "url": "http://www.dewalt.com/en-us/products/accessories/batteries-and-chargers/batteries/20v-max-tool-connect-battery-5-ah/dcb205bt"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Quick Verdict</h2><p>The DeWalt 10 Liter Lunch Cooler is a solid addition for any Jeep enthusiast looking to keep food and drinks cold during their adventures. With a robust design and innovative features, it stands out in a competitive market. Whether you're heading to the job site or off-roading, this cooler promises durability and functionality.</p><h2>What Stands Out</h2><p>DeWalt has made a name for itself in the power tools space, but their foray into cooler manufacturing is a surprise and a welcome one. The cooler not only looks sturdy but also boasts several practical features that make it perfect for outdoor use. The <strong>T.O.U.G.H. Roto Mold Design</strong> is engineered to withstand rough treatment, while the easy-open cam latch system ensures your items stay secure.</p><h2>Design and Features</h2><p>This cooler isn’t just about looks; it’s designed for practicality. Its key features include:</p><ul><li><strong>Durable Build:</strong> Made from a tough roto-molded plastic that holds up against impacts.</li><li><strong>Temperature Optimization:</strong> Retains ice for days, crucial for those long outings.</li><li><strong>Integrated Ice Pack Storage Area:</strong> Allows you to mount ice packs instead of filling with loose ice, maximizing storage.</li><li><strong>Bottle Opener:</strong> Conveniently attached for on-the-go enjoyment.</li><li><strong>Rubber Feet:</strong> Prevents slipping and sliding during travel.</li><li><strong>Two Cup Holders:</strong> Perfect for enjoying your favorite drinks.</li></ul><h2>Real-World Use</h2><p>In practical terms, this cooler shines. For trail running, it's the right size to fit on your Jeep's floor or in the back while providing just enough space for food and drinks without being bulky. Unlike soft coolers that can leak and fail to keep items cold, the DeWalt cooler promises reliability and longevity. Whether you're relaxing at a campsite or on a long drive, the convenience of having your essentials cold and within reach is unmatched.</p><h2>Who This Is For</h2><p>This cooler is ideal for adventure-loving Jeepers who value quality and functionality. It’s perfect for those who undertake weekend camping trips, off-road outings, or simply need a durable cooler for picnics or job sites. Its design caters to anyone who wants to keep their food and drink fresh without compromising on space or efficiency.</p><h2>Key Takeaways</h2><p>The DeWalt 10 Liter Lunch Cooler offers a blend of durability and practical features that are hard to beat. With its robust construction, ice retention capabilities, and thoughtful details like cup holders and a bottle opener, it’s designed for those who enjoy life outdoors. As you continue to modify and enhance your Jeep for off-road capabilities, adding a reliable cooler will undoubtedly elevate your experience.</p>
+
+</article>
+
+</SiteLayout>

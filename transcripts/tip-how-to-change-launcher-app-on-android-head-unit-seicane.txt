@@ -1,0 +1,81 @@
+hey there Scipio here and I'm gonna do a
+quick video here to help somebody out
+who had a question about how to change
+launchers on the SE cane head unit so
+this is the default launcher that comes
+with it I personally don't use this
+launcher and you are free to experiment
+but let me show you how if you're not
+familiar with Android operating what we
+want to do is get down here to the apps
+by clicking this button and you're
+looking for the Play Store app this one
+here and you can do a quick search for
+car launcher it'll bring up some options
+or several the trifle and I really can't
+recommend one over the other
+I've tried Carl actor AG and car web
+guru launch or Carl Archer trial I'm
+just now downloading and installing to
+show you for this demo so I've never
+used it but basically what's gonna
+happen when you download and install an
+app when you open it for the first time
+it's gonna bring you up to the launcher
+and there may be some initial settings
+some info like this here I'm not reading
+this so hopefully I don't need it and
+then you may be asked to give it some
+certain permissions you need to do that
+so it looks like it's going to use GPS
+for speed there's probably some settings
+here you can probably add some widgets
+anyway so this is the launcher you can
+experiment with this launcher and try
+different things and then basically use
+it now whenever you go home after you
+install a new launcher it's gonna ask
+you do you want to use this launcher as
+home or do you want to pick a different
+one so we can pick a different one so if
+we wanted car launch or trial that I
+just did to be the home then I can
+select that now I didn't select always
+so if you wanted to always be your
+launcher let's say you decided you liked
+it enough you can click always and now
+every time you hit the home button
+it's gonna take you to that launcher now
+you're stuck with this launcher until
+you change it so to change it what you
+want to do is get the settings every
+launcher is going to be different on how
+you get to settings but what you want to
+do is get to your settings screen go to
+apps go to this little gear here and
+then look for home app and right now
+home app says that car launch or trial
+is my default and I can change this to
+anything I want car web guru now when I
+click home
+it goes to car web guru as my launcher
+if I decide I don't want that launcher
+and I want to go back to the stock one I
+can go back into the settings and change
+it to the stock launcher which is this
+one here just called launcher that's the
+stock launcher it's back I personally
+though however I like to use Nova which
+is an advanced launcher not for the
+beginner it's basically a blank slate
+you build your own and then that's the
+one that I use so hopefully that helps
+those of you who are wanting to
+experiment don't be afraid to change
+launchers you can always swap out of
+launchers again going by settings and
+then going into to where it says apps
+and then hitting this little gear and
+that will let you adjust your home app
+so anyway thanks for watching I'll catch
+you on the next one

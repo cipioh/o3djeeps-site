@@ -1,0 +1,56 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ReviewHero from "../../components/ReviewHero.astro";
+
+export const title = "Tire School with Paul - Wheel & Tire Breakdown with Hunter TCX57 Tire Machine at World Tour Off Road";
+export const description = "Learn the essential steps for breaking down tire and wheel setups using a Hunter tire machine with expert Paul Warren.";
+const youtubeId = "gsiKbBcCULA";
+const buyLink = null;
+const buyText = "View Product \u2192";
+const discountCode = null;
+const discountText = null;
+export const date = "2017-10-16";
+export const specs = [
+  {
+    "label": "Category",
+    "value": "Maintenance, Mods"
+  },
+  {
+    "label": "Brand",
+    "value": "Hunter"
+  },
+  {
+    "label": "Product",
+    "value": "TCX57 Tire Machine"
+  },
+  {
+    "label": "Use Case",
+    "value": "Tire breakdown and installation"
+  }
+];
+const externalLinks = [{"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/z2AFkB"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/y6bCWo"}, {"label": "Some helpful O3D Jeeps links for you:", "url": "https://goo.gl/t8crvN"}];
+---
+
+<SiteLayout title={`${title} | o3djeeps`} description={description}>
+
+<article>
+
+<ReviewHero
+  title={title}
+  description={description}
+  youtubeId={youtubeId}
+  buyLink={buyLink}
+  buyText={buyText}
+  discountCode={discountCode}
+  discountText={discountText}
+  showPromo={Boolean(discountCode && buyLink)}
+  specs={specs}
+  externalLinks={externalLinks}
+  date={date}
+/>
+
+<h2>Overview</h2><p>In the world of off-roading and Jeep modifications, being able to change tires efficiently is a crucial skill. In this tutorial, we sit down with Paul Warren from World Tour Off Road to learn the ropes of tire breakdown using the Hunter TCX57 tire machine. This tire machine not only simplifies the process but also ensures that you can keep your wheels in pristine condition.</p><h2>What This Covers</h2><p>We’ll cover the essential techniques involved in safely breaking down a tire from a wheel, focusing on the use of the Hunter TCX57 tire machine. Paul shares valuable tips, highlights the importance of tools, and demonstrates techniques that prevent damage to both the tires and rims.</p><h2>Step-by-Step Breakdown</h2><ol><li><strong>Understanding the Setup:</strong> Begin by familiarizing yourself with the tire machine. The Hunter TCX57 allows for precise adjustments based on the size of your tire, ensuring a better fit throughout the process.</li><li><strong>Locating the Sensor:</strong> Prior to starting, it's essential to identify where the tire pressure monitoring sensor (TPMS) is located. Careful attention here can avoid costly damage, especially on expensive rims.</li><li><strong>Breaking the Bead:</strong> Use the knife blade to gently push the tire away from the rim, avoiding any contact that could damage the rim itself. This needs to be done carefully, particularly with low-profile tires.</li><li><strong>Clamping the Tire:</strong> Apply the clamps in a way that pulls the tire towards the rim. This method is crucial as it prevents friction that can damage the rim's finish.</li><li><strong>Lubrication:</strong> Paul emphasizes the importance of lubrication when dealing with stiff sidewalls. Using soap and water (or a special tire lube) helps to ease the tire off the rim without tearing.</li><li><strong>Using Tire Irons:</strong> Once you’ve made enough progress with the machine, gently use tire irons with protective sleeves to pull the tire off. This keeps everything intact, especially on new rims.</li><li><strong>Completion:</strong> After the tire is fully removed, ensure to clean the rim and check for any residual debris or damage. This is the finishing touch that prepares your rim for the next tire.</li></ol><h2>Helpful Tips</h2><ul><li>Always have a plan for how to handle TPMS sensors; one wrong move can lead to an expensive repair.</li><li>Invest in quality tire lube—this is a game changer when dealing with tough tires.</li><li>Practice proper ergonomics; using the machine correctly will save your back in the long run.</li><li>Keep your work area organized—clear spaces lead to fewer accidents and a better workflow.</li></ul><h2>Key Takeaways</h2><p>Mastering tire breakdown using a Hunter TCX57 tire machine not only enhances your skills as an enthusiast but also ensures that your wheels remain in great shape. Continuous learning, like attending tire school with experts like Paul, can greatly improve your techniques and approach to tire maintenance. Proper preparation and technique can save you time and money, so take the time to refine your skills!</p>
+
+</article>
+
+</SiteLayout>
